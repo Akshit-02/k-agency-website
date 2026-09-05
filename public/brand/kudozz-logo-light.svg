@@ -1,0 +1,11 @@
+<!-- Light lockup: for dark backgrounds. Paper spine + lime arms/accent. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 40">
+  <g transform="translate(0,4)">
+    <rect x="7" y="4" width="5" height="24" rx="1" fill="#FAF1E2"/>
+    <polygon points="14,15 24,5 27,5 17,15" fill="#CCFF3D"/>
+    <polygon points="14,17 24,27 27,27 17,17" fill="#CCFF3D"/>
+  </g>
+  <text x="44" y="30" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="32" letter-spacing="-1">
+    <tspan fill="#FAF1E2">Kudo</tspan><tspan fill="#CCFF3D">zz</tspan>
+  </text>
+</svg>

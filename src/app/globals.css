@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+:root {
+  --color-paper: #faf1e2;
+  --color-paper-dim: #f0e3ca;
+  --color-sand: #e8d8b8;
+  --color-ink: #150f0b;
+  --color-ink-soft: #322820;
+  --color-coral: #ff4d1c;
+  --color-coral-dim: #e33f13;
+  --color-violet: #5a2eea;
+  --color-violet-dim: #4620c4;
+  --color-lime: #ccff3d;
+  --color-lime-dim: #b8e82c;
+  --color-line: rgba(21, 15, 11, 0.14);
+  --color-line-strong: rgba(21, 15, 11, 0.28);
+  --font-display: var(--font-fraunces);
+  --font-black: var(--font-archivo-black);
+  --font-body: var(--font-inter);
+}
+
+@theme inline {
+  --color-paper: var(--color-paper);
+  --color-paper-dim: var(--color-paper-dim);
+  --color-sand: var(--color-sand);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-coral: var(--color-coral);
+  --color-coral-dim: var(--color-coral-dim);
+  --color-violet: var(--color-violet);
+  --color-violet-dim: var(--color-violet-dim);
+  --color-lime: var(--color-lime);
+  --color-lime-dim: var(--color-lime-dim);
+  --color-line: var(--color-line);
+  --color-line-strong: var(--color-line-strong);
+  --font-display: var(--font-display);
+  --font-black: var(--font-black);
+  --font-body: var(--font-body);
+
+  --animate-marquee: marquee 26s linear infinite;
+  --animate-marquee-slow: marquee 50s linear infinite;
+  --animate-marquee-reverse: marquee-reverse 32s linear infinite;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-float-slow: float 10s ease-in-out infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes marquee-reverse {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0) rotate(var(--float-rotate, 0deg));
+    }
+    50% {
+      transform: translateY(-14px) rotate(var(--float-rotate, 0deg));
+    }
+  }
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--color-coral);
+  color: var(--color-paper);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-coral);
+  outline-offset: 3px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.font-black-display {
+  font-family: var(--font-black), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Angled section dividers — a cheap, code-only way to break the flat
+   rectangle-stacked-on-rectangle rhythm without any imagery. */
+.clip-angle-down {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+}
+.clip-angle-up {
+  clip-path: polygon(0 4vw, 100% 0, 100% 100%, 0 100%);
+}
+.clip-notch {
+  clip-path: polygon(0 3vw, 100% 0, 100% calc(100% - 3vw), 0 100%);
+}

@@ -1,0 +1,8 @@
+<!-- Standalone wordmark asset. The live site sets this type in Archivo Black
+     via next/font; this export uses a bold system fallback so the file
+     renders correctly wherever it's opened outside the app. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40">
+  <text x="1" y="30" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="32" letter-spacing="-1">
+    <tspan fill="#150F0B">Kudo</tspan><tspan fill="#FF4D1C">zz</tspan>
+  </text>
+</svg>
