@@ -29,7 +29,7 @@ Form submissions (`/api/brand-inquiry`, `/api/creator-application`, `/api/contac
 
 ## Visual System
 
-There is no photography on the site yet — every visual (hero composition, campaign tiles, service icons, blog art) is a custom SVG/CSS "signal" motif built in `src/components/graphics`, so the whole site ships with zero image weight. `src/content/image-prompts.ts` documents a creative brief for real photography per section if you commission it later.
+There is no photography on the site yet — every visual (hero composition, campaign tiles, service icons, blog art) is a custom SVG/CSS graphic motif built in `src/components/graphics`, so the whole site ships with zero image weight. `src/content/image-prompts.ts` documents a creative brief for real photography per section if you commission it later.
 
 ## Scripts
 

@@ -3,7 +3,7 @@
  * -------------------
  * This build has no image-generation tool available in the development
  * environment, so every visual on the site is a custom-built graphic —
- * SVG/CSS "signal" motifs (nodes, waveforms, broadcast rings, grid marks)
+ * SVG/CSS graphic motifs (nodes, waveforms, broadcast rings, grid marks)
  * rendered directly in components under `src/components/graphics/`. This
  * keeps the brand fully consistent, ships zero image weight, and avoids
  * generic stock photography or AI-artifact-prone people/faces entirely.
