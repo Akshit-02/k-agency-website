@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { blogPosts, getBlogPostBySlug, getRelatedPosts } from "@/content/blog";
@@ -6,6 +5,7 @@ import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/config/site";
 import { JsonLd, articleSchema, breadcrumbSchema } from "@/lib/schema";
 import { Container } from "@/components/ui/Container";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Reveal } from "@/components/animations/Reveal";
 import { BlogArticleGraphic } from "@/components/blog/BlogArticleGraphic";
 import { ArticleBody } from "@/components/blog/ArticleBody";
@@ -51,12 +51,9 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
 
       <article className="pt-36 pb-8 sm:pt-44">
         <Container className="max-w-3xl">
-          <nav aria-label="Breadcrumb" className="text-xs uppercase tracking-wide text-ink/40">
-            <Link href="/blog" className="hover:text-ink">
-              Blog
-            </Link>{" "}
-            / {post.category}
-          </nav>
+          <Breadcrumbs
+            items={[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: post.category }]}
+          />
           <Reveal delay={0.05}>
             <h1 className="mt-5 font-display text-5xl leading-[0.98] tracking-tight text-balance text-ink sm:text-7xl">
               {post.title}
@@ -68,7 +65,13 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
           <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/50">
             <span>{post.author.name}</span>
             <span aria-hidden="true">·</span>
-            <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
+            <time dateTime={post.publishedAt}>Published {formatDate(post.publishedAt)}</time>
+            {post.updatedAt && (
+              <>
+                <span aria-hidden="true">·</span>
+                <time dateTime={post.updatedAt}>Updated {formatDate(post.updatedAt)}</time>
+              </>
+            )}
             <span aria-hidden="true">·</span>
             <span>{post.readingTime}</span>
           </div>

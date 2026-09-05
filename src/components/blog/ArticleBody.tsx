@@ -1,4 +1,36 @@
-import type { BlogBlock } from "@/content/blog";
+import { Fragment } from "react";
+import Link from "next/link";
+import type { BlogBlock, InlineLink } from "@/content/blog";
+
+function renderWithLinks(text: string, links?: InlineLink[]) {
+  if (!links || links.length === 0) return text;
+
+  type Part = string | { href: string; label: string };
+  let parts: Part[] = [text];
+
+  for (const link of links) {
+    parts = parts.flatMap((part) => {
+      if (typeof part !== "string") return [part];
+      const idx = part.indexOf(link.text);
+      if (idx === -1) return [part];
+      return [part.slice(0, idx), { href: link.href, label: link.text }, part.slice(idx + link.text.length)];
+    });
+  }
+
+  return parts.map((part, i) =>
+    typeof part === "string" ? (
+      <Fragment key={i}>{part}</Fragment>
+    ) : (
+      <Link
+        key={i}
+        href={part.href}
+        className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral"
+      >
+        {part.label}
+      </Link>
+    )
+  );
+}
 
 export function ArticleBody({ blocks }: { blocks: BlogBlock[] }) {
   return (
@@ -16,7 +48,7 @@ export function ArticleBody({ blocks }: { blocks: BlogBlock[] }) {
               </h2>
             );
           case "paragraph":
-            return <p key={i}>{block.text}</p>;
+            return <p key={i}>{renderWithLinks(block.text, block.links)}</p>;
           case "list":
             return (
               <ul key={i} className="space-y-3 pl-1">

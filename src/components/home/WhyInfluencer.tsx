@@ -19,9 +19,9 @@ export function WhyInfluencer() {
           <div>
             <Eyebrow dark>Why Creator-Led Marketing Wins</Eyebrow>
             <Reveal delay={0.05}>
-              <p className="mt-7 font-display text-5xl leading-[1.02] tracking-tight text-balance sm:text-6xl">
+              <h2 className="mt-7 font-display text-5xl leading-[1.02] tracking-tight text-balance sm:text-6xl">
                 Audiences stopped trusting ads. They never stopped trusting <em className="italic text-lime">people.</em>
-              </p>
+              </h2>
             </Reveal>
             <Reveal delay={0.15}>
               <p className="mt-7 max-w-md text-lg leading-relaxed text-paper/65 text-pretty">

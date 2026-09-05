@@ -6,7 +6,7 @@ import { CreatorHowItWorks } from "@/components/creators/CreatorHowItWorks";
 import { ApplySection } from "@/components/creators/ApplySection";
 
 export const metadata: Metadata = buildMetadata({
-  title: "For Creators — Join the Kudozz Network",
+  title: "For Creators: Join Our Influencer & Content Creator Network",
   description:
     "Apply to join Kudozz's creator network and get matched with relevant brand partnerships, clear communication, and professional campaign coordination.",
   path: "/for-creators",

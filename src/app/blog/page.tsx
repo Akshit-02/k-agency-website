@@ -9,9 +9,9 @@ import { BlogExplorer } from "@/components/blog/BlogExplorer";
 import { BlogNewsletter } from "@/components/blog/BlogNewsletter";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Blog — Influencer Marketing Insights",
+  title: "Influencer Marketing Blog: Strategy & Creator Economy Insights",
   description:
-    "Practical, no-fluff writing on influencer marketing strategy, the creator economy, and campaign measurement from the Kudozz team.",
+    "Practical, no-fluff writing on influencer marketing strategy, UGC, the creator economy, and campaign measurement from the Kudozz team.",
   path: "/blog",
 });
 

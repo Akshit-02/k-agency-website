@@ -10,8 +10,9 @@ import { ContactForm } from "@/components/forms/ContactForm";
 import { LinkedInGlyph, YouTubeGlyph } from "@/components/graphics/SocialIcons";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Contact",
-  description: "Get in touch with Kudozz for general inquiries, partnerships, or press.",
+  title: "Get in Touch: Brand, Creator & Press Inquiries",
+  description:
+    "Get in touch with Kudozz for general inquiries, partnerships, or press. Brands starting a campaign should use our brand inquiry form for a faster response.",
   path: "/contact",
 });
 

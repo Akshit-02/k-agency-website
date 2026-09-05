@@ -1,5 +1,7 @@
+export type InlineLink = { text: string; href: string };
+
 export type BlogBlock =
-  | { type: "paragraph"; text: string }
+  | { type: "paragraph"; text: string; links?: InlineLink[] }
   | { type: "heading"; text: string; id: string }
   | { type: "list"; items: string[] }
   | { type: "quote"; text: string; attribution?: string };
@@ -19,12 +21,145 @@ export type BlogPost = {
   excerpt: string;
   author: { name: string; role: string };
   publishedAt: string;
+  /** Only set this when the article's content is genuinely revised — never bump it automatically. */
+  updatedAt?: string;
   readingTime: string;
   featured?: boolean;
   body: BlogBlock[];
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "what-is-influencer-marketing",
+    category: "Influencer Marketing",
+    title: "What Is Influencer Marketing? A Complete Guide for Brands",
+    excerpt:
+      "A clear, no-fluff definition of influencer marketing — how it works, the main campaign types, micro vs. macro creators, what it costs, and how brands typically get started.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-08-25",
+    readingTime: "9 min read",
+    featured: true,
+    body: [
+      {
+        type: "paragraph",
+        text: "Influencer marketing is a form of marketing in which brands partner with creators who have built trust with a specific audience, paying them to create and share content that promotes a product or service. Instead of buying ad space, brands are borrowing a creator's credibility with people who already pay attention to them.",
+      },
+      { type: "heading", text: "How does influencer marketing work?", id: "how-it-works" },
+      {
+        type: "paragraph",
+        text: "A typical campaign starts with a business objective — awareness, engagement, traffic, or sales — then works backward: which platform and content format reach that audience, which creators already have that audience's attention, and what a fair rate and deliverable look like for the scope of work.",
+        links: [{ text: "which platform and content format reach that audience", href: "/services/campaign-strategy" }],
+      },
+      { type: "heading", text: "Types of influencer marketing campaigns", id: "campaign-types" },
+      {
+        type: "list",
+        items: [
+          "Sponsored posts — a single paid post or story on a creator's own channel",
+          "Product seeding and gifting — sending product in exchange for organic, unpaid coverage with no guaranteed post",
+          "Brand ambassador programs — an ongoing, retained relationship over months or a year",
+          "UGC production — commissioning creator-shot content for the brand's own paid and owned channels, not the creator's audience",
+          "Affiliate and performance partnerships — compensation tied to trackable sales or sign-ups",
+          "Product launch campaigns — sequenced teaser, seeding, and day-of content built around a release date",
+        ],
+      },
+      { type: "heading", text: "Micro vs. macro influencers", id: "micro-vs-macro" },
+      {
+        type: "paragraph",
+        text: "Follower count alone doesn't determine which tier is right for a campaign. Macro and celebrity creators, generally 500,000 or more followers, offer broad reach and brand awareness fast, but typically at lower engagement rates and higher cost per post. Micro and nano creators — under 100,000, often under 10,000 — tend to have smaller but more engaged, more trusting audiences, and are usually more cost-efficient for driving action rather than pure reach. Most effective campaigns mix tiers rather than picking one.",
+      },
+      { type: "heading", text: "How much does influencer marketing cost?", id: "cost" },
+      {
+        type: "paragraph",
+        text: "Cost depends heavily on creator tier, deliverable count, and usage rights, and can range from a few hundred dollars for a single nano-creator post to six figures for a multi-creator, multi-platform program. We break down realistic budget ranges by campaign type in our influencer marketing cost guide.",
+        links: [{ text: "influencer marketing cost guide", href: "/blog/how-much-does-influencer-marketing-cost" }],
+      },
+      { type: "heading", text: "How brands typically get started", id: "getting-started" },
+      {
+        type: "paragraph",
+        text: "Most brands start with a single, well-scoped campaign tied to one clear objective rather than an open-ended retainer, which makes it easier to prove the channel works before committing a larger budget. Our influencer marketing services cover strategy, creator discovery, outreach, and reporting for brands doing this for the first time or the fiftieth.",
+        links: [{ text: "influencer marketing services", href: "/services" }],
+      },
+      {
+        type: "quote",
+        text: "Influencer marketing works when it's treated as a media channel with its own strategy and measurement — not a stack of one-off favors from people with large followings.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Getting started with Kudozz", id: "getting-started-kudozz" },
+      {
+        type: "paragraph",
+        text: "If you're evaluating influencer marketing for the first time, our team can walk through what a realistic first campaign looks like for your budget and category. Start a brand inquiry to talk to our strategy team.",
+        links: [{ text: "Start a brand inquiry", href: "/for-brands#inquiry" }],
+      },
+    ],
+  },
+  {
+    slug: "how-much-does-influencer-marketing-cost",
+    category: "Campaign Strategy",
+    title: "How Much Does Influencer Marketing Cost? A Practical Breakdown",
+    excerpt:
+      "Realistic budget ranges by creator tier and campaign type, plus the variables that move the number most — so you can plan a campaign budget with fewer surprises.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-08-29",
+    readingTime: "6 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "There's no single price for influencer marketing — cost is driven by creator tier, number of creators, deliverable count, usage rights, and campaign duration. A single nano-creator post might cost $50 to $300, while a multi-creator ambassador program can run into six figures a year. The ranges below are directional starting points, not quotes.",
+      },
+      { type: "heading", text: "Cost by creator tier", id: "cost-by-tier" },
+      {
+        type: "list",
+        items: [
+          "Nano creators (1K–10K followers): roughly $50–$300 per post",
+          "Micro creators (10K–100K followers): roughly $300–$2,000 per post",
+          "Mid-tier creators (100K–500K followers): roughly $2,000–$10,000 per post",
+          "Macro and celebrity creators (500K+ followers): $10,000 to six figures per post",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These are directional ranges, not quotes — actual rates vary by platform, content format, niche, and the usage rights negotiated into the deal.",
+      },
+      { type: "heading", text: "What else moves the price", id: "what-moves-price" },
+      {
+        type: "list",
+        items: [
+          "Usage rights — licensing content for paid ads or owned channels costs more than organic-only rights",
+          "Exclusivity — asking a creator not to work with competing brands for a period",
+          "Production complexity — a scripted, multi-scene video costs more than a single photo or story",
+          "Number of revisions included in the agreed scope",
+          "Whitelisting or paid amplification access to the creator's ad account",
+        ],
+      },
+      { type: "heading", text: "Typical budgets by campaign type", id: "budgets-by-campaign-type" },
+      {
+        type: "paragraph",
+        text: "A single-creator sponsored post can run a few hundred to a few thousand dollars. A multi-creator social media campaign with 5 to 15 creators typically starts in the low five figures. Product launch campaigns with seeding, embargo management, and day-of coordination usually run mid-five to low-six figures depending on scope. Brand ambassador programs are usually structured as retainers, billed quarterly or annually.",
+        links: [
+          { text: "multi-creator social media campaign", href: "/services/social-campaigns" },
+          { text: "Product launch campaigns", href: "/services/product-launches" },
+          { text: "Brand ambassador programs", href: "/services/ambassador-programs" },
+        ],
+      },
+      { type: "heading", text: "Agency fees vs. creator fees", id: "agency-fees" },
+      {
+        type: "paragraph",
+        text: "An agency fee is typically separate from creator payments and covers strategy, creator discovery services, outreach, contracting, and reporting. Ask any agency you evaluate whether their quote is an all-in campaign cost or a management fee on top of media spend, so you're comparing like for like.",
+        links: [{ text: "creator discovery services", href: "/services/creator-discovery" }],
+      },
+      { type: "heading", text: "How to budget your first campaign", id: "how-to-budget" },
+      {
+        type: "paragraph",
+        text: "Start with your objective and a target number of creators rather than a total dollar figure, then work backward into tier and format. Our team can help size a realistic first-campaign budget for your category during a strategy call — no fixed package required.",
+        links: [{ text: "strategy call", href: "/for-brands#inquiry" }],
+      },
+      {
+        type: "quote",
+        text: "The biggest budgeting mistake we see is brands fixing a total dollar amount before defining the objective it needs to hit.",
+        attribution: "Kudozz Strategy Team",
+      },
+    ],
+  },
   {
     slug: "how-to-choose-the-right-influencer-for-your-brand",
     category: "Influencer Marketing",
@@ -34,7 +169,6 @@ export const blogPosts: BlogPost[] = [
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-08-18",
     readingTime: "7 min read",
-    featured: true,
     body: [
       { type: "paragraph", text: "Every brand eventually asks the same question: how many followers does this creator need to have for the campaign to work? It's the wrong question. Follower count tells you reach, not relevance — and relevance is what converts attention into action." },
       { type: "heading", text: "Start with audience overlap, not audience size", id: "audience-overlap" },
@@ -51,7 +185,14 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "A creator can have the right audience and strong engagement and still be the wrong fit if their content style clashes with your brand voice. We review a creator's last several months of content the way a creative director would — for tone, pacing, visual style, and how naturally a product placement would sit inside it." },
       { type: "quote", text: "The best-performing partnerships rarely come from the creator with the largest audience. They come from the creator whose audience was already primed to care.", attribution: "Kudozz Creator Strategy Team" },
       { type: "heading", text: "Bringing it together", id: "bringing-it-together" },
-      { type: "paragraph", text: "Audience overlap, engagement quality, authenticity, and brand fit — weighted against your specific campaign goal — is the scoring framework we run every shortlist through before it reaches a client. It's slower than sorting by follower count. It's also why our campaigns tend to outperform the industry average on engagement and conversion." },
+      {
+        type: "paragraph",
+        text: "Audience overlap, engagement quality, authenticity, and brand fit — weighted against your specific campaign goal — is the scoring framework behind our creator discovery service. It's slower than sorting by follower count. It's also why our campaigns tend to outperform the industry average on engagement and conversion, a difference that shows up clearly once you start measuring influencer campaign ROI.",
+        links: [
+          { text: "creator discovery service", href: "/services/creator-discovery" },
+          { text: "measuring influencer campaign ROI", href: "/blog/measuring-influencer-campaign-roi" },
+        ],
+      },
     ],
   },
   {
@@ -66,7 +207,11 @@ export const blogPosts: BlogPost[] = [
     body: [
       { type: "paragraph", text: "Influencer marketing is no longer a test budget line — it's a planned, forecastable channel with its own reporting standards, contracting norms, and specialist agencies. That maturity has changed what 'good' looks like for brands entering the space." },
       { type: "heading", text: "Consolidation around fewer, deeper partnerships", id: "consolidation" },
-      { type: "paragraph", text: "Brands are moving away from large one-off gifting rosters and toward smaller cohorts of creators on retained, ambassador-style terms. The data supports it: audiences respond more to a creator they've seen mention a brand three times than one they've seen mention it once." },
+      {
+        type: "paragraph",
+        text: "Brands are moving away from large one-off gifting rosters and toward smaller cohorts of creators on retained, ambassador-style terms. The data supports it: audiences respond more to a creator they've seen mention a brand three times than one they've seen mention it once.",
+        links: [{ text: "ambassador-style terms", href: "/services/ambassador-programs" }],
+      },
       { type: "heading", text: "Short-form video remains the default, but not the only format", id: "short-form" },
       { type: "paragraph", text: "Short-form video continues to dominate reach, but categories like finance, technology, and B2B are seeing renewed traction with longer-form breakdowns and creator-hosted live formats, where trust-building matters more than viral potential." },
       { type: "heading", text: "Measurement expectations have caught up", id: "measurement" },
@@ -77,7 +222,11 @@ export const blogPosts: BlogPost[] = [
         "Traffic and conversion tracking via UTM and promo codes",
         "Qualitative creative feedback loops for future campaigns",
       ] },
-      { type: "paragraph", text: "For brands, the takeaway is straightforward: influencer marketing now rewards the same discipline as any other channel — clear objectives, rigorous partner selection, and honest measurement." },
+      {
+        type: "paragraph",
+        text: "For brands, the takeaway is straightforward: influencer marketing now rewards the same discipline as any other channel — clear objectives, rigorous creator discovery, and honest measurement.",
+        links: [{ text: "rigorous creator discovery", href: "/services/creator-discovery" }],
+      },
     ],
   },
   {
@@ -96,7 +245,11 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "Native-feeling content over polished production", id: "native-feeling" },
       { type: "paragraph", text: "Creator content that looks like it belongs in the feed — rather than an obvious ad unit — consistently earns more completion and shares. This is one of the strongest arguments for creator-led content over traditional brand video." },
       { type: "heading", text: "Consistency compounds", id: "consistency" },
-      { type: "paragraph", text: "Individual post performance matters less than sustained posting cadence from a creator's account. This is part of why we favor ambassador-style, multi-post partnerships over single-post placements for brands optimizing for long-term reach." },
+      {
+        type: "paragraph",
+        text: "Individual post performance matters less than sustained posting cadence from a creator's account. This is part of why we favor ambassador-style, multi-post partnerships over single-post placements for brands optimizing for long-term reach.",
+        links: [{ text: "ambassador-style, multi-post partnerships", href: "/services/ambassador-programs" }],
+      },
       { type: "list", items: [
         "Hook viewers in the first two seconds",
         "Favor native, in-feed aesthetics over polished ad production",
@@ -129,7 +282,11 @@ export const blogPosts: BlogPost[] = [
       { type: "paragraph", text: "Reach and impressions tell you how far a campaign traveled. They don't tell you whether it worked. We report reach as context, then evaluate performance against the specific KPI defined at kickoff — engagement rate, click-through, conversion, or sentiment, depending on the goal." },
       { type: "quote", text: "A campaign that reaches 10 million people and moves nothing is a worse outcome than one that reaches 200,000 and converts.", attribution: "Kudozz Campaign Reporting Team" },
       { type: "heading", text: "Close the loop with a debrief, not just a dashboard", id: "close-the-loop" },
-      { type: "paragraph", text: "Every campaign we run ends with a plain-language debrief: what worked, what underperformed, and what we'd change next time. Dashboards show numbers. Debriefs turn those numbers into a decision for the next campaign." },
+      {
+        type: "paragraph",
+        text: "Every campaign we run ends with a plain-language debrief as part of our campaign reporting service: what worked, what underperformed, and what we'd change next time. Dashboards show numbers. Debriefs turn those numbers into a decision for the next campaign.",
+        links: [{ text: "campaign reporting service", href: "/services/reporting" }],
+      },
     ],
   },
   {
@@ -142,11 +299,18 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-04-09",
     readingTime: "5 min read",
     body: [
-      { type: "paragraph", text: "'UGC' and 'influencer marketing' are often used as if they're the same service. They're related, but they solve different problems, and choosing the wrong one for your goal wastes budget." },
+      {
+        type: "paragraph",
+        text: "'UGC' and 'influencer marketing' are often used as if they're the same service. They're related, but they solve different problems, and choosing the wrong one for your goal wastes budget.",
+      },
       { type: "heading", text: "Influencer content is built for the creator's own audience", id: "influencer-content" },
       { type: "paragraph", text: "When a creator posts to their own following, you're paying primarily for distribution and trust transfer — their audience trusts them, and that trust extends, partially, to your brand. The content lives on the creator's channel." },
       { type: "heading", text: "UGC is built for your channels", id: "ugc-content" },
-      { type: "paragraph", text: "UGC campaigns commission creators to produce authentic-feeling content that your brand then owns and distributes — on paid social, your website, product pages, and email. You're paying for content style and authenticity, not the creator's existing audience." },
+      {
+        type: "paragraph",
+        text: "UGC campaigns commission creators to produce authentic-feeling content that your brand then owns and distributes — on paid social, your website, product pages, and email. You're paying for content style and authenticity, not the creator's existing audience.",
+        links: [{ text: "UGC campaigns", href: "/services/ugc-campaigns" }],
+      },
       { type: "list", items: [
         "Choose influencer content when the goal is reach into a new, relevant audience",
         "Choose UGC when the goal is a library of authentic assets for your own paid and owned channels",
@@ -165,7 +329,11 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-03-11",
     readingTime: "6 min read",
     body: [
-      { type: "paragraph", text: "Ambassador programs are easy to launch and hard to sustain. The initial cohort is excited, the first quarter of content looks great, and then momentum quietly drops as the program becomes an afterthought for both the brand and the creators." },
+      {
+        type: "paragraph",
+        text: "Ambassador programs are easy to launch and hard to sustain. The initial cohort is excited, the first quarter of content looks great, and then momentum quietly drops as the program becomes an afterthought for both the brand and the creators.",
+        links: [{ text: "Ambassador programs", href: "/services/ambassador-programs" }],
+      },
       { type: "heading", text: "Structure the incentive beyond the first post", id: "structure-incentive" },
       { type: "paragraph", text: "Programs that last are built on tiered incentives that reward consistency, not just participation — creators who hit content or engagement milestones unlock better terms over time, giving them a reason to stay engaged past the first deliverable." },
       { type: "heading", text: "Treat creators like partners, not vendors", id: "treat-as-partners" },
