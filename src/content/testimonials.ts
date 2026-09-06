@@ -9,7 +9,7 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Kudozz didn't just hand us a list of creators — they handed us a strategy. The reporting alone was more transparent than any agency we'd worked with before.",
+      "We expected a list of creators. What we got was an actual strategy, and reporting more transparent than any agency we'd worked with before.",
     name: "Sample Testimonial",
     role: "Head of Brand Marketing",
     company: "Sample Client — DTC Skincare Brand",

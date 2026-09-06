@@ -31,7 +31,7 @@ export const caseStudies: CaseStudy[] = [
     slug: "trailhead-outdoor-ambassador",
     brand: "Sample Brand — Trailhead Outdoor",
     industry: "Outdoor & Fitness",
-    objective: "Build a always-on ambassador program for a gear brand",
+    objective: "Build an always-on ambassador program for a gear brand",
     creatorCategory: "Outdoor & Fitness creators",
     summary:
       "A 12-month ambassador cohort of 18 creators with quarterly content cadences, replacing one-off gifting with a structured, retained partnership model.",
