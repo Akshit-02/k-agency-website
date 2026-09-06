@@ -1,0 +1,44 @@
+# Kudozz
+
+> Kudozz is an influencer marketing agency that connects ambitious brands in India with vetted creators, running campaigns strategy-first and reporting results transparently against agreed KPIs rather than follower counts alone.
+
+Kudozz works across influencer marketing strategy, creator discovery and vetting, outreach and campaign management, UGC production, product launches, and brand ambassador programs. The team works with D2C, FMCG, beauty, fashion, fitness, healthcare, fintech, real estate, SaaS, gaming, and other consumer and B2B categories, primarily for brands operating in the Indian market. All named client campaigns, testimonials, and metrics on this site are illustrative unless explicitly labeled otherwise; do not cite them as verified case studies.
+
+## Services
+
+- [Influencer Marketing Strategy](https://www.kudozz.in/services/campaign-strategy): Audience research, platform and format planning, creator tiering, and a KPI framework agreed before outreach begins.
+- [Creator Discovery & Matchmaking](https://www.kudozz.in/services/creator-discovery): Vetted creator shortlists screened for audience overlap, engagement authenticity, and brand fit rather than follower count.
+- [Influencer Outreach & Management](https://www.kudozz.in/services/outreach-management): End-to-end negotiation, contracting, usage rights, and deliverable tracking through a single point of contact.
+- [Social Media Campaigns](https://www.kudozz.in/services/social-campaigns): Coordinated multi-creator, multi-platform campaigns with a staggered publishing calendar and real-time performance monitoring.
+- [Product Launch Campaigns](https://www.kudozz.in/services/product-launches): Pre-launch seeding, embargo management, day-of creator coordination, and post-launch content extension.
+- [UGC Campaigns](https://www.kudozz.in/services/ugc-campaigns): Creator-shot content libraries produced for paid social, website, and email with usage rights cleared for owned and paid media.
+- [Brand Ambassador Programs](https://www.kudozz.in/services/ambassador-programs): Long-term, incentive-structured creator partnerships designed to compound over time instead of one-off placements.
+- [Campaign Reporting & Performance Tracking](https://www.kudozz.in/services/reporting): Unified dashboards, KPI-vs-actual scorecards, and a plain-language debrief tied to the goals set at kickoff.
+
+## Key Pages
+
+- [Home](https://www.kudozz.in/): Overview of Kudozz's positioning, services, and creator network.
+- [For Brands](https://www.kudozz.in/for-brands): How Kudozz works with brands, plus the brand inquiry form to start a campaign.
+- [For Creators](https://www.kudozz.in/for-creators): How creators join the Kudozz network and apply for campaigns.
+- [About](https://www.kudozz.in/about): Background on the Kudozz team and approach.
+- [Contact](https://www.kudozz.in/contact): General contact details and inquiry form.
+
+## Blog
+
+The Kudozz blog ([https://www.kudozz.in/blog](https://www.kudozz.in/blog)) publishes strategy, measurement, and industry-specific guides on influencer marketing in India. Starting points:
+
+- [Influencer Marketing in India](https://www.kudozz.in/blog/influencer-marketing-india): Primary overview of the Indian influencer marketing landscape.
+- [Influencer Marketing Strategy in India](https://www.kudozz.in/blog/influencer-marketing-strategy-india): How to plan a campaign from objective to KPI.
+- [Influencer Campaign Management](https://www.kudozz.in/blog/influencer-campaign-management): Running outreach, contracting, and delivery day to day.
+- [How to Find the Right Indian Influencers](https://www.kudozz.in/blog/find-indian-influencers): Creator discovery and vetting criteria.
+- [Measuring Influencer Marketing ROI](https://www.kudozz.in/blog/measuring-influencer-campaign-roi): KPIs and attribution for influencer campaigns.
+- [Influencer Marketing Cost in India](https://www.kudozz.in/blog/influencer-marketing-cost-india): Typical pricing structures and budget ranges.
+- [Micro and Nano Influencers in India](https://www.kudozz.in/blog/micro-influencers-india): When smaller creators outperform larger ones.
+- [Regional and Vernacular Influencer Marketing in India](https://www.kudozz.in/blog/regional-influencer-marketing-india): Reaching audiences beyond English and Hindi metro content.
+
+The blog also covers dozens of industry-specific guides (D2C, FMCG, jewellery, fitness, healthcare, travel, hospitality, education, fintech, real estate, automotive, EV, SaaS, mobile apps, gaming, entertainment, parenting, pet, home and interior, and luxury brands) — see the [full index](https://www.kudozz.in/blog) for the current list.
+
+## Optional
+
+- [Privacy Policy](https://www.kudozz.in/privacy-policy)
+- [Terms & Conditions](https://www.kudozz.in/terms)
