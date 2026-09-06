@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import type { BlogBlock, InlineLink } from "@/content/blog";
+import { cn } from "@/lib/utils";
 
 function renderWithLinks(text: string, links?: InlineLink[]) {
   if (!links || links.length === 0) return text;
@@ -17,19 +18,23 @@ function renderWithLinks(text: string, links?: InlineLink[]) {
     });
   }
 
-  return parts.map((part, i) =>
-    typeof part === "string" ? (
-      <Fragment key={i}>{part}</Fragment>
-    ) : (
-      <Link
-        key={i}
-        href={part.href}
-        className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral"
-      >
+  const linkClassName = "font-medium text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral";
+
+  return parts.map((part, i) => {
+    if (typeof part === "string") return <Fragment key={i}>{part}</Fragment>;
+    if (part.href.startsWith("http")) {
+      return (
+        <a key={i} href={part.href} target="_blank" rel="noreferrer noopener" className={linkClassName}>
+          {part.label}
+        </a>
+      );
+    }
+    return (
+      <Link key={i} href={part.href} className={linkClassName}>
         {part.label}
       </Link>
-    )
-  );
+    );
+  });
 }
 
 export function ArticleBody({ blocks }: { blocks: BlogBlock[] }) {
@@ -59,6 +64,42 @@ export function ArticleBody({ blocks }: { blocks: BlogBlock[] }) {
                   </li>
                 ))}
               </ul>
+            );
+          case "table":
+            return (
+              <div key={i} className="overflow-x-auto">
+                <table className="w-full min-w-[520px] border-collapse text-base">
+                  <thead>
+                    <tr>
+                      {block.headers.map((header, hi) => (
+                        <th
+                          key={hi}
+                          className="border-b-[1.5px] border-ink px-3 py-2.5 text-left font-display text-lg font-normal tracking-tight text-ink"
+                        >
+                          {header}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {block.rows.map((row, ri) => (
+                      <tr key={ri}>
+                        {row.map((cell, ci) => (
+                          <td
+                            key={ci}
+                            className={cn(
+                              "border-b border-line px-3 py-2.5 align-top text-base",
+                              ci === 0 && "font-medium text-ink"
+                            )}
+                          >
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             );
           case "quote":
             return (

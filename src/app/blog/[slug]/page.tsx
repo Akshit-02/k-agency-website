@@ -3,9 +3,10 @@ import type { Metadata } from "next";
 import { blogPosts, getBlogPostBySlug, getRelatedPosts } from "@/content/blog";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/config/site";
-import { JsonLd, articleSchema, breadcrumbSchema } from "@/lib/schema";
+import { JsonLd, articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { Container } from "@/components/ui/Container";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { FAQSection } from "@/components/ui/FAQSection";
 import { Reveal } from "@/components/animations/Reveal";
 import { BlogArticleGraphic } from "@/components/blog/BlogArticleGraphic";
 import { ArticleBody } from "@/components/blog/ArticleBody";
@@ -48,6 +49,9 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
           { name: post.title, url },
         ])}
       />
+      {post.faqs && post.faqs.length > 0 && (
+        <JsonLd data={faqSchema(post.faqs.map((f) => ({ question: f.question, answer: f.answer })))} />
+      )}
 
       <article className="pt-36 pb-8 sm:pt-44">
         <Container className="max-w-3xl">
@@ -90,6 +94,10 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
           </div>
         </Container>
       </article>
+
+      {post.faqs && post.faqs.length > 0 && (
+        <FAQSection faqs={post.faqs} eyebrow="FAQ" title="Questions readers ask about this topic." />
+      )}
 
       <RelatedArticles posts={related} />
       <FinalCTA />
