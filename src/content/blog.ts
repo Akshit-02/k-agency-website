@@ -35,6 +35,890 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "manufacturing-influencer-marketing-india",
+    category: "Brand Marketing",
+    title: "Influencer Marketing for Manufacturing Companies in India",
+    excerpt:
+      "How Indian manufacturing and industrial companies, an audience that hasn't traditionally considered influencer marketing, can use creator partnerships for credibility, education, and lead generation.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-11-29",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Most manufacturing companies have never run a creator campaign, and understandably so, the category doesn't resemble consumer marketing at all. But industrial buyers still research vendors, follow industry voices, and trust some sources more than others, which means the same underlying logic that makes B2B creator marketing work applies here too, just with a very different set of creators and content.",
+      },
+      { type: "heading", text: "Why manufacturing companies can benefit from creator partnerships", id: "why-manufacturing-benefits" },
+      {
+        type: "paragraph",
+        text: "Industrial buying decisions involve real technical scrutiny and long evaluation cycles, and credible third-party voices, engineers, industry analysts, experienced operators, can move a buyer's confidence in ways a sales brochure or trade ad generally can't.",
+      },
+      { type: "heading", text: "Industry experts", id: "experts-manufacturing" },
+      {
+        type: "paragraph",
+        text: "Recognized voices within a specific manufacturing sub-sector, materials, automation, industrial machinery, bring credibility that a generalist business creator simply doesn't have, since technical buyers can quickly tell whether someone genuinely understands the space.",
+      },
+      { type: "heading", text: "Engineers and technical creators", id: "engineers-manufacturing" },
+      {
+        type: "paragraph",
+        text: "A growing number of engineers and technical specialists create content explaining processes, standards, and equipment, and partnering with them for genuine technical demonstrations or explainers can reach exactly the audience a manufacturing brand needs: procurement teams, engineers, and technical decision-makers.",
+      },
+      { type: "heading", text: "B2B thought leadership", id: "thoughtleadership-manufacturing" },
+      {
+        type: "paragraph",
+        text: "Co-created content with a respected industry figure, an analysis of a sector trend, a technical comparison, a process explainer, lends a manufacturing brand credibility with an audience that's typically skeptical of direct marketing.",
+      },
+      { type: "heading", text: "Trade audience education", id: "education-manufacturing" },
+      {
+        type: "paragraph",
+        text: "Content that genuinely educates a trade audience, how a material performs under specific conditions, how a process improves efficiency, serves technical buyers directly and positions the brand as a knowledgeable source rather than just a vendor.",
+      },
+      { type: "heading", text: "Product demonstrations", id: "demos-manufacturing" },
+      {
+        type: "paragraph",
+        text: "Demonstrations from a credible technical voice, showing equipment or materials performing under real conditions, carry more weight with an industrial buyer than a produced brand video, since technical audiences are specifically evaluating real-world performance.",
+      },
+      { type: "heading", text: "Factory and process storytelling", id: "storytelling-manufacturing" },
+      {
+        type: "paragraph",
+        text: "Behind-the-scenes content showing how something is actually manufactured, quality control, process precision, scale, builds a kind of credibility and trust that a static product catalog can't, and increasingly resonates with both trade buyers and a broader audience interested in how things are made.",
+      },
+      { type: "heading", text: "Employer branding", id: "employer-branding-manufacturing" },
+      {
+        type: "paragraph",
+        text: "Manufacturing companies competing for skilled technical talent can use creator-style content, genuine employee voices, a look at working conditions and career paths, to reach candidates who don't respond to traditional recruitment marketing.",
+      },
+      { type: "heading", text: "Trade events", id: "trade-events-manufacturing" },
+      {
+        type: "paragraph",
+        text: "Trade shows and industry events are natural moments for creator collaboration: live coverage, product demonstrations, and expert commentary distributed beyond the people physically in attendance.",
+      },
+      { type: "heading", text: "Measuring B2B outcomes", id: "measuring-manufacturing" },
+      {
+        type: "paragraph",
+        text: "Measure manufacturing creator campaigns on qualified leads, inquiry volume from the right buyer segment, and engagement from a genuinely relevant technical or trade audience, rather than broad reach or follower growth, which mean little in a market this specialized.",
+      },
+      { type: "heading", text: "Manufacturing Influencer Marketing Strategy Framework", id: "manufacturing-framework" },
+      {
+        type: "table",
+        headers: ["Stage", "Goal", "Typical approach"],
+        rows: [
+          ["Awareness", "Introduce the company or a specific capability to a relevant trade audience", "Industry expert commentary, trade event coverage"],
+          ["Industry credibility", "Build trust with technical and procurement decision-makers", "Thought leadership collaborations, technical demonstrations"],
+          ["Education", "Help a trade audience understand a product, material, or process", "Explainer content, process storytelling, engineer-led breakdowns"],
+          ["Lead generation", "Convert interest into a qualified sales conversation", "Gated technical content, webinar collaborations"],
+          ["Relationship building", "Sustain credibility and visibility over time", "Ongoing partnerships with the same trusted industry voices"],
+        ],
+      },
+      { type: "heading", text: "Making the case internally", id: "making-case-manufacturing" },
+      {
+        type: "paragraph",
+        text: "For a manufacturing company considering this for the first time, the easiest starting point is usually a single technical thought-leadership collaboration or trade-event partnership, not a full creator program, since it lets a team see how a credible outside voice performs with their specific audience before committing to a larger, ongoing strategy.",
+      },
+      {
+        type: "quote",
+        text: "Nobody outside the industry has ever discovered a manufacturing company through a viral post. But the right engineer explaining why your process actually matters can move a buyer that a brochure never will.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Getting help with a manufacturing or industrial campaign", id: "getting-help-manufacturing" },
+      {
+        type: "paragraph",
+        text: "We help manufacturing and industrial companies find genuinely credible technical voices and structure campaigns around trade audience education and qualified lead generation. See influencer marketing for B2B companies in India for the broader framework this sits within. Start a brand inquiry to talk through your audience and objective.",
+        links: [
+          { text: "influencer marketing for B2B companies in India", href: "/blog/b2b-influencer-marketing-india" },
+          { text: "find genuinely credible technical voices", href: "/services/campaign-strategy" },
+          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is influencer marketing actually relevant for manufacturing companies?",
+        answer:
+          "Yes, though it looks very different from consumer creator marketing. It typically involves industry experts, engineers, and technical creators rather than lifestyle-focused influencers, and centers on credibility and education rather than reach.",
+      },
+      {
+        question: "What kind of creators work best for manufacturing brands?",
+        answer:
+          "Industry experts, engineers, technical specialists, and trade analysts with genuine credibility in the relevant sub-sector tend to work far better than general business or lifestyle creators.",
+      },
+      {
+        question: "Can manufacturing companies use creator content for recruitment, not just sales?",
+        answer:
+          "Yes. Employer branding content featuring genuine employee voices and a look at real working conditions can help reach skilled technical talent who don't respond to traditional recruitment marketing.",
+      },
+      {
+        question: "How should a manufacturing company start if it's never done creator marketing before?",
+        answer:
+          "Starting with a single technical thought-leadership collaboration or trade-event partnership is usually a lower-risk way to test the approach before committing to an ongoing program.",
+      },
+    ],
+  },
+  {
+    slug: "b2b-influencer-marketing-india",
+    category: "Brand Marketing",
+    title: "Influencer Marketing for B2B Companies in India",
+    excerpt:
+      "Why B2B influencer marketing looks nothing like consumer creator marketing, and how Indian B2B companies can use industry experts and subject-matter creators to build credibility and generate qualified leads.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-11-28",
+    readingTime: "9 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "A B2B buyer researching a vendor is looking for someone who understands their specific problem, not someone with a large following, which is why B2B influencer marketing works on a completely different logic than the consumer version: narrower audiences, longer sales cycles, and credibility that comes from expertise rather than aesthetics or reach.",
+      },
+      { type: "heading", text: "Why B2B influencer marketing is different", id: "why-different-b2b" },
+      {
+        type: "paragraph",
+        text: "Consumer influencer marketing generally optimizes for reach and emotional appeal to a broad audience. B2B buying decisions involve multiple stakeholders, a longer evaluation process, and a much smaller pool of people who are actually relevant, which means the entire creator-selection and content logic has to change.",
+      },
+      { type: "heading", text: "Industry experts", id: "experts-b2b" },
+      {
+        type: "paragraph",
+        text: "A recognized practitioner in a specific industry, someone who has actually done the job a prospective buyer is trying to solve for, often carries more credibility than a larger, more general business content creator, because their opinion is grounded in real, verifiable experience.",
+      },
+      { type: "heading", text: "LinkedIn creators", id: "linkedin-b2b" },
+      {
+        type: "paragraph",
+        text: "LinkedIn remains the primary platform for B2B creator content in India, given its professional audience and the format's suitability for industry commentary, case-based insight, and direct engagement with decision-makers.",
+      },
+      { type: "heading", text: "Subject matter experts", id: "sme-b2b" },
+      {
+        type: "paragraph",
+        text: "Beyond creators with an existing audience, subject matter experts, consultants, former operators, technical specialists, can be valuable collaborators even with a modest following, since their credibility comes from expertise rather than audience size.",
+      },
+      { type: "heading", text: "Educational content", id: "educational-b2b" },
+      {
+        type: "paragraph",
+        text: "Content that genuinely teaches something relevant to the buyer's job, a framework, a process breakdown, an analysis of an industry shift, builds trust more effectively than content that leads with a product pitch.",
+      },
+      { type: "heading", text: "Webinars", id: "webinars-b2b" },
+      {
+        type: "paragraph",
+        text: "Co-hosting a webinar with a credible industry voice gives a B2B company access to that person's audience and credibility simultaneously, in a format naturally suited to a considered, multi-stakeholder buying process.",
+      },
+      { type: "heading", text: "Podcasts", id: "podcasts-b2b" },
+      {
+        type: "paragraph",
+        text: "Podcast appearances and collaborations let a B2B brand reach a professional audience in a long-form, trust-building format that a short social post can't replicate, particularly effective for more technical or niche categories.",
+      },
+      { type: "heading", text: "Product demonstrations", id: "demos-b2b" },
+      {
+        type: "paragraph",
+        text: "A demonstration from a credible industry voice, showing how a product actually solves a real problem in their own workflow, carries more weight with a B2B buyer than a produced brand demo video.",
+      },
+      { type: "heading", text: "Lead generation", id: "leadgen-b2b" },
+      {
+        type: "paragraph",
+        text: "B2B creator content should be built around a clear next step, a gated resource, a demo request, a webinar sign-up, since awareness alone rarely translates into a sales conversation without a specific path forward.",
+      },
+      { type: "heading", text: "Longer sales cycles", id: "sales-cycles-b2b" },
+      {
+        type: "paragraph",
+        text: "A single piece of creator content is unlikely to close a B2B deal on its own. It's more realistic to treat creator content as one input into a sales cycle that may run for weeks or months and involve multiple stakeholders and touchpoints.",
+      },
+      { type: "heading", text: "Why follower count isn't the right measure", id: "follower-count-b2b" },
+      {
+        type: "paragraph",
+        text: "A creator with 3,000 followers who are genuinely the buyers a company is trying to reach is more valuable than one with 300,000 followers mostly outside that audience. The relevant addressable audience in B2B is inherently small, which makes precise targeting more important than scale.",
+      },
+      { type: "heading", text: "B2B Creator Partnership Framework", id: "b2b-framework" },
+      {
+        type: "list",
+        items: [
+          "Target audience — define the specific role, industry, and company size the campaign needs to reach",
+          "Industry relevance — confirm the creator's expertise and existing audience genuinely match that target",
+          "Creator credibility — verify the creator's track record and depth of real experience in the relevant field",
+          "Content format — choose the format, LinkedIn post, webinar, podcast, demo, that fits both the creator and the sales cycle stage",
+          "Lead generation strategy — build a clear next step into every piece of content, not just brand awareness",
+          "Measurement — track qualified leads and pipeline influence over a realistic time window, not immediate conversion",
+        ],
+      },
+      { type: "heading", text: "Measuring B2B creator marketing", id: "measuring-b2b" },
+      {
+        type: "paragraph",
+        text: "Track qualified leads, content engagement from the right audience segment, and downstream pipeline influence, using dedicated links or gated content, rather than judging success on impressions or follower growth. Brands running parallel SaaS-specific campaigns should also see influencer marketing for SaaS companies in India for a closely related funnel.",
+        links: [{ text: "influencer marketing for SaaS companies in India", href: "/blog/saas-influencer-marketing-india" }],
+      },
+      {
+        type: "quote",
+        text: "The B2B creators worth paying for aren't the ones with the biggest audience. They're the ones the actual buyer already trusts before your sales team ever gets on a call.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Getting help with B2B creator marketing", id: "getting-help-b2b" },
+      {
+        type: "paragraph",
+        text: "We help B2B companies find genuinely credible industry voices and structure campaigns around a realistic sales cycle rather than a consumer-style awareness push. Manufacturing and industrial B2B brands should also see influencer marketing for manufacturing companies in India for sector-specific guidance. Start a brand inquiry to talk through your audience and objective.",
+        links: [
+          { text: "influencer marketing for manufacturing companies in India", href: "/blog/manufacturing-influencer-marketing-india" },
+          { text: "find genuinely credible industry voices", href: "/services/campaign-strategy" },
+          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is B2B influencer marketing the same as B2B SaaS influencer marketing?",
+        answer:
+          "They overlap significantly, but B2B influencer marketing is the broader category, covering any business selling to other businesses, while SaaS-specific campaigns often center more narrowly on product education and trial conversion.",
+      },
+      {
+        question: "Should B2B companies prioritize creators with large followings?",
+        answer:
+          "No. Relevance to the specific buyer persona and genuine industry credibility matter far more than reach, since the addressable B2B audience is inherently smaller than most consumer categories.",
+      },
+      {
+        question: "Are webinars and podcasts considered influencer marketing?",
+        answer:
+          "When they involve a genuine collaboration with a credible external voice who brings their own audience or credibility, yes, they function as a B2B-specific form of creator marketing.",
+      },
+      {
+        question: "How long should a B2B company expect before a creator campaign generates leads?",
+        answer:
+          "Longer than most consumer categories, given typically extended B2B sales cycles; qualified leads and pipeline influence are more realistic short-term measures than closed deals.",
+      },
+    ],
+  },
+  {
+    slug: "insurance-influencer-marketing-india",
+    category: "Brand Marketing",
+    title: "Influencer Marketing for Insurance Companies in India",
+    excerpt:
+      "A compliance-first approach to influencer marketing for Indian insurance and insurtech brands, focused on financial education and trust rather than persuasion, without providing financial advice.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-11-27",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Insurance is bought, rarely sought out, most people don't wake up wanting to research a policy, which means the real job of insurance influencer content isn't persuasion, it's making a genuinely confusing category clear enough that someone follows through on a purchase they already know they should make. This article offers general marketing guidance, not financial, legal, or compliance advice, and any specific claim or campaign should be reviewed by qualified compliance professionals before publishing.",
+      },
+      { type: "heading", text: "Why trust and simplicity matter here", id: "trust-insurance" },
+      {
+        type: "paragraph",
+        text: "Insurance products are complex, involve real financial consequences, and are sold in a category where past mis-selling has made many Indian consumers understandably skeptical, which raises the bar for what counts as credible, non-misleading content well above what most consumer categories require.",
+      },
+      { type: "heading", text: "Simplifying complex products", id: "simplifying-insurance" },
+      {
+        type: "paragraph",
+        text: "Content that explains a policy type, term insurance versus whole life, or how a claim process actually works, in plain language, tends to build more trust than content that leads with premium discounts or aggressive urgency.",
+      },
+      { type: "heading", text: "Financial education content", id: "financial-education-insurance" },
+      {
+        type: "paragraph",
+        text: "Genuinely educational content, what a specific type of cover actually protects against, common exclusions, how to compare policies, serves the audience first and the brand second, which is precisely why it tends to perform better with a skeptical audience than direct promotion.",
+      },
+      { type: "heading", text: "Expert creators", id: "experts-insurance" },
+      {
+        type: "paragraph",
+        text: "Creators with genuine financial literacy and a track record of responsible, accurate content are better suited to this category than general lifestyle creators, and a brand should never imply a creator holds a license or qualification they don't actually have.",
+      },
+      { type: "heading", text: "Financial literacy content", id: "literacy-insurance" },
+      {
+        type: "paragraph",
+        text: "Broader financial literacy content, not directly promotional, that happens to feature a brand's product as one example builds long-term credibility differently than a straightforward sponsored post, particularly for younger, first-time insurance buyers still learning the category.",
+      },
+      { type: "heading", text: "Long-term partnerships", id: "long-term-insurance" },
+      {
+        type: "paragraph",
+        text: "A single sponsored post rarely moves someone to buy insurance. An ongoing relationship with a small number of credible, financially literate creators, consistently explaining different aspects of the category over time, builds the kind of trust this purchase decision actually requires.",
+      },
+      { type: "heading", text: "Compliance", id: "compliance-insurance" },
+      {
+        type: "paragraph",
+        text: "IRDAI's advertisement framework requires insurance-related advertising to be truthful, not misleading, and to include specific disclosures, including the insurer's registered name, IRDAI registration details, and the unique identification number of the product being referenced. Insurers are also expected to have a board-approved advertisement policy and a review process before content goes live. These requirements apply to promotional content generally, and creator content referencing a specific insurance product should be treated the same way as any other advertisement for compliance purposes.",
+      },
+      { type: "heading", text: "Disclosure", id: "disclosure-insurance" },
+      {
+        type: "paragraph",
+        text: "Any paid or sponsored insurance-related content should be disclosed clearly, consistent with ASCI guidelines, and should never be framed as independent financial advice or a personal recommendation a creator isn't qualified to make.",
+      },
+      { type: "heading", text: "Misleading claims", id: "misleading-claims-insurance" },
+      {
+        type: "paragraph",
+        text: "Avoid any claim implying guaranteed returns, understated exclusions, or a simpler claims process than the policy actually offers. Unit-linked and market-linked insurance products in particular should never be presented as pure investment products, a distinction IRDAI has specifically addressed in recent regulatory guidance.",
+      },
+      { type: "heading", text: "Measuring awareness and qualified leads", id: "measuring-insurance" },
+      {
+        type: "paragraph",
+        text: "Given the long, considered nature of insurance purchases, measure creator campaigns on awareness, engagement quality, and qualified leads, tracked through dedicated links or codes, rather than expecting a direct, immediate purchase from a single piece of content.",
+      },
+      { type: "heading", text: "Insurance Creator Content Framework", id: "insurance-framework" },
+      {
+        type: "list",
+        items: [
+          "Lead with education, not persuasion — explain the product category before promoting a specific policy",
+          "Select creators for genuine financial literacy and a responsible content history, not reach alone",
+          "Brief creators on exact, approved language for any product claim, never left to improvise",
+          "Disclose every paid or sponsored collaboration clearly and consistently",
+          "Route any claim about coverage, returns, or exclusions through compliance review before publishing",
+          "Measure success on qualified leads and engagement quality, not immediate conversion",
+        ],
+      },
+      {
+        type: "quote",
+        text: "Nobody trusts an insurance ad. What they trust is a creator who took the time to actually explain what a policy does and doesn't cover, including the parts that aren't flattering.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "A note on evolving regulation", id: "regulation-note-insurance" },
+      {
+        type: "paragraph",
+        text: "Insurance advertising regulation in India has been actively evolving, including a principle-based advertisement framework from IRDAI and draft rules from the RBI addressing the advertising and marketing of financial products more broadly. Given how frequently this area changes, any specific compliance question should go to qualified legal or compliance counsel rather than being assumed from this article or from past campaign practice.",
+      },
+      { type: "heading", text: "Getting help with an insurance or insurtech campaign", id: "getting-help-insurance" },
+      {
+        type: "paragraph",
+        text: "We help insurance and insurtech brands find creators with genuine financial credibility and structure campaigns around education and compliance rather than persuasion. See influencer marketing for fintech brands in India for the broader financial-services compliance approach this builds on. Start a brand inquiry to talk through your next campaign.",
+        links: [
+          { text: "influencer marketing for fintech brands in India", href: "/blog/influencer-marketing-fintech-brands-india" },
+          { text: "find creators with genuine financial credibility", href: "/services/creator-discovery" },
+          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Can insurance influencer content promise guaranteed returns?",
+        answer:
+          "No. Any claim implying guaranteed returns is misleading, and unit-linked or market-linked insurance products specifically should never be presented as pure investment products.",
+      },
+      {
+        question: "Do insurance creators need a specific license or certification?",
+        answer:
+          "There's no blanket requirement covered here, but a brand should never imply a creator holds a financial license or qualification they don't actually have, and content should be reviewed for accuracy regardless of the creator's background.",
+      },
+      {
+        question: "How should sponsored insurance content be disclosed?",
+        answer:
+          "Clearly and consistently, consistent with ASCI guidelines, and never framed as independent financial advice or a personal recommendation.",
+      },
+      {
+        question: "How long does it take to see results from an insurance influencer campaign?",
+        answer:
+          "Longer than most consumer categories, since insurance purchases are considered decisions; awareness and engagement can be judged within weeks, but qualified leads and conversions often take longer to materialize.",
+      },
+    ],
+  },
+  {
+    slug: "retail-influencer-marketing-india",
+    category: "Brand Marketing",
+    title: "Influencer Marketing for Retail Brands in India",
+    excerpt:
+      "How Indian retail brands, both online and store-based, can use creators across discovery, in-store visits, and seasonal shopping moments, with a funnel built for repeat, not just one-time, purchases.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-11-26",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Retail spans everything from a single physical store to a multi-category e-commerce platform, which means a retail brand's influencer strategy depends heavily on whether the goal is driving people to a specific store, a website, or building awareness for a broader collection, three genuinely different objectives that shouldn't share one creator brief.",
+      },
+      { type: "heading", text: "Online versus offline retail", id: "online-vs-offline-retail" },
+      {
+        type: "paragraph",
+        text: "Online retail campaigns typically prioritize trackable links, promo codes, and content that can drive a click straight to a product page, while offline, store-based retail depends more on local relevance, store visits, and in-person experience content that a purely digital brief doesn't capture.",
+      },
+      { type: "heading", text: "Product discovery", id: "discovery-retail" },
+      {
+        type: "paragraph",
+        text: "For retail brands carrying many products or brands, creator content helps surface specific items an algorithm-driven storefront might not, functioning as a curated recommendation layer rather than a simple advertisement.",
+      },
+      { type: "heading", text: "Store visits", id: "store-visits-retail" },
+      {
+        type: "paragraph",
+        text: "For physical retail, creators visiting a store and showing the actual shopping experience, layout, selection, in-store offers, gives a prospective customer a reason to visit that a product photo alone doesn't provide.",
+      },
+      { type: "heading", text: "Shopping content", id: "shopping-content-retail" },
+      {
+        type: "paragraph",
+        text: "Haul-style and shopping-guide content, browsing a store or site and highlighting specific finds, mirrors how a customer might actually shop, and performs well because it feels like a recommendation rather than a directive.",
+      },
+      { type: "heading", text: "Seasonal campaigns", id: "seasonal-retail" },
+      {
+        type: "paragraph",
+        text: "Seasonal shopping shifts, wardrobe changes, home refresh moments, gifting occasions, create natural windows for retail content that a non-seasonal, always-on campaign doesn't capture as effectively.",
+      },
+      { type: "heading", text: "Festival campaigns", id: "festival-retail" },
+      {
+        type: "paragraph",
+        text: "Festive seasons in India, particularly ahead of Diwali, drive some of the highest retail purchase intent of the year, and creator content timed to festival shopping, gifting guides, festive collections, sale coverage, tends to outperform generic promotion during this window.",
+      },
+      { type: "heading", text: "Local retail campaigns", id: "local-retail" },
+      {
+        type: "paragraph",
+        text: "For retail brands with a physical footprint in specific cities, local creators can drive store-specific foot traffic in a way a national campaign generally can't, similar to the local-relevance principle covered in regional influencer marketing in India.",
+        links: [{ text: "regional influencer marketing in India", href: "/blog/regional-influencer-marketing-india" }],
+      },
+      { type: "heading", text: "Product collections", id: "collections-retail" },
+      {
+        type: "paragraph",
+        text: "A new collection or category launch benefits from creator content that curates and contextualizes the range, rather than covering every item individually, giving the audience a reason to browse the full collection.",
+      },
+      { type: "heading", text: "Creator discount codes", id: "discount-codes-retail" },
+      {
+        type: "paragraph",
+        text: "Creator-specific discount codes give shoppers an incentive to act and give the brand a direct, creator-level view of which partnerships are actually driving purchases, not just impressions or clicks.",
+      },
+      { type: "heading", text: "Campaign attribution", id: "attribution-retail" },
+      {
+        type: "paragraph",
+        text: "Retail attribution has real limits: a shopper might see a creator's content, browse later without using a tracked code, and still be influenced by that exposure without it showing up in the data. Treat trackable metrics as a meaningful but partial view of a campaign's actual impact.",
+      },
+      { type: "heading", text: "Retail Influencer Campaign Funnel", id: "retail-funnel" },
+      {
+        type: "table",
+        headers: ["Stage", "Shopper behavior", "Creator content role"],
+        rows: [
+          ["Awareness", "Learns the retail brand or a specific collection exists", "Broad-reach discovery and collection-intro content"],
+          ["Discovery", "Encounters specific products worth considering", "Shopping-guide and curated haul-style content"],
+          ["Consideration", "Compares options and weighs the purchase", "Detailed reviews, styling, or use-case content"],
+          ["Store or website visit", "Visits the store or site to view products directly", "Store-visit content or trackable links driving traffic"],
+          ["Purchase", "Completes the purchase", "Creator-specific discount codes or affiliate links"],
+          ["Repeat engagement", "Returns for future purchases", "Ongoing creator relationships and seasonal content"],
+        ],
+      },
+      { type: "heading", text: "Common mistakes", id: "mistakes-retail" },
+      {
+        type: "list",
+        items: [
+          "Running the same creator brief for an online storefront and a physical store without adjusting for the different objective",
+          "Treating every seasonal moment as equally important rather than prioritizing the ones that actually match customer behavior",
+          "Using only broad-reach creators without any local or store-specific content for physical retail",
+          "Not setting trackable codes or links before launch, making post-campaign measurement impossible",
+        ],
+      },
+      {
+        type: "quote",
+        text: "A retail creator campaign that gets people to browse is doing half the job. The other half is making sure it's easy to trace who actually walked in or clicked through because of it.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Getting help with a retail campaign", id: "getting-help-retail" },
+      {
+        type: "paragraph",
+        text: "We help online and store-based retail brands find creators for genuine local and category relevance, and build tracking into every campaign from the start. Start a brand inquiry to talk through your next seasonal or festival push.",
+        links: [
+          { text: "find creators for genuine local and category relevance", href: "/services/campaign-strategy" },
+          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Should online and offline retail campaigns use the same creators?",
+        answer:
+          "Not necessarily. Online-focused campaigns often prioritize broader reach and trackable links, while physical retail benefits more from creators with genuine local relevance to a specific store's catchment area.",
+      },
+      {
+        question: "How important are festival campaigns for Indian retail brands?",
+        answer:
+          "Often very important, since festive seasons, particularly around Diwali, drive some of the highest purchase intent of the year, though relevance still depends on the specific product category.",
+      },
+      {
+        question: "Can discount codes fully measure a retail influencer campaign's impact?",
+        answer:
+          "They capture a meaningful share of directly attributable purchases, but some shoppers are influenced by content without using a tracked code, so codes should be treated as a partial rather than complete measure.",
+      },
+      {
+        question: "Should retail brands focus only on new customer acquisition?",
+        answer:
+          "No. Ongoing creator relationships that encourage repeat visits or purchases are often as valuable as first-time acquisition, particularly for retail brands depending on repeat custom.",
+      },
+    ],
+  },
+  {
+    slug: "sports-influencer-marketing-india",
+    category: "Brand Marketing",
+    title: "Influencer Marketing for Sports Brands in India",
+    excerpt:
+      "How Indian sports brands, sporting goods companies, and sports-adjacent businesses can use creators, athletes, and fan communities differently from a general fitness marketing playbook.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-11-25",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Sport in India means cricket first, then a growing base of football, kabaddi, badminton, and athletics fandom, each with its own dedicated creators and community, which makes sports brand marketing less about individual fitness routines and more about tapping into genuine fan culture, team loyalty, and athlete credibility.",
+      },
+      {
+        type: "paragraph",
+        text: "This article focuses on sports brands, sporting goods, athletic apparel tied to sport and fandom, sports leagues, and sports-adjacent businesses. For gyms, supplements, workout apps, and personal fitness routines, see influencer marketing for fitness brands in India, which covers a different audience and content style.",
+        links: [{ text: "influencer marketing for fitness brands in India", href: "/blog/influencer-marketing-fitness-brands-india" }],
+      },
+      { type: "heading", text: "Sports communities and fan culture", id: "communities-sports" },
+      {
+        type: "paragraph",
+        text: "Sports audiences in India organize around teams, leagues, and specific athletes with a loyalty that's difficult to replicate in most other categories, and creators embedded in that fan culture, match analysis, player commentary, fan reactions, carry a kind of trust a general lifestyle creator can't borrow.",
+      },
+      { type: "heading", text: "Sports creators", id: "sports-creators" },
+      {
+        type: "paragraph",
+        text: "Dedicated sports creators, covering match analysis, technique breakdowns, or specific sports like cricket, football, or badminton, bring credibility that matters for equipment and apparel brands specifically tied to performance.",
+      },
+      { type: "heading", text: "Athlete collaborations", id: "athlete-collabs" },
+      {
+        type: "paragraph",
+        text: "Partnering with active or former athletes lends a brand direct credibility in a way few other creator types can, particularly for performance-oriented products, though athlete partnerships typically require a higher budget and longer lead time than working with content creators.",
+      },
+      { type: "heading", text: "Product demonstrations", id: "demos-sports" },
+      {
+        type: "paragraph",
+        text: "Genuine demonstration of sports equipment, footwear, or gear in actual play or training conditions builds more trust than a styled product shot, since performance claims in sports are relatively easy for an audience to judge against their own experience.",
+      },
+      { type: "heading", text: "Community-driven campaigns", id: "community-campaigns-sports" },
+      {
+        type: "paragraph",
+        text: "Sports communities respond well to participatory content, skill challenges, local tournaments, fan prediction contests, that give an audience a reason to engage rather than just watch, extending a campaign's reach organically.",
+      },
+      { type: "heading", text: "Challenges and events", id: "challenges-events-sports" },
+      {
+        type: "paragraph",
+        text: "Creator-led or brand-sponsored challenges and local sporting events give a sports brand a genuine reason to activate a community beyond a single sponsored post, and tend to generate ongoing user content around the brand.",
+      },
+      { type: "heading", text: "Long-term partnerships", id: "long-term-sports" },
+      {
+        type: "paragraph",
+        text: "Sports brands, particularly those linked to performance or a specific sport, benefit from sustained creator and athlete relationships that build credibility over multiple seasons, rather than a single campaign tied to one event.",
+      },
+      { type: "heading", text: "Regional sports audiences", id: "regional-sports" },
+      {
+        type: "paragraph",
+        text: "Sports popularity varies meaningfully by region in India: cricket's reach is close to universal, but football has strong regional strongholds, and other sports have concentrated regional fan bases, which should inform which sports and which creators a national campaign actually prioritizes.",
+      },
+      { type: "heading", text: "Sports events and tournament tie-ins", id: "events-tieins-sports" },
+      {
+        type: "paragraph",
+        text: "Major tournaments and sporting events create natural, high-attention windows for sports brand campaigns, though activation around a specific event or league may carry its own sponsorship and rights considerations that should be checked before planning creator content around it.",
+      },
+      { type: "heading", text: "Campaign measurement", id: "measuring-sports" },
+      {
+        type: "paragraph",
+        text: "Measure awareness content on reach and engagement during the relevant sporting season or event window, and use trackable codes or links for conversion-focused campaigns, with realistic expectations that sports equipment and apparel purchases often involve some consideration time.",
+      },
+      { type: "heading", text: "Sports Influencer Campaign Framework", id: "sports-framework" },
+      {
+        type: "table",
+        headers: ["Stage", "Goal", "Typical approach"],
+        rows: [
+          ["Awareness", "Introduce the brand or product to a relevant sports community", "Creator and athlete content tied to relevant matches or events"],
+          ["Engagement", "Build participation beyond passive viewing", "Challenges, skill contests, fan community activation"],
+          ["Consideration", "Demonstrate genuine product performance", "Real-condition demonstrations, athlete or creator testimonials"],
+          ["Conversion", "Drive a trackable purchase", "Promo codes and affiliate links tied to a specific creator or event"],
+          ["Retention", "Sustain relevance beyond a single season or event", "Long-term athlete or creator partnerships"],
+        ],
+      },
+      { type: "heading", text: "A note on health and performance claims", id: "health-note-sports" },
+      {
+        type: "paragraph",
+        text: "This article covers marketing strategy, not medical or fitness advice. Any claim about a product's performance benefit, injury prevention, or physical outcome should be accurate and substantiated, and creators should not be asked to make health or performance guarantees a brand can't back up.",
+      },
+      {
+        type: "quote",
+        text: "A cricket bat brand doesn't need a fitness influencer. It needs the local coach and the weekend league player whose opinion the whole ground actually trusts.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Getting help with a sports brand campaign", id: "getting-help-sports" },
+      {
+        type: "paragraph",
+        text: "We help sports brands, sporting goods companies, and sports-adjacent businesses find creators and athletes genuinely embedded in the relevant sport and fan community. Start a brand inquiry to talk through your next campaign.",
+        links: [
+          { text: "find creators and athletes genuinely embedded", href: "/services/creator-discovery" },
+          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How is sports influencer marketing different from fitness influencer marketing?",
+        answer:
+          "Sports marketing centers on fan culture, specific sports, athletes, and team or tournament-driven moments, while fitness marketing typically centers on gyms, workout routines, and personal training or supplement use.",
+      },
+      {
+        question: "Are athlete partnerships necessary for every sports brand?",
+        answer:
+          "No. Athlete partnerships suit brands with the budget and positioning for a high-credibility, performance-focused association, while many sports brands can build strong campaigns with dedicated sports creators and community-driven content instead.",
+      },
+      {
+        question: "Should sports campaigns be tied to specific tournaments or events?",
+        answer:
+          "Often yes, since major tournaments create natural, high-attention windows, though brands should check sponsorship and rights considerations before planning content around a specific event or league.",
+      },
+      {
+        question: "Which sport should a national sports brand prioritize in India?",
+        answer:
+          "It depends on the product and target audience; cricket has close to universal reach, while other sports have strong but more regionally concentrated followings worth considering separately.",
+      },
+    ],
+  },
+  {
+    slug: "consumer-electronics-influencer-marketing-india",
+    category: "Brand Marketing",
+    title: "Influencer Marketing for Consumer Electronics Brands in India",
+    excerpt:
+      "How Indian consumer electronics and gadget brands can use creators for reviews, unboxings, and comparisons across a research-heavy purchase journey, without fabricating specifications or performance claims.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-11-24",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Buying a phone, laptop, or home appliance in India usually involves watching several reviews, reading comparisons, and checking real-world performance before committing, which makes creator content one of the most influential factors in a category where the actual purchase happens on an e-commerce site or in a store days or weeks later.",
+      },
+      { type: "heading", text: "Why creators matter in consumer electronics", id: "why-creators-electronics" },
+      {
+        type: "paragraph",
+        text: "Specification sheets tell a buyer what a product has; they don't tell a buyer whether it's actually worth the money compared to the alternatives, or whether a promised feature works well in daily use. A creator who has genuinely used the product can answer that in a way a product page can't.",
+      },
+      { type: "heading", text: "Product reviews", id: "reviews-electronics" },
+      {
+        type: "paragraph",
+        text: "A detailed, honest review, covering both strengths and real limitations, remains the single most trusted format in this category, since buyers are specifically trying to validate a purchase decision before spending on something they'll use for years.",
+      },
+      { type: "heading", text: "Unboxing content", id: "unboxing-electronics" },
+      {
+        type: "paragraph",
+        text: "Unboxing content works well for new or highly anticipated products because it captures a genuine first impression, build quality, packaging, initial setup, before the more considered review that usually follows.",
+      },
+      { type: "heading", text: "Feature demonstrations", id: "demos-electronics" },
+      {
+        type: "paragraph",
+        text: "Short, specific demonstrations of a single feature, camera performance, battery life, a particular software capability, answer a precise question a researching buyer is likely searching for directly, rather than requiring them to watch a full review.",
+      },
+      { type: "heading", text: "Comparison content", id: "comparison-electronics" },
+      {
+        type: "paragraph",
+        text: "Many electronics purchases come down to a shortlist of two or three products, and comparison content, addressing that shortlist directly, tends to influence the final decision more than a standalone review of a single product.",
+      },
+      { type: "heading", text: "Technology experts versus general tech creators", id: "experts-vs-general-electronics" },
+      {
+        type: "paragraph",
+        text: "Creators with genuine technical depth, benchmark testing, camera sample analysis, build quality assessment, carry more credibility for higher-consideration purchases, while general tech or lifestyle creators can be effective for broader awareness and everyday-use framing.",
+      },
+      { type: "heading", text: "Product launches", id: "launches-electronics" },
+      {
+        type: "paragraph",
+        text: "A new product launch benefits from staggered coverage: early access for a small, credible group of reviewers ahead of the announcement, followed by broader review and comparison content once the product is publicly available.",
+      },
+      { type: "heading", text: "Long-form YouTube content", id: "youtube-electronics" },
+      {
+        type: "paragraph",
+        text: "YouTube remains the primary platform for detailed electronics reviews and comparisons, since the format accommodates the depth, benchmarks, camera samples, extended use, that a purchase decision at this price point often warrants.",
+      },
+      { type: "heading", text: "Short-form product discovery", id: "shortform-electronics" },
+      {
+        type: "paragraph",
+        text: "Shorter-form content on Instagram and YouTube Shorts works well for initial awareness and a single standout feature, often driving a viewer toward a longer review before they make a final decision.",
+      },
+      { type: "heading", text: "Affiliate and creator partnerships", id: "affiliate-electronics" },
+      {
+        type: "paragraph",
+        text: "Affiliate links and creator-specific discount codes give both an incentive for the audience to act and a direct way to measure which creators are actually driving purchases, not just views, particularly useful for e-commerce-driven electronics brands.",
+      },
+      { type: "heading", text: "Measuring product consideration", id: "measuring-electronics" },
+      {
+        type: "paragraph",
+        text: "Given the multi-step research journey, measure awareness and consideration content on watch time, comment quality, and engagement, and track conversion-focused content through affiliate links or promo codes tied to a specific creator and product.",
+      },
+      { type: "heading", text: "Consumer Electronics Creator Selection Matrix", id: "electronics-matrix" },
+      {
+        type: "table",
+        headers: ["Factor", "What to evaluate"],
+        rows: [
+          ["Technology expertise", "Does the creator demonstrate genuine, accurate technical knowledge relevant to this product category?"],
+          ["Audience relevance", "Does the creator's audience genuinely overlap with your target buyer's price point and use case?"],
+          ["Content format", "Is the creator suited to the format this launch needs: long-form review, short-form demo, or comparison content?"],
+          ["Platform", "Does the creator's primary platform match where your target buyer actually researches this category?"],
+          ["Brand suitability", "Does the creator's tone and past coverage align with how the brand wants to be positioned?"],
+        ],
+      },
+      { type: "heading", text: "A note on specifications and performance claims", id: "specs-note-electronics" },
+      {
+        type: "paragraph",
+        text: "Any specification or performance claim included in creator content should reflect the product's actual, tested capabilities, not marketing copy repeated without verification. Encouraging a creator to overstate battery life, camera performance, or benchmark scores creates a credibility risk for both the brand and the creator once real-world use contradicts the claim.",
+      },
+      {
+        type: "paragraph",
+        text: "Electronics brands with a companion mobile app should also see influencer marketing for mobile apps in India for the specific install and activation measurement that applies there, and SaaS-adjacent hardware brands may find influencer marketing for SaaS companies in India relevant for any subscription or software layer.",
+        links: [
+          { text: "influencer marketing for mobile apps in India", href: "/blog/mobile-app-influencer-marketing-india" },
+          { text: "influencer marketing for SaaS companies in India", href: "/blog/saas-influencer-marketing-india" },
+        ],
+      },
+      {
+        type: "quote",
+        text: "The review that convinces someone to buy isn't the one that praises everything. It's the one that's honest about the single thing that's mediocre, because that's the part a spec sheet would never admit.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Getting help with a consumer electronics campaign", id: "getting-help-electronics" },
+      {
+        type: "paragraph",
+        text: "We help consumer electronics and gadget brands find creators with genuine technical credibility and structure launch coverage around how buyers in this category actually research before purchasing. Start a brand inquiry to talk through your next launch.",
+        links: [
+          { text: "find creators with genuine technical credibility", href: "/services/creator-discovery" },
+          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Should electronics brands prioritize long-form YouTube reviews or short-form content?",
+        answer:
+          "Both play a role. Short-form content tends to drive initial awareness, while long-form YouTube reviews and comparisons are usually where the final purchase decision gets made.",
+      },
+      {
+        question: "How important is technical expertise when choosing electronics creators?",
+        answer:
+          "It matters more for higher-consideration purchases like phones or laptops, where audiences expect genuine benchmark and real-world testing, while general tech or lifestyle creators can still be effective for broader awareness.",
+      },
+      {
+        question: "Can affiliate links accurately measure an electronics campaign's impact?",
+        answer:
+          "They capture direct, trackable conversions well, but some buyers research through creator content and purchase later through a different channel, so affiliate data should be treated as a partial, not complete, picture.",
+      },
+      {
+        question: "Is comparison content more effective than single-product reviews?",
+        answer:
+          "Often yes for considered purchases, since many buyers have already narrowed their choice to two or three products and are specifically looking for a direct comparison before deciding.",
+      },
+    ],
+  },
+  {
+    slug: "restaurant-cafe-influencer-marketing-india",
+    category: "Brand Marketing",
+    title: "Influencer Marketing for Restaurants and Cafes in India",
+    excerpt:
+      "How Indian restaurants and cafes can use hyperlocal creators to drive real foot traffic, distinct from the broader playbook packaged food and beverage brands need.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-11-23",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "A restaurant or cafe doesn't need national reach. It needs the handful of food creators and regular diners within a few kilometers who actually decide where to eat this weekend, which makes hyperlocal creator selection the single most important decision in a restaurant marketing campaign, more important than follower count, production quality, or even how well a creator's aesthetic matches the space.",
+      },
+      {
+        type: "paragraph",
+        text: "This article focuses specifically on restaurants, cafes, and other dine-in or delivery-adjacent food service businesses. For packaged food, beverage, and CPG brands, see influencer marketing for food and beverage brands in India, which covers a meaningfully different set of creator formats and objectives.",
+        links: [{ text: "influencer marketing for food and beverage brands in India", href: "/blog/influencer-marketing-food-brands-india" }],
+      },
+      { type: "heading", text: "Why local discovery matters more than reach", id: "local-discovery-restaurant" },
+      {
+        type: "paragraph",
+        text: "Most people choose a restaurant based on what's convenient to their location, not what has the most followers nationally. A food creator with 8,000 followers concentrated in one neighborhood is often more valuable to a cafe than a creator with 200,000 followers spread across the country.",
+      },
+      { type: "heading", text: "Food creators versus general lifestyle creators", id: "food-vs-lifestyle-restaurant" },
+      {
+        type: "paragraph",
+        text: "Dedicated food creators bring credibility on taste and value for money, while lifestyle creators can position a cafe as a destination, for aesthetics, ambience, or a specific occasion. Many restaurant campaigns benefit from both types rather than one exclusively.",
+      },
+      { type: "heading", text: "Hyperlocal influencer marketing", id: "hyperlocal-restaurant" },
+      {
+        type: "paragraph",
+        text: "Hyperlocal, in this context, means creators whose actual audience lives, works, or regularly visits the specific neighborhood or city the restaurant serves, not creators who simply live in the same city broadly. A creator based in the same city but with a citywide, generalist food audience is a different, less precise fit than one whose audience specifically follows them for that part of town. See regional influencer marketing in India for the broader local-versus-national principle this builds on.",
+        links: [{ text: "regional influencer marketing in India", href: "/blog/regional-influencer-marketing-india" }],
+      },
+      { type: "heading", text: "Restaurant and cafe launches", id: "launches-restaurant" },
+      {
+        type: "paragraph",
+        text: "A new restaurant or cafe opening benefits from staged coverage: a small, credible group of local creators visiting ahead of the public opening, followed by broader coverage once the space is actually open and taking walk-ins.",
+      },
+      { type: "heading", text: "Menu promotions", id: "menu-promotions-restaurant" },
+      {
+        type: "paragraph",
+        text: "A new menu item, a seasonal special, or a limited-time offering gives creators a specific, timely reason to visit and post, rather than a generic \"come check us out\" brief that doesn't fit naturally into their content.",
+      },
+      { type: "heading", text: "Seasonal and occasion-based campaigns", id: "seasonal-restaurant" },
+      {
+        type: "paragraph",
+        text: "Festivals, weather shifts, and occasions like Valentine's Day or New Year's Eve create natural dining-out moments, and creator content timed around these tends to outperform generic, non-time-bound promotion.",
+      },
+      { type: "heading", text: "Experience-based content", id: "experience-restaurant" },
+      {
+        type: "paragraph",
+        text: "For restaurants and cafes specifically, ambience, service, and the overall experience matter as much as the food itself, and content that captures this, not just plated dishes, gives a prospective diner a fuller sense of what visiting would actually feel like.",
+      },
+      { type: "heading", text: "Instagram and short-form video", id: "platforms-restaurant" },
+      {
+        type: "paragraph",
+        text: "Instagram Reels and short-form video remain the dominant format for restaurant discovery, since a short, visually appetizing clip mirrors exactly how someone browses for where to eat next.",
+      },
+      { type: "heading", text: "Local audience targeting", id: "audience-targeting-restaurant" },
+      {
+        type: "paragraph",
+        text: "Beyond creator selection, geo-tagging, location stickers, and collaborating with creators who consistently tag the same neighborhood help a restaurant's content surface to people actually searching or browsing for options nearby.",
+      },
+      { type: "heading", text: "Why follower count alone often matters less here", id: "follower-count-restaurant" },
+      {
+        type: "paragraph",
+        text: "A restaurant's addressable audience is inherently local and finite, everyone within a reasonable travel distance who might plausibly visit, which means a creator's relevance to that specific geography usually matters more than their absolute reach. A hyperlocal creator with a smaller, genuinely local following can outperform a citywide creator with far greater reach but limited relevance to the restaurant's actual catchment area.",
+      },
+      { type: "heading", text: "Restaurant Influencer Campaign Framework", id: "restaurant-framework" },
+      {
+        type: "table",
+        headers: ["Stage", "What happens", "Why it matters"],
+        rows: [
+          ["Creator discovery", "Identify creators whose audience is genuinely local to the restaurant's catchment area", "Determines whether content will actually reach people who can visit"],
+          ["Restaurant visit", "Creator visits and experiences the food, service, and ambience directly", "Produces genuine, credible content rather than a staged endorsement"],
+          ["Content planning", "Agree on menu items, angles, and any specific offer to feature", "Keeps content specific and timely rather than generic"],
+          ["Publishing", "Content goes live, ideally geo-tagged and timed to a relevant moment", "Maximizes discoverability for nearby, high-intent viewers"],
+          ["Local amplification", "Reshares, location tags, and any paid boost targeted to the local area", "Extends reach within the same relevant geography rather than diluting it nationally"],
+          ["Performance review", "Track visits, mentions, and any trackable offer redemptions", "Confirms whether the campaign actually drove local footfall"],
+        ],
+      },
+      { type: "heading", text: "Measuring restaurant campaigns", id: "measuring-restaurant" },
+      {
+        type: "paragraph",
+        text: "Reach and engagement matter less here than trackable signals of actual visits: a unique offer code mentioned only in creator content, a noticeable uptick in walk-ins or reservations during the campaign window, or direct mentions from customers who say they came because of a specific post.",
+      },
+      { type: "heading", text: "Common mistakes", id: "mistakes-restaurant" },
+      {
+        type: "list",
+        items: [
+          "Prioritizing a creator's total follower count over how local and relevant their actual audience is",
+          "Briefing every creator identically instead of giving each a specific dish, offer, or angle to feature",
+          "Running a single one-off visit instead of building an ongoing relationship with a small set of genuinely local creators",
+          "Ignoring geo-tagging and location-based discovery in favor of generic posting",
+        ],
+      },
+      {
+        type: "quote",
+        text: "A restaurant doesn't need the whole country to know it exists. It needs the few thousand people who could actually walk through the door this month.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Getting help with a restaurant or cafe campaign", id: "getting-help-restaurant" },
+      {
+        type: "paragraph",
+        text: "We help restaurants, cafes, and food service brands find genuinely local creators and structure campaigns around actual footfall rather than broad reach. Start a brand inquiry to talk through your next opening or seasonal push.",
+        links: [
+          { text: "find genuinely local creators", href: "/services/creator-discovery" },
+          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How is restaurant influencer marketing different from general food and beverage influencer marketing?",
+        answer:
+          "Restaurant marketing depends on hyperlocal creator relevance and driving actual foot traffic to a specific location, while food and beverage brand marketing, for packaged products, usually focuses on broader retail or e-commerce discovery.",
+      },
+      {
+        question: "Should a small cafe work with creators who have very large followings?",
+        answer:
+          "Not necessarily. A smaller creator whose audience is genuinely concentrated in the cafe's neighborhood is often more valuable than a large creator with a broad, non-local audience.",
+      },
+      {
+        question: "How can a restaurant measure whether a creator campaign actually drove visits?",
+        answer:
+          "Through a unique, trackable offer or code mentioned only in that creator's content, and by watching for a noticeable uptick in visits, reservations, or mentions during the campaign window.",
+      },
+      {
+        question: "Do restaurants need an ongoing creator relationship, or is a single visit enough?",
+        answer:
+          "An ongoing relationship with a small group of trusted local creators tends to build more consistent, credible visibility than a single one-off visit, particularly for a business that depends on repeat local customers.",
+      },
+    ],
+  },
+  {
     slug: "luxury-influencer-marketing-india",
     category: "Brand Marketing",
     title: "Influencer Marketing for Luxury Brands in India",
@@ -2117,6 +3001,11 @@ export const blogPosts: BlogPost[] = [
         type: "paragraph",
         text: "Encouraging genuine customer-generated content, real people sharing their own fitness journey with a product, can complement creator content with authentic, harder-to-manufacture social proof, covered in more depth in what is UGC marketing.",
         links: [{ text: "what is UGC marketing", href: "/blog/what-is-ugc-marketing" }],
+      },
+      {
+        type: "paragraph",
+        text: "This article covers gyms, supplements, apparel, and workout-app brands specifically. Sporting goods brands, athletic apparel tied to a specific sport, and sports-adjacent businesses should see influencer marketing for sports brands in India, which covers athlete collaborations and fan-community campaigns not addressed here.",
+        links: [{ text: "influencer marketing for sports brands in India", href: "/blog/sports-influencer-marketing-india" }],
       },
       { type: "heading", text: "Compliance considerations", id: "compliance-fitness" },
       {
@@ -5620,6 +6509,25 @@ export const blogPosts: BlogPost[] = [
         type: "paragraph",
         text: "Food and beverage campaigns often require more logistics planning than other categories, cold-chain shipping, expiry timing, and ensuring a creator actually has the product in hand before a shoot, all of which should be planned well ahead of any content deadline.",
       },
+      { type: "heading", text: "Food Brand Creator Selection Checklist", id: "food-creator-checklist" },
+      {
+        type: "list",
+        items: [
+          "Audience location — does the creator's audience overlap with where the product is actually sold or delivered?",
+          "Food category relevance — has the creator covered this type of food or beverage credibly before: packaged goods, restaurant dining, or home cooking?",
+          "Content quality — can the creator produce genuine, appetizing content without it feeling scripted?",
+          "Audience engagement — do comments and reactions reflect real interest, not generic engagement?",
+          "Brand suitability — does the creator's tone and typical content match the brand's positioning and price point?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For restaurants, cafes, and other dine-in businesses specifically, the creator brief and objectives differ enough to warrant a separate approach, covered in influencer marketing for restaurants and cafes in India. FMCG brands distributing food and beverage products at scale should also see influencer marketing for FMCG brands in India for the retail-distribution angle.",
+        links: [
+          { text: "influencer marketing for restaurants and cafes in India", href: "/blog/restaurant-cafe-influencer-marketing-india" },
+          { text: "influencer marketing for FMCG brands in India", href: "/blog/influencer-marketing-fmcg-brands-india" },
+        ],
+      },
       { type: "heading", text: "A note on nutritional and health claims", id: "health-claims-note-food" },
       {
         type: "paragraph",
@@ -5757,6 +6665,15 @@ export const blogPosts: BlogPost[] = [
         type: "paragraph",
         text: "Fashion preferences, climate, fabric choice, and occasion-driven shopping vary meaningfully across Indian regions and cultures. Avoid assuming a single national creative direction fits every region; where budget allows, adapting styling and occasion framing regionally tends to resonate more than a uniform national campaign.",
       },
+      {
+        type: "paragraph",
+        text: "Beauty brands face similar aesthetic-fit and demonstration questions, covered in influencer marketing for beauty and skincare brands in India, retail brands carrying fashion alongside other categories should see influencer marketing for retail brands in India, and premium fashion labels should see influencer marketing for luxury brands in India for positioning-specific guidance.",
+        links: [
+          { text: "influencer marketing for beauty and skincare brands in India", href: "/blog/influencer-marketing-beauty-brands-india" },
+          { text: "influencer marketing for retail brands in India", href: "/blog/retail-influencer-marketing-india" },
+          { text: "influencer marketing for luxury brands in India", href: "/blog/luxury-influencer-marketing-india" },
+        ],
+      },
       { type: "heading", text: "Fashion Influencer Campaign Planning Framework", id: "fashion-planning-framework" },
       {
         type: "list",
@@ -5888,6 +6805,27 @@ export const blogPosts: BlogPost[] = [
         type: "paragraph",
         text: "Strong demonstration content is often worth extending well beyond its original post, into paid ads, product pages, and retargeting, provided usage rights are agreed upfront. See how to repurpose influencer content for the specific channels worth planning for.",
         links: [{ text: "how to repurpose influencer content", href: "/blog/repurpose-influencer-content" }],
+      },
+      { type: "heading", text: "Beauty Creator Selection Framework", id: "beauty-creator-selection-framework" },
+      {
+        type: "list",
+        items: [
+          "Audience relevance — does the creator's audience match the skin tone, hair type, or concern your product actually addresses?",
+          "Content quality — is application, texture, and result demonstrated clearly rather than described only in captions?",
+          "Product category relevance — has the creator covered this specific category, skincare, makeup, or haircare, credibly before?",
+          "Engagement quality — do comments reflect genuine interest and trust, not generic or templated responses?",
+          "Brand alignment — does the creator's tone and aesthetic fit the brand's actual positioning?",
+          "Credibility — has the creator been consistent and honest in prior brand partnerships, including sharing genuine downsides?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Adjacent categories share some of this evaluation logic. Fashion brands face similar aesthetic-fit questions, covered in influencer marketing for fashion brands in India, while D2C beauty brands specifically should also see how Indian D2C brands can use influencer marketing to grow for funnel-level guidance, and premium beauty brands should see influencer marketing for luxury brands in India for positioning-specific considerations.",
+        links: [
+          { text: "influencer marketing for fashion brands in India", href: "/blog/influencer-marketing-fashion-brands-india" },
+          { text: "how Indian D2C brands can use influencer marketing to grow", href: "/blog/influencer-marketing-d2c-brands-india" },
+          { text: "influencer marketing for luxury brands in India", href: "/blog/luxury-influencer-marketing-india" },
+        ],
       },
       { type: "heading", text: "A note on responsible claims", id: "responsible-claims-beauty" },
       {
