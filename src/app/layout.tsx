@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter, Archivo_Black } from "next/font/google";
 import { MotionConfig } from "framer-motion";
+import Script from "next/script";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { Header } from "@/components/navigation/Header";
@@ -61,6 +62,9 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [siteConfig.ogImage],
   },
+  verification: {
+    google: "0hbFb6pYWfYAfW77QdmlDy2euqOTCP7XfVqyGeac39s",
+  },
 };
 
 export const viewport: Viewport = {
@@ -73,6 +77,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable} ${archivoBlack.variable}`}>
       <body className="antialiased">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HM12X0L35J"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HM12X0L35J');
+          `}
+        </Script>
         <JsonLd data={organizationSchema()} />
         <JsonLd data={websiteSchema()} />
         <a
