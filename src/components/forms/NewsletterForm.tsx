@@ -5,6 +5,7 @@ import { Check, ArrowRight } from "lucide-react";
 
 export function NewsletterForm() {
   const [email, setEmail] = useState("");
+  const [honeypot, setHoneypot] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -14,9 +15,10 @@ export function NewsletterForm() {
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, honeypot }),
       });
-      if (!res.ok) throw new Error("Request failed");
+      const data = await res.json().catch(() => null);
+      if (!res.ok || !data?.success) throw new Error("Request failed");
       setStatus("success");
       setEmail("");
     } catch {
@@ -34,6 +36,15 @@ export function NewsletterForm() {
 
   return (
     <form onSubmit={handleSubmit} className="flex w-full max-w-sm items-center gap-3 border-b border-paper/25 pb-2 sm:w-auto">
+      <input
+        type="text"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        value={honeypot}
+        onChange={(e) => setHoneypot(e.target.value)}
+        className="absolute left-[-9999px] top-auto h-px w-px overflow-hidden"
+      />
       <label htmlFor="newsletter-email" className="sr-only">
         Email address
       </label>

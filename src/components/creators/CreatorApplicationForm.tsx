@@ -26,10 +26,17 @@ export function CreatorApplicationForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
       });
-      if (!res.ok) throw new Error("Submission failed");
+      const data = await res.json().catch(() => null);
+      if (!res.ok || !data?.success) {
+        throw new Error(data?.message || "Submission failed");
+      }
       reset(values);
-    } catch {
-      setSubmitError("Something went wrong on our end. Please try again, or email us directly.");
+    } catch (error) {
+      setSubmitError(
+        error instanceof Error && error.message !== "Submission failed"
+          ? error.message
+          : "Something went wrong on our end. Please try again, or email us directly."
+      );
     }
   }
 
@@ -44,6 +51,14 @@ export function CreatorApplicationForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-8">
+      <input
+        type="text"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="absolute left-[-9999px] top-auto h-px w-px overflow-hidden"
+        {...register("honeypot")}
+      />
       <div className="grid gap-6 sm:grid-cols-2">
         <FieldWrapper label="Full Name" htmlFor="fullName" required error={errors.fullName?.message}>
           <TextInput id="fullName" hasError={!!errors.fullName} {...register("fullName")} />

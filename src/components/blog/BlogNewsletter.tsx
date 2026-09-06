@@ -8,6 +8,7 @@ import { Reveal } from "@/components/animations/Reveal";
 
 export function BlogNewsletter() {
   const [email, setEmail] = useState("");
+  const [honeypot, setHoneypot] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -17,9 +18,10 @@ export function BlogNewsletter() {
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, honeypot }),
       });
-      if (!res.ok) throw new Error();
+      const data = await res.json().catch(() => null);
+      if (!res.ok || !data?.success) throw new Error();
       setStatus("success");
       setEmail("");
     } catch {
@@ -42,6 +44,15 @@ export function BlogNewsletter() {
             </p>
           ) : (
             <form onSubmit={handleSubmit} className="mx-auto mt-8 flex max-w-md flex-col gap-3 sm:flex-row">
+              <input
+                type="text"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                value={honeypot}
+                onChange={(e) => setHoneypot(e.target.value)}
+                className="absolute left-[-9999px] top-auto h-px w-px overflow-hidden"
+              />
               <label htmlFor="blog-newsletter-email" className="sr-only">
                 Email address
               </label>
@@ -55,9 +66,14 @@ export function BlogNewsletter() {
                 className="w-full border-[1.5px] border-paper/25 bg-transparent px-4 py-3 text-center text-base text-paper placeholder:text-paper/35 focus:border-lime focus:outline-none sm:text-left"
               />
               <Button type="submit" disabled={status === "loading"} className="justify-center">
-                Subscribe
+                {status === "loading" ? "Subscribing..." : "Subscribe"}
               </Button>
             </form>
+          )}
+          {status === "error" && (
+            <p className="mt-4 text-sm font-medium text-coral" role="alert">
+              Something went wrong. Please try again.
+            </p>
           )}
         </Reveal>
       </Container>
