@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Kudozz",
   shortName: "Kudozz",
-  legalName: "Kudozz Media LLC",
+  legalName: "Kudozz Studios Private Limited",
   tagline: "Influence, Engineered.",
   description:
     "Kudozz is an influencer marketing agency that connects ambitious brands with creators who move culture — building campaigns that generate awareness, engagement, and measurable growth.",
@@ -38,11 +38,11 @@ export const siteConfig = {
     creatorEmail: "connect@kudozz.in",
   },
   social: {
-    instagram: "https://instagram.com/kudozz",
-    tiktok: "https://tiktok.com/@kudozz",
-    linkedin: "https://linkedin.com/company/kudozz",
-    x: "https://x.com/kudozz",
-    youtube: "https://youtube.com/@kudozz",
+    instagram: "https://instagram.com/kudozz.in",
+    // tiktok: "https://tiktok.com/@kudozz",
+    linkedin: "https://www.linkedin.com/company/kudozz-studio/",
+    // x: "https://x.com/kudozz",
+    // youtube: "https://youtube.com/@kudozz",
   },
   nav: [
     { label: "Home", href: "/" },
@@ -76,10 +76,10 @@ export const siteConfig = {
     ],
   },
   stats: [
-    { value: "480+", label: "Creators in Network" },
-    { value: "210+", label: "Campaigns Delivered" },
-    { value: "18", label: "Industries Served" },
-    { value: "1.2B+", label: "Total Campaign Reach" },
+    { value: "40k+", label: "Creators in Network" },
+    { value: "2k+", label: "Campaigns Delivered" },
+    { value: "18+", label: "Industries Served" },
+    { value: "5.2B+", label: "Total Campaign Reach" },
   ],
 } as const;
 

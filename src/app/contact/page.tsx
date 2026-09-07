@@ -44,10 +44,14 @@ export default function ContactPage() {
         <Reveal delay={0.14}>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/65">
             Brand inquiries go faster through our{" "}
-            <Link href="/for-brands#inquiry" className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-4">
+            <Link
+              href="/for-brands#inquiry"
+              className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-4"
+            >
               campaign inquiry form
             </Link>
-            . For everything else — press, partnerships, general questions — use the form below.
+            . For everything else — press, partnerships, general questions — use
+            the form below.
           </p>
         </Reveal>
 
@@ -56,14 +60,19 @@ export default function ContactPage() {
             <Reveal delay={0.05} className="flex gap-4 bg-coral p-6 text-ink">
               <Mail className="mt-1 size-5 shrink-0" />
               <div>
-                <p className="text-xs font-semibold uppercase tracking-wide opacity-60">Email</p>
-                <a href={`mailto:${siteConfig.contact.email}`} className="mt-1 block text-lg font-medium hover:underline">
+                <p className="text-xs font-semibold uppercase tracking-wide opacity-60">
+                  Email
+                </p>
+                <a
+                  href={`mailto:${siteConfig.contact.email}`}
+                  className="mt-1 block text-lg font-medium hover:underline"
+                >
                   {siteConfig.contact.email}
                 </a>
               </div>
             </Reveal>
 
-            <Reveal delay={0.1} className="border-[1.5px] border-ink p-6">
+            {/* <Reveal delay={0.1} className="border-[1.5px] border-ink p-6">
               <p className="text-xs font-semibold uppercase tracking-wide text-ink/50">Follow Along</p>
               <div className="mt-4 flex gap-3">
                 {socialLinks.map(({ href, label, Icon }) => (
@@ -79,10 +88,13 @@ export default function ContactPage() {
                   </a>
                 ))}
               </div>
-            </Reveal>
+            </Reveal> */}
           </div>
 
-          <Reveal delay={0.1} className="border-[1.5px] border-ink bg-paper p-8 shadow-[10px_10px_0_0_var(--color-ink)] sm:p-12">
+          <Reveal
+            delay={0.1}
+            className="border-[1.5px] border-ink bg-paper p-8 shadow-[10px_10px_0_0_var(--color-ink)] sm:p-12"
+          >
             <ContactForm />
           </Reveal>
         </div>
