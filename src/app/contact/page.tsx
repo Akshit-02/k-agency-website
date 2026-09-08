@@ -18,9 +18,9 @@ export const metadata: Metadata = buildMetadata({
 
 const socialLinks = [
   { href: siteConfig.social.instagram, label: "Instagram", Icon: AtSign },
-  { href: siteConfig.social.tiktok, label: "TikTok", Icon: Music3 },
+  // { href: siteConfig.social.tiktok, label: "TikTok", Icon: Music3 },
   { href: siteConfig.social.linkedin, label: "LinkedIn", Icon: LinkedInGlyph },
-  { href: siteConfig.social.youtube, label: "YouTube", Icon: YouTubeGlyph },
+  // { href: siteConfig.social.youtube, label: "YouTube", Icon: YouTubeGlyph },
 ];
 
 export default function ContactPage() {
