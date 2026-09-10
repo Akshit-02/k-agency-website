@@ -35,6 +35,1351 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "best-influencer-marketing-agencies-in-india",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in India: Top Agencies for Brands in 2026",
+    excerpt:
+      "A practical guide to finding the right influencer marketing agency in India, what these agencies actually do, how to evaluate options, and where Kudozz fits for brands planning a creator campaign.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-14",
+    readingTime: "10 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Searching for the best influencer marketing agency in India usually means one of two things: either you've never run a creator campaign and don't know where to start, or you've tried one agency and it didn't go well. Either way, the honest answer is that there's no single agency that's objectively 'best' for every brand. The right partner depends on your industry, budget, target audience, and whether you need national reach or deep regional coverage.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz is a full-service influencer marketing agency working with Indian brands across strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, with a stated network of 480+ creators across 210+ campaigns and 18 industries. Beyond Kudozz, Indian brands typically compare national full-service agencies, regional or boutique agencies with strong local-language creator relationships, and creator marketplace platforms, choosing based on campaign objective, budget, and whether the brand needs national or regional-language coverage.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in India", id: "best-agencies-india" },
+      { type: "heading", text: "Kudozz", id: "kudozz-india" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Indian brands, D2C companies, startups, and larger consumer businesses across the full influencer marketing process: strategy and planning, creator discovery and vetting, outreach and negotiation, campaign management, social media campaign execution, product launch campaigns, UGC production, brand ambassador programs, and campaign reporting. The agency's published guidance covers major metro markets alongside regional and vernacular creator marketing specifically, plus dedicated frameworks for micro and nano influencer campaigns, relevant for brands that don't want a strategy built only around large national creators.",
+        links: [
+          { text: "regional and vernacular creator marketing", href: "/blog/regional-influencer-marketing-india" },
+          { text: "micro and nano influencer campaigns", href: "/blog/micro-influencers-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Kudozz's own site lists a network of 480+ creators, 210+ campaigns delivered, and experience across 18 industries. Services are structured as eight distinct offerings, strategy, creator discovery, outreach and management, social campaigns, product launches, UGC campaigns, ambassador programs, and reporting, rather than one bundled package, so brands can bring in the specific piece they need rather than a full retainer they don't want yet.",
+        links: [{ text: "eight distinct offerings", href: "/services" }],
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners in India", id: "other-partner-types-india" },
+      {
+        type: "paragraph",
+        text: "Beyond any single agency, brands researching this space in India generally encounter four different kinds of partners, and it's worth knowing which one you're actually talking to before comparing quotes.",
+      },
+      {
+        type: "table",
+        headers: ["Partner type", "What they typically offer", "Best suited for"],
+        rows: [
+          ["Full-service influencer marketing agency", "Strategy, creator discovery, outreach, campaign management, and reporting under one engagement", "Brands that want the process managed end to end"],
+          ["Regional or boutique agency", "Deep relationships with creators in a specific city, state, or language", "Brands prioritizing local or regional-language reach"],
+          ["Creator marketplace platform", "Self-serve tools to search, contact, and pay creators directly", "Brands with in-house teams who want to run outreach themselves"],
+          ["Digital or social media agency with an influencer add-on", "Influencer marketing bundled alongside paid social, SEO, or content services", "Brands consolidating multiple marketing functions with one vendor"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A digital marketing agency that occasionally arranges an influencer post isn't the same as a dedicated influencer marketing agency, and a creator marketplace that hands you a database isn't the same as a partner that plans and manages a campaign for you. Confirm which category you're actually evaluating.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-methodology-india" },
+      {
+        type: "paragraph",
+        text: "There's no independently audited, universal ranking of influencer marketing agencies in India, and any list that claims otherwise should be read skeptically. A more useful approach is evaluating a shortlist against consistent criteria: influencer marketing capability specifically, not general marketing services with influencers as an afterthought; creator network depth and how it's sourced; campaign execution track record; regional or language relevance to your audience; the specific services offered; and what's publicly verifiable about their work rather than claims alone.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-india" },
+      {
+        type: "list",
+        items: [
+          "Strategy — defining the campaign objective, audience, and platform mix before any creator is contacted",
+          "Influencer discovery — sourcing creators who match the target audience, not just the industry",
+          "Creator vetting — checking engagement quality, audience authenticity, and content fit",
+          "Outreach and negotiation — contacting creators, agreeing rates, deliverables, and usage rights",
+          "Campaign management — briefing, content approvals, and publishing coordination",
+          "Reporting and measurement — tracking performance against the original objective, not just reach",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "See how influencer campaign management works for the full operational workflow behind this.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Indian Brands Are Using Influencer Marketing", id: "why-india" },
+      {
+        type: "paragraph",
+        text: "India's creator economy spans everything from large national creators with millions of followers to hyperlocal and regional-language creators trusted by a specific city or community. For brands, this means influencer marketing can serve genuinely different jobs: mass awareness, niche category credibility, or reaching a regional or language audience that broad national advertising doesn't serve well. This range is a big part of why influencer marketing has become a standard line item in Indian marketing budgets rather than an experimental one.",
+      },
+      { type: "heading", text: "Which Influencers Should Indian Brands Work With?", id: "which-influencers-india" },
+      {
+        type: "paragraph",
+        text: "The right creator tier depends on the objective, not a fixed rule. Nano and micro creators tend to work well for trust-building, niche categories, and cost-efficient content volume. Macro and celebrity creators suit fast, broad-awareness moments like a major launch. Regional-language creators matter specifically when a brand's audience sits outside a purely English-speaking, metro demographic. See micro vs. macro influencers for a full breakdown of these tradeoffs.",
+        links: [{ text: "micro vs. macro influencers", href: "/blog/micro-vs-macro-influencers" }],
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in India?", id: "platforms-india" },
+      {
+        type: "paragraph",
+        text: "Instagram remains the primary platform for most consumer categories in India, YouTube tends to perform better for considered purchases and detailed reviews, and LinkedIn is increasingly used for B2B creator content. The right platform mix should follow where your specific audience already spends time, not which platform is generically 'best.'",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in India?", id: "cost-india" },
+      {
+        type: "paragraph",
+        text: "Costs vary enormously based on creator tier, platform, content format, usage rights, exclusivity, and campaign duration, which makes any flat number misleading. For a full breakdown of the factors that actually move Indian influencer pricing, see how much influencer marketing costs in India and how to calculate an influencer marketing budget.",
+        links: [
+          { text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" },
+          { text: "how to calculate an influencer marketing budget", href: "/blog/influencer-marketing-budget" },
+        ],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-india" },
+      {
+        type: "list",
+        items: [
+          "Creator quality — does their network include creators genuinely relevant to your category, not just any creator?",
+          "Audience fit — can they demonstrate how they'd match creators to your specific target audience?",
+          "Strategy — do they start with your objective, or jump straight to a creator list?",
+          "Campaign execution — do they manage the full process, or only introductions?",
+          "Reporting — is measurement built in from the start, tied to your actual KPI?",
+          "Communication and transparency — are pricing, process, and timelines clear upfront?",
+          "Brand safety — do they screen creators for content and reputation risk?",
+          "Regional understanding — can they work with regional-language creators if your audience needs it?",
+          "Contracts and usage rights — are deliverables, timelines, and content usage specified in writing?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "See how to choose an influencer marketing agency in India for a fuller evaluation framework, and influencer marketing agency vs. in-house if you're still deciding whether to outsource this at all.",
+        links: [
+          { text: "how to choose an influencer marketing agency in India", href: "/blog/choose-influencer-marketing-agency-india" },
+          { text: "influencer marketing agency vs. in-house", href: "/blog/influencer-marketing-agency-vs-in-house" },
+        ],
+      },
+      {
+        type: "quote",
+        text: "The brands that get the most out of an agency relationship aren't the ones who found the 'top-ranked' name. They're the ones who were specific about their objective before they started evaluating anyone.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands", id: "kudozz-for-brands-india" },
+      {
+        type: "paragraph",
+        text: "If you're planning a campaign, Kudozz can help with strategy, creator discovery, outreach, campaign management, and reporting, as a full engagement or for the specific piece you need. Start a campaign with Kudozz to talk through your objective, audience, and budget.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in India?",
+        answer:
+          "There's no single objectively best agency for every brand; the right choice depends on your industry, audience, budget, and whether you need national or regional-language creator coverage. Kudozz is one option offering full-service strategy, creator discovery, campaign management, and reporting.",
+      },
+      {
+        question: "How do I choose an influencer marketing agency in India?",
+        answer:
+          "Evaluate agencies on creator network relevance to your category, campaign execution capability, reporting practices, transparency on pricing and process, and regional or language coverage if your audience needs it, rather than reach or client logos alone.",
+      },
+      {
+        question: "How much does influencer marketing cost in India?",
+        answer:
+          "It varies significantly by creator tier, platform, content format, and usage rights. There's no fixed national rate; a realistic budget should be built around your specific campaign scope.",
+      },
+      {
+        question: "Should I hire a national agency or a regional one?",
+        answer:
+          "It depends on your audience. A national agency suits brands needing broad, multi-market reach, while a regional agency can be stronger for a brand concentrated in one state or language market.",
+      },
+      {
+        question: "What services does an influencer marketing agency provide?",
+        answer:
+          "Typically strategy, creator discovery and vetting, outreach and negotiation, campaign management, content approvals, and reporting, though the exact scope varies by agency and should be confirmed upfront.",
+      },
+      {
+        question: "Can Kudozz run campaigns with regional or vernacular creators?",
+        answer:
+          "Yes, Kudozz has published guidance specifically on regional and vernacular influencer marketing and works with creators across language markets, not only national English-language creators.",
+      },
+      {
+        question: "How is influencer marketing ROI measured?",
+        answer:
+          "Through KPIs matched to the campaign objective, awareness, engagement, traffic, or conversions, tracked with tools like UTM links or promo codes rather than reach alone.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-andhra-pradesh",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Andhra Pradesh",
+    excerpt:
+      "A practical guide to finding an influencer marketing partner for an Andhra Pradesh brand, covering Visakhapatnam, Vijayawada, and the state's education, pharma, and entertainment sectors.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-15",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Andhra Pradesh's commercial landscape splits across a few genuinely distinct hubs, Visakhapatnam's IT and pharma economy, Vijayawada and Guntur's trading and agricultural base, and a competitive-exam coaching industry concentrated enough to shape how education brands market to families across the state. A brand searching for an influencer marketing agency here needs a partner who understands which of these worlds their audience actually lives in.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Andhra Pradesh brands on influencer strategy, creator discovery, outreach, campaign management, and reporting, with published guidance covering education and EdTech creator marketing, healthcare brand campaigns relevant to the state's pharma sector, and Telugu-language regional creator marketing. Beyond Kudozz, Andhra Pradesh brands typically compare Hyderabad-adjacent Telugu-market agencies (given the shared language and entertainment industry with Telangana) against national agencies and smaller Vizag or Vijayawada-based regional operators.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Andhra Pradesh", id: "best-agencies-ap" },
+      { type: "heading", text: "Kudozz", id: "kudozz-ap" },
+      {
+        type: "paragraph",
+        text: "Andhra Pradesh's large competitive-exam coaching and EdTech sector, serving students preparing for engineering and medical entrance exams across the state, is directly covered in Kudozz's education and EdTech influencer marketing guidance, including why guaranteed exam results or income claims should never appear in creator content. Visakhapatnam's pharmaceutical and healthcare businesses are covered separately in Kudozz's healthcare brand framework, built around the higher trust and compliance bar this category requires.",
+        links: [
+          { text: "education and EdTech influencer marketing guidance", href: "/blog/influencer-marketing-education-edtech-brands-india" },
+          { text: "healthcare brand framework", href: "/blog/influencer-marketing-healthcare-brands-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Kudozz's core services, strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, are backed by a stated network of 480+ creators across 210+ campaigns and 18 industries. Given the state's Telugu-speaking population and the entertainment industry's genuine reach across Telugu-language audiences, Kudozz's regional and vernacular creator marketing and entertainment brand guidance are both directly relevant.",
+        links: [
+          { text: "regional and vernacular creator marketing", href: "/blog/regional-influencer-marketing-india" },
+          { text: "entertainment brand guidance", href: "/blog/entertainment-influencer-marketing-india" },
+        ],
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-ap" },
+      {
+        type: "paragraph",
+        text: "Because Andhra Pradesh shares the Telugu language and much of its entertainment industry with Telangana, many AP brands end up comparing agencies based in Hyderabad alongside those based in Visakhapatnam or Vijayawada. A Hyderabad-based agency often has deeper access to Telugu-language entertainment and film-adjacent creators; a Vizag or Vijayawada-based regional operator may better understand the state's specific pharma, education, or agricultural business context. National agencies bring broader creator access but may need more direction on Telugu-language content specifically.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-ap" },
+      {
+        type: "paragraph",
+        text: "Compare shortlisted partners on genuine influencer marketing capability, access to Telugu-language creators if your audience needs it, category-specific experience, particularly for education, pharma, or agri-based businesses, and transparent reporting and pricing rather than an unverified ranking.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-ap" },
+      {
+        type: "paragraph",
+        text: "Strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting are the core functions any agency should provide. See how influencer campaign management works for the detailed workflow.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Andhra Pradesh Are Using Influencer Marketing", id: "why-ap" },
+      {
+        type: "paragraph",
+        text: "Education and EdTech brands use creator content heavily to reach students and parents across the state's competitive coaching ecosystem, an audience that's simultaneously skeptical of promotional claims and genuinely searching for guidance. Pharma and healthcare businesses based in Visakhapatnam use creator content more cautiously, focused on brand storytelling and general education rather than product-outcome claims. Agricultural and agri-input businesses serving the state's farming communities are increasingly using regional-language creator content to reach farmers directly.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Andhra Pradesh Work With?", id: "which-influencers-ap" },
+      {
+        type: "paragraph",
+        text: "Telugu-language creators covering education, lifestyle, or entertainment carry genuine local trust, particularly for reaching audiences outside Visakhapatnam and Vijayawada's more English-fluent urban core. Education brands benefit from creators who are actual students or recent graduates rather than generic lifestyle creators. Healthcare and pharma brands should prioritize creators with genuine subject credibility over reach entirely.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Andhra Pradesh?", id: "platforms-ap" },
+      {
+        type: "paragraph",
+        text: "YouTube has a particularly strong role in Andhra Pradesh given the popularity of long-form Telugu content, from education explainers to entertainment commentary. Instagram remains dominant for lifestyle, fashion, and food categories, while LinkedIn has a smaller but growing role for the state's IT and pharma B2B audiences.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Andhra Pradesh?", id: "cost-ap" },
+      {
+        type: "paragraph",
+        text: "There's no fixed state-specific rate card. Cost depends on creator tier, platform, content format, and whether a campaign requires Telugu-language content production. See how much influencer marketing costs in India for the underlying factors.",
+        links: [{ text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" }],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-ap" },
+      {
+        type: "list",
+        items: [
+          "Genuine access to Telugu-language creators",
+          "Category experience in education, healthcare, or agriculture if relevant to your business",
+          "Compliance discipline for education or healthcare-adjacent claims",
+          "Clear campaign management and reporting",
+          "Transparent pricing and written usage rights",
+        ],
+      },
+      {
+        type: "quote",
+        text: "A student preparing for an entrance exam in Vijayawada and a pharma buyer evaluating a Vizag manufacturer are both technically the same state's audience, but nothing else about how you'd reach them is the same.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Andhra Pradesh", id: "kudozz-for-brands-ap" },
+      {
+        type: "paragraph",
+        text: "Whether you're an education, healthcare, agriculture, or consumer brand reaching Andhra Pradesh audiences, Kudozz can help with strategy, creator discovery, campaign management, and reporting. Start a campaign with Kudozz to talk through your objective, audience, and budget.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Andhra Pradesh?",
+        answer:
+          "There's no single independently verified best agency. The right fit depends on your category and whether you need Telugu-language creator relationships. Kudozz offers relevant experience in education, healthcare, and regional creator marketing.",
+      },
+      {
+        question: "Should I use a Hyderabad-based agency for an Andhra Pradesh campaign?",
+        answer:
+          "It can make sense given the shared Telugu language and entertainment industry, though a Visakhapatnam or Vijayawada-based regional operator may better understand the state's specific pharma, education, or agricultural business context.",
+      },
+      {
+        question: "How much does influencer marketing cost in Andhra Pradesh?",
+        answer:
+          "There's no fixed local rate card. Cost depends on creator tier, platform, format, and whether Telugu-language content production is required.",
+      },
+      {
+        question: "Which influencers work best for Andhra Pradesh's education sector?",
+        answer:
+          "Creators who are actual students or recent graduates, with genuine subject credibility, tend to build more trust than generic lifestyle creators for education and EdTech campaigns.",
+      },
+      {
+        question: "Can Kudozz run Telugu-language creator campaigns?",
+        answer:
+          "Yes, Kudozz has published dedicated regional and vernacular creator marketing guidance and works with local-language creators as part of its broader creator discovery process.",
+      },
+      {
+        question: "Do pharma and healthcare brands in Andhra Pradesh need special compliance care?",
+        answer:
+          "Yes, healthcare and pharma-adjacent creator content should avoid medical claims and guaranteed outcomes, and any specific claim should be reviewed by qualified professionals before publishing.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-arunachal-pradesh",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Arunachal Pradesh",
+    excerpt:
+      "A practical, honest guide to influencer marketing for Arunachal Pradesh brands, covering the state's tourism and handicraft sectors and why combining local and national creators usually makes sense.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-16",
+    readingTime: "7 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Arunachal Pradesh doesn't have a large, developed local influencer marketing agency scene, and it's worth saying that plainly rather than pretending otherwise. The state's creator ecosystem is genuinely smaller than most of India, which changes the practical answer to 'who's the best agency here' from a ranking question into a strategy question: how do you combine a handful of local creators with broader regional or national reach.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Arunachal Pradesh and broader Northeast-focused brands on influencer strategy, creator discovery, outreach, campaign management, and reporting, with published guidance on regional and vernacular creator marketing and travel and tourism campaigns relevant to the state's largest commercial sector. Given the smaller local creator pool, most brands here work with an agency that can combine a small number of genuinely local Arunachal creators with national or Northeast-region travel and lifestyle creators, rather than expecting a purely local roster.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Arunachal Pradesh", id: "best-agencies-arunachal" },
+      { type: "heading", text: "Kudozz", id: "kudozz-arunachal" },
+      {
+        type: "paragraph",
+        text: "For Arunachal Pradesh's tourism sector, adventure and eco-tourism around destinations like Tawang and Ziro Valley, Kudozz's travel and tourism influencer marketing guidance covers how travel creators are actually evaluated, itinerary-focused content, and why bookings shouldn't be treated as a guaranteed outcome of a creator campaign. The agency's regional and vernacular creator marketing framework is built around exactly the kind of market Arunachal Pradesh represents: one where a purely national, English-language creator strategy misses genuine local relevance.",
+        links: [
+          { text: "travel and tourism influencer marketing guidance", href: "/blog/influencer-marketing-travel-brands-india" },
+          { text: "regional and vernacular creator marketing framework", href: "/blog/regional-influencer-marketing-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Kudozz's services span strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, with a stated network of 480+ creators across 210+ campaigns and 18 industries, giving it broader creator access than a purely local Arunachal-based operator could offer on its own.",
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-arunachal" },
+      {
+        type: "paragraph",
+        text: "Given the limited size of Arunachal Pradesh's own agency ecosystem, most brands here realistically choose between a national agency with genuine Northeast creator sourcing capability, or working directly with a small number of local Itanagar-based creators without a formal agency layer at all. A national agency brings process discipline and broader reach; going direct to local creators can work for a very small, geographically focused campaign but leaves the brand managing outreach, contracts, and content approval itself.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-arunachal" },
+      {
+        type: "paragraph",
+        text: "Be skeptical of any agency claiming a large dedicated Arunachal Pradesh creator network, given the state's genuinely smaller market. Instead, evaluate whether a prospective partner can demonstrate real Northeast India creator relationships, understands the state's linguistic diversity, Arunachal Pradesh has many tribal languages rather than one dominant regional language, and has a realistic plan for combining local and national or regional creators rather than promising local-only coverage that doesn't exist at scale.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-arunachal" },
+      {
+        type: "paragraph",
+        text: "Strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting are the core functions to expect, regardless of market size. See how influencer campaign management works for the full breakdown.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Arunachal Pradesh Are Using Influencer Marketing", id: "why-arunachal" },
+      {
+        type: "paragraph",
+        text: "Tourism and eco-tourism operators use creator content to reach travelers well before the state appears on their radar as a destination option, since Arunachal Pradesh competes for attention against far more established Indian travel destinations. Local handicraft and agricultural producers use creator-style content increasingly to reach buyers outside the state directly through e-commerce, rather than relying solely on physical distribution.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Arunachal Pradesh Work With?", id: "which-influencers-arunachal" },
+      {
+        type: "paragraph",
+        text: "For tourism specifically, travel and adventure creators who've genuinely visited Arunachal Pradesh, rather than a generic Northeast India feature, build more credible interest. Given the smaller local creator base, a realistic strategy usually combines a few authentic local voices, often bilingual and active on Instagram or YouTube covering local culture and travel, with broader regional or national travel creators who can bring the state into a wider audience's consideration set.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Arunachal Pradesh?", id: "platforms-arunachal" },
+      {
+        type: "paragraph",
+        text: "Instagram and YouTube both matter for tourism content, Instagram for visual discovery and YouTube for longer travel vlogs covering logistics and itineraries that matter more for a less-familiar destination. Given lower local content volume, well-produced long-form YouTube content can do more to establish credibility than a high volume of short-form posts.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Arunachal Pradesh?", id: "cost-arunachal" },
+      {
+        type: "paragraph",
+        text: "There's no established local rate benchmark given the market's size. Costs are more likely to be driven by travel and production logistics, getting a creator to a remote destination, than by a standard per-post fee. See how much influencer marketing costs in India for the general cost factors that still apply.",
+        links: [{ text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" }],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-arunachal" },
+      {
+        type: "list",
+        items: [
+          "Honest acknowledgment of the local creator market's actual size, not an inflated claim",
+          "Genuine Northeast India creator relationships, not just national creators willing to travel",
+          "A realistic plan combining local and national or regional creators",
+          "Understanding of the state's linguistic diversity rather than a single assumed language",
+          "Clear reporting on awareness and engagement rather than unrealistic booking promises",
+        ],
+      },
+      {
+        type: "quote",
+        text: "Arunachal Pradesh doesn't need an agency pretending it has a large local creator economy. It needs one honest about the market's size and genuinely capable of bringing in the right national and regional voices alongside it.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Arunachal Pradesh", id: "kudozz-for-brands-arunachal" },
+      {
+        type: "paragraph",
+        text: "Whether you're a tourism operator, handicraft producer, or another Arunachal Pradesh business, Kudozz can help build a realistic creator strategy that combines local relevance with broader reach. Start a campaign with Kudozz to talk through your objective and audience.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Arunachal Pradesh?",
+        answer:
+          "There's no large, independently ranked local agency scene given the state's smaller creator market. Brands should look for a partner with genuine Northeast India creator relationships and a realistic plan combining local and national creators. Kudozz offers this alongside dedicated tourism and regional creator marketing guidance.",
+      },
+      {
+        question: "Does Arunachal Pradesh have a local creator economy?",
+        answer:
+          "A smaller one compared to most Indian states. Most effective campaigns combine a limited number of genuinely local creators with national or Northeast-region travel and lifestyle creators.",
+      },
+      {
+        question: "How much does influencer marketing cost in Arunachal Pradesh?",
+        answer:
+          "There's no established local rate benchmark. Costs are often shaped more by travel and production logistics for reaching remote destinations than by a standard per-post fee.",
+      },
+      {
+        question: "Which influencers work best for Arunachal Pradesh tourism?",
+        answer:
+          "Travel and adventure creators who've genuinely visited the state, combined with local voices who can add authentic cultural context, tend to work better than a generic national creator with no direct connection to the destination.",
+      },
+      {
+        question: "Does Arunachal Pradesh have one dominant regional language for creator content?",
+        answer:
+          "No, the state has significant linguistic diversity across tribal languages, with Hindi and English widely used, so campaigns shouldn't assume a single regional language the way some other states allow.",
+      },
+      {
+        question: "Can Kudozz help with a Northeast India or Arunachal Pradesh campaign?",
+        answer:
+          "Yes, Kudozz has published dedicated tourism and regional and vernacular creator marketing guidance and can help structure a campaign combining local and broader creator reach.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-assam",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Assam",
+    excerpt:
+      "A practical guide to finding an influencer marketing partner for an Assam brand, covering Guwahati's commercial economy, Assamese-language creators, and the state's tea, tourism, and food sectors.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-17",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Guwahati functions as the commercial and creator hub for the entire Northeast region, not just Assam, which means a brand searching for an influencer marketing agency here is often, whether they realize it or not, evaluating partners who serve a wider Northeast audience. Assam's own economy, tea, tourism around Kaziranga and Majuli, oil and petroleum, and Assamese silk and handloom, adds several genuinely distinct categories most agencies outside the region rarely work with directly.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Assam brands on influencer strategy, creator discovery, outreach, campaign management, and reporting, with published guidance on regional and vernacular creator marketing and travel and tourism campaigns relevant to Assam's Kaziranga and Majuli tourism sector. Beyond Kudozz, Assam brands typically compare Guwahati-based regional agencies with genuine Assamese-language creator relationships against national agencies bringing broader creator access.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Assam", id: "best-agencies-assam" },
+      { type: "heading", text: "Kudozz", id: "kudozz-assam" },
+      {
+        type: "paragraph",
+        text: "For Assam's tourism sector, Kudozz's travel and tourism influencer marketing guidance covers destination discovery, creator selection based on genuine travel-audience relevance, and honest disclosure for sponsored travel content, all directly applicable to destinations like Kaziranga National Park and Majuli island. The agency's regional and vernacular creator marketing framework addresses exactly the kind of local-language relevance that matters for Assamese-speaking audiences outside Guwahati's more cosmopolitan core.",
+        links: [
+          { text: "travel and tourism influencer marketing guidance", href: "/blog/influencer-marketing-travel-brands-india" },
+          { text: "regional and vernacular creator marketing framework", href: "/blog/regional-influencer-marketing-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Core services, strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, are backed by a stated network of 480+ creators across 210+ campaigns and 18 industries. Assam's food and beverage sector, including its distinct tea culture and regional cuisine, is covered in Kudozz's food and beverage creator marketing guidance, and the state's growing handloom and textile D2C businesses can draw on Kudozz's fashion brand framework.",
+        links: [
+          { text: "food and beverage creator marketing guidance", href: "/blog/influencer-marketing-food-brands-india" },
+          { text: "fashion brand framework", href: "/blog/influencer-marketing-fashion-brands-india" },
+        ],
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-assam" },
+      {
+        type: "paragraph",
+        text: "Guwahati has a genuine, active local agency and creator scene given its role as the Northeast's commercial hub, so Assam brands can realistically compare Guwahati-based regional operators against national full-service agencies. A Guwahati-based partner typically has stronger Assamese-language creator relationships and closer familiarity with the region's tea, tourism, and handloom industries; a national agency brings broader creator access for brands scaling beyond the Northeast.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-assam" },
+      {
+        type: "paragraph",
+        text: "Evaluate options on genuine influencer marketing capability, access to Assamese-language creators if your audience needs it, category experience relevant to tourism, tea, food, or handloom businesses, and transparent reporting and pricing rather than an unverified ranking claim.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-assam" },
+      {
+        type: "paragraph",
+        text: "Strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting are the core functions. See how influencer campaign management works for the full operational workflow.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Assam Are Using Influencer Marketing", id: "why-assam" },
+      {
+        type: "paragraph",
+        text: "Tourism operators around Kaziranga, Majuli, and other Assam destinations use creator content to build awareness among travelers who might not otherwise consider the Northeast, since the region competes for attention against more heavily marketed Indian destinations. Assamese handloom and textile D2C brands use creator content to reach buyers beyond the state, including diaspora audiences. Food and beverage businesses, including Assam's tea sector, use creator content for both regional brand-building and increasingly for e-commerce-driven national reach.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Assam Work With?", id: "which-influencers-assam" },
+      {
+        type: "paragraph",
+        text: "Assamese-language creators covering lifestyle, food, and travel carry genuine local trust, particularly for reaching audiences in Dibrugarh, Silchar, or Jorhat rather than only Guwahati's urban core. For tourism specifically, travel creators who've genuinely visited Assam's destinations perform better than generic Northeast India content. Handloom and textile brands benefit from creators who understand the cultural significance of Assamese silk rather than treating it as generic fashion content.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Assam?", id: "platforms-assam" },
+      {
+        type: "paragraph",
+        text: "Instagram is the primary platform for tourism, fashion, and food discovery. YouTube works well for longer travel content covering Assam's less mainstream destinations, where viewers need more context than a short clip provides.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Assam?", id: "cost-assam" },
+      {
+        type: "paragraph",
+        text: "There's no fixed Assam-specific rate card. Cost depends on creator tier, platform, format, and whether the campaign requires travel to a specific destination. See how much influencer marketing costs in India for the broader set of factors.",
+        links: [{ text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" }],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-assam" },
+      {
+        type: "list",
+        items: [
+          "Genuine Assamese-language creator relationships",
+          "Tourism, food, or handloom category experience if relevant to your brand",
+          "Understanding of Assam's specific destinations, not generic Northeast content",
+          "Clear campaign management and reporting",
+          "Transparent pricing and written usage rights",
+        ],
+      },
+      {
+        type: "quote",
+        text: "A Kaziranga tour operator and a Guwahati D2C fashion brand are both Assam businesses, but one needs a travel creator who's genuinely been there, and the other needs a fashion creator who understands the audience buying online.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Assam", id: "kudozz-for-brands-assam" },
+      {
+        type: "paragraph",
+        text: "Whether you're a tourism operator, handloom brand, or food business reaching Assam audiences, Kudozz can help with strategy, creator discovery, campaign management, and reporting. Start a campaign with Kudozz to talk through your objective, audience, and budget.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Assam?",
+        answer:
+          "There's no single independently verified best agency. Assam brands generally benefit from a partner with genuine Assamese-language creator relationships. Kudozz offers relevant tourism, food, and regional creator marketing experience.",
+      },
+      {
+        question: "Is Guwahati's creator scene representative of the whole Northeast?",
+        answer:
+          "Guwahati functions as the Northeast's commercial and creator hub, so many agencies based there serve a wider regional audience, not only Assam specifically.",
+      },
+      {
+        question: "How much does influencer marketing cost in Assam?",
+        answer:
+          "There's no fixed local rate card. Cost depends on creator tier, platform, format, and whether travel to a specific destination like Kaziranga or Majuli is required.",
+      },
+      {
+        question: "Which influencers work best for Assam tourism brands?",
+        answer:
+          "Travel creators who've genuinely visited Assam's specific destinations, rather than generic Northeast India content, tend to build more credible interest among prospective travelers.",
+      },
+      {
+        question: "Can Kudozz work with Assamese-language creators?",
+        answer:
+          "Yes, Kudozz has published dedicated regional and vernacular creator marketing guidance and works with local-language creators as part of its broader creator discovery process.",
+      },
+      {
+        question: "Does Assam's handloom and textile sector use influencer marketing?",
+        answer:
+          "Increasingly yes, particularly for D2C brands selling Assamese silk and textiles to buyers outside the state, including diaspora audiences reached through creator content.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-bihar",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Bihar",
+    excerpt:
+      "A practical guide to finding an influencer marketing partner for a Bihar brand, covering Patna's commercial economy, the state's massive education sector, and Bhojpuri-language creator marketing.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-18",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Bihar's education and coaching industry, particularly Patna's competitive-exam coaching ecosystem, is large and visible enough that it shapes a genuinely disproportionate share of the state's influencer marketing activity, but it isn't the whole picture. D2C brands reaching tier 2 and tier 3 Bihar towns, FMCG companies, and a fast-growing Bhojpuri-language content ecosystem, with an audience that extends well beyond the state's own borders, all matter to a brand evaluating an agency here.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Bihar brands on influencer strategy, creator discovery, outreach, campaign management, and reporting, with published guidance covering education and EdTech creator marketing directly relevant to Patna's coaching industry, and regional and vernacular creator marketing relevant to Bhojpuri, Maithili, and Magahi-speaking audiences. Beyond Kudozz, Bihar brands typically compare Patna-based regional operators against national agencies with EdTech or D2C category experience.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Bihar", id: "best-agencies-bihar" },
+      { type: "heading", text: "Kudozz", id: "kudozz-bihar" },
+      {
+        type: "paragraph",
+        text: "Bihar's education and coaching sector is one of the largest and most competitive in India, and Kudozz's education and EdTech influencer marketing guidance covers exactly the compliance risks this category carries, including explicit guardrails against guaranteed exam results, career outcomes, or income claims that are common pitfalls in this space. For D2C and FMCG brands reaching Bihar's tier 2 and tier 3 towns, Kudozz's D2C influencer marketing funnel and FMCG campaign framework are both directly relevant.",
+        links: [
+          { text: "education and EdTech influencer marketing guidance", href: "/blog/influencer-marketing-education-edtech-brands-india" },
+          { text: "D2C influencer marketing funnel", href: "/blog/d2c-influencer-marketing-funnel-india" },
+          { text: "FMCG campaign framework", href: "/blog/influencer-marketing-fmcg-brands-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Core services, strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, are backed by a stated network of 480+ creators across 210+ campaigns and 18 industries. Bihar's Bhojpuri-language creator ecosystem, which reaches a large audience well beyond the state itself, is covered under Kudozz's broader regional and vernacular creator marketing guidance.",
+        links: [{ text: "regional and vernacular creator marketing guidance", href: "/blog/regional-influencer-marketing-india" }],
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-bihar" },
+      {
+        type: "paragraph",
+        text: "Patna has a genuine local agency presence given the scale of the state's education and coaching industry, so Bihar brands can compare Patna-based regional operators, often with specific EdTech or coaching-sector experience, against national agencies with broader category range. A regional operator may understand the coaching industry's specific marketing patterns better; a national agency typically brings more rigorous compliance discipline and broader creator access, both relevant given how much scrutiny education marketing claims attract.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-bihar" },
+      {
+        type: "paragraph",
+        text: "Evaluate any shortlist on genuine influencer marketing capability, whether they demonstrate compliance discipline around education and career claims specifically, access to Bhojpuri, Maithili, or Magahi-speaking creators if relevant, and transparent reporting and pricing.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-bihar" },
+      {
+        type: "paragraph",
+        text: "Strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting are the core functions to expect. See how influencer campaign management works for the full workflow.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Bihar Are Using Influencer Marketing", id: "why-bihar" },
+      {
+        type: "paragraph",
+        text: "Education and coaching brands use creator content to reach students and parents across Patna, Gaya, Bhagalpur, and Muzaffarpur in a genuinely competitive market where trust and honest communication matter more than reach. D2C and e-commerce brands use creator content as a discovery layer for tier 2 and tier 3 towns where traditional retail distribution is limited. FMCG brands lean on regional-language content, particularly Bhojpuri, to build recall and trial in a way that a purely Hindi or English campaign often misses.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Bihar Work With?", id: "which-influencers-bihar" },
+      {
+        type: "paragraph",
+        text: "For education brands, creators who are actual students or recent exam-qualifiers bring more credibility than a generic lifestyle creator. Bhojpuri-language creators, many of whom have an audience extending well beyond Bihar into other Hindi-belt states and among the diaspora, are especially valuable for FMCG and D2C brands. Nano and micro creators based in Patna or smaller Bihar towns can add genuine local trust for regional campaigns.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Bihar?", id: "platforms-bihar" },
+      {
+        type: "paragraph",
+        text: "YouTube has an outsized role in Bihar given the popularity of long-form Bhojpuri content and detailed exam-preparation guidance, both formats that don't fit into a short Reel. Instagram remains relevant for lifestyle, fashion, and food categories, particularly among younger, urban audiences in Patna.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Bihar?", id: "cost-bihar" },
+      {
+        type: "paragraph",
+        text: "There's no fixed Bihar-specific rate card. Cost depends on creator tier, platform, content format, and whether Bhojpuri or other regional-language content production is required. See how much influencer marketing costs in India for the underlying factors.",
+        links: [{ text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" }],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-bihar" },
+      {
+        type: "list",
+        items: [
+          "Compliance discipline for education and career-outcome claims specifically",
+          "Genuine access to Bhojpuri, Maithili, or Magahi-speaking creators if relevant",
+          "Category experience in education, D2C, or FMCG",
+          "Clear campaign management and reporting",
+          "Transparent pricing and written usage rights",
+        ],
+      },
+      {
+        type: "quote",
+        text: "The education brands that get into trouble in Bihar's coaching market aren't the ones with weak creators. They're the ones that let a creator promise a rank or a result nobody can actually guarantee.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Bihar", id: "kudozz-for-brands-bihar" },
+      {
+        type: "paragraph",
+        text: "Whether you're an education, D2C, or FMCG brand reaching Bihar audiences, Kudozz can help with strategy, creator discovery, campaign management, and reporting. Start a campaign with Kudozz to talk through your objective, audience, and budget.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Bihar?",
+        answer:
+          "There's no single independently verified best agency. Bihar brands, especially in education, should prioritize a partner with genuine compliance discipline around outcome claims. Kudozz offers relevant education, D2C, and regional creator marketing experience.",
+      },
+      {
+        question: "Can education brands promise exam results in creator content in Bihar?",
+        answer:
+          "No, guaranteed exam results, career outcomes, or income claims are misleading regardless of location, since individual outcomes vary significantly and such promises carry real compliance risk.",
+      },
+      {
+        question: "How much does influencer marketing cost in Bihar?",
+        answer:
+          "There's no fixed local rate card. Cost depends on creator tier, platform, format, and whether regional-language content production, such as Bhojpuri, is required.",
+      },
+      {
+        question: "Which influencers work best for Bihar's education sector?",
+        answer:
+          "Creators who are actual students or recent exam-qualifiers, with genuine, demonstrated credibility, tend to build more trust than generic lifestyle creators for this category.",
+      },
+      {
+        question: "Is Bhojpuri-language content only relevant within Bihar?",
+        answer:
+          "No, Bhojpuri-language creators often reach a large audience well beyond Bihar's borders, including other Hindi-belt states and diaspora communities, which can make this content valuable for brands with broader regional ambitions.",
+      },
+      {
+        question: "Can Kudozz run compliant education-sector campaigns in Bihar?",
+        answer:
+          "Yes, Kudozz has published dedicated education and EdTech influencer marketing guidance with explicit guardrails against guaranteed outcomes, directly relevant to Bihar's coaching industry.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-himachal-pradesh",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Himachal Pradesh",
+    excerpt:
+      "A practical guide to finding the right influencer marketing partner for a Himachal Pradesh brand, covering the state's tourism, horticulture, and pharma sectors, and where Kudozz fits.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-23",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Himachal Pradesh's economy runs on a mix that doesn't show up together in most states: hill-station tourism, apple horticulture, hydropower, and a genuinely large pharmaceutical manufacturing base centered around Baddi. A brand searching for an influencer marketing agency here could be a Manali homestay, a Kullu apple exporter, or a Baddi-based pharma company, and those three businesses need almost nothing in common from a creator marketing partner.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Himachal Pradesh brands across influencer strategy, creator discovery, outreach, campaign management, and reporting, and has published guidance specifically on regional and vernacular creator marketing and on the travel and tourism sector relevant to much of the state's economy. Beyond Kudozz, brands in Himachal Pradesh typically weigh national agencies against smaller regional partners with genuine on-ground presence in Shimla, Manali, or Dharamshala, depending on whether the campaign needs travel-creator-heavy tourism content or a more B2B-oriented approach for manufacturing and pharma.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Himachal Pradesh", id: "best-agencies-himachal" },
+      { type: "heading", text: "Kudozz", id: "kudozz-himachal" },
+      {
+        type: "paragraph",
+        text: "Kudozz offers influencer strategy, creator discovery and vetting, outreach and negotiation, campaign management, social media campaigns, UGC production, ambassador programs, and reporting as distinct services, which matters for a state where campaign needs vary as widely as Himachal Pradesh's does. For tourism, hospitality, and travel-adjacent brands specifically, Kudozz has published dedicated guidance on travel and tourism influencer marketing and hospitality brand campaigns, covering how travel creators are actually evaluated and how sponsored stays should be disclosed.",
+        links: [
+          { text: "travel and tourism influencer marketing", href: "/blog/influencer-marketing-travel-brands-india" },
+          { text: "hospitality brand campaigns", href: "/blog/influencer-marketing-hospitality-brands-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Kudozz's site lists a network of 480+ creators across 210+ campaigns and 18 industries, and the agency has published specific frameworks for micro and nano influencer campaigns and for regional and vernacular creator marketing, both relevant to a state where the addressable local creator base is smaller than a metro market but genuinely engaged.",
+        links: [
+          { text: "micro and nano influencer campaigns", href: "/blog/micro-influencers-india" },
+          { text: "regional and vernacular creator marketing", href: "/blog/regional-influencer-marketing-india" },
+        ],
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-himachal" },
+      {
+        type: "paragraph",
+        text: "Given Himachal Pradesh's relatively smaller local creator and agency ecosystem compared to a metro state, most brands here end up choosing between a national full-service agency, a small regional operator based in Shimla or Manali with genuine local creator relationships, or a self-serve creator marketplace platform. A national agency typically brings broader creator access and process discipline; a regional operator brings on-the-ground familiarity with local tourism operators and Pahari-speaking creators, but may have limited capacity for a large multi-state campaign. Confirm which of these you're actually talking to, since a general digital marketing agency that occasionally books a travel influencer isn't the same as one built around creator marketing specifically.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-himachal" },
+      {
+        type: "paragraph",
+        text: "There's no independently audited ranking of agencies specific to Himachal Pradesh, and treat any list claiming to be one with some skepticism. A more reliable approach is comparing options against consistent criteria: genuine influencer marketing capability rather than general marketing services, familiarity with the state's tourism, horticulture, or manufacturing sectors depending on your category, access to creators who actually cover Himachal destinations or speak to a local audience, and transparent pricing and reporting.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-himachal" },
+      {
+        type: "paragraph",
+        text: "At a minimum, expect strategy and objective-setting, creator discovery and vetting, outreach and negotiation, campaign management including briefing and content approvals, and reporting tied to your original goal. See how influencer campaign management works for the full operational breakdown.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Himachal Pradesh Are Using Influencer Marketing", id: "why-himachal" },
+      {
+        type: "paragraph",
+        text: "Tourism and hospitality businesses across Shimla, Manali, Dharamshala, and Kullu increasingly rely on travel creator content to reach prospective visitors well before they book, since a genuine stay or trek experience shown by a creator does more for a homestay or adventure operator than brochure photography. Apple and horticulture exporters, meanwhile, use creator content more for brand-building and D2C sales than tourism-style discovery, and the state's Baddi pharma cluster occasionally needs B2B-oriented creator or thought-leadership content rather than consumer influencer marketing at all.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Himachal Pradesh Work With?", id: "which-influencers-himachal" },
+      {
+        type: "paragraph",
+        text: "Travel and adventure creators who've genuinely visited Himachal destinations carry more weight than a generic lifestyle creator for tourism and hospitality campaigns. Nano and micro creators based in or near a specific town can add authentic, on-the-ground detail national travel creators often miss. For horticulture and D2C brands, mid-tier lifestyle and food creators covering Himachali produce can build category awareness without needing celebrity-level reach.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Himachal Pradesh?", id: "platforms-himachal" },
+      {
+        type: "paragraph",
+        text: "Instagram dominates for travel and hospitality discovery, given how visually driven destination content is. YouTube works well for longer travel vlogs and detailed trek or itinerary content that a short Reel can't capture. For pharma and B2B-adjacent Baddi businesses, LinkedIn is more relevant than consumer social platforms.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Himachal Pradesh?", id: "cost-himachal" },
+      {
+        type: "paragraph",
+        text: "Costs depend on creator tier, content format, usage rights, and whether the collaboration involves a hosted stay or trip versus a paid fee, and there's no fixed local rate card. See how much influencer marketing costs in India and how to calculate an influencer marketing budget for the full set of factors that move pricing.",
+        links: [
+          { text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" },
+          { text: "how to calculate an influencer marketing budget", href: "/blog/influencer-marketing-budget" },
+        ],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-himachal" },
+      {
+        type: "list",
+        items: [
+          "Genuine influencer marketing focus, not general marketing services with creators added on",
+          "Familiarity with tourism, horticulture, or your specific sector",
+          "Access to creators who actually cover Himachal destinations or the local audience you need",
+          "Clear reporting tied to your campaign objective",
+          "Transparent pricing and written usage rights",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "See how to choose an influencer marketing agency in India for the fuller evaluation framework this checklist is drawn from.",
+        links: [{ text: "how to choose an influencer marketing agency in India", href: "/blog/choose-influencer-marketing-agency-india" }],
+      },
+      {
+        type: "quote",
+        text: "A homestay in Manali and a pharma exporter in Baddi are both technically 'Himachal Pradesh brands,' but they need completely different creators, formats, and platforms. Start with the objective, not the state name.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Himachal Pradesh", id: "kudozz-for-brands-himachal" },
+      {
+        type: "paragraph",
+        text: "Whether you're a tourism or hospitality business looking for genuine travel creator coverage, or a horticulture, D2C, or pharma brand needing a different kind of campaign, Kudozz can help with strategy, creator discovery, campaign management, and reporting. Start a campaign with Kudozz to talk through your objective, audience, and budget.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Himachal Pradesh?",
+        answer:
+          "There's no single independently verified best agency; the right fit depends on whether you need tourism-focused travel creator campaigns or a different sector approach. Kudozz offers full-service influencer strategy, creator discovery, and campaign management relevant to both.",
+      },
+      {
+        question: "Should a Himachal Pradesh brand hire a local or national agency?",
+        answer:
+          "It depends on scope. A local operator in Shimla or Manali may have stronger on-the-ground creator relationships, while a national agency typically offers broader creator access and more structured campaign management for larger or multi-market campaigns.",
+      },
+      {
+        question: "How much does influencer marketing cost in Himachal Pradesh?",
+        answer:
+          "There's no fixed local rate. Cost depends on creator tier, content format, whether the collaboration is a hosted stay or a paid fee, and usage rights, similar to the factors that apply nationally.",
+      },
+      {
+        question: "Which influencers work best for Himachal tourism brands?",
+        answer:
+          "Travel and adventure creators who've genuinely visited the specific destination, combined with local nano or micro creators for authentic, on-the-ground detail, tend to perform better than a generic national lifestyle creator alone.",
+      },
+      {
+        question: "Can Kudozz work with creators covering Himachal Pradesh specifically?",
+        answer:
+          "Yes, Kudozz has published dedicated guidance on travel and tourism influencer marketing and works with both travel-focused and regional creators relevant to Himachal destinations.",
+      },
+      {
+        question: "What services does an influencer marketing agency provide?",
+        answer:
+          "Typically strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting, though the exact scope varies by agency and should be confirmed upfront.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-haryana",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Haryana",
+    excerpt:
+      "A practical guide to finding an influencer marketing partner for a Haryana brand, from Gurugram's corporate and automotive economy to Panipat's textile industry, and where Kudozz fits.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-22",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Haryana is an unusual state to search 'influencer marketing agency' for, because Gurugram alone functions as part of the Delhi-NCR corporate and creator ecosystem, while Panipat's textile trade, Faridabad's manufacturing base, and the state's genuinely strong sporting culture pull in completely different directions. A Gurugram SaaS startup and a Panipat home-furnishing exporter are both Haryana brands, but they need different creators entirely.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Haryana brands, including Gurugram-based startups and corporate brands, on influencer strategy, creator discovery, outreach, campaign management, and reporting, with published guidance covering B2B creator marketing relevant to Gurugram's corporate base and automotive-sector campaigns relevant to the Gurugram-Manesar manufacturing belt. Beyond Kudozz, Haryana brands often end up choosing between Delhi-NCR-based agencies given Gurugram's overlap with that market, and smaller regional operators for Haryanvi-language or non-NCR campaigns.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Haryana", id: "best-agencies-haryana" },
+      { type: "heading", text: "Kudozz", id: "kudozz-haryana" },
+      {
+        type: "paragraph",
+        text: "For Gurugram's corporate, SaaS, and B2B-heavy economy, Kudozz has published dedicated frameworks for B2B influencer marketing and for SaaS company creator campaigns, both built around LinkedIn creators and industry experts rather than the consumer-influencer playbook. For the automotive manufacturing cluster around Gurugram and Manesar, Kudozz's automotive influencer marketing guidance covers vehicle reviewers, dealership-level campaigns, and the realistic length of a vehicle-purchase consideration cycle.",
+        links: [
+          { text: "B2B influencer marketing", href: "/blog/b2b-influencer-marketing-india" },
+          { text: "SaaS company creator campaigns", href: "/blog/saas-influencer-marketing-india" },
+          { text: "automotive influencer marketing", href: "/blog/automotive-influencer-marketing-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Kudozz's services span strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, and the site lists a network of 480+ creators across 210+ campaigns and 18 industries. Haryana's strong sporting culture, the state produces a disproportionate share of India's national athletes, also makes Kudozz's published sports brand influencer marketing guidance relevant for sporting goods or fitness brands based in the state.",
+        links: [{ text: "sports brand influencer marketing", href: "/blog/sports-influencer-marketing-india" }],
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-haryana" },
+      {
+        type: "paragraph",
+        text: "Because Gurugram functions as part of the wider Delhi-NCR market, many Gurugram brands end up comparing NCR-based full-service agencies against Haryana-specific regional operators. A national or NCR agency typically has broader creator access and deeper B2B or corporate creator relationships useful for Gurugram's economy; a regional operator may have stronger Haryanvi-language reach for brands targeting Panipat, Karnal, or more rural parts of the state. Distinguish carefully between a genuine influencer marketing agency and a corporate PR or digital marketing firm that occasionally arranges an influencer post.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-haryana" },
+      {
+        type: "paragraph",
+        text: "Evaluate any shortlist on genuine influencer marketing capability, whether they understand B2B and corporate creator marketing if that's relevant to your business, access to creators actually based in or covering Haryana, campaign execution track record, and transparent reporting, rather than treating any published 'top agency' list as independently verified.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-haryana" },
+      {
+        type: "paragraph",
+        text: "Strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting are the core functions to expect. See how influencer campaign management works for the detailed operational workflow.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Haryana Are Using Influencer Marketing", id: "why-haryana" },
+      {
+        type: "paragraph",
+        text: "Gurugram's SaaS and corporate businesses increasingly use LinkedIn creators and industry experts for B2B lead generation rather than consumer-style influencer marketing. The automotive cluster around Gurugram and Manesar uses creator content for vehicle launches and dealership-level promotion. Panipat's textile and home-furnishing exporters use creator content for both B2C brand-building and increasingly for reaching international buyers through content, while Haryana's real estate sector, concentrated heavily in Gurugram, uses creator-led project walkthroughs similar to other NCR markets.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Haryana Work With?", id: "which-influencers-haryana" },
+      {
+        type: "paragraph",
+        text: "For Gurugram's B2B and SaaS brands, LinkedIn-based industry experts and subject-matter creators matter more than follower count. For consumer categories, a mix of Delhi-NCR-based lifestyle creators and Haryanvi-language creators works well depending on whether the target audience is urban Gurugram or the wider state. Sporting goods brands can consider athlete or sports-community creator partnerships given the state's genuine sporting culture.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Haryana?", id: "platforms-haryana" },
+      {
+        type: "paragraph",
+        text: "LinkedIn is disproportionately important for Gurugram's corporate and B2B economy compared to most other states. Instagram remains the primary platform for consumer categories, and YouTube suits detailed automotive reviews and considered-purchase content relevant to the Gurugram-Manesar auto cluster.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Haryana?", id: "cost-haryana" },
+      {
+        type: "paragraph",
+        text: "Gurugram's proximity to the Delhi-NCR creator market means pricing there often tracks closer to Delhi rates than to smaller Haryana towns. Cost still depends on creator tier, platform, format, and usage rights rather than a fixed number. See how much influencer marketing costs in India and influencer marketing campaign costs in India for the full budgeting picture.",
+        links: [
+          { text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" },
+          { text: "influencer marketing campaign costs in India", href: "/blog/influencer-campaign-cost-india" },
+        ],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-haryana" },
+      {
+        type: "list",
+        items: [
+          "Genuine B2B or LinkedIn creator marketing experience if you're a Gurugram corporate or SaaS brand",
+          "Access to creators actually relevant to your target city, not just NCR-generic reach",
+          "Campaign execution and reporting tied to your specific KPI",
+          "Transparent pricing and written usage rights",
+          "Regional-language capability if your audience extends beyond urban Gurugram",
+        ],
+      },
+      {
+        type: "quote",
+        text: "A Gurugram SaaS startup and a Panipat textile exporter are both technically Haryana brands, but one needs a LinkedIn creator strategy and the other needs something closer to a regional consumer campaign.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Haryana", id: "kudozz-for-brands-haryana" },
+      {
+        type: "paragraph",
+        text: "Whether you're a Gurugram B2B or automotive brand or a consumer business elsewhere in Haryana, Kudozz can help with strategy, creator discovery, campaign management, and reporting. Start a campaign with Kudozz to talk through your objective, audience, and budget.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Haryana?",
+        answer:
+          "There's no single independently verified best agency. Gurugram-based brands often need B2B or LinkedIn creator marketing capability specifically, while other parts of Haryana may need regional-language consumer creator relationships. Kudozz offers both.",
+      },
+      {
+        question: "Is Gurugram treated as part of the Delhi-NCR creator market?",
+        answer:
+          "In practice, yes. Gurugram's creator ecosystem and agency landscape overlap significantly with Delhi-NCR, so many Gurugram brands compare NCR-based agencies alongside Haryana-specific ones.",
+      },
+      {
+        question: "How much does influencer marketing cost in Haryana?",
+        answer:
+          "It depends on creator tier, platform, and format. Gurugram pricing tends to track closer to Delhi-NCR rates, while smaller Haryana towns may see different local dynamics, though there's no fixed rate card either way.",
+      },
+      {
+        question: "Which influencers work best for B2B and SaaS brands in Gurugram?",
+        answer:
+          "LinkedIn-based industry experts and subject-matter creators tend to matter more than follower count, since B2B buyers are evaluating credibility and relevance, not reach.",
+      },
+      {
+        question: "Can Kudozz run B2B or automotive-focused campaigns?",
+        answer:
+          "Yes, Kudozz has published dedicated frameworks for B2B, SaaS, and automotive influencer marketing, all relevant to Haryana's Gurugram-centered corporate and manufacturing economy.",
+      },
+      {
+        question: "What services does an influencer marketing agency provide?",
+        answer:
+          "Typically strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting, though the exact scope should be confirmed with any agency before signing.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-gujarat",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Gujarat",
+    excerpt:
+      "A practical guide to finding an influencer marketing partner for a Gujarat brand, covering Ahmedabad, Surat, and Vadodara's distinct industries, and where Kudozz fits.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-21",
+    readingTime: "9 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Gujarat's entrepreneurial reputation shows up directly in how many D2C and consumer brands are actively searching for an influencer marketing agency here, from Ahmedabad's textile and trading base to Surat's diamond and textile export economy to Vadodara and Rajkot's more diversified manufacturing and retail sectors. The state's business culture, built on trade and small-business ownership, means brands here often want a partner who understands both digital-first D2C marketing and a more traditional trading mindset around pricing and relationships.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Gujarat brands on influencer strategy, creator discovery, outreach, campaign management, and reporting, with published guidance specifically relevant to jewellery, fashion, food, and D2C brands, all significant categories in the state. Beyond Kudozz, Gujarat brands typically compare national full-service agencies against Ahmedabad or Surat-based regional operators with Gujarati-language creator relationships, depending on whether the campaign needs broad national reach or deep local trust.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Gujarat", id: "best-agencies-gujarat" },
+      { type: "heading", text: "Kudozz", id: "kudozz-gujarat" },
+      {
+        type: "paragraph",
+        text: "Gujarat's jewellery, fashion, and food sectors are all specifically covered in Kudozz's published industry guidance, jewellery influencer marketing for the state's fine and fashion jewellery trade, fashion brand campaigns for Ahmedabad and Surat's textile-adjacent apparel businesses, and food and beverage creator marketing relevant to the state's strong regional food culture. For Gujarat's large D2C and e-commerce base, Kudozz has also published a dedicated D2C influencer marketing funnel.",
+        links: [
+          { text: "jewellery influencer marketing", href: "/blog/influencer-marketing-jewellery-brands-india" },
+          { text: "fashion brand campaigns", href: "/blog/influencer-marketing-fashion-brands-india" },
+          { text: "food and beverage creator marketing", href: "/blog/influencer-marketing-food-brands-india" },
+          { text: "D2C influencer marketing funnel", href: "/blog/d2c-influencer-marketing-funnel-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Kudozz's services cover strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, with a stated network of 480+ creators across 210+ campaigns and 18 industries. For real estate developers active in Ahmedabad and Gandhinagar's expanding residential market, Kudozz's real estate influencer marketing guidance and Ahmedabad-specific city guide are also directly relevant.",
+        links: [
+          { text: "real estate influencer marketing", href: "/blog/influencer-marketing-real-estate-brands-india" },
+          { text: "Ahmedabad-specific city guide", href: "/blog/influencer-marketing-ahmedabad" },
+        ],
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-gujarat" },
+      {
+        type: "paragraph",
+        text: "Gujarat has a genuinely active local agency scene, particularly in Ahmedabad and Surat, alongside national agencies that treat the state as one region among several. A local Ahmedabad or Surat operator may bring stronger Gujarati-language creator relationships and closer familiarity with the state's textile, diamond, and trading business culture. A national agency typically brings broader creator access and more structured process, useful for a brand scaling beyond Gujarat. There are also several creator marketplace platforms active in the state that suit brands wanting to manage outreach themselves. Confirm which category you're evaluating, since a general digital marketing shop that occasionally runs an influencer post is a different service than a dedicated creator marketing agency.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-gujarat" },
+      {
+        type: "paragraph",
+        text: "Compare shortlisted partners on genuine influencer marketing capability, familiarity with Gujarat's specific commercial sectors, whether they can source Gujarati-language creators if your audience needs it, campaign execution and reporting practices, and transparent pricing, rather than relying on an unverified 'best agency' list.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-gujarat" },
+      {
+        type: "paragraph",
+        text: "Strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting are the core functions any agency should provide. See how influencer campaign management works for the full workflow.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Gujarat Are Using Influencer Marketing", id: "why-gujarat" },
+      {
+        type: "paragraph",
+        text: "Gujarat's D2C and e-commerce entrepreneurs, many building brands out of Ahmedabad and Surat's trading networks, use influencer marketing for both initial product awareness and ongoing brand-building in a way that mirrors D2C brands nationally. Jewellery and fashion businesses use creator content around wedding season and major festivals like Navratri and Diwali, both significant purchase moments in the state. Surat's diamond and textile exporters increasingly use content, including creator-adjacent formats, to reach both domestic retail buyers and international audiences online.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Gujarat Work With?", id: "which-influencers-gujarat" },
+      {
+        type: "paragraph",
+        text: "Gujarati-language creators covering fashion, food, and lifestyle content carry genuine local trust, particularly for brands targeting audiences outside Ahmedabad's more English-fluent urban core. For jewellery and wedding-season campaigns, creators with genuine bridal or occasion-styling credibility matter more than broad reach. D2C brands scaling nationally often mix Gujarat-based creators with a broader national roster.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Gujarat?", id: "platforms-gujarat" },
+      {
+        type: "paragraph",
+        text: "Instagram remains dominant for fashion, jewellery, and food content. YouTube works well for longer-form D2C product reviews and Gujarati-language lifestyle content. For B2B textile and diamond trade audiences, LinkedIn has a growing but still smaller role compared to consumer platforms.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Gujarat?", id: "cost-gujarat" },
+      {
+        type: "paragraph",
+        text: "There's no fixed Gujarat-specific rate card. Cost depends on creator tier, platform, content format, usage rights, and whether the campaign is timed to a high-demand period like wedding season or Navratri. See how much influencer marketing costs in India and how to calculate an influencer marketing budget for the underlying factors.",
+        links: [
+          { text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" },
+          { text: "how to calculate an influencer marketing budget", href: "/blog/influencer-marketing-budget" },
+        ],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-gujarat" },
+      {
+        type: "list",
+        items: [
+          "Genuine experience in your specific category, jewellery, fashion, D2C, or real estate",
+          "Access to Gujarati-language creators if your audience needs it",
+          "Understanding of Gujarat's festival and wedding-season purchase cycles",
+          "Clear campaign management and reporting",
+          "Transparent pricing and written usage rights",
+        ],
+      },
+      {
+        type: "quote",
+        text: "A Surat diamond exporter and an Ahmedabad D2C skincare brand are both Gujarat businesses, but their creator briefs, budgets, and even the platforms that matter look almost nothing alike.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Gujarat", id: "kudozz-for-brands-gujarat" },
+      {
+        type: "paragraph",
+        text: "Whether you're a jewellery, fashion, D2C, or real estate brand based in Ahmedabad, Surat, Vadodara, or elsewhere in Gujarat, Kudozz can help with strategy, creator discovery, campaign management, and reporting. Start a campaign with Kudozz to talk through your objective, audience, and budget.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Gujarat?",
+        answer:
+          "There's no single independently verified best agency. The right fit depends on your category and whether you need Gujarati-language local creator relationships or broader national reach. Kudozz offers relevant experience in jewellery, fashion, food, and D2C categories common in the state.",
+      },
+      {
+        question: "Should I choose an Ahmedabad-based agency or a national one?",
+        answer:
+          "It depends on scope. A local Ahmedabad or Surat operator may offer stronger Gujarati-language and local trade relationships, while a national agency typically has broader creator access and more structured processes for scaling campaigns.",
+      },
+      {
+        question: "How much does influencer marketing cost in Gujarat?",
+        answer:
+          "There's no fixed local rate card. Cost depends on creator tier, platform, format, and timing, particularly around high-demand periods like wedding season or Navratri.",
+      },
+      {
+        question: "Which influencers work best for Gujarat's jewellery and fashion brands?",
+        answer:
+          "Creators with genuine bridal or occasion-styling credibility, ideally with Gujarati-language content or a Gujarat-based audience, tend to perform better than a generic national fashion creator for these categories.",
+      },
+      {
+        question: "Is Ahmedabad's influencer marketing scene different from the rest of Gujarat?",
+        answer:
+          "Ahmedabad has the state's largest and most developed creator and agency ecosystem, but Surat, Vadodara, and Rajkot each have distinct local business cultures worth understanding rather than treating the whole state as one market. See influencer marketing in Ahmedabad for the city-specific guide.",
+      },
+      {
+        question: "Can Kudozz run campaigns for jewellery and D2C brands specifically?",
+        answer:
+          "Yes, Kudozz has published dedicated guidance for jewellery, fashion, food, D2C, and real estate influencer marketing, all relevant categories in Gujarat.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-goa",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Goa",
+    excerpt:
+      "A practical guide to finding an influencer marketing partner for a Goa brand, from tourism and hospitality to wellness and lifestyle, and where Kudozz fits.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-20",
+    readingTime: "8 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Goa is one of the few Indian states where tourism-adjacent categories, hotels, restaurants, wellness retreats, and lifestyle brands, make up such a large share of the local economy that most brands searching for an influencer marketing agency here are dealing with the same fundamental question: how do you get a travel creator to genuinely represent an experience rather than just post a scenic photo and move on.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Goa-based hospitality, travel, and lifestyle brands on influencer strategy, creator discovery, outreach, campaign management, and reporting, with published guidance specifically covering hotel and resort creator collaborations, restaurant and hyperlocal food marketing, and luxury brand positioning relevant to Goa's premium hospitality segment. Beyond Kudozz, Goa brands typically compare travel-and-lifestyle-focused agencies, which understand hosted-stay disclosure and travel creator vetting, against general digital agencies that treat influencer marketing as an add-on.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Goa", id: "best-agencies-goa" },
+      { type: "heading", text: "Kudozz", id: "kudozz-goa" },
+      {
+        type: "paragraph",
+        text: "For Goa's hotels and resorts specifically, Kudozz has published a dedicated hospitality brand framework covering hotel creator selection criteria, why a creator's travel-audience relevance and geographic reach matter more than raw follower count, and how to set expectations around hosted-stay collaborations. Restaurants and cafes across Panaji, Margao, and the coastal belt are covered separately in Kudozz's hyperlocal restaurant marketing guidance, which treats a beachside restaurant's needs as genuinely different from a city hotel's.",
+        links: [
+          { text: "hospitality brand framework", href: "/blog/influencer-marketing-hospitality-brands-india" },
+          { text: "hyperlocal restaurant marketing guidance", href: "/blog/restaurant-cafe-influencer-marketing-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For Goa's premium wellness retreats and luxury lifestyle brands, Kudozz's luxury brand creator selection framework covers why exclusivity and audience quality matter more than reach for high-end positioning. The agency's core services span strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, with a stated network of 480+ creators across 210+ campaigns.",
+        links: [{ text: "luxury brand creator selection framework", href: "/blog/luxury-influencer-marketing-india" }],
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-goa" },
+      {
+        type: "paragraph",
+        text: "Goa has a genuinely active pool of travel and lifestyle creators, and a corresponding mix of agency types: specialist travel and hospitality marketing agencies, national full-service agencies that occasionally run Goa-specific campaigns, and self-serve creator marketplaces where a hotel can book a hosted stay directly. A specialist hospitality-focused partner typically understands seasonal booking patterns and travel creator vetting better than a generalist; a national agency may bring broader creator access for a brand also marketing outside Goa.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-goa" },
+      {
+        type: "paragraph",
+        text: "Compare options on genuine hospitality or travel creator marketing experience, not general marketing capability, how they vet a travel creator's actual audience relevance versus follower count, whether they understand hosted-stay disclosure requirements, and transparent reporting rather than vague 'reach' numbers.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-goa" },
+      {
+        type: "paragraph",
+        text: "Strategy, creator discovery and vetting, outreach and negotiation, campaign coordination including hosted-stay logistics where relevant, and reporting are the core functions. See how influencer campaign management works for the detailed operational breakdown.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Goa Are Using Influencer Marketing", id: "why-goa" },
+      {
+        type: "paragraph",
+        text: "Goa's hospitality economy depends heavily on how a property is discovered online well before a guest books, and creator-documented stays, showing the actual room, food, and experience, do more for a boutique property than professional photography alone. Restaurants and nightlife venues use hyperlocal creator content to drive actual footfall from both tourists and the state's own resident and NRI population. Wellness and luxury lifestyle brands use creator partnerships to reach a specific, higher-spending traveler segment rather than broad tourist awareness.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Goa Work With?", id: "which-influencers-goa" },
+      {
+        type: "paragraph",
+        text: "Genuine travel and lifestyle creators who actually visit and document a property or restaurant, rather than posting from a media kit, matter far more here than follower count. For nightlife and restaurant marketing specifically, food and hyperlocal creators with an audience concentrated in or visiting Goa outperform broad national lifestyle creators. Luxury and wellness brands should prioritize audience quality and brand fit over reach entirely.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Goa?", id: "platforms-goa" },
+      {
+        type: "paragraph",
+        text: "Instagram is the dominant platform for hospitality, restaurant, and lifestyle discovery in Goa, given how visually driven both travel and dining decisions are. YouTube suits longer-form property walkthroughs and detailed travel vlogs, particularly for higher-consideration bookings like a multi-day resort stay or wellness retreat.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Goa?", id: "cost-goa" },
+      {
+        type: "paragraph",
+        text: "Many Goa hospitality collaborations are structured as hosted stays rather than a flat fee, which changes the cost conversation from a rate card to a value exchange, room nights, meals, and experiences, against expected content. See how much influencer marketing costs in India for the factors that apply when a paid fee is involved instead.",
+        links: [{ text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" }],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-goa" },
+      {
+        type: "list",
+        items: [
+          "Genuine hospitality or travel creator marketing experience",
+          "A clear process for vetting a travel creator's actual audience, not just follower count",
+          "Understanding of hosted-stay disclosure requirements",
+          "Content usage rights confirmed upfront for property or menu photography and video",
+          "Transparent reporting on engagement and, where possible, booking-linked signals",
+        ],
+      },
+      {
+        type: "quote",
+        text: "A hosted stay works because it puts a genuine, detailed experience in front of people already planning a trip like it. It stops working the moment a brand treats it as a guaranteed booking machine instead of an awareness tool.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Goa", id: "kudozz-for-brands-goa" },
+      {
+        type: "paragraph",
+        text: "Whether you run a hotel, restaurant, wellness retreat, or lifestyle brand in Goa, Kudozz can help with strategy, creator discovery, campaign management, and reporting. Start a campaign with Kudozz to talk through your property, audience, and objective.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Goa?",
+        answer:
+          "There's no single independently verified best agency. Goa brands generally benefit from a partner with genuine hospitality or travel creator marketing experience. Kudozz has published dedicated frameworks for hospitality, restaurants, and luxury brands relevant to Goa's economy.",
+      },
+      {
+        question: "Do hosted stays count as paid influencer marketing?",
+        answer:
+          "Yes, a complimentary or hosted stay is a form of compensation and should be disclosed clearly, the same as any other paid or gifted collaboration, consistent with ASCI guidelines.",
+      },
+      {
+        question: "How much does influencer marketing cost for a Goa hotel or restaurant?",
+        answer:
+          "Many collaborations are structured as a hosted stay or complimentary experience rather than a cash fee, though paid collaborations still follow the same cost factors that apply nationally, creator tier, format, and usage rights.",
+      },
+      {
+        question: "Which influencers work best for Goa hospitality brands?",
+        answer:
+          "Genuine travel and lifestyle creators who actually visit and document a property, rather than working from a press kit, tend to build more trust and interest than a generic sponsored post.",
+      },
+      {
+        question: "Can Kudozz run campaigns for restaurants and nightlife venues specifically?",
+        answer:
+          "Yes, Kudozz has published dedicated guidance on hyperlocal restaurant and cafe marketing, which applies to Goa's restaurant and nightlife venues.",
+      },
+      {
+        question: "Does a hosted stay guarantee bookings?",
+        answer:
+          "No. It builds genuine awareness and interest among people already planning similar trips, but direct booking attribution from a single collaboration is difficult to measure precisely.",
+      },
+    ],
+  },
+  {
+    slug: "best-influencer-marketing-agencies-in-chhattisgarh",
+    category: "Brand Marketing",
+    title: "Best Influencer Marketing Agencies in Chhattisgarh",
+    excerpt:
+      "A practical guide to finding an influencer marketing partner for a Chhattisgarh brand, covering Raipur and Bhilai's industrial and consumer economy, and where Kudozz fits.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-12-19",
+    readingTime: "7 min read",
+    body: [
+      {
+        type: "paragraph",
+        text: "Chhattisgarh's economy is genuinely industrial at its core, steel, mining, and manufacturing centered around Bhilai and Raipur, which means influencer marketing here often serves consumer brands and retail businesses reaching Chhattisgarhi-speaking audiences, rather than the industrial sector itself, which tends to rely on B2B relationships and trade channels more than creator content.",
+      },
+      { type: "heading", text: "Quick answer", id: "quick-answer" },
+      {
+        type: "paragraph",
+        text: "Kudozz works with Chhattisgarh brands on influencer strategy, creator discovery, outreach, campaign management, and reporting, with published guidance relevant to retail, FMCG, and regional-language creator marketing applicable to a state where Hindi and Chhattisgarhi content both matter. Beyond Kudozz, Chhattisgarh brands typically choose between smaller Raipur-based regional operators and national agencies, given the state's more limited local creator and agency ecosystem compared to larger metro markets.",
+      },
+      { type: "heading", text: "Best Influencer Marketing Agencies in Chhattisgarh", id: "best-agencies-chhattisgarh" },
+      { type: "heading", text: "Kudozz", id: "kudozz-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "For Chhattisgarh's retail and consumer brands, Kudozz has published dedicated retail influencer marketing guidance covering both online and store-based discovery, along with FMCG-specific frameworks relevant to high-frequency consumer goods reaching tier 2 and tier 3 markets across the state. Kudozz's regional and vernacular creator marketing guidance is directly applicable given Chhattisgarhi and Hindi are both relevant languages depending on the specific audience.",
+        links: [
+          { text: "retail influencer marketing guidance", href: "/blog/retail-influencer-marketing-india" },
+          { text: "FMCG-specific frameworks", href: "/blog/influencer-marketing-fmcg-brands-india" },
+          { text: "regional and vernacular creator marketing", href: "/blog/regional-influencer-marketing-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Core services include strategy, creator discovery, outreach, campaign management, social campaigns, UGC, ambassador programs, and reporting, with a stated network of 480+ creators across 210+ campaigns and 18 industries, which matters for a smaller-market state where sourcing genuinely relevant local creators takes more deliberate effort than in a metro city.",
+      },
+      { type: "heading", text: "Other Types of Influencer Marketing Partners to Compare", id: "other-partner-types-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "Chhattisgarh's local agency ecosystem is smaller than states like Gujarat or Haryana, which means most brands here end up comparing a handful of Raipur-based regional operators against national full-service agencies. A regional operator may have closer relationships with local Chhattisgarhi-language creators; a national agency typically brings broader creator access and more structured campaign processes. Be cautious of any local vendor describing themselves as an influencer marketing agency when their actual work is general digital marketing or event promotion with an occasional creator post attached.",
+      },
+      { type: "heading", text: "How to Evaluate These Options", id: "evaluation-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "Evaluate any shortlist on genuine influencer marketing capability specifically, access to creators who actually reach your target city or language audience within Chhattisgarh, campaign execution track record, and transparent reporting and pricing.",
+      },
+      { type: "heading", text: "What Does an Influencer Marketing Agency Do?", id: "what-agency-does-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "Strategy, creator discovery and vetting, outreach and negotiation, campaign management, and reporting are the core expected functions. See how influencer campaign management works for the full workflow.",
+        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+      },
+      { type: "heading", text: "Why Brands in Chhattisgarh Are Using Influencer Marketing", id: "why-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "Retail and FMCG brands use creator content to reach consumers across Raipur, Bhilai, Bilaspur, and Durg in a way that feels more like a recommendation than a traditional advertisement, particularly important in a market where trust in a known local voice carries weight. D2C and e-commerce brands entering tier 2 and tier 3 Chhattisgarh markets use creator content as a discovery layer their storefront alone doesn't provide. The state's industrial base, by contrast, relies far more on B2B relationships and trade shows than consumer-style influencer marketing.",
+      },
+      { type: "heading", text: "Which Influencers Should Brands in Chhattisgarh Work With?", id: "which-influencers-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "Nano and micro creators based in Raipur or Bhilai with genuinely local, Chhattisgarhi- or Hindi-speaking audiences tend to build more trust than a national creator with no regional connection. For broader FMCG or retail awareness campaigns, a mix of local creators and a small number of larger national creators can extend reach without losing local relevance entirely.",
+      },
+      { type: "heading", text: "Which Platforms Work Best for Influencer Marketing in Chhattisgarh?", id: "platforms-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "Instagram remains the primary platform for consumer categories, and YouTube has a meaningful role for longer-form Hindi and Chhattisgarhi-language content, particularly for product reviews and demonstration-style content that a short Reel doesn't fully convey.",
+      },
+      { type: "heading", text: "How Much Does Influencer Marketing Cost in Chhattisgarh?", id: "cost-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "There's no fixed local rate card, and pricing in a smaller market like Chhattisgarh can actually be more cost-efficient for nano and micro creators than in a metro city, though this varies by creator. See how much influencer marketing costs in India for the full set of factors that determine pricing regardless of location.",
+        links: [{ text: "how much influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" }],
+      },
+      { type: "heading", text: "How to Choose the Best Influencer Marketing Agency", id: "how-to-choose-chhattisgarh" },
+      {
+        type: "list",
+        items: [
+          "Genuine access to Chhattisgarhi- or Hindi-speaking local creators, not just a national database",
+          "Retail or FMCG category experience if relevant to your business",
+          "Clear campaign management and reporting",
+          "Transparent pricing given the smaller local market",
+          "Written usage rights and deliverables",
+        ],
+      },
+      {
+        type: "quote",
+        text: "In a smaller market like Chhattisgarh, the local creator who's actually trusted in Raipur or Bhilai often does more for a retail brand than a national name with no connection to the audience at all.",
+        attribution: "Kudozz Strategy Team",
+      },
+      { type: "heading", text: "Kudozz: Influencer Marketing for Brands in Chhattisgarh", id: "kudozz-for-brands-chhattisgarh" },
+      {
+        type: "paragraph",
+        text: "Whether you're a retail, FMCG, or D2C brand reaching Chhattisgarh consumers, Kudozz can help with strategy, creator discovery, campaign management, and reporting. Start a campaign with Kudozz to talk through your objective, audience, and budget.",
+        links: [{ text: "Start a campaign with Kudozz", href: "/for-brands#inquiry" }],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best influencer marketing agency in Chhattisgarh?",
+        answer:
+          "There's no single independently verified best agency. Given the state's smaller local creator ecosystem, brands should prioritize genuine access to Chhattisgarhi- or Hindi-speaking creators. Kudozz offers relevant retail and FMCG creator marketing experience.",
+      },
+      {
+        question: "Is Chhattisgarh's creator ecosystem smaller than bigger states?",
+        answer:
+          "Yes, relative to states like Gujarat or Haryana, Chhattisgarh's local creator and agency ecosystem is smaller, which makes deliberate local sourcing more important than relying on a generic national database alone.",
+      },
+      {
+        question: "How much does influencer marketing cost in Chhattisgarh?",
+        answer:
+          "There's no fixed local rate. Nano and micro creator collaborations can be relatively cost-efficient in smaller markets, though pricing still depends on creator tier, format, and usage rights.",
+      },
+      {
+        question: "Which influencers work best for Chhattisgarh retail and FMCG brands?",
+        answer:
+          "Nano and micro creators genuinely based in Raipur, Bhilai, or nearby cities, ideally comfortable in Chhattisgarhi or Hindi, tend to build more local trust than a national creator with no regional connection.",
+      },
+      {
+        question: "Does Chhattisgarh's industrial sector use influencer marketing?",
+        answer:
+          "Not typically in the consumer sense. The state's steel and manufacturing industry relies more on B2B relationships and trade channels, though B2B-style creator or thought-leadership content can still apply in some cases.",
+      },
+      {
+        question: "Can Kudozz source local Chhattisgarhi-language creators?",
+        answer:
+          "Yes, Kudozz has published dedicated regional and vernacular creator marketing guidance and works with local-language creators as part of its broader creator discovery process.",
+      },
+    ],
+  },
+  {
     slug: "elder-care-influencer-marketing-india",
     category: "Brand Marketing",
     title: "Influencer Marketing for Senior Living and Elder Care Brands in India",
@@ -7462,9 +8807,10 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "Getting help with an Ahmedabad or Gujarat campaign", id: "getting-help-ahmedabad" },
       {
         type: "paragraph",
-        text: "We help Ahmedabad and Gujarat-based brands find creators with genuine local, state-wide, or national relevance, depending on where the business actually is in its growth. Start a brand inquiry to talk through your next campaign.",
+        text: "We help Ahmedabad and Gujarat-based brands find creators with genuine local, state-wide, or national relevance, depending on where the business actually is in its growth. If you're evaluating agency options across the wider state, see best influencer marketing agencies in Gujarat. Start a brand inquiry to talk through your next campaign.",
         links: [
           { text: "find creators with genuine local, state-wide, or national relevance", href: "/services/creator-discovery" },
+          { text: "best influencer marketing agencies in Gujarat", href: "/blog/best-influencer-marketing-agencies-in-gujarat" },
           { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
         ],
       },
