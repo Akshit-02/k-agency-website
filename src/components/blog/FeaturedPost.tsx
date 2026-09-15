@@ -2,7 +2,6 @@ import Link from "next/link";
 import type { BlogPost } from "@/content/blog";
 import { BlogArticleGraphic } from "@/components/blog/BlogArticleGraphic";
 import { Reveal } from "@/components/animations/Reveal";
-import { formatDate } from "@/lib/date";
 
 export function FeaturedPost({ post }: { post: BlogPost }) {
   return (
@@ -20,9 +19,7 @@ export function FeaturedPost({ post }: { post: BlogPost }) {
             {post.title}
           </h2>
           <p className="mt-4 max-w-lg text-base leading-relaxed text-ink/65">{post.excerpt}</p>
-          <p className="mt-6 text-xs uppercase tracking-wide text-ink/40">
-            {formatDate(post.publishedAt)} · {post.readingTime}
-          </p>
+          <p className="mt-6 text-xs uppercase tracking-wide text-ink/40">{post.readingTime}</p>
         </div>
       </Link>
     </Reveal>

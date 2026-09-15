@@ -68,8 +68,6 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
           </Reveal>
           <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/50">
             <span>{post.author.name}</span>
-            <span aria-hidden="true">·</span>
-            <time dateTime={post.publishedAt}>Published {formatDate(post.publishedAt)}</time>
             {post.updatedAt && (
               <>
                 <span aria-hidden="true">·</span>

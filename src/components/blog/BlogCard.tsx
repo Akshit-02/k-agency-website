@@ -2,7 +2,6 @@ import Link from "next/link";
 import type { BlogPost } from "@/content/blog";
 import { BlogArticleGraphic } from "@/components/blog/BlogArticleGraphic";
 import { Reveal } from "@/components/animations/Reveal";
-import { formatDate } from "@/lib/date";
 
 export function BlogCard({ post, delay = 0 }: { post: BlogPost; delay?: number }) {
   return (
@@ -20,9 +19,7 @@ export function BlogCard({ post, delay = 0 }: { post: BlogPost; delay?: number }
             {post.title}
           </h3>
           <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-ink/60">{post.excerpt}</p>
-          <p className="mt-3 text-xs uppercase tracking-wide text-ink/40">
-            {formatDate(post.publishedAt)} · {post.readingTime}
-          </p>
+          <p className="mt-3 text-xs uppercase tracking-wide text-ink/40">{post.readingTime}</p>
         </div>
       </Link>
     </Reveal>
