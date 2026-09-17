@@ -29,6 +29,8 @@ export async function deliverBrandInquiry(payload: BrandInquiryValues): Promise<
       { label: "Campaign Goal", value: payload.campaignGoal ?? "" },
       { label: "Estimated Budget", value: payload.budget ?? "" },
       { label: "Message", value: payload.message ?? "" },
+      { label: "Source Blog Article", value: payload.sourceArticle ?? "" },
+      { label: "Source Article Category", value: payload.articleCategory ?? "" },
     ],
     source: "Kudozz Website - For Brands Form",
   });

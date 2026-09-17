@@ -12,7 +12,8 @@ import { BlogArticleGraphic } from "@/components/blog/BlogArticleGraphic";
 import { ArticleBody } from "@/components/blog/ArticleBody";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
-import { FinalCTA } from "@/components/home/FinalCTA";
+import { BlogBottomCTA } from "@/components/blog/BlogBottomCTA";
+import { getBlogCtaSet } from "@/lib/blogCta";
 import { formatDate } from "@/lib/date";
 
 export function generateStaticParams() {
@@ -38,6 +39,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
 
   const related = getRelatedPosts(post);
   const url = `${siteConfig.url}/blog/${post.slug}`;
+  const ctaSet = getBlogCtaSet(post);
 
   return (
     <>
@@ -88,7 +90,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
         <Container className="mt-16 max-w-5xl">
           <div className="grid gap-16 lg:grid-cols-[200px_1fr]">
             <TableOfContents blocks={post.body} />
-            <ArticleBody blocks={post.body} />
+            <ArticleBody blocks={post.body} ctaSet={ctaSet} slug={post.slug} category={post.category} />
           </div>
         </Container>
       </article>
@@ -97,8 +99,11 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
         <FAQSection faqs={post.faqs} eyebrow="FAQ" title="Questions readers ask about this topic." />
       )}
 
+      <Container className="max-w-3xl py-16">
+        <BlogBottomCTA content={ctaSet.bottom} slug={post.slug} category={post.category} topic={ctaSet.topic} />
+      </Container>
+
       <RelatedArticles posts={related} />
-      <FinalCTA />
     </>
   );
 }

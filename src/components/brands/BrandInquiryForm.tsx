@@ -1,23 +1,61 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { brandInquirySchema, type BrandInquiryValues } from "@/lib/validations";
 import { FieldWrapper, TextInput, TextArea, SelectInput } from "@/components/forms/FormFields";
 import { FormSuccess } from "@/components/forms/FormSuccess";
 import { Button } from "@/components/ui/Button";
+import { trackBlogLeadFormEvent } from "@/lib/blogAnalytics";
 
 const budgetOptions = ["Under $5,000", "$5,000 – $15,000", "$15,000 – $50,000", "$50,000+", "Not sure yet"];
 
+const campaignGoalOptions = [
+  "Influencer Marketing",
+  "UGC Content",
+  "Creator Discovery",
+  "Campaign Management",
+  "Product Launch",
+  "Brand Awareness",
+  "Other",
+];
+
+// Maps a blog CTA topic (from ?t= on the inquiry link) to the closest
+// matching option, so a reader arriving from a UGC or product-launch
+// article lands with the field pre-selected instead of blank.
+const TOPIC_TO_CAMPAIGN_GOAL: Record<string, string> = {
+  UGC: "UGC Content",
+  "Creator Discovery": "Creator Discovery",
+  "Campaign Management": "Campaign Management",
+  "Product Launch": "Product Launch",
+};
+
 export function BrandInquiryForm() {
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const searchParams = useSearchParams();
+  const sourceArticle = searchParams.get("src") ?? undefined;
+  const articleCategory = searchParams.get("cat") ?? undefined;
+  const ctaPosition = searchParams.get("pos") ?? undefined;
+  const ctaTopic = searchParams.get("t") ?? undefined;
+  const prefillGoal = (ctaTopic && TOPIC_TO_CAMPAIGN_GOAL[ctaTopic]) || "";
+  const hasTrackedStart = useRef(false);
   const {
     register,
     handleSubmit,
     reset,
     formState: { errors, isSubmitting, isSubmitSuccessful },
-  } = useForm<BrandInquiryValues>({ resolver: zodResolver(brandInquirySchema) });
+  } = useForm<BrandInquiryValues>({
+    resolver: zodResolver(brandInquirySchema),
+    defaultValues: { campaignGoal: prefillGoal },
+  });
+
+  function trackFormStart() {
+    if (hasTrackedStart.current || !sourceArticle) return;
+    hasTrackedStart.current = true;
+    trackBlogLeadFormEvent("blog_lead_form_start", { sourceArticle, articleCategory, ctaPosition });
+  }
 
   async function onSubmit(values: BrandInquiryValues) {
     setSubmitError(null);
@@ -25,11 +63,14 @@ export function BrandInquiryForm() {
       const res = await fetch("/api/brand-inquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(values),
+        body: JSON.stringify({ ...values, sourceArticle, articleCategory }),
       });
       const data = await res.json().catch(() => null);
       if (!res.ok || !data?.success) {
         throw new Error(data?.message || "Submission failed");
+      }
+      if (sourceArticle) {
+        trackBlogLeadFormEvent("blog_lead_form_submit", { sourceArticle, articleCategory, ctaPosition });
       }
       reset(values);
     } catch (error) {
@@ -51,7 +92,7 @@ export function BrandInquiryForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-8">
+    <form onSubmit={handleSubmit(onSubmit)} onFocus={trackFormStart} noValidate className="space-y-8">
       <input
         type="text"
         tabIndex={-1}
@@ -76,8 +117,15 @@ export function BrandInquiryForm() {
         <FieldWrapper label="Brand Website / Instagram" htmlFor="website" required error={errors.website?.message} className="sm:col-span-2">
           <TextInput id="website" placeholder="yourbrand.com or @yourbrand" hasError={!!errors.website} {...register("website")} />
         </FieldWrapper>
-        <FieldWrapper label="Campaign Goal (optional)" htmlFor="campaignGoal">
-          <TextInput id="campaignGoal" placeholder="e.g. Product launch, awareness, UGC" {...register("campaignGoal")} />
+        <FieldWrapper label="What Are You Looking For? (optional)" htmlFor="campaignGoal">
+          <SelectInput id="campaignGoal" defaultValue={prefillGoal} {...register("campaignGoal")}>
+            <option value="">Select what you&apos;re looking for</option>
+            {campaignGoalOptions.map((option) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </SelectInput>
         </FieldWrapper>
         <FieldWrapper label="Estimated Budget (optional)" htmlFor="budget">
           <SelectInput id="budget" defaultValue="" {...register("budget")}>

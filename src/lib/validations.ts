@@ -29,6 +29,10 @@ export const brandInquirySchema = z.object({
   campaignGoal: z.string().trim().max(200).optional(),
   budget: z.string().trim().max(60).optional(),
   message: z.string().trim().max(2000, "Keep your message under 2000 characters.").optional(),
+  // Populated silently from ?src=/?cat= on /for-brands when the visitor
+  // arrived via a blog CTA — never shown to the visitor as a form field.
+  sourceArticle: z.string().trim().max(200).optional(),
+  articleCategory: z.string().trim().max(80).optional(),
   honeypot: honeypotField,
 });
 

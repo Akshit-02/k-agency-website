@@ -2,6 +2,8 @@ import { Fragment } from "react";
 import Link from "next/link";
 import type { BlogBlock, InlineLink } from "@/content/blog";
 import { cn } from "@/lib/utils";
+import type { BlogCtaSet } from "@/lib/blogCta";
+import { BlogMidCTA } from "@/components/blog/BlogMidCTA";
 
 function renderWithLinks(text: string, links?: InlineLink[]) {
   if (!links || links.length === 0) return text;
@@ -37,81 +39,118 @@ function renderWithLinks(text: string, links?: InlineLink[]) {
   });
 }
 
-export function ArticleBody({ blocks }: { blocks: BlogBlock[] }) {
+function renderBlock(block: BlogBlock, i: number) {
+  switch (block.type) {
+    case "heading":
+      return (
+        <h2
+          key={i}
+          id={block.id}
+          className="scroll-mt-28 pt-6 font-display text-2xl tracking-tight text-ink sm:text-3xl"
+        >
+          {block.text}
+        </h2>
+      );
+    case "paragraph":
+      return <p key={i}>{renderWithLinks(block.text, block.links)}</p>;
+    case "list":
+      return (
+        <ul key={i} className="space-y-3 pl-1">
+          {block.items.map((item) => (
+            <li key={item} className="flex gap-3">
+              <span className="mt-3 size-1.5 shrink-0 rounded-full bg-coral" />
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      );
+    case "table":
+      return (
+        <div key={i} className="overflow-x-auto">
+          <table className="w-full min-w-[520px] border-collapse text-base">
+            <thead>
+              <tr>
+                {block.headers.map((header, hi) => (
+                  <th
+                    key={hi}
+                    className="border-b-[1.5px] border-ink px-3 py-2.5 text-left font-display text-lg font-normal tracking-tight text-ink"
+                  >
+                    {header}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {block.rows.map((row, ri) => (
+                <tr key={ri}>
+                  {row.map((cell, ci) => (
+                    <td
+                      key={ci}
+                      className={cn(
+                        "border-b border-line px-3 py-2.5 align-top text-base",
+                        ci === 0 && "font-medium text-ink"
+                      )}
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+    case "quote":
+      return (
+        <blockquote key={i} className="border-l-[4px] border-coral bg-paper-dim py-4 pl-6 font-display text-2xl italic tracking-tight text-ink">
+          {block.text}
+          {block.attribution && <cite className="mt-3 block text-sm not-italic text-ink/50">— {block.attribution}</cite>}
+        </blockquote>
+      );
+    default:
+      return null;
+  }
+}
+
+/**
+ * Only insert the mid-article CTA once there's genuinely a "middle" —
+ * short articles skip it rather than placing it awkwardly near the intro
+ * or the conclusion (see the CTA audit's short-article special case).
+ */
+const MIN_BLOCKS_FOR_MID_CTA = 8;
+const MIN_LEADING_BLOCKS = 3;
+const MIN_TRAILING_BLOCKS = 2;
+
+function getMidCtaIndex(blockCount: number): number | null {
+  if (blockCount < MIN_BLOCKS_FOR_MID_CTA) return null;
+  const midpoint = Math.floor(blockCount / 2);
+  const index = Math.max(MIN_LEADING_BLOCKS, midpoint);
+  return index <= blockCount - MIN_TRAILING_BLOCKS ? index : null;
+}
+
+export function ArticleBody({
+  blocks,
+  ctaSet,
+  slug,
+  category,
+}: {
+  blocks: BlogBlock[];
+  ctaSet?: BlogCtaSet;
+  slug?: string;
+  category?: string;
+}) {
+  const midCtaIndex = ctaSet ? getMidCtaIndex(blocks.length) : null;
+
   return (
     <div className="space-y-6 text-lg leading-relaxed text-ink/80">
-      {blocks.map((block, i) => {
-        switch (block.type) {
-          case "heading":
-            return (
-              <h2
-                key={i}
-                id={block.id}
-                className="scroll-mt-28 pt-6 font-display text-2xl tracking-tight text-ink sm:text-3xl"
-              >
-                {block.text}
-              </h2>
-            );
-          case "paragraph":
-            return <p key={i}>{renderWithLinks(block.text, block.links)}</p>;
-          case "list":
-            return (
-              <ul key={i} className="space-y-3 pl-1">
-                {block.items.map((item) => (
-                  <li key={item} className="flex gap-3">
-                    <span className="mt-3 size-1.5 shrink-0 rounded-full bg-coral" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            );
-          case "table":
-            return (
-              <div key={i} className="overflow-x-auto">
-                <table className="w-full min-w-[520px] border-collapse text-base">
-                  <thead>
-                    <tr>
-                      {block.headers.map((header, hi) => (
-                        <th
-                          key={hi}
-                          className="border-b-[1.5px] border-ink px-3 py-2.5 text-left font-display text-lg font-normal tracking-tight text-ink"
-                        >
-                          {header}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {block.rows.map((row, ri) => (
-                      <tr key={ri}>
-                        {row.map((cell, ci) => (
-                          <td
-                            key={ci}
-                            className={cn(
-                              "border-b border-line px-3 py-2.5 align-top text-base",
-                              ci === 0 && "font-medium text-ink"
-                            )}
-                          >
-                            {cell}
-                          </td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            );
-          case "quote":
-            return (
-              <blockquote key={i} className="border-l-[4px] border-coral bg-paper-dim py-4 pl-6 font-display text-2xl italic tracking-tight text-ink">
-                {block.text}
-                {block.attribution && <cite className="mt-3 block text-sm not-italic text-ink/50">— {block.attribution}</cite>}
-              </blockquote>
-            );
-          default:
-            return null;
-        }
-      })}
+      {blocks.map((block, i) => (
+        <Fragment key={i}>
+          {renderBlock(block, i)}
+          {ctaSet && slug && category && i === midCtaIndex && (
+            <BlogMidCTA content={ctaSet.mid} slug={slug} category={category} topic={ctaSet.topic} />
+          )}
+        </Fragment>
+      ))}
     </div>
   );
 }

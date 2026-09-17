@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
@@ -43,7 +44,9 @@ export function InquirySection() {
           </div>
 
           <Reveal delay={0.1} className="border-[1.5px] border-paper/15 bg-paper p-8 shadow-[10px_10px_0_0_var(--color-coral)] sm:p-12">
-            <BrandInquiryForm />
+            <Suspense fallback={null}>
+              <BrandInquiryForm />
+            </Suspense>
           </Reveal>
         </div>
       </Container>
