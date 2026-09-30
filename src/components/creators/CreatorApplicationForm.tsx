@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { creatorApplicationSchema, type CreatorApplicationValues } from "@/lib/validations";
@@ -8,9 +9,23 @@ import { contentNiches, followerRanges } from "@/content/creator-categories";
 import { FieldWrapper, TextInput, TextArea, SelectInput } from "@/components/forms/FormFields";
 import { FormSuccess } from "@/components/forms/FormSuccess";
 import { Button } from "@/components/ui/Button";
+import { trackBlogLeadFormEvent } from "@/lib/blogAnalytics";
 
 export function CreatorApplicationForm() {
   const [submitError, setSubmitError] = useState<string | null>(null);
+  // Set when the reader arrives from a Creator Resources CTA (?src=&cat=&pos=).
+  const searchParams = useSearchParams();
+  const sourceArticle = searchParams.get("src") ?? undefined;
+  const articleCategory = searchParams.get("cat") ?? undefined;
+  const ctaPosition = searchParams.get("pos") ?? undefined;
+  const hasTrackedStart = useRef(false);
+  const leadParams = { sourceArticle, articleCategory, ctaPosition, ctaType: "creator_signup" };
+
+  function trackFormStart() {
+    if (hasTrackedStart.current || !sourceArticle) return;
+    hasTrackedStart.current = true;
+    trackBlogLeadFormEvent("blog_lead_form_start", leadParams);
+  }
   const {
     register,
     handleSubmit,
@@ -30,6 +45,7 @@ export function CreatorApplicationForm() {
       if (!res.ok || !data?.success) {
         throw new Error(data?.message || "Submission failed");
       }
+      if (sourceArticle) trackBlogLeadFormEvent("blog_lead_form_submit", leadParams);
       reset(values);
     } catch (error) {
       setSubmitError(
@@ -50,7 +66,7 @@ export function CreatorApplicationForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-8">
+    <form onSubmit={handleSubmit(onSubmit)} onFocus={trackFormStart} noValidate className="space-y-8">
       <input
         type="text"
         tabIndex={-1}

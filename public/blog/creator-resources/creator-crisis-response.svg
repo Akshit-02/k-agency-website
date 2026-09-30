@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator crisis response process in six steps</title><rect width="1200" height="675" fill="#5A2EEA"/>
+<text x="60" y="85" font-size="36" fill="#FAF1E2" font-weight="700">When something goes wrong</text>
+<text x="60" y="125" font-size="18" fill="#FAF1E2" opacity=".75">The same six steps work for most creator crises</text>
+<path d="M110 350 H1090" stroke="#CCFF3D" stroke-width="4" stroke-dasharray="10 10"/>
+<g text-anchor="middle">
+<circle cx="110" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="359" font-size="26" font-weight="700" fill="#150F0B">1</text>
+<text x="110" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Pause</text>
+<text x="110" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Stop related posts;</text>
+<text x="110" y="305" font-size="15" fill="#FAF1E2" opacity=".78">don't react instantly</text>
+<circle cx="306" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="306" y="359" font-size="26" font-weight="700" fill="#150F0B">2</text>
+<text x="306" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Verify facts</text>
+<text x="306" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Content, contract,</text>
+<text x="306" y="480" font-size="15" fill="#FAF1E2" opacity=".78">who's affected</text>
+<circle cx="502" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="502" y="359" font-size="26" font-weight="700" fill="#150F0B">3</text>
+<text x="502" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Communicate</text>
+<text x="502" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Private first,</text>
+<text x="502" y="305" font-size="15" fill="#FAF1E2" opacity=".78">then public if needed</text>
+<circle cx="698" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="698" y="359" font-size="26" font-weight="700" fill="#150F0B">4</text>
+<text x="698" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Correct</text>
+<text x="698" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Fix content,</text>
+<text x="698" y="480" font-size="15" fill="#FAF1E2" opacity=".78">disclosure, links</text>
+<circle cx="894" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="894" y="359" font-size="26" font-weight="700" fill="#150F0B">5</text>
+<text x="894" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Document</text>
+<text x="894" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Screenshots,</text>
+<text x="894" y="305" font-size="15" fill="#FAF1E2" opacity=".78">emails, timeline</text>
+<circle cx="1090" cy="350" r="42" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="1090" y="359" font-size="26" font-weight="700" fill="#150F0B">6</text>
+<text x="1090" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Learn</text>
+<text x="1090" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Change the process</text>
+<text x="1090" y="480" font-size="15" fill="#FAF1E2" opacity=".78">that allowed it</text>
+</g>
+</svg>

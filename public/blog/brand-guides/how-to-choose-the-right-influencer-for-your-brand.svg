@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Eight-factor creator scorecard</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">CHOOSING THE RIGHT CREATOR</text>
+<rect x="452" y="132" width="700" height="540" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="440" y="120" width="700" height="540" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<rect x="440" y="120" width="700" height="76" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="468" y="170" font-size="30" font-weight="700" text-anchor="start" fill="#150F0B">Selection criteria</text>
+<rect x="470" y="214" width="34" height="34" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<path d="M476 230 L485 240 L500 220" stroke="#150F0B" stroke-width="5" fill="none"/>
+<text x="526" y="240" font-size="24" text-anchor="start" fill="#150F0B">Audience fit</text>
+<rect x="470" y="270" width="34" height="34" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<path d="M476 286 L485 296 L500 276" stroke="#150F0B" stroke-width="5" fill="none"/>
+<text x="526" y="296" font-size="24" text-anchor="start" fill="#150F0B">Content fit</text>
+<rect x="470" y="326" width="34" height="34" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<path d="M476 342 L485 352 L500 332" stroke="#150F0B" stroke-width="5" fill="none"/>
+<text x="526" y="352" font-size="24" text-anchor="start" fill="#150F0B">Brand fit</text>
+<rect x="470" y="382" width="34" height="34" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<path d="M476 398 L485 408 L500 388" stroke="#150F0B" stroke-width="5" fill="none"/>
+<text x="526" y="408" font-size="24" text-anchor="start" fill="#150F0B">Engagement quality</text>
+<rect x="470" y="438" width="34" height="34" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<path d="M476 454 L485 464 L500 444" stroke="#150F0B" stroke-width="5" fill="none"/>
+<text x="526" y="464" font-size="24" text-anchor="start" fill="#150F0B">Audience authenticity</text>
+<rect x="470" y="494" width="34" height="34" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="526" y="520" font-size="24" text-anchor="start" fill="#150F0B">Regional relevance</text>
+<rect x="470" y="550" width="34" height="34" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="526" y="576" font-size="24" text-anchor="start" fill="#150F0B">Professionalism</text>
+</svg>

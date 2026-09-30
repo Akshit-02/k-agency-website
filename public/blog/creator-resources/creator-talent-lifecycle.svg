@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator talent lifecycle for agencies</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="72" font-size="32" font-weight="700" fill="#150F0B">The creator talent lifecycle</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect x="60" y="130" width="255" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="158" font-size="14" fill="#150F0B" opacity=".7">01</text>
+<text x="76" y="188" font-size="22" font-weight="700" fill="#150F0B">Acquire</text>
+<text x="76" y="216" font-size="15" fill="#150F0B" opacity=".85">Demand-led sourcing</text>
+<rect x="335" y="130" width="255" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="158" font-size="14" fill="#FAF1E2" opacity=".7">02</text>
+<text x="351" y="188" font-size="22" font-weight="700" fill="#FAF1E2">Screen</text>
+<text x="351" y="216" font-size="15" fill="#FAF1E2" opacity=".85">Must-pass + scorecard</text>
+<rect x="610" y="130" width="255" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="158" font-size="14" fill="#150F0B" opacity=".7">03</text>
+<text x="626" y="188" font-size="22" font-weight="700" fill="#150F0B">Sign &amp; onboard</text>
+<text x="626" y="216" font-size="15" fill="#150F0B" opacity=".85">Fair agreement, 90-day plan</text>
+<rect x="885" y="130" width="255" height="170" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="158" font-size="14" fill="#FAF1E2" opacity=".7">04</text>
+<text x="901" y="188" font-size="22" font-weight="700" fill="#FAF1E2">Organise</text>
+<text x="901" y="216" font-size="15" fill="#FAF1E2" opacity=".85">Roster map + database</text>
+<rect x="60" y="380" width="255" height="170" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="408" font-size="14" fill="#FAF1E2" opacity=".7">08</text>
+<text x="76" y="438" font-size="22" font-weight="700" fill="#FAF1E2">Retain or part ways</text>
+<text x="76" y="466" font-size="15" fill="#FAF1E2" opacity=".85">Fair exits under terms</text>
+<rect x="335" y="380" width="255" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="408" font-size="14" fill="#150F0B" opacity=".7">07</text>
+<text x="351" y="438" font-size="22" font-weight="700" fill="#150F0B">Evaluate</text>
+<text x="351" y="466" font-size="15" fill="#150F0B" opacity=".85">Quarterly review</text>
+<rect x="610" y="380" width="255" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="408" font-size="14" fill="#FAF1E2" opacity=".7">06</text>
+<text x="626" y="438" font-size="22" font-weight="700" fill="#FAF1E2">Develop</text>
+<text x="626" y="466" font-size="15" fill="#FAF1E2" opacity=".85">Plans, rates, coaching</text>
+<rect x="885" y="380" width="255" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="408" font-size="14" fill="#150F0B" opacity=".7">05</text>
+<text x="901" y="438" font-size="22" font-weight="700" fill="#150F0B">Manage</text>
+<text x="901" y="466" font-size="15" fill="#150F0B" opacity=".85">Consent, comms, pay</text>
+<path d="M315 215 L331 215" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M590 215 L606 215" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M865 215 L881 215" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M1012 300 L1012 376" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M885 465 L869 465" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M610 465 L594 465" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M335 465 L319 465" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M187 380 L187 304" stroke="#150F0B" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#a)"/>
+<text x="60" y="640" font-size="16" fill="#150F0B" opacity=".7">Evaluation feeds the next recruiting brief. Guides for every stage are in Kudozz's Talent &amp; Roster section.</text>
+</svg>

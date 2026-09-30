@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
 import { blogPosts } from "@/content/blog";
 import { services } from "@/content/services";
+import { creatorResourceSections, creatorSectionPath } from "@/content/creator-resources";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteConfig.url}/for-brands`, changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${siteConfig.url}/services`, changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${siteConfig.url}/for-creators`, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${siteConfig.url}/creator-resources`, changeFrequency: "weekly" as const, priority: 0.7 },
     { url: `${siteConfig.url}/about`, changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${siteConfig.url}/contact`, changeFrequency: "yearly" as const, priority: 0.5 },
   ].map((entry) => ({ ...entry, lastModified: now }));
@@ -36,6 +38,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const creatorSectionPages: MetadataRoute.Sitemap = creatorResourceSections.map((section) => ({
+    url: `${siteConfig.url}${creatorSectionPath(section)}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+  }));
+
   const legalPages: MetadataRoute.Sitemap = ["/privacy-policy", "/terms"].map((path) => ({
     url: `${siteConfig.url}${path}`,
     lastModified: now,
@@ -43,5 +52,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.2,
   }));
 
-  return [...home, ...primaryPages, ...servicePages, ...blogIndex, ...blogRoutes, ...legalPages];
+  return [...home, ...primaryPages, ...servicePages, ...blogIndex, ...creatorSectionPages, ...blogRoutes, ...legalPages];
 }

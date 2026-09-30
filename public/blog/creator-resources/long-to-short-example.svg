@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">One long video into ten assets</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">One long video, ten assets (illustrative)</text>
+<rect x="60" y="130" width="300" height="440" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="82" y="180" font-size="15" fill="#FAF1E2" opacity=".7">SOURCE</text><text x="82" y="228" font-size="26" font-weight="700" fill="#FAF1E2">18-minute test:</text><text x="82" y="264" font-size="20" fill="#FAF1E2">5 budget phones</text><text x="82" y="294" font-size="20" fill="#FAF1E2">under ₹15,000,</text><text x="82" y="324" font-size="20" fill="#FAF1E2">tested for a month</text>
+<rect x="420" y="130" width="350" height="76" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="436" y="162" font-size="18" font-weight="700" fill="#150F0B">1. Short/Reel</text><text x="436" y="188" font-size="15" fill="#150F0B">Night camera result</text>
+<rect x="790" y="130" width="350" height="76" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="806" y="162" font-size="18" font-weight="700" fill="#FAF1E2">2. Short/Reel</text><text x="806" y="188" font-size="15" fill="#FAF1E2">Battery test</text>
+<rect x="420" y="220" width="350" height="76" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="436" y="252" font-size="18" font-weight="700" fill="#150F0B">3. Short/Reel</text><text x="436" y="278" font-size="15" fill="#150F0B">Biggest letdown</text>
+<rect x="790" y="220" width="350" height="76" fill="#150F0B" stroke="#150F0B" stroke-width="2"/>
+<text x="806" y="252" font-size="18" font-weight="700" fill="#FAF1E2">4. Short/Reel</text><text x="806" y="278" font-size="15" fill="#FAF1E2">Charging myth</text>
+<rect x="420" y="310" width="350" height="76" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="436" y="342" font-size="18" font-weight="700" fill="#150F0B">5. Short/Reel</text><text x="436" y="368" font-size="15" fill="#150F0B">Final ranking</text>
+<rect x="790" y="310" width="350" height="76" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="806" y="342" font-size="18" font-weight="700" fill="#FAF1E2">6. Short/Reel</text><text x="806" y="368" font-size="15" fill="#FAF1E2">Behind the scenes</text>
+<rect x="420" y="400" width="350" height="76" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="436" y="432" font-size="18" font-weight="700" fill="#150F0B">7. Carousel</text><text x="436" y="458" font-size="15" fill="#150F0B">Spec comparison</text>
+<rect x="790" y="400" width="350" height="76" fill="#150F0B" stroke="#150F0B" stroke-width="2"/>
+<text x="806" y="432" font-size="18" font-weight="700" fill="#FAF1E2">8. Quote / Story</text><text x="806" y="458" font-size="15" fill="#FAF1E2">Strong opinion</text>
+<rect x="420" y="490" width="350" height="76" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="436" y="522" font-size="18" font-weight="700" fill="#150F0B">9. Newsletter</text><text x="436" y="548" font-size="15" fill="#150F0B">Ranking + advice</text>
+<rect x="790" y="490" width="350" height="76" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="806" y="522" font-size="18" font-weight="700" fill="#FAF1E2">10. Community</text><text x="806" y="548" font-size="15" fill="#FAF1E2">Poll: test next?</text>
+<path d="M362 350 h50" stroke="#150F0B" stroke-width="3"/><path d="M412 350 l-14 -9 v18 z" fill="#150F0B"/>
+<text x="60" y="630" font-size="18" fill="#150F0B" opacity=".65">Each clip gets its own hook, vertical edit and captions, spread over two weeks.</text></svg>

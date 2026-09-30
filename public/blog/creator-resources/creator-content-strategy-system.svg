@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator content strategy system in six parts</title><rect width="1200" height="675" fill="#5A2EEA"/>
+<text x="60" y="85" font-size="36" fill="#FAF1E2" font-weight="700">The creator content strategy system</text>
+<text x="60" y="125" font-size="18" fill="#FAF1E2" opacity=".75">Each part answers one question</text>
+<path d="M110 350 H1090" stroke="#CCFF3D" stroke-width="4" stroke-dasharray="10 10"/>
+<g text-anchor="middle">
+<circle cx="110" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="359" font-size="26" font-weight="700" fill="#150F0B">1</text>
+<text x="110" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Audience</text>
+<text x="110" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Who is it for?</text>
+<circle cx="306" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="306" y="359" font-size="26" font-weight="700" fill="#150F0B">2</text>
+<text x="306" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Pillars</text>
+<text x="306" y="459" font-size="15" fill="#FAF1E2" opacity=".78">What topics</text>
+<text x="306" y="480" font-size="15" fill="#FAF1E2" opacity=".78">are we known for?</text>
+<circle cx="502" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="502" y="359" font-size="26" font-weight="700" fill="#150F0B">3</text>
+<text x="502" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Formats</text>
+<text x="502" y="284" font-size="15" fill="#FAF1E2" opacity=".78">What shapes</text>
+<text x="502" y="305" font-size="15" fill="#FAF1E2" opacity=".78">repeat?</text>
+<circle cx="698" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="698" y="359" font-size="26" font-weight="700" fill="#150F0B">4</text>
+<text x="698" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Production</text>
+<text x="698" y="459" font-size="15" fill="#FAF1E2" opacity=".78">How does it</text>
+<text x="698" y="480" font-size="15" fill="#FAF1E2" opacity=".78">get made?</text>
+<circle cx="894" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="894" y="359" font-size="26" font-weight="700" fill="#150F0B">5</text>
+<text x="894" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Distribution</text>
+<text x="894" y="284" font-size="15" fill="#FAF1E2" opacity=".78">How does it</text>
+<text x="894" y="305" font-size="15" fill="#FAF1E2" opacity=".78">reach people?</text>
+<circle cx="1090" cy="350" r="42" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="1090" y="359" font-size="26" font-weight="700" fill="#150F0B">6</text>
+<text x="1090" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Measurement</text>
+<text x="1090" y="459" font-size="15" fill="#FAF1E2" opacity=".78">What do we keep</text>
+<text x="1090" y="480" font-size="15" fill="#FAF1E2" opacity=".78">or stop?</text>
+</g>
+</svg>

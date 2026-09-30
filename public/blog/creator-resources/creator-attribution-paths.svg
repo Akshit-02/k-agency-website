@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator attribution paths from content to sale</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">How creator content turns into sales you can prove</text>
+<rect x="60" y="130" width="255" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="162" font-size="14" fill="#FAF1E2" opacity=".7">01</text>
+<text x="76" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Content</text>
+<text x="76" y="235" font-size="15" fill="#FAF1E2">Review, tutorial,</text>
+<text x="76" y="259" font-size="15" fill="#FAF1E2">comparison</text>
+<rect x="335" y="130" width="255" height="200" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="162" font-size="14" fill="#150F0B" opacity=".7">02</text>
+<text x="351" y="200" font-size="21" font-weight="700" fill="#150F0B">Tracked link</text>
+<text x="351" y="235" font-size="15" fill="#150F0B">Affiliate or</text>
+<text x="351" y="259" font-size="15" fill="#150F0B">UTM-tagged</text>
+<rect x="610" y="130" width="255" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="162" font-size="14" fill="#FAF1E2" opacity=".7">03</text>
+<text x="626" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Discount code</text>
+<text x="626" y="235" font-size="15" fill="#FAF1E2">Unique to you,</text>
+<text x="626" y="259" font-size="15" fill="#FAF1E2">time-limited</text>
+<rect x="885" y="130" width="255" height="200" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="162" font-size="14" fill="#150F0B" opacity=".7">04</text>
+<text x="901" y="200" font-size="21" font-weight="700" fill="#150F0B">Product tag</text>
+<text x="901" y="235" font-size="15" fill="#150F0B">YouTube Shopping</text>
+<text x="901" y="259" font-size="15" fill="#150F0B">or platform tags</text>
+<rect x="60" y="355" width="255" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="387" font-size="14" fill="#FAF1E2" opacity=".7">05</text>
+<text x="76" y="425" font-size="21" font-weight="700" fill="#FAF1E2">Untracked path</text>
+<text x="76" y="460" font-size="15" fill="#FAF1E2">Search later,</text>
+<text x="76" y="484" font-size="15" fill="#FAF1E2">another device</text>
+<rect x="335" y="355" width="255" height="200" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="387" font-size="14" fill="#150F0B" opacity=".7">06</text>
+<text x="351" y="425" font-size="21" font-weight="700" fill="#150F0B">Reports</text>
+<text x="351" y="460" font-size="15" fill="#150F0B">Affiliate and</text>
+<text x="351" y="484" font-size="15" fill="#150F0B">brand data</text>
+<rect x="610" y="355" width="255" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="387" font-size="14" fill="#FAF1E2" opacity=".7">07</text>
+<text x="626" y="425" font-size="21" font-weight="700" fill="#FAF1E2">Lift signals</text>
+<text x="626" y="460" font-size="15" fill="#FAF1E2">Branded search,</text>
+<text x="626" y="484" font-size="15" fill="#FAF1E2">direct traffic</text>
+<rect x="885" y="355" width="255" height="200" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="387" font-size="14" fill="#150F0B" opacity=".7">08</text>
+<text x="901" y="425" font-size="21" font-weight="700" fill="#150F0B">Honest report</text>
+<text x="901" y="460" font-size="15" fill="#150F0B">Tracked = minimum;</text>
+<text x="901" y="484" font-size="15" fill="#150F0B">lift = context</text>
+<text x="60" y="630" font-size="18" fill="#150F0B" opacity=".65">Tracked methods give a minimum. Supporting signals suggest the wider effect.</text></svg>

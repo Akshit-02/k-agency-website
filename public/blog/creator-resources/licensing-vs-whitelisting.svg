@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Licensing vs paid amplification vs whitelisting</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">Licensing vs amplification vs whitelisting</text>
+<rect x="60" y="130" width="340" height="430" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="82" y="185" font-size="26" font-weight="700" fill="#150F0B">Content licensing</text>
+<text x="82" y="250" font-size="18" fill="#150F0B">Brand uses your content</text>
+<text x="82" y="288" font-size="18" fill="#150F0B">from ITS OWN accounts</text>
+<text x="82" y="326" font-size="18" fill="#150F0B"></text>
+<text x="82" y="364" font-size="18" fill="#150F0B">Viewers see: the brand</text>
+<text x="82" y="402" font-size="18" fill="#150F0B">Access needed: none</text>
+<text x="82" y="440" font-size="18" fill="#150F0B">Price by: purpose, duration,</text>
+<text x="82" y="478" font-size="18" fill="#150F0B">territory, media</text>
+<rect x="430" y="130" width="340" height="430" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="452" y="185" font-size="26" font-weight="700" fill="#150F0B">Paid amplification</text>
+<text x="452" y="250" font-size="18" fill="#150F0B">Budget pushes content</text>
+<text x="452" y="288" font-size="18" fill="#150F0B">to more people</text>
+<text x="452" y="326" font-size="18" fill="#150F0B"></text>
+<text x="452" y="364" font-size="18" fill="#150F0B">Viewers see: depends on</text>
+<text x="452" y="402" font-size="18" fill="#150F0B">the setup</text>
+<text x="452" y="440" font-size="18" fill="#150F0B">Price by: spend, duration,</text>
+<text x="452" y="478" font-size="18" fill="#150F0B">audience reached</text>
+<rect x="800" y="130" width="340" height="430" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="822" y="185" font-size="26" font-weight="700" fill="#FAF1E2">Whitelisting</text>
+<text x="822" y="250" font-size="18" fill="#FAF1E2">Ads run showing</text>
+<text x="822" y="288" font-size="18" fill="#FAF1E2">YOUR handle</text>
+<text x="822" y="326" font-size="18" fill="#FAF1E2"></text>
+<text x="822" y="364" font-size="18" fill="#FAF1E2">Viewers see: you (+ brand)</text>
+<text x="822" y="402" font-size="18" fill="#FAF1E2">Access: platform permission</text>
+<text x="822" y="440" font-size="18" fill="#FAF1E2">Price by: identity use, spend,</text>
+<text x="822" y="478" font-size="18" fill="#FAF1E2">duration, control</text>
+<text x="60" y="620" font-size="18" fill="#150F0B" opacity=".65">Each needs its own written terms. Never share passwords; use platform permission tools.</text></svg>

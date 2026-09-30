@@ -28,8 +28,12 @@ const campaignGoalOptions = [
 const TOPIC_TO_CAMPAIGN_GOAL: Record<string, string> = {
   UGC: "UGC Content",
   "Creator Discovery": "Creator Discovery",
+  "Creator Selection": "Creator Discovery",
   "Campaign Management": "Campaign Management",
+  "Campaign Planning": "Campaign Management",
+  "Always-On Program": "Campaign Management",
   "Product Launch": "Product Launch",
+  "Brand Awareness": "Brand Awareness",
 };
 
 export function BrandInquiryForm() {
@@ -54,7 +58,7 @@ export function BrandInquiryForm() {
   function trackFormStart() {
     if (hasTrackedStart.current || !sourceArticle) return;
     hasTrackedStart.current = true;
-    trackBlogLeadFormEvent("blog_lead_form_start", { sourceArticle, articleCategory, ctaPosition });
+    trackBlogLeadFormEvent("blog_lead_form_start", { sourceArticle, articleCategory, ctaPosition, ctaType: "brand_inquiry", intent: ctaTopic });
   }
 
   async function onSubmit(values: BrandInquiryValues) {
@@ -70,7 +74,7 @@ export function BrandInquiryForm() {
         throw new Error(data?.message || "Submission failed");
       }
       if (sourceArticle) {
-        trackBlogLeadFormEvent("blog_lead_form_submit", { sourceArticle, articleCategory, ctaPosition });
+        trackBlogLeadFormEvent("blog_lead_form_submit", { sourceArticle, articleCategory, ctaPosition, ctaType: "brand_inquiry", intent: ctaTopic });
       }
       reset(values);
     } catch (error) {

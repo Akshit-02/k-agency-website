@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator content audit lenses</title><rect width="1200" height="675" fill="#5A2EEA"/>
+<text x="60" y="85" font-size="36" fill="#FAF1E2" font-weight="700">Five lenses for a content audit</text>
+<text x="60" y="125" font-size="18" fill="#FAF1E2" opacity=".75">Judge each post by the lens that matches its goal</text>
+<path d="M110 350 H1090" stroke="#CCFF3D" stroke-width="4" stroke-dasharray="10 10"/>
+<g text-anchor="middle">
+<circle cx="110" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="359" font-size="26" font-weight="700" fill="#150F0B">1</text>
+<text x="110" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Reach</text>
+<text x="110" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Views and</text>
+<text x="110" y="305" font-size="15" fill="#FAF1E2" opacity=".78">new viewers</text>
+<circle cx="355" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="355" y="359" font-size="26" font-weight="700" fill="#150F0B">2</text>
+<text x="355" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Engagement</text>
+<text x="355" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Saves, shares,</text>
+<text x="355" y="480" font-size="15" fill="#FAF1E2" opacity=".78">comments</text>
+<circle cx="600" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="600" y="359" font-size="26" font-weight="700" fill="#150F0B">3</text>
+<text x="600" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Retention</text>
+<text x="600" y="284" font-size="15" fill="#FAF1E2" opacity=".78">How long</text>
+<text x="600" y="305" font-size="15" fill="#FAF1E2" opacity=".78">people watch</text>
+<circle cx="845" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="845" y="359" font-size="26" font-weight="700" fill="#150F0B">4</text>
+<text x="845" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Conversion</text>
+<text x="845" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Follows, clicks,</text>
+<text x="845" y="480" font-size="15" fill="#FAF1E2" opacity=".78">sign-ups</text>
+<circle cx="1090" cy="350" r="42" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="1090" y="359" font-size="26" font-weight="700" fill="#150F0B">5</text>
+<text x="1090" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Audience fit</text>
+<text x="1090" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Were they the</text>
+<text x="1090" y="305" font-size="15" fill="#FAF1E2" opacity=".78">right people?</text>
+</g>
+</svg>

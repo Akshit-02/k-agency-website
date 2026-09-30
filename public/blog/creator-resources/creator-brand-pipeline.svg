@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator brand partnership pipeline stages</title><rect width="1200" height="675" fill="#5A2EEA"/>
+<text x="60" y="85" font-size="36" fill="#FAF1E2" font-weight="700">The brand partnership pipeline</text>
+<text x="60" y="125" font-size="18" fill="#FAF1E2" opacity=".75">Every brand sits in one stage, with a dated next action</text>
+<path d="M110 350 H1090" stroke="#CCFF3D" stroke-width="4" stroke-dasharray="10 10"/>
+<g text-anchor="middle">
+<circle cx="110" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="359" font-size="26" font-weight="700" fill="#150F0B">1</text>
+<text x="110" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Target</text>
+<text x="110" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Fits, not</text>
+<text x="110" y="305" font-size="15" fill="#FAF1E2" opacity=".78">contacted</text>
+<circle cx="233" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="233" y="359" font-size="26" font-weight="700" fill="#150F0B">2</text>
+<text x="233" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Contacted</text>
+<text x="233" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Pitch or</text>
+<text x="233" y="480" font-size="15" fill="#FAF1E2" opacity=".78">enquiry</text>
+<circle cx="355" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="355" y="359" font-size="26" font-weight="700" fill="#150F0B">3</text>
+<text x="355" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Talking</text>
+<text x="355" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Brief and</text>
+<text x="355" y="305" font-size="15" fill="#FAF1E2" opacity=".78">budget</text>
+<circle cx="478" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="478" y="359" font-size="26" font-weight="700" fill="#150F0B">4</text>
+<text x="478" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Proposal</text>
+<text x="478" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Quote sent</text>
+<circle cx="600" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="600" y="359" font-size="26" font-weight="700" fill="#150F0B">5</text>
+<text x="600" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Negotiating</text>
+<text x="600" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Scope, fee,</text>
+<text x="600" y="305" font-size="15" fill="#FAF1E2" opacity=".78">terms</text>
+<circle cx="723" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="723" y="359" font-size="26" font-weight="700" fill="#150F0B">6</text>
+<text x="723" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Confirmed</text>
+<text x="723" y="459" font-size="15" fill="#FAF1E2" opacity=".78">In writing</text>
+<circle cx="845" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="845" y="359" font-size="26" font-weight="700" fill="#150F0B">7</text>
+<text x="845" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Delivered</text>
+<text x="845" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Live and</text>
+<text x="845" y="305" font-size="15" fill="#FAF1E2" opacity=".78">invoiced</text>
+<circle cx="968" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="968" y="359" font-size="26" font-weight="700" fill="#150F0B">8</text>
+<text x="968" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Paid</text>
+<text x="968" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Reconciled,</text>
+<text x="968" y="480" font-size="15" fill="#FAF1E2" opacity=".78">TDS checked</text>
+<circle cx="1090" cy="350" r="42" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="1090" y="359" font-size="26" font-weight="700" fill="#150F0B">9</text>
+<text x="1090" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Renewal</text>
+<text x="1090" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Propose the</text>
+<text x="1090" y="305" font-size="15" fill="#FAF1E2" opacity=".78">next one</text>
+</g>
+</svg>

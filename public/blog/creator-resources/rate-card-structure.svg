@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+  <title id="t">Creator rate card structure: base deliverables, add-ons, terms</title>
+  <rect width="1200" height="675" fill="#FAF1E2"/>
+  <text x="60" y="80" font-size="34" fill="#150F0B" font-weight="700">Rate card: three blocks, each with a clear scope</text>
+  <g stroke="#150F0B" stroke-width="3">
+    <rect x="60" y="130" width="340" height="440" fill="#FFFFFF"/>
+    <rect x="430" y="130" width="340" height="440" fill="#FFFFFF"/>
+    <rect x="800" y="130" width="340" height="440" fill="#FFFFFF"/>
+  </g>
+  <rect x="60" y="130" width="340" height="60" fill="#150F0B"/><text x="82" y="170" font-size="22" font-weight="700" fill="#FAF1E2">Base deliverables</text>
+  <rect x="430" y="130" width="340" height="60" fill="#FF4D1C"/><text x="452" y="170" font-size="22" font-weight="700" fill="#150F0B">Add-ons (priced separately)</text>
+  <rect x="800" y="130" width="340" height="60" fill="#5A2EEA"/><text x="822" y="170" font-size="22" font-weight="700" fill="#FAF1E2">Terms</text>
+  <g font-size="17" fill="#150F0B">
+    <text x="82" y="235">Instagram Reel ........ ₹___</text><text x="82" y="275">Story set ................. ₹___</text><text x="82" y="315">Carousel .................. ₹___</text><text x="82" y="355">YouTube integration .. ₹___</text><text x="82" y="395">YouTube Short ......... ₹___</text><text x="82" y="435">UGC-only video ......... ₹___</text>
+    <text x="82" y="500" opacity=".65">Each line says what's included</text><text x="82" y="525" opacity=".65">(concept, edit, 1 revision, posting)</text>
+    <text x="452" y="235">Paid usage (per 30 days)</text><text x="452" y="275">Whitelisting / partnership ads</text><text x="452" y="315">Exclusivity (per brief)</text><text x="452" y="355">Extra revision round</text><text x="452" y="395">Raw footage</text><text x="452" y="435">Cross-posting</text><text x="452" y="475">Rush delivery</text>
+    <text x="822" y="235">Valid until [date]</text><text x="822" y="275">Taxes: inclusive / exclusive</text><text x="822" y="315">Payment: advance + balance</text><text x="822" y="355">Timeline from product receipt</text><text x="822" y="395">Revisions included</text><text x="822" y="435">Disclosure per ASCI</text>
+  </g>
+  <text x="60" y="625" font-size="18" fill="#150F0B" opacity=".65">No fixed "market rate": build prices from average views, niche, production, rights and exclusivity.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Agency vs in-house influencer team comparison</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">AGENCY, IN-HOUSE OR HYBRID</text>
+<rect x="82" y="142" width="460" height="500" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="70" y="130" width="460" height="500" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="130" width="460" height="80" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="94" y="182" font-size="32" font-weight="700" text-anchor="start" fill="#150F0B">In-house</text>
+<text x="94" y="250" font-size="22" text-anchor="start" fill="#150F0B">Control</text>
+<rect x="94" y="264" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="94" y="264" width="370" height="22" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="94" y="326" font-size="22" text-anchor="start" fill="#150F0B">Brand knowledge</text>
+<rect x="94" y="340" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="94" y="340" width="350" height="22" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="94" y="402" font-size="22" text-anchor="start" fill="#150F0B">Speed to launch</text>
+<rect x="94" y="416" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="94" y="416" width="164" height="22" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="94" y="478" font-size="22" text-anchor="start" fill="#150F0B">Regional reach</text>
+<rect x="94" y="492" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="94" y="492" width="164" height="22" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<rect x="582" y="142" width="460" height="500" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="570" y="130" width="460" height="500" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<rect x="570" y="130" width="460" height="80" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="594" y="182" font-size="32" font-weight="700" text-anchor="start" fill="#150F0B">Hybrid</text>
+<text x="594" y="250" font-size="22" text-anchor="start" fill="#150F0B">Control</text>
+<rect x="594" y="264" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="594" y="264" width="309" height="22" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="594" y="326" font-size="22" text-anchor="start" fill="#150F0B">Brand knowledge</text>
+<rect x="594" y="340" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="594" y="340" width="329" height="22" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="594" y="402" font-size="22" text-anchor="start" fill="#150F0B">Speed to launch</text>
+<rect x="594" y="416" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="594" y="416" width="288" height="22" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="594" y="478" font-size="22" text-anchor="start" fill="#150F0B">Regional reach</text>
+<rect x="594" y="492" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="594" y="492" width="288" height="22" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<rect x="1082" y="142" width="460" height="500" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="1070" y="130" width="460" height="500" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<rect x="1070" y="130" width="460" height="80" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1094" y="182" font-size="32" font-weight="700" text-anchor="start" fill="#FAF1E2">Agency</text>
+<text x="1094" y="250" font-size="22" text-anchor="start" fill="#150F0B">Control</text>
+<rect x="1094" y="264" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1094" y="264" width="247" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="1094" y="326" font-size="22" text-anchor="start" fill="#150F0B">Brand knowledge</text>
+<rect x="1094" y="340" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1094" y="340" width="226" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="1094" y="402" font-size="22" text-anchor="start" fill="#150F0B">Speed to launch</text>
+<rect x="1094" y="416" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1094" y="416" width="350" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="1094" y="478" font-size="22" text-anchor="start" fill="#150F0B">Regional reach</text>
+<rect x="1094" y="492" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1094" y="492" width="350" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+</svg>

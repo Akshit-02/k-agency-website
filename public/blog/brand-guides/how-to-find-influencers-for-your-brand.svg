@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator discovery at scale</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">CREATOR DISCOVERY</text>
+<rect x="80" y="150" width="1100" height="108" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="70" y="140" width="1100" height="108" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="620" y="190" font-size="30" font-weight="700" text-anchor="middle" fill="#150F0B">Identify</text>
+<text x="620" y="224" font-size="20" text-anchor="middle" fill="#150F0B" opacity=".85">Topic, language, city, format</text>
+<rect x="190" y="278" width="880" height="108" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="180" y="268" width="880" height="108" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="620" y="318" font-size="30" font-weight="700" text-anchor="middle" fill="#FAF1E2">Audience and content fit</text>
+<text x="620" y="352" font-size="20" text-anchor="middle" fill="#FAF1E2" opacity=".85">Creator insights vs your customer</text>
+<rect x="300" y="406" width="660" height="108" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="290" y="396" width="660" height="108" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="620" y="446" font-size="30" font-weight="700" text-anchor="middle" fill="#150F0B">Authenticity and safety</text>
+<text x="620" y="480" font-size="20" text-anchor="middle" fill="#150F0B" opacity=".85">Growth, comments, past content</text>
+<rect x="410" y="534" width="440" height="108" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="400" y="524" width="440" height="108" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="620" y="574" font-size="30" font-weight="700" text-anchor="middle" fill="#150F0B">Ranked shortlist</text>
+<text x="620" y="608" font-size="20" text-anchor="middle" fill="#150F0B" opacity=".85">Reasons and backups</text>
+<rect x="1242" y="212" width="300" height="300" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="1230" y="200" width="300" height="300" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1256" y="252" font-size="26" font-weight="700" text-anchor="start" fill="#150F0B">Checks</text>
+<text x="1256" y="284" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Audience fit</text>
+<text x="1256" y="318" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Geography, language</text>
+<text x="1256" y="352" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Authenticity</text>
+<text x="1256" y="386" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Brand safety</text>
+</svg>

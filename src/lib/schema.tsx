@@ -56,27 +56,57 @@ export function breadcrumbSchema(items: { name: string; url: string }[]) {
 export function articleSchema(post: BlogPost, url: string) {
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: post.title,
-    description: post.excerpt,
-    image: `${siteConfig.url}${siteConfig.ogImage}`,
+    description: post.metaDescription ?? post.excerpt,
+    image: `${url}/opengraph-image`,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt ?? post.publishedAt,
+    articleSection: post.category,
+    ...(post.tags && post.tags.length > 0 ? { keywords: post.tags.join(", ") } : {}),
+    inLanguage: "en-IN",
     author: {
       "@type": "Organization",
       name: post.author.name,
+      url: `${siteConfig.url}/about`,
     },
-    publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      logo: {
-        "@type": "ImageObject",
-        url: `${siteConfig.url}${siteConfig.brand.appleTouchIcon}`,
-      },
-    },
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": url,
+    },
+  };
+}
+
+export function collectionPageSchema({
+  name,
+  description,
+  url,
+  items,
+}: {
+  name: string;
+  description: string;
+  url: string;
+  items: { name: string; url: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    description,
+    url,
+    inLanguage: "en-IN",
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: items.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        url: item.url,
+      })),
     },
   };
 }

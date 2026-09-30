@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer campaign cost breakdown</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">CAMPAIGN COST CALCULATOR</text>
+<rect x="82" y="162" width="1460" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="70" y="150" width="759" height="150" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="88" y="210" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Creator fees</text>
+<rect x="829" y="150" width="175" height="150" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="847" y="210" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Agency</text>
+<rect x="1004" y="150" width="146" height="150" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<rect x="1150" y="150" width="262" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1168" y="210" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Usage + media</text>
+<rect x="1412" y="150" width="118" height="150" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="70" y="370" font-size="30" font-weight="700" text-anchor="start" fill="#150F0B">Total = creators × quoted fees + everything else</text>
+<rect x="70" y="410" width="34" height="34" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="120" y="436" font-size="24" text-anchor="start" fill="#150F0B">Creator fees</text>
+<rect x="560" y="410" width="34" height="34" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="610" y="436" font-size="24" text-anchor="start" fill="#150F0B">Agency</text>
+<rect x="1050" y="410" width="34" height="34" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="1100" y="436" font-size="24" text-anchor="start" fill="#150F0B">Production</text>
+<rect x="70" y="480" width="34" height="34" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="120" y="506" font-size="24" text-anchor="start" fill="#150F0B">Usage + media</text>
+<rect x="560" y="480" width="34" height="34" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="610" y="506" font-size="24" text-anchor="start" fill="#150F0B">Contingency</text>
+<text x="70" y="600" font-size="22" text-anchor="start" fill="#150F0B" opacity=".75">Enter your own quotes; illustrative proportions only</text>
+</svg>

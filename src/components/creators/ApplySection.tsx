@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
@@ -33,7 +34,9 @@ export function ApplySection() {
           </div>
 
           <Reveal delay={0.1} className="border-[1.5px] border-ink bg-paper p-8 shadow-[10px_10px_0_0_var(--color-lime)] sm:p-12">
-            <CreatorApplicationForm />
+            <Suspense fallback={null}>
+              <CreatorApplicationForm />
+            </Suspense>
           </Reveal>
         </div>
       </Container>

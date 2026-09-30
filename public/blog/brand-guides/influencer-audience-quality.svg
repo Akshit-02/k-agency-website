@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator audience compared with target customer</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">AUDIENCE QUALITY AND FIT</text>
+<text x="70" y="150" font-size="26" font-weight="700" text-anchor="start" fill="#150F0B">Creator audience vs target customer, by city (illustrative)</text>
+<text x="70" y="234" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Pune</text>
+<rect x="320" y="200" width="306" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="236" width="270" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="70" y="320" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Bengaluru</text>
+<rect x="320" y="286" width="198" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="322" width="234" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="70" y="406" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Hyderabad</text>
+<rect x="320" y="372" width="126" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="408" width="180" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="70" y="492" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Delhi NCR</text>
+<rect x="320" y="458" width="108" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="494" width="54" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="70" y="578" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Outside India</text>
+<rect x="320" y="544" width="162" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="580" width="4" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<rect x="1260" y="200" width="34" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="1310" y="224" font-size="22" text-anchor="start" fill="#150F0B">Creator audience</text>
+<rect x="1260" y="250" width="34" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="1310" y="274" font-size="22" text-anchor="start" fill="#150F0B">Target customers</text>
+<rect x="1262" y="372" width="290" height="220" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="1250" y="360" width="290" height="220" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1276" y="414" font-size="28" font-weight="700" text-anchor="start" fill="#150F0B">Fit</text>
+<text x="1276" y="446" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Location ✓</text>
+<text x="1276" y="480" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Language ✓</text>
+<text x="1276" y="514" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Age ✓</text>
+<text x="1276" y="548" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Real &amp; active ✓</text>
+</svg>

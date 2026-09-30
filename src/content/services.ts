@@ -27,7 +27,7 @@ export const services: Service[] = [
       "Every campaign starts with a strategic brief, not a creator list. We study your audience, category, and business objective, then map the platform mix, content formats, and creator tiers most likely to move the metric you actually care about.",
     metaDescription:
       "Influencer marketing strategy services from Kudozz: audience research, platform and format planning, creator tiering, and a KPI framework before outreach begins.",
-    secondaryKeywords: ["influencer marketing strategy", "influencer campaign planning", "influencer marketing plan"],
+    secondaryKeywords: ["influencer marketing strategy services", "influencer marketing strategy", "influencer campaign planning", "influencer marketing plan"],
     whoItsFor:
       "Brands running their first influencer campaign, or teams whose past campaigns produced reach without measurable results.",
     deliverables: [
@@ -64,6 +64,11 @@ export const services: Service[] = [
         answer:
           "Yes. We fold your existing brand guidelines, launch calendar, and paid media plan into the influencer strategy so campaigns reinforce what you're already running instead of operating in isolation.",
       },
+      {
+        question: "What do influencer marketing strategy services include?",
+        answer:
+          "Audience and category research, platform and format strategy, creator tiering and budget allocation, and a KPI framework agreed before any creator is contacted, delivered as a written strategy.",
+      },
     ],
     motif: "orbit",
   },
@@ -76,7 +81,7 @@ export const services: Service[] = [
       "We screen for audience overlap, engagement quality, content style, and brand fit — not follower count alone. Every shortlist is vetted for authenticity signals before it reaches you.",
     metaDescription:
       "Influencer discovery services that screen for audience overlap, engagement quality, and authenticity — not follower count. Curated creator shortlists with a documented rationale.",
-    secondaryKeywords: ["influencer discovery services", "creator matchmaking", "find influencers for brand"],
+    secondaryKeywords: ["creator discovery services", "influencer discovery services", "creator matchmaking", "find influencers for brand"],
     whoItsFor:
       "Brands who have tried building creator shortlists in-house using follower count or hashtag search and gotten inconsistent results.",
     deliverables: [
@@ -113,6 +118,16 @@ export const services: Service[] = [
         answer:
           "Yes. Our network spans fashion, beauty, tech, travel, food, fitness, lifestyle, finance, and gaming, and we source region-specific candidates outside our existing network when a campaign requires it.",
       },
+      {
+        question: "How does creator discovery work?",
+        answer:
+          "We build a target audience profile from your customer data, screen candidate creators' audiences against it, audit engagement and authenticity, review recent content for tone and brand fit, and deliver a shortlist with a written rationale for each creator.",
+      },
+      {
+        question: "Should brands use an agency for creator discovery?",
+        answer:
+          "It helps most when you need many creators, creators in specific regions or niches, or consistent vetting at speed. Brands with a small, familiar niche can often build shortlists in-house using clear criteria.",
+      },
     ],
     motif: "grid",
   },
@@ -125,7 +140,7 @@ export const services: Service[] = [
       "From first outreach to final invoice, we manage the relationship — negotiating terms, aligning deliverables, tracking approvals, and keeping creators and brand stakeholders in sync.",
     metaDescription:
       "Influencer outreach and campaign management services: negotiation, contracting, usage rights, and deliverable tracking handled by a single point of contact.",
-    secondaryKeywords: ["influencer outreach services", "influencer campaign management", "creator management"],
+    secondaryKeywords: ["influencer outreach services", "influencer campaign management services", "influencer campaign management", "creator management"],
     whoItsFor: "Brands who don't have the internal bandwidth to negotiate, contract, and coordinate multiple creators at once.",
     deliverables: [
       "Outreach and negotiation",
@@ -160,6 +175,16 @@ export const services: Service[] = [
         question: "Can Kudozz manage creators we've already worked with?",
         answer:
           "Yes. We can bring existing creator relationships into a managed workflow, keeping the history and tone of the relationship while adding structured tracking and reporting.",
+      },
+      {
+        question: "What do influencer campaign management services include?",
+        answer:
+          "Outreach and negotiation, contracting with usage rights agreed upfront, tracking of drafts, revisions and approvals, and a single point of contact for your team and every creator.",
+      },
+      {
+        question: "How is creator communication managed during a campaign?",
+        answer:
+          "One dedicated contact handles creator communication and follow-ups, with every creator's status tracked in one place, so your team isn't managing separate threads with each creator.",
       },
     ],
     motif: "channel",
@@ -366,7 +391,7 @@ export const services: Service[] = [
       "You get a dashboard and a debrief — not just a spreadsheet. We track reach, engagement, and conversion signals against the goals set at kickoff, and tell you plainly what worked.",
     metaDescription:
       "Influencer campaign reporting and ROI tracking: unified dashboards, KPI-vs-actual scorecards, and a plain-language debrief tied to the goals set before launch.",
-    secondaryKeywords: ["influencer marketing ROI", "influencer campaign reporting", "campaign performance tracking"],
+    secondaryKeywords: ["influencer campaign reporting", "influencer campaign reporting services", "influencer marketing ROI", "campaign performance tracking"],
     whoItsFor: "Brands who need influencer campaign results reported with the same rigor as paid media, not a follower-count recap.",
     deliverables: [
       "Unified cross-creator reporting",
@@ -401,6 +426,11 @@ export const services: Service[] = [
         question: "Can you report on campaigns that weren't run through Kudozz?",
         answer:
           "In most cases, yes — if we have platform access or exported data, we can build a comparable reporting structure for campaigns run by another team or agency.",
+      },
+      {
+        question: "What should a professional influencer campaign report include?",
+        answer:
+          "Results against the KPI agreed at kickoff, a creator-level performance breakdown, reach, engagement, clicks and conversions where they can be tracked, and a plain-language debrief with recommendations.",
       },
     ],
     motif: "ledger",

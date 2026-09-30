@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator workflow in six stages</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">Creator workflow: six stages, one tracker</text>
+<rect x="60" y="130" width="166" height="300" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="74" y="165" font-size="14" fill="#FAF1E2" opacity=".7">01</text><text x="74" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Opportunity</text>
+<text x="74" y="250" font-size="17" fill="#FAF1E2">• Log enquiry</text>
+<text x="74" y="284" font-size="17" fill="#FAF1E2">• Verify</text>
+<text x="74" y="318" font-size="17" fill="#FAF1E2">• Qualify</text>
+<path d="M143 432 v40" stroke="#150F0B" stroke-width="3"/>
+<rect x="242" y="130" width="166" height="300" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="256" y="165" font-size="14" fill="#150F0B" opacity=".7">02</text><text x="256" y="200" font-size="21" font-weight="700" fill="#150F0B">Planning</text>
+<text x="256" y="250" font-size="17" fill="#150F0B">• Brief</text>
+<text x="256" y="284" font-size="17" fill="#150F0B">• Deliverables</text>
+<text x="256" y="318" font-size="17" fill="#150F0B">• Deadlines</text>
+<path d="M325 432 v40" stroke="#150F0B" stroke-width="3"/>
+<rect x="424" y="130" width="166" height="300" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="438" y="165" font-size="14" fill="#FAF1E2" opacity=".7">03</text><text x="438" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Production</text>
+<text x="438" y="250" font-size="17" fill="#FAF1E2">• Script</text>
+<text x="438" y="284" font-size="17" fill="#FAF1E2">• Shoot</text>
+<text x="438" y="318" font-size="17" fill="#FAF1E2">• Edit</text>
+<path d="M507 432 v40" stroke="#150F0B" stroke-width="3"/>
+<rect x="606" y="130" width="166" height="300" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="620" y="165" font-size="14" fill="#150F0B" opacity=".7">04</text><text x="620" y="200" font-size="21" font-weight="700" fill="#150F0B">Approval</text>
+<text x="620" y="250" font-size="17" fill="#150F0B">• Revisions</text>
+<text x="620" y="284" font-size="17" fill="#150F0B">• Final OK</text>
+<text x="620" y="318" font-size="17" fill="#150F0B">• Publish</text>
+<path d="M689 432 v40" stroke="#150F0B" stroke-width="3"/>
+<rect x="788" y="130" width="166" height="300" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="802" y="165" font-size="14" fill="#FAF1E2" opacity=".7">05</text><text x="802" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Reporting</text>
+<text x="802" y="250" font-size="17" fill="#FAF1E2">• Screenshots</text>
+<text x="802" y="284" font-size="17" fill="#FAF1E2">• Report</text>
+<text x="802" y="318" font-size="17" fill="#FAF1E2">• Case study</text>
+<path d="M871 432 v40" stroke="#150F0B" stroke-width="3"/>
+<rect x="970" y="130" width="166" height="300" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="984" y="165" font-size="14" fill="#150F0B" opacity=".7">06</text><text x="984" y="200" font-size="21" font-weight="700" fill="#150F0B">Finance</text>
+<text x="984" y="250" font-size="17" fill="#150F0B">• Invoice</text>
+<text x="984" y="284" font-size="17" fill="#150F0B">• Payment</text>
+<text x="984" y="318" font-size="17" fill="#150F0B">• TDS / GST</text>
+<path d="M1053 432 v40" stroke="#150F0B" stroke-width="3"/>
+<rect x="60" y="472" width="1076" height="90" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="598" y="512" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">Creator campaign tracker</text><text x="598" y="544" font-size="16" text-anchor="middle" fill="#150F0B" opacity=".7">One row per deal · status · dates · approvals · links · report · invoice · payment · TDS</text>
+<text x="60" y="625" font-size="18" fill="#150F0B" opacity=".65">Review weekly. Work every deadline backwards from the posting date.</text></svg>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { buildMetadata } from "@/lib/metadata";
 import { blogPosts } from "@/content/blog";
 import { Eyebrow } from "@/components/ui/Eyebrow";
@@ -36,6 +37,18 @@ export default function BlogIndexPage() {
             <h1 className="mt-6 max-w-2xl font-display text-6xl leading-[0.98] tracking-tight text-balance text-ink sm:text-7xl">
               Notes on running influencer marketing <em className="italic text-coral">well.</em>
             </h1>
+          </Reveal>
+          <Reveal delay={0.12}>
+            <p className="mt-6 text-base text-ink/65">
+              Are you a creator?{" "}
+              <Link
+                href="/creator-resources"
+                className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+              >
+                Browse Creator Resources
+              </Link>{" "}
+              for media kits, pricing, contracts and brand deals.
+            </p>
           </Reveal>
         </Container>
       </section>

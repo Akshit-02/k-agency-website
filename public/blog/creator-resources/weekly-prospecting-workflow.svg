@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+  <title id="t">Weekly brand prospecting workflow for creators</title>
+  <rect width="1200" height="675" fill="#FAF1E2"/>
+  <text x="60" y="80" font-size="34" fill="#150F0B" font-weight="700">A weekly brand-prospecting routine (2–3 hours)</text>
+  <g stroke="#150F0B" stroke-width="3">
+    <rect x="60" y="160" width="196" height="300" fill="#150F0B"/>
+    <rect x="286" y="160" width="196" height="300" fill="#FF4D1C"/>
+    <rect x="512" y="160" width="196" height="300" fill="#5A2EEA"/>
+    <rect x="738" y="160" width="196" height="300" fill="#CCFF3D"/>
+    <rect x="964" y="160" width="196" height="300" fill="#FFFFFF"/>
+  </g>
+  <g font-size="16">
+    <text x="80" y="205" font-size="14" fill="#FAF1E2" opacity=".7">MONDAY · 45 MIN</text><text x="80" y="245" font-size="24" font-weight="700" fill="#FAF1E2">Research</text>
+    <text x="80" y="290" fill="#FAF1E2">Find 10 brands:</text><text x="80" y="315" fill="#FAF1E2">paid partnership</text><text x="80" y="340" fill="#FAF1E2">labels, peers'</text><text x="80" y="365" fill="#FAF1E2">sponsors, launches</text>
+    <text x="306" y="205" font-size="14" fill="#150F0B" opacity=".7">TUESDAY · 30 MIN</text><text x="306" y="245" font-size="24" font-weight="700" fill="#150F0B">Qualify</text>
+    <text x="306" y="290" fill="#150F0B">Check fit, legitimacy</text><text x="306" y="315" fill="#150F0B">and timing. Find the</text><text x="306" y="340" fill="#150F0B">right contact</text>
+    <text x="532" y="205" font-size="14" fill="#FAF1E2" opacity=".7">WEDNESDAY · 45 MIN</text><text x="532" y="245" font-size="24" font-weight="700" fill="#FAF1E2">Pitch</text>
+    <text x="532" y="290" fill="#FAF1E2">3–5 personalised</text><text x="532" y="315" fill="#FAF1E2">pitches, each with</text><text x="532" y="340" fill="#FAF1E2">one specific idea</text>
+    <text x="758" y="205" font-size="14" fill="#150F0B" opacity=".7">THURSDAY · 15 MIN</text><text x="758" y="245" font-size="24" font-weight="700" fill="#150F0B">Follow up</text>
+    <text x="758" y="290" fill="#150F0B">Pitches sent 5–7</text><text x="758" y="315" fill="#150F0B">working days ago.</text><text x="758" y="340" fill="#150F0B">Max two follow-ups</text>
+    <text x="984" y="205" font-size="14" fill="#150F0B" opacity=".7">FRIDAY · 15 MIN</text><text x="984" y="245" font-size="24" font-weight="700" fill="#150F0B">Review</text>
+    <text x="984" y="290" fill="#150F0B">Update tracker.</text><text x="984" y="315" fill="#150F0B">What got replies?</text><text x="984" y="340" fill="#150F0B">Adjust next week</text>
+  </g>
+  <path d="M110 520 H1110" stroke="#150F0B" stroke-width="3" fill="none"/><path d="M1110 520 l-16 -10 v20 z" fill="#150F0B"/>
+  <text x="60" y="580" font-size="18" fill="#150F0B" opacity=".65">Repeat weekly. A consistent small routine beats occasional mass outreach.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator-to-customer journey from first view to repurchase</title><rect width="1200" height="675" fill="#5A2EEA"/>
+<text x="60" y="85" font-size="36" fill="#FAF1E2" font-weight="700">From first view to repurchase</text>
+<text x="60" y="125" font-size="18" fill="#FAF1E2" opacity=".75">The questions your audience needs answered at each step</text>
+<path d="M110 350 H1090" stroke="#CCFF3D" stroke-width="4" stroke-dasharray="10 10"/>
+<g text-anchor="middle">
+<circle cx="110" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="359" font-size="26" font-weight="700" fill="#150F0B">1</text>
+<text x="110" y="260" font-size="18" font-weight="700" fill="#FAF1E2">First view</text>
+<text x="110" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Is this for me?</text>
+<circle cx="273" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="273" y="359" font-size="26" font-weight="700" fill="#150F0B">2</text>
+<text x="273" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Follow</text>
+<text x="273" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Will there be more?</text>
+<circle cx="437" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="437" y="359" font-size="26" font-weight="700" fill="#150F0B">3</text>
+<text x="437" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Trust</text>
+<text x="437" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Do they know</text>
+<text x="437" y="305" font-size="15" fill="#FAF1E2" opacity=".78">their stuff?</text>
+<circle cx="600" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="600" y="359" font-size="26" font-weight="700" fill="#150F0B">4</text>
+<text x="600" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Sign-up</text>
+<text x="600" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Is it worth</text>
+<text x="600" y="480" font-size="15" fill="#FAF1E2" opacity=".78">my email?</text>
+<circle cx="763" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="763" y="359" font-size="26" font-weight="700" fill="#150F0B">5</text>
+<text x="763" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Consider</text>
+<text x="763" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Is it right</text>
+<text x="763" y="305" font-size="15" fill="#FAF1E2" opacity=".78">for me?</text>
+<circle cx="927" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="927" y="359" font-size="26" font-weight="700" fill="#150F0B">6</text>
+<text x="927" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Purchase</text>
+<text x="927" y="459" font-size="15" fill="#FAF1E2" opacity=".78">Is paying easy</text>
+<text x="927" y="480" font-size="15" fill="#FAF1E2" opacity=".78">and safe?</text>
+<circle cx="1090" cy="350" r="42" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="1090" y="359" font-size="26" font-weight="700" fill="#150F0B">7</text>
+<text x="1090" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Return</text>
+<text x="1090" y="284" font-size="15" fill="#FAF1E2" opacity=".78">Would I do</text>
+<text x="1090" y="305" font-size="15" fill="#FAF1E2" opacity=".78">this again?</text>
+</g>
+</svg>

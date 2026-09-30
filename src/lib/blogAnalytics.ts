@@ -14,6 +14,11 @@ export type BlogCtaEventParams = {
   category: string;
   topic: string;
   position: "mid" | "bottom";
+  ctaType?: string;
+  platform?: string;
+  intent?: string;
+  audience?: string;
+  cluster?: string;
 };
 
 export function trackBlogCtaClick(
@@ -26,17 +31,24 @@ export function trackBlogCtaClick(
     article_category: params.category,
     cta_topic: params.topic,
     cta_position: params.position,
+    cta_type: params.ctaType ?? "",
+    platform: params.platform ?? "",
+    intent: params.intent ?? "",
+    audience: params.audience ?? "",
+    creator_resource_cluster: params.cluster ?? "",
   });
 }
 
 export function trackBlogLeadFormEvent(
   event: "blog_lead_form_start" | "blog_lead_form_submit",
-  params: { sourceArticle?: string; articleCategory?: string; ctaPosition?: string }
+  params: { sourceArticle?: string; articleCategory?: string; ctaPosition?: string; ctaType?: string; intent?: string }
 ) {
   if (typeof window === "undefined" || !window.gtag) return;
   window.gtag("event", event, {
     source_article: params.sourceArticle ?? "",
     article_category: params.articleCategory ?? "",
     cta_position: params.ctaPosition ?? "",
+    cta_type: params.ctaType ?? "",
+    intent: params.intent ?? "",
   });
 }

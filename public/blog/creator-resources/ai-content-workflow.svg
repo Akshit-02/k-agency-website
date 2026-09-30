@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">AI content workflow for creators</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">AI content workflow: AI drafts, you decide</text>
+<rect x="60" y="130" width="255" height="110" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="162" font-size="14" fill="#FAF1E2" opacity=".7">01 · AI assists</text>
+<text x="76" y="206" font-size="24" font-weight="700" fill="#FAF1E2">Idea</text>
+<rect x="60" y="248" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="76" y="276" font-size="16" fill="#150F0B">✓ Human: Pick the idea</text>
+<rect x="335" y="130" width="255" height="110" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="162" font-size="14" fill="#150F0B" opacity=".7">02 · AI assists</text>
+<text x="351" y="206" font-size="24" font-weight="700" fill="#150F0B">Research</text>
+<rect x="335" y="248" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="351" y="276" font-size="16" fill="#150F0B">✓ Human: Verify facts</text>
+<rect x="610" y="130" width="255" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="162" font-size="14" fill="#FAF1E2" opacity=".7">03 · AI assists</text>
+<text x="626" y="206" font-size="24" font-weight="700" fill="#FAF1E2">Script</text>
+<rect x="610" y="248" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="626" y="276" font-size="16" fill="#150F0B">✓ Human: Rewrite in your voice</text>
+<rect x="885" y="130" width="255" height="110" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="162" font-size="14" fill="#150F0B" opacity=".7">04 · AI assists</text>
+<text x="901" y="206" font-size="24" font-weight="700" fill="#150F0B">Production</text>
+<rect x="885" y="248" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="901" y="276" font-size="16" fill="#150F0B">✓ Human: You perform</text>
+<rect x="60" y="360" width="255" height="110" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="392" font-size="14" fill="#FAF1E2" opacity=".7">05 · AI assists</text>
+<text x="76" y="436" font-size="24" font-weight="700" fill="#FAF1E2">Edit</text>
+<rect x="60" y="478" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="76" y="506" font-size="16" fill="#150F0B">✓ Human: Approve the cut</text>
+<rect x="335" y="360" width="255" height="110" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="392" font-size="14" fill="#150F0B" opacity=".7">06 · AI assists</text>
+<text x="351" y="436" font-size="24" font-weight="700" fill="#150F0B">Captions</text>
+<rect x="335" y="478" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="351" y="506" font-size="16" fill="#150F0B">✓ Human: Proofread</text>
+<rect x="610" y="360" width="255" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="392" font-size="14" fill="#FAF1E2" opacity=".7">07 · AI assists</text>
+<text x="626" y="436" font-size="24" font-weight="700" fill="#FAF1E2">Repurpose</text>
+<rect x="610" y="478" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="626" y="506" font-size="16" fill="#150F0B">✓ Human: Choose + rewrite</text>
+<rect x="885" y="360" width="255" height="110" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="392" font-size="14" fill="#150F0B" opacity=".7">08 · AI assists</text>
+<text x="901" y="436" font-size="24" font-weight="700" fill="#150F0B">Publish</text>
+<rect x="885" y="478" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="901" y="506" font-size="16" fill="#150F0B">✓ Human: Disclose + decide</text>
+<text x="60" y="640" font-size="18" fill="#150F0B" opacity=".65">A human checkpoint after every AI step keeps facts right and your voice intact.</text></svg>

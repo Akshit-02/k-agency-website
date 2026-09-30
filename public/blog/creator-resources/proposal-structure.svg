@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator campaign proposal structure</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">Campaign proposal: 10 parts</text>
+<rect x="60" y="130" width="200" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="162" font-size="14" fill="#FAF1E2" opacity=".7">01</text>
+<text x="76" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Objective</text>
+<text x="76" y="235" font-size="15" fill="#FAF1E2">In your words</text>
+<rect x="280" y="130" width="200" height="200" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="296" y="162" font-size="14" fill="#150F0B" opacity=".7">02</text>
+<text x="296" y="200" font-size="21" font-weight="700" fill="#150F0B">Idea</text>
+<text x="296" y="235" font-size="15" fill="#150F0B">Concept + hook</text>
+<rect x="500" y="130" width="200" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="516" y="162" font-size="14" fill="#FAF1E2" opacity=".7">03</text>
+<text x="516" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Deliverables</text>
+<text x="516" y="235" font-size="15" fill="#FAF1E2">Formats, counts</text>
+<rect x="720" y="130" width="200" height="200" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="736" y="162" font-size="14" fill="#150F0B" opacity=".7">04</text>
+<text x="736" y="200" font-size="21" font-weight="700" fill="#150F0B">Timeline</text>
+<text x="736" y="235" font-size="15" fill="#150F0B">Dependent dates</text>
+<rect x="940" y="130" width="200" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="956" y="162" font-size="14" fill="#FAF1E2" opacity=".7">05</text>
+<text x="956" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Fee</text>
+<text x="956" y="235" font-size="15" fill="#FAF1E2">Itemised, taxes</text>
+<rect x="60" y="355" width="200" height="200" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="387" font-size="14" fill="#150F0B" opacity=".7">06</text>
+<text x="76" y="425" font-size="21" font-weight="700" fill="#150F0B">Usage &amp; add-ons</text>
+<text x="76" y="460" font-size="15" fill="#150F0B">Priced lines</text>
+<rect x="280" y="355" width="200" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="296" y="387" font-size="14" fill="#FAF1E2" opacity=".7">07</text>
+<text x="296" y="425" font-size="21" font-weight="700" fill="#FAF1E2">Reporting</text>
+<text x="296" y="460" font-size="15" fill="#FAF1E2">Metrics + date</text>
+<rect x="500" y="355" width="200" height="200" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="516" y="387" font-size="14" fill="#150F0B" opacity=".7">08</text>
+<text x="516" y="425" font-size="21" font-weight="700" fill="#150F0B">Assumptions</text>
+<text x="516" y="460" font-size="15" fill="#150F0B">What price</text>
+<text x="516" y="484" font-size="15" fill="#150F0B">depends on</text>
+<rect x="720" y="355" width="200" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="736" y="387" font-size="14" fill="#FAF1E2" opacity=".7">09</text>
+<text x="736" y="425" font-size="21" font-weight="700" fill="#FAF1E2">Exclusions</text>
+<text x="736" y="460" font-size="15" fill="#FAF1E2">What isn't</text>
+<text x="736" y="484" font-size="15" fill="#FAF1E2">included</text>
+<rect x="940" y="355" width="200" height="200" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="956" y="387" font-size="14" fill="#150F0B" opacity=".7">10</text>
+<text x="956" y="425" font-size="21" font-weight="700" fill="#150F0B">Payment terms</text>
+<text x="956" y="460" font-size="15" fill="#150F0B">Advance +</text>
+<text x="956" y="484" font-size="15" fill="#150F0B">balance date</text>
+<text x="60" y="630" font-size="18" fill="#150F0B" opacity=".65">Assumptions and exclusions prevent most disputes about revisions, usage and reshoots.</text></svg>

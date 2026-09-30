@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+  <title id="t">Creator invoice layout</title>
+  <rect width="1200" height="675" fill="#FAF1E2"/>
+  <rect x="300" y="30" width="600" height="615" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+  <g font-size="15" fill="#150F0B">
+    <text x="330" y="80" font-size="30" font-weight="700">INVOICE</text>
+    <text x="640" y="68">Invoice no: PREFIX/2026-27/001</text><text x="640" y="92">Date: DD Mon YYYY</text>
+    <rect x="330" y="115" width="260" height="120" fill="#FAF1E2"/><text x="345" y="140" font-weight="700">FROM</text><text x="345" y="165">Your legal / business name</text><text x="345" y="187">Address · email · phone</text><text x="345" y="209">PAN · GSTIN (if registered)</text>
+    <rect x="610" y="115" width="260" height="120" fill="#FAF1E2"/><text x="625" y="140" font-weight="700">BILL TO</text><text x="625" y="165">Client legal entity</text><text x="625" y="187">Address · GSTIN (if any)</text><text x="625" y="209">PO / campaign reference</text>
+    <rect x="330" y="255" width="540" height="36" fill="#150F0B"/><text x="345" y="279" fill="#FAF1E2" font-weight="700">DELIVERABLES</text><text x="790" y="279" fill="#FAF1E2" font-weight="700">₹</text>
+    <text x="345" y="320">Instagram Reel — posted [date] — link</text><text x="790" y="320">_____</text>
+    <text x="345" y="350">Story set (4 frames)</text><text x="790" y="350">_____</text>
+    <text x="345" y="380">Paid usage, Meta ads, India, 60 days</text><text x="790" y="380">_____</text>
+    <line x1="330" y1="400" x2="870" y2="400" stroke="#150F0B" opacity=".3"/>
+    <text x="620" y="428">Subtotal</text><text x="790" y="428">_____</text>
+    <text x="620" y="455" fill="#FF4D1C">GST (only if registered)</text><text x="790" y="455">_____</text>
+    <text x="620" y="487" font-weight="700" font-size="18">TOTAL</text><text x="790" y="487" font-weight="700" font-size="18">_____</text>
+    <rect x="330" y="515" width="540" height="100" fill="#CCFF3D" opacity=".6"/><text x="345" y="545" font-weight="700">PAYMENT TERMS &amp; DETAILS</text><text x="345" y="570">Due within 15 days, per agreement dated [date]</text><text x="345" y="595">Account name · number · IFSC · bank · UPI</text>
+  </g>
+  <g font-size="16" fill="#150F0B">
+    <text x="40" y="150" font-weight="700">Unique number</text><text x="40" y="172" opacity=".65">per financial year</text>
+    <text x="40" y="330" font-weight="700">Link each line</text><text x="40" y="352" opacity=".65">to a deliverable</text>
+    <text x="930" y="150" font-weight="700">Exact legal entity</text><text x="930" y="172" opacity=".65">+ PO number</text>
+    <text x="930" y="455" font-weight="700">Brand may deduct TDS</text><text x="930" y="477" opacity=".65">from what it pays</text>
+  </g>
+</svg>

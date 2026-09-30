@@ -4,6 +4,7 @@ import { CreatorsHero } from "@/components/creators/CreatorsHero";
 import { Benefits } from "@/components/creators/Benefits";
 import { CreatorHowItWorks } from "@/components/creators/CreatorHowItWorks";
 import { ApplySection } from "@/components/creators/ApplySection";
+import { CreatorResourcesTeaser } from "@/components/creators/CreatorResourcesTeaser";
 
 export const metadata: Metadata = buildMetadata({
   title: "For Creators: Join Our Influencer & Content Creator Network",
@@ -19,6 +20,7 @@ export default function ForCreatorsPage() {
       <Benefits />
       <CreatorHowItWorks />
       <ApplySection />
+      <CreatorResourcesTeaser />
     </>
   );
 }

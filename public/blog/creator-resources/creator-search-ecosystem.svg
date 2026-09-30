@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator search ecosystem</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">Six discovery surfaces, six different systems</text>
+<rect x="60" y="120" width="340" height="220" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="80" y="156" font-size="14" fill="#FAF1E2" opacity=".7">01</text><text x="80" y="200" font-size="26" font-weight="700" fill="#FAF1E2">Google Search</text>
+<text x="80" y="242" font-size="17" fill="#FAF1E2">Web pages, videos,</text>
+<text x="80" y="272" font-size="17" fill="#FAF1E2">social results</text>
+<text x="80" y="302" font-size="17" fill="#FAF1E2">Helps: website, clear pages</text>
+<rect x="425" y="120" width="340" height="220" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="445" y="156" font-size="14" fill="#150F0B" opacity=".7">02</text><text x="445" y="200" font-size="26" font-weight="700" fill="#150F0B">YouTube Search</text>
+<text x="445" y="242" font-size="17" fill="#150F0B">Relevance, engagement,</text>
+<text x="445" y="272" font-size="17" fill="#150F0B">quality</text>
+<text x="445" y="302" font-size="17" fill="#150F0B">Helps: titles, watch time</text>
+<rect x="790" y="120" width="340" height="220" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="810" y="156" font-size="14" fill="#FAF1E2" opacity=".7">03</text><text x="810" y="200" font-size="26" font-weight="700" fill="#FAF1E2">Instagram Search</text>
+<text x="810" y="242" font-size="17" fill="#FAF1E2">Search text, activity,</text>
+<text x="810" y="272" font-size="17" fill="#FAF1E2">popularity</text>
+<text x="810" y="302" font-size="17" fill="#FAF1E2">Helps: name, bio, captions</text>
+<rect x="60" y="365" width="340" height="220" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="80" y="401" font-size="14" fill="#150F0B" opacity=".7">04</text><text x="80" y="445" font-size="26" font-weight="700" fill="#150F0B">TikTok Search</text>
+<text x="80" y="487" font-size="17" fill="#150F0B">Captions, text, speech</text>
+<text x="80" y="517" font-size="17" fill="#150F0B">(not available in India)</text>
+<text x="80" y="547" font-size="17" fill="#150F0B">Helps: clear labelling</text>
+<rect x="425" y="365" width="340" height="220" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="445" y="401" font-size="14" fill="#FAF1E2" opacity=".7">05</text><text x="445" y="445" font-size="26" font-weight="700" fill="#FAF1E2">Social discovery</text>
+<text x="445" y="487" font-size="17" fill="#FAF1E2">Feeds based on behaviour,</text>
+<text x="445" y="517" font-size="17" fill="#FAF1E2">not queries</text>
+<text x="445" y="547" font-size="17" fill="#FAF1E2">Helps: retention, shares</text>
+<rect x="790" y="365" width="340" height="220" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="810" y="401" font-size="14" fill="#150F0B" opacity=".7">06</text><text x="810" y="445" font-size="26" font-weight="700" fill="#150F0B">AI search</text>
+<text x="810" y="487" font-size="17" fill="#150F0B">Summaries citing sources</text>
+<text x="810" y="517" font-size="17" fill="#150F0B"></text>
+<text x="810" y="547" font-size="17" fill="#150F0B">Helps: indexed, clear answers</text>
+<text x="60" y="640" font-size="18" fill="#150F0B" opacity=".65">There is no single universal algorithm. Shared foundation: real questions, clear labels, satisfying answers.</text></svg>

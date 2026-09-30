@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Short-form content system</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">The short-form content system</text>
+<rect x="60" y="150" width="196" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="184" font-size="14" fill="#FAF1E2" opacity=".7">01</text><text x="76" y="232" font-size="24" font-weight="700" fill="#FAF1E2">Idea</text>
+<path d="M258 210 h20" stroke="#150F0B" stroke-width="3"/>
+<rect x="280" y="150" width="196" height="120" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="296" y="184" font-size="14" fill="#150F0B" opacity=".7">02</text><text x="296" y="232" font-size="24" font-weight="700" fill="#150F0B">Hook</text>
+<path d="M478 210 h20" stroke="#150F0B" stroke-width="3"/>
+<rect x="500" y="150" width="196" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="516" y="184" font-size="14" fill="#FAF1E2" opacity=".7">03</text><text x="516" y="232" font-size="24" font-weight="700" fill="#FAF1E2">Script</text>
+<path d="M698 210 h20" stroke="#150F0B" stroke-width="3"/>
+<rect x="720" y="150" width="196" height="120" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="736" y="184" font-size="14" fill="#150F0B" opacity=".7">04</text><text x="736" y="232" font-size="24" font-weight="700" fill="#150F0B">Recording</text>
+<path d="M918 210 h20" stroke="#150F0B" stroke-width="3"/>
+<rect x="940" y="150" width="196" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="956" y="184" font-size="14" fill="#FAF1E2" opacity=".7">05</text><text x="956" y="232" font-size="24" font-weight="700" fill="#FAF1E2">Editing</text>
+<rect x="720" y="380" width="196" height="120" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="736" y="414" font-size="14" fill="#150F0B" opacity=".7">06</text><text x="736" y="462" font-size="24" font-weight="700" fill="#150F0B">Publishing</text>
+<path d="M718 440 h-20" stroke="#150F0B" stroke-width="3"/>
+<rect x="500" y="380" width="196" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="516" y="414" font-size="14" fill="#FAF1E2" opacity=".7">07</text><text x="516" y="462" font-size="24" font-weight="700" fill="#FAF1E2">Repurposing</text>
+<path d="M498 440 h-20" stroke="#150F0B" stroke-width="3"/>
+<rect x="280" y="380" width="196" height="120" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="296" y="414" font-size="14" fill="#150F0B" opacity=".7">08</text><text x="296" y="462" font-size="24" font-weight="700" fill="#150F0B">Analytics</text>
+<path d="M278 440 h-20" stroke="#150F0B" stroke-width="3"/>
+<rect x="60" y="380" width="196" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="414" font-size="14" fill="#FAF1E2" opacity=".7">09</text><text x="76" y="462" font-size="24" font-weight="700" fill="#FAF1E2">Iteration</text>
+<path d="M1038 272 v106" stroke="#150F0B" stroke-width="3"/><path d="M1038 378 l-9 -14 h18 z" fill="#150F0B"/>
+<path d="M258 500 v60 h-100 v-290" stroke="#FF4D1C" stroke-width="3" fill="none" stroke-dasharray="8 8"/><path d="M158 272 l-9 14 h18 z" fill="#FF4D1C"/>
+<text x="300" y="600" font-size="18" fill="#150F0B" opacity=".65">Iteration feeds the next round of ideas. Improve one stage at a time.</text></svg>

@@ -68,6 +68,7 @@ export const siteConfig = {
     forCreators: [
       { label: "Join the Network", href: "/for-creators" },
       { label: "How It Works", href: "/for-creators#how-it-works" },
+      { label: "Creator Resources", href: "/creator-resources" },
       { label: "Apply Now", href: "/for-creators#apply" },
     ],
     legal: [

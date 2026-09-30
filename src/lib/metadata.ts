@@ -6,14 +6,18 @@ export function buildMetadata({
   description,
   path = "/",
   image,
+  article,
 }: {
   title: string;
   description: string;
   path?: string;
-  image?: string;
+  /** Pass `null` when the route segment has its own `opengraph-image` file, so the file convention supplies the image. */
+  image?: string | null;
+  article?: { publishedTime: string; modifiedTime?: string; section: string; tags?: string[] };
 }): Metadata {
   const url = `${siteConfig.url}${path}`;
-  const ogImage = image ?? siteConfig.ogImage;
+  const ogImage = image === null ? undefined : image ?? siteConfig.ogImage;
+  const images = ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: title }] : undefined;
 
   return {
     title,
@@ -25,14 +29,22 @@ export function buildMetadata({
       url,
       siteName: siteConfig.name,
       locale: siteConfig.locale,
-      type: "website",
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      ...(article
+        ? {
+            type: "article",
+            publishedTime: article.publishedTime,
+            modifiedTime: article.modifiedTime ?? article.publishedTime,
+            section: article.section,
+            tags: article.tags,
+          }
+        : { type: "website" }),
+      ...(images ? { images } : {}),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      ...(ogImage ? { images: [ogImage] } : {}),
     },
   };
 }

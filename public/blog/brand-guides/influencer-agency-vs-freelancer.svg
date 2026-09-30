@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer marketing agency vs freelancer comparison</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">AGENCY OR FREELANCER?</text>
+<rect x="82" y="142" width="710" height="500" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="70" y="130" width="710" height="500" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="130" width="710" height="80" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="94" y="182" font-size="32" font-weight="700" text-anchor="start" fill="#150F0B">Freelancer</text>
+<text x="94" y="250" font-size="22" text-anchor="start" fill="#150F0B">Scope covered</text>
+<rect x="94" y="264" width="662" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="94" y="264" width="297" height="22" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="94" y="326" font-size="22" text-anchor="start" fill="#150F0B">Capacity for many creators</text>
+<rect x="94" y="340" width="662" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="94" y="340" width="231" height="22" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="94" y="402" font-size="22" text-anchor="start" fill="#150F0B">Backup cover</text>
+<rect x="94" y="416" width="662" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="94" y="416" width="132" height="22" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="94" y="478" font-size="22" text-anchor="start" fill="#150F0B">Cost of the fee</text>
+<rect x="94" y="492" width="662" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="94" y="492" width="231" height="22" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<rect x="832" y="142" width="710" height="500" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="820" y="130" width="710" height="500" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<rect x="820" y="130" width="710" height="80" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="844" y="182" font-size="32" font-weight="700" text-anchor="start" fill="#FAF1E2">Agency</text>
+<text x="844" y="250" font-size="22" text-anchor="start" fill="#150F0B">Scope covered</text>
+<rect x="844" y="264" width="662" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="844" y="264" width="562" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="844" y="326" font-size="22" text-anchor="start" fill="#150F0B">Capacity for many creators</text>
+<rect x="844" y="340" width="662" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="844" y="340" width="529" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="844" y="402" font-size="22" text-anchor="start" fill="#150F0B">Backup cover</text>
+<rect x="844" y="416" width="662" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="844" y="416" width="529" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<text x="844" y="478" font-size="22" text-anchor="start" fill="#150F0B">Cost of the fee</text>
+<rect x="844" y="492" width="662" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="844" y="492" width="463" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator economy value chain: five money flows to creators, with intermediaries on the brand flow and infrastructure under every flow</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="72" font-size="32" font-weight="700" fill="#150F0B">The creator economy value chain: five money flows</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect x="60" y="110" width="200" height="96" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="78" y="146" font-size="20" font-weight="700" fill="#150F0B">Brands</text>
+<text x="78" y="178" font-size="15" fill="#150F0B" opacity=".85">Partnerships, usage</text>
+<path d="M160 208 L160 244" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<rect x="278" y="110" width="200" height="96" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="296" y="146" font-size="20" font-weight="700" fill="#FAF1E2">Platforms</text>
+<text x="296" y="178" font-size="15" fill="#FAF1E2" opacity=".85">Ad revenue shares</text>
+<path d="M378 208 L378 436" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<rect x="496" y="110" width="200" height="96" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="514" y="146" font-size="20" font-weight="700" fill="#150F0B">Audiences</text>
+<text x="514" y="178" font-size="15" fill="#150F0B" opacity=".85">Memberships, gifts</text>
+<path d="M596 208 L596 436" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<rect x="714" y="110" width="200" height="96" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="732" y="146" font-size="20" font-weight="700" fill="#FAF1E2">Commerce</text>
+<text x="732" y="178" font-size="15" fill="#FAF1E2" opacity=".85">Affiliate, shopping</text>
+<path d="M814 208 L814 436" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<rect x="932" y="110" width="200" height="96" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="950" y="146" font-size="20" font-weight="700" fill="#150F0B">Own business</text>
+<text x="950" y="178" font-size="15" fill="#150F0B" opacity=".85">Courses, products</text>
+<path d="M1032 208 L1032 436" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="248" width="200" height="132" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="78" y="284" font-size="19" font-weight="700" fill="#150F0B">Intermediaries</text>
+<text x="78" y="315" font-size="15" fill="#150F0B" opacity=".85">Agencies</text>
+<text x="78" y="336" font-size="15" fill="#150F0B" opacity=".85">Marketplaces, tools</text>
+<text x="78" y="357" font-size="15" fill="#150F0B" opacity=".85">Talent managers</text>
+<path d="M160 382 L160 436" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<rect x="60" y="440" width="1070" height="86" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="595" y="479" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Creators and their teams</text>
+<text x="595" y="509" font-size="16" text-anchor="middle" fill="#FAF1E2" opacity=".8">Content and audience trust are what every flow pays for</text>
+<rect x="60" y="542" width="1070" height="52" fill="#FAF1E2" stroke="#150F0B" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="595" y="575" font-size="18" font-weight="700" text-anchor="middle" fill="#150F0B">Infrastructure under every flow: payments · finance · legal · production</text>
+<text x="60" y="645" font-size="16" fill="#150F0B" opacity=".7">Brand money usually passes through intermediaries, each earning fees, commission or margin. Tax applies at each step.</text>
+</svg>

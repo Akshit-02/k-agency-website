@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator service business journey</title><rect width="1200" height="675" fill="#5A2EEA"/>
+<text x="60" y="85" font-size="36" fill="#FAF1E2" font-weight="700">The creator service journey</text>
+<text x="60" y="125" font-size="18" fill="#FAF1E2" opacity=".75">From expertise to repeat clients</text>
+<path d="M110 350 H1090" stroke="#CCFF3D" stroke-width="4" stroke-dasharray="10 10"/>
+<g text-anchor="middle">
+<circle cx="110" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="359" font-size="26" font-weight="700" fill="#150F0B">1</text>
+<text x="110" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Expertise</text>
+<circle cx="219" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="219" y="359" font-size="26" font-weight="700" fill="#150F0B">2</text>
+<text x="219" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Offer</text>
+<circle cx="328" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="328" y="359" font-size="26" font-weight="700" fill="#150F0B">3</text>
+<text x="328" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Pricing</text>
+<circle cx="437" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="437" y="359" font-size="26" font-weight="700" fill="#150F0B">4</text>
+<text x="437" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Lead</text>
+<circle cx="546" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="546" y="359" font-size="26" font-weight="700" fill="#150F0B">5</text>
+<text x="546" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Discovery</text>
+<circle cx="654" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="654" y="359" font-size="26" font-weight="700" fill="#150F0B">6</text>
+<text x="654" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Proposal</text>
+<circle cx="763" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="763" y="359" font-size="26" font-weight="700" fill="#150F0B">7</text>
+<text x="763" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Client</text>
+<circle cx="872" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="872" y="359" font-size="26" font-weight="700" fill="#150F0B">8</text>
+<text x="872" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Delivery</text>
+<circle cx="981" cy="350" r="42" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<text x="981" y="359" font-size="26" font-weight="700" fill="#150F0B">9</text>
+<text x="981" y="260" font-size="18" font-weight="700" fill="#FAF1E2">Results</text>
+<circle cx="1090" cy="350" r="42" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="1090" y="359" font-size="26" font-weight="700" fill="#150F0B">10</text>
+<text x="1090" y="435" font-size="18" font-weight="700" fill="#FAF1E2">Retention</text>
+</g>
+</svg>

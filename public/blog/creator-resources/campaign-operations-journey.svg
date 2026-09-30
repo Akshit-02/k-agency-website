@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator campaign operations journey in eleven stages with knowledge feeding back into the next brief</title><rect width="1200" height="675" fill="#FAF1E2"/>
+<text x="60" y="72" font-size="32" font-weight="700" fill="#150F0B">Campaign operations: one journey for every campaign</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect x="60" y="130" width="245" height="100" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="158" font-size="14" fill="#150F0B" opacity=".7">01</text>
+<text x="76" y="188" font-size="20" font-weight="700" fill="#150F0B">Brand brief</text>
+<rect x="335" y="130" width="245" height="100" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="158" font-size="14" fill="#FAF1E2" opacity=".7">02</text>
+<text x="351" y="188" font-size="20" font-weight="700" fill="#FAF1E2">Creator selection</text>
+<rect x="610" y="130" width="245" height="100" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="158" font-size="14" fill="#150F0B" opacity=".7">03</text>
+<text x="626" y="188" font-size="20" font-weight="700" fill="#150F0B">Campaign planning</text>
+<rect x="885" y="130" width="245" height="100" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="158" font-size="14" fill="#FAF1E2" opacity=".7">04</text>
+<text x="901" y="188" font-size="20" font-weight="700" fill="#FAF1E2">Resource allocation</text>
+<rect x="885" y="280" width="245" height="100" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="308" font-size="14" fill="#150F0B" opacity=".7">05</text>
+<text x="901" y="338" font-size="20" font-weight="700" fill="#150F0B">Capacity check</text>
+<rect x="610" y="280" width="245" height="100" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="308" font-size="14" fill="#FAF1E2" opacity=".7">06</text>
+<text x="626" y="338" font-size="20" font-weight="700" fill="#FAF1E2">Creator execution</text>
+<rect x="335" y="280" width="245" height="100" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="308" font-size="14" fill="#150F0B" opacity=".7">07</text>
+<text x="351" y="338" font-size="20" font-weight="700" fill="#150F0B">Quality assurance</text>
+<rect x="60" y="280" width="245" height="100" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="308" font-size="14" fill="#FAF1E2" opacity=".7">08</text>
+<text x="76" y="338" font-size="20" font-weight="700" fill="#FAF1E2">Escalation</text>
+<rect x="60" y="430" width="245" height="100" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="458" font-size="14" fill="#150F0B" opacity=".7">09</text>
+<text x="76" y="488" font-size="20" font-weight="700" fill="#150F0B">Reporting</text>
+<rect x="335" y="430" width="245" height="100" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="458" font-size="14" fill="#FAF1E2" opacity=".7">10</text>
+<text x="351" y="488" font-size="20" font-weight="700" fill="#FAF1E2">Post-mortem</text>
+<rect x="610" y="430" width="245" height="100" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="458" font-size="14" fill="#150F0B" opacity=".7">11</text>
+<text x="626" y="488" font-size="20" font-weight="700" fill="#150F0B">Knowledge capture</text>
+<path d="M305 180 L331 180" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M580 180 L606 180" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M855 180 L881 180" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M1007 230 L1007 276" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M885 330 L859 330" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M610 330 L584 330" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M335 330 L309 330" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M182 380 L182 426" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M305 480 L331 480" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<path d="M580 480 L606 480" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<rect x="885" y="430" width="245" height="100" fill="#FFFFFF" stroke="#150F0B" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="901" y="470" font-size="18" font-weight="700" fill="#150F0B">Next brief starts</text>
+<text x="901" y="496" font-size="15" fill="#150F0B" opacity=".8">from what you learned</text>
+<path d="M855 480 L881 480" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<text x="60" y="640" font-size="16" fill="#150F0B" opacity=".7">Stage gates between stages · one owner per stage · one master tracker across all campaigns</text>
+</svg>
