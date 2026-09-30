@@ -61,6 +61,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
     : [
         { name: "Home", href: "/" },
         { name: "Blog", href: "/blog" },
+        ...(post.breadcrumbParents ?? []),
         { name: post.title, href: `/blog/${post.slug}` },
       ];
 
@@ -78,7 +79,12 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
             items={
               isCreatorResource
                 ? crumbs.map((c) => ({ label: c.name, href: c.href }))
-                : [{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: post.category }]
+                : [
+                    { label: "Home", href: "/" },
+                    { label: "Blog", href: "/blog" },
+                    ...(post.breadcrumbParents ?? []).map((c) => ({ label: c.name, href: c.href })),
+                    { label: post.breadcrumbParents ? post.title : post.category },
+                  ]
             }
           />
           <Reveal delay={0.05}>

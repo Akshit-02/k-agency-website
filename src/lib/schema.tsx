@@ -64,6 +64,10 @@ export function articleSchema(post: BlogPost, url: string) {
     dateModified: post.updatedAt ?? post.publishedAt,
     articleSection: post.category,
     ...(post.tags && post.tags.length > 0 ? { keywords: post.tags.join(", ") } : {}),
+    ...(post.spatialCoverage ? { spatialCoverage: { "@type": "Place", name: post.spatialCoverage } } : {}),
+    ...(post.mentions && post.mentions.length > 0
+      ? { mentions: post.mentions.map((m) => ({ "@type": "Organization", name: m.name, url: m.url })) }
+      : {}),
     inLanguage: "en-IN",
     author: {
       "@type": "Organization",

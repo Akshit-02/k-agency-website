@@ -801,10 +801,67 @@ export function getBlogCtaSet(post: BlogPost): BlogCtaSet {
   };
 }
 
+/**
+ * Rebuilt location guides (src/content/location-guides): hand-written copy per market. The topic carries the
+ * location into the form's `t` param and the analytics `cta_topic`, e.g. "Location: Gujarat".
+ */
+const LOCATION_GUIDE_CTAS: Record<string, { location: string; mid: [string, string, string]; bottom: [string, string, string] }> = {
+  "best-influencer-marketing-agencies-in-india": {
+    location: "India",
+    mid: ["Comparing Agencies for a National Campaign?", "Tell us your markets and languages, and Kudozz will show you how it would plan the creator mix.", "Talk to Kudozz"],
+    bottom: ["Looking for an Influencer Marketing Partner in India?", "Share your objective, budget range and priority markets, and we'll come back with a plan and a creator shortlist.", "Start Your Campaign"],
+  },
+  "best-influencer-marketing-agencies-in-maharashtra": {
+    location: "Maharashtra",
+    mid: ["Planning a Campaign Beyond Mumbai?", "Kudozz sources creators in Pune, Nagpur and across Maharashtra, including Marathi creators.", "Talk to Kudozz"],
+    bottom: ["Planning an Influencer Campaign in Maharashtra?", "Tell us which cities and languages matter, and we'll plan the creator mix and timing.", "Start Your Campaign"],
+  },
+  "best-influencer-marketing-agencies-in-gujarat": {
+    location: "Gujarat",
+    mid: ["Need Gujarati Creators Whose Audience Is Local?", "Kudozz checks that a creator's followers are in Gujarat, not just that the creator is.", "Talk to Kudozz"],
+    bottom: ["Planning an Influencer Campaign in Gujarat?", "Share your category and cities, and we'll plan creators around Navratri, Diwali or your launch date.", "Start Your Campaign"],
+  },
+  "best-influencer-marketing-agencies-in-karnataka": {
+    location: "Karnataka",
+    mid: ["Launching an App or Brand From Bengaluru?", "Kudozz plans creator campaigns with tracking for installs, sign-ups or sales set up before launch.", "Talk to Kudozz"],
+    bottom: ["Planning an Influencer Campaign in Bengaluru or Karnataka?", "Tell us your objective and audience, and we'll recommend creators, including Kannada creators where they help.", "Start Your Campaign"],
+  },
+  "best-influencer-marketing-agencies-in-delhi": {
+    location: "Delhi NCR",
+    mid: ["Targeting a Specific Part of the NCR?", "Kudozz plans creators for Delhi, Gurugram or Noida audiences and checks where their followers live.", "Talk to Kudozz"],
+    bottom: ["Planning an Influencer Campaign in Delhi NCR?", "Share your objective and timing, and we'll plan the creator mix around the NCR's festive and wedding calendar.", "Start Your Campaign"],
+  },
+  "best-influencer-marketing-agencies-in-mumbai": {
+    location: "Mumbai",
+    mid: ["Need Creators With a Mumbai Audience?", "Kudozz checks each creator's audience by city before recommending them for a local brief.", "Talk to Kudozz"],
+    bottom: ["Planning an Influencer Campaign in Mumbai?", "Tell us whether you need Mumbai reach or national reach, and we'll build the shortlist to match.", "Start Your Campaign"],
+  },
+  "best-influencer-marketing-agencies-in-ahmedabad": {
+    location: "Ahmedabad",
+    mid: ["Want a Specialist for Your Ahmedabad Campaign?", "Kudozz focuses on creator marketing and can take a campaign from Ahmedabad to the rest of India.", "Talk to Kudozz"],
+    bottom: ["Planning an Influencer Campaign in Ahmedabad?", "Share your category and goal, and we'll recommend Ahmedabad and Gujarati creators with the reasoning behind each.", "Start Your Campaign"],
+  },
+};
+
+function locationGuideCta(slug: string, category: string): BlogCtaCopy | null {
+  const copy = LOCATION_GUIDE_CTAS[slug];
+  if (!copy) return null;
+  const topic = `Location: ${copy.location}`;
+  const [midHeadline, midBody, midLabel] = copy.mid;
+  const [bottomHeadline, bottomBody, bottomLabel] = copy.bottom;
+  return {
+    topic,
+    mid: { headline: midHeadline, body: midBody, ctaLabel: midLabel, href: withTracking(INQUIRY, slug, category, "mid", topic) },
+    bottom: { headline: bottomHeadline, body: bottomBody, ctaLabel: bottomLabel, href: withTracking(INQUIRY, slug, category, "bottom", topic) },
+  };
+}
+
 function resolveBrandCtaCopy(post: BlogPost): BlogCtaCopy {
   const { slug, category } = post;
   const guide = brandGuideCta(slug, category);
   if (guide) return guide;
+  const location = locationGuideCta(slug, category);
+  if (location) return location;
 
   for (const matcher of matchers) {
     if (matcher.test(slug)) {
