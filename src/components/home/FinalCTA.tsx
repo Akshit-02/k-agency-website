@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
 import { BroadcastRings } from "@/components/graphics/BroadcastRings";
+import { homeInquiryHref } from "@/content/home";
 
 export function FinalCTA() {
   return (
@@ -16,21 +17,21 @@ export function FinalCTA() {
           </Reveal>
           <Reveal delay={0.08}>
             <h2 className="mt-6 font-display text-5xl leading-[1.0] tracking-tight text-balance sm:text-6xl lg:text-7xl">
-              Your next big campaign starts with the right creators.
+              Ready to plan your next creator campaign?
             </h2>
           </Reveal>
           <Reveal delay={0.16}>
             <p className="mt-7 max-w-lg text-lg leading-relaxed text-ink/70">
-              Tell us about your brand and your goals. We&apos;ll come back with a point of view before we ever
-              mention a creator name.
+              Tell us about your brand, your customers and what the campaign needs to achieve. We&apos;ll come back
+              with a plan and a point of view before we ever mention a creator name.
             </p>
           </Reveal>
           <Reveal delay={0.24} className="mt-10 flex flex-wrap gap-4">
-            <Button href="/contact" size="lg" variant="dark" magnetic>
-              Talk to Our Team
+            <Button href={homeInquiryHref("bottom")} size="lg" variant="dark" magnetic>
+              Plan Your Campaign
             </Button>
-            <Button href="/for-brands#inquiry" variant="secondary" size="lg">
-              Start a Brand Inquiry
+            <Button href="/contact" variant="secondary" size="lg">
+              Talk to Kudozz
             </Button>
           </Reveal>
         </div>

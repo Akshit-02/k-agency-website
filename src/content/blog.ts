@@ -27052,6 +27052,7 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "Kudozz's outreach and management service works this way; how agencies charge for it is explained in influencer marketing agency fees in India.",
         links: [
+          { text: "Kudozz", href: "/" },
           { text: "outreach and management service", href: "/services/outreach-management" },
           { text: "influencer marketing agency fees in India", href: "/blog/influencer-marketing-agency-fees-india" },
         ],
@@ -27261,8 +27262,9 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "The services Kudozz provides", id: "kudozz-services-offered" },
       {
         type: "paragraph",
-        text: "We offer campaign strategy, creator discovery, outreach and management, social campaigns, product launch coordination, UGC production, ambassador program management, and reporting, each available as a standalone service or combined into a fuller engagement depending on what a brand actually needs.",
+        text: "As an influencer marketing agency for Indian brands, we offer campaign strategy, creator discovery, outreach and management, social campaigns, product launch coordination, UGC production, ambassador program management, and reporting, each available as a standalone service or combined into a fuller engagement depending on what a brand actually needs.",
         links: [
+          { text: "influencer marketing agency for Indian brands", href: "/" },
           { text: "campaign strategy", href: "/services/campaign-strategy" },
           { text: "creator discovery", href: "/services/creator-discovery" },
           { text: "outreach and management", href: "/services/outreach-management" },
@@ -27346,6 +27348,7 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "If you want names to evaluate with this framework, our guide to the best influencer marketing agencies in India profiles Kudozz and four researched alternatives, with separate guides for Maharashtra, Gujarat, Karnataka, Delhi NCR, Mumbai and Ahmedabad.",
         links: [
+          { text: "Kudozz", href: "/" },
           { text: "best influencer marketing agencies in India", href: "/blog/best-influencer-marketing-agencies-in-india" },
           { text: "Maharashtra", href: "/blog/best-influencer-marketing-agencies-in-maharashtra" },
           { text: "Gujarat", href: "/blog/best-influencer-marketing-agencies-in-gujarat" },

@@ -1,6 +1,6 @@
 import { siteConfig } from "@/config/site";
 import type { BlogPost } from "@/content/blog";
-import type { Service } from "@/content/services";
+import { services, type Service } from "@/content/services";
 
 export function organizationSchema() {
   return {
@@ -8,6 +8,7 @@ export function organizationSchema() {
     "@type": "Organization",
     "@id": `${siteConfig.url}/#organization`,
     name: siteConfig.name,
+    legalName: siteConfig.legalName,
     url: siteConfig.url,
     logo: {
       "@type": "ImageObject",
@@ -16,16 +17,40 @@ export function organizationSchema() {
       height: 180,
     },
     description: siteConfig.description,
+    slogan: siteConfig.tagline,
     email: siteConfig.contact.email,
+    areaServed: { "@type": "Country", name: "India" },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "sales",
+      email: siteConfig.contact.email,
+      url: `${siteConfig.url}/for-brands#inquiry`,
+      areaServed: "IN",
+    },
     sameAs: Object.values(siteConfig.social),
     knowsAbout: [
       "Influencer Marketing",
+      "Influencer Marketing in India",
       "Creator Marketing",
+      "Creator Discovery",
+      "Regional-Language Influencer Marketing",
       "UGC Marketing",
       "Influencer Campaign Management",
       "Brand Ambassador Programs",
       "Social Media Marketing",
     ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Influencer marketing services",
+      itemListElement: services.map((service) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: service.name,
+          url: `${siteConfig.url}/services/${service.slug}`,
+        },
+      })),
+    },
   };
 }
 
@@ -36,6 +61,22 @@ export function websiteSchema() {
     "@id": `${siteConfig.url}/#website`,
     name: siteConfig.name,
     url: siteConfig.url,
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+  };
+}
+
+/** The homepage as a WebPage about the organization, so answer engines tie the page to the Kudozz entity. */
+export function homePageSchema({ title, description }: { title: string; description: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${siteConfig.url}/#webpage`,
+    url: siteConfig.url,
+    name: title,
+    description,
+    inLanguage: "en-IN",
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    about: { "@id": `${siteConfig.url}/#organization` },
     publisher: { "@id": `${siteConfig.url}/#organization` },
   };
 }
@@ -140,7 +181,7 @@ export function serviceSchema(service: Service, url: string) {
     url,
     serviceType: service.name,
     provider: { "@id": `${siteConfig.url}/#organization` },
-    areaServed: "Worldwide",
+    areaServed: { "@type": "Country", name: "India" },
     audience: {
       "@type": "BusinessAudience",
       audienceType: "Brands and marketing teams",

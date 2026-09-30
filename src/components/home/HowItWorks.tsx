@@ -62,7 +62,7 @@ export function HowItWorks() {
   return (
     <section className="bg-paper-dim py-28 sm:py-36">
       <Container>
-        <SectionHeading eyebrow="How It Works" title="A clear campaign journey, from brief to results." />
+        <SectionHeading eyebrow="How It Works" title="How Kudozz runs an influencer campaign, from brief to results." />
       </Container>
 
       {/* Desktop: pinned horizontal scroll-through */}

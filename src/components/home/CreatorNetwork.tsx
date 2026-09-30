@@ -69,7 +69,7 @@ export function CreatorNetwork() {
             )}
           >
             <div>
-              <span className="font-black-display text-xs tracking-wide opacity-60">{active.creatorCount} CREATORS</span>
+              <span className="font-black-display text-xs tracking-wide opacity-60">CREATOR CATEGORY</span>
               <p className="mt-4 font-display text-3xl tracking-tight sm:text-4xl">{active.name}</p>
               <p className="mt-4 text-base opacity-75">{active.description}</p>
             </div>

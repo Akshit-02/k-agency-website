@@ -27,8 +27,8 @@ const chips: Chip[] = [
           </span>
           <span className="font-black-display text-[10px] tracking-wide text-paper/50">LIVE</span>
         </div>
-        <p className="mt-4 font-black-display text-2xl leading-none">24.6M</p>
-        <p className="mt-1 text-[11px] uppercase tracking-wide text-paper/60">Campaign views</p>
+        <p className="mt-4 font-black-display text-2xl leading-none">Reels</p>
+        <p className="mt-1 text-[11px] uppercase tracking-wide text-paper/60">Instagram · YouTube</p>
       </div>
     ),
   },
@@ -67,8 +67,8 @@ const chips: Chip[] = [
     floatDelay: "1.6s",
     content: (
       <div className="p-4">
-        <p className="font-black-display text-3xl leading-none">92%</p>
-        <p className="mt-1 text-[11px] uppercase tracking-wide text-ink/60">Trust creator content</p>
+        <p className="font-black-display text-3xl leading-none">Vetted</p>
+        <p className="mt-1 text-[11px] uppercase tracking-wide text-ink/60">Audience &amp; authenticity</p>
       </div>
     ),
   },

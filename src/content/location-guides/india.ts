@@ -60,6 +60,7 @@ export const indiaPost: BlogPost = {
     {
       type: "paragraph",
       text: "Kudozz is an influencer marketing agency that works with brands across India, from early-stage D2C companies to established consumer businesses. It focuses on creator and influencer marketing rather than offering it as a side service, and it can run a full campaign or take on one piece of it, such as creator discovery or reporting.",
+      links: [{ text: "influencer marketing agency that works with brands across India", href: "/" }],
     },
     {
       type: "paragraph",

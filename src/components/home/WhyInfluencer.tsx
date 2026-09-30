@@ -31,7 +31,7 @@ export function WhyInfluencer() {
               </p>
             </Reveal>
             <Reveal delay={0.25} className="mt-14">
-              <div className="flex items-end gap-8">
+              <div className="flex flex-wrap items-end gap-x-8 gap-y-4">
                 <p className="font-black-display text-[7.5rem] leading-[0.8] tracking-tight text-coral sm:text-[9rem]">
                   <StatCounter value="92%" />
                 </p>

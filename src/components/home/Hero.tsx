@@ -2,11 +2,10 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
-import { Eyebrow } from "@/components/ui/Eyebrow";
 import { StatCounter } from "@/components/ui/StatCounter";
 import { CampaignCollage } from "@/components/graphics/CampaignCollage";
 import { Container } from "@/components/ui/Container";
-import { siteConfig } from "@/config/site";
+import { heroFacts, homeInquiryHref } from "@/content/home";
 
 const statStyles = [
   "bg-ink text-paper",
@@ -29,25 +28,25 @@ export function Hero() {
       <Container className="relative pb-20 sm:pb-28">
         <div className="grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-6">
           <div>
-            <motion.div
-              initial={{ opacity: 0, y: 14 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            >
-              <Eyebrow>Influencer Marketing Agency</Eyebrow>
-            </motion.div>
-
+            {/* The search phrase leads the H1; the brand line stays the visual headline. */}
             <motion.h1
               initial={{ opacity: 0, y: 26 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.75, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="mt-6 font-display text-[15vw] leading-[0.92] tracking-tight text-ink text-balance sm:text-8xl lg:text-[6.4rem]"
+              className="text-ink"
             >
-              Influence
-              <br />
-              isn&apos;t <em className="italic text-coral">bought.</em>
-              <br />
-              It&apos;s built.
+              <span className="inline-flex items-center gap-2 border-[1.5px] border-ink px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] sm:text-sm">
+                <span className="h-1.5 w-1.5 rounded-full bg-coral" aria-hidden="true" />
+                Best Influencer Marketing Agency in India
+                <span className="sr-only">:</span>
+              </span>
+              <span className="mt-6 block font-display text-[15vw] leading-[0.92] tracking-tight text-balance sm:text-8xl lg:text-[6.4rem]">
+                Influence
+                <br />
+                isn&apos;t <em className="italic text-coral">bought.</em>
+                <br />
+                It&apos;s built.
+              </span>
             </motion.h1>
 
             <motion.p
@@ -56,8 +55,9 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.28, ease: [0.16, 1, 0.3, 1] }}
               className="mt-7 max-w-lg text-lg leading-relaxed text-ink/65 text-pretty"
             >
-              {siteConfig.name} connects ambitious brands with creators who actually move culture — turning
-              attention into engagement, and engagement into growth you can measure.
+              Kudozz is an influencer marketing agency for Indian brands. We plan creator campaigns, find and vet
+              creators whose audiences match your customers, run outreach, content and approvals, and report
+              results against the KPI you set at the start.
             </motion.p>
 
             <motion.div
@@ -66,11 +66,11 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.38, ease: [0.16, 1, 0.3, 1] }}
               className="mt-10 flex flex-wrap items-center gap-4"
             >
-              <Button href="/for-brands#inquiry" size="lg" magnetic>
-                Launch Your Campaign
+              <Button href={homeInquiryHref("hero")} size="lg" magnetic>
+                Plan Your Campaign
               </Button>
-              <Button href="/for-creators#apply" variant="secondary" size="lg">
-                Join as a Creator
+              <Button href="/services" variant="secondary" size="lg">
+                Explore Our Services
               </Button>
             </motion.div>
 
@@ -80,7 +80,7 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.5 }}
               className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-4"
             >
-              {siteConfig.stats.map((stat, i) => (
+              {heroFacts.map((stat, i) => (
                 <div key={stat.label} className={`p-4 ${statStyles[i % statStyles.length]}`}>
                   <dt className="sr-only">{stat.label}</dt>
                   <dd className="font-black-display text-2xl leading-none tracking-tight">
