@@ -35,7 +35,8 @@ export type BlogBlock =
         | "agency-contract-checklist"
         | "influencer-vetting-checklist"
         | "campaign-cost-calculator"
-        | "influencer-budget-allocator";
+        | "influencer-budget-allocator"
+        | "roi-forecast-calculator";
     };
 
 export type BlogFaq = { question: string; answer: string };
@@ -14385,11 +14386,15 @@ const corePosts: BlogPost[] = [
     slug: "experiential-influencer-marketing",
     category: "Campaign Strategy",
     title: "Experiential Influencer Marketing: Turning Events and Experiences Into Creator Campaigns",
+    seoTitle: "Experiential Influencer Marketing: Events and Store Openings",
     excerpt:
       "How brands running a launch, store opening, pop-up, or brand event can structure a creator campaign around it, from pre-event invitations through post-event content, without treating the event and the campaign as two separate projects.",
+    metaDescription: "Build creator campaigns around launches, store openings and brand events: before, during and after the event, measurement and a planning checklist.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2027-01-29",
+    lastReviewed: "September 2026",
     readingTime: "9 min read",
+    hero: { src: "/blog/brand-guides/experiential-influencer-marketing.svg", alt: "Creator campaign around a brand event: invites and teasers before, experiences and live Stories during, recaps after" },
     body: [
       {
         type: "paragraph",
@@ -14465,14 +14470,14 @@ const corePosts: BlogPost[] = [
         text: "An event only gets one launch date. Everything in the creator plan has to work backward from that, and forward from it too, since the content that matters most often comes out days after the event, not during it.",
         attribution: "Kudozz Strategy Team",
       },
-      { type: "heading", text: "Getting help planning an experiential campaign", id: "getting-help-experiential" },
+      { type: "heading", text: "Related planning guides", id: "related-guides" },
       {
         type: "paragraph",
-        text: "We help brands plan the creator layer of a launch, store opening, or event alongside the event itself, from creator selection through post-event amplification. For product launches specifically, see how to find the right influencers for a product launch, and for building the campaign into a longer program, see brand ambassador programs. Start a brand inquiry to talk through your next event.",
+        text: "For product launches, see how to find the right influencers for a product launch; for store openings, the store launch playbook in influencer marketing for retail brands; and for fitting events into a year-long plan, influencer marketing annual plan.",
         links: [
           { text: "how to find the right influencers for a product launch", href: "/blog/influencers-for-product-launch" },
-          { text: "brand ambassador programs", href: "/services/ambassador-programs" },
-          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+          { text: "influencer marketing for retail brands", href: "/blog/retail-influencer-marketing-india" },
+          { text: "influencer marketing annual plan", href: "/blog/influencer-marketing-annual-plan" },
         ],
       },
     ],
@@ -14503,11 +14508,15 @@ const corePosts: BlogPost[] = [
     slug: "seasonal-influencer-marketing-india",
     category: "Campaign Strategy",
     title: "Seasonal Influencer Marketing: Planning Campaigns Around Indian Festivals and Cultural Moments",
+    seoTitle: "Seasonal Influencer Marketing: Indian Festival Campaigns",
     excerpt:
       "How to build a creator campaign around a festival or seasonal moment instead of just posting about it, covering timeline planning, regional and language considerations, and the tokenism pitfalls that make festival content fall flat.",
+    metaDescription: "Plan influencer campaigns around Indian festivals: a festival calendar, regional creators, offers, avoiding tokenism and a step-by-step planning timeline.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2027-01-29",
+    lastReviewed: "September 2026",
     readingTime: "9 min read",
+    hero: { src: "/blog/brand-guides/seasonal-influencer-marketing-india.svg", alt: "Festival influencer campaign timeline from brief and creator shortlist nine weeks out to the festival window and recap" },
     body: [
       {
         type: "paragraph",
@@ -14577,14 +14586,46 @@ const corePosts: BlogPost[] = [
         text: "A festival campaign built the week before the festival looks exactly like what it is. The brands that win the season started planning before the previous one ended.",
         attribution: "Kudozz Strategy Team",
       },
-      { type: "heading", text: "Getting help with seasonal campaign planning", id: "getting-help-seasonal" },
+      { type: "heading", text: "Indian festival and seasonal calendar for creator campaigns", id: "festival-calendar" },
+      {
+        type: "table",
+        headers: ["Period", "Moments", "Typical creator angle"],
+        rows: [
+          ["January", "New Year, Makar Sankranti, Pongal, Lohri, Republic Day sales", "Resolutions, harvest festivals, regional food and gifting"],
+          ["February to March", "Valentine's Day, Holi, financial year-end", "Gifting, colour and skin or hair care, year-end deals"],
+          ["April to May", "Regional new years (Ugadi, Gudi Padwa, Baisakhi, Vishu, Puthandu, Bohag Bihu), Akshaya Tritiya, summer", "Regional traditions, jewelry and gold, summer products"],
+          ["June to August", "Monsoon, Raksha Bandhan, Independence Day, Onam", "Monsoon care, sibling gifting, patriotic themes, Kerala-specific content"],
+          ["August to September", "Janmashtami, Ganesh Chaturthi", "Home, sweets, décor, Maharashtra and Karnataka focus"],
+          ["September to October", "Navratri, Durga Puja, Dussehra, festive sale events", "Fashion, beauty, electronics, Gujarat and Bengal focus"],
+          ["October to November", "Karva Chauth, Dhanteras, Diwali, Bhai Dooj, Chhath", "Gifting, home, gold, electronics, travel home"],
+          ["November to February", "Wedding season, Christmas, year-end", "Fashion, jewelry, beauty, travel, gifting"],
+        ],
+      },
       {
         type: "paragraph",
-        text: "We help brands plan festival and seasonal creator campaigns early enough to actually execute them well, from concept through regional creator sourcing to post-festival reporting. For campaign format ideas that work well in a festival context, see influencer marketing campaign ideas, and for UGC that can extend a festival campaign's life, see UGC campaigns. Start a brand inquiry to plan your next seasonal moment.",
+        text: "Many of these follow lunar calendars, so dates shift each year and some fall in different months; Eid dates move roughly 11 days earlier each year, so check them for your campaign year; confirm dates and regional importance for your markets annually. Sale event dates are set by each marketplace and are announced shortly beforehand.",
+      },
+      { type: "heading", text: "Planning a festival campaign step by step", id: "festival-planning" },
+      {
+        type: "template",
+        label: "Festival campaign plan (copy and fill in)",
+        text: "FESTIVAL: [ ]   MARKETS: [ ]   LANGUAGES: [ ]\nOBJECTIVE: [awareness / sales / gifting consideration]\nPRODUCTS: [ ]   OFFER: [ ]\n\n8–10 weeks before: brief agreed, budget locked, creator shortlist\n6 weeks before: creators contracted; products shipped\n3–4 weeks before: drafts reviewed (cultural sense-check included)\n1–2 weeks before: teasers, gifting guides live\nFestival window: main posts, Stories with links, live sessions\nAfter: thank-you content, results report, content reused in ads\n\nOWNER: [ ]   APPROVERS: [ ]",
+      },
+      {
+        type: "paragraph",
+        text: "How festival moments fit into a full year of creator activity is covered in influencer marketing annual plan, and sale events specifically in influencer marketing for e-commerce.",
+        links: [
+          { text: "influencer marketing annual plan", href: "/blog/influencer-marketing-annual-plan" },
+          { text: "influencer marketing for e-commerce", href: "/blog/influencer-marketing-ecommerce-brands-india" },
+        ],
+      },
+      { type: "heading", text: "Planning your next seasonal campaign", id: "next-seasonal" },
+      {
+        type: "paragraph",
+        text: "For festival campaign format ideas, see influencer marketing campaign ideas, and for UGC that extends a festival campaign's life, see UGC campaigns.",
         links: [
           { text: "influencer marketing campaign ideas", href: "/blog/influencer-marketing-campaign-ideas" },
           { text: "UGC campaigns", href: "/services/ugc-campaigns" },
-          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
         ],
       },
     ],
@@ -14608,6 +14649,11 @@ const corePosts: BlogPost[] = [
         question: "How should brands measure a seasonal campaign?",
         answer:
           "Against the same objective-based KPIs as any other campaign, awareness, engagement, or trackable conversions, though seasonal campaigns often carry additional brand-goodwill value that shows up outside the immediate measurement window.",
+      },
+      {
+        question: "When should brands start planning Diwali influencer campaigns?",
+        answer:
+          "Around eight to ten weeks before the festival for most brands, so there's time to shortlist, contract and ship product before popular creators are booked and drafts can be reviewed without rushing.",
       },
     ],
   },
@@ -15817,11 +15863,15 @@ const corePosts: BlogPost[] = [
     slug: "influencer-marketing-compliance",
     category: "Campaign Strategy",
     title: "Influencer Marketing Compliance: Common Mistakes Brands Should Avoid",
+    seoTitle: "Influencer Marketing Compliance: Mistakes to Avoid",
     excerpt:
       "What Indian brands need to get right on disclosure, contracts, and product claims before running an influencer campaign, and the mistakes that create the most risk.",
+    metaDescription: "Common influencer marketing compliance mistakes in India: disclosure, misleading claims, approvals and contracts, and how brands and agencies prevent them.",
     author: { name: "Kudozz Partnerships Team", role: "Agency Team" },
     publishedAt: "2027-01-15",
+    lastReviewed: "September 2026",
     readingTime: "9 min read",
+    hero: { src: "/blog/brand-guides/influencer-marketing-compliance.svg", alt: "Influencer marketing compliance checklist before a post goes live: disclosure, claims, regulated categories, contracts and live checks" },
     body: [
       {
         type: "paragraph",
@@ -15938,11 +15988,13 @@ const corePosts: BlogPost[] = [
         text: "Creators can find practical labelling guidance by format in the creator disclosure guide.",
         links: [{ text: "creator disclosure guide", href: "/blog/creator-disclosure-guide" }],
       },
-      { type: "heading", text: "Getting help with compliant campaign management", id: "getting-help-compliance" },
+      { type: "heading", text: "Building compliance into your process", id: "compliance-process" },
       {
         type: "paragraph",
-        text: "We build disclosure and claim review into campaign briefs and approval workflows as standard practice, not an afterthought. Start a brand inquiry to talk through your next campaign.",
-        links: [{ text: "Start a brand inquiry", href: "/for-brands#inquiry" }],
+        text: "Disclosure and claims rules hold up best when they're part of a written process. Influencer marketing governance covers policies, approvals and a standard campaign SOP.",
+        links: [
+          { text: "Influencer marketing governance", href: "/blog/influencer-marketing-governance" },
+        ],
       },
     ],
     faqs: [
@@ -22160,9 +22212,12 @@ const corePosts: BlogPost[] = [
     title: "Influencer Marketing for Retail Brands in India",
     excerpt:
       "How Indian retail brands, both online and store-based, can use creators across discovery, in-store visits, and seasonal shopping moments, with a funnel built for repeat, not just one-time, purchases.",
+    metaDescription: "Influencer marketing for Indian retail brands: discovery, store visits, festival campaigns, local creators, codes, attribution and a store launch playbook.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-11-26",
+    lastReviewed: "September 2026",
     readingTime: "8 min read",
+    hero: { src: "/blog/brand-guides/retail-influencer-marketing-india.svg", alt: "Retail store launch with local creators: catchment shortlist, teasers, preview visit, store codes and footfall measurement" },
     body: [
       {
         type: "paragraph",
@@ -22247,13 +22302,24 @@ const corePosts: BlogPost[] = [
         text: "A retail creator campaign that gets people to browse is doing half the job. The other half is making sure it's easy to trace who actually walked in or clicked through because of it.",
         attribution: "Kudozz Strategy Team",
       },
-      { type: "heading", text: "Getting help with a retail campaign", id: "getting-help-retail" },
+      { type: "heading", text: "Store launch playbook", id: "store-launch" },
+      {
+        type: "table",
+        headers: ["Phase", "Creator activity", "Measure"],
+        rows: [
+          ["3–4 weeks before", "Shortlist local creators within the store's catchment; confirm audience location", "Audience share in the city"],
+          ["1–2 weeks before", "Teasers: \"something is opening on this street\", neighborhood content", "Saves, shares, location tags"],
+          ["Opening day or preview", "Creator preview visit or event; live Stories with location sticker", "Footfall, opening-day sales"],
+          ["First 2–4 weeks", "Store walkthroughs, product finds, local codes or offers", "Code redemptions, footfall vs forecast"],
+          ["After", "Recap and customer content reused on the store's local pages", "Map listing views, repeat visits"],
+        ],
+      },
       {
         type: "paragraph",
-        text: "We help online and store-based retail brands find creators for genuine local and category relevance, and build tracking into every campaign from the start. Start a brand inquiry to talk through your next seasonal or festival push.",
+        text: "Use creators with genuine local followings rather than national reach, give each a store-specific code, and check that map listings, store hours and stock are right before the content goes out. Event-led openings are covered in experiential influencer marketing, and moving beyond metros in influencer marketing in tier 2 and tier 3 cities.",
         links: [
-          { text: "find creators for genuine local and category relevance", href: "/services/campaign-strategy" },
-          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+          { text: "experiential influencer marketing", href: "/blog/experiential-influencer-marketing" },
+          { text: "influencer marketing in tier 2 and tier 3 cities", href: "/blog/influencer-marketing-tier-2-tier-3-cities" },
         ],
       },
     ],
@@ -22277,6 +22343,11 @@ const corePosts: BlogPost[] = [
         question: "Should retail brands focus only on new customer acquisition?",
         answer:
           "No. Ongoing creator relationships that encourage repeat visits or purchases are often as valuable as first-time acquisition, particularly for retail brands depending on repeat custom.",
+      },
+      {
+        question: "How do you use influencers for a store launch?",
+        answer:
+          "Book creators with real followings in the store's catchment, tease the opening one to two weeks ahead, host a preview visit with live Stories, then run store-specific codes for the first weeks and compare footfall and redemptions with your forecast.",
       },
     ],
   },
@@ -26287,6 +26358,13 @@ const corePosts: BlogPost[] = [
         text: "There's no single right answer here. The real question is where your brand's bandwidth and campaign volume actually are right now, not where you expect them to be someday.",
         attribution: "Kudozz Strategy Team",
       },
+      {
+        type: "paragraph",
+        text: "How to set up ownership and roles inside the brand, including managing several agencies, is covered in influencer marketing team structure.",
+        links: [
+          { text: "influencer marketing team structure", href: "/blog/influencer-marketing-team-structure" },
+        ],
+      },
       { type: "heading", text: "Next steps", id: "next-steps" },
       {
         type: "paragraph",
@@ -26636,6 +26714,13 @@ const corePosts: BlogPost[] = [
         text: "Every one of these scenarios is a starting sketch, not a quote. The value is in the categories, not the specific rupee figures, which will move based on your actual creators and negotiation.",
         attribution: "Kudozz Strategy Team",
       },
+      {
+        type: "paragraph",
+        text: "Download the influencer campaign budget template (CSV) to fill in the worksheet in Excel or Google Sheets. It contains the cost categories only; no rates are pre-filled.",
+        links: [
+          { text: "Download the influencer campaign budget template (CSV)", href: "/downloads/influencer-campaign-budget-template.csv" },
+        ],
+      },
       { type: "heading", text: "Turning a budget into a measurement plan", id: "budget-to-measurement-india" },
       {
         type: "paragraph",
@@ -26645,11 +26730,12 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "From budget to plan", id: "from-budget-to-plan" },
       {
         type: "paragraph",
-        text: "If your budget is already fixed, how to allocate your influencer marketing budget shows how to split it and how many creators it can fund. Agency pricing is explained in influencer marketing agency fees in India, and individual creator rates in how much you should pay influencers.",
+        text: "If your budget is already fixed, how to allocate your influencer marketing budget shows how to split it and how many creators it can fund. Agency pricing is explained in influencer marketing agency fees in India, individual creator rates in how much you should pay influencers, and forecasting what a budget might return in influencer marketing ROI forecasting.",
         links: [
           { text: "how to allocate your influencer marketing budget", href: "/blog/influencer-budget-allocation" },
           { text: "influencer marketing agency fees in India", href: "/blog/influencer-marketing-agency-fees-india" },
           { text: "how much you should pay influencers", href: "/blog/how-much-to-pay-influencers" },
+          { text: "influencer marketing ROI forecasting", href: "/blog/influencer-marketing-roi-forecasting" },
         ],
       },
     ],
@@ -26687,10 +26773,13 @@ const corePosts: BlogPost[] = [
     title: "How to Measure Influencer Marketing ROI for Indian Brands",
     excerpt:
       "A measurement framework matched to campaign objective, the attribution challenges specific to how Indian consumers actually discover and buy, and why no single metric can judge every campaign.",
+    metaDescription: "How Indian brands measure influencer marketing ROI: tracking, attribution challenges, long-term brand impact, a measurement framework and a worked example.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-10-30",
     updatedAt: "2026-12-13",
+    lastReviewed: "September 2026",
     readingTime: "9 min read",
+    hero: { src: "/blog/brand-guides/measure-influencer-marketing-roi-india.svg", alt: "Illustrative breakdown of influencer ROI: tracked sales, assisted purchases, content reused in ads and brand search lift" },
     body: [
       {
         type: "paragraph",
@@ -26778,15 +26867,12 @@ const corePosts: BlogPost[] = [
         text: "In India specifically, if your only measurement is discount code redemptions, you're measuring the smallest, most visible slice of what the campaign actually did.",
         attribution: "Kudozz Strategy Team",
       },
-      { type: "heading", text: "Getting help with measurement", id: "getting-help-measurement-india" },
+      { type: "heading", text: "Before the next campaign", id: "before-next-campaign" },
       {
         type: "paragraph",
-        text: "Setting up a realistic measurement plan, matched to your objective and honest about attribution limitations, is part of our campaign strategy and reporting services. See how to create a successful influencer marketing campaign for where measurement fits into the broader process, and how to calculate an influencer marketing budget for planning spend against expected returns. Start a brand inquiry if you'd like help building this for your next campaign.",
+        text: "Measurement works best against a forecast made before launch. Influencer marketing ROI forecasting shows how to set cautious, expected and strong scenarios, and how to use forecast vs actual to decide where to increase spend.",
         links: [
-          { text: "reporting services", href: "/services/reporting" },
-          { text: "how to create a successful influencer marketing campaign", href: "/blog/how-to-create-a-successful-influencer-marketing-campaign" },
-          { text: "how to calculate an influencer marketing budget", href: "/blog/influencer-marketing-budget" },
-          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+          { text: "Influencer marketing ROI forecasting", href: "/blog/influencer-marketing-roi-forecasting" },
         ],
       },
     ],
@@ -27404,6 +27490,14 @@ const corePosts: BlogPost[] = [
           { text: "influencer marketing agency fees in India", href: "/blog/influencer-marketing-agency-fees-india" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "As campaign volume grows, influencer marketing governance sets shared policies and a standard SOP, and influencer marketing team structure covers who should own creator marketing and how to manage several agencies.",
+        links: [
+          { text: "influencer marketing governance", href: "/blog/influencer-marketing-governance" },
+          { text: "influencer marketing team structure", href: "/blog/influencer-marketing-team-structure" },
+        ],
+      },
       { type: "heading", text: "Running many campaigns at once", id: "running-many-campaigns" },
       {
         type: "paragraph",
@@ -27829,6 +27923,13 @@ const corePosts: BlogPost[] = [
         type: "quote",
         text: "The agencies worth hiring can explain, specifically, how they'd approach your campaign in the first conversation. A big media kit doesn't tell you that.",
         attribution: "Kudozz Strategy Team",
+      },
+      {
+        type: "paragraph",
+        text: "After signing, influencer marketing agency onboarding covers the onboarding pack, approval matrix, kickoff and first 30 days.",
+        links: [
+          { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" },
+        ],
       },
       { type: "heading", text: "Before you sign", id: "before-you-sign" },
       {
@@ -29514,6 +29615,14 @@ const corePosts: BlogPost[] = [
         text: "Marketplace attribution tools and what they report change over time, so check each marketplace's current seller tools. Measuring sales and new customers from creators is covered in influencer marketing for sales.",
         links: [
           { text: "influencer marketing for sales", href: "/blog/influencer-marketing-sales" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Link mechanics by platform and landing pages that keep creator visitors are covered in influencer marketing for website traffic; festival timing in the Indian festival calendar for creator campaigns.",
+        links: [
+          { text: "influencer marketing for website traffic", href: "/blog/influencer-marketing-website-traffic" },
+          { text: "Indian festival calendar for creator campaigns", href: "/blog/seasonal-influencer-marketing-india" },
         ],
       },
       { type: "heading", text: "Planning your next e-commerce campaign", id: "next-steps" },
@@ -32011,6 +32120,29 @@ const corePosts: BlogPost[] = [
         text: "Track performance against the specific objective set in step one, not a generic engagement summary, such as sell-through rate and pre-order volume for a sales-driven launch, or reach and sentiment for an awareness-driven one. See influencer marketing KPIs for how to choose the right metrics by objective.",
         links: [{ text: "influencer marketing KPIs", href: "/blog/influencer-marketing-kpis" }],
       },
+      { type: "heading", text: "Launching a brand from zero", id: "brand-from-zero" },
+      {
+        type: "paragraph",
+        text: "A new brand launch is harder than a new product from a known brand: nobody has heard of you, there are no reviews, and creators take a bigger reputational risk by recommending you. The plan changes in four ways.",
+      },
+      {
+        type: "table",
+        headers: ["What changes", "Why", "What to do"],
+        rows: [
+          ["Longer seeding phase", "Creators need time to actually use an unknown product", "Seed weeks before launch and ask for honest feedback first"],
+          ["Trust before reach", "Audiences are skeptical of brands they've never seen", "Lead with niche and micro creators who explain why they tried it"],
+          ["Proof on your own channels", "Visitors check your Instagram and site before buying", "Have creator content, reviews and a clear story live before launch day"],
+          ["Smaller first budget", "You don't yet know which creators and messages convert", "Test, then scale what works after launch"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Illustrative example, not a case study. A new millet snack brand seeds product with 25 food and fitness creators a month before launch, invites the 8 who genuinely liked it to paid launch posts, and uses their content on its own profile and marketplace listings so first-time visitors see real people using the product. Measuring results is covered in influencer marketing ROI forecasting, and building awareness from zero in influencer marketing for brand awareness.",
+        links: [
+          { text: "influencer marketing ROI forecasting", href: "/blog/influencer-marketing-roi-forecasting" },
+          { text: "influencer marketing for brand awareness", href: "/blog/influencer-marketing-brand-awareness" },
+        ],
+      },
       { type: "heading", text: "Pre-launch, launch-day, and post-launch campaigns", id: "three-phases" },
       {
         type: "table",
@@ -32102,6 +32234,11 @@ const corePosts: BlogPost[] = [
         question: "Should launch content be different from a brand's typical influencer content?",
         answer:
           "Yes, at least during the launch window — content usually needs to be more explicitly informational, covering what the product is and why now, than a brand's typical ongoing creator content.",
+      },
+      {
+        question: "How do you launch a new brand with influencers?",
+        answer:
+          "Seed product early with niche and micro creators, invite those who genuinely like it into paid launch content, make sure your own channels already show creator content and reviews, and start with a test budget before scaling what works.",
       },
     ],
   },
@@ -32640,6 +32777,13 @@ const corePosts: BlogPost[] = [
           { text: "influencer marketing for colleges", href: "/blog/influencer-marketing-colleges" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "Ambassadors are also useful after purchase: see influencer marketing for customer retention for onboarding content, community and customer advocates.",
+        links: [
+          { text: "influencer marketing for customer retention", href: "/blog/influencer-marketing-customer-retention" },
+        ],
+      },
       { type: "heading", text: "Where ambassadors fit in a wider program", id: "wider-program" },
       {
         type: "paragraph",
@@ -32851,8 +32995,10 @@ const corePosts: BlogPost[] = [
       "The specific factors that actually determine what a creator charges, and a framework for judging value, not just price, before you make an offer.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-09-24",
-    updatedAt: "2026-12-13",
+    updatedAt: "2026-09-30",
+    lastReviewed: "September 2026",
     readingTime: "9 min read",
+    hero: { src: "/blog/brand-guides/how-much-to-pay-influencers.svg", alt: "Comparison of flat-fee and performance, hybrid or affiliate influencer payment models on predictability, performance link and setup" },
     body: [
       {
         type: "paragraph",
@@ -32942,6 +33088,26 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "Some creators work partly or fully on performance terms — a lower base fee plus a commission on trackable sales through an affiliate link or promo code. This can lower upfront risk for the brand but should still include a fair base rate for the creator's time and content production.",
       },
+      { type: "subheading", text: "Payment models compared" },
+      {
+        type: "table",
+        headers: ["Model", "How it works", "Suits", "Watch for"],
+        rows: [
+          ["Flat fee", "Fixed fee per agreed deliverables", "Most campaigns; predictable budgets", "Paying for posts that underperform"],
+          ["Performance-based", "Payment tied to agreed results (clicks, sales, leads)", "Trackable sales and lead goals", "Creators need clear, fair tracking they can verify"],
+          ["Hybrid", "Lower base fee plus commission or bonus", "Brands testing sales impact while respecting creators' time", "Complex terms; agree measurement upfront"],
+          ["Affiliate", "Commission only on tracked sales", "Always-on programs with many creators", "Few established creators accept for planned deliverables"],
+          ["Retainer", "Monthly fee for ongoing content over months", "Ambassadors and always-on programs", "Needs clear monthly deliverables and exit terms"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Retainers and long-term structures are covered in long-term influencer partnership programs, and affiliate trade-offs in influencer marketing vs affiliate marketing.",
+        links: [
+          { text: "long-term influencer partnership programs", href: "/blog/influencer-partnerships" },
+          { text: "influencer marketing vs affiliate marketing", href: "/blog/influencer-marketing-vs-affiliate-marketing" },
+        ],
+      },
       { type: "heading", text: "11. Product-only collaborations and their limitations", id: "product-only" },
       {
         type: "paragraph",
@@ -32996,13 +33162,13 @@ const corePosts: BlogPost[] = [
         text: "Creators working out their own pricing can read how much creators should charge for brand collaborations in India, which uses the same factors from the creator's side.",
         links: [{ text: "how much creators should charge for brand collaborations in India", href: "/blog/how-much-should-creators-charge-india" }],
       },
-      { type: "heading", text: "Getting help pricing your next campaign", id: "getting-help-pricing" },
+      { type: "heading", text: "Planning the full budget", id: "planning-budget" },
       {
         type: "paragraph",
-        text: "Our creator discovery and campaign strategy teams price collaborations against current market context, not from a fixed rate card. Start a brand inquiry if you'd like help pricing your next shortlist fairly.",
+        text: "Creator fees are only part of the cost. Build the full picture with influencer marketing campaign costs in India, and forecast what the spend might return with influencer marketing ROI forecasting.",
         links: [
-          { text: "creator discovery", href: "/services/creator-discovery" },
-          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+          { text: "influencer marketing campaign costs in India", href: "/blog/influencer-campaign-cost-india" },
+          { text: "influencer marketing ROI forecasting", href: "/blog/influencer-marketing-roi-forecasting" },
         ],
       },
     ],
@@ -33026,6 +33192,11 @@ const corePosts: BlogPost[] = [
         question: "How do I know if an influencer's rate is fair?",
         answer:
           "Compare it against directional tier ranges, review their engagement quality and content style, and weigh the requested deliverables and usage rights against the number — a rate can be fair for one scope and unfair for a broader one.",
+      },
+      {
+        question: "What are the main ways to pay influencers?",
+        answer:
+          "Flat fees for agreed deliverables, performance-based payment, hybrid models with a lower base plus commission, affiliate commission only, and monthly retainers for ongoing partnerships.",
       },
     ],
   },
@@ -33363,12 +33534,16 @@ const corePosts: BlogPost[] = [
     slug: "influencer-marketing-kpis",
     category: "Campaign Strategy",
     title: "Influencer Marketing KPIs: The Metrics Every Brand Should Track",
+    seoTitle: "Influencer Marketing KPIs: Metrics Every Brand Should Track",
     excerpt:
       "Which influencer marketing metrics actually matter, organized by campaign objective, plus a simple framework for choosing the right KPIs before a campaign launches, not after.",
+    metaDescription: "The influencer marketing KPIs brands should track by objective: reach, engagement, traffic, conversions and cost metrics, plus how to avoid vanity metrics.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-09-21",
-    updatedAt: "2027-01-13",
+    updatedAt: "2026-09-30",
+    lastReviewed: "September 2026",
     readingTime: "7 min read",
+    hero: { src: "/blog/brand-guides/influencer-marketing-kpis.svg", alt: "Influencer marketing KPIs by objective from awareness and engagement to traffic and conversion, with vanity metrics to avoid" },
     body: [
       {
         type: "paragraph",
@@ -33502,13 +33677,14 @@ const corePosts: BlogPost[] = [
         text: "Once KPIs are set and tracked, the next step is turning that data into a structured report — see how to create an influencer marketing report for a full reporting framework and template.",
         links: [{ text: "how to create an influencer marketing report", href: "/blog/influencer-marketing-report" }],
       },
-      { type: "heading", text: "Getting help setting up measurement", id: "getting-help-measurement" },
+      { type: "heading", text: "Related measurement guides", id: "related-measurement" },
       {
         type: "paragraph",
-        text: "We set the primary KPI and tracking plan for every campaign before a single creator is contacted, as part of our campaign strategy service. Start a brand inquiry if you'd like a clear measurement plan for your next campaign.",
+        text: "For traffic quality metrics, see influencer marketing for website traffic; for setting expected values before launch, influencer marketing ROI forecasting; and for retention metrics, influencer marketing for customer retention.",
         links: [
-          { text: "campaign strategy service", href: "/services/campaign-strategy" },
-          { text: "Start a brand inquiry", href: "/for-brands#inquiry" },
+          { text: "influencer marketing for website traffic", href: "/blog/influencer-marketing-website-traffic" },
+          { text: "influencer marketing ROI forecasting", href: "/blog/influencer-marketing-roi-forecasting" },
+          { text: "influencer marketing for customer retention", href: "/blog/influencer-marketing-customer-retention" },
         ],
       },
     ],

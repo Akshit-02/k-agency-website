@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer marketing governance</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">GOVERNANCE AND SOPS</text>
+<rect x="362" y="132" width="560" height="540" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="350" y="120" width="560" height="540" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<rect x="350" y="120" width="560" height="70" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="376" y="166" font-size="28" font-weight="700" text-anchor="start" fill="#FAF1E2">Creator partnership policy</text>
+<text x="376" y="230" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">01</text>
+<text x="420" y="230" font-size="24" text-anchor="start" fill="#150F0B">Selection and safety</text>
+<rect x="420" y="242" width="440" height="6" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="0"/>
+<text x="376" y="282" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">02</text>
+<text x="420" y="282" font-size="24" text-anchor="start" fill="#150F0B">Disclosure</text>
+<rect x="420" y="294" width="440" height="6" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="0"/>
+<text x="376" y="334" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">03</text>
+<text x="420" y="334" font-size="24" text-anchor="start" fill="#150F0B">Claims</text>
+<rect x="420" y="346" width="440" height="6" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="0"/>
+<text x="376" y="386" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">04</text>
+<text x="420" y="386" font-size="24" text-anchor="start" fill="#150F0B">Contracts and rights</text>
+<rect x="420" y="398" width="440" height="6" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="0"/>
+<text x="376" y="438" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">05</text>
+<text x="420" y="438" font-size="24" text-anchor="start" fill="#150F0B">Payments</text>
+<rect x="420" y="450" width="440" height="6" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="0"/>
+<text x="376" y="490" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">06</text>
+<text x="420" y="490" font-size="24" text-anchor="start" fill="#150F0B">Data and privacy</text>
+<rect x="420" y="502" width="440" height="6" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="0"/>
+<text x="376" y="542" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">07</text>
+<text x="420" y="542" font-size="24" text-anchor="start" fill="#150F0B">Conflicts</text>
+<rect x="420" y="554" width="440" height="6" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="0"/>
+<text x="376" y="594" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">08</text>
+<text x="420" y="594" font-size="24" text-anchor="start" fill="#150F0B">Crisis response</text>
+<rect x="420" y="606" width="440" height="6" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="0"/>
+<rect x="1012" y="172" width="500" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="1000" y="160" width="500" height="150" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1026" y="216" font-size="30" font-weight="700" text-anchor="start" fill="#150F0B">Approval matrix</text>
+<text x="1026" y="248" font-size="22" text-anchor="start" fill="#150F0B" opacity=".85">Scaled to risk and value</text>
+<rect x="1012" y="392" width="500" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="1000" y="380" width="500" height="150" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1026" y="436" font-size="30" font-weight="700" text-anchor="start" fill="#FAF1E2">Standard SOP</text>
+<text x="1026" y="468" font-size="22" text-anchor="start" fill="#FAF1E2" opacity=".85">Plan to report, with templates</text>
+<path d="M912 390 L990 250" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<path d="M912 470 L990 460" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+</svg>

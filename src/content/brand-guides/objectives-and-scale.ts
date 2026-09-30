@@ -24,7 +24,7 @@ export const objectivesAndScalePosts: BlogPost[] = [
       "Use influencer marketing to generate qualified leads: the right lead action, creators, landing pages, lead quality and routing, and lead-to-sale measurement.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
+    lastReviewed: "September 2026",
     readingTime: "13 min read",
     tags: ["influencer marketing lead generation", "influencer lead generation", "creator campaign leads", "influencer marketing for leads India", "lead generation with creators"],
     related: ["influencer-marketing-sales", "influencer-marketing-funnel", "measure-influencer-marketing-roi-india"],
@@ -151,6 +151,13 @@ export const objectivesAndScalePosts: BlogPost[] = [
         type: "paragraph",
         text: "Illustrative example, not a case study. A coaching institute in Pune wants counselling calls for a new weekend batch. It works with six local student and education creators, each sharing a real sample lesson and a creator-specific link to a short form (name, phone, class, preferred slot). Counsellors call within the same day. After four weeks the team compares creators on qualified leads and enrollments, not form fills, and rebooks the two creators whose leads enrolled.",
       },
+      {
+        type: "paragraph",
+        text: "Where creator content first sends people to your site rather than a form, see influencer marketing for website traffic.",
+        links: [
+          { text: "influencer marketing for website traffic", href: "/blog/influencer-marketing-website-traffic" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -198,7 +205,7 @@ export const objectivesAndScalePosts: BlogPost[] = [
       "Turn creator campaigns into sales and new customers: formats that convert, codes and affiliate links, paid amplification, CAC and repeat-purchase measurement.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
+    lastReviewed: "September 2026",
     readingTime: "14 min read",
     tags: ["influencer marketing for sales", "influencer marketing customer acquisition", "influencer marketing conversions", "influencer CAC", "creator campaigns revenue"],
     related: ["influencer-marketing-ecommerce-brands-india", "d2c-influencer-marketing-funnel-india", "measure-influencer-marketing-roi-india"],
@@ -309,6 +316,14 @@ export const objectivesAndScalePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Illustrative example, not a case study. A kitchen appliance brand runs 12 micro-creators making recipe demos, each with a code for a small first-order discount. After two weeks, four creators account for most coded orders; their videos are run as partnership ads for a further month. The team tracks new-customer share, CAC against paid social, and 60-day repeat purchase before deciding which creators to rebook.",
+      },
+      {
+        type: "paragraph",
+        text: "If the website is where buyers research before purchase, influencer marketing for website traffic covers link options by platform and landing pages. Keeping customers after the first order is covered in influencer marketing for customer retention.",
+        links: [
+          { text: "influencer marketing for website traffic", href: "/blog/influencer-marketing-website-traffic" },
+          { text: "influencer marketing for customer retention", href: "/blog/influencer-marketing-customer-retention" },
+        ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
@@ -512,6 +527,14 @@ export const objectivesAndScalePosts: BlogPost[] = [
           ["More content", "UGC stream and variants for paid media"],
           ["More creators", "Rotating tests feed a larger core roster"],
           ["More channels", "Creator content reused in ads, product pages, marketplaces and email"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Planning always-on activity alongside launches and festivals across the year is covered in influencer marketing annual plan, and using creators after the first purchase in influencer marketing for customer retention.",
+        links: [
+          { text: "influencer marketing annual plan", href: "/blog/influencer-marketing-annual-plan" },
+          { text: "influencer marketing for customer retention", href: "/blog/influencer-marketing-customer-retention" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

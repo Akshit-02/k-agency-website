@@ -16,6 +16,7 @@ import { CreatorMarketplaceCalculator } from "@/components/creator-resources/Cre
 import { CreatorTalentScorecard } from "@/components/creator-resources/CreatorTalentScorecard";
 import { CampaignCostCalculator } from "@/components/creator-resources/CampaignCostCalculator";
 import { InfluencerBudgetAllocator } from "@/components/creator-resources/InfluencerBudgetAllocator";
+import { RoiForecastCalculator } from "@/components/creator-resources/RoiForecastCalculator";
 
 function renderWithLinks(text: string, links?: InlineLink[]) {
   if (!links || links.length === 0) return text;
@@ -101,6 +102,7 @@ function renderBlock(block: BlogBlock, i: number) {
       if (block.tool === "creator-talent-scorecard") return <CreatorTalentScorecard key={i} />;
       if (block.tool === "campaign-cost-calculator") return <CampaignCostCalculator key={i} />;
       if (block.tool === "influencer-budget-allocator") return <InfluencerBudgetAllocator key={i} />;
+      if (block.tool === "roi-forecast-calculator") return <RoiForecastCalculator key={i} />;
       if (
         block.tool === "creator-operations-checklist" ||
         block.tool === "creator-continuity-checklist" ||

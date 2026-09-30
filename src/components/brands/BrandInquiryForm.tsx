@@ -32,6 +32,8 @@ const TOPIC_TO_CAMPAIGN_GOAL: Record<string, string> = {
   "Campaign Management": "Campaign Management",
   "Campaign Planning": "Campaign Management",
   "Always-On Program": "Campaign Management",
+  "Annual Plan": "Campaign Management",
+  "Agency Onboarding": "Campaign Management",
   "Product Launch": "Product Launch",
   "Brand Awareness": "Brand Awareness",
 };

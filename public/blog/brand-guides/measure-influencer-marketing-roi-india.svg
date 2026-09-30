@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer ROI measurement</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">ROI MEASUREMENT</text>
+<rect x="82" y="162" width="1460" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
+<rect x="70" y="150" width="554" height="150" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="88" y="210" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Tracked sales</text>
+<rect x="624" y="150" width="350" height="150" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="974" y="150" width="292" height="150" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<rect x="1266" y="150" width="264" height="150" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="70" y="370" font-size="30" font-weight="700" text-anchor="start" fill="#150F0B">Illustrative: what influencer ROI can include</text>
+<rect x="70" y="410" width="34" height="34" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="120" y="436" font-size="24" text-anchor="start" fill="#150F0B">Tracked sales</text>
+<rect x="560" y="410" width="34" height="34" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="610" y="436" font-size="24" text-anchor="start" fill="#150F0B">Assisted and later purchases</text>
+<rect x="1050" y="410" width="34" height="34" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="1100" y="436" font-size="24" text-anchor="start" fill="#150F0B">Content reused in ads</text>
+<rect x="70" y="480" width="34" height="34" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="120" y="506" font-size="24" text-anchor="start" fill="#150F0B">Brand search lift</text>
+<text x="70" y="600" font-size="22" text-anchor="start" fill="#150F0B" opacity=".75">Tracked links and codes capture only part of the value</text>
+<text x="70" y="640" font-size="22" text-anchor="start" fill="#150F0B" opacity=".75">Compare against a forecast made before launch</text>
+</svg>

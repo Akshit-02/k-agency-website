@@ -185,7 +185,7 @@ export const campaignPlanningPosts: BlogPost[] = [
       "Plan an influencer campaign on a fixed budget: reserve non-creator costs, split by tier and objective, work out how many creators you can afford.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
+    lastReviewed: "September 2026",
     readingTime: "13 min read",
     tags: ["influencer marketing budget allocation", "influencer marketing budget planning", "how many influencers for a campaign", "fixed budget influencer campaign", "influencer tier budget split"],
     related: ["influencer-marketing-budget", "influencer-campaign-cost-india", "micro-vs-macro-influencers"],
@@ -298,6 +298,14 @@ export const campaignPlanningPosts: BlogPost[] = [
         type: "paragraph",
         text: "The creator counts depend entirely on the fees you're quoted for the deliverables and rights you need. Influencer rates are explained in how much to pay influencers.",
         links: [{ text: "how much to pay influencers", href: "/blog/how-much-to-pay-influencers" }],
+      },
+      {
+        type: "paragraph",
+        text: "To estimate what an allocation might return before committing, use influencer marketing ROI forecasting; to spread budget across a full year, see influencer marketing annual plan.",
+        links: [
+          { text: "influencer marketing ROI forecasting", href: "/blog/influencer-marketing-roi-forecasting" },
+          { text: "influencer marketing annual plan", href: "/blog/influencer-marketing-annual-plan" },
+        ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

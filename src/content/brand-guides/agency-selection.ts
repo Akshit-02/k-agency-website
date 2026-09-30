@@ -26,7 +26,7 @@ export const agencySelectionPosts: BlogPost[] = [
       "Agency or freelancer for influencer marketing? Compare scope, cost structure, capacity, risk and accountability, with a decision matrix for Indian brands.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
+    lastReviewed: "September 2026",
     readingTime: "11 min read",
     tags: ["influencer marketing agency vs freelancer", "freelance influencer marketing manager", "hire influencer marketing freelancer", "influencer agency or freelancer", "outsource influencer marketing India"],
     related: ["choose-influencer-marketing-agency-india", "influencer-marketing-agency-vs-in-house", "influencer-marketing-agency-fees-india"],
@@ -124,6 +124,13 @@ export const agencySelectionPosts: BlogPost[] = [
           { text: "influencer marketing agency vs in-house", href: "/blog/influencer-marketing-agency-vs-in-house" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "Whichever you choose, one internal owner should manage all creator partners; see influencer marketing team structure.",
+        links: [
+          { text: "influencer marketing team structure", href: "/blog/influencer-marketing-team-structure" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -170,7 +177,7 @@ export const agencySelectionPosts: BlogPost[] = [
       "How influencer marketing agencies in India charge: retainer, campaign fee, percentage of spend and hybrid models, what's included, and how to compare quotes.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
+    lastReviewed: "September 2026",
     readingTime: "14 min read",
     tags: ["influencer marketing agency fees India", "influencer marketing agency pricing", "influencer agency retainer", "influencer agency commission", "agency management fee influencer", "influencer marketing agency cost"],
     related: ["influencer-marketing-cost-india", "influencer-campaign-cost-india", "influencer-marketing-rfp"],
@@ -291,6 +298,33 @@ export const agencySelectionPosts: BlogPost[] = [
           { text: "agency vs freelancer", href: "/blog/influencer-agency-vs-freelancer" },
         ],
       },
+      { type: "heading", text: "When a long-term agency retainer makes sense", id: "retainer" },
+      {
+        type: "table",
+        headers: ["A retainer tends to fit when", "A per-campaign fee tends to fit when"],
+        rows: [
+          ["You run creator activity most months", "You run a few campaigns a year"],
+          ["You want an always-on program or ambassadors", "Each campaign has a different goal or team"],
+          ["You value continuity with creators and the account team", "You're still testing agencies"],
+          ["Planning, reporting and relationships happen between campaigns", "Work is mostly execution"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Define monthly scope: campaigns, creators, content volume, reporting and meetings.",
+          "Agree what happens to unused scope (it usually doesn't roll over indefinitely).",
+          "Set a review point, often after three months, and a notice period.",
+          "Keep creator fees separate from the retainer so both are visible.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Onboarding a retained agency well is covered in influencer marketing agency onboarding.",
+        links: [
+          { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -330,6 +364,11 @@ export const agencySelectionPosts: BlogPost[] = [
         answer:
           "Scope of services, number of creators and deliverables, platforms and formats, regions and languages, timelines, category risk, usage rights, reporting depth and contract length.",
       },
+      {
+        question: "When does an influencer agency retainer make sense?",
+        answer:
+          "When a brand runs creator activity most months, wants an always-on or ambassador program, and values continuity. Define monthly scope, what happens to unused scope, a review point and a notice period.",
+      },
     ],
   },
   {
@@ -342,7 +381,7 @@ export const agencySelectionPosts: BlogPost[] = [
     metaDescription: "Brief an influencer marketing agency well: the 12 sections to include, a copy-ready template, budget and audience details, and agency vs creator briefs.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
+    lastReviewed: "September 2026",
     readingTime: "12 min read",
     tags: ["influencer marketing agency brief", "brief influencer marketing agency", "agency brief template", "influencer campaign brief for agency", "how to brief an agency"],
     related: ["influencer-marketing-rfp", "influencer-campaign-brief", "choose-influencer-marketing-agency-india"],
@@ -426,6 +465,13 @@ export const agencySelectionPosts: BlogPost[] = [
         links: [
           { text: "influencer marketing RFP guide", href: "/blog/influencer-marketing-rfp" },
           { text: "questions to ask an influencer marketing agency", href: "/blog/influencer-marketing-agency-pitch-questions" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Once you've chosen an agency, the setup that follows is covered in influencer marketing agency onboarding.",
+        links: [
+          { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
@@ -815,7 +861,7 @@ export const agencySelectionPosts: BlogPost[] = [
       "Check before signing an influencer marketing agency contract: scope, fees, creator payments, usage rights, compliance, reporting, data and exit terms.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
+    lastReviewed: "September 2026",
     readingTime: "11 min read",
     tags: ["influencer marketing agency checklist", "influencer agency contract", "influencer marketing agency agreement", "agency scope of work influencer", "influencer agency contract checklist"],
     related: ["influencer-marketing-agency-pitch-questions", "influencer-marketing-rfp", "influencer-marketing-contract"],
@@ -888,6 +934,27 @@ export const agencySelectionPosts: BlogPost[] = [
         type: "paragraph",
         text: "Check the minimum term, notice period, what happens to campaigns in progress, and handover: content files, contracts, creator contacts and data. Agree that creators are paid in full for completed work whatever happens between brand and agency.",
       },
+      { type: "heading", text: "Verify the agency before signing", id: "verify" },
+      {
+        type: "table",
+        headers: ["Check", "How"],
+        rows: [
+          ["Company details", "Registered name, GST registration and address match the proposal and invoices"],
+          ["Past work", "Ask for live campaign links you can open, not only screenshots"],
+          ["References", "Speak to one or two current or past clients, if the agency can share them"],
+          ["Creator relationships", "Ask how creators are paid and how quickly; creators talk"],
+          ["Team", "Meet the people who will run your account, not only the pitch team"],
+          ["Reporting sample", "Request an anonymized report to see what you'll actually receive"],
+          ["Compliance", "Ask how disclosure is checked on every post"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "After signing, setup is covered in influencer marketing agency onboarding.",
+        links: [
+          { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -921,6 +988,11 @@ export const agencySelectionPosts: BlogPost[] = [
         question: "Who is responsible for influencer disclosure: the brand or the agency?",
         answer:
           "Under ASCI's guidelines the advertiser and the influencer are both responsible. The agency contract should state who checks disclosure on each post.",
+      },
+      {
+        question: "How can I verify an influencer marketing agency?",
+        answer:
+          "Check its registered company and GST details, open live campaign links, speak to references where possible, ask how and when creators are paid, meet the team who'll run your account, and request a sample report.",
       },
     ],
   },

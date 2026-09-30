@@ -3,6 +3,7 @@ import { agencySelectionPosts } from "@/content/brand-guides/agency-selection";
 import { campaignPlanningPosts } from "@/content/brand-guides/campaign-planning";
 import { objectivesAndScalePosts } from "@/content/brand-guides/objectives-and-scale";
 import { programsAndIndustriesPosts } from "@/content/brand-guides/programs-and-industries";
+import { planningAndProgramsPosts } from "@/content/brand-guides/planning-and-programs";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -13,4 +14,5 @@ export const brandGuidePosts: BlogPost[] = [
   ...campaignPlanningPosts,
   ...objectivesAndScalePosts,
   ...programsAndIndustriesPosts,
+  ...planningAndProgramsPosts,
 ];
