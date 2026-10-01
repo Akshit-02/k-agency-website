@@ -17,13 +17,23 @@ const themes = [
   { bg: "bg-ink", text: "text-paper" },
 ];
 
+/** Lowercases a service name for use mid-sentence while keeping acronyms such as "UGC" intact. */
+function sentenceCase(name: string) {
+  return name
+    .split(" ")
+    .map((word) => (word === word.toUpperCase() ? word : word.toLowerCase()))
+    .join(" ");
+}
+
 export function ServiceDetail({
   service,
   related,
+  guides,
   breadcrumbItems,
 }: {
   service: Service;
   related: Service[];
+  guides: { title: string; href: string }[];
   breadcrumbItems: Crumb[];
 }) {
   const theme = themes[(parseInt(service.index, 10) - 1) % themes.length];
@@ -109,7 +119,24 @@ export function ServiceDetail({
         </Container>
       </section>
 
-      <FAQSection faqs={service.faqs} eyebrow="FAQ" title={`Questions about ${service.name.toLowerCase()}.`} />
+      <FAQSection faqs={service.faqs} eyebrow="FAQ" title={`Questions about ${sentenceCase(service.name)}.`} />
+
+      {guides.length > 0 && (
+        <section className="py-20 sm:py-28">
+          <Container>
+            <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">Guides on this topic</h2>
+            <ul className="mt-8 grid gap-x-10 gap-y-3 sm:grid-cols-2">
+              {guides.map((guide) => (
+                <li key={guide.href}>
+                  <Link href={guide.href} className="text-ink/75 underline-offset-4 hover:text-ink hover:underline">
+                    {guide.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </Container>
+        </section>
+      )}
 
       <section className="bg-paper-dim py-20 sm:py-28">
         <Container>

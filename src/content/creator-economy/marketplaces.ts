@@ -37,7 +37,7 @@ export const marketplacePosts: BlogPost[] = [
     lastReviewed: REVIEWED,
     readingTime: "15 min read",
     tags: ["creator marketplace", "influencer marketplace", "brand creator marketplace", "creator database vs creator marketplace", "creator network vs creator marketplace", "influencer marketplace India"],
-    related: ["creator-discovery-platform", "creator-matching", "creator-marketplace-business-model"],
+    related: ["creator-discovery-platform", "influencer-marketing-platforms", "creator-matching", "creator-marketplace-business-model"],
     body: [
       {
         type: "paragraph",
@@ -525,7 +525,7 @@ export const marketplacePosts: BlogPost[] = [
     lastReviewed: REVIEWED,
     readingTime: "13 min read",
     tags: ["creator discovery platform", "influencer discovery tool", "influencer search tool", "find creators for brands", "creator search platform India", "influencer database tool"],
-    related: ["creator-matching", "creator-marketplace", "how-to-find-influencers-for-your-brand"],
+    related: ["creator-matching", "creator-marketplace", "find-indian-influencers"],
     body: [
       {
         type: "paragraph",
@@ -622,7 +622,7 @@ export const marketplacePosts: BlogPost[] = [
         text: "Where discovery fits in the full tool stack is covered in influencer marketing technology, and the tools vs manual vs agency choice in how to find influencers for your brand.",
         links: [
           { text: "influencer marketing technology", href: "/blog/influencer-marketing-technology" },
-          { text: "how to find influencers for your brand", href: "/blog/how-to-find-influencers-for-your-brand" },
+          { text: "how to find influencers for your brand", href: "/blog/find-indian-influencers" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
@@ -846,7 +846,7 @@ export const marketplacePosts: BlogPost[] = [
         text: "Creators can learn the warning signs in how to spot fake brand collaboration offers; brands in avoiding fake influencers in India.",
         links: [
           { text: "how to spot fake brand collaboration offers", href: "/blog/creator-scams-fake-brand-collaborations" },
-          { text: "avoiding fake influencers in India", href: "/blog/avoid-fake-influencers-india" },
+          { text: "avoiding fake influencers in India", href: "/blog/how-to-identify-fake-followers" },
         ],
       },
       { type: "heading", text: "Payment protection", id: "payments" },

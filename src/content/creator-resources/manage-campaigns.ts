@@ -502,7 +502,7 @@ export const manageCampaignPosts: BlogPost[] = [
         text: "Curious how brands are taught to write briefs? See how to create an effective influencer campaign brief and how to brief influencers, both written for brand teams.",
         links: [
           { text: "how to create an effective influencer campaign brief", href: "/blog/influencer-campaign-brief" },
-          { text: "how to brief influencers", href: "/blog/how-to-brief-influencers" },
+          { text: "how to brief influencers", href: "/blog/influencer-campaign-brief" },
         ],
       },
     ],

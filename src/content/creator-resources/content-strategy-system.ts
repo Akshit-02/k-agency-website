@@ -173,7 +173,7 @@ export const contentStrategySystemPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "For brands: Instagram creator marketing.",
-        links: [{ text: "Instagram creator marketing", href: "/blog/instagram-creator-marketing" }],
+        links: [{ text: "Instagram creator marketing", href: "/blog/instagram-influencer-marketing" }],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

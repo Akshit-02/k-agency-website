@@ -9,6 +9,7 @@ export function Reveal({
   className,
   as = "div",
   once = true,
+  fade = true,
 }: {
   children: React.ReactNode;
   delay?: number;
@@ -16,13 +17,15 @@ export function Reveal({
   className?: string;
   as?: "div" | "span";
   once?: boolean;
+  /** Set false for above-the-fold text (H1, intro) so it paints before hydration and doesn't delay LCP. */
+  fade?: boolean;
 }) {
   const Component = motion[as];
 
   return (
     <Component
       className={className}
-      initial={{ opacity: 0, y }}
+      initial={fade ? { opacity: 0, y } : { y }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once, margin: "-10% 0px -10% 0px" }}
       transition={{ duration: 0.7, delay, ease: [0.16, 1, 0.3, 1] }}

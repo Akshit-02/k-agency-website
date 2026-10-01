@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
@@ -5,12 +6,23 @@ import { Reveal } from "@/components/animations/Reveal";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
 import { StatCounter } from "@/components/ui/StatCounter";
 import { siteConfig } from "@/config/site";
+import { services } from "@/content/services";
+import { industries } from "@/content/home";
 
 const values = [
   { title: "Strategy first", body: "Every engagement starts with your business objective, not a creator pitch.", bg: "bg-coral text-ink" },
   { title: "Radical transparency", body: "Reporting and communication that don't hide behind vanity metrics.", bg: "bg-violet text-paper" },
   { title: "Real partnerships", body: "With brands and creators alike — we build relationships, not transactions.", bg: "bg-lime text-ink" },
   { title: "Craft over shortcuts", body: "We'd rather run fewer campaigns well than many campaigns carelessly.", bg: "bg-ink text-paper" },
+];
+
+const platforms = [
+  { name: "Instagram", href: "/blog/instagram-influencer-marketing" },
+  { name: "YouTube", href: "/blog/youtube-influencer-marketing-india" },
+  { name: "LinkedIn", href: "/blog/linkedin-influencer-marketing-india" },
+  { name: "Snapchat", href: "/blog/snapchat-influencer-marketing-india" },
+  { name: "Pinterest", href: "/blog/pinterest-influencer-marketing-india" },
+  { name: "Podcasts", href: "/blog/podcast-influencer-marketing-india" },
 ];
 
 const statStyles = ["bg-ink text-paper", "bg-coral text-ink", "bg-violet text-paper", "bg-lime text-ink"];
@@ -42,6 +54,66 @@ export function AboutContent() {
               measurement plan, and people accountable for both sides of the partnership.
             </p>
           </Reveal>
+        </Container>
+      </section>
+
+      <section className="pb-8">
+        <Container>
+          <SectionHeading eyebrow="What We Do" title="An influencer marketing agency for brands in India." />
+          <Reveal>
+            <p className="mt-8 max-w-3xl text-lg leading-relaxed text-ink/70 text-pretty">
+              {siteConfig.name} ({siteConfig.legalName}) plans, runs and measures influencer and creator marketing
+              campaigns for brands across India: D2C and e-commerce companies, consumer brands and B2B businesses. We
+              find creators whose audience matches your customer, from nano to macro tiers and across regional
+              languages, manage outreach, contracts and approvals, and report results against the KPI agreed before
+              launch.
+            </p>
+          </Reveal>
+          <div className="mt-12 grid gap-10 md:grid-cols-3">
+            <Reveal>
+              <h3 className="font-display text-xl tracking-tight text-ink">Services</h3>
+              <ul className="mt-4 space-y-2 text-sm text-ink/70">
+                {services.map((service) => (
+                  <li key={service.slug}>
+                    <Link href={`/services/${service.slug}`} className="underline-offset-4 hover:text-ink hover:underline">
+                      {service.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+            <Reveal delay={0.08}>
+              <h3 className="font-display text-xl tracking-tight text-ink">Industries</h3>
+              <ul className="mt-4 space-y-2 text-sm text-ink/70">
+                {industries.map((industry) => (
+                  <li key={industry.href}>
+                    <Link href={industry.href} className="underline-offset-4 hover:text-ink hover:underline">
+                      {industry.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+            <Reveal delay={0.16}>
+              <h3 className="font-display text-xl tracking-tight text-ink">Platforms</h3>
+              <ul className="mt-4 space-y-2 text-sm text-ink/70">
+                {platforms.map((platform) => (
+                  <li key={platform.href}>
+                    <Link href={platform.href} className="underline-offset-4 hover:text-ink hover:underline">
+                      {platform.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-6 text-sm text-ink/70">
+                Coverage: pan-India, including{" "}
+                <Link href="/blog/best-influencer-marketing-agencies-in-india" className="underline underline-offset-4 hover:text-ink">
+                  state and city campaigns
+                </Link>
+                .
+              </p>
+            </Reveal>
+          </div>
         </Container>
       </section>
 

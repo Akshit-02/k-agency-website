@@ -79,9 +79,14 @@ No agency on these pages has ratings, scores, client names, creator counts or aw
 4. Re-run the QA script checks: status, H1, canonical, schema, two CTAs, broken links, sitemap.
 5. Only set `updatedAt` when the content itself changes.
 
-## 6. Next priorities
+## 6. 2026-10-01 update
 
-- **P1 (expand existing guides with 4 researched alternatives):** Tamil Nadu (Social Beat has a Chennai office), Telangana (Kofluence has a Hyderabad office), West Bengal (InfluGlue is in Kolkata), Uttar Pradesh.
+- **Tamil Nadu rebuilt** (moved from blog.ts to `states.ts`, same URL): Kudozz + Social Beat (Chennai office listed), Bud (Anna Nagar West, Chennai; also Bengaluru), The Pixelate (Thousand Lights, Chennai), Orange Digital Marketing (Adambakkam, Chennai). Each verified on its own site on 2026-10-01; self-reported superlatives, Google Partner badges and counts were not repeated.
+- **Telangana research (not yet published):** verified Kofluence (T-Hub, existing record), Social DNA (6-3-1089 Gulmohar Avenue, Somajiguda; influencer marketing listed, event and real estate focus) and Vhonk Digital Marketing (Morning Star Building, Road No. 10, Banjara Hills; influencer marketing listed). Rejected: Zapplr Media, Kalyan Chandra, Telangana Bloggers (no address on their own pages), Fame Keeda and Gravmo (Hyderabad landing pages without a Hyderabad office), Digital Mojo (influencer page 404; not a listed service). One more verified Hyderabad agency is needed before rebuilding the page.
+
+## 7. Next priorities
+
+- **P1 (expand existing guides with 4 researched alternatives):** Telangana (3 of 4 verified, see above), West Bengal (InfluGlue is in Kolkata), Uttar Pradesh (Opraah is in Sector 126, Noida).
 - **P2:** Haryana, Rajasthan, Kerala, Punjab, Madhya Pradesh, Andhra Pradesh.
 - **P2:** consider a Chandigarh UT page (tricity; TML Agency is headquartered there).
 - **P2:** consider a Pune page, but only once 4 Pune-based agencies can be verified.

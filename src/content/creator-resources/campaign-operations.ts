@@ -79,7 +79,7 @@ export const campaignOperationsPosts: BlogPost[] = [
           { text: "influencer campaign brief", href: "/blog/influencer-campaign-brief" },
           { text: "how to vet influencers", href: "/blog/how-to-vet-influencers" },
           { text: "creator campaign capacity planning", href: "/blog/creator-campaign-capacity-planning" },
-          { text: "how to brief influencers", href: "/blog/how-to-brief-influencers" },
+          { text: "how to brief influencers", href: "/blog/influencer-campaign-brief" },
           { text: "creator campaign quality assurance", href: "/blog/creator-campaign-quality-assurance" },
           { text: "creator campaign escalation", href: "/blog/creator-campaign-escalation" },
           { text: "influencer marketing report", href: "/blog/influencer-marketing-report" },

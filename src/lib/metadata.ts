@@ -18,9 +18,12 @@ export function buildMetadata({
   const url = `${siteConfig.url}${path}`;
   const ogImage = image === null ? undefined : image ?? siteConfig.ogImage;
   const images = ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: title }] : undefined;
+  // Search results truncate titles at roughly 60 characters and already show the site name, so long
+  // titles skip the "— Kudozz" template suffix rather than losing their descriptive end.
+  const withSuffix = `${title} — ${siteConfig.name}`;
 
   return {
-    title,
+    title: withSuffix.length > 60 ? { absolute: title } : title,
     description,
     alternates: { canonical: url },
     openGraph: {

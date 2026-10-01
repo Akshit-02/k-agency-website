@@ -24,7 +24,7 @@ export const indiaPost: BlogPost = {
   metaDescription:
     "Looking for an influencer marketing agency in India? Compare Kudozz and four researched alternatives, see what agencies do and cost, and find state and city guides.",
   author: AUTHOR,
-  publishedAt: "2026-12-14",
+  publishedAt: "2026-09-10",
   lastReviewed: REVIEWED,
   readingTime: "14 min read",
   tags: ["influencer marketing agency India", "influencer marketing companies in India", "creator marketing agency India", "regional influencer marketing"],

@@ -5,6 +5,10 @@ export type Service = {
   slug: string;
   index: string;
   name: string;
+  /** Search-result title; the service name alone reads oddly with a "Services" suffix. */
+  seoTitle: string;
+  /** Blog guides that go deeper on this service, linked from the service page (slugs in src/content/blog.ts). */
+  guides: string[];
   shortDescription: string;
   description: string;
   metaDescription: string;
@@ -22,6 +26,8 @@ export const services: Service[] = [
     slug: "campaign-strategy",
     index: "01",
     name: "Influencer Marketing Strategy",
+    seoTitle: "Influencer Marketing Strategy Services in India",
+    guides: ["influencer-marketing-strategy", "influencer-marketing-budget", "influencer-budget-allocation", "influencer-marketing-kpis", "influencer-marketing-cost-india"],
     shortDescription: "Campaign planning built on audience, objective, and platform.",
     description:
       "Every campaign starts with a strategic brief, not a creator list. We study your audience, category, and business objective, then map the platform mix, content formats, and creator tiers most likely to move the metric you actually care about.",
@@ -76,6 +82,8 @@ export const services: Service[] = [
     slug: "creator-discovery",
     index: "02",
     name: "Creator Discovery & Matchmaking",
+    seoTitle: "Creator Discovery & Influencer Matchmaking Services",
+    guides: ["find-indian-influencers", "how-to-vet-influencers", "how-to-identify-fake-followers", "influencer-shortlist", "micro-vs-macro-influencers"],
     shortDescription: "Finding creators aligned with your audience and goals — not just your category.",
     description:
       "We screen for audience overlap, engagement quality, content style, and brand fit — not follower count alone. Every shortlist is vetted for authenticity signals before it reaches you.",
@@ -135,6 +143,8 @@ export const services: Service[] = [
     slug: "outreach-management",
     index: "03",
     name: "Influencer Outreach & Management",
+    seoTitle: "Influencer Outreach & Campaign Management Services",
+    guides: ["influencer-campaign-management", "how-to-negotiate-with-influencers", "influencer-marketing-contract", "influencer-campaign-brief", "influencer-outreach-email"],
     shortDescription: "Negotiation, contracts, and day-to-day coordination handled end to end.",
     description:
       "From first outreach to final invoice, we manage the relationship — negotiating terms, aligning deliverables, tracking approvals, and keeping creators and brand stakeholders in sync.",
@@ -193,6 +203,8 @@ export const services: Service[] = [
     slug: "social-campaigns",
     index: "04",
     name: "Social Media Campaigns",
+    seoTitle: "Multi-Creator Social Media Campaign Services",
+    guides: ["how-to-create-a-successful-influencer-marketing-campaign", "influencer-marketing-campaign-ideas", "instagram-influencer-marketing", "pan-india-influencer-marketing-campaign", "regional-influencer-marketing-india"],
     shortDescription: "Multi-creator campaigns engineered for coordinated reach and engagement.",
     description:
       "We orchestrate multi-creator, multi-platform pushes with staggered publishing, consistent messaging, and cross-promotion designed to compound reach instead of fragmenting it.",
@@ -241,6 +253,8 @@ export const services: Service[] = [
     slug: "product-launches",
     index: "05",
     name: "Product Launch Campaigns",
+    seoTitle: "Influencer Marketing for Product Launches",
+    guides: ["influencers-for-product-launch", "influencer-product-seeding-program", "instagram-product-launch-campaigns", "influencer-marketing-campaign-timeline"],
     shortDescription: "Creator-driven buzz built around your launch window, not after it.",
     description:
       "Launch campaigns need sequencing — teasers, seeding, day-of coverage, and aftermarket content. We build the creator rollout calendar around your launch date, not the other way around.",
@@ -289,6 +303,8 @@ export const services: Service[] = [
     slug: "ugc-campaigns",
     index: "06",
     name: "UGC Campaigns",
+    seoTitle: "UGC Campaign Services for Brands in India",
+    guides: ["what-is-ugc-marketing", "ugc-vs-influencer-content-whats-the-difference", "how-to-find-ugc-creators", "ugc-content-cost-india", "ugc-ads-indian-brands"],
     shortDescription: "Authentic, creator-shot content built for your owned channels and ads.",
     description:
       "Not every asset needs a full influencer post. We run dedicated UGC production campaigns to build a library of authentic, on-brand content for paid social, website, and email.",
@@ -338,6 +354,8 @@ export const services: Service[] = [
     slug: "ambassador-programs",
     index: "07",
     name: "Brand Ambassador Programs",
+    seoTitle: "Brand Ambassador Program Services",
+    guides: ["brand-ambassador-program", "influencer-partnerships", "always-on-influencer-marketing", "employee-influencer-marketing"],
     shortDescription: "Long-term creator relationships built to compound over time.",
     description:
       "One-off posts rarely build trust. We design ambassador programs — retainers, tiered incentives, and recurring content cadences — that turn creators into long-term brand partners.",
@@ -386,6 +404,8 @@ export const services: Service[] = [
     slug: "reporting",
     index: "08",
     name: "Campaign Reporting & Performance Tracking",
+    seoTitle: "Influencer Campaign Reporting & ROI Tracking",
+    guides: ["measuring-influencer-campaign-roi", "influencer-marketing-kpis", "influencer-marketing-report", "influencer-engagement-rate", "influencer-marketing-roi-forecasting"],
     shortDescription: "Transparent, plain-language reporting tied to your original KPIs.",
     description:
       "You get a dashboard and a debrief — not just a spreadsheet. We track reach, engagement, and conversion signals against the goals set at kickoff, and tell you plainly what worked.",

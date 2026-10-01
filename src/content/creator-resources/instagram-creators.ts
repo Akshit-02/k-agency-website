@@ -173,7 +173,7 @@ export const instagramCreatorPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Instagram monetization in India is a mix: fan tools (Gifts, Subscriptions, badges) for loyalty, branded content and Creator Marketplace for brand income, and affiliate tools where they've rolled out. Check your professional dashboard, add one tool at a time, and keep building an audience you own alongside it. For the brand side of the same ecosystem, see Instagram creator marketing for brands.",
-        links: [{ text: "Instagram creator marketing", href: "/blog/instagram-creator-marketing" }],
+        links: [{ text: "Instagram creator marketing", href: "/blog/instagram-influencer-marketing" }],
       },
     ],
     faqs: [

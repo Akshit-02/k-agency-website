@@ -81,6 +81,22 @@ export function homePageSchema({ title, description }: { title: string; descript
   };
 }
 
+/** The About page as an AboutPage about the organization, the page answer engines read for "what is Kudozz". */
+export function aboutPageSchema({ title, description }: { title: string; description: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${siteConfig.url}/about#webpage`,
+    url: `${siteConfig.url}/about`,
+    name: title,
+    description,
+    inLanguage: "en-IN",
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    about: { "@id": `${siteConfig.url}/#organization` },
+    mainEntity: { "@id": `${siteConfig.url}/#organization` },
+  };
+}
+
 export function breadcrumbSchema(items: { name: string; url: string }[]) {
   return {
     "@context": "https://schema.org",

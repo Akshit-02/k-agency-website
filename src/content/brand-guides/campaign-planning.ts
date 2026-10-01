@@ -562,7 +562,7 @@ export const campaignPlanningPosts: BlogPost[] = [
         text: "No single signal proves fraud; look for patterns. The detailed checks are in how to identify fake followers and fake engagement and how to avoid fake followers and influencer fraud in India.",
         links: [
           { text: "how to identify fake followers and fake engagement", href: "/blog/how-to-identify-fake-followers" },
-          { text: "how to avoid fake followers and influencer fraud in India", href: "/blog/avoid-fake-influencers-india" },
+          { text: "how to avoid fake followers and influencer fraud in India", href: "/blog/how-to-identify-fake-followers" },
         ],
       },
       { type: "heading", text: "India-specific considerations", id: "india" },
@@ -769,7 +769,7 @@ export const campaignPlanningPosts: BlogPost[] = [
         type: "paragraph",
         text: "Measurement methods are covered in how to measure influencer marketing ROI for Indian brands. Kudozz runs multi-city and regional creator campaigns; its campaign strategy service starts with the market and language plan.",
         links: [
-          { text: "how to measure influencer marketing ROI for Indian brands", href: "/blog/measure-influencer-marketing-roi-india" },
+          { text: "how to measure influencer marketing ROI for Indian brands", href: "/blog/measuring-influencer-campaign-roi" },
           { text: "campaign strategy service", href: "/services/campaign-strategy" },
         ],
       },

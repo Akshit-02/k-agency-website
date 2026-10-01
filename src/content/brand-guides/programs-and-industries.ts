@@ -1193,7 +1193,7 @@ export const programsAndIndustriesPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Measurement methods are covered in how to measure influencer marketing ROI for Indian brands.",
-        links: [{ text: "how to measure influencer marketing ROI for Indian brands", href: "/blog/measure-influencer-marketing-roi-india" }],
+        links: [{ text: "how to measure influencer marketing ROI for Indian brands", href: "/blog/measuring-influencer-campaign-roi" }],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

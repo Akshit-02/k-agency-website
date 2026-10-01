@@ -29,8 +29,9 @@ export function Hero() {
         <div className="grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-6">
           <div>
             {/* The search phrase leads the H1; the brand line stays the visual headline. */}
+            {/* No opacity fade on the H1: it is the LCP element and must paint before hydration. */}
             <motion.h1
-              initial={{ opacity: 0, y: 26 }}
+              initial={{ y: 26 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.75, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
               className="text-ink"

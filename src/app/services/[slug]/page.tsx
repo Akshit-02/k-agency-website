@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { services, getServiceBySlug, getRelatedServices } from "@/content/services";
+import { getBlogPostBySlug } from "@/content/blog";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/config/site";
 import { JsonLd, breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
@@ -17,7 +18,7 @@ export async function generateMetadata(props: PageProps<"/services/[slug]">): Pr
   if (!service) return {};
 
   return buildMetadata({
-    title: `${service.name} Services`,
+    title: service.seoTitle,
     description: service.metaDescription,
     path: `/services/${service.slug}`,
   });
@@ -29,6 +30,10 @@ export default async function ServiceDetailPage(props: PageProps<"/services/[slu
   if (!service) notFound();
 
   const related = getRelatedServices(service);
+  const guides = service.guides.flatMap((guideSlug) => {
+    const post = getBlogPostBySlug(guideSlug);
+    return post ? [{ title: post.title, href: `/blog/${post.slug}` }] : [];
+  });
   const url = `${siteConfig.url}/services/${service.slug}`;
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -48,7 +53,7 @@ export default async function ServiceDetailPage(props: PageProps<"/services/[slu
       />
       <JsonLd data={faqSchema(service.faqs.map((f) => ({ question: f.question, answer: f.answer })))} />
 
-      <ServiceDetail service={service} related={related} breadcrumbItems={breadcrumbItems} />
+      <ServiceDetail service={service} related={related} guides={guides} breadcrumbItems={breadcrumbItems} />
       <FinalCTA />
     </>
   );

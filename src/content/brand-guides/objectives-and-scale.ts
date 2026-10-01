@@ -27,7 +27,7 @@ export const objectivesAndScalePosts: BlogPost[] = [
     lastReviewed: "September 2026",
     readingTime: "13 min read",
     tags: ["influencer marketing lead generation", "influencer lead generation", "creator campaign leads", "influencer marketing for leads India", "lead generation with creators"],
-    related: ["influencer-marketing-sales", "influencer-marketing-funnel", "measure-influencer-marketing-roi-india"],
+    related: ["influencer-marketing-sales", "influencer-marketing-funnel", "measuring-influencer-campaign-roi"],
     hero: { src: "/blog/brand-guides/influencer-marketing-lead-generation.svg", alt: "Lead flow from creator content to landing page, form, qualified lead, follow-up and sale" },
     body: [
       {
@@ -142,7 +142,7 @@ export const objectivesAndScalePosts: BlogPost[] = [
         type: "paragraph",
         text: "Set the measurement window to your sales cycle; for property or B2B software that may be months. Full measurement frameworks are in how to measure influencer marketing ROI for Indian brands, and the funnel view in the influencer marketing funnel.",
         links: [
-          { text: "how to measure influencer marketing ROI for Indian brands", href: "/blog/measure-influencer-marketing-roi-india" },
+          { text: "how to measure influencer marketing ROI for Indian brands", href: "/blog/measuring-influencer-campaign-roi" },
           { text: "the influencer marketing funnel", href: "/blog/influencer-marketing-funnel" },
         ],
       },
@@ -208,7 +208,7 @@ export const objectivesAndScalePosts: BlogPost[] = [
     lastReviewed: "September 2026",
     readingTime: "14 min read",
     tags: ["influencer marketing for sales", "influencer marketing customer acquisition", "influencer marketing conversions", "influencer CAC", "creator campaigns revenue"],
-    related: ["influencer-marketing-ecommerce-brands-india", "d2c-influencer-marketing-funnel-india", "measure-influencer-marketing-roi-india"],
+    related: ["influencer-marketing-ecommerce-brands-india", "d2c-influencer-marketing-funnel-india", "measuring-influencer-campaign-roi"],
     hero: { src: "/blog/brand-guides/influencer-marketing-sales.svg", alt: "Path from creator content to code or link, checkout, first order and repeat purchase, with paid amplification boosting top creator posts" },
     body: [
       {

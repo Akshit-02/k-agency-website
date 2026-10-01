@@ -35,7 +35,7 @@ const brandSideLinks = [
   { label: "Influencer marketing costs in India", href: "/blog/influencer-marketing-cost-india" },
   { label: "How brands negotiate with influencers", href: "/blog/how-to-negotiate-with-influencers" },
   { label: "Influencer contracts: the brand's view", href: "/blog/influencer-marketing-contract" },
-  { label: "UGC creator vs influencer", href: "/blog/ugc-creator-vs-influencer" },
+  { label: "UGC creator vs influencer", href: "/blog/ugc-vs-influencer-content-whats-the-difference" },
   { label: "How brands build long-term influencer partnerships", href: "/blog/influencer-partnerships" },
   { label: "How brands write an influencer campaign brief", href: "/blog/influencer-campaign-brief" },
   { label: "Instagram partnership ads for brands", href: "/blog/instagram-partnership-ads" },

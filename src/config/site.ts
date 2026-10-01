@@ -4,10 +4,10 @@ export const siteConfig = {
   legalName: "Kudozz Studios Private Limited",
   tagline: "Influence, Engineered.",
   description:
-    "Kudozz is an influencer marketing agency that connects ambitious brands with creators who move culture — building campaigns that generate awareness, engagement, and measurable growth.",
+    "Kudozz is an influencer marketing agency in India that connects brands with the right creators, and plans, runs and measures campaigns for awareness, engagement and sales.",
   url: "https://www.kudozz.in",
   ogImage: "/opengraph-image",
-  locale: "en_US",
+  locale: "en_IN",
   /**
    * Brand identity — logomark + wordmark are implemented as React
    * components (`src/components/graphics/Kudozz{Mark,Wordmark,Logo}.tsx`)

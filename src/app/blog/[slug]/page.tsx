@@ -87,12 +87,12 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
                   ]
             }
           />
-          <Reveal delay={0.05}>
+          <Reveal delay={0.05} fade={false}>
             <h1 className="mt-5 font-display text-5xl leading-[0.98] tracking-tight text-balance text-ink sm:text-7xl">
               {post.title}
             </h1>
           </Reveal>
-          <Reveal delay={0.1}>
+          <Reveal delay={0.1} fade={false}>
             <p className="mt-5 text-lg leading-relaxed text-ink/65">{post.excerpt}</p>
           </Reveal>
           <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/50">

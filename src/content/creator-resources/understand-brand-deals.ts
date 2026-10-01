@@ -385,7 +385,7 @@ export const understandBrandDealPosts: BlogPost[] = [
         text: "Brands read contracts from the other side too. Our brand-side guides on influencer marketing contracts and influencer contracts in India show which clauses brands are advised to include, which helps you anticipate what you'll see.",
         links: [
           { text: "influencer marketing contracts", href: "/blog/influencer-marketing-contract" },
-          { text: "influencer contracts in India", href: "/blog/influencer-marketing-contract-india" },
+          { text: "influencer contracts in India", href: "/blog/influencer-marketing-contract" },
         ],
       },
       {

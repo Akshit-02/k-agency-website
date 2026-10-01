@@ -340,7 +340,7 @@ export const planningAndProgramsPosts: BlogPost[] = [
     lastReviewed: REVIEWED,
     readingTime: "14 min read",
     tags: ["influencer marketing ROI forecasting", "influencer campaign forecast", "influencer marketing budget vs performance", "estimate influencer ROI", "influencer campaign scenarios"],
-    related: ["measure-influencer-marketing-roi-india", "influencer-budget-allocation", "influencer-campaign-cost-india"],
+    related: ["measuring-influencer-campaign-roi", "influencer-budget-allocation", "influencer-campaign-cost-india"],
     hero: { src: "/blog/brand-guides/influencer-marketing-roi-forecasting.svg", alt: "Influencer ROI forecast with cautious, expected and strong scenarios built from views, click and conversion assumptions, compared with actual results" },
     body: [
       {
@@ -394,7 +394,7 @@ export const planningAndProgramsPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "How to measure the result afterwards is covered in how to measure influencer marketing ROI for Indian brands.",
-        links: [{ text: "how to measure influencer marketing ROI for Indian brands", href: "/blog/measure-influencer-marketing-roi-india" }],
+        links: [{ text: "how to measure influencer marketing ROI for Indian brands", href: "/blog/measuring-influencer-campaign-roi" }],
       },
       { type: "heading", text: "Forecast vs actual: where to increase spend", id: "budget-vs-performance" },
       {
@@ -612,6 +612,7 @@ export const planningAndProgramsPosts: BlogPost[] = [
     slug: "influencer-marketing-governance",
     category: "Brand Marketing",
     title: "Influencer Marketing Governance: How Brands Can Create Rules for Creator Partnerships",
+    updatedAt: "2026-10-01",
     seoTitle: "Influencer Marketing Governance and SOPs for Brands",
     excerpt:
       "How brands set rules and standard processes for creator partnerships: the policies every brand needs (selection, brand safety, disclosure, claims, contracts, payments, data, crisis), who approves what, a campaign SOP with templates, and keeping governance light enough that campaigns still move.",
@@ -673,6 +674,31 @@ export const planningAndProgramsPosts: BlogPost[] = [
           ["Contracts above a set value or unusual terms", "Legal", "Procurement"],
           ["Paid usage and amplification", "Performance lead", "Creator marketing lead"],
           ["Crisis response", "Communications lead", "Legal, marketing head"],
+        ],
+      },
+      { type: "heading", text: "An approval workflow that doesn't stall campaigns", id: "approval-workflow" },
+      {
+        type: "paragraph",
+        text: "Most campaign delays happen in approvals, not production. A workflow that keeps content moving has fixed stages, one decision-maker per stage and agreed turnaround times:",
+      },
+      {
+        type: "table",
+        headers: ["Stage", "Who approves", "What they check", "Agree a turnaround"],
+        rows: [
+          ["Concept or script", "Influencer lead", "Message, mandatory points, fit with the brief", "Yes, in working days"],
+          ["Draft content", "Brand or category manager", "Product accuracy, brand safety, tone", "Yes"],
+          ["Claims and disclosure", "Legal or compliance (regulated categories only)", "Health, finance or performance claims; disclosure label", "Yes"],
+          ["Final version", "Influencer lead", "Requested changes made; nothing new added", "Shortest of all"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Collect feedback in one place and send it as one consolidated round, not separate notes from every reviewer",
+          "Limit revision rounds in the contract (two is common) and separate factual corrections from taste",
+          "Approve the concept before filming; most expensive rework comes from rejecting finished videos",
+          "Pre-clear standard claims and disclosure wording so legal only sees exceptions",
+          "Build approval time into the timeline from the start rather than squeezing it before go-live",
         ],
       },
       { type: "heading", text: "A standard campaign SOP", id: "sop" },
@@ -755,6 +781,7 @@ export const planningAndProgramsPosts: BlogPost[] = [
     slug: "influencer-marketing-team-structure",
     category: "Brand Marketing",
     title: "Influencer Marketing Team Structure: Who Should Own Creator Marketing Inside a Brand?",
+    updatedAt: "2026-10-01",
     seoTitle: "Influencer Marketing Team Structure: Who Owns It?",
     excerpt:
       "Where influencer marketing should sit inside a brand and how to staff it: ownership models (brand, social, performance, central team), roles at each stage of maturity, working with performance, legal and finance, agency and freelancer roles, and managing multiple creator vendors.",
@@ -805,6 +832,24 @@ export const planningAndProgramsPosts: BlogPost[] = [
         links: [
           { text: "influencer marketing agency vs in-house", href: "/blog/influencer-marketing-agency-vs-in-house" },
           { text: "influencer marketing agency vs freelancer", href: "/blog/influencer-agency-vs-freelancer" },
+        ],
+      },
+      { type: "heading", text: "Who owns what: a simple RACI", id: "raci" },
+      {
+        type: "paragraph",
+        text: "R = does the work, A = signs off, C = consulted, I = informed. Adjust the columns to your team; the point is that every task has exactly one A.",
+      },
+      {
+        type: "table",
+        headers: ["Task", "Influencer lead", "Brand / category manager", "Legal or compliance", "Performance team", "Agency"],
+        rows: [
+          ["Objective, KPI and budget", "R", "A", "I", "C", "C"],
+          ["Creator shortlist", "A", "C", "I", "I", "R"],
+          ["Contracts and usage rights", "A", "I", "C", "I", "R"],
+          ["Brief", "A", "C", "C", "I", "R"],
+          ["Content approval", "R", "A", "C (regulated claims)", "I", "R"],
+          ["Paid amplification", "C", "I", "I", "A", "C"],
+          ["Reporting", "A", "I", "I", "C", "R"],
         ],
       },
       { type: "heading", text: "Handoffs with other teams", id: "handoffs" },

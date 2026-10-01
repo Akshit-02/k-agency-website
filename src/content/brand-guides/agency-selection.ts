@@ -9,7 +9,7 @@ import { AUTHOR, PUBLISHED, REVIEWED } from "@/content/brand-guides/shared";
  * - influencer-marketing-agency-fees-india: what agencies charge and how (905, absorbs pricing models 906)
  * - influencer-marketing-agency-brief: the brief a brand sends an agency (907, absorbs 913)
  * - influencer-marketing-rfp: running a formal selection (RFP, proposals, scoring) (908, absorbs 909 and 912)
- * - influencer-marketing-agency-pitch-questions: 20 questions with what good answers sound like (910)
+ * - influencer-marketing-agency-pitch-questions: 25 questions with what good answers sound like (910; 21–25 added 2026-10-01)
  * - influencer-marketing-agency-checklist: checks before signing the agency contract (911)
  * Existing owners: influencer-marketing-agency-vs-in-house (902, absorbs 903), influencer-marketing-services-india (904).
  * Seller-side agency pricing for agency operators lives in creator-agency-pricing-strategy; don't mix audiences.
@@ -29,7 +29,7 @@ export const agencySelectionPosts: BlogPost[] = [
     lastReviewed: "September 2026",
     readingTime: "11 min read",
     tags: ["influencer marketing agency vs freelancer", "freelance influencer marketing manager", "hire influencer marketing freelancer", "influencer agency or freelancer", "outsource influencer marketing India"],
-    related: ["choose-influencer-marketing-agency-india", "influencer-marketing-agency-vs-in-house", "influencer-marketing-agency-fees-india"],
+    related: ["influencer-marketing-agency-vs-in-house", "influencer-marketing-platforms", "choose-influencer-marketing-agency-india", "influencer-marketing-agency-fees-india"],
     hero: { src: "/blog/brand-guides/influencer-agency-vs-freelancer.svg", alt: "Side-by-side comparison of a freelance influencer marketer and an influencer marketing agency across scope, capacity, backup cover and accountability" },
     body: [
       {
@@ -514,6 +514,7 @@ export const agencySelectionPosts: BlogPost[] = [
     slug: "influencer-marketing-rfp",
     category: "Brand Marketing",
     title: "Influencer Marketing RFP: How Brands Should Evaluate Agencies",
+    updatedAt: "2026-10-01",
     seoTitle: "Influencer Marketing RFP: Evaluate and Compare Agencies",
     excerpt:
       "How brands run an influencer marketing RFP: when a formal process is worth it, the RFP structure, how many agencies to invite, what a strong proposal contains, a weighted scoring matrix for comparing agencies, pitch meetings, paid pilots and making the final decision.",
@@ -596,6 +597,30 @@ export const agencySelectionPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Treat sample creators as evidence of thinking, not a final roster: availability and fees change, and a proposal promising named creators before contacting them is a warning sign.",
+      },
+      { type: "heading", text: "Reviewing an agency proposal before you approve it", id: "proposal-review" },
+      {
+        type: "paragraph",
+        text: "Whether it arrives as a pitch deck or a document, a proposal should let you check the plan, the people and the money without a follow-up call. Use this checklist on every proposal, including from an agency you already work with:",
+      },
+      {
+        type: "table",
+        headers: ["Section", "What to look for", "Warning sign"],
+        rows: [
+          ["Objective and KPI", "Your objective restated, one primary KPI, a measurement plan", "Generic goals such as 'maximize visibility'"],
+          ["Creator approach", "Tier mix, platforms, languages and sample creators with reasons", "Follower counts only, or no sample creators"],
+          ["Content plan", "Formats, number of deliverables, posting window", "Deliverables left vague"],
+          ["Timeline", "Sourcing, contracts, approvals, go-live and reporting dates", "No approval time built in"],
+          ["Budget", "Creator fees, agency fee, production, rights and amplification as separate lines", "One total with no breakdown"],
+          ["Rights and compliance", "Usage rights by platform and duration; disclosure process", "Not mentioned"],
+          ["Reporting", "A sample report and reporting dates", "'We'll share insights'"],
+          ["Team", "Named people and their time on your account", "Only the pitch team named"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A pitch deck can add case studies and creative ideas, but treat unverified case-study numbers as claims until a reference confirms them. The questions to ask in the meeting are in 25 questions to ask an influencer marketing agency.",
+        links: [{ text: "25 questions to ask an influencer marketing agency", href: "/blog/influencer-marketing-agency-pitch-questions" }],
       },
       { type: "heading", text: "A weighted scoring matrix", id: "scoring" },
       {
@@ -693,17 +718,21 @@ export const agencySelectionPosts: BlogPost[] = [
         answer:
           "Usually three to five relevant agencies. More makes evaluation harder and can discourage strong agencies from responding.",
       },
+      {
+        question: "What should an influencer marketing proposal include?",
+        answer:
+          "Your objective and primary KPI, the creator approach with sample creators, the content plan and timeline, an itemized budget, usage rights and compliance, a sample report, and the named team.",
+      },
     ],
   },
   {
     slug: "influencer-marketing-agency-pitch-questions",
     category: "Brand Marketing",
-    title: "Influencer Marketing Agency Pitch: 20 Questions Brands Should Ask Before Hiring",
-    seoTitle: "20 Questions to Ask an Influencer Marketing Agency",
-    excerpt:
-      "Twenty questions to ask an influencer marketing agency before hiring, grouped by strategy, creators, process, compliance, measurement, team and commercials, with what a strong answer and a weak answer sound like, and the red flags to listen for.",
-    metaDescription:
-      "20 questions to ask an influencer marketing agency before hiring, with what strong and weak answers sound like, plus red flags on creators, fees and reporting.",
+    title: "Influencer Marketing Agency Questions: 25 Questions Brands Should Ask Before Hiring",
+    updatedAt: "2026-10-01",
+    seoTitle: "25 Questions to Ask an Influencer Marketing Agency",
+    excerpt: "Twenty-five questions to ask an influencer marketing agency before hiring, grouped by strategy, creators, process, compliance, measurement, team, commercials and due diligence, with what a strong answer and a weak answer sound like, and the red flags to listen for.",
+    metaDescription: "25 questions to ask an influencer marketing agency before hiring, with strong and weak answers, plus due-diligence and red-flag checks on fees and reporting.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: REVIEWED,
@@ -714,7 +743,7 @@ export const agencySelectionPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Agency pitches are designed to impress. The useful part of the meeting is the conversation after the deck, when you ask how things actually work. These twenty questions are the ones that separate agencies with a real process from agencies with a good presentation.",
+        text: "Agency pitches are designed to impress. The useful part of the meeting is the conversation after the deck, when you ask how things actually work. These twenty-five questions are the ones that separate agencies with a real process from agencies with a good presentation.",
       },
       { type: "heading", text: "Quick answer", id: "quick-answer" },
       {
@@ -802,6 +831,26 @@ export const agencySelectionPosts: BlogPost[] = [
         type: "paragraph",
         text: "Pricing models are compared in influencer marketing agency fees in India.",
         links: [{ text: "influencer marketing agency fees in India", href: "/blog/influencer-marketing-agency-fees-india" }],
+      },
+      { type: "heading", text: "Due diligence and fit (questions 21–25)", id: "due-diligence" },
+      {
+        type: "table",
+        headers: ["Question", "Strong answer", "Weak answer"],
+        rows: [
+          ["21. Can we speak to two current clients in a similar category?", "Names offered, with permission, without hesitation", "\"Our clients are confidential\" with no alternative"],
+          ["22. If we part ways, what do we keep?", "Contracts, content files, creator contacts and reports handed over", "Creator relationships and data stay with the agency"],
+          ["23. Do you work with our competitors?", "Clear policy on category conflicts and separate teams", "Avoids the question"],
+          ["24. What happens in the first 30 days?", "Onboarding steps, access needed, first deliverables", "\"We'll start sourcing straight away\""],
+          ["25. Would you run a paid pilot before a retainer?", "A scoped pilot with success criteria", "Retainer only, minimum long term"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "What to verify before signing is in the influencer marketing agency checklist, and what the first month should look like is in influencer marketing agency onboarding.",
+        links: [
+          { text: "influencer marketing agency checklist", href: "/blog/influencer-marketing-agency-checklist" },
+          { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" },
+        ],
       },
       { type: "heading", text: "Red flags", id: "red-flags" },
       {
