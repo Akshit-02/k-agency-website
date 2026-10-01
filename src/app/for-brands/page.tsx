@@ -60,8 +60,13 @@ export default function ForBrandsPage() {
       <ProblemsSolved />
       <BrandServices />
       <WhyChooseUs />
-      <FeaturedCampaigns />
-      <FAQSection faqs={brandFaqs} eyebrow="Before You Reach Out" title="What brands ask us before starting a campaign." dark />
+      {/* <FeaturedCampaigns /> */}
+      <FAQSection
+        faqs={brandFaqs}
+        eyebrow="Before You Reach Out"
+        title="What brands ask us before starting a campaign."
+        dark
+      />
       <InquirySection />
     </>
   );
