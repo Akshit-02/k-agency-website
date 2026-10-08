@@ -155,6 +155,13 @@ export const contentIdeasResearchPosts: BlogPost[] = [
           "Letting analysis turn into daily comparison.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands researching which creators their competitors work with can use the brand-side guide to finding competitors' influencers.",
+        links: [
+          { text: "finding competitors' influencers", href: "/blog/competitor-influencers" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",

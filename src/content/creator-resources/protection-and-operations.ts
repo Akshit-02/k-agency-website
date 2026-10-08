@@ -697,8 +697,9 @@ export const protectionAndOperationsPosts: BlogPost[] = [
       { type: "heading", text: "Indian guidance", id: "india" },
       {
         type: "paragraph",
-        text: "The Department of Consumer Affairs issued \"Endorsement Know-hows!\" for celebrities, influencers and virtual influencers in January 2023, calling for clear, prominent disclosure of material connections, with disclosures superimposed on images and videos and made continuously during live streams. ASCI's influencer advertising guidelines list acceptable labels and placement expectations. Both are worth reading in full.",
+        text: "The Department of Consumer Affairs issued \"Endorsement Know-hows!\" for celebrities, influencers and virtual influencers in January 2023, calling for clear, prominent disclosure of material connections, with disclosures superimposed on images and videos and made continuously during live streams. ASCI's influencer advertising guidelines list acceptable labels and placement expectations. Both are worth reading in full. Brands setting disclosure rules for a campaign can read influencer campaign compliance, which explains which rules are law, guidance, self-regulation or platform policy.",
         links: [
+          { text: "influencer campaign compliance", href: "/blog/influencer-marketing-compliance" },
           { text: "\"Endorsement Know-hows!\"", href: SOURCES.docaEndorsements },
           { text: "ASCI's influencer advertising guidelines", href: SOURCES.asciSocial },
         ],

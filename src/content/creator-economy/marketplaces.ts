@@ -514,18 +514,19 @@ export const marketplacePosts: BlogPost[] = [
   {
     slug: "creator-discovery-platform",
     category: "Creator Economy",
-    title: "Creator Discovery Platform: How Brands Can Find the Right Creators",
-    seoTitle: "Creator Discovery Platforms: How They Work and What to Check",
+    title: "Creator Discovery Platforms: How Brands Should Compare Creator-Finding Options",
+    seoTitle: "Influencer Discovery Platforms: How to Compare Your Options",
     excerpt:
-      "How creator discovery platforms work and how brands should use them: where creator data comes from (connected accounts, public data, estimates), search methods, the filters that matter, how accurate audience data really is, India coverage for regional creators, an evaluation checklist and the limits of any tool.",
+      "How creator and influencer discovery platforms work, how they compare with native marketplaces, creator marketplaces, agency networks and manual search, where their data comes from, India coverage, a comparison matrix, a two-week trial plan and the limits of any tool.",
     metaDescription:
-      "How creator discovery platforms work: data sources, search methods, key filters, audience data accuracy, India coverage and a checklist for choosing one.",
+      "Compare influencer discovery platforms with native marketplaces, creator marketplaces, agencies and manual search: data, India coverage and a trial plan.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
-    readingTime: "13 min read",
-    tags: ["creator discovery platform", "influencer discovery tool", "influencer search tool", "find creators for brands", "creator search platform India", "influencer database tool"],
-    related: ["creator-matching", "creator-marketplace", "find-indian-influencers"],
+    updatedAt: "2026-10-07",
+    lastReviewed: "October 2026",
+    readingTime: "7 min read",
+    tags: ["creator discovery platform", "influencer discovery platforms", "compare influencer discovery tools", "influencer discovery tool", "influencer search tool", "find creators for brands", "creator search platform India", "influencer database tool"],
+    related: ["influencer-search-tools", "ai-influencer-discovery", "influencer-marketing-software"],
     body: [
       {
         type: "paragraph",
@@ -625,13 +626,74 @@ export const marketplacePosts: BlogPost[] = [
           { text: "how to find influencers for your brand", href: "/blog/find-indian-influencers" },
         ],
       },
+      { type: "heading", text: "Comparing creator-finding options", id: "compare-options" },
+      {
+        type: "paragraph",
+        text: "A third-party discovery platform is one of five ways brands find creators. Before paying for one, compare it with the alternatives on the things that actually decide results: whose data you get, how well it covers your languages and regions, how much of the work it does and what it costs.",
+      },
+      {
+        type: "table",
+        headers: ["Option", "Data quality", "India and regional coverage", "Who does the work", "Cost", "Best for"],
+        rows: [
+          ["Native marketplaces (Instagram creator marketplace, YouTube Creator Partnerships)", "Platform-reported for opted-in creators", "Good for creators who've joined; one platform each", "Your team", "Free or low", "Brands starting out on one platform"],
+          ["Third-party discovery platform", "Mix of connected, public and estimated", "Varies widely; test it", "Your team", "Subscription", "Teams searching at scale across platforms"],
+          ["Creator marketplace (opt-in, transactional)", "Creator-supplied plus platform data", "Depends on who has signed up", "Shared; creators apply", "Fees or commission", "High-volume, lower-touch campaigns"],
+          ["Agency network and sourcing", "Vetted by people; creator insights requested", "As strong as the agency's regional reach", "Agency", "Agency fee", "Brands without in-house capacity or regional experience"],
+          ["Manual search and referrals", "Public data plus what creators share", "Strong in niches tools miss", "Your team", "Time", "Small campaigns, niche and local creators"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Most brands combine two or three. A common pattern is native marketplaces plus manual search while volume is low, a discovery platform once the team searches across platforms every week, and an agency for regional launches or when the team is stretched. Search methods for each option are covered in influencer search tools, and AI-assisted search in AI for influencer discovery.",
+        links: [
+          { text: "influencer search tools", href: "/blog/influencer-search-tools" },
+          { text: "AI for influencer discovery", href: "/blog/ai-influencer-discovery" },
+        ],
+      },
+      { type: "subheading", text: "A scoring matrix for comparing discovery options" },
+      {
+        type: "template",
+        label: "Discovery option comparison (score 1–5 × weight)",
+        text: "Criterion                                  Weight\nCoverage test (20 known creators, our languages)  25%\nData transparency (labelled sources)          15%\nAudience data quality at state/city level      15%\nSearch by content, not just bio               15%\nWorkflow (lists, notes, export, CRM link)      10%\nTime saved per campaign (from trial)           10%\nTotal annual cost at our volume                10%\n\nScore each option you're considering, including native tools and your current manual process.",
+      },
+      { type: "subheading", text: "A two-week trial plan" },
+      {
+        type: "list",
+        items: [
+          "Days 1–2: run the coverage test with 20 creators you already know, across tiers and languages.",
+          "Days 3–5: rebuild a past campaign's shortlist and compare it with the creators who actually performed.",
+          "Days 6–10: use the platform on a live brief alongside your current method; count genuinely new, usable creators.",
+          "Days 11–12: check audience estimates for five creators against their own insights screenshots.",
+          "Days 13–14: export lists and notes and confirm they're complete outside the tool.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If discovery is one of several features you're buying, influencer marketing software covers the wider feature checklist, and an influencer database keeps the creators you find once the subscription ends.",
+        links: [
+          { text: "influencer marketing software", href: "/blog/influencer-marketing-software" },
+          { text: "an influencer database", href: "/blog/influencer-database" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If you need more than search (your own campaign history, explainable scoring, listening and competitor research), see creator intelligence platform.",
+        links: [
+          { text: "creator intelligence platform", href: "/blog/creator-intelligence-platform" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Creator discovery platforms speed up the search, and their value depends on their data. Know which figures are first-party, public or estimated, test coverage in your categories and Indian languages, verify with creators before booking, and keep human judgment for fit, quality and brand safety.",
+        text: "Creator discovery platforms speed up the search, and their value depends on their data. Compare them honestly with native marketplaces, creator marketplaces, agencies and manual search before committing. Know which figures are first-party, public or estimated, test coverage in your categories and Indian languages, verify with creators before booking, and keep human judgment for fit, quality and brand safety.",
       },
     ],
     faqs: [
+      {
+        question: "How should brands compare influencer discovery platforms?",
+        answer:
+          "Test coverage with creators you already know in your languages, check which data is first-party or estimated, rebuild a past shortlist to see if it finds the creators who performed, confirm export, and compare total cost with native marketplaces, manual search and agency sourcing.",
+      },
       {
         question: "What is a creator discovery platform?",
         answer:
@@ -757,6 +819,13 @@ export const marketplacePosts: BlogPost[] = [
         links: [
           { text: "creator discovery platform", href: "/blog/creator-discovery-platform" },
           { text: "creator marketplace", href: "/blog/creator-marketplace" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Brands using AI match scores can read AI influencer matching, which covers building a Creator Fit Score and testing a tool's rankings against past campaigns.",
+        links: [
+          { text: "AI influencer matching", href: "/blog/ai-influencer-matching" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },

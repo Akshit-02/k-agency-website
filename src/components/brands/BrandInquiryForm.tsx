@@ -36,6 +36,7 @@ const TOPIC_TO_CAMPAIGN_GOAL: Record<string, string> = {
   "Agency Onboarding": "Campaign Management",
   "Product Launch": "Product Launch",
   "Brand Awareness": "Brand Awareness",
+  "Influencer Technology": "Influencer Marketing",
 };
 
 export function BrandInquiryForm() {

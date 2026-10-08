@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator intelligence platform: Judge it on provenance, freshness and explainability, not index size.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">CREATOR INTELLIGENCE PLATFORM</text>
+<rect x="82" y="242" width="260" height="250" fill="#150F0B"/>
+<rect x="70" y="230" width="260" height="250" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="96" y="282" font-size="26" font-weight="700" fill="#FAF1E2">Data</text>
+<text x="96" y="324" font-size="20" fill="#FAF1E2" opacity=".85">Source and date</text>
+<text x="96" y="354" font-size="20" fill="#FAF1E2" opacity=".85">on every figure</text>
+<path d="M334 355 L366 355" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="382" y="242" width="260" height="250" fill="#150F0B"/>
+<rect x="370" y="230" width="260" height="250" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="396" y="282" font-size="26" font-weight="700" fill="#150F0B">Discovery</text>
+<text x="396" y="324" font-size="20" fill="#150F0B" opacity=".85">Content, audience,</text>
+<text x="396" y="354" font-size="20" fill="#150F0B" opacity=".85">lookalikes</text>
+<path d="M634 355 L666 355" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="682" y="242" width="260" height="250" fill="#150F0B"/>
+<rect x="670" y="230" width="260" height="250" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="696" y="282" font-size="26" font-weight="700" fill="#150F0B">Scoring</text>
+<text x="696" y="324" font-size="20" fill="#150F0B" opacity=".85">Visible inputs,</text>
+<text x="696" y="354" font-size="20" fill="#150F0B" opacity=".85">adjustable weights</text>
+<path d="M934 355 L966 355" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="982" y="242" width="260" height="250" fill="#150F0B"/>
+<rect x="970" y="230" width="260" height="250" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="996" y="282" font-size="26" font-weight="700" fill="#FAF1E2">History</text>
+<text x="996" y="324" font-size="20" fill="#FAF1E2" opacity=".85">Your results</text>
+<text x="996" y="354" font-size="20" fill="#FAF1E2" opacity=".85">and relationships</text>
+<path d="M1234 355 L1266 355" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="1282" y="242" width="260" height="250" fill="#150F0B"/>
+<rect x="1270" y="230" width="260" height="250" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1296" y="282" font-size="26" font-weight="700" fill="#150F0B">Review</text>
+<text x="1296" y="324" font-size="20" fill="#150F0B" opacity=".85">People check</text>
+<text x="1296" y="354" font-size="20" fill="#150F0B" opacity=".85">and override</text>
+<rect x="70" y="560" width="1460" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="606" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Judge it on provenance, freshness and explainability, not index size.</text>
+</svg>

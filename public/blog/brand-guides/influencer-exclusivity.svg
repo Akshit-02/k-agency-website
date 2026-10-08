@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer exclusivity scope from narrow to broad: named competitors, product category, whole category, all sponsorships, with cost to the creator rising with breadth</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">INFLUENCER EXCLUSIVITY: NARROW TO BROAD</text>
+<rect x="82" y="150" width="360" height="72" fill="#150F0B"/>
+<rect x="70" y="140" width="360" height="72" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="185" font-size="24" font-weight="700" fill="#150F0B">Named competitors</text>
+<text x="460" y="185" font-size="20" fill="#150F0B" opacity=".8">Lowest cost to creator</text>
+<rect x="82" y="250" width="640" height="72" fill="#150F0B"/>
+<rect x="70" y="240" width="640" height="72" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="285" font-size="24" font-weight="700" fill="#150F0B">Product category</text>
+<text x="740" y="285" font-size="20" fill="#150F0B" opacity=".8">e.g. sunscreen</text>
+<rect x="82" y="350" width="920" height="72" fill="#150F0B"/>
+<rect x="70" y="340" width="920" height="72" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="385" font-size="24" font-weight="700" fill="#150F0B">Broad category</text>
+<text x="1020" y="385" font-size="20" fill="#150F0B" opacity=".8">e.g. all skincare</text>
+<rect x="82" y="450" width="1200" height="72" fill="#150F0B"/>
+<rect x="70" y="440" width="1200" height="72" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="485" font-size="24" font-weight="700" fill="#FAF1E2">All sponsorships</text>
+<text x="1300" y="485" font-size="20" fill="#150F0B" opacity=".8">Rare; ambassador deals</text>
+<rect x="70" y="560" width="1460" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="606" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Define it narrowly, match it to the campaign window, price it separately.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Defining influencer usage rights by channel, format, organic or paid use, territory and duration, with an expiry date for each asset</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">DEFINING INFLUENCER USAGE RIGHTS</text>
+<rect x="82" y="242" width="264" height="230" fill="#150F0B"/>
+<rect x="70" y="230" width="264" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="280" font-size="24" font-weight="700" fill="#FAF1E2">Channels</text>
+<text x="92" y="322" font-size="19" fill="#FAF1E2" opacity=".85">Where it</text>
+<text x="92" y="352" font-size="19" fill="#FAF1E2" opacity=".85">may appear</text>
+<path d="M338 345 L364 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="382" y="242" width="264" height="230" fill="#150F0B"/>
+<rect x="370" y="230" width="264" height="230" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="392" y="280" font-size="24" font-weight="700" fill="#150F0B">Formats</text>
+<text x="392" y="322" font-size="19" fill="#150F0B" opacity=".85">Cut-downs,</text>
+<text x="392" y="352" font-size="19" fill="#150F0B" opacity=".85">stills, edits</text>
+<path d="M638 345 L664 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="682" y="242" width="264" height="230" fill="#150F0B"/>
+<rect x="670" y="230" width="264" height="230" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="692" y="280" font-size="24" font-weight="700" fill="#150F0B">Organic/paid</text>
+<text x="692" y="322" font-size="19" fill="#150F0B" opacity=".85">Media spend,</text>
+<text x="692" y="352" font-size="19" fill="#150F0B" opacity=".85">whose account</text>
+<path d="M938 345 L964 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="982" y="242" width="264" height="230" fill="#150F0B"/>
+<rect x="970" y="230" width="264" height="230" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="992" y="280" font-size="24" font-weight="700" fill="#150F0B">Territory</text>
+<text x="992" y="322" font-size="19" fill="#150F0B" opacity=".85">Which</text>
+<text x="992" y="352" font-size="19" fill="#150F0B" opacity=".85">markets</text>
+<path d="M1238 345 L1264 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="1282" y="242" width="264" height="230" fill="#150F0B"/>
+<rect x="1270" y="230" width="264" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1292" y="280" font-size="24" font-weight="700" fill="#FAF1E2">Duration</text>
+<text x="1292" y="322" font-size="19" fill="#FAF1E2" opacity=".85">Start, end,</text>
+<text x="1292" y="352" font-size="19" fill="#FAF1E2" opacity=".85">renewal</text>
+<rect x="70" y="560" width="1460" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="606" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">A licence is permission, not ownership. Write all five down and track the expiry.</text>
+</svg>

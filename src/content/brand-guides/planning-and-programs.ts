@@ -584,6 +584,13 @@ export const planningAndProgramsPosts: BlogPost[] = [
           "Treating the kickoff as a formality instead of a working session.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "The same data questions apply when an agency relationship ends; influencer campaign handover covers what the brand should receive.",
+        links: [
+          { text: "influencer campaign handover", href: "/blog/influencer-campaign-handover" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
@@ -753,10 +760,34 @@ export const planningAndProgramsPosts: BlogPost[] = [
           "Governance written once and never updated as platforms and rules change.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "To route approvals and reminders automatically within these rules, see influencer campaign automation, and for deciding which tasks to automate at all, influencer marketing automation.",
+        links: [
+          { text: "influencer campaign automation", href: "/blog/influencer-campaign-automation" },
+          { text: "influencer marketing automation", href: "/blog/influencer-marketing-automation" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Governance sets the rules; influencer marketing operations turns them into a working process, and influencer feedback covers how reviewers can apply them without slowing creators down.",
+        links: [
+          { text: "influencer marketing operations", href: "/blog/influencer-marketing-operations" },
+          { text: "influencer feedback", href: "/blog/influencer-feedback" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For the step-by-step approval workflow on individual drafts, including submission rules and turnaround times, see creator content approval process.",
+        links: [
+          { text: "creator content approval process", href: "/blog/influencer-content-approval" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Good influencer marketing governance is short, owned and shared: clear policies on selection, disclosure, claims, contracts, payments, data and crisis; an approval matrix scaled to risk; and a standard SOP with templates. It should make campaigns faster and safer at the same time. Policies touching law and tax should be reviewed by your legal and finance teams.",
+        text: "Good influencer marketing governance is short, owned and shared: clear policies on selection, disclosure, claims, contracts, payments, data and crisis; an approval matrix scaled to risk; and a standard SOP with templates. It should make campaigns faster and safer at the same time. Policies touching law and tax should be reviewed by your legal and finance teams. For identifying and scoring risks before each campaign, see influencer campaign risk management.",
+        links: [{ text: "influencer campaign risk management", href: "/blog/influencer-campaign-risk-management" }],
       },
     ],
     faqs: [
@@ -897,6 +928,28 @@ export const planningAndProgramsPosts: BlogPost[] = [
           "Hiring specialists before there's an owner and a plan.",
           "Agencies with overlapping lanes approaching the same creators.",
           "No single record of creator relationships.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For the tools each of these roles typically needs, see the influencer marketing technology stack.",
+        links: [
+          { text: "influencer marketing technology stack", href: "/blog/influencer-marketing-technology" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "When people change roles or agencies change, influencer campaign handover covers how to move campaigns without losing information; influencer marketing operations covers the system each role plugs into.",
+        links: [
+          { text: "influencer campaign handover", href: "/blog/influencer-campaign-handover" },
+          { text: "influencer marketing operations", href: "/blog/influencer-marketing-operations" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "When one team runs many creators at once, influencer campaign coordination covers grouping creators, shared work and team sizing.",
+        links: [
+          { text: "influencer campaign coordination", href: "/blog/influencer-campaign-coordination" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },

@@ -421,6 +421,13 @@ export const dealOperationsPosts: BlogPost[] = [
           "Sharing contact data carelessly.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands managing many creator relationships have a parallel guide: influencer marketing CRM.",
+        links: [
+          { text: "influencer marketing CRM", href: "/blog/influencer-marketing-crm" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
@@ -1037,6 +1044,13 @@ export const dealOperationsPosts: BlogPost[] = [
           "No record of when usage rights expire.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands keeping campaign records can use the brand-side guide to influencer campaign documentation.",
+        links: [
+          { text: "influencer campaign documentation", href: "/blog/influencer-campaign-documentation" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
@@ -1356,6 +1370,13 @@ export const dealOperationsPosts: BlogPost[] = [
           "No record of reminders.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands can read the other side of this guide: creator payment delays, on why brand payments run late and how to prevent it.",
+        links: [
+          { text: "creator payment delays", href: "/blog/creator-payment-delays" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
@@ -1483,8 +1504,8 @@ export const dealOperationsPosts: BlogPost[] = [
       { type: "heading", text: "For brands: cancelling fairly", id: "for-brands" },
       {
         type: "paragraph",
-        text: "For brands, clear cancellation terms reduce disputes and keep good creators willing to work with you again. Cancel as early as possible, pay kill fees promptly as agreed, and don't use content from a cancelled campaign without paying for it. Kudozz's influencer marketing contract guide covers cancellation from the brand side.",
-        links: [{ text: "influencer marketing contract guide", href: "/blog/influencer-marketing-contract" }],
+        text: "For brands, clear cancellation terms reduce disputes and keep good creators willing to work with you again. Cancel as early as possible, pay kill fees promptly as agreed, and don't use content from a cancelled campaign without paying for it. Kudozz's influencer marketing contract guide covers cancellation from the brand side. Brands deciding whether and how to cancel can read influencer campaign cancellation.",
+        links: [{ text: "influencer marketing contract guide", href: "/blog/influencer-marketing-contract" }, { text: "influencer campaign cancellation", href: "/blog/influencer-campaign-cancellation" }],
       },
       { type: "heading", text: "Worked example: applying a kill fee", id: "example" },
       {

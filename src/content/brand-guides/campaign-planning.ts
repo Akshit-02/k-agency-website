@@ -23,15 +23,15 @@ export const campaignPlanningPosts: BlogPost[] = [
     seoTitle: "How Long Does an Influencer Campaign Take? Timeline Guide",
     excerpt:
       "How long an influencer marketing campaign takes in India, stage by stage from brief to final report: planning, creator sourcing and vetting, negotiation and contracts, briefing, production and approvals, go-live and reporting, with example timelines for a small test, a product launch and a festive campaign, and what slows campaigns down.",
-    metaDescription:
-      "How long an influencer campaign takes, stage by stage from brief to report, with example timelines for tests, launches and festive campaigns in India.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
-    readingTime: "12 min read",
-    tags: ["influencer campaign timeline", "influencer marketing campaign timeline", "how long does an influencer campaign take", "influencer campaign planning timeline", "influencer launch timeline India"],
-    related: ["how-to-create-a-successful-influencer-marketing-campaign", "influencer-campaign-management", "influencers-for-product-launch"],
+    lastReviewed: "October 2026",
+    readingTime: "6 min read",
+    tags: ["influencer campaign timeline", "influencer campaign deadlines", "how long does an influencer campaign take", "creator campaign schedule", "influencer campaign stages"],
+    related: ["influencer-campaign-delays", "influencer-content-approval", "influencer-campaign-management"],
     hero: { src: "/blog/brand-guides/influencer-marketing-campaign-timeline.svg", alt: "Week-by-week influencer campaign timeline from brief and creator sourcing through contracts, production, approvals, go-live and reporting" },
+    metaDescription: "How long an influencer campaign takes: every stage from brief to report, example timelines, managing deadlines, delays and planning back from go-live.",
+    updatedAt: "2026-10-08",
     body: [
       {
         type: "paragraph",
@@ -125,6 +125,50 @@ export const campaignPlanningPosts: BlogPost[] = [
           ["Creator misses a date", "Buffer days; backup creators from the shortlist"],
         ],
       },
+      {
+        type: "paragraph",
+        text: "For diagnosing where your own campaigns lose time, with a stage-timing method and fixes for each bottleneck, see influencer campaign delays.",
+        links: [
+          { text: "influencer campaign delays", href: "/blog/influencer-campaign-delays" },
+        ],
+      },
+      { type: "heading", text: "Managing deadlines once the campaign starts", id: "deadlines" },
+      {
+        type: "paragraph",
+        text: "A timeline is a plan; deadlines are how you keep it. Most slipped campaigns had a reasonable plan and weak deadline management.",
+      },
+      {
+        type: "table",
+        headers: ["Deadline", "Set it", "Remind", "If missed"],
+        rows: [
+          ["Product delivered", "At least several days before filming", "Share tracking at dispatch", "Move draft date; tell creator"],
+          ["Draft due", "With room for at least one revision before go-live", "2–3 days before", "Ask what's happening; agree new date; check go-live impact"],
+          ["Brand feedback due", "Agreed turnaround (e.g. 2 working days)", "Reviewer reminder at the halfway point", "Escalate internally; move creator dates accordingly"],
+          ["Revision due", "2–3 days after feedback", "1 day before", "Agree new date or simplify"],
+          ["Go-live", "Window rather than single day, unless fixed", "Day before, with link, code and disclosure reminder", "Reserve creator or later window"],
+          ["Insights due", "Fixed capture day (e.g. 7 and 30 days)", "On the day", "Follow up once; note in report"],
+        ],
+      },
+      { type: "heading", text: "Deadline rules that keep projects on track", id: "deadline-rules" },
+      {
+        type: "list",
+        items: [
+          "Put every date in one written recap after kickoff, not scattered across messages.",
+          "Remind before deadlines, not after them.",
+          "Brand deadlines (feedback, approvals, payments) are tracked as strictly as creator deadlines.",
+          "When the brand misses a deadline, creator deadlines move by the same amount.",
+          "Track 'due in the next three days' every morning during live campaigns.",
+          "Keep reserve creators for dates that can't move.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Influencer campaign tracker shows how to flag upcoming and overdue dates, and influencer campaign coordination covers managing deadlines across many creators.",
+        links: [
+          { text: "Influencer campaign tracker", href: "/blog/influencer-campaign-tracker" },
+          { text: "influencer campaign coordination", href: "/blog/influencer-campaign-coordination" },
+        ],
+      },
       { type: "heading", text: "How long should a campaign stay live?", id: "live-window" },
       {
         type: "paragraph",
@@ -148,6 +192,21 @@ export const campaignPlanningPosts: BlogPost[] = [
         links: [
           { text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" },
           { text: "how to create a successful influencer marketing campaign", href: "/blog/how-to-create-a-successful-influencer-marketing-campaign" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The days between agreement and production are easy to underestimate; influencer onboarding and influencer campaign kickoff cover how to use them well.",
+        links: [
+          { text: "influencer onboarding", href: "/blog/influencer-onboarding" },
+          { text: "influencer campaign kickoff", href: "/blog/influencer-campaign-kickoff" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "During the live window, mid-campaign optimization covers what you can still change and what should wait.",
+        links: [
+          { text: "mid-campaign optimization", href: "/blog/mid-campaign-optimization" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
@@ -185,16 +244,17 @@ export const campaignPlanningPosts: BlogPost[] = [
       "Plan an influencer campaign on a fixed budget: reserve non-creator costs, split by tier and objective, work out how many creators you can afford.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: "September 2026",
-    readingTime: "13 min read",
-    tags: ["influencer marketing budget allocation", "influencer marketing budget planning", "how many influencers for a campaign", "fixed budget influencer campaign", "influencer tier budget split"],
+    updatedAt: "2026-10-08",
+    lastReviewed: "October 2026",
+    readingTime: "15 min read",
+    tags: ["influencer marketing budget allocation", "creator marketing budget by creator type", "how many influencers for a campaign", "fixed budget influencer campaign", "influencer tier budget split", "creator fees vs content budget"],
     related: ["influencer-marketing-budget", "influencer-campaign-cost-india", "micro-vs-macro-influencers"],
     hero: { src: "/blog/brand-guides/influencer-budget-allocation.svg", alt: "A fixed influencer budget split into reserved costs and creator tiers, showing how many micro, mid-tier and macro creators it can fund" },
     body: [
       {
         type: "paragraph",
-        text: "Most brands don't start from a blank budget. They start from a number finance has approved and a question: what's the best campaign we can run with this? That's an allocation problem, and it's different from calculating a budget from scratch, which is covered in how to calculate an influencer marketing budget.",
-        links: [{ text: "how to calculate an influencer marketing budget", href: "/blog/influencer-marketing-budget" }],
+        text: "Most brands don't start from a blank budget. They start from a number finance has approved and a question: what's the best campaign we can run with this? That's an allocation problem, and it's different from calculating a budget from scratch, which is covered in how to plan an influencer marketing budget.",
+        links: [{ text: "how to plan an influencer marketing budget", href: "/blog/influencer-marketing-budget" }],
       },
       { type: "heading", text: "Quick answer", id: "quick-answer" },
       {
@@ -220,6 +280,25 @@ export const campaignPlanningPosts: BlogPost[] = [
         text: "Brands that allocate the whole budget to creator fees often discover the extras when it's too late to cut creators. Full budget components are in influencer campaign costs in India.",
         links: [{ text: "influencer campaign costs in India", href: "/blog/influencer-campaign-cost-india" }],
       },
+      { type: "subheading", text: "How much to reserve depends on what the content is for" },
+      {
+        type: "paragraph",
+        text: "The split between creator fees and everything else isn't fixed. It follows where the content will live after it's posted:",
+      },
+      {
+        type: "table",
+        headers: ["If the content will…", "Creator fees take", "The rest goes mainly to"],
+        rows: [
+          ["Live only on creators' accounts", "Most of the budget", "Management, product and a contingency"],
+          ["Be boosted as partnership or whitelisted ads", "A smaller share", "Usage rights and media spend behind the best posts"],
+          ["Feed product pages, marketplaces and ad libraries", "A smaller share again", "Usage rights, production and edits, more creators for more assets"],
+          ["Run across several languages", "Spread across more creators", "Localised briefs, review time and versions"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If a plan reserves almost nothing outside creator fees but expects to run the content as ads, the rights and media money will have to come from somewhere later, usually from cutting creators mid-campaign.",
+      },
       { type: "heading", text: "Step 2: Split the creator budget by objective", id: "split" },
       {
         type: "table",
@@ -235,8 +314,37 @@ export const campaignPlanningPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Tier trade-offs are covered in micro vs macro influencers.",
-        links: [{ text: "micro vs macro influencers", href: "/blog/micro-vs-macro-influencers" }],
+        text: "Tier trade-offs are covered in micro vs macro influencers and, for the two smallest tiers, nano vs micro influencers.",
+        links: [
+          { text: "micro vs macro influencers", href: "/blog/micro-vs-macro-influencers" },
+          { text: "nano vs micro influencers", href: "/blog/nano-vs-micro-influencers" },
+        ],
+      },
+      { type: "heading", text: "Allocating across creator types, not just tiers", id: "creator-types" },
+      {
+        type: "paragraph",
+        text: "Follower tiers describe audience size. Many budgets are better planned by what the creator is for, because different creator types are paid for different things and behave differently once the money is committed.",
+      },
+      {
+        type: "table",
+        headers: ["Creator type", "You're paying for", "Budget behaviour"],
+        rows: [
+          ["Reach creators (macro, celebrity)", "Concentrated visibility on a date", "Large single commitments; exclusivity and rights often priced high"],
+          ["Specialists and experts", "Credibility in a category (skincare, finance, fitness, tech)", "Higher fee per deliverable; often longer formats"],
+          ["Community creators (nano, micro)", "Trust, conversation and local reach", "Low fees each, but coordination, shipping and approvals scale with count"],
+          ["UGC creators", "Assets for ads and product pages, not posting to an audience", "Priced per asset; rights are the main variable"],
+          ["Regional-language creators", "Reach and trust in a specific language market", "Budget per language, including briefs and review"],
+          ["Affiliate or performance creators", "Tracked sales", "Low or no fixed fee, commission scales with results; plan cash for payouts"],
+          ["Ambassadors and retained creators", "Repeated presence over months", "Monthly or quarterly commitments; renewals and rights extensions"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Decide which types the objective needs, give each a slice, then apply tiers within each slice. A launch might fund reach creators and community creators; a performance programme might fund UGC creators, affiliates and a small test of specialists. UGC pricing is covered in UGC content cost in India and retained creators in always-on influencer marketing.",
+        links: [
+          { text: "UGC content cost in India", href: "/blog/ugc-content-cost-india" },
+          { text: "always-on influencer marketing", href: "/blog/always-on-influencer-marketing" },
+        ],
       },
       { type: "heading", text: "Step 3: Work out how many creators you can afford", id: "how-many" },
       {
@@ -331,9 +439,9 @@ export const campaignPlanningPosts: BlogPost[] = [
           "It depends on the reach you need, how many audience segments, cities or languages you must cover, how many creator types you want to test, your budget per creator and your capacity to manage them. Fewer well-chosen creators often beat many poorly matched ones.",
       },
       {
-        question: "How should I split an influencer budget between micro and macro creators?",
+        question: "How should a creator marketing budget be split across creator types?",
         answer:
-          "By objective: more to larger creators for broad reach, more to micro and mid-tier creators for trust, conversions and content volume, with a portion held for testing and scaling what works.",
+          "Decide which creator types the objective needs (reach creators, specialists, community creators, UGC creators, regional-language creators, affiliates or ambassadors), give each a slice, then apply tiers within each slice. Hold a portion back to scale whichever type performs.",
       },
       {
         question: "What should I reserve before paying creators?",
@@ -345,18 +453,19 @@ export const campaignPlanningPosts: BlogPost[] = [
   {
     slug: "influencer-shortlist",
     category: "Influencer Marketing",
-    title: "How to Build an Influencer Shortlist for Your Brand",
-    seoTitle: "How to Build an Influencer Shortlist (With Template)",
+    title: "Influencer Shortlisting: How Brands Can Build a Data-Driven Creator Shortlist",
+    seoTitle: "Influencer Shortlisting: Build a Data-Driven Shortlist",
     excerpt:
       "How brands and agencies build an influencer shortlist: from discovery longlist to vetted shortlist to final selection, how many options to keep, what each shortlist entry should show, availability and conflict checks, backups, a shortlist template, and how to approve it quickly.",
     metaDescription:
-      "Build an influencer shortlist: longlist to shortlist to final picks, what each entry should show, availability and conflict checks, backups and a template.",
+      "How to build a data-driven influencer shortlist: longlist to final picks, pass rules, what each entry shows, a decision log, bias checks and a template.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-07",
     lastReviewed: REVIEWED,
-    readingTime: "11 min read",
-    tags: ["influencer shortlist", "influencer longlist", "creator shortlist template", "influencer selection process", "shortlist influencers for campaign"],
-    related: ["how-to-vet-influencers", "how-to-choose-the-right-influencer-for-your-brand", "find-indian-influencers"],
+    readingTime: "6 min read",
+    tags: ["influencer shortlisting", "influencer shortlist", "data-driven influencer shortlist", "creator shortlist template", "influencer selection process"],
+    related: ["influencer-ranking", "creator-quality-score", "how-to-vet-influencers"],
     hero: { src: "/blog/brand-guides/influencer-shortlist.svg", alt: "Influencer selection funnel narrowing a discovery longlist to a vetted shortlist and final selection with backups" },
     body: [
       {
@@ -436,6 +545,68 @@ export const campaignPlanningPosts: BlogPost[] = [
           { text: "creator discovery service", href: "/services/creator-discovery" },
         ],
       },
+      { type: "heading", text: "Making shortlisting data-driven", id: "data-driven" },
+      {
+        type: "paragraph",
+        text: "A data-driven shortlist isn't one sorted by a single score. It's one where every pass has defined data requirements and pass rules, set from the brief before anyone looks at creators, so the same evidence decides every inclusion and exclusion.",
+      },
+      {
+        type: "table",
+        headers: ["Pass", "Data required", "Example pass rule (set per campaign)"],
+        rows: [
+          ["Longlist", "Platform, language, content topics, creator location, median views (approx.)", "Creates in target language; posted on topic in last 30 days; median views in target band"],
+          ["Shortlist", "Audience insights (dated), authenticity check, engagement quality, content review, past sponsored work", "Audience mainly in target states; no unexplained growth spikes; specific comments on recent posts; passes brand safety"],
+          ["Final selection", "Quoted fee, availability, exclusivities, rights terms, ranking score", "Fee within expected CPM range; available in window; no category conflict; rights for paid use"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Pass rules are campaign-specific. A regional launch might require 50% or more of audience in the target state; a national awareness push might not filter on state at all. Write them in the brief so stakeholders agree before names appear.",
+      },
+      { type: "heading", text: "Score once, at the right pass", id: "scoring" },
+      {
+        type: "paragraph",
+        text: "Scoring every longlisted creator in detail wastes time. Apply cheap filters at the longlist stage, collect evidence and score at the shortlist stage, and rank only the creators who pass. Creator quality score and AI influencer matching cover the quality and fit components; influencer ranking covers ordering the final list into tiers.",
+        links: [
+          { text: "Creator quality score", href: "/blog/creator-quality-score" },
+          { text: "AI influencer matching", href: "/blog/ai-influencer-matching" },
+          { text: "influencer ranking", href: "/blog/influencer-ranking" },
+        ],
+      },
+      { type: "heading", text: "Keep a decision log", id: "decision-log" },
+      {
+        type: "template",
+        label: "Shortlist decision log",
+        text: "Creator · Pass reached · Decision (in / out / reserve) · Rule or reason · Evidence link · Decided by · Date",
+      },
+      {
+        type: "paragraph",
+        text: "Recording why creators were excluded is as useful as recording why they were included. It stops the same unsuitable names reappearing next campaign, shows stakeholders the shortlist wasn't arbitrary, and lets you check later whether a rule excluded creators who would have done well.",
+      },
+      { type: "heading", text: "Check the shortlist for bias", id: "bias-check" },
+      {
+        type: "list",
+        items: [
+          "Popularity bias: are tools and searches pushing the same well-known names every time?",
+          "Metro bias: are tier 2 and tier 3 creators missing because searches ran in English only?",
+          "Language bias: is every priority language represented?",
+          "Similarity bias: is the list full of creators who look and sound alike?",
+          "Recency bias: are reliable past creators missing because nobody checked the CRM?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Shortlists built from data are only as good as the data's coverage. Supplement tool searches with listening, brand mentions and referrals; social listening for creator discovery and brand mention monitoring explain those routes.",
+        links: [
+          { text: "social listening for creator discovery", href: "/blog/social-listening-creator-discovery" },
+          { text: "brand mention monitoring", href: "/blog/brand-mention-monitoring" },
+        ],
+      },
+      { type: "heading", text: "Hypothetical example: a shortlist funnel with pass rules", id: "funnel-example" },
+      {
+        type: "paragraph",
+        text: "Hypothetical: a footwear brand needs 8 creators for a Hindi-belt monsoon campaign. Pass rules agreed in the brief: Hindi content, audience mainly in UP, MP, Rajasthan and Bihar, Reels median views in the agreed band, no competitor deal in the last 60 days. Discovery produces 140 names; language and activity filters leave 70; audience insights and authenticity checks leave 28; content and brand-safety review leaves 16. Ranking puts 9 in priority, 4 in reserve and 3 out. Two priority creators decline, and reserves fill the gaps without another approval round. Every exclusion has a recorded reason.",
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -445,6 +616,14 @@ export const campaignPlanningPosts: BlogPost[] = [
           "Undated or estimated audience data presented as fact.",
           "Ignoring competitor exclusivities until contracting.",
           "Everyone in the team approving, nobody deciding.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "With an approved shortlist, how to find and contact influencers and influencer outreach email cover the first approach.",
+        links: [
+          { text: "how to find and contact influencers", href: "/blog/how-to-contact-influencers" },
+          { text: "influencer outreach email", href: "/blog/influencer-outreach-email" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
@@ -474,18 +653,19 @@ export const campaignPlanningPosts: BlogPost[] = [
   {
     slug: "influencer-audience-quality",
     category: "Influencer Marketing",
-    title: "Influencer Audience Quality: What Brands Should Check Before a Collaboration",
-    seoTitle: "Influencer Audience Quality and Fit: What to Check",
+    title: "Influencer Audience Quality: How to Check and Score a Creator's Audience",
+    seoTitle: "Influencer Audience Quality Score: Check and Score Audiences",
     excerpt:
       "How brands check whether an influencer's audience is real, active and matches their target customer: the audience data to request, reading location, age, gender and language against your customer profile, authenticity and activity signals, an audience-fit worksheet and when estimated data isn't enough.",
     metaDescription:
-      "Check influencer audience quality and fit: data to request, matching location, age and language to your customer, authenticity signals and a fit worksheet.",
+      "How to check and score influencer audience quality: an Audience Quality Score framework, data to request, fit against your customer and authenticity signals.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-07",
     lastReviewed: REVIEWED,
-    readingTime: "12 min read",
-    tags: ["influencer audience quality", "influencer audience fit", "influencer audience analysis", "check influencer audience demographics", "influencer audience match target customer"],
-    related: ["how-to-vet-influencers", "how-to-identify-fake-followers", "how-to-choose-the-right-influencer-for-your-brand"],
+    readingTime: "7 min read",
+    tags: ["influencer audience quality", "influencer audience quality score", "influencer audience fit", "influencer audience analysis", "check influencer audience demographics", "influencer audience match target customer"],
+    related: ["influencer-engagement-quality", "creator-quality-score", "how-to-vet-influencers"],
     hero: { src: "/blog/brand-guides/influencer-audience-quality.svg", alt: "Creator audience demographics by city, age and language overlaid on a brand's target customer profile to show audience fit" },
     body: [
       {
@@ -559,11 +739,50 @@ export const campaignPlanningPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "No single signal proves fraud; look for patterns. The detailed checks are in how to identify fake followers and fake engagement and how to avoid fake followers and influencer fraud in India.",
+        text: "No single signal proves fraud; look for patterns. The detailed manual checks are in how to identify fake followers and fake engagement, and automated screening in influencer fraud detection tools.",
         links: [
           { text: "how to identify fake followers and fake engagement", href: "/blog/how-to-identify-fake-followers" },
-          { text: "how to avoid fake followers and influencer fraud in India", href: "/blog/how-to-identify-fake-followers" },
+          { text: "influencer fraud detection tools", href: "/blog/influencer-fraud-detection-tools" },
         ],
+      },
+      { type: "heading", text: "An Audience Quality Score", id: "audience-quality-score" },
+      {
+        type: "paragraph",
+        text: "Quality signals are easier to compare across creators when they're scored the same way. An Audience Quality Score rates the audience itself (not whether it matches your customer) across six dimensions:",
+      },
+      {
+        type: "table",
+        headers: ["Dimension", "Question", "Evidence", "Score 1–5 on"],
+        rows: [
+          ["Authenticity", "Are followers and engagers real accounts?", "Growth history, authenticity check, commenter profiles", "Gate: likely fraud fails the creator"],
+          ["Activity", "Do followers actually see the content?", "Median views or reach ÷ followers over recent posts", "Relative to tier and platform peers"],
+          ["Attention", "Do they watch and keep the content?", "Watch time or completion (creator insights), saves", "Relative to format peers"],
+          ["Interaction depth", "Do they respond with substance?", "Share of specific comments, questions, shares", "Comment audit"],
+          ["Stability", "Is the audience consistent over time?", "Audience composition across two insight screenshots months apart; growth pattern", "Low unexplained change"],
+          ["Concentration", "Is the audience coherent or scattered?", "Top locations and languages share of total", "Coherent audiences are easier to target"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Combine the scores with weights that suit the campaign. An awareness campaign may weight activity and attention; a sales campaign may weight interaction depth. Treat authenticity as a gate rather than a weight. Then assess fit separately with the worksheet above: a high-quality audience in the wrong market is still the wrong audience.",
+      },
+      {
+        type: "template",
+        label: "Audience Quality Score (per creator)",
+        text: "Creator: [ ]   Data dates: [ ]   Sources: [creator insights / tool / public]\nAuthenticity: PASS / FAIL (note)\nActivity ......... [1–5]  evidence: [median views ÷ followers]\nAttention ........ [1–5]  evidence: [watch time / saves]\nInteraction depth  [1–5]  evidence: [comment audit result]\nStability ........ [1–5]  evidence: [change between screenshots]\nConcentration .... [1–5]  evidence: [top 3 states / languages share]\nWeighted score: [ ] (weights: [ ])   Confidence: high / medium / low",
+      },
+      {
+        type: "paragraph",
+        text: "Record a confidence level. A score built from creator-connected data and two dated screenshots deserves more weight than one built from third-party estimates. Engagement depth is covered in detail in influencer engagement quality, and how audience quality feeds a wider creator evaluation in creator quality score.",
+        links: [
+          { text: "influencer engagement quality", href: "/blog/influencer-engagement-quality" },
+          { text: "creator quality score", href: "/blog/creator-quality-score" },
+        ],
+      },
+      { type: "heading", text: "Hypothetical example", id: "example" },
+      {
+        type: "paragraph",
+        text: "Hypothetical: two Marathi food creators each have about 120,000 followers. Creator A's recent Reels average 15,000 views, comments are mostly emojis, and a June screenshot showed 70% of the audience in Maharashtra while an October one shows 45%. Creator B's Reels average 55,000 views, many comments ask for recipe substitutions, and both screenshots show around 75% Maharashtra. B scores higher on activity, interaction depth and stability. For a Pune launch, B's audience is both higher quality and a better fit; A would need an explanation for the audience shift before booking.",
       },
       { type: "heading", text: "India-specific considerations", id: "india" },
       {
@@ -589,6 +808,13 @@ export const campaignPlanningPosts: BlogPost[] = [
           "Undated audience screenshots.",
           "Ignoring language and city tier.",
           "Checking audience quality but not fit (a real audience of the wrong people).",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Discovery and matching tools increasingly estimate audience fit for you; AI influencer matching explains how to check those estimates before relying on them.",
+        links: [
+          { text: "AI influencer matching", href: "/blog/ai-influencer-matching" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
@@ -782,6 +1008,13 @@ export const campaignPlanningPosts: BlogPost[] = [
           "Creators based in a city but with national audiences, booked for local reach.",
           "Approvers who can't read the content they're approving.",
           "Measuring only national totals, hiding which markets worked.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For the day-to-day mechanics of running many creators across languages, including waves, shared FAQs and a daily rhythm, see influencer campaign coordination.",
+        links: [
+          { text: "influencer campaign coordination", href: "/blog/influencer-campaign-coordination" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },

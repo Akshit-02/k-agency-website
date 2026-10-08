@@ -726,7 +726,8 @@ export const understandBrandDealPosts: BlogPost[] = [
       { type: "heading", text: "How to read an exclusivity clause", id: "reading-clauses" },
       {
         type: "paragraph",
-        text: "Exclusivity clauses vary from a single named competitor to whole categories. The wording decides how much work you give up, so compare it with narrower alternatives before signing.",
+        text: "Exclusivity clauses vary from a single named competitor to whole categories. The wording decides how much work you give up, so compare it with narrower alternatives before signing. Brands weighing the same decision from their side can read influencer exclusivity for brands.",
+        links: [{ text: "influencer exclusivity for brands", href: "/blog/influencer-exclusivity" }],
       },
       {
         type: "table",

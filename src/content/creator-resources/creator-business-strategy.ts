@@ -1374,8 +1374,8 @@ export const creatorBusinessStrategyPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Pause, verify, communicate, correct, document and learn. Most creator crises are ordinary problems made worse by speed and defensiveness; a calm, honest process makes them smaller. For the longer-term work of protecting how people see you, see creator reputation management.",
-        links: [{ text: "creator reputation management", href: "/blog/creator-reputation-management" }],
+        text: "Pause, verify, communicate, correct, document and learn. Most creator crises are ordinary problems made worse by speed and defensiveness; a calm, honest process makes them smaller. For the longer-term work of protecting how people see you, see creator reputation management. How brands are likely to respond in the same situation is set out in influencer controversy response.",
+        links: [{ text: "creator reputation management", href: "/blog/creator-reputation-management" }, { text: "influencer controversy response", href: "/blog/influencer-controversy-response" }],
       },
     ],
     faqs: [

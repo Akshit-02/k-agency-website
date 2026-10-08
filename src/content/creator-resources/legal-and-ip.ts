@@ -262,10 +262,11 @@ export const legalAndIpPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "What brands can do with your content is covered in creator usage rights; licensing existing content to brands in creator content licensing.",
+        text: "What brands can do with your content is covered in creator usage rights; licensing existing content to brands in creator content licensing. Brand-commissioned work raises its own ownership questions, including Indian copyright defaults for some commissioned photographs and films; the brand-side view is in who owns influencer content.",
         links: [
           { text: "creator usage rights", href: "/blog/creator-usage-rights" },
           { text: "creator content licensing", href: "/blog/creator-content-licensing" },
+          { text: "who owns influencer content", href: "/blog/influencer-content-ownership" },
         ],
       },
       { type: "heading", text: "AI-generated material", id: "ai" },

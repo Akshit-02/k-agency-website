@@ -640,6 +640,13 @@ export const talentAndRosterPosts: BlogPost[] = [
           "No export route from the tool you depend on.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands building their own creator database, rather than an agency roster, can use the brand-side guide to building an influencer database, which covers audience-source labelling and refresh rules.",
+        links: [
+          { text: "building an influencer database", href: "/blog/influencer-database" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",

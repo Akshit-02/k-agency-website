@@ -467,6 +467,13 @@ export const campaignOperationsPosts: BlogPost[] = [
           "Skipping QA for trusted creators.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands running their own checks can use the brand-side influencer content quality check.",
+        links: [
+          { text: "influencer content quality check", href: "/blog/influencer-content-quality-check" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
@@ -595,6 +602,13 @@ export const campaignOperationsPosts: BlogPost[] = [
           "No named owner for high-severity issues.",
           "Blaming creators instead of fixing process.",
           "Not logging issues, so they repeat.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Brands building their own escalation process can use the brand-side influencer campaign escalation framework.",
+        links: [
+          { text: "influencer campaign escalation framework", href: "/blog/influencer-campaign-escalation" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
@@ -740,6 +754,13 @@ export const campaignOperationsPosts: BlogPost[] = [
           "Blame, which teaches people to hide problems.",
           "Lessons written in documents no one opens again.",
           "Treating a handful of campaigns as a reliable benchmark.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Brands running their own post-campaign review can use the brand-side influencer campaign post-mortem.",
+        links: [
+          { text: "influencer campaign post-mortem", href: "/blog/influencer-campaign-post-mortem" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },

@@ -151,6 +151,13 @@ export const runYourCreatorBusinessPosts: BlogPost[] = [
           { text: "how creators can handle late brand payments", href: "/blog/creators-handle-late-brand-payments" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "For the brand-side view of what finance teams check, see influencer invoicing.",
+        links: [
+          { text: "influencer invoicing", href: "/blog/influencer-invoicing" },
+        ],
+      },
     ],
     faqs: [
       {

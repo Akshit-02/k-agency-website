@@ -1145,6 +1145,13 @@ export const contentAnalyticsPosts: BlogPost[] = [
           { text: "creator title strategy", href: "/blog/creator-title-strategy" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands testing creators and approaches across campaigns can use the brand-side guide to influencer marketing testing.",
+        links: [
+          { text: "influencer marketing testing", href: "/blog/influencer-marketing-testing" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",

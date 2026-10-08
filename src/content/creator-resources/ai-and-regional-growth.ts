@@ -453,6 +453,13 @@ export const aiAndRegionalGrowthPosts: BlogPost[] = [
           "Assuming either format is right for every objective.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "For using AI to plan and run campaigns with human creators, rather than replacing them, see AI influencer marketing.",
+        links: [
+          { text: "AI influencer marketing", href: "/blog/ai-influencer-marketing" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",

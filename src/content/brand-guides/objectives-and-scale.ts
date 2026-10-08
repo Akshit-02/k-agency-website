@@ -1,5 +1,5 @@
 import type { BlogPost } from "@/content/blog";
-import { AUTHOR, PUBLISHED, REVIEWED } from "@/content/brand-guides/shared";
+import { AUTHOR, PUBLISHED } from "@/content/brand-guides/shared";
 
 /**
  * Stages C and E of the brand lead-generation cluster.
@@ -370,9 +370,10 @@ export const objectivesAndScalePosts: BlogPost[] = [
     metaDescription: "Scale influencer marketing into an always-on program: stages, creator roster, monthly calendar, budget, testing, reporting and scaling across India.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: "September 2026",
-    readingTime: "15 min read",
-    tags: ["always-on influencer marketing", "scale influencer marketing", "always-on creator content", "scalable influencer marketing India", "creator content engine"],
+    updatedAt: "2026-10-08",
+    lastReviewed: "October 2026",
+    readingTime: "17 min read",
+    tags: ["always-on influencer marketing", "scale influencer marketing", "always-on influencer budget", "always-on creator content", "scalable influencer marketing India", "creator content engine"],
     related: ["influencer-partnerships", "always-on-ugc-marketing", "brand-ambassador-program"],
     hero: { src: "/blog/brand-guides/always-on-influencer-marketing.svg", alt: "Cycle from one-off campaign to recurring campaigns, creator relationships, content library, performance learning and optimization in an always-on program" },
     body: [
@@ -446,6 +447,32 @@ export const objectivesAndScalePosts: BlogPost[] = [
       },
       { type: "heading", text: "Budget model", id: "budget" },
       {
+        type: "paragraph",
+        text: "An always-on budget is planned differently from a campaign budget. A campaign budget is spent against one brief and judged at the end. An always-on budget is a recurring commitment, spent month by month against a content cadence, and reallocated at every review. The question shifts from \"what will this campaign cost?\" to \"what does a month of the programme cost, and which parts should grow?\"",
+      },
+      {
+        type: "table",
+        headers: ["", "Campaign budget", "Always-on budget"],
+        rows: [
+          ["Planned as", "One total for one brief", "A monthly or quarterly run-rate plus peaks"],
+          ["Creator terms", "Per deliverable, one-off", "Retainers or multi-month agreements for core creators, one-offs for tests"],
+          ["Rights", "Bought for this campaign's content", "Renewed or extended as the content library grows"],
+          ["Reviewed", "After the campaign", "Monthly for delivery, quarterly for reallocation"],
+          ["Main risk", "Overspending on one bet", "Paying for creators who stopped performing because nobody reviewed them"],
+        ],
+      },
+      { type: "subheading", text: "Building the monthly budget" },
+      {
+        type: "list",
+        items: [
+          "Start from cadence, not a total: how many pieces of content per month the programme needs, and for which channels (creators' accounts, ads, product pages, marketplaces).",
+          "Assign the cadence to a creator pool: a small core on monthly agreements, a rotating group for reach and freshness, and a test slot for new creators or formats.",
+          "Price the core with retainer quotes, which usually lower the effective per-post rate in exchange for committed volume, and the rotating and test creators with per-deliverable quotes.",
+          "Add the recurring non-creator lines: management, product, rights renewals, amplification of the month's best content and reporting.",
+          "Plan festive and launch peaks as separate layers on top of the base, so a busy quarter doesn't silently drain the base months.",
+        ],
+      },
+      {
         type: "table",
         headers: ["Budget line", "Purpose"],
         rows: [
@@ -458,10 +485,20 @@ export const objectivesAndScalePosts: BlogPost[] = [
           ["Seasonal peaks", "Extra budget for launches and festivals"],
         ],
       },
+      { type: "subheading", text: "Quarterly reviews: rebook, rotate, reallocate" },
       {
         type: "paragraph",
-        text: "How to split a fixed budget is covered in how to allocate your influencer marketing budget.",
-        links: [{ text: "how to allocate your influencer marketing budget", href: "/blog/influencer-budget-allocation" }],
+        text: "Each quarter, look at every creator's cost per result on the programme's primary KPI, content quality and reliability. Rebook the creators who are consistently efficient and easy to work with, and consider moving the best rotating creators into the core. Rotate out creators whose results have faded over several months, not after one weak post. Move the test slot's winners into rotation, and move budget between lines (more rights and amplification if creator content is beating your other ads, more creators if reach is the constraint). Commit core agreements a quarter at a time, with clear exit terms, so the budget stays flexible enough to act on what the review shows.",
+      },
+      {
+        type: "paragraph",
+        text: "How to split a fixed budget is covered in how to allocate your influencer marketing budget, the overall planning method in the influencer marketing budget guide, and deciding who to keep in repeat influencer collaborations and influencer retention.",
+        links: [
+          { text: "how to allocate your influencer marketing budget", href: "/blog/influencer-budget-allocation" },
+          { text: "influencer marketing budget guide", href: "/blog/influencer-marketing-budget" },
+          { text: "repeat influencer collaborations", href: "/blog/repeat-influencer-collaborations" },
+          { text: "influencer retention", href: "/blog/influencer-retention" },
+        ],
       },
       { type: "heading", text: "Testing and optimization", id: "testing" },
       {
@@ -548,6 +585,14 @@ export const objectivesAndScalePosts: BlogPost[] = [
           "Rights not tracked, so good content can't be reused.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Always-on programmes improve fastest when each month changes something on purpose; influencer campaign optimization and influencer marketing testing cover how.",
+        links: [
+          { text: "influencer campaign optimization", href: "/blog/influencer-campaign-optimization" },
+          { text: "influencer marketing testing", href: "/blog/influencer-marketing-testing" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
@@ -564,6 +609,11 @@ export const objectivesAndScalePosts: BlogPost[] = [
         question: "How do you scale influencer marketing?",
         answer:
           "Prove fit with a first campaign, rebook the creators and formats that work, turn them into longer relationships, build and reuse a content library, learn from results every month and keep testing new creators.",
+      },
+      {
+        question: "How should brands budget for always-on influencer marketing?",
+        answer:
+          "Plan a monthly run-rate from the content cadence you need: a core of creators on monthly or quarterly agreements, rotating creators for reach, a test slot, plus management, product, rights renewals and amplification. Add festive and launch peaks as separate layers, and reallocate at quarterly reviews based on each creator's cost per result.",
       },
       {
         question: "How is an always-on program different from a brand ambassador program?",

@@ -683,6 +683,13 @@ export const manageCampaignPosts: BlogPost[] = [
           { text: "influencer contract guide for creators", href: "/blog/influencer-contract-guide-for-creators" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands setting revision rules can read the brand-side guide to a creator revision policy.",
+        links: [
+          { text: "creator revision policy", href: "/blog/influencer-revision-policy" },
+        ],
+      },
     ],
     faqs: [
       {

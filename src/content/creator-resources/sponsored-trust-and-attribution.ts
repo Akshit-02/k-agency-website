@@ -639,6 +639,13 @@ export const sponsoredTrustAndAttributionPosts: BlogPost[] = [
           "Never following up with brands whose products you loved.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Brands planning gifting can read the brand-side guide to influencer gifting.",
+        links: [
+          { text: "influencer gifting", href: "/blog/influencer-gifting" },
+        ],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",

@@ -23,9 +23,10 @@ export const measurementPosts: BlogPost[] = [
       "How to calculate influencer CPM, CPE, CPC, CPA and conversion rate, what to include in cost, a worked example, and how to compare creators fairly.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-08",
     lastReviewed: REVIEWED,
-    readingTime: "10 min read",
-    tags: ["influencer CPM", "cost per engagement influencer", "influencer CPA", "influencer CPC", "influencer conversion rate"],
+    readingTime: "11 min read",
+    tags: ["influencer CPM", "cost per engagement influencer", "influencer CPA", "influencer CPC", "influencer cost per result", "influencer conversion rate"],
     related: ["measuring-influencer-campaign-roi", "influencer-marketing-kpis", "influencer-reach-vs-impressions"],
     hero: {
       src: "/blog/brand-guides/influencer-marketing-cpm-cpe-cpa.svg",
@@ -127,6 +128,22 @@ export const measurementPosts: BlogPost[] = [
           "Add the value of content you reuse in ads or on product pages; it would otherwise have cost production budget.",
           "Don't rank creators on one post. Small samples swing widely; judge on several posts or a test campaign.",
         ],
+      },
+      { type: "heading", text: "Other cost-per-result measures worth tracking", id: "other-cost-per-result" },
+      {
+        type: "table",
+        headers: ["Measure", "Formula", "Use it for"],
+        rows: [
+          ["Cost per qualified lead", "Total cost ÷ leads that meet your qualification criteria", "B2B, education, finance and high-consideration categories where raw lead counts mislead"],
+          ["Cost per new customer", "Total cost ÷ first-time customers", "Separating acquisition from orders by existing customers using a creator code"],
+          ["Cost per usable asset", "Total cost ÷ content pieces you actually reuse", "UGC and content-led campaigns"],
+          ["Cost per thousand target-audience views", "Total cost ÷ (views × share of audience in your markets) × 1,000", "Regional or city campaigns where much of a creator's audience is outside your market"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Efficiency is not the same as return. A low cost per result tells you the spend was efficient at producing that result; it doesn't tell you whether the result was worth having. A ₹40 cost per engagement can be excellent for a launch and irrelevant for a brand that needed sales. Pick the cost-per-result measure that matches the objective, then judge it against what the outcome is worth to the business, which is the ROI question. Deciding before booking whether a creator's fee is likely to pay back is covered in how much to pay influencers.",
+        links: [{ text: "how much to pay influencers", href: "/blog/how-much-to-pay-influencers" }],
       },
       { type: "heading", text: "Comparing creator costs with paid media", id: "vs-paid-media" },
       {

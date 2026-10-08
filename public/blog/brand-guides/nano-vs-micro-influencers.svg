@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Nano vs micro creators: many small voices with more coordination per rupee, or fewer creators with more reach and polish each</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">NANO VS MICRO: SAME BUDGET, DIFFERENT CAMPAIGN</text>
+<rect x="82" y="162" width="690" height="350" fill="#150F0B"/>
+<rect x="70" y="150" width="690" height="350" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="200" font-size="24" font-weight="700" fill="#150F0B">Nano creators</text>
+<text x="92" y="242" font-size="19" fill="#150F0B" opacity=".85">Many voices, close local audiences</text>
+<text x="92" y="272" font-size="19" fill="#150F0B" opacity=".85">Product or small fees</text>
+<text x="92" y="302" font-size="19" fill="#150F0B" opacity=".85">Coordination is a big share of cost</text>
+<text x="92" y="332" font-size="19" fill="#150F0B" opacity=".85">Best for seeding, local reach, discovery</text>
+<circle cx="110" cy="410" r="14" fill="#150F0B"/>
+<circle cx="162" cy="410" r="14" fill="#150F0B"/>
+<circle cx="214" cy="410" r="14" fill="#150F0B"/>
+<circle cx="266" cy="410" r="14" fill="#150F0B"/>
+<circle cx="318" cy="410" r="14" fill="#150F0B"/>
+<circle cx="370" cy="410" r="14" fill="#150F0B"/>
+<circle cx="422" cy="410" r="14" fill="#150F0B"/>
+<circle cx="474" cy="410" r="14" fill="#150F0B"/>
+<circle cx="526" cy="410" r="14" fill="#150F0B"/>
+<circle cx="578" cy="410" r="14" fill="#150F0B"/>
+<circle cx="630" cy="410" r="14" fill="#150F0B"/>
+<circle cx="682" cy="410" r="14" fill="#150F0B"/>
+<circle cx="110" cy="454" r="14" fill="#150F0B"/>
+<circle cx="162" cy="454" r="14" fill="#150F0B"/>
+<circle cx="214" cy="454" r="14" fill="#150F0B"/>
+<circle cx="266" cy="454" r="14" fill="#150F0B"/>
+<circle cx="318" cy="454" r="14" fill="#150F0B"/>
+<circle cx="370" cy="454" r="14" fill="#150F0B"/>
+<circle cx="422" cy="454" r="14" fill="#150F0B"/>
+<circle cx="474" cy="454" r="14" fill="#150F0B"/>
+<circle cx="526" cy="454" r="14" fill="#150F0B"/>
+<circle cx="578" cy="454" r="14" fill="#150F0B"/>
+<circle cx="630" cy="454" r="14" fill="#150F0B"/>
+<circle cx="682" cy="454" r="14" fill="#150F0B"/>
+<rect x="852" y="162" width="690" height="350" fill="#150F0B"/>
+<rect x="840" y="150" width="690" height="350" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="862" y="200" font-size="24" font-weight="700" fill="#FAF1E2">Micro creators</text>
+<text x="862" y="242" font-size="19" fill="#FAF1E2" opacity=".85">Fewer creators, more reach each</text>
+<text x="862" y="272" font-size="19" fill="#FAF1E2" opacity=".85">Fees per deliverable</text>
+<text x="862" y="302" font-size="19" fill="#FAF1E2" opacity=".85">Less coordination per rupee</text>
+<text x="862" y="332" font-size="19" fill="#FAF1E2" opacity=".85">Best for consideration, sales, ad content</text>
+<circle cx="900" cy="430" r="28" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<circle cx="990" cy="430" r="28" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<circle cx="1080" cy="430" r="28" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<circle cx="1170" cy="430" r="28" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<rect x="70" y="560" width="1460" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="606" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Judge both on cost per result using the real cost per creator.</text>
+</svg>
