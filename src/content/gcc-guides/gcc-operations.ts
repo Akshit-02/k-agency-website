@@ -268,7 +268,8 @@ export const gccOperationsPosts: BlogPost[] = [
       { type: "heading", text: "Platform shopping features", id: "platforms" },
       {
         type: "paragraph",
-        text: `Checked ${REVIEW_DATE_TEXT}: in-app shopping and affiliate features on social platforms aren't available in the same form in every market, and we couldn't confirm an official TikTok Shop launch for sellers and affiliates in either country. Build your program around links and codes to your own store and marketplaces, and add platform features only once they're confirmed for your business in that country.`,
+        text: `Checked ${REVIEW_DATE_TEXT}: in-app shopping and affiliate features on social platforms aren't available in the same form in every market, and we couldn't confirm an official TikTok Shop launch for sellers and affiliates in either country. Build your program around links and codes to your own store and marketplaces, and add platform features only once they're confirmed for your business in that country. The same applies to live selling; see influencer livestream campaigns in the GCC.`,
+        links: [{ text: "influencer livestream campaigns in the GCC", href: "/blog/influencer-livestream-campaigns-gcc" }],
       },
       { type: "heading", text: "Disclosure", id: "disclosure" },
       {

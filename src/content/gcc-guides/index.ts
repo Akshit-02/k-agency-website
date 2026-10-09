@@ -9,6 +9,8 @@ import { saudiCommercialPosts } from "@/content/gcc-guides/saudi-commercial";
 import { saudiChannelPosts } from "@/content/gcc-guides/saudi-channels";
 import { gccCountryPosts } from "@/content/gcc-guides/gcc-countries";
 import { gccOperationsPosts } from "@/content/gcc-guides/gcc-operations";
+import { gccPlatformPosts } from "@/content/gcc-guides/gcc-platforms";
+import { gccIndustryPosts } from "@/content/gcc-guides/gcc-industries";
 
 /**
  * UAE and GCC cluster (1400–1419): a UAE pillar, UAE industry and resource guides, and Saudi/GCC market-entry
@@ -27,6 +29,9 @@ export const gccGuidePosts: BlogPost[] = [
   ...saudiChannelPosts,
   ...gccCountryPosts,
   ...gccOperationsPosts,
+  // Batch 1440–1459; see docs/gcc-1440-1459-audit.md.
+  ...gccPlatformPosts,
+  ...gccIndustryPosts,
 ];
 
 /** Slugs in the cluster, used by the CTA resolver. */

@@ -83,8 +83,11 @@ export const saudiHubPost: BlogPost = {
     },
     {
       type: "paragraph",
-      text: "A full vetting process, including checks specific to Gulf campaigns, is in how to vet influencers.",
-      links: [{ text: "how to vet influencers", href: "/blog/how-to-vet-influencers" }],
+      text: "A full vetting process, including checks specific to Gulf campaigns, is in how to vet influencers, and a step-by-step research method for smaller creators in how to find micro-influencers in Saudi Arabia.",
+      links: [
+        { text: "how to vet influencers", href: "/blog/how-to-vet-influencers" },
+        { text: "how to find micro-influencers in Saudi Arabia", href: "/blog/find-micro-influencers-saudi-arabia" },
+      ],
     },
     { type: "heading", text: "Arabic, dialects and creative", id: "arabic" },
     {
@@ -140,8 +143,9 @@ export const saudiHubPost: BlogPost = {
     },
     {
       type: "paragraph",
-      text: "Platform-specific planning is covered in TikTok influencer marketing in Saudi Arabia and Snapchat influencer marketing in Saudi Arabia.",
+      text: "Platform-specific planning is covered in TikTok influencer marketing in Saudi Arabia, Snapchat influencer marketing in Saudi Arabia and, for considered purchases, YouTube influencer marketing in Saudi Arabia.",
       links: [
+        { text: "YouTube influencer marketing in Saudi Arabia", href: "/blog/youtube-influencer-marketing-saudi-arabia" },
         { text: "TikTok influencer marketing in Saudi Arabia", href: "/blog/tiktok-influencer-marketing-saudi-arabia" },
         { text: "Snapchat influencer marketing in Saudi Arabia", href: "/blog/snapchat-influencer-marketing-saudi-arabia" },
       ],

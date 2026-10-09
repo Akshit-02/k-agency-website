@@ -19,6 +19,8 @@ export const GCC_PLAYBOOK = { name: "GCC", href: "/blog/gcc-influencer-marketing
 export const SAUDI_HUB = { name: "Saudi Arabia", href: "/blog/influencer-marketing-saudi-arabia" };
 /** Batch 1420–1439 (Saudi Arabia and GCC). */
 export const GCC2_PUBLISHED = "2026-10-09";
+/** Batch 1440–1459. */
+export const GCC3_PUBLISHED = "2026-10-09";
 
 /** Source register. `checked` is the date the claim was verified against the page. */
 export const SRC = {
@@ -91,5 +93,12 @@ export const SRC = {
   omanNoFees: { url: "https://cdn.timesofoman.com/article/128379-no-licence-fees-required-for-social-media-influencers-companies", label: "Times of Oman, no licence fees currently for influencers and companies", checked: "2026-10-09" },
   bahrainMoicPromotions: { url: "https://www.moic.gov.bh/en/node/2717", label: "Bahrain MOIC, promotional and sales campaign request", checked: "2026-10-09" },
   meedPegs: { url: "https://www.meed.com/gcc-to-defend-currency-pegs/", label: "MEED, GCC currency pegs table", checked: "2026-10-09" },
+  // Batch 1440–1459
+  uaeCopyrightLaw: { url: "https://uaelegislation.gov.ae/en/legislations/1534", label: "UAE Federal Decree-Law No. 38 of 2021 on Copyright and Neighboring Rights (official legislation portal)", checked: "2026-10-09" },
+  saudiCopyright2026: { url: "https://www.mondaq.com/saudiarabia/copyright/1750022/saudi-arabias-new-copyright-law-key-changes-and-implications", label: "Mondaq, Saudi Arabia's new Copyright Law (Royal Decree M/169, enacted 13 Feb 2026, in force 1 Aug 2026)", checked: "2026-10-09" },
+  saip: { url: "https://www.saip.gov.sa/en", label: "Saudi Authority for Intellectual Property", checked: "2026-10-09" },
+  igLiveShoppingEnd: { url: "https://www.engadget.com/instagram-live-shopping-shutdown-205824247.html", label: "Engadget, Instagram ends live shopping from 16 March 2023", checked: "2026-10-09" },
+  coodoooUgc: { url: "https://coodooo.com/en/blog/ugc-rates-gcc-2026", label: "Coodooo, GCC UGC rates (27 Aug 2026; says no reliable GCC-specific UGC rate survey exists)", checked: "2026-10-09" },
+  kolsquareMe: { url: "https://www.kolsquare.com/en/blog/influencer-marketing-in-the-middle-east-in-2026-high-stakes-high-spend-and-the-arabic-first-imperative", label: "Kolsquare, Middle East influencer marketing 2026 (30 Apr 2026)", checked: "2026-10-09" },
   qatarProposal: { url: "https://qatarlaw.com/news/state-licensing-framework-proposed-for-digital-content-creators-in-qatar", label: "Sultan Al-Abdulla & Partners, proposed Qatar creator licensing framework", checked: "2026-10-09" },
 } as const;

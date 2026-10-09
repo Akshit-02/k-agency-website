@@ -130,8 +130,11 @@ export const uaeResourcePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Licensing is where most UGC disputes start. The options are explained in UGC whitelisting and creator licensing.",
-        links: [{ text: "UGC whitelisting and creator licensing", href: "/blog/ugc-whitelisting-creator-licensing" }],
+        text: "Licensing is where most UGC disputes start. The options are explained in UGC whitelisting and creator licensing, and Arabic-specific briefing and evaluation in Arabic UGC creators in the GCC.",
+        links: [
+          { text: "UGC whitelisting and creator licensing", href: "/blog/ugc-whitelisting-creator-licensing" },
+          { text: "Arabic UGC creators in the GCC", href: "/blog/arabic-ugc-creators-gcc" },
+        ],
       },
       { type: "subheading", text: "Reporting" },
       {
@@ -717,8 +720,9 @@ Escalation contact for urgent issues:`,
       },
       {
         type: "paragraph",
-        text: "Category specifics are covered in restaurant influencer marketing in Dubai, influencer marketing for fashion brands in Dubai, influencer marketing for beauty brands in the UAE and influencer marketing for travel brands in the UAE.",
+        text: "Category specifics are covered in restaurant influencer marketing in Dubai, influencer marketing for fashion brands in Dubai, influencer marketing for beauty brands in the UAE, influencer marketing for travel brands in the UAE and, for stores, retail influencer marketing in the GCC.",
         links: [
+          { text: "retail influencer marketing in the GCC", href: "/blog/retail-influencer-marketing-gcc" },
           { text: "restaurant influencer marketing in Dubai", href: "/blog/restaurant-influencer-marketing-dubai" },
           { text: "influencer marketing for fashion brands in Dubai", href: "/blog/influencer-marketing-fashion-brands-dubai" },
           { text: "influencer marketing for beauty brands in the UAE", href: "/blog/influencer-marketing-beauty-brands-uae" },

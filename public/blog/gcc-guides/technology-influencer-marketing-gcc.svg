@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Tech launch with creators: review units, embargo, reviews, tutorials and long-term updates</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">TECH LAUNCHES IN THE GCC</text>
+<path d="M90 330 L1510 330" stroke="#150F0B" stroke-width="6"/>
+<circle cx="110" cy="330" r="20" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="110" y="270" font-size="19" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".7">Weeks before</text>
+<text x="110" y="400" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Review units</text>
+<text x="110" y="436" font-size="19" text-anchor="start" fill="#150F0B" opacity=".8">Embargo agreed</text>
+<circle cx="455" cy="330" r="20" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="455" y="270" font-size="19" font-weight="700" text-anchor="middle" fill="#150F0B" opacity=".7">Launch</text>
+<text x="455" y="400" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">First looks</text>
+<text x="455" y="436" font-size="19" text-anchor="middle" fill="#150F0B" opacity=".8">Local prices</text>
+<circle cx="800" cy="330" r="20" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="270" font-size="19" font-weight="700" text-anchor="middle" fill="#150F0B" opacity=".7">Week 1 to 2</text>
+<text x="800" y="400" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">In-depth reviews</text>
+<text x="800" y="436" font-size="19" text-anchor="middle" fill="#150F0B" opacity=".8">Honest verdicts</text>
+<circle cx="1145" cy="330" r="20" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1145" y="270" font-size="19" font-weight="700" text-anchor="middle" fill="#150F0B" opacity=".7">Month 1+</text>
+<text x="1145" y="400" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">Tutorials</text>
+<text x="1145" y="436" font-size="19" text-anchor="middle" fill="#150F0B" opacity=".8">Comparisons</text>
+<circle cx="1490" cy="330" r="20" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1490" y="270" font-size="19" font-weight="700" text-anchor="end" fill="#150F0B" opacity=".7">Month 3</text>
+<text x="1490" y="400" font-size="24" font-weight="700" text-anchor="end" fill="#150F0B">Long-term</text>
+<text x="1490" y="436" font-size="19" text-anchor="end" fill="#150F0B" opacity=".8">Updates</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Credibility is what tech creators sell. Don't script the verdict.</text>
+</svg>

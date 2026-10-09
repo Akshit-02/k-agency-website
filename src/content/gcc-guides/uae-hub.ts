@@ -86,7 +86,8 @@ export const uaeHubPost: BlogPost = {
     },
     {
       type: "paragraph",
-      text: "Treat these as rough indicators. Ad-reach figures come from the platforms' own advertising tools, aren't the same as monthly active users, and can exceed the adult population because of duplicate accounts, visitors and people who have left the country. Use them to shortlist platforms, then judge each creator on their own audience data.",
+      text: "Treat these as rough indicators. Ad-reach figures come from the platforms' own advertising tools, aren't the same as monthly active users, and can exceed the adult population because of duplicate accounts, visitors and people who have left the country. Use them to shortlist platforms, then judge each creator on their own audience data. How to choose between the three biggest creator platforms is covered in Instagram vs TikTok vs Snapchat in the UAE.",
+      links: [{ text: "Instagram vs TikTok vs Snapchat in the UAE", href: "/blog/instagram-vs-tiktok-vs-snapchat-uae" }],
     },
     { type: "heading", text: "The advertiser permit and other rules brands should know", id: "permits" },
     {

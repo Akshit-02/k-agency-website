@@ -19,7 +19,7 @@ export const gccMarketPosts: BlogPost[] = [
     author: AUTHOR,
     publishedAt: GCC_PUBLISHED,
     lastReviewed: GCC_REVIEWED,
-    readingTime: "11 min read",
+    readingTime: "12 min read",
     inLanguage: GCC_LANGUAGE,
     spatialCoverage: "Saudi Arabia and United Arab Emirates",
     breadcrumbParents: [GCC_PLAYBOOK],
@@ -168,15 +168,40 @@ export const gccMarketPosts: BlogPost[] = [
         type: "paragraph",
         text: "Ramadan and Eid fall at roughly the same time in both countries, but official announcements are made separately in each and can occasionally differ by a day. Confirm dates per country.",
       },
-      { type: "heading", text: "Running both markets", id: "both" },
+      { type: "heading", text: "Coordinating campaigns across Saudi Arabia and the UAE", id: "both" },
+      {
+        type: "paragraph",
+        text: "Many brands run both markets from one team. That works if you're clear about what can be shared and what each country needs of its own.",
+      },
+      {
+        type: "table",
+        headers: ["Element", "Standardize across both", "Localize per country"],
+        rows: [
+          ["Strategy", "Brand positioning, objective framework, KPI definitions", "Objective, target and audience per market"],
+          ["Creators", "Occasional regional creators for broad awareness", "Saudi creators for Saudi audiences; UAE creators by community and emirate"],
+          ["Creative", "The core idea and brand guidelines", "Dialect, language mix, references, casting, offers"],
+          ["Approvals", "One approval workflow and checklist format", "Mawthooq and Saudi rules; UAE permits and sector approvals; promotion licences in each"],
+          ["Contracts", "One template structure", "Currency (SAR or AED), VAT (15% or 5%), licence warranties, territory"],
+          ["Budget", "Allocation logic and reserve rules", "Budgets in SAR and AED, converted only at a stated rate"],
+          ["Measurement", "Report format, windows, definitions", "Separate links, codes, landing pages and reports per country"],
+        ],
+      },
       {
         type: "list",
         items: [
-          "Keep one strategy but separate plans, creators, briefs and reports per country",
-          "Budget for Arabic production and review in Saudi Arabia, and for multilingual production in the UAE",
-          "Check licences in each country for every creator, every campaign",
-          "Compare results per country rather than blending them",
-          "Where content is reused across both, make sure rights cover both territories",
+          "Timeline: start Saudi licence checks and Arabic briefing earlier; UAE campaigns may need more language versions",
+          "Calendar: Ramadan and Eid fall at roughly the same time, but official dates are announced separately; national days and seasons differ",
+          "Ownership: one owner per market and one person accountable for the combined view",
+          "Content reuse: re-voice or re-cast before reusing Saudi content in the UAE, or the reverse, and make sure rights cover both",
+          "Optimization: move budget between the two markets on cost per result in a common currency, against each market's own objective",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Budget allocation and fair cross-country reporting are covered in GCC influencer marketing budgets and GCC influencer campaign reporting.",
+        links: [
+          { text: "GCC influencer marketing budgets", href: "/blog/gcc-influencer-marketing-budget" },
+          { text: "GCC influencer campaign reporting", href: "/blog/gcc-influencer-campaign-reporting" },
         ],
       },
       {
@@ -435,8 +460,11 @@ export const gccMarketPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "A full framework for comparing countries is in GCC influencer campaign reporting.",
-        links: [{ text: "GCC influencer campaign reporting", href: "/blog/gcc-influencer-campaign-reporting" }],
+        text: "A full framework for comparing countries is in GCC influencer campaign reporting, and the profitability test to apply per market in break-even ROAS for influencer campaigns.",
+        links: [
+          { text: "GCC influencer campaign reporting", href: "/blog/gcc-influencer-campaign-reporting" },
+          { text: "break-even ROAS for influencer campaigns", href: "/blog/break-even-roas-influencer-campaigns" },
+        ],
       },
       { type: "subheading", text: "Coordination and market-by-market optimization" },
       {
@@ -447,6 +475,18 @@ export const gccMarketPosts: BlogPost[] = [
           "A weekly check-in during live campaigns, with decisions recorded per market",
           "Decision rules agreed upfront: when to rebook a creator, pause one, or move budget between markets",
           "A debrief per market before the regional summary, so local learning isn't averaged away",
+        ],
+      },
+      { type: "heading", text: "Sector and format guides", id: "sector-guides" },
+      {
+        type: "paragraph",
+        text: "Several categories have their own GCC guides: retail brands, automotive brands, fitness and wellness brands and technology brands. Livestream planning, where commerce features differ by country, is covered in influencer livestream campaigns in the GCC.",
+        links: [
+          { text: "retail brands", href: "/blog/retail-influencer-marketing-gcc" },
+          { text: "automotive brands", href: "/blog/automotive-influencer-marketing-uae-saudi-arabia" },
+          { text: "fitness and wellness brands", href: "/blog/fitness-influencer-marketing-gcc" },
+          { text: "technology brands", href: "/blog/technology-influencer-marketing-gcc" },
+          { text: "influencer livestream campaigns in the GCC", href: "/blog/influencer-livestream-campaigns-gcc" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

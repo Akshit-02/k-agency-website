@@ -72,6 +72,11 @@ export const saudiChannelPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
+        text: "Planning a live session, including moderation and what commerce features are actually available, is covered in influencer livestream campaigns in the GCC.",
+        links: [{ text: "influencer livestream campaigns in the GCC", href: "/blog/influencer-livestream-campaigns-gcc" }],
+      },
+      {
+        type: "paragraph",
         text: "The hook matters more on TikTok than almost anywhere else. Ask creators to lead with the most interesting moment and keep brand messaging in the creator's own words.",
       },
       { type: "heading", text: "Choosing Saudi TikTok creators", id: "creators" },
@@ -219,8 +224,11 @@ export const saudiChannelPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Many campaigns use both: TikTok for reach and Snapchat for the trusted follow-up. The TikTok side is covered in TikTok influencer marketing in Saudi Arabia.",
-        links: [{ text: "TikTok influencer marketing in Saudi Arabia", href: "/blog/tiktok-influencer-marketing-saudi-arabia" }],
+        text: "Many campaigns use both: TikTok for reach and Snapchat for the trusted follow-up. The TikTok side is covered in TikTok influencer marketing in Saudi Arabia, and how the same platforms compare for UAE audiences in Instagram vs TikTok vs Snapchat in the UAE.",
+        links: [
+          { text: "TikTok influencer marketing in Saudi Arabia", href: "/blog/tiktok-influencer-marketing-saudi-arabia" },
+          { text: "Instagram vs TikTok vs Snapchat in the UAE", href: "/blog/instagram-vs-tiktok-vs-snapchat-uae" },
+        ],
       },
       { type: "heading", text: "Formats", id: "formats" },
       {

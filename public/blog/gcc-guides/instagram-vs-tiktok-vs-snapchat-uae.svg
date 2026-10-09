@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Instagram, TikTok and Snapchat compared for UAE creator campaigns</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">INSTAGRAM VS TIKTOK VS SNAPCHAT (UAE)</text>
+<rect x="82" y="162" width="456" height="160" fill="#150F0B"/>
+<rect x="70" y="150" width="456" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="198" font-size="24" font-weight="700" fill="#FAF1E2">Instagram</text>
+<text x="92" y="240" font-size="19" fill="#FAF1E2" opacity=".85">Visual lifestyle,</text>
+<text x="92" y="270" font-size="19" fill="#FAF1E2" opacity=".85">polished content</text>
+<rect x="584" y="162" width="456" height="160" fill="#150F0B"/>
+<rect x="572" y="150" width="456" height="160" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="594" y="198" font-size="24" font-weight="700" fill="#150F0B">TikTok</text>
+<text x="594" y="240" font-size="19" fill="#150F0B" opacity=".85">Discovery,</text>
+<text x="594" y="270" font-size="19" fill="#150F0B" opacity=".85">demonstrations</text>
+<rect x="1086" y="162" width="456" height="160" fill="#150F0B"/>
+<rect x="1074" y="150" width="456" height="160" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1096" y="198" font-size="24" font-weight="700" fill="#FAF1E2">Snapchat</text>
+<text x="1096" y="240" font-size="19" fill="#FAF1E2" opacity=".85">Trusted, everyday</text>
+<text x="1096" y="270" font-size="19" fill="#FAF1E2" opacity=".85">recommendation</text>
+<rect x="82" y="366" width="456" height="160" fill="#150F0B"/>
+<rect x="70" y="354" width="456" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="402" font-size="24" font-weight="700" fill="#150F0B">Choose by</text>
+<text x="92" y="444" font-size="19" fill="#150F0B" opacity=".85">Objective and</text>
+<text x="92" y="474" font-size="19" fill="#150F0B" opacity=".85">audience</text>
+<rect x="584" y="366" width="456" height="160" fill="#150F0B"/>
+<rect x="572" y="354" width="456" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="594" y="402" font-size="24" font-weight="700" fill="#150F0B">Check</text>
+<text x="594" y="444" font-size="19" fill="#150F0B" opacity=".85">Each creator's</text>
+<text x="594" y="474" font-size="19" fill="#150F0B" opacity=".85">UAE audience</text>
+<rect x="1086" y="366" width="456" height="160" fill="#150F0B"/>
+<rect x="1074" y="354" width="456" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1096" y="402" font-size="24" font-weight="700" fill="#FAF1E2">Combine</text>
+<text x="1096" y="444" font-size="19" fill="#FAF1E2" opacity=".85">Reach plus</text>
+<text x="1096" y="474" font-size="19" fill="#FAF1E2" opacity=".85">trust</text>
+</svg>

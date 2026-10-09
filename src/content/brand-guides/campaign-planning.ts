@@ -661,9 +661,9 @@ export const campaignPlanningPosts: BlogPost[] = [
       "How to check and score influencer audience quality: an Audience Quality Score framework, data to request, fit against your customer and authenticity signals.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    updatedAt: "2026-10-07",
+    updatedAt: "2026-10-09",
     lastReviewed: REVIEWED,
-    readingTime: "7 min read",
+    readingTime: "9 min read",
     tags: ["influencer audience quality", "influencer audience quality score", "influencer audience fit", "influencer audience analysis", "check influencer audience demographics", "influencer audience match target customer"],
     related: ["influencer-engagement-quality", "creator-quality-score", "how-to-vet-influencers"],
     hero: { src: "/blog/brand-guides/influencer-audience-quality.svg", alt: "Creator audience demographics by city, age and language overlaid on a brand's target customer profile to show audience fit" },
@@ -798,6 +798,46 @@ export const campaignPlanningPosts: BlogPost[] = [
         type: "paragraph",
         text: "Regional strategy: regional influencer marketing in India.",
         links: [{ text: "regional influencer marketing in India", href: "/blog/regional-influencer-marketing-india" }],
+      },
+      { type: "heading", text: "Audience location in the UAE and GCC", id: "gcc-location" },
+      {
+        type: "paragraph",
+        text: "Where a creator lives says little about where their audience lives. Many Dubai-based creators have most of their followers in Saudi Arabia, Egypt, India, Pakistan, the Philippines or Europe, and many Arabic-speaking creators elsewhere have large Gulf audiences. For a UAE campaign, the figure that matters is how many of the people you're paying to reach are actually in the UAE, and in the emirates you serve.",
+      },
+      {
+        type: "list",
+        items: [
+          "Target-market audience = followers (or typical reach) × share of audience in the target country",
+          "Cost per target-market follower = fee ÷ target-market audience",
+          "For local goals, apply the city share as well (for example Dubai vs Abu Dhabi)",
+        ],
+      },
+      {
+        type: "table",
+        headers: ["Creator (illustrative)", "Followers", "UAE audience share", "UAE audience", "Fee (AED)", "Fee per 1,000 UAE followers"],
+        rows: [
+          ["A: Dubai-based, regional audience", "400,000", "22%", "88,000", "20,000", "AED 227"],
+          ["B: Dubai-based, local audience", "60,000", "75%", "45,000", "4,500", "AED 100"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Hypothetical figures. Creator A is bigger, but for a UAE-only campaign Creator B delivers UAE audience at less than half the cost. For regional awareness, Creator A might be the better buy. The point is to choose against the objective, not the follower count.",
+      },
+      {
+        type: "table",
+        headers: ["Objective", "What audience location you need"],
+        rows: [
+          ["Footfall to one venue or store", "High share in the city, ideally the area"],
+          ["UAE sales or sign-ups", "High UAE share; city split less critical if delivery is national"],
+          ["GCC launch", "Shares across your target countries, reported separately"],
+          ["Pan-Arab awareness", "Broad regional audience can be acceptable"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Ask creators for dated screenshots of their audience country and city data from each platform; public profiles don't show it, and third-party estimates can be off, especially for Arabic-language accounts. Gulf-specific vetting checks are in how to vet influencers.",
+        links: [{ text: "how to vet influencers", href: "/blog/how-to-vet-influencers" }],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

@@ -54,7 +54,8 @@ export const uaeSpecialistPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "If you can't tell which row you're in, assume the stricter one until someone qualified has checked. Words like 'treats', 'cures', 'prevents', 'boosts immunity', 'clinically proven' or 'no side effects' usually move content into regulated territory.",
+        text: "If you can't tell which row you're in, assume the stricter one until someone qualified has checked. Words like 'treats', 'cures', 'prevents', 'boosts immunity', 'clinically proven' or 'no side effects' usually move content into regulated territory. Gyms, sportswear, fitness apps and nutrition brands at the lifestyle end are covered in fitness influencer marketing in the GCC.",
+        links: [{ text: "fitness influencer marketing in the GCC", href: "/blog/fitness-influencer-marketing-gcc" }],
       },
       { type: "heading", text: "Approvals that may apply", id: "approvals" },
       {
@@ -353,7 +354,7 @@ export const uaeSpecialistPosts: BlogPost[] = [
     slug: "b2b-influencer-marketing-dubai",
     category: "Influencer Marketing",
     title: "B2B Influencer Marketing in Dubai: How to Reach Business Decision-Makers",
-    seoTitle: "B2B Influencer Marketing in Dubai: Reaching Decision-Makers",
+    seoTitle: "B2B and LinkedIn Influencer Marketing in Dubai and the UAE",
     excerpt:
       "How B2B and technology companies can use creators in Dubai: LinkedIn-led expert content, founder and executive voices, industry specialists, webinars and event content, and measuring lead quality over long buying cycles.",
     metaDescription:
@@ -361,7 +362,7 @@ export const uaeSpecialistPosts: BlogPost[] = [
     author: AUTHOR,
     publishedAt: GCC_PUBLISHED,
     lastReviewed: GCC_REVIEWED,
-    readingTime: "10 min read",
+    readingTime: "12 min read",
     inLanguage: GCC_LANGUAGE,
     spatialCoverage: "Dubai, United Arab Emirates",
     breadcrumbParents: [UAE_HUB],
@@ -428,6 +429,11 @@ export const uaeSpecialistPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
+        text: "Consumer technology launches, review programs and embargoes are covered separately in technology influencer marketing in the GCC.",
+        links: [{ text: "technology influencer marketing in the GCC", href: "/blog/technology-influencer-marketing-gcc" }],
+      },
+      {
+        type: "paragraph",
         text: "Dubai's events calendar is a natural anchor: major trade shows and conferences bring regional buying groups into one city for a few days. Plan creator content before, during and after an event rather than only on the day. How to run creators around events is covered in experiential influencer marketing.",
         links: [{ text: "experiential influencer marketing", href: "/blog/experiential-influencer-marketing" }],
       },
@@ -441,6 +447,34 @@ export const uaeSpecialistPosts: BlogPost[] = [
           "Agree what's confidential and what claims need evidence",
           "Disclosure: a paid post is still advertising, even on LinkedIn",
           "Language: English dominates UAE B2B, but Arabic content can matter for government-adjacent and Gulf-national audiences",
+        ],
+      },
+      { type: "heading", text: "Running LinkedIn creator campaigns in the UAE", id: "linkedin" },
+      {
+        type: "paragraph",
+        text: "LinkedIn reported 10.0 million registered members in the UAE in late 2025, according to DataReportal; registered members aren't active users, but the professional audience is large. For most UAE B2B creator work it's the main platform, and it rewards expertise rather than polish.",
+        links: [{ text: "according to DataReportal", href: SRC.datareportalUae.url }],
+      },
+      {
+        type: "table",
+        headers: ["Format", "Use", "Tip"],
+        rows: [
+          ["Text post with a point of view", "Industry problems, lessons, opinions", "The creator's own experience, with your product as part of the story"],
+          ["Document or carousel", "Frameworks, checklists, data summaries", "Practical, saveable, specific to the region"],
+          ["Short video", "Explainers, event takeaways, demos", "Subtitles for sound-off viewing"],
+          ["LinkedIn Live or event", "Panels and Q&As with your specialists", "Promote in advance; follow up with attendees"],
+          ["Newsletter collaboration", "A guest piece or sponsored issue", "Suits creators with established newsletters"],
+          ["Promoted creator posts", "Running a creator's or executive's post as an ad, where eligible", "Check current eligibility and permissions in Campaign Manager"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Choose creators by the roles and companies in their audience, not follower count",
+          "Brief with substance: data, customer problems and technical detail they can engage with",
+          "Avoid consumer-style tactics such as giveaways, hype and heavy scripting; they read as off-key on LinkedIn",
+          "Track with UTM links to gated content or demo pages, plus CRM source fields",
+          "Report engagement from target accounts and qualified leads, not total impressions",
         ],
       },
       { type: "heading", text: "Measuring lead quality over long cycles", id: "measurement" },
