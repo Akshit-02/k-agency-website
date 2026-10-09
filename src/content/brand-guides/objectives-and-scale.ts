@@ -261,8 +261,9 @@ export const objectivesAndScalePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Affiliate structures are compared in influencer marketing vs affiliate marketing, and platform shopping in Instagram influencer affiliate marketing.",
+        text: "Affiliate structures are compared in influencer marketing vs affiliate marketing, and platform shopping in Instagram influencer affiliate marketing. Structuring bonus, hybrid and per-action deals is covered in performance-based influencer deals, and running commission-only creators as a standing channel in influencer affiliate programs.",
         links: [
+          { text: "performance-based influencer deals", href: "/blog/performance-based-influencer-marketing" }, { text: "influencer affiliate programs", href: "/blog/influencer-affiliate-program" },
           { text: "influencer marketing vs affiliate marketing", href: "/blog/influencer-marketing-vs-affiliate-marketing" },
           { text: "Instagram influencer affiliate marketing", href: "/blog/instagram-influencer-affiliate-marketing" },
         ],
@@ -339,7 +340,8 @@ export const objectivesAndScalePosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Creators sell when the product shows well, the audience buys in the category, the path to purchase is short and tracked, and the best content gets paid reach. Judge success on new customers, CAC and repeat purchase, accept that some impact shows up outside tracked links, and scale the creators and content that prove themselves.",
+        text: "Creators sell when the product shows well, the audience buys in the category, the path to purchase is short and tracked, and the best content gets paid reach. Judge success on new customers, CAC and repeat purchase, accept that some impact shows up outside tracked links, and scale the creators and content that prove themselves. How sales fits after awareness and consideration is covered in the influencer marketing funnel.",
+        links: [{ text: "the influencer marketing funnel", href: "/blog/influencer-marketing-funnel" }],
       },
     ],
     faqs: [

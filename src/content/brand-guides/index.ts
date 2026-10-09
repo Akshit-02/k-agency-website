@@ -22,6 +22,7 @@ import { optimizationCyclePosts } from "@/content/brand-guides/optimization-cycl
 import { budgetPlanningPosts } from "@/content/brand-guides/budget-planning";
 import { contentRightsPosts } from "@/content/brand-guides/content-rights";
 import { governanceRiskPosts } from "@/content/brand-guides/governance-risk";
+import { growthProgramPosts } from "@/content/brand-guides/growth-programs";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -60,4 +61,6 @@ export const brandGuidePosts: BlogPost[] = [
   ...contentRightsPosts,
   // Compliance, brand safety and campaign risk cluster (1310–1329); see docs/compliance-risk-1310-1329-audit.md.
   ...governanceRiskPosts,
+  // Creator programs, performance and commerce cluster (1330–1379); see docs/growth-programs-1330-1379-audit.md.
+  ...growthProgramPosts,
 ];

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer payment models from flat fee to fee plus bonus, hybrid base plus commission and commission-only, with brand risk falling and creator risk rising</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">PAYING CREATORS FOR RESULTS</text>
+<rect x="82" y="242" width="263" height="230" fill="#150F0B"/>
+<rect x="70" y="230" width="263" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="280" font-size="24" font-weight="700" fill="#FAF1E2">Flat fee</text>
+<text x="92" y="322" font-size="19" fill="#FAF1E2" opacity=".85">Brand carries</text>
+<text x="92" y="352" font-size="19" fill="#FAF1E2" opacity=".85">the risk</text>
+<path d="M337 345 L363 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="381" y="242" width="263" height="230" fill="#150F0B"/>
+<rect x="369" y="230" width="263" height="230" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="391" y="280" font-size="24" font-weight="700" fill="#150F0B">Fee + bonus</text>
+<text x="391" y="322" font-size="19" fill="#150F0B" opacity=".85">Upside for</text>
+<text x="391" y="352" font-size="19" fill="#150F0B" opacity=".85">hitting a target</text>
+<path d="M636 345 L662 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="680" y="242" width="263" height="230" fill="#150F0B"/>
+<rect x="668" y="230" width="263" height="230" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="690" y="280" font-size="24" font-weight="700" fill="#150F0B">Hybrid</text>
+<text x="690" y="322" font-size="19" fill="#150F0B" opacity=".85">Lower base plus</text>
+<text x="690" y="352" font-size="19" fill="#150F0B" opacity=".85">commission</text>
+<path d="M935 345 L961 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="979" y="242" width="263" height="230" fill="#150F0B"/>
+<rect x="967" y="230" width="263" height="230" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="989" y="280" font-size="24" font-weight="700" fill="#150F0B">Per action</text>
+<text x="989" y="322" font-size="19" fill="#150F0B" opacity=".85">Fixed amount</text>
+<text x="989" y="352" font-size="19" fill="#150F0B" opacity=".85">per result</text>
+<path d="M1234 345 L1260 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="1278" y="242" width="263" height="230" fill="#150F0B"/>
+<rect x="1266" y="230" width="263" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1288" y="280" font-size="24" font-weight="700" fill="#FAF1E2">Commission</text>
+<text x="1288" y="322" font-size="19" fill="#FAF1E2" opacity=".85">Creator carries</text>
+<text x="1288" y="352" font-size="19" fill="#FAF1E2" opacity=".85">the risk</text>
+<rect x="70" y="560" width="1460" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="606" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Define the conversion, window and data source before anyone posts.</text>
+</svg>

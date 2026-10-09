@@ -9763,7 +9763,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "How affiliate influencer campaigns work", id: "how-affiliate-works" },
       {
         type: "paragraph",
-        text: "A creator promotes a product and includes a way for their audience to buy through a tracked link, code, or native product tag. When a purchase happens through that tracked path, the creator earns an agreed commission, a percentage of the sale value or a flat amount per conversion, rather than being paid solely for producing the content.",
+        text: "A creator promotes a product and includes a way for their audience to buy through a tracked link, code, or native product tag. When a purchase happens through that tracked path, the creator earns an agreed commission, a percentage of the sale value or a flat amount per conversion, rather than being paid solely for producing the content. For running a platform-agnostic affiliate program across many creators, see how to build an influencer affiliate program.",
+        links: [{ text: "how to build an influencer affiliate program", href: "/blog/influencer-affiliate-program" }],
       },
       { type: "heading", text: "Instagram's native affiliate and commerce features", id: "native-commerce-features" },
       {
@@ -9870,8 +9871,14 @@ const corePosts: BlogPost[] = [
     excerpt:
       "AI now touches ideation, editing, and even fully synthetic creator-style content. Where it genuinely helps a UGC workflow, where it risks brand trust, and why disclosure isn't optional.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    metaDescription: "AI-generated creator content for brands: creators using AI vs AI-made content vs virtual creators, India's 2026 labelling rules, trust, risks and a checklist.",
     publishedAt: "2026-09-12",
-    readingTime: "11 min read",
+    updatedAt: "2026-10-08",
+    lastReviewed: "October 2026",
+    readingTime: "13 min read",
+    tags: ["AI-generated influencer content", "AI UGC", "AI and creator authenticity", "synthetic content disclosure India", "AI influencer marketing risks"],
+    related: ["ai-influencer-marketing", "ai-influencers-vs-human-creators", "influencer-marketing-compliance"],
+    hero: { src: "/blog/brand-guides/ai-ugc-marketing.svg", alt: "AI in creator content: a creator using AI tools on real footage, AI-generated content, and synthetic creators, each followed by labelling and human review" },
     body: [
       {
         type: "paragraph",
@@ -9897,13 +9904,13 @@ const corePosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Ideation — generating a wider set of hook and angle options to brief creators with, faster than a team brainstorming alone",
-          "Scripting drafts — a starting structure for a script template, refined by a human before it goes to a creator",
-          "Briefing support — turning product information into a clearer, more specific brief document",
-          "Editing — captions, pacing suggestions, and basic cuts, speeding up post-production on real footage",
-          "Subtitles and translation — adapting a creator's original video for regional-language or international audiences",
-          "Localization — adjusting captions, on-screen text, or voiceover for Hindi or other regional-language audiences without reshooting",
-          "Creative and performance analysis — surfacing which hooks, formats, or creators are actually working across a growing content library",
+          "Ideation: generating a wider set of hook and angle options to brief creators with, faster than a team brainstorming alone",
+          "Scripting drafts: a starting structure for a script template, refined by a human before it goes to a creator",
+          "Briefing support: turning product information into a clearer, more specific brief document",
+          "Editing: captions, pacing suggestions, and basic cuts, speeding up post-production on real footage",
+          "Subtitles and translation: adapting a creator's original video for regional-language or international audiences",
+          "Localization: adjusting captions, on-screen text, or voiceover for Hindi or other regional-language audiences without reshooting",
+          "Creative and performance analysis: surfacing which hooks, formats, or creators are actually working across a growing content library",
         ],
       },
       { type: "heading", text: "AI-generated avatars and fully synthetic UGC-style content", id: "synthetic-content" },
@@ -9925,6 +9932,33 @@ const corePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "A synthetic testimonial, AI-generated speech and likeness presented as a real customer's genuine experience, crosses a line well past a disclosure technicality. It risks consumer-protection and advertising-standards issues on top of the platform violations, and should not be produced regardless of how convincing the technology has become. If you want the efficiency of AI-assisted production, apply it to real creator content, not to fabricating a customer who doesn't exist.",
+      },
+      { type: "heading", text: "India's 2026 rules on synthetic content", id: "india-rules" },
+      {
+        type: "paragraph",
+        text: "In India, the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026, in force from 20 February 2026, bring synthetically generated audio, visual and audio-visual content that appears real within platforms' due-diligence obligations, including prominent labelling. The duties fall mainly on platforms, which ask users to declare synthetic content at upload; brands and creators should declare honestly, never strip labels, and keep the sponsorship disclosure as well. ASCI's influencer guidelines separately expect virtual influencers to tell consumers they are not interacting with a real person. These rules are recent and may be refined; check current guidance before each campaign. AI disclosure for creators sets out the rules in more detail.",
+        links: [{ text: "AI disclosure for creators", href: "/blog/ai-disclosure-creators" }],
+      },
+      { type: "heading", text: "A brand checklist before using AI in creator content", id: "ai-checklist" },
+      {
+        type: "list",
+        items: [
+          "Which category is it: a creator using AI tools on real content, AI-generated content, or a synthetic or virtual creator? Each needs different handling",
+          "Does any AI-altered visual change how the product looks or performs? If so, don't use it; results shown must be real",
+          "Is any real person's face, voice or likeness generated or altered? Get written consent, or don't do it",
+          "Is the synthetic or altered content labelled where platform rules and Indian requirements expect it, in addition to the ad disclosure?",
+          "Does the creator agreement say what AI use is allowed, and who owns AI-assisted output?",
+          "Has a person reviewed the final asset for claims, accuracy and anything that reads as deceptive?",
+          "Would your audience feel misled if they learned how the content was made? If yes, change the content or the disclosure",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The wider use of AI in planning and managing creator campaigns, as opposed to making content, is covered in AI influencer marketing, and the choice between virtual and human creators in AI influencers vs human creators.",
+        links: [
+          { text: "AI influencer marketing", href: "/blog/ai-influencer-marketing" },
+          { text: "AI influencers vs human creators", href: "/blog/ai-influencers-vs-human-creators" },
+        ],
       },
       { type: "heading", text: "Copyright and IP considerations", id: "copyright-ip-ai" },
       {
@@ -13104,7 +13138,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "When brands should use affiliate marketing", id: "when-affiliate-marketing" },
       {
         type: "paragraph",
-        text: "Choose affiliate marketing when the goal is driving measurable, attributed conversions with lower upfront financial risk, particularly useful for e-commerce brands with a clear, trackable purchase path.",
+        text: "Choose affiliate marketing when the goal is driving measurable, attributed conversions with lower upfront financial risk, particularly useful for e-commerce brands with a clear, trackable purchase path. How to set up and run one with creators is covered in influencer affiliate programs for brands.",
+        links: [{ text: "influencer affiliate programs for brands", href: "/blog/influencer-affiliate-program" }],
       },
       { type: "heading", text: "When brands should use both together", id: "when-both-together" },
       {
@@ -13163,8 +13198,13 @@ const corePosts: BlogPost[] = [
     excerpt:
       "How creator content supports each stage of the customer journey, from first discovery through conversion and long-term retention, and how content and creator selection should change at each stage.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    metaDescription: "The influencer marketing funnel: which creators and formats support awareness, consideration, conversion and retention, with KPIs for each stage.",
     publishedAt: "2026-09-12",
+    updatedAt: "2026-10-08",
     readingTime: "9 min read",
+    tags: ["influencer marketing funnel", "full-funnel influencer marketing", "influencer marketing consideration stage", "creator marketing customer journey"],
+    related: ["influencer-marketing-brand-awareness", "influencer-marketing-sales", "influencer-marketing-customer-retention"],
+    hero: { src: "/blog/brand-guides/influencer-marketing-funnel.svg", alt: "Influencer marketing funnel from awareness through consideration and conversion to retention, with creator formats and measures for each stage" },
     body: [
       {
         type: "paragraph",
@@ -13196,6 +13236,22 @@ const corePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Here the customer knows the brand exists and is weighing whether it's actually right for them. Genuine reviews, product demonstrations, comparisons against alternatives, and educational content that addresses a specific hesitation work better than broad awareness content, since the audience is now asking pointed questions a general introduction doesn't answer.",
+      },
+      {
+        type: "table",
+        headers: ["Hesitation at consideration", "Creator content that answers it", "Signal it worked"],
+        rows: [
+          ["Will it work for someone like me?", "Creators with a similar skin type, budget, city or job showing real use", "Questions in comments, saves, profile and site visits"],
+          ["Is it better than what I use now?", "Fair comparisons and switching stories", "Comparison searches, time on product pages"],
+          ["How do I actually use it?", "Demonstrations, tutorials, routines", "Saves, repeat views, fewer support questions"],
+          ["Is it worth the price?", "Long-term updates and honest pros and cons", "Branded search, add-to-cart from creator traffic"],
+          ["Can I trust this brand?", "Behind-the-scenes, specialists and repeat creators", "Sentiment in comments, direct traffic"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Consideration is where specialists and mid-tier creators who explain well usually earn their fee, and where longer formats and repeat appearances matter more than reach. Judge it on engaged attention and intent signals rather than sales; the conversion stage below has its own measures. Planning around creators' own stories rather than brand scripts often helps here; see creator-led campaigns.",
+        links: [{ text: "creator-led campaigns", href: "/blog/creator-led-campaigns" }],
       },
       { type: "heading", text: "Conversion: links, codes, and creator-led offers", id: "funnel-conversion" },
       {
@@ -13407,8 +13463,9 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "From awareness to demand", id: "from-awareness-to-demand" },
       {
         type: "paragraph",
-        text: "Awareness is the top of the funnel; if the same campaign also needs to produce leads or sales, plan those paths separately, as covered in influencer marketing for lead generation and influencer marketing for sales. Kudozz's social campaigns service plans multi-creator awareness campaigns with staggered publishing so reach compounds.",
+        text: "Awareness is the top of the funnel (the full influencer marketing funnel shows how consideration and conversion follow); if the same campaign also needs to produce leads or sales, plan those paths separately, as covered in influencer marketing for lead generation and influencer marketing for sales. Kudozz's social campaigns service plans multi-creator awareness campaigns with staggered publishing so reach compounds.",
         links: [
+          { text: "the full influencer marketing funnel", href: "/blog/influencer-marketing-funnel" },
           { text: "influencer marketing for lead generation", href: "/blog/influencer-marketing-lead-generation" },
           { text: "influencer marketing for sales", href: "/blog/influencer-marketing-sales" },
           { text: "social campaigns service", href: "/services/social-campaigns" },
@@ -13991,7 +14048,8 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Performance-only compensation, with no base fee at all, tends to work only for creators already comfortable with that risk, typically those running affiliate-style content as a regular part of their business, not as a default structure for every collaboration.",
+        text: "Performance-only compensation, with no base fee at all, tends to work only for creators already comfortable with that risk, typically those running affiliate-style content as a regular part of their business, not as a default structure for every collaboration. Designing results-based terms is covered in performance-based influencer marketing.",
+        links: [{ text: "performance-based influencer marketing", href: "/blog/performance-based-influencer-marketing" }],
       },
       { type: "heading", text: "When payment happens: advance, milestone, or post-campaign", id: "payment-timing" },
       {
@@ -26101,6 +26159,7 @@ const corePosts: BlogPost[] = [
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-09-06",
     lastReviewed: "September 2026",
+    updatedAt: "2026-10-08",
     readingTime: "9 min read",
     tags: ["influencer marketing ecommerce", "ecommerce influencer marketing India", "influencer marketing for online stores", "sale event influencer campaign", "marketplace influencer tracking"],
     related: ["influencer-marketing-sales", "ugc-content-ecommerce", "instagram-partnership-ads"],
@@ -26135,10 +26194,31 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "Bio links, Story links, and description links remain the most direct way to move a creator's audience to a product page, and should be tagged with UTM parameters so traffic and downstream conversion can be attributed back to the specific creator and post.",
       },
-      { type: "heading", text: "Social commerce", id: "social-commerce-ecommerce" },
+      { type: "heading", text: "Creator commerce and social commerce", id: "social-commerce-ecommerce" },
       {
         type: "paragraph",
-        text: "Where platform-native shopping features are available, such as tagged products in posts and Reels or in-app checkout, they can shorten the path from discovery to purchase considerably, and are worth using where a brand's platform and catalog setup supports them.",
+        text: "Creator commerce is the chain from a creator's recommendation to a completed order, and ideally a repeat one. Social commerce is the part of that chain that happens inside social platforms, through product tags, shopping features or live selling. For brands, the practical job is making every step of the chain work, and knowing where it breaks:",
+      },
+      {
+        type: "table",
+        headers: ["Step", "What makes it work", "Where it breaks"],
+        rows: [
+          ["Discovery", "Creators whose audience already shops your category", "Reach outside your market or price point"],
+          ["Recommendation", "Honest demonstration, comparison and real use", "Scripted claims audiences don't believe"],
+          ["Path to product", "A link, code, product tag or storefront that opens on the right product", "Links to a homepage, or out-of-stock products"],
+          ["Checkout", "Payment and delivery options your customers expect, including cash on delivery where relevant", "Price or delivery surprises at checkout"],
+          ["Attribution", "Codes, links, platform affiliate tools and marketplace reports read together", "Relying on one signal that misses marketplace and later purchases"],
+          ["Repeat purchase", "Post-purchase content, creators revisiting the product, retention offers", "Treating the first order as the end"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Platform shopping and affiliate features differ by platform and market and change often, so confirm what's available in India before building a campaign around one; YouTube Shopping's affiliate program for Indian creators is one example. Where platform-native tagging or checkout is available for your catalog, it shortens the path from discovery to purchase. Running commission-based creators as a standing channel is covered in influencer affiliate programs, and paying booked creators for results in performance-based influencer marketing.",
+        links: [
+          { text: "YouTube Shopping's affiliate program for Indian creators", href: "/blog/youtube-shopping-india-creators" },
+          { text: "influencer affiliate programs", href: "/blog/influencer-affiliate-program" },
+          { text: "performance-based influencer marketing", href: "/blog/performance-based-influencer-marketing" },
+        ],
       },
       { type: "heading", text: "Creator discount codes", id: "discount-codes-ecommerce" },
       {
@@ -29971,7 +30051,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "10. Performance-based compensation", id: "performance-based" },
       {
         type: "paragraph",
-        text: "Some creators work partly or fully on performance terms: a lower base fee plus a commission on trackable sales through an affiliate link or promo code. This can lower upfront risk for the brand but should still include a fair base rate for the creator's time and content production.",
+        text: "Some creators work partly or fully on performance terms: a lower base fee plus a commission on trackable sales through an affiliate link or promo code. This can lower upfront risk for the brand but should still include a fair base rate for the creator's time and content production. How to structure these deals, define conversions and set rates is covered in performance-based influencer marketing.",
+        links: [{ text: "performance-based influencer marketing", href: "/blog/performance-based-influencer-marketing" }],
       },
       { type: "subheading", text: "Payment models compared" },
       {
@@ -31513,13 +31594,13 @@ const corePosts: BlogPost[] = [
     title: "How to Build a Long-Term Influencer Partnership Program",
     seoTitle: "Influencer Partnership Programs and Retainers",
     excerpt:
-      "The difference between a one-off campaign, a long-term partnership, and a formal ambassador program — the practical relationship-building work, compensation structures, and criteria for deciding which creators are worth it.",
+      "The difference between a one-off campaign, a long-term partnership, and a formal ambassador program: the practical relationship-building work, compensation structures, and criteria for deciding which creators are worth it.",
     metaDescription: "Build a long-term influencer partnership program: choosing partners, trust, compensation and retainers, rights, measurement and scaling into a program.",
     author: { name: "Kudozz Partnerships Team", role: "Agency Team" },
     publishedAt: "2026-09-17",
-    updatedAt: "2026-10-01",
-    lastReviewed: "September 2026",
-    readingTime: "10 min read",
+    updatedAt: "2026-10-08",
+    lastReviewed: "October 2026",
+    readingTime: "12 min read",
     tags: ["influencer partnership program", "influencer retainer", "long-term influencer partnerships", "creator partnership program", "influencer retainer agreement"],
     hero: { src: "/blog/brand-guides/influencer-partnerships.svg", alt: "Long-term influencer partnership program: creators graduating from one-off campaigns to retainers, shared goals and quarterly reviews" },
     body: [
@@ -31531,15 +31612,40 @@ const corePosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "One-time campaign — a single, defined engagement with clear start and end dates, and no expectation of renewal",
-          "Long-term partnership — a less formal, ongoing relationship with a creator who's worked with the brand more than once, without a fixed program structure",
-          "Brand ambassador program — a formalized, structured version of a long-term partnership, typically with tiered incentives, a defined cadence, and a program-wide framework applied across multiple creators",
+          "One-time campaign: a single, defined engagement with clear start and end dates, and no expectation of renewal",
+          "Long-term partnership: a less formal, ongoing relationship with a creator who's worked with the brand more than once, without a fixed program structure",
+          "Brand ambassador program: a formalized, structured version of a long-term partnership, typically with tiered incentives, a defined cadence, and a program-wide framework applied across multiple creators",
         ],
       },
       {
         type: "paragraph",
         text: "This article focuses on the relationship-building work that moves a creator from the first category into the second. For the operational structure of formalizing that into a program, see building a brand ambassador program that lasts.",
         links: [{ text: "building a brand ambassador program that lasts", href: "/blog/brand-ambassador-program" }],
+      },
+      { type: "subheading", text: "Which partnership model fits?" },
+      {
+        type: "table",
+        headers: ["Model", "What it is", "Makes sense when", "Measured on"],
+        rows: [
+          ["One-off campaign", "One brief, one set of deliverables", "Testing creators, a single moment", "The campaign KPI"],
+          ["Campaign burst", "Many creators posting in a short window", "Launches, sale events, festivals", "Reach and results in the window"],
+          ["Always-on program", "A continuous calendar with a creator roster", "The channel is proven and content is needed every month", "Monthly cost per result, content output"],
+          ["Retainer", "A monthly or quarterly fee for agreed ongoing deliverables", "A specific creator consistently performs", "Results and reliability per period"],
+          ["Long-term partnership", "Repeated work with one creator, formal or not", "Fit and trust are proven over several campaigns", "Results over time, audience response to repeat appearances"],
+          ["Ambassador program", "A structured group with tiers, cadence and benefits", "You want a recognizable roster associated with the brand", "Program-level results, retention of ambassadors"],
+          ["Creator community", "A wider group of creators and customers engaged without fixed deliverables", "Seeding, feedback and organic advocacy", "Organic content, participation, conversion to paid partners"],
+          ["Affiliate program", "Commission on tracked sales, open to qualifying creators", "Sales-led brands with trackable checkout", "Active affiliates, contribution after commission"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Each model has its own guide: always-on influencer marketing, influencer ambassador programs, influencer affiliate programs and repeat influencer collaborations. A creator partnership program is the combination you run: usually an always-on roster, a few retained or ambassador partners, and campaigns and an affiliate tier around them.",
+        links: [
+          { text: "always-on influencer marketing", href: "/blog/always-on-influencer-marketing" },
+          { text: "influencer ambassador programs", href: "/blog/brand-ambassador-program" },
+          { text: "influencer affiliate programs", href: "/blog/influencer-affiliate-program" },
+          { text: "repeat influencer collaborations", href: "/blog/repeat-influencer-collaborations" },
+        ],
       },
       { type: "heading", text: "How to identify creators worth a long-term relationship", id: "identifying-suitable-partners" },
       {
@@ -31565,17 +31671,18 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Building trust over multiple collaborations", id: "building-trust" },
       {
         type: "paragraph",
-        text: "Trust builds through consistency on both sides — paying on time, giving honest feedback, and following through on stated future opportunities. Creators notice which brands treat the relationship seriously after the first invoice is paid, and which ones disappear until the next campaign need arises.",
+        text: "Trust builds through consistency on both sides: paying on time, giving honest feedback, and following through on stated future opportunities. Creators notice which brands treat the relationship seriously after the first invoice is paid, and which ones disappear until the next campaign need arises.",
       },
       { type: "heading", text: "Creating a mutually beneficial relationship", id: "mutually-beneficial" },
       {
         type: "paragraph",
-        text: "For the brand, the benefit is content that improves over time as the creator understands the product and voice more deeply, plus lower relationship-building cost per campaign. For the creator, the benefit is more predictable income, creative trust, and — for their audience — content that feels less like a rotating door of unrelated sponsorships.",
+        text: "For the brand, the benefit is content that improves over time as the creator understands the product and voice more deeply, plus lower relationship-building cost per campaign. For the creator, the benefit is more predictable income, creative trust, and (for their audience) content that feels less like a rotating door of unrelated sponsorships.",
       },
       { type: "heading", text: "Giving creators creative flexibility as the relationship matures", id: "creative-flexibility" },
       {
         type: "paragraph",
-        text: "Established partners have usually earned more creative latitude than a brand-new collaborator — briefs can get shorter and more outcome-focused over time as trust builds, rather than staying as detailed as the very first engagement.",
+        text: "Established partners have usually earned more creative latitude than a brand-new collaborator; briefs can get shorter and more outcome-focused over time as trust builds, rather than staying as detailed as the very first engagement. Campaigns built around creators' own ideas are covered in creator-led campaigns.",
+        links: [{ text: "creator-led campaigns", href: "/blog/creator-led-campaigns" }],
       },
       { type: "heading", text: "Compensation structures for long-term partnerships", id: "compensation-structures" },
       {
@@ -31644,18 +31751,18 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Measuring partnership success over time", id: "measuring-partnership-success" },
       {
         type: "paragraph",
-        text: "Judge a long-term partnership on the trend across collaborations — is engagement or conversion holding steady or improving — rather than any single post in isolation, using the same KPI framework applied to individual campaigns.",
+        text: "Judge a long-term partnership on the trend across collaborations (is engagement or conversion holding steady or improving) rather than any single post in isolation, using the same KPI framework applied to individual campaigns.",
         links: [{ text: "the same KPI framework", href: "/blog/measuring-influencer-campaign-roi" }],
       },
       { type: "heading", text: "Renewing or ending a partnership", id: "renewing-or-ending" },
       {
         type: "paragraph",
-        text: "Review the relationship on a set cadence rather than letting it continue by default or end by silence. If performance has genuinely declined, a direct conversation about what's changed is more useful — and more respectful to both sides — than quietly not renewing.",
+        text: "Review the relationship on a set cadence rather than letting it continue by default or end by silence. If performance has genuinely declined, a direct conversation about what's changed is more useful (and more respectful to both sides) than quietly not renewing.",
       },
       { type: "heading", text: "Scaling from one partnership to a creator program", id: "scaling-to-a-program" },
       {
         type: "paragraph",
-        text: "Once you have several long-term relationships running informally, a structured ambassador program adds consistency — the same incentive tiers and expectations across every partner, rather than a different informal arrangement with each one. Our full guide to structuring that is in building a brand ambassador program that lasts.",
+        text: "Once you have several long-term relationships running informally, a structured ambassador program adds consistency: the same incentive tiers and expectations across every partner, rather than a different informal arrangement with each one. Our full guide to structuring that is in building a brand ambassador program that lasts.",
         links: [{ text: "building a brand ambassador program that lasts", href: "/blog/brand-ambassador-program" }],
       },
       {
@@ -31739,22 +31846,22 @@ const corePosts: BlogPost[] = [
       {
         question: "How many campaigns should a creator complete before considering a long-term partnership?",
         answer:
-          "Two to three successful collaborations is a reasonable signal — enough to see consistency in quality and communication without waiting so long that a good creator has moved on to a more attentive brand.",
+          "Two to three successful collaborations is a reasonable signal, enough to see consistency in quality and communication without waiting so long that a good creator has moved on to a more attentive brand.",
       },
       {
         question: "Do long-term partnerships cost more than one-off campaigns?",
         answer:
-          "Not necessarily per campaign — many long-term arrangements are negotiated at a more favorable rate than repeated one-off deals, since the creator values relationship stability as well as payment.",
+          "Not necessarily per campaign; many long-term arrangements are negotiated at a more favorable rate than repeated one-off deals, since the creator values relationship stability as well as payment.",
       },
       {
         question: "What's the difference between a long-term partnership and a brand ambassador program?",
         answer:
-          "A long-term partnership is an informal, ongoing relationship with an individual creator. An ambassador program is a formalized structure — usually with tiered incentives and consistent terms — applied across multiple creators at once.",
+          "A long-term partnership is an informal, ongoing relationship with an individual creator. An ambassador program is a formalized structure (usually with tiered incentives and consistent terms) applied across multiple creators at once.",
       },
       {
         question: "Can a long-term partnership end amicably?",
         answer:
-          "Yes, and it should be handled directly — a clear conversation about changing priorities or budget preserves the relationship for potential future work, which an abrupt silence does not.",
+          "Yes, and it should be handled directly: a clear conversation about changing priorities or budget preserves the relationship for potential future work, which an abrupt silence does not.",
       },
     ],
   },
@@ -32232,7 +32339,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Keeping creative direction from becoming a script", id: "creative-direction-without-scripting" },
       {
         type: "paragraph",
-        text: "Describe the outcome you want, not the words to get there. 'Show how easy the setup is in under 15 seconds' gives a creator room to demonstrate this in their own style. 'Say: this setup only took me 15 seconds' does not.",
+        text: "Describe the outcome you want, not the words to get there. 'Show how easy the setup is in under 15 seconds' gives a creator room to demonstrate this in their own style. 'Say: this setup only took me 15 seconds' does not. When you want creators to originate the idea itself, see creator-led campaigns.",
+        links: [{ text: "creator-led campaigns", href: "/blog/creator-led-campaigns" }],
       },
       { type: "heading", text: "A short example", id: "a-short-example" },
       {

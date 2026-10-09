@@ -21,6 +21,7 @@ export const technologyAiPosts: BlogPost[] = [
       "How brands can use AI in influencer marketing: discovery, matching, briefs, content review and reporting, what still needs human judgment, and how to start.",
     author: AUTHOR,
     publishedAt: TECH_PUBLISHED,
+    updatedAt: "2026-10-08",
     lastReviewed: TECH_REVIEWED,
     readingTime: "10 min read",
     tags: ["AI influencer marketing", "AI in influencer marketing", "AI for creator campaigns", "influencer marketing AI tools", "AI campaign planning"],
@@ -174,8 +175,9 @@ export const technologyAiPosts: BlogPost[] = [
       { type: "heading", text: "Disclosure, AI content and compliance", id: "compliance" },
       {
         type: "paragraph",
-        text: "Using AI behind the scenes (to research, rank or draft) doesn't change disclosure rules: a paid post still needs a clear, upfront label under ASCI's influencer guidelines. If content itself is AI-generated or a virtual character is used, ASCI's guidelines also require telling consumers they aren't interacting with a real person. Platforms label some AI-generated media too. Influencer marketing compliance covers the full pre-publish checklist.",
+        text: "Using AI behind the scenes (to research, rank or draft) doesn't change disclosure rules: a paid post still needs a clear, upfront label under ASCI's influencer guidelines. If content itself is AI-generated or a virtual character is used, ASCI's guidelines also require telling consumers they aren't interacting with a real person. Platforms label some AI-generated media too, and India's 2026 IT Rules amendment requires platforms to label synthetic audio and video that appears real. Influencer marketing compliance covers the full pre-publish checklist, and AI and UGC marketing covers AI-generated creator content, authenticity and its risks.",
         links: [
+          { text: "AI and UGC marketing", href: "/blog/ai-ugc-marketing" },
           { text: "ASCI's influencer guidelines", href: SOURCES.asciGuidelines },
           { text: "Influencer marketing compliance", href: "/blog/influencer-marketing-compliance" },
         ],

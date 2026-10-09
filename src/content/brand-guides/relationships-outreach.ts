@@ -951,7 +951,8 @@ export const relationshipsOutreachPosts: BlogPost[] = [
       { type: "heading", text: "Performance-based pay, fairly", id: "performance-pay" },
       {
         type: "paragraph",
-        text: "Commission or bonus elements can align incentives, but they shift risk to the creator. Keep them fair:",
+        text: "Commission or bonus elements can align incentives, but they shift risk to the creator. Structures, conversion definitions and rate-setting are covered in performance-based influencer deals. To keep them fair:",
+        links: [{ text: "performance-based influencer deals", href: "/blog/performance-based-influencer-marketing" }],
       },
       {
         type: "list",

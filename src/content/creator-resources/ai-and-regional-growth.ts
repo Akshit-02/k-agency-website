@@ -346,9 +346,11 @@ export const aiAndRegionalGrowthPosts: BlogPost[] = [
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,
+    updatedAt: "2026-10-08",
     readingTime: "12 min read",
-    tags: ["AI influencers vs human creators", "virtual influencers India", "AI influencer marketing", "virtual influencer disclosure", "synthetic creators", "human creators value"],
-    related: ["ai-disclosure-creators", "ai-for-creator-brand-collaborations", "how-to-build-authority-as-a-creator"],
+    tags: ["AI influencers vs human creators", "virtual influencers India", "virtual influencer marketing", "virtual influencer disclosure", "synthetic creators", "human creators value"],
+    related: ["ai-disclosure-creators", "ai-ugc-marketing", "ai-influencer-marketing"],
+    hero: { src: "/blog/brand-guides/ai-influencers-vs-human-creators.svg", alt: "Choosing between virtual influencers and human creators: brand fit, control, trust, disclosure and measurement" },
     body: [
       {
         type: "paragraph",
@@ -442,6 +444,24 @@ export const aiAndRegionalGrowthPosts: BlogPost[] = [
         type: "paragraph",
         text: "For brands: state of the creator economy 2026.",
         links: [{ text: "state of the creator economy 2026", href: "/blog/state-of-the-creator-economy-2026" }],
+      },
+      { type: "subheading", text: "If a brand does work with a virtual creator" },
+      {
+        type: "list",
+        items: [
+          "Who owns and operates the persona: a studio, an agency or a brand? Contract with whoever controls the account and the character",
+          "Plan two disclosures: that the content is an ad, and that the creator is not a real person",
+          "Don't let the persona claim personal experience of a product it can't have, such as how a serum felt or how a meal tasted",
+          "Agree how the persona's look, voice and storylines can be used, and who approves new content",
+          "Check audience authenticity just as you would for a human creator; synthetic personas can have inflated followings too",
+          "Agree what happens if the persona's operator changes direction, sells the account or is involved in controversy",
+          "Measure against the same objective you'd use for human creators, not novelty",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Brands using AI elsewhere in creator content, from edits to fully synthetic assets, can read AI and UGC marketing for the brand-side checklist.",
+        links: [{ text: "AI and UGC marketing", href: "/blog/ai-ugc-marketing" }],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
