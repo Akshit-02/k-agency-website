@@ -125,7 +125,7 @@ export function articleSchema(post: BlogPost, url: string) {
     ...(post.mentions && post.mentions.length > 0
       ? { mentions: post.mentions.map((m) => ({ "@type": "Organization", name: m.name, url: m.url })) }
       : {}),
-    inLanguage: "en-IN",
+    inLanguage: post.inLanguage ?? "en-IN",
     author: {
       "@type": "Organization",
       name: post.author.name,

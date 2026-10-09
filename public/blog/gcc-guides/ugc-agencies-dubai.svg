@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Scorecard for comparing UGC partners: portfolio, creative process, creator sourcing, turnaround, licensing, reporting</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">COMPARING UGC PARTNERS IN DUBAI</text>
+<rect x="82" y="162" width="456" height="160" fill="#150F0B"/>
+<rect x="70" y="150" width="456" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="198" font-size="24" font-weight="700" fill="#FAF1E2">Portfolio</text>
+<text x="92" y="240" font-size="19" fill="#FAF1E2" opacity=".85">Your category</text>
+<text x="92" y="270" font-size="19" fill="#FAF1E2" opacity=".85">and formats</text>
+<rect x="584" y="162" width="456" height="160" fill="#150F0B"/>
+<rect x="572" y="150" width="456" height="160" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="594" y="198" font-size="24" font-weight="700" fill="#150F0B">Creative process</text>
+<text x="594" y="240" font-size="19" fill="#150F0B" opacity=".85">Built for testing</text>
+<rect x="1086" y="162" width="456" height="160" fill="#150F0B"/>
+<rect x="1074" y="150" width="456" height="160" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1096" y="198" font-size="24" font-weight="700" fill="#FAF1E2">Creator sourcing</text>
+<text x="1096" y="240" font-size="19" fill="#FAF1E2" opacity=".85">Arabic, English,</text>
+<text x="1096" y="270" font-size="19" fill="#FAF1E2" opacity=".85">community languages</text>
+<rect x="82" y="366" width="456" height="160" fill="#150F0B"/>
+<rect x="70" y="354" width="456" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="402" font-size="24" font-weight="700" fill="#150F0B">Turnaround</text>
+<text x="92" y="444" font-size="19" fill="#150F0B" opacity=".85">Drafts, revisions,</text>
+<text x="92" y="474" font-size="19" fill="#150F0B" opacity=".85">peak capacity</text>
+<rect x="584" y="366" width="456" height="160" fill="#150F0B"/>
+<rect x="572" y="354" width="456" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="594" y="402" font-size="24" font-weight="700" fill="#150F0B">Licensing</text>
+<text x="594" y="444" font-size="19" fill="#150F0B" opacity=".85">Channels, term,</text>
+<text x="594" y="474" font-size="19" fill="#150F0B" opacity=".85">territory, edits</text>
+<rect x="1086" y="366" width="456" height="160" fill="#150F0B"/>
+<rect x="1074" y="354" width="456" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1096" y="402" font-size="24" font-weight="700" fill="#FAF1E2">Reporting</text>
+<text x="1096" y="444" font-size="19" fill="#FAF1E2" opacity=".85">Learn by hook</text>
+<text x="1096" y="474" font-size="19" fill="#FAF1E2" opacity=".85">and angle</text>
+</svg>

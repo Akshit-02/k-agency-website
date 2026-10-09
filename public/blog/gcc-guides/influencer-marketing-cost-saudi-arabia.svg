@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Components of a Saudi influencer campaign budget in SAR beyond the creator fee</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">WHAT A SAUDI CAMPAIGN COSTS</text>
+<rect x="70" y="180" width="292" height="300" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="228" font-size="23" font-weight="700" fill="#150F0B">Creator fees</text>
+<text x="90" y="270" font-size="19" fill="#150F0B" opacity=".9">Quotes for</text>
+<text x="90" y="300" font-size="19" fill="#150F0B" opacity=".9">your brief</text>
+<rect x="362" y="180" width="292" height="300" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="382" y="228" font-size="23" font-weight="700" fill="#150F0B">Rights + exclusivity</text>
+<text x="382" y="270" font-size="19" fill="#150F0B" opacity=".9">Ads, channels,</text>
+<text x="382" y="300" font-size="19" fill="#150F0B" opacity=".9">territory</text>
+<rect x="654" y="180" width="292" height="300" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="674" y="228" font-size="23" font-weight="700" fill="#150F0B">Production</text>
+<text x="674" y="270" font-size="19" fill="#150F0B" opacity=".9">Shoots, travel,</text>
+<text x="674" y="300" font-size="19" fill="#150F0B" opacity=".9">Arabic review</text>
+<rect x="946" y="180" width="292" height="300" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="966" y="228" font-size="23" font-weight="700" fill="#FAF1E2">Amplification</text>
+<text x="966" y="270" font-size="19" fill="#FAF1E2" opacity=".9">Ad spend behind</text>
+<text x="966" y="300" font-size="19" fill="#FAF1E2" opacity=".9">creator content</text>
+<rect x="1238" y="180" width="292" height="300" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1258" y="228" font-size="23" font-weight="700" fill="#FAF1E2">Agency + VAT</text>
+<text x="1258" y="270" font-size="19" fill="#FAF1E2" opacity=".9">Management fee,</text>
+<text x="1258" y="300" font-size="19" fill="#FAF1E2" opacity=".9">15% VAT</text>
+<path d="M90 520 L1500 520" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<text x="90" y="555" font-size="19" fill="#150F0B" opacity=".75">The headline post price</text>
+<text x="1500" y="555" font-size="19" text-anchor="end" fill="#150F0B" opacity=".75">The real campaign cost</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Saudi Arabia and the UAE compared for influencer campaigns</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">SAUDI ARABIA VS UAE</text>
+<rect x="470" y="140" width="500" height="64" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="720" y="182" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Saudi Arabia</text>
+<rect x="1010" y="140" width="500" height="64" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="1260" y="182" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">UAE</text>
+<text x="70" y="264" font-size="21" font-weight="700" fill="#150F0B">Audience</text>
+<rect x="470" y="224" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="260" font-size="20" fill="#150F0B">Majority Saudi nationals</text>
+<rect x="1010" y="224" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="260" font-size="20" fill="#150F0B">Large expatriate majority</text>
+<text x="70" y="332" font-size="21" font-weight="700" fill="#150F0B">Language</text>
+<rect x="470" y="292" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="328" font-size="20" fill="#150F0B">Arabic, Saudi dialects</text>
+<rect x="1010" y="292" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="328" font-size="20" fill="#150F0B">English, Arabic, many others</text>
+<text x="70" y="400" font-size="21" font-weight="700" fill="#150F0B">Platform weight</text>
+<rect x="470" y="360" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="396" font-size="20" fill="#150F0B">Snapchat, X, YouTube, TikTok</text>
+<rect x="1010" y="360" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="396" font-size="20" fill="#150F0B">Instagram, TikTok, LinkedIn</text>
+<text x="70" y="468" font-size="21" font-weight="700" fill="#150F0B">Licence</text>
+<rect x="470" y="428" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="464" font-size="20" fill="#150F0B">Mawthooq (GAMR)</text>
+<rect x="1010" y="428" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="464" font-size="20" fill="#150F0B">Advertiser Permit (NMA)</text>
+<text x="70" y="536" font-size="21" font-weight="700" fill="#150F0B">Currency, VAT</text>
+<rect x="470" y="496" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="532" font-size="20" fill="#150F0B">SAR, 15%</text>
+<rect x="1010" y="496" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="532" font-size="20" fill="#150F0B">AED, 5%</text>
+</svg>

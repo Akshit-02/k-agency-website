@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Splitting a GCC influencer budget evenly compared with allocating by market role</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">GCC BUDGET ALLOCATION</text>
+<rect x="470" y="140" width="500" height="64" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="720" y="182" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Even split</text>
+<rect x="1010" y="140" width="500" height="64" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="1260" y="182" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Allocate by role</text>
+<text x="70" y="264" font-size="21" font-weight="700" fill="#150F0B">Basis</text>
+<rect x="470" y="224" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="260" font-size="20" fill="#150F0B">Population or equal shares</text>
+<rect x="1010" y="224" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="260" font-size="20" fill="#150F0B">Lead, test, maintain, skip</text>
+<text x="70" y="332" font-size="21" font-weight="700" fill="#150F0B">Costs</text>
+<rect x="470" y="292" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="328" font-size="20" fill="#150F0B">Creator fees only</text>
+<rect x="1010" y="292" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="328" font-size="20" fill="#150F0B">Fees, rights, language, compliance</text>
+<text x="70" y="400" font-size="21" font-weight="700" fill="#150F0B">Currency</text>
+<rect x="470" y="360" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="396" font-size="20" fill="#150F0B">One total, mixed currencies</text>
+<rect x="1010" y="360" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="396" font-size="20" fill="#150F0B">Local currency, dated conversion</text>
+<text x="70" y="468" font-size="21" font-weight="700" fill="#150F0B">Reserve</text>
+<rect x="470" y="428" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="464" font-size="20" fill="#150F0B">Spent upfront</text>
+<rect x="1010" y="428" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="464" font-size="20" fill="#150F0B">15% to 25% held back</text>
+<text x="70" y="536" font-size="21" font-weight="700" fill="#150F0B">Next step</text>
+<rect x="470" y="496" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="490" y="532" font-size="20" fill="#150F0B">Repeat next quarter</text>
+<rect x="1010" y="496" width="500" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1030" y="532" font-size="20" fill="#150F0B">Reallocate on cost per result</text>
+</svg>

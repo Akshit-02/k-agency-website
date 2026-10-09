@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">An illustrative Snapchat Story arc for a Saudi creator campaign over one week</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">SNAPCHAT IN SAUDI ARABIA</text>
+<path d="M90 330 L1510 330" stroke="#150F0B" stroke-width="6"/>
+<circle cx="110" cy="330" r="20" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="110" y="270" font-size="19" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".7">Day 1</text>
+<text x="110" y="400" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Unboxing</text>
+<text x="110" y="436" font-size="19" text-anchor="start" fill="#150F0B" opacity=".8">First reaction</text>
+<circle cx="570" cy="330" r="20" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="570" y="270" font-size="19" font-weight="700" text-anchor="middle" fill="#150F0B" opacity=".7">Day 2</text>
+<text x="570" y="400" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">First use</text>
+<text x="570" y="436" font-size="19" text-anchor="middle" fill="#150F0B" opacity=".8">Real household moment</text>
+<circle cx="1030" cy="330" r="20" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1030" y="270" font-size="19" font-weight="700" text-anchor="middle" fill="#150F0B" opacity=".7">Day 4</text>
+<text x="1030" y="400" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">Follow-up</text>
+<text x="1030" y="436" font-size="19" text-anchor="middle" fill="#150F0B" opacity=".8">Answer questions</text>
+<circle cx="1490" cy="330" r="20" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1490" y="270" font-size="19" font-weight="700" text-anchor="end" fill="#150F0B" opacity=".7">Day 7</text>
+<text x="1490" y="400" font-size="24" font-weight="700" text-anchor="end" fill="#150F0B">Verdict</text>
+<text x="1490" y="436" font-size="19" text-anchor="end" fill="#150F0B" opacity=".8">Code and link</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Snapchat works through trusted, repeated, everyday recommendation.</text>
+</svg>

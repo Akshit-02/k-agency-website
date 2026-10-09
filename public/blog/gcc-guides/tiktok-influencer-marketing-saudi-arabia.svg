@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">TikTok creator campaign path in Saudi Arabia from hook to tracked conversion</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">TIKTOK IN SAUDI ARABIA</text>
+<rect x="82" y="232" width="263" height="240" fill="#150F0B"/>
+<rect x="70" y="220" width="263" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="268" font-size="24" font-weight="700" fill="#FAF1E2">Hook</text>
+<text x="92" y="310" font-size="19" fill="#FAF1E2" opacity=".85">First seconds</text>
+<text x="92" y="340" font-size="19" fill="#FAF1E2" opacity=".85">earn attention</text>
+<path d="M337 340 L363 340" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="381" y="232" width="263" height="240" fill="#150F0B"/>
+<rect x="369" y="220" width="263" height="240" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="391" y="268" font-size="24" font-weight="700" fill="#150F0B">Demonstrate</text>
+<text x="391" y="310" font-size="19" fill="#150F0B" opacity=".85">Product in</text>
+<text x="391" y="340" font-size="19" fill="#150F0B" opacity=".85">real use</text>
+<path d="M636 340 L662 340" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="680" y="232" width="263" height="240" fill="#150F0B"/>
+<rect x="668" y="220" width="263" height="240" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="690" y="268" font-size="24" font-weight="700" fill="#150F0B">Boost</text>
+<text x="690" y="310" font-size="19" fill="#150F0B" opacity=".85">Creator video</text>
+<text x="690" y="340" font-size="19" fill="#150F0B" opacity=".85">as an ad</text>
+<path d="M935 340 L961 340" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="979" y="232" width="263" height="240" fill="#150F0B"/>
+<rect x="967" y="220" width="263" height="240" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="989" y="268" font-size="24" font-weight="700" fill="#150F0B">Click</text>
+<text x="989" y="310" font-size="19" fill="#150F0B" opacity=".85">Arabic landing</text>
+<text x="989" y="340" font-size="19" fill="#150F0B" opacity=".85">page</text>
+<path d="M1234 340 L1260 340" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
+<rect x="1278" y="232" width="263" height="240" fill="#150F0B"/>
+<rect x="1266" y="220" width="263" height="240" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1288" y="268" font-size="24" font-weight="700" fill="#FAF1E2">Convert</text>
+<text x="1288" y="310" font-size="19" fill="#FAF1E2" opacity=".85">Link, code,</text>
+<text x="1288" y="340" font-size="19" fill="#FAF1E2" opacity=".85">app attribution</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Discovery is easy on TikTok. Measurable results take planning.</text>
+</svg>
