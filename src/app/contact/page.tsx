@@ -50,7 +50,7 @@ export default function ContactPage() {
             >
               campaign inquiry form
             </Link>
-            . For everything else — press, partnerships, general questions — use
+            . For everything else (press, partnerships, general questions) use
             the form below.
           </p>
         </Reveal>
@@ -70,6 +70,17 @@ export default function ContactPage() {
                   {siteConfig.contact.email}
                 </a>
               </div>
+            </Reveal>
+
+            <Reveal delay={0.08} className="border-[1.5px] border-ink p-6 text-sm text-ink/70">
+              <p className="text-xs font-semibold uppercase tracking-wide text-ink/50">Company</p>
+              <p className="mt-2">
+                {siteConfig.legalName}, registered in India. We run influencer campaigns for brands in India, the UAE,
+                Saudi Arabia, the UK, Australia and Singapore.{" "}
+                <Link href="/markets" className="underline underline-offset-4 hover:text-ink">
+                  Markets we serve
+                </Link>
+              </p>
             </Reveal>
 
             {/* <Reveal delay={0.1} className="border-[1.5px] border-ink p-6">

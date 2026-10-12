@@ -379,10 +379,10 @@ export const findBrandCollaborationPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "[Niche] creator — idea for [product]",
+          "[Niche] creator: idea for [product]",
           "[Your handle] x [Brand]: [format] concept",
           "Honest review of [product] for [audience]",
-          "[Season] content — [Brand]",
+          "[Season] content: [Brand]",
           "Re: [original subject] (for follow-ups, keep the thread)",
         ],
       },

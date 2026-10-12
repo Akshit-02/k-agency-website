@@ -7,6 +7,7 @@ import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
 import { FeaturedPost } from "@/components/blog/FeaturedPost";
 import { BlogExplorer } from "@/components/blog/BlogExplorer";
+import { toBlogCardData } from "@/components/blog/BlogCard";
 import { BlogNewsletter } from "@/components/blog/BlogNewsletter";
 
 export const metadata: Metadata = buildMetadata({
@@ -18,7 +19,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function BlogIndexPage() {
   const featured = blogPosts.find((p) => p.featured) ?? blogPosts[0];
-  const rest = blogPosts.filter((p) => p.slug !== featured.slug);
+  const rest = blogPosts.filter((p) => p.slug !== featured.slug).map(toBlogCardData);
 
   return (
     <>
@@ -35,6 +36,10 @@ export default function BlogIndexPage() {
           </Reveal>
           <Reveal delay={0.08}>
             <h1 className="mt-6 max-w-2xl font-display text-6xl leading-[0.98] tracking-tight text-balance text-ink sm:text-7xl">
+              <span className="mb-4 block font-sans text-sm font-semibold uppercase tracking-[0.16em] text-ink/60">
+                Influencer marketing blog
+                <span className="sr-only">:</span>
+              </span>
               Notes on running influencer marketing <em className="italic text-coral">well.</em>
             </h1>
           </Reveal>
@@ -50,6 +55,22 @@ export default function BlogIndexPage() {
               for media kits, pricing, contracts and brand deals.
             </p>
           </Reveal>
+          <nav aria-label="Guides by market" className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/65">
+            <span className="font-semibold text-ink">Guides by market:</span>
+            {[
+              { label: "India", href: "/blog/influencer-marketing-india" },
+              { label: "UAE", href: "/blog/influencer-marketing-uae" },
+              { label: "Saudi Arabia", href: "/blog/influencer-marketing-saudi-arabia" },
+              { label: "GCC", href: "/blog/gcc-influencer-marketing-playbook" },
+              { label: "UK", href: "/blog/influencer-marketing-uk" },
+              { label: "Australia", href: "/blog/influencer-marketing-australia" },
+              { label: "Singapore", href: "/markets/singapore" },
+            ].map((m) => (
+              <Link key={m.href} href={m.href} className="underline underline-offset-4 hover:text-coral">
+                {m.label}
+              </Link>
+            ))}
+          </nav>
         </Container>
       </section>
 

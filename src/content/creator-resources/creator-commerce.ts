@@ -239,6 +239,7 @@ export const creatorCommercePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "YouTube Shopping has become one of the fastest-growing income streams for Indian creators. YouTube reports that average affiliate payouts to creators in India grew more than 160% year over year (Q1 2025 to Q1 2026), and that more than half of eligible Indian creators had enrolled in the affiliate programme by May 2026. Here's how it works and how to decide whether it suits your channel.",
+        links: [{ text: "YouTube reports", href: "https://blog.google/intl/en-in/products/platforms/helping-indian-creators-build-thriving-businesses-on-youtube-shopping/" }],
       },
       {
         type: "paragraph",

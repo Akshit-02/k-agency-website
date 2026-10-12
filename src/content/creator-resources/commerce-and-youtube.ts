@@ -175,6 +175,7 @@ export const commerceAndYouTubePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Creator commerce is growing fast in India. YouTube, for example, reports that average affiliate payouts to Indian creators grew more than 160% year over year from Q1 2025 to Q1 2026. More importantly, audiences increasingly discover products through creators before they search a marketplace. For creators, that means income tied to what you recommend and make, not only what brands sponsor.",
+        links: [{ text: "YouTube, for example, reports", href: "https://blog.google/intl/en-in/products/platforms/helping-indian-creators-build-thriving-businesses-on-youtube-shopping/" }],
       },
       {
         type: "paragraph",

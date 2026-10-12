@@ -14,6 +14,9 @@ import { TableOfContents } from "@/components/blog/TableOfContents";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { BlogBottomCTA } from "@/components/blog/BlogBottomCTA";
 import { getBlogCtaSet } from "@/lib/blogCta";
+import { getBlogServiceLink } from "@/lib/blogServiceLink";
+import { marketPhrase } from "@/content/markets";
+import Link from "next/link";
 import { formatDate } from "@/lib/date";
 import { CREATOR_RESOURCES, creatorSectionPath, getCreatorSectionForSlug } from "@/content/creator-resources";
 
@@ -49,6 +52,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
   const related = getRelatedPosts(post);
   const url = `${siteConfig.url}/blog/${post.slug}`;
   const ctaSet = getBlogCtaSet(post);
+  const serviceLink = getBlogServiceLink(post, ctaSet);
   const isCreatorResource = post.category === CREATOR_RESOURCES.category;
   const creatorSection = getCreatorSectionForSlug(post.slug);
   const crumbs = isCreatorResource
@@ -138,7 +142,43 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
         <Container className="mt-16 max-w-5xl">
           <div className="grid gap-16 lg:grid-cols-[200px_1fr]">
             <TableOfContents blocks={post.body} />
-            <ArticleBody blocks={post.body} ctaSet={ctaSet} slug={post.slug} category={post.category} />
+            <div className="min-w-0">
+              <ArticleBody blocks={post.body} ctaSet={ctaSet} slug={post.slug} category={post.category} />
+              {serviceLink && (
+                <aside aria-label="Related Kudozz service" className="mt-12 border-t-[1.5px] border-ink pt-6 text-base text-ink/70">
+                  {serviceLink.service && (
+                    <p>
+                      <span className="font-semibold text-ink">Related Kudozz service: </span>
+                      <Link href={`/services/${serviceLink.service.slug}`} className="underline underline-offset-4 hover:text-coral">
+                        {serviceLink.service.name}
+                      </Link>
+                      . {serviceLink.service.shortDescription}
+                    </p>
+                  )}
+                  {serviceLink.market && (
+                    <p className={serviceLink.service ? "mt-2" : undefined}>
+                      {serviceLink.market === "all" ? (
+                        <>
+                          Kudozz runs campaigns in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.{" "}
+                          <Link href="/markets" className="underline underline-offset-4 hover:text-coral">
+                            See the markets we serve
+                          </Link>
+                          .
+                        </>
+                      ) : (
+                        <>
+                          Planning a campaign in {marketPhrase(serviceLink.market)}?{" "}
+                          <Link href={`/markets/${serviceLink.market.slug}`} className="underline underline-offset-4 hover:text-coral">
+                            How Kudozz works in {marketPhrase(serviceLink.market)}
+                          </Link>
+                          .
+                        </>
+                      )}
+                    </p>
+                  )}
+                </aside>
+              )}
+            </div>
           </div>
         </Container>
       </article>

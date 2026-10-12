@@ -278,10 +278,10 @@ export const growYourIncomePosts: BlogPost[] = [
       { type: "subheading", text: "3. Platform ad revenue sharing" },
       {
         type: "paragraph",
-        text: "YouTube shares ad revenue with creators in the YouTube Partner Program. The standard threshold for ad revenue is 1,000 subscribers plus either 4,000 valid public watch hours in 12 months or 10 million valid public Shorts views in 90 days. YouTube also runs a lower-threshold tier in many countries that unlocks fan funding and shopping features before ad revenue. YouTube has announced updates to the programme's terms from 1 February 2027, so check the help centre for current requirements. Other platforms run their own programmes, such as X's creator revenue sharing, with different rules and availability.",
+        text: "YouTube shares ad revenue with creators in the YouTube Partner Program. The standard threshold for ad revenue is 1,000 subscribers plus either 4,000 valid public watch hours in 12 months or 10 million valid public Shorts views in 90 days. YouTube also runs a lower-threshold tier in many countries that unlocks fan funding and shopping features before ad revenue. YouTube has announced updates to the programme's terms from 1 February 2027, so check the help centre for current requirements. Other platforms run their own programmes with different rules and availability; X, for example, replaced its creator revenue sharing with Original Content Rewards in September 2026.",
         links: [
           { text: "check the help centre", href: SOURCES.youtubePartnerProgram },
-          { text: "X's creator revenue sharing", href: "/blog/x-creator-revenue-sharing" },
+          { text: "X, for example, replaced its creator revenue sharing", href: "/blog/x-creator-revenue-sharing" },
         ],
       },
       {

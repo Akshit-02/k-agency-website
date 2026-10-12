@@ -33,6 +33,11 @@ export function BrandsHero() {
               transition={{ duration: 0.75, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
               className="mt-7 font-display text-6xl leading-[0.98] tracking-tight text-balance text-ink sm:text-7xl lg:text-8xl"
             >
+              {/* The descriptive phrase leads the H1 for search; the slogan stays the visual headline. */}
+              <span className="mb-5 block font-sans text-sm font-semibold uppercase tracking-[0.16em] text-ink/70 sm:text-base">
+                Influencer marketing services for brands
+                <span className="sr-only">:</span>
+              </span>
               Stop chasing attention. Start building <em className="italic text-coral">influence.</em>
             </motion.h1>
             <motion.p
@@ -42,7 +47,8 @@ export function BrandsHero() {
               className="mt-7 max-w-xl text-lg leading-relaxed text-ink/65 text-pretty"
             >
               We help brands identify and collaborate with the creators who already have your customer&apos;s
-              attention — then run the campaign end to end, from strategy to final report.
+              attention, then run the campaign end to end, from strategy to final report. We work with brands in
+              India, the UAE, Saudi Arabia, the UK, Australia and Singapore.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 18 }}

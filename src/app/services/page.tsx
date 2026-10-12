@@ -25,7 +25,7 @@ const hubFaqs = [
   {
     question: "How much does influencer marketing cost?",
     answer:
-      "Cost varies widely by creator tier and campaign scope. Nano and micro-creator campaigns can start in the low thousands, while multi-creator or ambassador programs with mid-tier talent typically run into the tens of thousands. We size budgets to your objective during the strategy phase rather than working from a fixed rate card.",
+      "Cost depends on creator tier, the number of creators, deliverables, usage rights, production and the markets you run in. A small nano- or micro-creator test costs far less than a multi-creator launch or an ambassador program. We size the budget to your objective during the strategy phase rather than working from a fixed rate card, and show creator and agency fees separately.",
   },
   {
     question: "How do you choose the right influencer marketing agency?",

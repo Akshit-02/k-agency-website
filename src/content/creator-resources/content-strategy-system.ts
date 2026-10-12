@@ -754,6 +754,7 @@ export const contentStrategySystemPosts: BlogPost[] = [
       "How creators distribute content: owned channels, adapted cross-posting, Stories and channels, communities, collaborations, search and promotion without spam.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-12",
     lastReviewed: CREATOR_FACTS_REVIEWED,
     readingTime: "14 min read",
     tags: ["creator content distribution", "content distribution strategy", "promote your content", "get more reach", "cross-posting", "content promotion without spamming"],
@@ -761,7 +762,7 @@ export const contentStrategySystemPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Publishing puts content on one platform, in front of whoever the algorithm chooses that day. Distribution is everything you do to make sure the right people actually see it: your own channels, adapted versions on other platforms, communities, collaborations and search. Many creators spend 90% of their effort making content and almost none distributing it, which is why good work often goes unseen.",
+        text: "Publishing puts content on one platform, in front of whoever the algorithm chooses that day. Distribution is everything you do to make sure the right people actually see it: your own channels, adapted versions on other platforms, communities, collaborations and search. Many creators put nearly all their effort into making content and very little into distributing it, which is why good work often goes unseen.",
       },
       {
         type: "paragraph",

@@ -3,7 +3,14 @@ import type { BlogPost } from "@/content/blog";
 import { BlogArticleGraphic } from "@/components/blog/BlogArticleGraphic";
 import { Reveal } from "@/components/animations/Reveal";
 
-export function BlogCard({ post, delay = 0 }: { post: BlogPost; delay?: number }) {
+/** Only the fields a card renders. Client lists (BlogExplorer) must pass this, never full posts with bodies. */
+export type BlogCardData = Pick<BlogPost, "slug" | "category" | "title" | "excerpt" | "readingTime">;
+
+export function toBlogCardData({ slug, category, title, excerpt, readingTime }: BlogPost): BlogCardData {
+  return { slug, category, title, excerpt, readingTime };
+}
+
+export function BlogCard({ post, delay = 0 }: { post: BlogCardData; delay?: number }) {
   return (
     <Reveal delay={delay}>
       <Link href={`/blog/${post.slug}`} className="group block">

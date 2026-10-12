@@ -7,7 +7,7 @@ const benefits = [
   { icon: Sparkles, title: "Work with exciting brands", body: "Access campaigns from brands across fashion, beauty, tech, finance, and more — matched to your niche.", bg: "bg-coral text-ink" },
   { icon: Layers, title: "Relevant opportunities only", body: "We match you to campaigns that fit your content and audience, not a generic mass outreach blast.", bg: "bg-violet text-paper" },
   { icon: MessageCircle, title: "Clear, professional communication", body: "Briefs, timelines, and payment terms are clear upfront — no chasing anyone for answers.", bg: "bg-lime text-ink" },
-  { icon: Users, title: "Room to grow long-term", body: "Many of our best partnerships start as a single campaign and grow into ongoing ambassador work.", bg: "bg-ink text-paper" },
+  { icon: Users, title: "Room to grow long-term", body: "When a campaign is a good fit for both sides, it can grow into ongoing ambassador work.", bg: "bg-ink text-paper" },
 ];
 
 export function Benefits() {

@@ -19,19 +19,25 @@ export function InquirySection() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="mt-6 max-w-sm text-base leading-relaxed text-paper/65">
-                No automated replies, no sales script. A member of our strategy team reads every inquiry personally
-                and responds within one business day.
+                No automated replies, no sales script. A member of our strategy team reads every inquiry personally.
               </p>
             </Reveal>
             <Reveal delay={0.15}>
-              <div className="mt-10 inline-flex items-center gap-3 bg-lime px-5 py-3 text-ink">
-                <span className="font-black-display text-2xl leading-none">24h</span>
-                <span className="text-xs font-medium uppercase leading-tight tracking-wide">
-                  Average
-                  <br />
-                  response time
-                </span>
-              </div>
+              <h3 className="mt-10 text-xs font-semibold uppercase tracking-[0.16em] text-lime">What happens next</h3>
+              <ol className="mt-4 max-w-sm space-y-3 text-sm leading-relaxed text-paper/75">
+                <li>
+                  <span className="font-semibold text-paper">1. We reply within one business day</span> to confirm we
+                  can help and ask anything missing from your brief.
+                </li>
+                <li>
+                  <span className="font-semibold text-paper">2. A short call</span> to agree the objective, the markets
+                  and audience, the timeline and a budget range.
+                </li>
+                <li>
+                  <span className="font-semibold text-paper">3. A written plan</span> with the creator approach, the
+                  KPI we&apos;ll report against, the timeline and fees, with creator and agency fees shown separately.
+                </li>
+              </ol>
             </Reveal>
             <Reveal delay={0.2}>
               <p className="mt-8 text-sm text-paper/50">

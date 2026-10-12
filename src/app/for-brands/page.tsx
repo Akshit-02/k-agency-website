@@ -21,7 +21,7 @@ const brandFaqs = [
   {
     question: "What's the minimum budget to work with Kudozz?",
     answer:
-      "There's no fixed minimum — budgets are scoped to your objective during the strategy call. Most single-campaign engagements start in the low-to-mid five figures, with ambassador programs typically structured as ongoing retainers.",
+      "There's no fixed minimum. We scope the budget to your objective, markets and creator mix on the first call, and show creator fees and agency fees separately. Single campaigns are quoted per project; ambassador programs are usually structured as ongoing retainers.",
   },
   {
     question: "Do you only work with large brands?",

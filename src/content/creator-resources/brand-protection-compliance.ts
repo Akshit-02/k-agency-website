@@ -30,7 +30,7 @@ export const brandProtectionCompliancePosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "In most creator crises, the original problem does less damage than the response. A defensive story posted at midnight, a brand partner who found out from Twitter, an apology that apologises for how people felt rather than what happened: these are communication failures, and they're avoidable.",
+        text: "In most creator crises, the original problem does less damage than the response. A defensive story posted at midnight, a brand partner who found out from X, an apology that apologises for how people felt rather than what happened: these are communication failures, and they're avoidable.",
       },
       {
         type: "paragraph",

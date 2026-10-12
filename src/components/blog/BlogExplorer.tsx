@@ -2,12 +2,13 @@
 
 import { useMemo, useState } from "react";
 import { Search } from "lucide-react";
-import type { BlogPost, BlogCategory } from "@/content/blog";
+import type { BlogCategory } from "@/content/blog";
 import { blogCategories } from "@/content/blog";
-import { BlogCard } from "@/components/blog/BlogCard";
+import { BlogCard, type BlogCardData } from "@/components/blog/BlogCard";
 import { cn } from "@/lib/utils";
 
-export function BlogExplorer({ posts }: { posts: BlogPost[] }) {
+// Props of a client component are serialised into the page, so this takes card fields only (see BlogCardData).
+export function BlogExplorer({ posts }: { posts: BlogCardData[] }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<BlogCategory | "All">("All");
 
