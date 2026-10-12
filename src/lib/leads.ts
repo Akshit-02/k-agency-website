@@ -31,6 +31,9 @@ export async function deliverBrandInquiry(payload: BrandInquiryValues): Promise<
       { label: "Message", value: payload.message ?? "" },
       { label: "Source Blog Article", value: payload.sourceArticle ?? "" },
       { label: "Source Article Category", value: payload.articleCategory ?? "" },
+      { label: "CTA Topic / Market", value: payload.ctaTopic ?? "" },
+      { label: "CTA Position", value: payload.ctaPosition ?? "" },
+      { label: "Entry Page", value: payload.leadSource ?? "" },
     ],
     source: "Kudozz Website - For Brands Form",
   });

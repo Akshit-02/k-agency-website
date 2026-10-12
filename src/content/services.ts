@@ -15,6 +15,10 @@ export type Service = {
   secondaryKeywords: string[];
   whoItsFor: string;
   deliverables: string[];
+  /** What the brand needs to provide; shown as "What we need from you". */
+  clientProvides: string[];
+  /** How the work itself is judged; shown as "How success is measured". */
+  successMeasures: string[];
   process: ProcessStep[];
   benefits: string[];
   faqs: ServiceFaq[];
@@ -41,6 +45,17 @@ export const services: Service[] = [
       "Platform and format strategy",
       "Creator tiering and budget allocation",
       "KPI framework agreed before launch",
+    ],
+    clientProvides: [
+      "Your business objective and the one metric that matters most this quarter",
+      "Who your customer is, and any customer or sales data you can share",
+      "Budget range and any fixed dates (launches, sales, festivals)",
+      "Past campaign results, if any, including what didn't work",
+    ],
+    successMeasures: [
+      "One primary KPI and target agreed in writing before outreach",
+      "Budget split by creator tier and platform with the reasoning stated",
+      "A plan your team can approve or challenge line by line",
     ],
     process: [
       { title: "Discovery Call", body: "We start with your business objective, target customer, and category — not a creator wishlist." },
@@ -97,6 +112,17 @@ export const services: Service[] = [
       "Authenticity and fraud screening",
       "Curated creator shortlists with rationale",
       "Content style and brand-fit review",
+    ],
+    clientProvides: [
+      "Your target audience: age, location, language and interests",
+      "Brands or creators you would not work with",
+      "Examples of creator content you like and dislike",
+      "Budget range per creator, if you have one",
+    ],
+    successMeasures: [
+      "Share of each creator's audience in your target market and age range",
+      "Engagement quality and authenticity checks passed",
+      "How many shortlisted creators you approve, and why others were rejected",
     ],
     process: [
       { title: "Audience-Fit Modeling", body: "We build a target audience profile from your customer data and screen candidate creators' audiences against it." },
@@ -158,6 +184,17 @@ export const services: Service[] = [
       "Deliverable and approval tracking",
       "Single point of contact for both sides",
     ],
+    clientProvides: [
+      "Approved creator shortlist and budget",
+      "Product samples or access, and shipping details",
+      "Brand guidelines, mandatory messages and claims you can substantiate",
+      "A named approver on your side and a turnaround time for drafts",
+    ],
+    successMeasures: [
+      "Creators contracted on time and within the agreed budget",
+      "Every post approved before publishing and correctly disclosed",
+      "Deliverables published on the agreed dates",
+    ],
     process: [
       { title: "Outreach & Negotiation", body: "We approach creators on your behalf and negotiate rates, deliverables, and timelines." },
       { title: "Contracting & Usage Rights", body: "Every agreement covers deliverables, timelines, and usage rights up front, before any content is produced." },
@@ -218,6 +255,17 @@ export const services: Service[] = [
       "Paid amplification guidance",
       "Real-time performance monitoring",
     ],
+    clientProvides: [
+      "Campaign objective and the KPI it is judged on",
+      "Key messages and the publishing window",
+      "Your own content calendar and paid media plans, so the two line up",
+      "Tracking links or codes, if sales are measured",
+    ],
+    successMeasures: [
+      "Results against the agreed KPI across all creators",
+      "Reach and engagement compared with the plan, by creator and platform",
+      "Which posts earned paid amplification, and how they performed",
+    ],
     process: [
       { title: "Publishing Calendar", body: "We stagger creator publishing across a defined window so reach compounds instead of hitting all at once." },
       { title: "Creative Direction", body: "We align messaging across creators while leaving room for each creator's own voice and format." },
@@ -267,6 +315,17 @@ export const services: Service[] = [
       "Embargo and exclusivity management",
       "Day-of creator coordination",
       "Post-launch content extension",
+    ],
+    clientProvides: [
+      "Launch date, product details and embargo terms",
+      "Product units or access for seeding",
+      "Launch assets and key claims you can substantiate",
+      "Retail, marketplace or site links that will be live on launch day",
+    ],
+    successMeasures: [
+      "Embargo kept and coverage published inside the launch window",
+      "Launch-day reach and engagement against plan",
+      "Traffic, sign-ups or sales attributed through links and codes, where tracked",
     ],
     process: [
       { title: "Pre-Launch Seeding", body: "We seed product with a smaller cohort ahead of launch to build early, embargoed content." },
@@ -319,6 +378,17 @@ export const services: Service[] = [
       "Usage rights for owned and paid media",
       "Organized, ready-to-deploy asset library",
     ],
+    clientProvides: [
+      "The channels the content will run on (ads, site, marketplace, email)",
+      "Shot list priorities, formats and aspect ratios",
+      "Product samples and brand guidelines",
+      "How long and where you need usage rights",
+    ],
+    successMeasures: [
+      "Assets delivered to the brief, on time, with rights cleared",
+      "Share of assets your team approves without reshoots",
+      "Paid performance of the assets (for example click-through or cost per result), measured by your ad team",
+    ],
     process: [
       { title: "Creative Brief & Shot List", body: "We define the specific shots, formats, and messaging your paid and owned channels need." },
       { title: "UGC-Specific Creator Sourcing", body: "We source creators for content style and authenticity, not their existing follower count." },
@@ -368,6 +438,17 @@ export const services: Service[] = [
       "Ambassador recruitment and onboarding",
       "Ongoing relationship management",
       "Quarterly program performance reviews",
+    ],
+    clientProvides: [
+      "The program objective and the length of commitment",
+      "Budget per quarter and incentive structure limits",
+      "Product access and any exclusivity requirements",
+      "A brand contact for quarterly reviews",
+    ],
+    successMeasures: [
+      "Content delivered on cadence each quarter",
+      "Engagement and audience trends over time, by ambassador",
+      "Ambassador retention and the results against the program KPI",
     ],
     process: [
       { title: "Program Structure & Incentives", body: "We design tiered incentives that reward consistency, not just a single deliverable." },
@@ -419,6 +500,17 @@ export const services: Service[] = [
       "Creator-level performance breakdown",
       "Post-campaign recommendations",
     ],
+    clientProvides: [
+      "The KPI agreed at kickoff and its target",
+      "Access to tracking: UTM links, promo codes, platform or store data",
+      "Creator post links, or permission for us to collect insights",
+      "Any baseline figures to compare against",
+    ],
+    successMeasures: [
+      "A report delivered on the agreed date, against the agreed KPI",
+      "Results broken down by creator, not just campaign totals",
+      "Recommendations your team acts on in the next campaign",
+    ],
     process: [
       { title: "Unified Dashboard Setup", body: "We consolidate every creator's performance into a single dashboard instead of scattered platform exports." },
       { title: "KPI-vs-Actual Tracking", body: "We track results against the specific KPI agreed at kickoff throughout the campaign." },
@@ -461,6 +553,8 @@ export function getServiceBySlug(slug: string) {
   return services.find((service) => service.slug === slug);
 }
 
+/** The next services in the list, wrapping around, so every service page links to different neighbours. */
 export function getRelatedServices(service: Service, count = 3) {
-  return services.filter((s) => s.slug !== service.slug).slice(0, count);
+  const start = services.findIndex((s) => s.slug === service.slug);
+  return Array.from({ length: count }, (_, i) => services[(start + 1 + i) % services.length]);
 }

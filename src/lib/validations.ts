@@ -41,6 +41,12 @@ export const brandInquirySchema = z.object({
   // arrived via a blog CTA — never shown to the visitor as a form field.
   sourceArticle: z.string().trim().max(200).optional(),
   articleCategory: z.string().trim().max(80).optional(),
+  // Also hidden: the CTA topic/position from ?t=/?pos= (e.g. "UAE: Campaign Planning") and, for
+  // non-blog entry points such as service and market pages, ?from= (e.g. "market:uae"), so the
+  // lead email shows which market and page the inquiry came from.
+  ctaTopic: z.string().trim().max(120).optional(),
+  ctaPosition: z.string().trim().max(40).optional(),
+  leadSource: z.string().trim().max(120).optional(),
   honeypot: honeypotField,
 });
 

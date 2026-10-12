@@ -8,9 +8,16 @@ import { brandInquirySchema, type BrandInquiryValues } from "@/lib/validations";
 import { FieldWrapper, TextInput, TextArea, SelectInput } from "@/components/forms/FormFields";
 import { FormSuccess } from "@/components/forms/FormSuccess";
 import { Button } from "@/components/ui/Button";
-import { trackBlogLeadFormEvent } from "@/lib/blogAnalytics";
+import { trackBlogLeadFormEvent, trackBrandLeadEvent } from "@/lib/blogAnalytics";
 
-const budgetOptions = ["Under $5,000", "$5,000 – $15,000", "$15,000 – $50,000", "$50,000+", "Not sure yet"];
+// Same USD buckets as before, with approximate INR so Indian and international brands can both answer.
+const budgetOptions = [
+  "Under ₹4 lakh (under US$5k)",
+  "₹4–12 lakh (US$5k–15k)",
+  "₹12–40 lakh (US$15k–50k)",
+  "₹40 lakh+ (US$50k+)",
+  "Not sure yet",
+];
 
 const campaignGoalOptions = [
   "Influencer Marketing",
@@ -54,7 +61,20 @@ const TOPIC_TO_CAMPAIGN_GOAL: Record<string, string> = {
   "AU: Product Launch": "Product Launch",
   "UK: Campaign Planning": "Campaign Management",
   "UK: Agency Selection": "Influencer Marketing",
+  "UAE: Market Page": "Influencer Marketing",
+  "KSA: Market Page": "Influencer Marketing",
+  "UK: Market Page": "Influencer Marketing",
+  "AU: Market Page": "Influencer Marketing",
+  "SG: Market Page": "Influencer Marketing",
 };
+
+/** Where the visitor entered the inquiry flow, for the lead email and GA4 `generate_lead`. */
+function resolveLeadSource(from: string | undefined, sourceArticle: string | undefined) {
+  if (from) return from;
+  if (sourceArticle === "homepage") return "homepage";
+  if (sourceArticle) return `blog:${sourceArticle}`;
+  return "for-brands";
+}
 
 export function BrandInquiryForm() {
   const [submitError, setSubmitError] = useState<string | null>(null);
@@ -63,6 +83,7 @@ export function BrandInquiryForm() {
   const articleCategory = searchParams.get("cat") ?? undefined;
   const ctaPosition = searchParams.get("pos") ?? undefined;
   const ctaTopic = searchParams.get("t") ?? undefined;
+  const leadSource = resolveLeadSource(searchParams.get("from") ?? undefined, sourceArticle);
   const prefillGoal = (ctaTopic && TOPIC_TO_CAMPAIGN_GOAL[ctaTopic]) || "";
   const hasTrackedStart = useRef(false);
   const {
@@ -76,9 +97,12 @@ export function BrandInquiryForm() {
   });
 
   function trackFormStart() {
-    if (hasTrackedStart.current || !sourceArticle) return;
+    if (hasTrackedStart.current) return;
     hasTrackedStart.current = true;
-    trackBlogLeadFormEvent("blog_lead_form_start", { sourceArticle, articleCategory, ctaPosition, ctaType: "brand_inquiry", intent: ctaTopic });
+    trackBrandLeadEvent("brand_lead_form_start", { leadSource, ctaTopic, ctaPosition });
+    if (sourceArticle) {
+      trackBlogLeadFormEvent("blog_lead_form_start", { sourceArticle, articleCategory, ctaPosition, ctaType: "brand_inquiry", intent: ctaTopic });
+    }
   }
 
   async function onSubmit(values: BrandInquiryValues) {
@@ -87,12 +111,22 @@ export function BrandInquiryForm() {
       const res = await fetch("/api/brand-inquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...values, sourceArticle, articleCategory }),
+        // Hidden attribution values come from the URL, so clip them to the schema limits: a mangled link
+        // must never block a real inquiry on a field the visitor can't see.
+        body: JSON.stringify({
+          ...values,
+          sourceArticle: sourceArticle?.slice(0, 200),
+          articleCategory: articleCategory?.slice(0, 80),
+          ctaTopic: ctaTopic?.slice(0, 120),
+          ctaPosition: ctaPosition?.slice(0, 40),
+          leadSource: leadSource.slice(0, 120),
+        }),
       });
       const data = await res.json().catch(() => null);
       if (!res.ok || !data?.success) {
         throw new Error(data?.message || "Submission failed");
       }
+      trackBrandLeadEvent("generate_lead", { leadSource, ctaTopic, ctaPosition, campaignGoal: values.campaignGoal, budget: values.budget });
       if (sourceArticle) {
         trackBlogLeadFormEvent("blog_lead_form_submit", { sourceArticle, articleCategory, ctaPosition, ctaType: "brand_inquiry", intent: ctaTopic });
       }

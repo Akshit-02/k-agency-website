@@ -4,7 +4,11 @@ import { Reveal } from "@/components/animations/Reveal";
 import { BroadcastRings } from "@/components/graphics/BroadcastRings";
 import { homeInquiryHref } from "@/content/home";
 
-export function FinalCTA() {
+/**
+ * `inquiryHref` lets pages other than the homepage attribute their leads correctly; the default keeps the
+ * homepage's existing src/pos/t params.
+ */
+export function FinalCTA({ inquiryHref = homeInquiryHref("bottom") }: { inquiryHref?: string } = {}) {
   return (
     <section className="clip-notch relative -my-1 overflow-hidden bg-coral py-32 text-ink sm:py-40">
       <BroadcastRings
@@ -27,7 +31,7 @@ export function FinalCTA() {
             </p>
           </Reveal>
           <Reveal delay={0.24} className="mt-10 flex flex-wrap gap-4">
-            <Button href={homeInquiryHref("bottom")} size="lg" variant="dark" magnetic>
+            <Button href={inquiryHref} size="lg" variant="dark" magnetic>
               Plan Your Campaign
             </Button>
             <Button href="/contact" variant="secondary" size="lg">

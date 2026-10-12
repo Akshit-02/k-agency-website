@@ -1,6 +1,11 @@
 import { siteConfig } from "@/config/site";
 import type { BlogPost } from "@/content/blog";
 import { services, type Service } from "@/content/services";
+import type { Market } from "@/content/markets";
+
+/** Countries Kudozz delivers campaigns in (owner-confirmed 2026-10-12). India is the primary market. */
+export const SERVED_COUNTRIES = ["India", "United Arab Emirates", "Saudi Arabia", "United Kingdom", "Australia", "Singapore"];
+const areaServed = SERVED_COUNTRIES.map((name) => ({ "@type": "Country", name }));
 
 export function organizationSchema() {
   return {
@@ -19,13 +24,13 @@ export function organizationSchema() {
     description: siteConfig.description,
     slogan: siteConfig.tagline,
     email: siteConfig.contact.email,
-    areaServed: { "@type": "Country", name: "India" },
+    areaServed,
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "sales",
       email: siteConfig.contact.email,
       url: `${siteConfig.url}/for-brands#inquiry`,
-      areaServed: "IN",
+      areaServed: ["IN", "AE", "SA", "GB", "AU", "SG"],
     },
     sameAs: Object.values(siteConfig.social),
     knowsAbout: [
@@ -197,11 +202,27 @@ export function serviceSchema(service: Service, url: string) {
     url,
     serviceType: service.name,
     provider: { "@id": `${siteConfig.url}/#organization` },
-    areaServed: { "@type": "Country", name: "India" },
+    areaServed,
     audience: {
       "@type": "BusinessAudience",
       audienceType: "Brands and marketing teams",
     },
+  };
+}
+
+/** A market page: influencer marketing services for one country, provided by the Kudozz organization. */
+export function marketServiceSchema(market: Market, url: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: `Influencer marketing services in ${market.country}`,
+    description: market.metaDescription,
+    url,
+    serviceType: "Influencer marketing",
+    provider: { "@id": `${siteConfig.url}/#organization` },
+    areaServed: { "@type": "Country", name: market.country },
+    audience: { "@type": "BusinessAudience", audienceType: "Brands and marketing teams" },
+    inLanguage: market.inLanguage,
   };
 }
 

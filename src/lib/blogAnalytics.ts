@@ -52,3 +52,24 @@ export function trackBlogLeadFormEvent(
     intent: params.intent ?? "",
   });
 }
+
+/**
+ * Site-wide brand lead events, fired for every inquiry regardless of entry point (nav, service page, market
+ * page, homepage or blog). `generate_lead` is GA4's recommended lead event; mark it as a key event in GA4.
+ * These are separate event names from the blog_* events above, so blog reporting is unchanged and nothing
+ * is double counted within an event.
+ */
+export function trackBrandLeadEvent(
+  event: "brand_lead_form_start" | "generate_lead",
+  params: { leadSource?: string; ctaTopic?: string; ctaPosition?: string; campaignGoal?: string; budget?: string }
+) {
+  if (typeof window === "undefined" || !window.gtag) return;
+  window.gtag("event", event, {
+    lead_source: params.leadSource ?? "",
+    cta_topic: params.ctaTopic ?? "",
+    cta_position: params.ctaPosition ?? "",
+    campaign_goal: params.campaignGoal ?? "",
+    budget_range: params.budget ?? "",
+    page_path: window.location.pathname,
+  });
+}

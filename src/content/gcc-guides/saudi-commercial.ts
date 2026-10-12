@@ -188,8 +188,8 @@ export const saudiCommercialPosts: BlogPost[] = [
   {
     slug: "choose-influencer-marketing-agency-saudi-arabia",
     category: "Influencer Marketing",
-    title: "Influencer Marketing Agency in Riyadh: How Brands Should Evaluate Their Options",
-    seoTitle: "Influencer Marketing Agency in Riyadh: How to Evaluate Options",
+    title: "How to Choose an Influencer Marketing Agency in Saudi Arabia (Riyadh and Beyond)",
+    seoTitle: "How to Choose an Influencer Marketing Agency in Saudi Arabia",
     excerpt:
       "How to evaluate influencer marketing agencies for Riyadh and wider Saudi campaigns: the licences to ask about, how they source and verify Saudi creators, Arabic and dialect capability, fee transparency, execution and reporting, with a proposal comparison template and red flags.",
     metaDescription:

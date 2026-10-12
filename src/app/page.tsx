@@ -9,6 +9,7 @@ import { WhatWeDo } from "@/components/home/WhatWeDo";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { WhyKudozz } from "@/components/home/WhyKudozz";
 import { IndiaCoverage } from "@/components/home/IndiaCoverage";
+import { GlobalMarkets } from "@/components/home/GlobalMarkets";
 import { CreatorNetwork } from "@/components/home/CreatorNetwork";
 import { FAQSection } from "@/components/ui/FAQSection";
 import { FinalCTA } from "@/components/home/FinalCTA";
@@ -37,6 +38,7 @@ export default function HomePage() {
       <HowItWorks />
       <WhyKudozz />
       <IndiaCoverage />
+      <GlobalMarkets />
       <CreatorNetwork />
       <FAQSection faqs={homeFaqs} eyebrow="FAQ" title="Questions brands ask before hiring an influencer agency." />
       <FinalCTA />

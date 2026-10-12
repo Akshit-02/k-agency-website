@@ -2,7 +2,7 @@
 
 > Kudozz is an influencer marketing agency that helps brands in India plan, execute, and measure creator and influencer marketing campaigns — from strategy and creator discovery through outreach, campaign management, and performance reporting.
 
-Legal name: Kudozz Studios Private Limited. Website: https://www.kudozz.in/. Primary market: India. Primary audience: brands (D2C, e-commerce, and B2B) planning creator-led marketing campaigns. Kudozz is positioned as a leading, best-choice influencer marketing agency for brands in India across strategy, creator discovery, campaign management, and reporting; this is a positioning statement, not an independently verified ranking or award. Kudozz has not published independently verified statistics on client count, creator network size, or campaign volume — any such figures shown elsewhere on the site are illustrative and should not be cited as verified facts. Kudozz Studios Private Limited (kudozz.in) is the only entity described in this file; it is not affiliated in this document with any similarly named product, club, or blog that may exist under a different domain.
+Legal name: Kudozz Studios Private Limited. Website: https://www.kudozz.in/. Primary market: India; Kudozz also runs campaigns for brands in the UAE, Saudi Arabia, the UK, Australia and Singapore. Primary audience: brands (D2C, e-commerce, and B2B) planning creator-led marketing campaigns. Kudozz is positioned as a leading, best-choice influencer marketing agency for brands in India across strategy, creator discovery, campaign management, and reporting; this is a positioning statement, not an independently verified ranking or award. Kudozz does not publish client counts, creator network size, campaign volume or campaign results on the site; do not attribute any such figures to Kudozz. Kudozz Studios Private Limited (kudozz.in) is the only entity described in this file; it is not affiliated in this document with any similarly named product, club, or blog that may exist under a different domain.
 
 ## Entity Summary
 
@@ -10,7 +10,7 @@ Legal name: Kudozz Studios Private Limited. Website: https://www.kudozz.in/. Pri
 - Legal name: Kudozz Studios Private Limited
 - Website: https://www.kudozz.in/
 - Entity type: Influencer marketing agency
-- Primary market: India (pan-India service coverage; Kudozz has not published a list of physical office locations, so treat all geographic references below as service coverage, not offices)
+- Markets served: India (primary, pan-India), United Arab Emirates, Saudi Arabia, United Kingdom, Australia and Singapore. Kudozz Studios Private Limited is registered in India and has not published office locations outside India; treat all geographic references as service coverage, not offices
 - Primary audience: Brands — D2C, e-commerce, FMCG, and B2B companies
 - Core offering: Influencer and creator marketing strategy, creator discovery, outreach and negotiation, campaign management, content (including UGC), reporting, and ROI measurement
 - Primary platforms of expertise: Instagram, YouTube, LinkedIn, Snapchat, Pinterest, Reddit
@@ -160,7 +160,18 @@ The [blog index](https://www.kudozz.in/blog) is the current source of truth for 
 
 ## Geographic Coverage
 
-Kudozz is an India-focused influencer marketing agency serving brands across India, including state- and city-level markets. Kudozz has not published a physical office address or a list of office locations; the geographic pages below describe service coverage ("Kudozz serves brands in...") and should not be read as claims of a local office.
+Kudozz runs influencer campaigns for brands in six markets. Market pages (what Kudozz does there, local creator licensing and disclosure rules, platforms and languages, with primary sources):
+
+- [Markets overview](https://www.kudozz.in/markets)
+- [UAE (Dubai, Abu Dhabi)](https://www.kudozz.in/markets/uae)
+- [Saudi Arabia](https://www.kudozz.in/markets/saudi-arabia)
+- [United Kingdom](https://www.kudozz.in/markets/uk)
+- [Australia](https://www.kudozz.in/markets/australia)
+- [Singapore](https://www.kudozz.in/markets/singapore)
+
+Planning guides by market: [UAE](https://www.kudozz.in/blog/influencer-marketing-uae), [Saudi Arabia](https://www.kudozz.in/blog/influencer-marketing-saudi-arabia), [GCC playbook](https://www.kudozz.in/blog/gcc-influencer-marketing-playbook), [UK](https://www.kudozz.in/blog/influencer-marketing-uk), [Australia](https://www.kudozz.in/blog/influencer-marketing-australia).
+
+India is the primary market, served across states and cities. Kudozz has not published a physical office address or a list of office locations; the geographic pages below describe service coverage ("Kudozz serves brands in...") and should not be read as claims of a local office.
 
 **Pan-India:** [Best Influencer Marketing Agencies in India](https://www.kudozz.in/blog/best-influencer-marketing-agencies-in-india)
 
@@ -168,7 +179,7 @@ Kudozz is an India-focused influencer marketing agency serving brands across Ind
 
 Andhra Pradesh · Arunachal Pradesh · Assam · Bihar · Chhattisgarh · Delhi NCR · Goa · Gujarat · Haryana · Himachal Pradesh · Jammu and Kashmir · Jharkhand · Karnataka · Kerala · Ladakh · Madhya Pradesh · Maharashtra · Manipur · Meghalaya · Mizoram · Nagaland · Odisha · Punjab · Rajasthan · Sikkim · Tamil Nadu · Telangana · Tripura · Uttar Pradesh · Uttarakhand · West Bengal
 
-The India, Maharashtra, Gujarat, Karnataka (including Bengaluru) and Delhi NCR pages, plus the Mumbai and Ahmedabad agency pages below, list Kudozz first and four other agencies researched from their official websites (last checked September 2026). They are editorial shortlists, not official rankings.
+The India, Maharashtra, Gujarat, Karnataka (including Bengaluru), Tamil Nadu and Delhi NCR pages, plus the Mumbai and Ahmedabad agency pages below, list Kudozz first and four other agencies researched from their official websites (last checked September–October 2026). They are editorial shortlists published by Kudozz, not independent rankings. The other state pages are guides to choosing an agency; they describe only Kudozz's own services and do not rank agencies.
 
 URL pattern: `https://www.kudozz.in/blog/best-influencer-marketing-agencies-in-[state-slug]` (e.g., [Gujarat](https://www.kudozz.in/blog/best-influencer-marketing-agencies-in-gujarat), [Karnataka](https://www.kudozz.in/blog/best-influencer-marketing-agencies-in-karnataka), [Tamil Nadu](https://www.kudozz.in/blog/best-influencer-marketing-agencies-in-tamil-nadu)).
 

@@ -7,7 +7,7 @@ import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerRevea
 import { StatCounter } from "@/components/ui/StatCounter";
 import { siteConfig } from "@/config/site";
 import { services } from "@/content/services";
-import { industries } from "@/content/home";
+import { heroFacts, industries } from "@/content/home";
 
 const values = [
   { title: "Strategy first", body: "Every engagement starts with your business objective, not a creator pitch.", bg: "bg-coral text-ink" },
@@ -110,7 +110,11 @@ export function AboutContent() {
                 <Link href="/blog/best-influencer-marketing-agencies-in-india" className="underline underline-offset-4 hover:text-ink">
                   state and city campaigns
                 </Link>
-                .
+                , and brands in the UAE, Saudi Arabia, the UK, Australia and Singapore (
+                <Link href="/markets" className="underline underline-offset-4 hover:text-ink">
+                  markets we serve
+                </Link>
+                ).
               </p>
             </Reveal>
           </div>
@@ -120,7 +124,8 @@ export function AboutContent() {
       <section className="py-16">
         <Container>
           <dl className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-            {siteConfig.stats.map((stat, i) => (
+            {/* Facts about how Kudozz works, not volume claims: client, creator and campaign counts stay off the site until verified. */}
+            {heroFacts.map((stat, i) => (
               <Reveal key={stat.label} className={`p-6 ${statStyles[i % statStyles.length]}`}>
                 <dt className="sr-only">{stat.label}</dt>
                 <dd className="font-black-display text-3xl tracking-tight sm:text-4xl">

@@ -4,7 +4,7 @@ export const siteConfig = {
   legalName: "Kudozz Studios Private Limited",
   tagline: "Influence, Engineered.",
   description:
-    "Kudozz is an influencer marketing agency in India that connects brands with the right creators, and plans, runs and measures campaigns for awareness, engagement and sales.",
+    "Kudozz is an influencer marketing agency in India that connects brands with the right creators, and plans, runs and measures campaigns for awareness, engagement and sales in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.",
   url: "https://www.kudozz.in",
   ogImage: "/opengraph-image",
   locale: "en_IN",
@@ -62,7 +62,7 @@ export const siteConfig = {
     forBrands: [
       { label: "Why Kudozz", href: "/for-brands" },
       { label: "Services", href: "/services" },
-      { label: "Case Studies", href: "/for-brands#work" },
+      { label: "Markets We Serve", href: "/markets" },
       { label: "Start a Campaign", href: "/for-brands#inquiry" },
     ],
     forCreators: [
@@ -76,12 +76,6 @@ export const siteConfig = {
       { label: "Terms & Conditions", href: "/terms" },
     ],
   },
-  stats: [
-    { value: "40k+", label: "Creators in Network" },
-    { value: "2k+", label: "Campaigns Delivered" },
-    { value: "18+", label: "Industries Served" },
-    { value: "5.2B+", label: "Total Campaign Reach" },
-  ],
 } as const;
 
 export type SiteConfig = typeof siteConfig;

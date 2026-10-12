@@ -9,6 +9,7 @@ import { FAQSection } from "@/components/ui/FAQSection";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/animations/Reveal";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
+import { markets, marketPhrase } from "@/content/markets";
 
 const themes = [
   { bg: "bg-coral", text: "text-ink" },
@@ -61,7 +62,7 @@ export function ServiceDetail({
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/65 text-pretty">{service.description}</p>
           </Reveal>
           <Reveal delay={0.18} className="mt-8 flex flex-wrap items-center gap-4">
-            <Button href="/for-brands#inquiry" size="lg">
+            <Button href={`/for-brands?from=service:${service.slug}#inquiry`} size="lg">
               Start a Brand Inquiry
             </Button>
             <ServiceMotif motif={service.motif} className="h-12 w-12 text-coral" />
@@ -115,6 +116,50 @@ export function ServiceDetail({
                 ))}
               </StaggerReveal>
             </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-paper-dim py-20 sm:py-28">
+        <Container>
+          <div className="grid gap-14 lg:grid-cols-2">
+            <div>
+              <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">What we need from you</h2>
+              <ul className="mt-8 space-y-4">
+                {service.clientProvides.map((item) => (
+                  <li key={item} className="flex items-start gap-3 border-b border-line pb-4">
+                    <span className="mt-2 size-1.5 shrink-0 rounded-full bg-coral" />
+                    <p className="text-base text-ink/70">{item}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">How success is measured</h2>
+              <ul className="mt-8 space-y-4">
+                {service.successMeasures.map((item) => (
+                  <li key={item} className="flex items-start gap-3 border-b border-line pb-4">
+                    <Check className="mt-1 size-5 shrink-0 text-violet" aria-hidden="true" />
+                    <p className="text-base text-ink/70">{item}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div className="mt-16 border-t-[1.5px] border-ink pt-8">
+            <h2 className="font-display text-2xl tracking-tight text-ink">Where we run this service</h2>
+            <p className="mt-3 max-w-2xl text-base text-ink/70">
+              We run it for brands in India,{" "}
+              {markets.map((market, i) => (
+                <span key={market.slug}>
+                  <Link href={`/markets/${market.slug}`} className="underline underline-offset-4 hover:text-ink">
+                    {marketPhrase(market)}
+                  </Link>
+                  {i < markets.length - 2 ? ", " : i === markets.length - 2 ? " and " : "."}
+                </span>
+              ))}{" "}
+              Local creator licences and disclosure rules are built into the plan for each market.
+            </p>
           </div>
         </Container>
       </section>

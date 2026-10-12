@@ -166,6 +166,11 @@ export const ukCorePosts: BlogPost[] = [
         text: "The UK rewards brands that treat creator marketing as advertising: clear labels, evidence for claims, sector rules checked early, and measurement that doesn't depend on cookies alone. Plan around the retail calendar, choose platforms by where your customers buy, and start with the rules in UK influencer advertising rules.",
         links: [{ text: "UK influencer advertising rules", href: "/blog/influencer-advertising-rules-uk" }],
       },
+      {
+        type: "paragraph",
+        text: "Kudozz runs influencer campaigns for brands in the UK. If you are planning one, see how Kudozz runs influencer campaigns in the UK, including how disclosure is built into contracts and the information we need for a proposal.",
+        links: [{ text: "how Kudozz runs influencer campaigns in the UK", href: "/markets/uk" }],
+      },
     ],
     faqs: [
       {

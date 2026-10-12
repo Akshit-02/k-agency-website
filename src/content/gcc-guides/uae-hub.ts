@@ -316,6 +316,11 @@ export const uaeHubPost: BlogPost = {
       type: "paragraph",
       text: "The UAE rewards brands that do the unglamorous work first: knowing exactly which community they're trying to reach, checking permits and approvals, and matching language and platform to that audience. The famous accounts are only one option. Often the better campaign is a set of creators whose audiences actually live where you sell, briefed in their own language, and measured against a result you defined before anyone posted.",
     },
+    {
+      type: "paragraph",
+      text: "Kudozz runs influencer campaigns for brands in the UAE. If you are planning one, see how Kudozz runs influencer campaigns in the UAE, including permit checks and the information we need for a proposal.",
+      links: [{ text: "how Kudozz runs influencer campaigns in the UAE", href: "/markets/uae" }],
+    },
   ],
   faqs: [
     {

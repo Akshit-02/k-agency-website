@@ -75,7 +75,7 @@ export default function ServicesPage() {
         </Container>
       </section>
       <FAQSection faqs={hubFaqs} title="Common questions about working with an influencer marketing agency." />
-      <FinalCTA />
+      <FinalCTA inquiryHref="/for-brands?from=services&pos=bottom#inquiry" />
     </>
   );
 }

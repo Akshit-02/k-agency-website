@@ -227,6 +227,11 @@ export const saudiHubPost: BlogPost = {
       type: "paragraph",
       text: "Saudi Arabia rewards brands that treat it as its own market: Arabic-first creative in the right voice, licensed creators whose audiences are actually in the Kingdom, platforms chosen for the job, and measurement in SAR against a clear objective. Start with one region or objective, learn which creators move your numbers, and expand from there.",
     },
+    {
+      type: "paragraph",
+      text: "Kudozz runs influencer campaigns for brands in Saudi Arabia. If you are planning one, see how Kudozz runs influencer campaigns in Saudi Arabia, including Mawthooq checks and the information we need for a proposal.",
+      links: [{ text: "how Kudozz runs influencer campaigns in Saudi Arabia", href: "/markets/saudi-arabia" }],
+    },
   ],
   faqs: [
     {

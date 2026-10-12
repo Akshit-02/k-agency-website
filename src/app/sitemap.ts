@@ -2,13 +2,14 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
 import { blogPosts } from "@/content/blog";
 import { services } from "@/content/services";
+import { markets } from "@/content/markets";
 import { creatorResourceSections, creatorSectionPath } from "@/content/creator-resources";
 
+// Only blog posts carry <lastmod>, from their real publish/update dates. Static pages leave it out: a value that
+// changes on every build ("now") tells crawlers nothing, and Google ignores lastmod it can't trust.
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-
   const home: MetadataRoute.Sitemap = [
-    { url: siteConfig.url, lastModified: now, changeFrequency: "weekly" as const, priority: 1 },
+    { url: siteConfig.url, changeFrequency: "weekly" as const, priority: 1 },
   ];
 
   const primaryPages: MetadataRoute.Sitemap = [
@@ -18,17 +19,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteConfig.url}/creator-resources`, changeFrequency: "weekly" as const, priority: 0.7 },
     { url: `${siteConfig.url}/about`, changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${siteConfig.url}/contact`, changeFrequency: "yearly" as const, priority: 0.5 },
-  ].map((entry) => ({ ...entry, lastModified: now }));
+  ];
 
   const servicePages: MetadataRoute.Sitemap = services.map((service) => ({
     url: `${siteConfig.url}/services/${service.slug}`,
-    lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
+  const marketPages: MetadataRoute.Sitemap = [
+    { url: `${siteConfig.url}/markets`, changeFrequency: "monthly" as const, priority: 0.8 },
+    ...markets.map((market) => ({
+      url: `${siteConfig.url}/markets/${market.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+
   const blogIndex: MetadataRoute.Sitemap = [
-    { url: `${siteConfig.url}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.7 },
+    { url: `${siteConfig.url}/blog`, changeFrequency: "weekly" as const, priority: 0.7 },
   ];
 
   const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
@@ -40,17 +49,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const creatorSectionPages: MetadataRoute.Sitemap = creatorResourceSections.map((section) => ({
     url: `${siteConfig.url}${creatorSectionPath(section)}`,
-    lastModified: now,
     changeFrequency: "weekly" as const,
     priority: 0.6,
   }));
 
   const legalPages: MetadataRoute.Sitemap = ["/privacy-policy", "/terms"].map((path) => ({
     url: `${siteConfig.url}${path}`,
-    lastModified: now,
     changeFrequency: "yearly" as const,
     priority: 0.2,
   }));
 
-  return [...home, ...primaryPages, ...servicePages, ...blogIndex, ...creatorSectionPages, ...blogRoutes, ...legalPages];
+  return [...home, ...primaryPages, ...servicePages, ...marketPages, ...blogIndex, ...creatorSectionPages, ...blogRoutes, ...legalPages];
 }

@@ -196,6 +196,11 @@ export const auCorePosts: BlogPost[] = [
         type: "paragraph",
         text: "Australian audiences pay attention to creators they trust, and Australian regulators pay attention to whether that trust is respected. Choose creators for fit and audience location, disclose clearly, prove every claim, check sector rules, and measure what the campaign actually achieved.",
       },
+      {
+        type: "paragraph",
+        text: "Kudozz runs influencer campaigns for brands in Australia. If you are planning one, see how Kudozz runs influencer campaigns in Australia, including the consumer-law and TGA checks and the information we need for a proposal.",
+        links: [{ text: "how Kudozz runs influencer campaigns in Australia", href: "/markets/australia" }],
+      },
     ],
     faqs: [
       {

@@ -54,7 +54,7 @@ export default async function ServiceDetailPage(props: PageProps<"/services/[slu
       <JsonLd data={faqSchema(service.faqs.map((f) => ({ question: f.question, answer: f.answer })))} />
 
       <ServiceDetail service={service} related={related} guides={guides} breadcrumbItems={breadcrumbItems} />
-      <FinalCTA />
+      <FinalCTA inquiryHref={`/for-brands?from=service:${service.slug}&pos=bottom#inquiry`} />
     </>
   );
 }

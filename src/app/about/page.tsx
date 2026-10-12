@@ -26,7 +26,7 @@ export default function AboutPage() {
         ])}
       />
       <AboutContent />
-      <FinalCTA />
+      <FinalCTA inquiryHref="/for-brands?from=about&pos=bottom#inquiry" />
     </>
   );
 }

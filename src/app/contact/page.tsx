@@ -45,7 +45,7 @@ export default function ContactPage() {
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/65">
             Brand inquiries go faster through our{" "}
             <Link
-              href="/for-brands#inquiry"
+              href="/for-brands?from=contact#inquiry"
               className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-4"
             >
               campaign inquiry form

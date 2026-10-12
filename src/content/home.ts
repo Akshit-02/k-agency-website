@@ -100,6 +100,11 @@ export const homeFaqs = [
       "Yes. Kudozz works with brands across India and sources creators in metros, Tier 2 and Tier 3 cities, checking that each creator's audience is in the markets the brand sells to.",
   },
   {
+    question: "Does Kudozz run influencer campaigns outside India?",
+    answer:
+      "Yes. Besides India, Kudozz runs influencer campaigns for brands in the UAE, Saudi Arabia, the UK, Australia and Singapore, and plans Qatar, Kuwait, Oman and Bahrain case by case. Each market has its own creator licensing, disclosure rules and languages, which the market pages explain.",
+  },
+  {
     question: "Can Kudozz run regional-language influencer campaigns?",
     answer:
       "Yes. Kudozz sources creators who publish in regional languages, such as Hindi, Marathi, Gujarati, Tamil, Telugu, Kannada or Bengali, and briefs them to make original content rather than translated scripts.",
