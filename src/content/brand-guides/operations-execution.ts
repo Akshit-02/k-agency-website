@@ -22,7 +22,8 @@ export const operationsExecutionPosts: BlogPost[] = [
       "A step-by-step influencer content approval process: collecting drafts, review order, who approves what, turnaround times, approval records and faster workflows.",
     author: AUTHOR,
     publishedAt: EXEC_PUBLISHED,
-    lastReviewed: EXEC_REVIEWED,
+    updatedAt: "2026-10-10",
+    lastReviewed: "October 2026",
     readingTime: "6 min read",
     tags: ["influencer content approval process", "creator content review", "influencer campaign approvals", "creator content submission", "influencer approval workflow"],
     related: ["influencer-revision-policy", "influencer-content-quality-check", "influencer-feedback"],
@@ -133,6 +134,22 @@ export const operationsExecutionPosts: BlogPost[] = [
         text: "Influencer campaign documentation covers where approval records belong.",
         links: [{ text: "Influencer campaign documentation", href: "/blog/influencer-campaign-documentation" }],
       },
+      { type: "heading", text: "Version control for creator content", id: "version-control" },
+      {
+        type: "paragraph",
+        text: "Approval problems often turn out to be version problems: the creator posts draft two while the brand approved draft three, or legal approved a caption that was changed afterwards. A few habits prevent this.",
+      },
+      {
+        type: "list",
+        items: [
+          "One shared folder per creator, with drafts uploaded there rather than sent in chats",
+          "A file name that carries creator, deliverable, version and date, such as creator_reel1_v3_2026-10-10",
+          "Feedback attached to a version number, not 'the latest one'",
+          "Caption, links, disclosure and code approved with the video, as one package",
+          "The approved version marked final, and the creator posts that file",
+          "Changes after approval go back through the approver who signed off",
+        ],
+      },
       { type: "heading", text: "How to make approvals faster", id: "faster" },
       {
         type: "list",
@@ -149,6 +166,24 @@ export const operationsExecutionPosts: BlogPost[] = [
         type: "paragraph",
         text: "Influencer campaign delays covers diagnosing where approvals get stuck.",
         links: [{ text: "Influencer campaign delays", href: "/blog/influencer-campaign-delays" }],
+      },
+{ type: "heading", text: "Approval checkpoints for Australian campaigns", id: "australia" },
+      {
+        type: "table",
+        headers: ["Category", "Add this check before approval", "Reference"],
+        rows: [
+          ["All campaigns", "Disclosure at the start of the caption and video; claims match evidence", "ACCC and AANA"],
+          ["Therapeutic goods", "No paid personal-result testimonials; no endorsers who are health professionals; hashtags and links checked", "TGA"],
+          ["Health services", "No testimonials about clinical aspects", "Ahpra"],
+          ["Financial products", "No recommendations or unlicensed advice; links reviewed", "ASIC INFO 269"],
+          ["Alcohol", "Creator 25 or older; age controls on", "ABAC"],
+          ["Food to children, environmental claims", "Audience age; specific, evidenced green claims", "AANA, ACCC"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Details are in Australian influencer advertising rules.",
+        links: [{ text: "Australian influencer advertising rules", href: "/blog/influencer-advertising-rules-australia" }],
       },
       { type: "heading", text: "Hypothetical example", id: "example" },
       {
@@ -366,7 +401,8 @@ export const operationsExecutionPosts: BlogPost[] = [
       "How brands check creator deliverables: a pre-approval content quality checklist and a go-live checklist covering disclosure, claims, links and tags.",
     author: AUTHOR,
     publishedAt: EXEC_PUBLISHED,
-    lastReviewed: EXEC_REVIEWED,
+    updatedAt: "2026-10-09",
+    lastReviewed: "October 2026",
     readingTime: "6 min read",
     tags: ["influencer campaign quality control", "creator content quality checklist", "influencer deliverables checklist", "check influencer content before publishing", "influencer go-live checklist"],
     related: ["influencer-content-approval", "creator-non-compliance", "influencer-marketing-compliance"],
@@ -459,6 +495,43 @@ export const operationsExecutionPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Hypothetical: during a 20-creator festive campaign, morning go-live checks find three posts with disclosure only in the hashtags at the end of the caption, and one Story with an expired discount code. The campaign manager messages each creator within the hour with exact fixes; all four are corrected the same day. The issues are added to the brief template for the next campaign: disclosure placement guidance with an example, and codes confirmed in writing two days before go-live.",
+      },
+      { type: "heading", text: "Arabic and bilingual content QA", id: "arabic-qa" },
+      {
+        type: "paragraph",
+        text: "Creator content for Gulf audiences often runs in Arabic, English or both. Translation errors, the wrong dialect and broken right-to-left text are easy to miss if the reviewer doesn't speak the language. Add these checks for Arabic and bilingual deliverables, carried out by a native speaker from the target market.",
+      },
+      {
+        type: "table",
+        headers: ["Check", "What to look for"],
+        rows: [
+          ["Dialect", "Matches the audience: Saudi, Emirati, Kuwaiti or other Gulf Arabic, or Egyptian or Levantine for those communities"],
+          ["Claims match across languages", "Arabic and English versions say exactly the same thing; nothing stronger in one language"],
+          ["Brand and product names", "Consistent Arabic spelling or transliteration across creators and captions"],
+          ["Numbers, prices and currency", "Correct currency (AED, SAR and so on); digits used consistently; prices current"],
+          ["Dates", "Gregorian or Hijri dates used deliberately and correctly"],
+          ["Right-to-left text", "On-screen text, captions and subtitles display in the right order, including lines mixing Arabic and English"],
+          ["Subtitles", "Timed to speech, readable on a phone, not covering key visuals"],
+          ["Disclosure", "Clear in the language of the post, and visible without expanding the caption"],
+          ["Cultural review", "Clothing, gestures, music and humour suit the market and the season, especially Ramadan"],
+          ["Hashtags and handles", "Correct in both scripts; no unintended meanings"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Language and dialect choices are covered in Arabic vs English influencer campaigns in the UAE, briefing Arabic creators in Arabic UGC creators in the GCC, and Saudi dialects in our Saudi influencer marketing guide.",
+        links: [
+          { text: "Arabic vs English influencer campaigns in the UAE", href: "/blog/arabic-vs-english-influencer-campaigns-uae" },
+          { text: "Arabic UGC creators in the GCC", href: "/blog/arabic-ugc-creators-gcc" },
+          { text: "Saudi influencer marketing guide", href: "/blog/influencer-marketing-saudi-arabia#arabic" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Add accessibility to the same check: captions, readable text and spoken disclosure. See accessible influencer campaigns.",
+        links: [
+          { text: "accessible influencer campaigns", href: "/blog/accessible-influencer-campaigns" },
+        ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
@@ -607,6 +680,13 @@ export const operationsExecutionPosts: BlogPost[] = [
         type: "paragraph",
         text: "Influencer campaign escalation covers when and how to escalate issues.",
         links: [{ text: "Influencer campaign escalation", href: "/blog/influencer-campaign-escalation" }],
+      },
+      {
+        type: "paragraph",
+        text: "When the cause is stock or delivery rather than content, see planning creators when stock is uncertain.",
+        links: [
+          { text: "planning creators when stock is uncertain", href: "/blog/influencers-for-product-launch#stock" },
+        ],
       },
       { type: "heading", text: "Delays in Indian campaigns", id: "india" },
       {
@@ -800,6 +880,13 @@ export const operationsExecutionPosts: BlogPost[] = [
         text: "Regional influencer marketing in India covers wider language planning.",
         links: [
           { text: "Regional influencer marketing in India", href: "/blog/regional-influencer-marketing-india" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Most issues start in the comments; who replies, who moderates and when to escalate is covered in managing community engagement during influencer campaigns.",
+        links: [
+          { text: "managing community engagement during influencer campaigns", href: "/blog/influencer-campaign-comment-management" }
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

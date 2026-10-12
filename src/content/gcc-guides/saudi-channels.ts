@@ -468,6 +468,13 @@ export const saudiChannelPosts: BlogPost[] = [
         text: "How the same category works in the UAE, with different regulators and audiences, is in influencer marketing for beauty brands in the UAE.",
         links: [{ text: "influencer marketing for beauty brands in the UAE", href: "/blog/influencer-marketing-beauty-brands-uae" }],
       },
+      {
+        type: "paragraph",
+        text: "A copy-ready skincare demonstration brief is in how to brief influencers for skincare product demonstrations in the GCC.",
+        links: [
+          { text: "how to brief influencers for skincare product demonstrations in the GCC", href: "/blog/skincare-influencer-brief-gcc" }
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -626,6 +633,13 @@ export const saudiChannelPosts: BlogPost[] = [
         links: [
           { text: "TikTok influencer marketing in Saudi Arabia", href: "/blog/tiktok-influencer-marketing-saudi-arabia" },
           { text: "influencer marketing for e-commerce brands in the UAE", href: "/blog/influencer-marketing-ecommerce-brands-uae" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Brands selling through marketplaces and delivery apps can coordinate creators with those platforms' advertising; see influencers and retail media in the GCC.",
+        links: [
+          { text: "influencers and retail media in the GCC", href: "/blog/retail-media-influencer-marketing-gcc" }
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

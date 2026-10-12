@@ -31,6 +31,7 @@ export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promis
     description: post.metaDescription ?? post.excerpt,
     path: `/blog/${post.slug}`,
     image: null,
+    locale: post.inLanguage?.replace("-", "_"),
     article: {
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,

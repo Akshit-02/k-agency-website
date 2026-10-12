@@ -192,6 +192,11 @@ export const b2bCreatorEconomyPosts: BlogPost[] = [
         text: "Building demand and measuring pipeline through creators is covered in creator-led B2B marketing.",
         links: [{ text: "creator-led B2B marketing", href: "/blog/creator-led-b2b-marketing" }],
       },
+      {
+        type: "paragraph",
+        text: "For Australian B2B and SaaS companies, including Spam Act consent for creator-driven leads, see B2B and SaaS influencer marketing in Australia.",
+        links: [{ text: "B2B and SaaS influencer marketing in Australia", href: "/blog/b2b-saas-influencer-marketing-australia" }],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",

@@ -866,6 +866,13 @@ export const ownedAudiencePosts: BlogPost[] = [
           ["Shows your expertise in a service area", "Consulting or workshops"],
         ],
       },
+      {
+        type: "paragraph",
+        text: "To see how brands evaluate newsletters before sponsoring them, read newsletter influencer marketing from the brand side.",
+        links: [
+          { text: "newsletter influencer marketing", href: "/blog/newsletter-influencer-marketing" },
+        ],
+      },
       { type: "heading", text: "Mistakes to avoid", id: "mistakes" },
       {
         type: "list",

@@ -426,6 +426,13 @@ export const gccOperationsPosts: BlogPost[] = [
           "Count delivered orders where cash on delivery is common",
         ],
       },
+      {
+        type: "paragraph",
+        text: "For awareness objectives, survey-based measurement with exposed and control groups is explained in measuring influencer brand lift in the GCC.",
+        links: [
+          { text: "measuring influencer brand lift in the GCC", href: "/blog/influencer-brand-lift-gcc" }
+        ],
+      },
       { type: "heading", text: "An illustrative comparison", id: "example" },
       {
         type: "table",

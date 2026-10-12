@@ -146,6 +146,13 @@ export const objectivesAndScalePosts: BlogPost[] = [
           { text: "the influencer marketing funnel", href: "/blog/influencer-marketing-funnel" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "When buyers take months to decide, record the creator source at the lead and judge revenue after a full cycle; see influencer marketing for long sales cycles.",
+        links: [
+          { text: "influencer marketing for long sales cycles", href: "/blog/influencer-marketing-long-sales-cycle" },
+        ],
+      },
       { type: "heading", text: "An illustrative lead campaign", id: "example" },
       {
         type: "paragraph",

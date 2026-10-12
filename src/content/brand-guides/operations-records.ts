@@ -504,20 +504,20 @@ export const operationsRecordsPosts: BlogPost[] = [
     title: "Influencer Marketing Operations: How Brands Can Build a Reliable Creator Partnership Process",
     seoTitle: "Influencer Marketing Operations: A Reliable Creator Process",
     excerpt:
-      "The operating system behind creator partnerships: the eleven-stage process from discovery to relationship management, roles and ownership, service levels, the core documents and tools, a weekly rhythm, operations metrics and a maturity path.",
+      "The operating system behind creator partnerships: the eleven-stage process from discovery to relationship management, roles and ownership, service levels, the core documents and tools, a weekly rhythm, operations metrics and a program maturity model.",
     metaDescription:
       "Influencer marketing operations for brands: the process from discovery to relationships, roles, service levels, documents, tools, weekly rhythm and metrics.",
     author: AUTHOR,
     publishedAt: OPS_PUBLISHED,
-    lastReviewed: OPS_REVIEWED,
-    readingTime: "8 min read",
-    tags: ["influencer marketing operations", "creator marketing operating model", "influencer operations", "creator partnership process", "influencer marketing function"],
+    lastReviewed: "October 2026",
+    readingTime: "9 min read",
+    tags: ["influencer marketing operations", "creator marketing operating model", "influencer operations", "creator partnership process", "influencer marketing function", "influencer marketing maturity model"],
     related: ["influencer-campaign-management", "influencer-content-approval", "creator-experience"],
     hero: {
       src: "/blog/brand-guides/influencer-marketing-operations.svg",
       alt: "Influencer operations flow from discovery and outreach through onboarding, production, payment and reporting to relationships",
     },
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-10",
     body: [
       {
         type: "paragraph",
@@ -620,6 +620,33 @@ export const operationsRecordsPosts: BlogPost[] = [
         text: "These are examples; set levels you can actually keep and tell creators what they are. Keeping them consistently is a large part of creator experience.",
         links: [{ text: "creator experience", href: "/blog/creator-experience" }],
       },
+      { type: "subheading", text: "A campaign SLA: deliverables, deadlines and escalations" },
+      {
+        type: "paragraph",
+        text: "A service-level agreement (SLA) makes expectations between brand, agency and creators measurable. It sits alongside the contract rather than replacing it; for anything with legal consequences, take advice in the relevant jurisdiction. A workable campaign SLA covers:",
+      },
+      {
+        type: "table",
+        headers: ["Area", "Example service level", "Measured by"],
+        rows: [
+          ["Brief to creator", "Final brief sent at least 10 working days before the first draft is due", "Date sent vs plan"],
+          ["Draft delivery", "Drafts on the agreed date; late drafts flagged at least 2 working days ahead", "On-time draft rate"],
+          ["Brand feedback", "Consolidated feedback within 2 working days, one round per draft", "Feedback turnaround"],
+          ["Revisions", "Up to 2 rounds included; extra rounds by agreement", "Rounds per deliverable"],
+          ["Go-live", "Posted within the agreed window with correct disclosure and links", "On-time, compliant posts"],
+          ["Reporting", "Screenshots or insights within 5 working days of posting; campaign report within 15", "Report dates"],
+          ["Payment", "Paid within the agreed term after delivery and invoice", "On-time payment rate"],
+          ["Escalation", "Severity-1 issues acknowledged within hours, with a named contact", "Response time"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The numbers above are examples to adapt, not industry standards. Severity levels are defined in influencer campaign escalation, and contract terms in influencer marketing contracts.",
+        links: [
+          { text: "influencer campaign escalation", href: "/blog/influencer-campaign-escalation" },
+          { text: "influencer marketing contracts", href: "/blog/influencer-marketing-contract" },
+        ],
+      },
       { type: "heading", text: "Core documents and records", id: "documents" },
       {
         type: "list",
@@ -662,7 +689,7 @@ export const operationsRecordsPosts: BlogPost[] = [
           ["Repeat acceptance by top creators", "Creator experience and relationship health"],
         ],
       },
-      { type: "heading", text: "A maturity path", id: "maturity" },
+      { type: "heading", text: "An influencer marketing maturity model", id: "maturity" },
       {
         type: "table",
         headers: ["Level", "Looks like", "Next step"],
@@ -671,6 +698,32 @@ export const operationsRecordsPosts: BlogPost[] = [
           ["Defined", "Standard process and templates; owners named", "Service levels and weekly review"],
           ["Managed", "SLAs measured; payments tracked; documentation consistent", "Automation; creator feedback loop"],
           ["Optimised", "Metrics drive process changes; strong repeat partnerships", "Regular review; scale carefully"],
+        ],
+      },
+{
+        type: "paragraph",
+        text: "Operations is one part of program maturity. The table below describes the whole program, from first experiments to a repeatable, integrated channel. Most brands sit at different levels on different rows; use it to find the row holding the rest back, not to score yourself.",
+      },
+      {
+        type: "table",
+        headers: ["Dimension", "Experimenting", "Repeating", "Programmatic", "Integrated"],
+        rows: [
+          ["Objectives", "Campaign-by-campaign goals", "Goals tied to a business metric", "Annual objectives with targets", "Planned alongside other channels"],
+          ["Creator selection", "Who's available or popular", "Written criteria and vetting", "Scorecards and a reviewed roster", "Roster planned by audience and market"],
+          ["Measurement", "Platform screenshots", "Tracked links, codes and standard reports", "Holdouts or lift studies for big bets", "Creators included in channel comparisons or MMM"],
+          ["Content", "Used once", "Reused with rights agreed", "Content library and paid testing", "Creator content feeds ads, site and CRM routinely"],
+          ["Governance", "Ad hoc approvals", "Disclosure and approval checklist", "Policies, owners and an incident process", "Regular audits and data governance"],
+          ["Team and tools", "One person, spreadsheets", "Defined roles, a tracker", "CRM or platform, agency roles clear", "Integrated data and dashboards"],
+          ["Budget", "Leftover money", "A planned line", "Staged by evidence", "Moved between channels on comparable results"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Move one level at a time; jumping from spreadsheets to an enterprise platform rarely fixes unclear objectives. The technology side is covered in influencer marketing automation, data maturity in creator intelligence, and how to plan the year in the influencer marketing annual plan.",
+        links: [
+          { text: "influencer marketing automation", href: "/blog/influencer-marketing-automation#maturity-model" },
+          { text: "creator intelligence", href: "/blog/creator-intelligence#maturity" },
+          { text: "influencer marketing annual plan", href: "/blog/influencer-marketing-annual-plan" },
         ],
       },
       { type: "heading", text: "Operations across Indian markets", id: "india" },

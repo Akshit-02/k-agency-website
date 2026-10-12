@@ -310,6 +310,13 @@ export const uaeResourcePosts: BlogPost[] = [
         type: "paragraph",
         text: "You'll find industry articles claiming large engagement uplifts for Arabic-first content in the Gulf. They're often useful signals, but they tend to come from vendors, with no published method. Your own segment-level results are the evidence that should decide future budget.",
       },
+      {
+        type: "paragraph",
+        text: "Many UAE residents are best reached in neither Arabic nor English; see reaching expat communities in the UAE for Hindi, Malayalam, Urdu, Tagalog and other community-language campaigns.",
+        links: [
+          { text: "reaching expat communities in the UAE", href: "/blog/influencer-marketing-expat-communities-uae" }
+        ],
+      },
       { type: "heading", text: "When each approach tends to fit", id: "fit" },
       {
         type: "table",
@@ -375,6 +382,7 @@ export const uaeResourcePosts: BlogPost[] = [
       "Copyable influencer campaign brief template for UAE brands: audience, emirate, language, approved claims, permits, disclosure, fees in AED, rights and tracking.",
     author: AUTHOR,
     publishedAt: GCC_PUBLISHED,
+    updatedAt: "2026-10-09",
     lastReviewed: GCC_REVIEWED,
     readingTime: "9 min read",
     inLanguage: GCC_LANGUAGE,
@@ -547,6 +555,31 @@ Escalation contact for urgent issues:`,
         type: "paragraph",
         text: "The most common brief failure is a creative section that's really a script. Give creators the problem, the audience and three must-haves at most, and let them decide how to say it. The general principles, with an example, are in our guide to writing an influencer campaign brief; this template adds the UAE fields on top.",
         links: [{ text: "writing an influencer campaign brief", href: "/blog/influencer-campaign-brief" }],
+      },
+      { type: "heading", text: "Adapting the template for Saudi Arabia and other GCC markets", id: "gcc" },
+      {
+        type: "paragraph",
+        text: "The structure of the brief stays the same across the Gulf; a few fields change by market. Duplicate the brief per country rather than writing one regional brief, so each creator sees only the rules and details that apply to them.",
+      },
+      {
+        type: "table",
+        headers: ["Field", "UAE", "Saudi Arabia", "Other GCC markets"],
+        rows: [
+          ["Creator licence", "Advertiser permit (visitor permit for visiting creators)", "Mawthooq licence", "Oman: licence; Kuwait: licences from around April 2027; Qatar and Bahrain: check current rules"],
+          ["Language and dialect", "Gulf Arabic, English, community languages", "Saudi dialect for the region you target", "Kuwaiti, Qatari, Bahraini or Omani Arabic as relevant"],
+          ["Promotions", "Emirate-level promotion permits", "Ministry of Commerce licence for discounts and contests", "Commerce ministry rules per country"],
+          ["Currency and pricing", "AED, VAT included where required", "SAR, VAT included where required", "Local currency"],
+          ["Key dates", "Ramadan, Eid, UAE National Day (Eid Al Etihad)", "Ramadan, Eid, Founding Day, National Day", "Each country's national day"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Country details are in Saudi influencer advertising rules and the GCC influencer marketing playbook; a skincare-specific brief is in how to brief influencers for skincare product demonstrations in the GCC.",
+        links: [
+          { text: "Saudi influencer advertising rules", href: "/blog/saudi-influencer-advertising-rules" },
+          { text: "GCC influencer marketing playbook", href: "/blog/gcc-influencer-marketing-playbook" },
+          { text: "how to brief influencers for skincare product demonstrations in the GCC", href: "/blog/skincare-influencer-brief-gcc" },
+        ],
       },
       { type: "heading", text: "Common mistakes with UAE briefs", id: "mistakes" },
       {
@@ -729,10 +762,24 @@ Escalation contact for urgent issues:`,
           { text: "influencer marketing for travel brands in the UAE", href: "/blog/influencer-marketing-travel-brands-uae" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "Food, drink and household brands planning Ramadan baskets will find claim rules and retail activation in FMCG influencer marketing in the UAE and Saudi Arabia.",
+        links: [
+          { text: "FMCG influencer marketing in the UAE and Saudi Arabia", href: "/blog/fmcg-influencer-marketing-uae-saudi-arabia" }
+        ],
+      },
       { type: "heading", text: "Charitable messaging", id: "charity" },
       {
         type: "paragraph",
         text: "Giving is central to Ramadan, and many brands want to reflect that. Do it only if the commitment is real and specific: name the partner organization, say exactly what the brand is giving and how, and report back afterwards. Don't make donations conditional on purchases in a way that pressures people, and don't let creators make vague claims about where money goes. Charitable fundraising in the UAE is regulated, so work with licensed charities and check what's permitted before promoting donations.",
+      },
+      {
+        type: "paragraph",
+        text: "Fundraising itself is regulated: individuals can't collect donations in the UAE or Saudi Arabia. How charities and brands can work with creators within those rules is covered in creator partnerships for nonprofits in the GCC.",
+        links: [
+          { text: "creator partnerships for nonprofits in the GCC", href: "/blog/nonprofit-influencer-marketing-gcc" }
+        ],
       },
       { type: "heading", text: "Rules that still apply", id: "rules" },
       {
@@ -985,6 +1032,13 @@ Escalation contact for urgent issues:`,
       {
         type: "paragraph",
         text: "For Abu Dhabi campaigns specifically, ask whether the agency has worked with Abu Dhabi-based creators and authorities such as the Department of Health or the Department of Culture and Tourism, rather than assuming a Dubai track record transfers.",
+      },
+      {
+        type: "paragraph",
+        text: "Agencies booking visiting creators must apply through the regulator's accreditation route; what that means for brands is explained in the UAE advertiser permit guide.",
+        links: [
+          { text: "UAE advertiser permit guide", href: "/blog/uae-advertiser-permit" },
+        ],
       },
       { type: "heading", text: "Red flags", id: "red-flags" },
       {

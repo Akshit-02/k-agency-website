@@ -411,6 +411,13 @@ export const aiAndRegionalGrowthPosts: BlogPost[] = [
           { text: "AI disclosure for creators", href: "/blog/ai-disclosure-creators" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "For campaigns in the UAE, Saudi Arabia and the wider Gulf, local rules differ; see AI-generated influencer content and virtual influencers in the GCC.",
+        links: [
+          { text: "AI-generated influencer content and virtual influencers in the GCC", href: "/blog/ai-generated-influencer-content-gcc" }
+        ],
+      },
       { type: "heading", text: "Authenticity questions", id: "authenticity" },
       {
         type: "paragraph",

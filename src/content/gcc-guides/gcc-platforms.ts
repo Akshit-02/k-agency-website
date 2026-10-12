@@ -734,6 +734,24 @@ export const gccPlatformPosts: BlogPost[] = [
           "If you need English subtitles too, deliver them as a separate version",
         ],
       },
+      { type: "subheading", text: "A subtitle checklist for Arabic and English" },
+      {
+        type: "paragraph",
+        text: "Professional subtitle standards are a useful benchmark for creator videos. Netflix's Arabic timed text style guide, for example, sets a maximum of 42 characters per line, two lines per subtitle and a reading speed of up to 20 characters per second for adult content. Short-form social video doesn't have to match streaming rules exactly, but they show where viewers start to struggle.",
+        links: [{ text: "Netflix's Arabic timed text style guide", href: SRC.netflixArabicSubs.url }],
+      },
+      {
+        type: "list",
+        items: [
+          "Line length and reading time: short lines, two lines at most, on screen long enough to read",
+          "Burned-in or platform captions: burn in for paid ads and reposts; keep a clean version for other languages",
+          "Safe zones: keep text clear of the platform's buttons, captions and profile overlays",
+          "Right-to-left display: check punctuation, numbers and English words inside Arabic lines on the final export",
+          "Dialect: subtitles in the same register as the speaker, or Modern Standard Arabic if the audience spans several markets",
+          "Claims: Arabic and English subtitles say exactly the same thing as the approved script",
+          "Timing: subtitles match speech; no subtitle covers the product at the moment it matters",
+        ],
+      },
       { type: "heading", text: "Revisions", id: "revisions" },
       {
         type: "list",

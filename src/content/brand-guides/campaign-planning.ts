@@ -607,6 +607,13 @@ export const campaignPlanningPosts: BlogPost[] = [
         type: "paragraph",
         text: "Hypothetical: a footwear brand needs 8 creators for a Hindi-belt monsoon campaign. Pass rules agreed in the brief: Hindi content, audience mainly in UP, MP, Rajasthan and Bihar, Reels median views in the agreed band, no competitor deal in the last 60 days. Discovery produces 140 names; language and activity filters leave 70; audience insights and authenticity checks leave 28; content and brand-safety review leaves 16. Ranking puts 9 in priority, 4 in reserve and 3 out. Two priority creators decline, and reserves fill the gaps without another approval round. Every exclusion has a recorded reason.",
       },
+      {
+        type: "paragraph",
+        text: "When the shortlist includes several creators in one niche or market, estimate how much their audiences overlap; see how to detect influencer audience overlap.",
+        links: [
+          { text: "how to detect influencer audience overlap", href: "/blog/influencer-audience-overlap" }
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -838,6 +845,13 @@ export const campaignPlanningPosts: BlogPost[] = [
         type: "paragraph",
         text: "Ask creators for dated screenshots of their audience country and city data from each platform; public profiles don't show it, and third-party estimates can be off, especially for Arabic-language accounts. Gulf-specific vetting checks are in how to vet influencers.",
         links: [{ text: "how to vet influencers", href: "/blog/how-to-vet-influencers" }],
+      },
+      {
+        type: "paragraph",
+        text: "Before booking several creators, also check how much their audiences overlap; see how to detect audience overlap when selecting multiple influencers.",
+        links: [
+          { text: "how to detect audience overlap when selecting multiple influencers", href: "/blog/influencer-audience-overlap" }
+        ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

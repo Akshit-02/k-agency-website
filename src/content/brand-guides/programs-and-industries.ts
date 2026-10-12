@@ -1,5 +1,6 @@
 import type { BlogPost } from "@/content/blog";
 import { AUTHOR, PUBLISHED, REVIEWED } from "@/content/brand-guides/shared";
+import { SRC as GCC_SRC } from "@/content/gcc-guides/shared";
 
 /**
  * 950–999 layer of the brand lead-generation cluster. Only topics with a distinct search intent became new URLs;
@@ -33,7 +34,7 @@ export const programsAndIndustriesPosts: BlogPost[] = [
     related: ["influencer-gifting", "instagram-product-seeding", "brand-ambassador-program"],
     hero: { src: "/blog/brand-guides/influencer-product-seeding-program.svg", alt: "Product seeding program: creator list, packed seeding boxes shipped to several cities, content tracked and best creators moved to paid partnerships" },
     metaDescription: "How brands run influencer product seeding: choosing recipients, packaging, the note, setting expectations without pressure, logistics and measurement.",
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-09",
     body: [
       {
         type: "paragraph",
@@ -183,6 +184,33 @@ export const programsAndIndustriesPosts: BlogPost[] = [
         type: "paragraph",
         text: "Illustrative example, not a case study. A snack brand launching a millet range invites 120 food and family creators across six cities to opt in; 90 accept. Parcels ship two weeks before launch with a recipe card and a no-obligation note. Over a month the team logs which creators posted, how they disclosed, and what audiences asked. Fifteen creators whose content performed and fitted the brand are offered paid recipe series for the festive season.",
       },
+      { type: "heading", text: "Seeding and product sampling in the UAE", id: "uae" },
+      {
+        type: "paragraph",
+        text: "Reviewed 9 October 2026; not legal advice. In the UAE, the advertiser permit applies to creators who publish advertising content whether or not they're paid, as Gulf News reports, so a gifted product that a creator posts about is in scope. If you expect posts, seed only creators who hold a permit, and ask them to disclose the gift clearly.",
+        links: [{ text: "as Gulf News reports", href: GCC_SRC.gnPermitHowTo.url }],
+      },
+      {
+        type: "list",
+        items: [
+          "Products: send only products that already meet UAE requirements for sale",
+          "Food and drink samples at events or in public: check with the relevant municipality before handing them out",
+          "Shipping: samples sent from abroad go through customs; allow time, and avoid shipping during Eid holidays",
+          "Packaging and notes: Arabic and English, or the language of the creator's audience",
+          "Ramadan: time seeding so content lands before the season, not in its final days",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For cosmetics and personal care, registration in Dubai runs through Dubai Municipality's Montaji system; confirm a product's status before seeding it.",
+        links: [{ text: "Dubai Municipality's Montaji system", href: GCC_SRC.dm.url }],
+      },
+      { type: "subheading", text: "Using seeding for consumer research" },
+      {
+        type: "paragraph",
+        text: "Seeding can double as research: creators and their audiences tell you how a product is received before a wider launch. Keep the research and the promotion separate. Ask creators for structured feedback through a short form, use audience polls in Stories with clear questions, and don't treat comments as a representative sample. If you collect personal data from creators or their followers, handle it under the UAE's data protection law, Federal Decree-Law No. 45 of 2021.",
+        links: [{ text: "Federal Decree-Law No. 45 of 2021", href: GCC_SRC.uaePdpl.url }],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -241,9 +269,9 @@ export const programsAndIndustriesPosts: BlogPost[] = [
       "Connect creators with paid media: organic posts vs creator ads, rights and permissions, content-to-ads pipeline, creative testing, budgets and CAC/ROAS.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-10",
     lastReviewed: "October 2026",
-    readingTime: "15 min read",
+    readingTime: "6 min read",
     tags: ["influencer performance marketing", "creator ads vs influencer posts", "paid creator amplification", "creator content paid media", "influencer marketing performance"],
     related: ["instagram-partnership-ads", "repurpose-influencer-content", "influencer-marketing-sales"],
     hero: { src: "/blog/brand-guides/influencer-performance-marketing.svg", alt: "Creator content feeding paid media: organic posts, creator ads with permissions, creative testing and CAC and ROAS measurement" },
@@ -339,6 +367,38 @@ export const programsAndIndustriesPosts: BlogPost[] = [
           { text: "how to repurpose influencer content", href: "/blog/repurpose-influencer-content" },
           { text: "UGC for paid social", href: "/blog/ugc-paid-social-testing" },
         ],
+      },
+      { type: "heading", text: "Briefing creators for paid social", id: "paid-social-brief" },
+      {
+        type: "paragraph",
+        text: "A brief for content that will run as ads needs more than an organic brief. Ask for the parts an ad team will need, and say so before filming so the creator can plan for it.",
+      },
+      {
+        type: "list",
+        items: [
+          "Three or more opening lines or shots, filmed separately, for hook tests",
+          "The core claim in the creator's words, which stays the same across variants",
+          "Vertical and square framing, with space for captions",
+          "Clean audio and a version without music, so ads can use licensed tracks",
+          "Lengths the ad team needs, such as a short cut and a longer one",
+          "A clear spoken call to action that matches the landing page",
+          "Raw footage access, if the agreement includes it",
+        ],
+      },
+      { type: "heading", text: "Creator ads and brand ads together", id: "creator-and-brand-ads" },
+      {
+        type: "table",
+        headers: ["Stage", "Usually stronger", "Why"],
+        rows: [
+          ["Prospecting (new audiences)", "Creator ads", "A person explaining the problem feels native in feeds"],
+          ["Consideration", "Mix", "Creator demos for credibility, brand ads for range and detail"],
+          ["Retargeting site visitors", "Creator content answering objections", "Reassurance from someone who uses the product"],
+          ["Cart and checkout reminders", "Brand ads with the offer and product", "Clarity on price, delivery and returns"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These are starting hypotheses to test, not rules. For retargeting, pick creator content that answers a specific doubt, such as fit, setup or price, and check that the usage agreement covers retargeting. Keep one reporting view across creator and brand ads, so they're judged on the same outcomes. A repeatable system ties this together: a regular supply of new creator content, a testing slot for variants and a rights register so nothing runs past its permission.",
       },
       { type: "heading", text: "Budgeting creators and media together", id: "budget" },
       {
@@ -946,6 +1006,11 @@ export const programsAndIndustriesPosts: BlogPost[] = [
           "Unsafe driving shots in local content.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Running dealership campaigns in Australia? The FCAI motor vehicle advertising code and local consumer law are covered in automotive influencer marketing in Australia.",
+        links: [{ text: "automotive influencer marketing in Australia", href: "/blog/automotive-influencer-marketing-australia" }],
+      },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
@@ -1091,6 +1156,13 @@ export const programsAndIndustriesPosts: BlogPost[] = [
           ["Applications", "Conversion from interest"],
           ["Enrolments", "The real outcome, over the admissions cycle"],
           ["Questions in comments and DMs", "What applicants and parents worry about"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Institutions recruiting in the UAE face different rules, including KHDA approval of advertising in Dubai; see influencer marketing for universities in the UAE.",
+        links: [
+          { text: "influencer marketing for universities in the UAE", href: "/blog/influencer-marketing-universities-uae" }
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

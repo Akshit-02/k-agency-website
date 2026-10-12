@@ -44,6 +44,16 @@ const TOPIC_TO_CAMPAIGN_GOAL: Record<string, string> = {
   "KSA: Agency Selection": "Influencer Marketing",
   "KSA: Creator Discovery": "Creator Discovery",
   "GCC: Arabic UGC": "UGC Content",
+  "GCC: Brand Lift": "Brand Awareness",
+  "GCC: Annual Plan": "Campaign Management",
+  "GCC: Product Drop": "Product Launch",
+  "AU: Campaign Planning": "Campaign Management",
+  "AU: Agency Selection": "Influencer Marketing",
+  "AU: Creator Discovery": "Creator Discovery",
+  "AU: Creator Ads": "UGC Content",
+  "AU: Product Launch": "Product Launch",
+  "UK: Campaign Planning": "Campaign Management",
+  "UK: Agency Selection": "Influencer Marketing",
 };
 
 export function BrandInquiryForm() {

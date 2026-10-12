@@ -247,6 +247,11 @@ export const optimizationCyclePosts: BlogPost[] = [
         text: "Compare against each creator's own baseline rather than across creators of different sizes. Long-form YouTube content and searchable posts can keep building for weeks, so give them longer before deciding. Influencer content performance covers reading these signals in more depth.",
         links: [{ text: "Influencer content performance", href: "/blog/influencer-content-performance" }],
       },
+      {
+        type: "paragraph",
+        text: "When results start strong and then slide, check whether the content is wearing out; how to detect influencer ad fatigue explains the signals and a refresh order.",
+        links: [{ text: "how to detect influencer ad fatigue", href: "/blog/influencer-ad-fatigue" }],
+      },
       { type: "heading", text: "Practical mid-flight moves", id: "moves" },
       { type: "subheading", text: "Fix leaks first" },
       {
@@ -709,6 +714,13 @@ export const optimizationCyclePosts: BlogPost[] = [
           { text: "influencer campaign optimization", href: "/blog/influencer-campaign-optimization" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "When findings point to product or messaging changes, use the evidence-grading workflow in how to use influencer campaign insights to improve your next product launch.",
+        links: [
+          { text: "how to use influencer campaign insights to improve your next product launch", href: "/blog/influencer-campaign-insights-product-launch" }
+        ],
+      },
       { type: "heading", text: "What to share with creators", id: "share" },
       {
         type: "list",
@@ -788,7 +800,8 @@ export const optimizationCyclePosts: BlogPost[] = [
       "How brands test creators, content and approaches: hypothesis, variable, baseline, groups, success criteria, measurement window and the limits of tests.",
     author: AUTHOR,
     publishedAt: OPT_PUBLISHED,
-    lastReviewed: OPT_REVIEWED,
+    updatedAt: "2026-10-10",
+    lastReviewed: "October 2026",
     readingTime: "6 min read",
     tags: ["influencer marketing testing", "creator campaign testing", "influencer campaign experimentation", "test influencer content", "influencer A/B testing"],
     related: ["influencer-campaign-optimization", "influencer-content-performance", "ugc-paid-social-testing"],
@@ -907,6 +920,31 @@ export const optimizationCyclePosts: BlogPost[] = [
           { text: "influencer data analytics", href: "/blog/influencer-data-analytics" },
         ],
       },
+{ type: "heading", text: "Is the campaign ready to scale?", id: "ready-to-scale" },
+      {
+        type: "paragraph",
+        text: "A good test result isn't the same as a result that will hold at a bigger budget. Before scaling, check that the result is real, repeatable and affordable at a higher level of spend.",
+      },
+      {
+        type: "table",
+        headers: ["Check", "Ready", "Not yet"],
+        rows: [
+          ["Result", "Beat the success threshold set before the test", "Looks good only after the threshold was changed"],
+          ["Repeatability", "Held across more than one creator or round", "Driven by one creator or one viral post"],
+          ["Incrementality", "Holds against a control group or baseline", "Only code sales, with no comparison"],
+          ["Unit economics", "Cost per result stays within margin as volume grows", "Profitable only at test scale"],
+          ["Supply", "Enough similar creators to reach the new budget", "Few creators like the winners"],
+          ["Operations", "Briefing, approvals and payments can handle more creators", "The team is already stretched"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Scale in steps (for example, doubling rather than multiplying by ten), and keep a holdout so you can see whether results hold. Measuring the real effect is covered in influencer marketing incrementality, and building budget for the next stage in how to allocate your influencer marketing budget.",
+        links: [
+          { text: "influencer marketing incrementality", href: "/blog/influencer-marketing-incrementality" },
+          { text: "how to allocate your influencer marketing budget", href: "/blog/influencer-budget-allocation" },
+        ],
+      },
       { type: "heading", text: "Testing in Indian campaigns", id: "india" },
       {
         type: "list",
@@ -915,6 +953,33 @@ export const optimizationCyclePosts: BlogPost[] = [
           "Keep the offer and delivery coverage identical across regions you compare.",
           "Avoid comparing festival-period posts with normal-period posts.",
           "For cash-on-delivery-heavy categories, compare delivered orders, not placed orders.",
+        ],
+      },
+      { type: "heading", text: "Piloting a new GCC market before scaling", id: "gcc-pilot" },
+      {
+        type: "paragraph",
+        text: "Entering a new Gulf market is a bigger test than comparing two creators: it tests whether the market works for your product at all. Run it as a controlled pilot with success criteria agreed before launch, so the decision to scale, adjust or stop isn't made on enthusiasm.",
+      },
+      {
+        type: "table",
+        headers: ["Element", "Example"],
+        rows: [
+          ["Question", "Can creators in Saudi Arabia deliver orders at or below our break-even cost per order?"],
+          ["Scope", "One market, one or two cities, 6–10 creators, 6–8 weeks"],
+          ["Preconditions", "Creator licences checked; local landing page, payment and delivery working; Arabic creative reviewed"],
+          ["Comparison", "A pre-pilot baseline, or cities not included in the pilot"],
+          ["Success criteria (set before launch)", "Cost per order at or below break-even; a stated share of creators above the threshold"],
+          ["Timing", "Avoid judging the pilot on Ramadan or a sale period alone"],
+          ["Decision", "Scale, adjust one variable and re-test, or stop"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Break-even targets are explained in how to calculate break-even ROAS for influencer campaigns, market sequencing in the GCC influencer marketing playbook, and annual testing priorities in our 2027 GCC planning guide.",
+        links: [
+          { text: "how to calculate break-even ROAS for influencer campaigns", href: "/blog/break-even-roas-influencer-campaigns" },
+          { text: "GCC influencer marketing playbook", href: "/blog/gcc-influencer-marketing-playbook" },
+          { text: "2027 GCC planning guide", href: "/blog/gcc-influencer-marketing-plan-2027" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

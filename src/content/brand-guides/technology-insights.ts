@@ -19,7 +19,8 @@ export const technologyInsightsPosts: BlogPost[] = [
       "How brands use social listening for influencer marketing: find creators already talking about your category, content angles, monitoring and a query plan.",
     author: AUTHOR,
     publishedAt: TECH_PUBLISHED,
-    lastReviewed: TECH_REVIEWED,
+    updatedAt: "2026-10-09",
+    lastReviewed: "October 2026",
     readingTime: "7 min read",
     tags: ["social listening influencer marketing", "social listening to find influencers", "influencer social listening", "brand mentions creators", "listening for creator opportunities"],
     related: ["social-listening-creator-discovery", "brand-mention-monitoring", "influencer-sentiment-analysis"],
@@ -107,6 +108,18 @@ export const technologyInsightsPosts: BlogPost[] = [
         links: [
           { text: "X social listening", href: "/blog/x-social-listening" },
           { text: "influencer brand safety", href: "/blog/influencer-marketing-brand-safety" },
+        ],
+      },
+      { type: "heading", text: "Listening in Arabic and across GCC markets", id: "gcc" },
+      {
+        type: "list",
+        items: [
+          "Build queries in Arabic script, English and Arabizi (Arabic written in Latin letters and numbers), plus common misspellings of your brand",
+          "Include dialect terms for each market; Saudi, Emirati and Kuwaiti audiences may describe the same product differently",
+          "Separate results by country where tools allow; regional Arabic conversation mixes many markets",
+          "Expect gaps: Snapchat Stories and private messaging aren't visible to listening tools, and both matter in the Gulf",
+          "Have native speakers review sentiment; automated tools often misread sarcasm and dialect",
+          "Monitor during sensitive news periods so campaign content can be paused if the mood changes",
         ],
       },
       { type: "heading", text: "A weekly listening workflow", id: "workflow" },

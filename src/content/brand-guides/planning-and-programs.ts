@@ -187,8 +187,9 @@ export const planningAndProgramsPosts: BlogPost[] = [
       "Use creators for customer retention: onboarding content, reorder moments, community, customers as creators, referrals, and measuring repeat purchase and churn.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
-    readingTime: "12 min read",
+    updatedAt: "2026-10-10",
+    lastReviewed: "October 2026",
+    readingTime: "6 min read",
     tags: ["influencer marketing customer retention", "creator advocacy program", "customer creators", "retention marketing creators", "repeat purchase influencers"],
     related: ["influencer-marketing-sales", "brand-ambassador-program", "always-on-influencer-marketing"],
     hero: { src: "/blog/brand-guides/influencer-marketing-customer-retention.svg", alt: "Creator content after the first purchase: onboarding tutorials, reorder moments, community and customers becoming creators" },
@@ -245,8 +246,66 @@ export const planningAndProgramsPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Your most loyal customers are often the most believable creators. Invite them into a customer creator or advocacy program with clear, disclosed rewards (early access, products, commission). Disclosure applies to customers too when they receive something of value; see the creator disclosure guide.",
-        links: [{ text: "creator disclosure guide", href: "/blog/creator-disclosure-guide" }],
+        text: "Your most loyal customers are often the most believable creators. Invite them into a customer creator or advocacy program with clear, disclosed rewards (early access, products, commission). Disclosure applies to customers too when they receive something of value; see the creator disclosure guide. How to find, invite and reward these customers is covered in customer advocacy programs.",
+        links: [
+          { text: "creator disclosure guide", href: "/blog/creator-disclosure-guide" },
+          { text: "customer advocacy programs", href: "/blog/customer-advocacy-program" },
+        ],
+      },
+{ type: "heading", text: "What to publish after the sale", id: "post-purchase" },
+      {
+        type: "paragraph",
+        text: "Post-purchase content works best as a sequence tied to what the customer is doing, not a single thank-you video. Timing varies by category, so use your own data on when questions, returns and reorders happen.",
+      },
+      {
+        type: "table",
+        headers: ["When", "Customer's question", "Creator content", "Channel"],
+        rows: [
+          ["Order to delivery", "Did I choose well?", "Short 'what to expect' video from a creator who uses it", "Order email, WhatsApp"],
+          ["First use", "How do I start?", "Setup or first-use tutorial, including common mistakes", "QR code in the box, email"],
+          ["First two weeks", "Am I using it right?", "Tips and the features most people miss", "Email, app, community"],
+          ["Before results show", "Is it working?", "Honest progress content with realistic timelines", "Email, social retargeting"],
+          ["Reorder window", "Should I buy again?", "New uses, variants, routines", "Email, WhatsApp, retargeting"],
+        ],
+      },
+      { type: "heading", text: "Explaining the features customers overlook", id: "overlooked-features" },
+      {
+        type: "paragraph",
+        text: "Support tickets, reviews and returns reasons show which features customers don't find or don't understand. Turn the most common ones into short creator explainers, one feature per video, shown in real use. Creators are useful here because they explain in customers' language rather than the product team's, and because a familiar face makes a tutorial more likely to be watched than a manual. Ask creators to show the feature solving a problem, not just to list it.",
+      },
+      { type: "heading", text: "Reducing confusion and returns", id: "returns" },
+      {
+        type: "paragraph",
+        text: "Some returns come from products that didn't match expectations: wrong size, unexpected texture, a setup step people got stuck on. Creator content can reduce those by setting accurate expectations before purchase and helping after it.",
+      },
+      {
+        type: "table",
+        headers: ["Return reason", "Creator content that helps", "Where it goes"],
+        rows: [
+          ["Size or fit", "Creators of different sizes wearing the same size, stating their measurements", "Product page, size guide"],
+          ["Looks different from photos", "Unfiltered video in natural light", "Product page, ads"],
+          ["Hard to set up or use", "Step-by-step setup video", "Box insert QR code, order email"],
+          ["Didn't work as expected", "Honest content on who it suits and who it doesn't", "Product page, pre-purchase ads"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Track return rates by reason for products with and without the new content, over the same period. Don't ask creators to hide limitations to lower returns; content that oversells raises them.",
+      },
+      { type: "heading", text: "Loyalty programs beyond discount codes", id: "loyalty" },
+      {
+        type: "paragraph",
+        text: "Creator discount codes reward a single purchase and train customers to wait for the next code. Loyalty programs that keep customers engaged give creators a different role:",
+      },
+      {
+        type: "list",
+        items: [
+          "Members-only content: creator tutorials, recipes or routines available to loyalty members.",
+          "Early access to launches, introduced by creators members already follow.",
+          "Creator-hosted events or live sessions for higher tiers.",
+          "Challenges that reward use rather than spend, such as a 30-day routine.",
+          "Recognition for members who share their own content, with disclosure if they receive rewards.",
+        ],
       },
       { type: "heading", text: "Programs that support retention", id: "programs" },
       {
@@ -286,10 +345,31 @@ export const planningAndProgramsPosts: BlogPost[] = [
         text: "Compare groups fairly: customers who received creator onboarding content against similar customers who didn't, over the same period. Acquisition-side measurement is covered in influencer marketing for sales.",
         links: [{ text: "influencer marketing for sales", href: "/blog/influencer-marketing-sales" }],
       },
+{
+        type: "subheading",
+        text: "Measuring creator content's role in repeat purchases",
+      },
+      {
+        type: "list",
+        items: [
+          "Cohorts: compare customers who received creator onboarding content with similar customers who didn't, matched on product, month of first order and acquisition channel.",
+          "Holdouts: withhold the content from a random share of new customers for a period. This is the cleanest test, if the business accepts it.",
+          "Content engagement: link tutorial views or QR scans to customer records only where your privacy notice covers it.",
+          "Time to second order and repeat rate within your normal reorder window, not just 30 days.",
+          "Creator-acquired customers: compare their repeat rates with other channels before raising acquisition spend.",
+        ],
+      },
       { type: "heading", text: "An illustrative program", id: "example" },
       {
         type: "paragraph",
         text: "Illustrative example, not a case study. A D2C coffee brand notices many first-time buyers never reorder. It commissions three brewing tutorials from coffee creators, links them through a QR code on the pack and a day-3 WhatsApp message, and invites its most engaged customers into a monthly creator recipe series. After a quarter, it compares reorder rates for customers who received the tutorials with those who ordered before the program started.",
+      },
+      {
+        type: "paragraph",
+        text: "Comparing creators on the customers they bring, through returns and repeat purchases, is covered in how to measure customer quality from influencer campaigns.",
+        links: [
+          { text: "how to measure customer quality from influencer campaigns", href: "/blog/influencer-customer-quality" }
+        ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
@@ -424,6 +504,13 @@ export const planningAndProgramsPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Illustrative example with hypothetical numbers. A skincare brand plans 10 creators for a new serum, expecting about 3,00,000 total views in the expected case. It uses a click-through rate and site conversion rate from its own last campaign, an average order value of ₹900 and a 60% gross margin, against a campaign cost of ₹4,00,000. The expected case shows a modest return on tracked sales alone; the cautious case shows a loss. The team agrees to proceed because the content will also be used in ads, and sets a rule: rebook and amplify creators whose tracked sales beat the expected case, and stop those below the cautious case.",
+      },
+      {
+        type: "paragraph",
+        text: "To turn a forecast into a budget request with full costs, risks and a staged pilot, see how to build an influencer marketing business case.",
+        links: [
+          { text: "how to build an influencer marketing business case", href: "/blog/influencer-marketing-business-case" },
+        ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
@@ -749,6 +836,27 @@ export const planningAndProgramsPosts: BlogPost[] = [
         text: "If several agencies or teams run creator work, governance is what keeps them consistent: the same disclosure standard, payment timelines, contract terms and reporting format. Put these in every agency statement of work, and review adherence quarterly. How to structure internal ownership and multiple vendors is covered in influencer marketing team structure.",
         links: [{ text: "influencer marketing team structure", href: "/blog/influencer-marketing-team-structure" }],
       },
+      {
+        type: "paragraph",
+        text: "Rules for AI tools and AI-generated creator content belong in governance too; see how to build an influencer marketing AI policy.",
+        links: [
+          { text: "how to build an influencer marketing AI policy", href: "/blog/influencer-marketing-ai-policy" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Governance sets your internal rules. The creator-facing version, with commitments on both sides, is in the influencer code of conduct guide.",
+        links: [
+          { text: "influencer code of conduct", href: "/blog/influencer-code-of-conduct" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Creator and audience data needs its own rules under India's DPDP framework; see influencer marketing data privacy.",
+        links: [
+          { text: "influencer marketing data privacy", href: "/blog/influencer-marketing-data-privacy" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -987,8 +1095,9 @@ export const planningAndProgramsPosts: BlogPost[] = [
       "Build a 12-month influencer marketing plan: objectives, the Indian calendar, always-on vs peaks, multi-product and regional planning, reviews and a template.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
-    readingTime: "15 min read",
+    updatedAt: "2026-10-10",
+    lastReviewed: "October 2026",
+    readingTime: "6 min read",
     tags: ["influencer marketing annual plan", "influencer marketing calendar", "12-month creator strategy", "multi product influencer marketing", "yearly influencer plan India"],
     related: ["always-on-influencer-marketing", "seasonal-influencer-marketing-india", "influencer-budget-allocation"],
     hero: { src: "/blog/brand-guides/influencer-marketing-annual-plan.svg", alt: "Twelve-month influencer marketing plan with an always-on base, launch and festive peaks across quarters, and quarterly reviews" },
@@ -1072,6 +1181,13 @@ export const planningAndProgramsPosts: BlogPost[] = [
           { text: "influencer marketing in tier 2 and tier 3 cities", href: "/blog/influencer-marketing-tier-2-tier-3-cities" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "Planning Gulf markets for 2027? The 2027 GCC planning guide covers fixed dates, licensing changes and keeping a budget reserve.",
+        links: [
+          { text: "2027 GCC planning guide", href: "/blog/gcc-influencer-marketing-plan-2027" }
+        ],
+      },
       { type: "heading", text: "Step 6: Plan the roster", id: "roster" },
       {
         type: "paragraph",
@@ -1093,6 +1209,45 @@ export const planningAndProgramsPosts: BlogPost[] = [
           "Budget moves: what gets more, less, or stops.",
           "Roster changes: renew, add, rest.",
           "Adjustments to the next quarter's calendar.",
+        ],
+      },
+{ type: "heading", text: "The annual program review", id: "annual-review" },
+      {
+        type: "paragraph",
+        text: "Quarterly reviews adjust the plan; an annual review asks whether the program itself is set up right. Run it before next year's budget is set, with finance and the teams that use creator content.",
+      },
+      {
+        type: "table",
+        headers: ["Area", "Questions to answer", "Evidence"],
+        rows: [
+          ["Outcomes", "Did the program move the business metrics it was funded for?", "Results by objective, with the measurement method stated"],
+          ["Spend", "Where did money go, and what did each part return?", "Full costs by campaign, creator tier and platform"],
+          ["Roster", "Which creators to renew, rest or replace?", "Performance, reliability, audience fit"],
+          ["Content", "How much was reused, and are rights in order?", "Rights register, reuse by channel"],
+          ["Operations", "Where did delays, rework and payment problems come from?", "Tracker data, incident log"],
+          ["Compliance and data", "Were disclosures, claims and creator data handled correctly?", "Spot checks, data map"],
+          ["Partners and tools", "Are the agency and tools still the right fit?", "Scorecards, cost against use"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Finish with three to five decisions for next year, not a long list of observations. If the program needs new budget, the review is the evidence for an influencer marketing business case.",
+        links: [{ text: "influencer marketing business case", href: "/blog/influencer-marketing-business-case" }],
+      },
+      { type: "heading", text: "Planning for platform changes", id: "platform-change" },
+      {
+        type: "paragraph",
+        text: "Platforms change features, reach and rules, and occasionally disappear from a market; India blocked TikTok in 2020. A program built on one platform and one format is exposed. Plan for change without spreading too thin:",
+        links: [{ text: "India blocked TikTok in 2020", href: "https://eoimanila.gov.in/news-details/government-of-india-bans-59-mobile-apps-which-are-prejudicial-to-sovereignty-and-integrity-of-india-defence-of-india-security-of-state-and-public-order" }],
+      },
+      {
+        type: "list",
+        items: [
+          "Relationships with creators, not with a platform: many creators work across Instagram, YouTube and others, so contracts and briefs should allow a change of platform.",
+          "Usage rights that let you reuse content on your own channels and in ads, so a change in organic reach doesn't erase its value.",
+          "Owned channels (email, WhatsApp, your site) that capture interest creators generate.",
+          "Benchmarks rebased after major platform changes, rather than comparing across them.",
+          "A secondary platform tested each year at modest budget, so a shift doesn't start from zero.",
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

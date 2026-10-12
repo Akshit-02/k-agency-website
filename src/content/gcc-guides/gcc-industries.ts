@@ -15,6 +15,7 @@ export const gccIndustryPosts: BlogPost[] = [
       "Retail influencer marketing in the GCC: product discovery, store visits, seasonal calendar, promotion permits, footfall and sales attribution, codes and reuse.",
     author: AUTHOR,
     publishedAt: GCC3_PUBLISHED,
+    updatedAt: "2026-10-09",
     lastReviewed: GCC_REVIEWED,
     readingTime: "10 min read",
     inLanguage: GCC_LANGUAGE,
@@ -134,6 +135,45 @@ export const gccIndustryPosts: BlogPost[] = [
           { text: "influencer marketing for e-commerce brands in Saudi Arabia", href: "/blog/influencer-marketing-ecommerce-brands-saudi-arabia" },
         ],
       },
+      { type: "heading", text: "Store openings, launches and pop-ups", id: "launches" },
+      {
+        type: "paragraph",
+        text: "A store opening, product launch or pop-up compresses the whole campaign into a few days, so the order of work matters more than usual. Malls set their own rules for activations and filming, so agree access with the mall's marketing team before inviting creators, and check promotion permits before any opening offer is announced.",
+      },
+      {
+        type: "list",
+        items: [
+          "One to two weeks before: local creators preview the location and dates; hold back offer details until the permit is in place",
+          "Opening days: spread hosted creator visits across several days rather than one crowded launch night",
+          "Pop-ups: give the pop-up its own code or QR link so sales can be separated from nearby stores",
+          "After: follow-up posts from creators who visited, and the content reused in store within the agreed rights",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Launch sequencing is covered in influencer marketing for new product launches, launch events in Dubai in our events and exhibitions playbook, openings across a franchise network in franchise influencer marketing in the GCC, and limited releases in creator-led product drops in the GCC.",
+        links: [
+          { text: "influencer marketing for new product launches", href: "/blog/influencers-for-product-launch" },
+          { text: "events and exhibitions playbook", href: "/blog/influencer-marketing-events-exhibitions-dubai" },
+          { text: "franchise influencer marketing in the GCC", href: "/blog/franchise-influencer-marketing-gcc" },
+          { text: "creator-led product drops in the GCC", href: "/blog/creator-product-drops-gcc" },
+        ],
+      },
+      { type: "heading", text: "Home décor and furniture retailers", id: "home" },
+      {
+        type: "paragraph",
+        text: "Furniture and home décor are considered purchases: people compare for weeks, visit showrooms and worry about size, delivery and assembly. Moving home is the trigger, and many Gulf residents move often, so creators who document real homes, from new apartments to family villas, are more persuasive than styled product shots.",
+      },
+      {
+        type: "list",
+        items: [
+          "Room makeovers and 'before we moved in' series filmed over several weeks",
+          "Showroom visits that show scale, materials and the buying process, with a booking or design-consultation link",
+          "Practical content: measuring, delivery, assembly, how pieces cope with heat, sand and air conditioning",
+          "Seasonal moments: new-home season, Ramadan and Eid hosting, year-end sales",
+          "Measure design consultations, showroom visits with creator codes and orders of featured pieces over a longer window",
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -181,6 +221,7 @@ export const gccIndustryPosts: BlogPost[] = [
       "Automotive influencer marketing in the UAE and Saudi Arabia: vehicle reviews, test drives, qualified leads, booking attribution, accurate claims and brand safety.",
     author: AUTHOR,
     publishedAt: GCC3_PUBLISHED,
+    updatedAt: "2026-10-09",
     lastReviewed: GCC_REVIEWED,
     readingTime: "10 min read",
     inLanguage: GCC_LANGUAGE,
@@ -278,6 +319,27 @@ export const gccIndustryPosts: BlogPost[] = [
         type: "paragraph",
         text: "Car content has risks other categories don't. Footage of speeding, drifting or stunts on public roads can create legal and reputational problems for the brand that paid for it. Screen creators' past content, write safe-driving requirements into the brief and contract, and review content before it goes live. A broader due-diligence process for Gulf campaigns is in influencer brand safety.",
         links: [{ text: "influencer brand safety", href: "/blog/influencer-marketing-brand-safety" }],
+      },
+      { type: "heading", text: "Manufacturer, distributor or dealer?", id: "who-runs-it" },
+      {
+        type: "paragraph",
+        text: "In the UAE, most car brands are sold through a registered commercial agent, usually a large distributor group that runs the brand's showrooms, rather than through independent dealers competing for the same brand. The commercial agencies law that took effect in 2023 keeps a presumption of exclusivity for registered agents, according to CMS. That shapes who runs creator campaigns and what each party should own.",
+        links: [{ text: "according to CMS", href: SRC.uaeAgencyLawCms.url }],
+      },
+      {
+        type: "table",
+        headers: ["", "Manufacturer (brand)", "Distributor or agent", "Showroom or dealer"],
+        rows: [
+          ["Goal", "Brand image, launches, global consistency", "Leads, test drives and sales in its territory", "Footfall and sales at one location"],
+          ["Creators", "Specialist reviewers, launch events, regional stars", "Local reviewers, family and lifestyle creators", "Neighborhood and community creators"],
+          ["Owns", "Global assets, specifications, brand rules", "Local offers, pricing, permits, lead handling", "Visits, test drives, follow-up"],
+          ["Measure", "Reach, consideration, brand lift", "Qualified leads, test drives, sales by model", "Walk-ins and bookings by creator"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Agree before launch who approves creators, whose offer is shown and where leads go, so a manufacturer's regional campaign doesn't send buyers to a dealer that can't see them. Local showroom tactics are covered in influencer marketing for automotive dealerships.",
+        links: [{ text: "influencer marketing for automotive dealerships", href: "/blog/influencer-marketing-automotive-dealerships" }],
       },
       { type: "heading", text: "UAE and Saudi Arabia differ", id: "differences" },
       {
@@ -510,6 +572,11 @@ export const gccIndustryPosts: BlogPost[] = [
           ["Smart home", "Setup tutorials, real-home demos", "Sales; fewer returns"],
           ["Higher-ticket or business devices", "Specialist and professional creators, webinars", "Qualified leads"],
         ],
+      },
+      {
+        type: "paragraph",
+        text: "Game publishers and gaming hardware brands targeting Saudi audiences should also read gaming and esports influencer marketing in Saudi Arabia, which covers age ratings, streams and the esports calendar.",
+        links: [{ text: "gaming and esports influencer marketing in Saudi Arabia", href: "/blog/gaming-esports-influencer-marketing-saudi-arabia" }],
       },
       { type: "heading", text: "Running a review program", id: "review-program" },
       {

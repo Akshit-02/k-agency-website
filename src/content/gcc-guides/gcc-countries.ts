@@ -276,6 +276,11 @@ export const gccCountryPosts: BlogPost[] = [
           ["Existing operators get a grace period after the executive regulations are issued", "Watch for the regulations and the start of the grace period"],
         ],
       },
+      {
+        type: "paragraph",
+        text: "A second law affects the brand side. The Digital Commerce Law, Decree-Law No. 10 of 2026 (published 1 March 2026, Ministry of Commerce and Industry), is reported to require businesses that work directly with influencers to keep the agreements and related records for at least five years and to pay creators through verifiable channels. It takes effect one month after its executive regulations are issued, and those had not been published when we reviewed this page. The summary comes from Net Influencer's report; check the gazette text or a Kuwaiti lawyer before relying on it.",
+        links: [{ text: "Net Influencer's report", href: SRC.kuwaitDigitalCommerce.url }],
+      },
       { type: "heading", text: "Planning during the transition", id: "transition" },
       {
         type: "list",
@@ -283,7 +288,8 @@ export const gccCountryPosts: BlogPost[] = [
           "For campaigns now: clear disclosure, accurate claims and permits for any draw or giveaway",
           "For contracts running past April 2027: require the creator to hold any licence the law requires once it applies, with termination rights if they don't",
           "Watch for the executive regulations and the start of the grace period, and diarize a review",
-          "Keep records of briefs, approvals and final posts",
+          "Keep contracts, briefs, approvals, final posts and payment records, and plan to retain them for at least five years",
+          "Pay creators by bank transfer or another traceable method rather than cash",
           "Don't assume a UAE or Saudi licence covers Kuwait",
         ],
       },

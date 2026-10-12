@@ -23,6 +23,11 @@ import { budgetPlanningPosts } from "@/content/brand-guides/budget-planning";
 import { contentRightsPosts } from "@/content/brand-guides/content-rights";
 import { governanceRiskPosts } from "@/content/brand-guides/governance-risk";
 import { growthProgramPosts } from "@/content/brand-guides/growth-programs";
+import { advancedPracticePosts } from "@/content/brand-guides/advanced-practice";
+import { partnershipFormatPosts } from "@/content/brand-guides/partnership-formats";
+import { measurementStrategyPosts } from "@/content/brand-guides/measurement-strategy";
+import { customerCommercePosts } from "@/content/brand-guides/customer-commerce";
+import { programEvidencePosts } from "@/content/brand-guides/program-evidence";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -63,4 +68,13 @@ export const brandGuidePosts: BlogPost[] = [
   ...governanceRiskPosts,
   // Creator programs, performance and commerce cluster (1330–1379); see docs/growth-programs-1330-1379-audit.md.
   ...growthProgramPosts,
+  // Strategy, measurement, AI and international execution (1610–1659); see docs/brand-guides-1610-1659-audit.md.
+  ...advancedPracticePosts,
+  // Batch 1660–1709: newsletters, co-branded products, code of conduct; see docs/brand-guides-1660-1709-audit.md.
+  ...partnershipFormatPosts,
+  // Batch 1710–1759: MMM, report reconciliation, long sales cycles, rebrands, PR, customer insight; see docs/brand-guides-1710-1759-audit.md.
+  ...measurementStrategyPosts,
+  // Batch 1760–1809: customer advocacy, AI shopping, marketplace sellers, data privacy, brand lift surveys, business case, employer branding; see docs/brand-guides-1760-1809-audit.md.
+  ...customerCommercePosts,
+  ...programEvidencePosts,
 ];

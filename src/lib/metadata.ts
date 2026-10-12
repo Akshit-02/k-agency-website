@@ -7,6 +7,7 @@ export function buildMetadata({
   path = "/",
   image,
   article,
+  locale,
 }: {
   title: string;
   description: string;
@@ -14,6 +15,8 @@ export function buildMetadata({
   /** Pass `null` when the route segment has its own `opengraph-image` file, so the file convention supplies the image. */
   image?: string | null;
   article?: { publishedTime: string; modifiedTime?: string; section: string; tags?: string[] };
+  /** Open Graph locale (e.g. "en_GB") for pages written for another market; defaults to the site locale. */
+  locale?: string;
 }): Metadata {
   const url = `${siteConfig.url}${path}`;
   const ogImage = image === null ? undefined : image ?? siteConfig.ogImage;
@@ -31,7 +34,7 @@ export function buildMetadata({
       description,
       url,
       siteName: siteConfig.name,
-      locale: siteConfig.locale,
+      locale: locale ?? siteConfig.locale,
       ...(article
         ? {
             type: "article",

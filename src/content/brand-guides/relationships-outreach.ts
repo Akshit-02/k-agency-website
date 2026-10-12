@@ -827,7 +827,8 @@ export const relationshipsOutreachPosts: BlogPost[] = [
       "How to negotiate influencer rates fairly: responding to quotes, adjusting scope rather than squeezing price, honest budget talks, wording and walking away well.",
     author: AUTHOR,
     publishedAt: REL_PUBLISHED,
-    lastReviewed: REL_REVIEWED,
+    updatedAt: "2026-10-10",
+    lastReviewed: "October 2026",
     readingTime: "7 min read",
     tags: ["negotiate influencer rates", "influencer rate negotiation", "how to negotiate with creators", "fair influencer pricing", "influencer fee negotiation"],
     related: ["how-to-negotiate-with-influencers", "how-much-to-pay-influencers", "influencer-relationship-management"],
@@ -867,6 +868,28 @@ export const relationshipsOutreachPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Many apparent gaps disappear once you compare like with like. A quote that looks high may include paid usage rights you'd otherwise pay for separately.",
+      },
+{ type: "heading", text: "Comparing creator quotes like for like", id: "compare-quotes" },
+      {
+        type: "paragraph",
+        text: "When several creators quote for the same brief, the headline fees rarely describe the same thing. Put every quote into one table before comparing, and ask creators to fill gaps rather than guessing.",
+      },
+      {
+        type: "table",
+        headers: ["Line", "Creator A", "Creator B", "What to normalize"],
+        rows: [
+          ["Deliverables", "1 Reel + 3 Stories", "1 Reel", "Price the same deliverable set, or compare per deliverable"],
+          ["Usage rights", "Included, 3 months paid", "Not included", "Add the quoted cost of matching rights"],
+          ["Exclusivity", "30 days, category", "None", "Value it only if you need it"],
+          ["Revisions and raw footage", "1 round, no raw files", "2 rounds, raw files", "Match to what you'll actually use"],
+          ["GST and fees", "GST extra", "Inclusive", "Compare totals on the same basis"],
+          ["Expected reach", "Median views on recent posts", "Median views on recent posts", "Use medians, not best posts"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Then compare cost per expected thousand views and cost per usable asset, alongside fit, not instead of it. The full list of costs that hide in quotes is in influencer campaign hidden costs.",
+        links: [{ text: "influencer campaign hidden costs", href: "/blog/influencer-campaign-hidden-costs" }],
       },
       { type: "heading", text: "Step 2: Decide what the creator is worth to this campaign", id: "worth" },
       {

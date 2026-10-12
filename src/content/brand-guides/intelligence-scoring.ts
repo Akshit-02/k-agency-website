@@ -1014,6 +1014,13 @@ export const intelligenceScoringPosts: BlogPost[] = [
           { text: "Social listening for creator discovery", href: "/blog/social-listening-creator-discovery" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "Comment sentiment is also an early signal when testing a new brand position with creators; see rebranding with influencers.",
+        links: [
+          { text: "rebranding with influencers", href: "/blog/influencer-marketing-rebrand" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",

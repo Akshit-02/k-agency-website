@@ -232,6 +232,7 @@ export const contentRightsPosts: BlogPost[] = [
     metaDescription:
       "Influencer exclusivity for brands: competitor vs category exclusivity, defining scope and duration, judging the cost, alternatives and Indian legal context.",
     author: AUTHOR,
+    updatedAt: "2026-10-10",
     publishedAt: RIGHTS_PUBLISHED,
     lastReviewed: RIGHTS_REVIEWED,
     readingTime: "9 min read",
@@ -351,6 +352,29 @@ export const contentRightsPosts: BlogPost[] = [
           "Exclusivity limited to the platform where your content and ads run",
           "A notification clause: the creator tells you before accepting a competing deal during the campaign",
           "Exclusivity only while your partnership ads are live, ending when they stop",
+        ],
+      },
+{ type: "heading", text: "Businesses with several brands", id: "multi-brand" },
+      {
+        type: "paragraph",
+        text: "Groups that own several brands face exclusivity from both sides. A creator working with one of your brands may be asked by a sister brand, and a competitor of one brand may be a partner of another. Decide the rules at group level before teams negotiate separately.",
+      },
+      {
+        type: "list",
+        items: [
+          "Define competitors per brand and category, not for the whole group, unless the brands genuinely compete",
+          "Decide whether sister brands can book the same creator in the same period, and with what gap",
+          "Keep one shared creator record so teams can see existing deals and exclusivity windows",
+          "Avoid paying twice for exclusivity: one brand's exclusivity shouldn't block another of your brands by accident",
+          "Make disclosure clear when a creator promotes two brands from the same group",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A shared record is easier in an influencer marketing CRM, and group-level rules belong in your influencer marketing governance.",
+        links: [
+          { text: "influencer marketing CRM", href: "/blog/influencer-marketing-crm" },
+          { text: "influencer marketing governance", href: "/blog/influencer-marketing-governance" },
         ],
       },
       { type: "heading", text: "Indian legal context", id: "india-law" },

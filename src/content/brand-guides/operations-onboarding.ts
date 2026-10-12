@@ -868,15 +868,15 @@ export const operationsOnboardingPosts: BlogPost[] = [
       "How brands use creator feedback to improve campaigns: what creators know, when to ask, questions to use and turning their input into better briefs and products.",
     author: AUTHOR,
     publishedAt: OPS_PUBLISHED,
-    lastReviewed: OPS_REVIEWED,
-    readingTime: "6 min read",
+    lastReviewed: "October 2026",
+    readingTime: "5 min read",
     tags: ["creator feedback loop", "influencer campaign debrief", "creator input campaigns", "influencer feedback to brands", "creator insights"],
     related: ["influencer-feedback", "repeat-influencer-collaborations", "influencer-data-analytics"],
     hero: {
       src: "/blog/brand-guides/creator-feedback-loop.svg",
       alt: "Creator insights on audience questions, formats, messaging and production feeding into the next brief and product decisions",
     },
-    updatedAt: "2026-10-08",
+    updatedAt: "2026-10-10",
     body: [
       {
         type: "paragraph",
@@ -987,6 +987,27 @@ export const operationsOnboardingPosts: BlogPost[] = [
           { text: "repeat influencer collaborations", href: "/blog/repeat-influencer-collaborations" },
         ],
       },
+{ type: "heading", text: "A creator advisory panel", id: "advisory-panel" },
+      {
+        type: "paragraph",
+        text: "Brands that work with the same creators repeatedly sometimes formalize the most useful feedback into a small advisory panel: a few creators who review product ideas, packaging, briefs or campaign concepts before launch. It works when the panel is small, paid and asked specific questions.",
+      },
+      {
+        type: "table",
+        headers: ["Decision", "Practical choice"],
+        rows: [
+          ["Size", "Four to eight creators who represent different audiences or regions"],
+          ["Pay", "A fee per session or a retainer; advice is work, separate from content fees"],
+          ["Confidentiality", "A short NDA before sharing unreleased products or plans"],
+          ["Cadence", "Quarterly, or before major launches"],
+          ["Questions", "Specific: 'Which of these three angles would your audience believe?', not 'What do you think?'"],
+          ["Closing the loop", "Tell panel members what changed because of their input"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If panel members later post about products they helped shape, the advisory relationship is a material connection to disclose. Keep panel advice separate from paid content decisions, so creators don't feel their feedback affects future bookings.",
+      },
       { type: "heading", text: "A joint brand–creator debrief", id: "joint-debrief" },
       {
         type: "paragraph",
@@ -1011,6 +1032,13 @@ export const operationsOnboardingPosts: BlogPost[] = [
         text: "Influencer campaign post-mortem covers how creator debriefs feed the brand's internal review.",
         links: [
           { text: "Influencer campaign post-mortem", href: "/blog/influencer-campaign-post-mortem" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Creator feedback works best alongside what customers say in reviews, support and sales calls; see customer insights for influencer briefs.",
+        links: [
+          { text: "customer insights for influencer briefs", href: "/blog/customer-insights-influencer-brief" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

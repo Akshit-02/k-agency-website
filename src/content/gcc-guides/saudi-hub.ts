@@ -171,10 +171,13 @@ export const saudiHubPost: BlogPost = {
     },
     {
       type: "paragraph",
-      text: "Two sectors have their own guides: influencer marketing for beauty brands in Saudi Arabia and influencer marketing for e-commerce brands in Saudi Arabia.",
+      text: "Three sectors have their own guides: influencer marketing for beauty brands in Saudi Arabia, influencer marketing for e-commerce brands in Saudi Arabia and gaming and esports influencer marketing in Saudi Arabia. Entertainment and sport are covered in film and streaming launches in Saudi Arabia and the UAE and sports clubs and events in the GCC.",
       links: [
         { text: "influencer marketing for beauty brands in Saudi Arabia", href: "/blog/influencer-marketing-beauty-brands-saudi-arabia" },
         { text: "influencer marketing for e-commerce brands in Saudi Arabia", href: "/blog/influencer-marketing-ecommerce-brands-saudi-arabia" },
+        { text: "gaming and esports influencer marketing in Saudi Arabia", href: "/blog/gaming-esports-influencer-marketing-saudi-arabia" },
+        { text: "film and streaming launches in Saudi Arabia and the UAE", href: "/blog/film-streaming-influencer-marketing-saudi-arabia-uae" },
+        { text: "sports clubs and events in the GCC", href: "/blog/sports-influencer-marketing-gcc" },
       ],
     },
     { type: "heading", text: "Budgets", id: "budgets" },

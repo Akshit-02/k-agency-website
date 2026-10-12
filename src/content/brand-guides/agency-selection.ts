@@ -940,7 +940,8 @@ export const agencySelectionPosts: BlogPost[] = [
       "Check before signing an influencer marketing agency contract: scope, fees, creator payments, usage rights, compliance, reporting, data and exit terms.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: "September 2026",
+    updatedAt: "2026-10-09",
+    lastReviewed: "October 2026",
     readingTime: "11 min read",
     tags: ["influencer marketing agency checklist", "influencer agency contract", "influencer marketing agency agreement", "agency scope of work influencer", "influencer agency contract checklist"],
     related: ["influencer-marketing-agency-pitch-questions", "influencer-marketing-rfp", "influencer-marketing-contract"],
@@ -1033,6 +1034,32 @@ export const agencySelectionPosts: BlogPost[] = [
         links: [
           { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" },
         ],
+      },
+      { type: "heading", text: "How to evaluate an agency's case study", id: "case-studies" },
+      {
+        type: "paragraph",
+        text: "Case studies are marketing material, so read them as claims to verify. A strong case study tells you what the client wanted, what the agency did, how results were measured and what it cost. Use these questions when comparing agencies.",
+      },
+      {
+        type: "table",
+        headers: ["Question", "Good sign", "Red flag"],
+        rows: [
+          ["Is the client real and reachable?", "Named client, or a reference you can call", "Unnamed, with no reference, and not labelled as illustrative"],
+          ["Was it in your market?", "The same country, language and audience you're buying for", "Results from a different market presented as relevant"],
+          ["What was the objective?", "One objective, set before launch, with results against it", "Many metrics, none tied to a goal"],
+          ["What did the agency do?", "Clear split between agency, client and other partners", "Credit for media, creative or sales it didn't control"],
+          ["How were metrics defined?", "Reach, impressions, engagement rate and conversions defined", "'Engagement' or 'impressions' with no definition"],
+          ["Paid or organic?", "Organic and paid results reported separately", "Paid amplification hidden inside 'creator results'"],
+          ["Against what baseline?", "Comparison with a previous period, control or target", "Large numbers with no comparison"],
+          ["What did it cost?", "Cost per result or at least the budget range", "No cost information at all"],
+          ["When did it run?", "Recent, with dates", "Undated"],
+          ["Can they show the data?", "Platform screenshots or exports, under NDA if needed", "Refuses to show anything beyond the slide"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Illustrative or sample case studies are fine if they are clearly labelled as such; treat them as examples of method, not proof of results. For GCC agencies, also ask whether the creators involved held the licences required in that market at the time. The questions to ask in the pitch meeting are in 25 questions to ask an influencer marketing agency.",
+        links: [{ text: "25 questions to ask an influencer marketing agency", href: "/blog/influencer-marketing-agency-pitch-questions" }],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

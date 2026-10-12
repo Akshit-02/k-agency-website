@@ -2,6 +2,7 @@ import type { BlogPost } from "@/content/blog";
 import { AUTHOR } from "@/content/brand-guides/shared";
 import { SOURCES } from "@/content/creator-resources/shared";
 import { TECH_PUBLISHED, TECH_REVIEWED } from "@/content/brand-guides/technology-ai";
+import { SRC as GCC_SRC } from "@/content/gcc-guides/shared";
 
 /**
  * Influencer technology cluster, operations layer (1155–1159): automation, outreach, CRM and creator data.
@@ -692,7 +693,8 @@ export const technologyOperationsPosts: BlogPost[] = [
       "What an influencer marketing CRM should track, the fields and relationship stages brands need, CRM vs database vs campaign tool, and how to choose one.",
     author: AUTHOR,
     publishedAt: TECH_PUBLISHED,
-    lastReviewed: TECH_REVIEWED,
+    updatedAt: "2026-10-09",
+    lastReviewed: "October 2026",
     readingTime: "7 min read",
     tags: ["influencer marketing CRM", "influencer CRM", "creator relationship management", "influencer relationship management", "brand creator CRM"],
     related: ["influencer-database", "influencer-partnerships", "influencer-outreach-automation"],
@@ -800,6 +802,13 @@ export const technologyOperationsPosts: BlogPost[] = [
         text: "A CRM holds creators' personal information: names, contact details, payment details, sometimes notes about them. Under India's data protection framework, with most business obligations from the DPDP Rules applying by May 2027, brands should collect only what they need, restrict who can see payment and identity documents, keep notes factual and professional, and be able to correct or delete a creator's data on request. A good rule: never write anything in a CRM note you'd be uncomfortable with the creator reading.",
         links: [{ text: "DPDP Rules", href: SOURCES.dpdpRules2025 }],
       },
+      {
+        type: "paragraph",
+        text: "Roles for brands and agencies, retention periods, giveaways and breach handling are covered in influencer marketing data privacy.",
+        links: [
+          { text: "influencer marketing data privacy", href: "/blog/influencer-marketing-data-privacy" },
+        ],
+      },
       { type: "heading", text: "Set it up in a week", id: "setup" },
       {
         type: "template",
@@ -825,6 +834,33 @@ export const technologyOperationsPosts: BlogPost[] = [
           "No content is used in ads after its rights expire.",
           "A new team member can see the full history of any creator in minutes.",
           "Post-campaign notes exist for most bookings.",
+        ],
+      },
+      { type: "heading", text: "Running a creator CRM for UAE and GCC campaigns", id: "gcc" },
+      {
+        type: "paragraph",
+        text: "Reviewed 9 October 2026. A CRM used for Gulf campaigns needs a few fields a single-market CRM doesn't, because licences, languages and currencies differ by country.",
+      },
+      {
+        type: "table",
+        headers: ["Field", "Why it matters"],
+        rows: [
+          ["Licence or permit type, number and expiry, per country", "UAE advertiser permit, Saudi Mawthooq and Oman's licence are separate; Kuwait's licences arrive from around April 2027"],
+          ["Country of residence and audience by country", "A creator in Dubai may have a mostly Saudi or Egyptian audience"],
+          ["Languages and dialects", "Gulf, Levantine or Egyptian Arabic, English and community languages reach different people"],
+          ["Rates by currency and date", "AED, SAR, QAR, KWD, BHD and OMR quotes aren't comparable without a dated conversion"],
+          ["VAT and invoicing details", "VAT applies in several GCC states; record the creator's status"],
+          ["Contracts, approvals and payment records", "Kuwait's Digital Commerce Law is reported to require businesses to keep influencer agreements for at least five years"],
+          ["Exclusions and conflicts", "Competitor work and any brand-safety notes, per market"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Creator data is personal data under Gulf data protection laws. The UAE's Federal Decree-Law No. 45 of 2021 covers most of the country, while the DIFC and ADGM free zones have their own data protection laws. Saudi Arabia's Personal Data Protection Law has been in force since September 2023, with its grace period ending in September 2024, according to CMS. Qatar, Bahrain, Oman and Kuwait have their own rules. Keep only the data you need, restrict access, record why you hold it, and check where your CRM stores data if you transfer it across borders. Kuwait's record-keeping rule is summarised in Net Influencer's report.",
+        links: [
+          { text: "Federal Decree-Law No. 45 of 2021", href: GCC_SRC.uaePdpl.url },
+          { text: "according to CMS", href: GCC_SRC.saudiPdplCms.url },
+          { text: "Net Influencer's report", href: GCC_SRC.kuwaitDigitalCommerce.url },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
@@ -903,8 +939,9 @@ export const technologyOperationsPosts: BlogPost[] = [
       "How brands can build and maintain an influencer database: fields, data sources, refresh rules, a data quality checklist and when to buy a database instead.",
     author: AUTHOR,
     publishedAt: TECH_PUBLISHED,
+    updatedAt: "2026-10-10",
     lastReviewed: TECH_REVIEWED,
-    readingTime: "8 min read",
+    readingTime: "7 min read",
     tags: ["influencer database", "creator database", "build influencer database", "influencer list", "creator data quality"],
     related: ["influencer-marketing-crm", "influencer-search-tools", "creator-discovery-platform"],
     hero: {
@@ -1028,6 +1065,26 @@ export const technologyOperationsPosts: BlogPost[] = [
         type: "paragraph",
         text: "Most brands need both: a third-party tool or native marketplace to search widely, and their own database for the creators they've verified and want to remember. If you're using a third-party tool, export your shortlists and notes into your own database so the knowledge stays with you. Influencer search tools covers ways to find creators to add.",
         links: [{ text: "Influencer search tools", href: "/blog/influencer-search-tools" }],
+      },
+      { type: "heading", text: "Auditing data before a platform import", id: "before-import" },
+      {
+        type: "paragraph",
+        text: "Moving a spreadsheet into an influencer platform or CRM copies its problems unless you clean it first. Check these before importing:",
+      },
+      {
+        type: "list",
+        items: [
+          "Duplicates: the same creator listed under different handles, names or managers",
+          "Dead records: deleted, renamed or inactive accounts",
+          "Stale numbers: follower counts and rates with no date, which should be refreshed or dropped",
+          "Field mapping: each column matched to a field in the new tool, with consistent formats for country, platform and currency",
+          "Personal data: contact details you have a reason to keep, and nothing sensitive you don't need",
+          "Relationship history: past campaigns, issues and do-not-work notes, so they aren't lost in the move",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Import a small sample first, check it in the new tool, then import the rest. Keep the original file read-only for a few months in case something needs recovering.",
       },
       { type: "heading", text: "Privacy and platform terms", id: "privacy" },
       {

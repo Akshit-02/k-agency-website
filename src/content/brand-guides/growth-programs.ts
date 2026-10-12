@@ -417,7 +417,8 @@ export const growthProgramPosts: BlogPost[] = [
       "Creator-led campaigns vs traditional influencer campaigns: when to let creators lead, briefing for ideas, story formats, guardrails, measurement and terms.",
     author: AUTHOR,
     publishedAt: GROWTH_PUBLISHED,
-    lastReviewed: GROWTH_REVIEWED,
+    updatedAt: "2026-10-09",
+    lastReviewed: "October 2026",
     readingTime: "9 min read",
     tags: [
       "creator-led campaigns",
@@ -513,6 +514,31 @@ export const growthProgramPosts: BlogPost[] = [
         links: [
           { text: "Influencer content approval", href: "/blog/influencer-content-approval" },
           { text: "influencer marketing compliance", href: "/blog/influencer-marketing-compliance" },
+        ],
+      },
+      { type: "heading", text: "Content guidelines that don't make every post look the same", id: "guidelines" },
+      {
+        type: "paragraph",
+        text: "When several creators work from the same guidelines, posts can start to look identical: same opening, same script, same shot. That defeats the point of working with different creators. Split the guidelines into what is fixed and what is free, and keep the fixed list short.",
+      },
+      {
+        type: "table",
+        headers: ["Fixed (must be right)", "Flexible (creator decides)"],
+        rows: [
+          ["Product facts and approved claims", "The story and the angle"],
+          ["Disclosure wording and placement", "Hook, opening and pacing"],
+          ["Brand name, logo use and pronunciation", "Setting, styling and music (within licensing rules)"],
+          ["Things to avoid (competitors, sensitive topics)", "Format, within the agreed deliverables"],
+          ["Links, codes and posting window", "Language register and humour"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Show two or three very different examples of good content, not one template to copy",
+          "Avoid supplying a script unless the claims are regulated; supply facts instead",
+          "Review drafts against the fixed list only; don't edit style",
+          "Check variety across the campaign before approving: if three drafts open the same way, ask one creator to try another angle",
         ],
       },
       { type: "heading", text: "Measuring creator-led work", id: "measurement" },

@@ -1,5 +1,6 @@
 import type { BlogPost } from "@/content/blog";
 import { AUTHOR } from "@/content/brand-guides/shared";
+import { SRC as GCC_SRC } from "@/content/gcc-guides/shared";
 
 const RISK_PUBLISHED = "2026-10-08";
 const RISK_REVIEWED = "October 2026";
@@ -22,7 +23,8 @@ export const governanceRiskPosts: BlogPost[] = [
       "Manage influencer campaign risk: a risk register, a scored pre-launch risk assessment, proportionate controls, owners and Indian considerations.",
     author: AUTHOR,
     publishedAt: RISK_PUBLISHED,
-    lastReviewed: RISK_REVIEWED,
+    updatedAt: "2026-10-09",
+    lastReviewed: "October 2026",
     readingTime: "10 min read",
     tags: [
       "influencer campaign risk management",
@@ -172,6 +174,36 @@ export const governanceRiskPosts: BlogPost[] = [
         text: "Add what actually happened to the register: which risks materialised, which controls worked, and which risks you didn't see coming. Carry it into the next campaign's assessment. The influencer campaign post-mortem is the natural place to do this.",
         links: [{ text: "influencer campaign post-mortem", href: "/blog/influencer-campaign-post-mortem" }],
       },
+      { type: "heading", text: "A GCC campaign risk register", id: "gcc-risk-register" },
+      {
+        type: "paragraph",
+        text: "Reviewed 9 October 2026. Campaigns in the UAE, Saudi Arabia and other Gulf states add risks that a single-market register misses. Each country has its own rules, so the register needs a row per market where they differ. This is a planning aid, not legal advice.",
+      },
+      {
+        type: "table",
+        headers: ["Risk", "Example", "Control", "Owner"],
+        rows: [
+          ["Creator licensing", "Creator lacks the UAE advertiser permit, a Saudi Mawthooq licence or Oman's licence; Kuwait's licences arrive from around April 2027", "Check licence at contract and before posting; contract clause on new requirements", "Campaign lead"],
+          ["Promotion permits", "Discount or giveaway announced without a permit (Saudi Ministry of Commerce, Dubai DET, Bahrain MOIC)", "Permit in hand before the creator announces any offer", "Marketing and legal"],
+          ["Content standards", "Content conflicts with religious values, national identity or public morals", "Native-speaker cultural review per market", "Brand team"],
+          ["Sector approvals", "Health, food, cosmetics or financial claims without the required approval", "Approved-claims list; sector regulator checked", "Legal or regulatory"],
+          ["Regional security", "Creator films or comments on an incident; campaign tone clashes with events", "Creator guidance; pause protocol; named decision-maker", "Head of marketing"],
+          ["Event and travel disruption", "Event postponed; visiting creator can't travel", "Postponement and cancellation terms; local fallback creators", "Campaign lead"],
+          ["Audience location", "Creator's audience mostly outside the target country", "Audience-by-country data before contracting", "Campaign lead"],
+          ["Data protection", "Creator or customer data handled without a basis under UAE or Saudi data protection law", "Minimal data, access controls, documented basis", "Data protection lead"],
+          ["Payments and records", "Untraceable payments; missing contracts", "Bank transfer, signed contracts, records kept for the required period", "Finance"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "In 2026 the UAE Attorney General warned that filming or resharing footage of drone and missile incidents is a criminal offence, and several Gulf events were postponed because of the regional conflict. If something goes wrong despite the register, follow the GCC section of our controversy response guide. Country-by-country rules are in the GCC influencer marketing playbook.",
+        links: [
+          { text: "the UAE Attorney General warned", href: GCC_SRC.uaeStrikeFootage.url },
+          { text: "several Gulf events were postponed", href: GCC_SRC.skiftEventDelays.url },
+          { text: "GCC section of our controversy response guide", href: "/blog/influencer-controversy-response#gcc" },
+          { text: "GCC influencer marketing playbook", href: "/blog/gcc-influencer-marketing-playbook" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -223,7 +255,8 @@ export const governanceRiskPosts: BlogPost[] = [
       "What to do when an influencer becomes controversial mid-campaign: first 24 hours, pausing ads, deciding to continue or end, statements, contracts and payment.",
     author: AUTHOR,
     publishedAt: RISK_PUBLISHED,
-    lastReviewed: RISK_REVIEWED,
+    updatedAt: "2026-10-09",
+    lastReviewed: "October 2026",
     readingTime: "9 min read",
     tags: [
       "influencer controversy",
@@ -334,6 +367,46 @@ export const governanceRiskPosts: BlogPost[] = [
         links: [
           { text: "influencer brand safety checks", href: "/blog/influencer-marketing-brand-safety" },
           { text: "campaign risk register", href: "/blog/influencer-campaign-risk-management" },
+        ],
+      },
+      { type: "heading", text: "Crisis response for GCC campaigns", id: "gcc" },
+      {
+        type: "paragraph",
+        text: "The steps above apply in the Gulf, with some differences. Online statements in GCC countries can carry criminal, not only civil, consequences: in March 2026 the UAE Attorney General warned that filming or resharing footage of drone and missile incidents is a criminal offence. So avoid public statements that accuse a creator or comment on sensitive events, and take local legal advice before saying anything about an individual.",
+        links: [{ text: "the UAE Attorney General warned", href: GCC_SRC.uaeStrikeFootage.url }],
+      },
+      {
+        type: "table",
+        headers: ["Situation", "What to do"],
+        rows: [
+          ["A regional security event", "Pause scheduled creator posts in affected markets, review tone before resuming, and remind creators not to film or share incident footage"],
+          ["A creator's licence or permit is questioned", "Check the licence status with the regulator's records or the creator; pause posting until it's resolved"],
+          ["A complaint about disclosure or a promotion", "Gather the contract, brief, approvals and permits; respond to the regulator through your legal adviser"],
+          ["A cultural or religious misstep", "Remove or edit quickly, apologise sincerely in the audience's language, and review your cultural check"],
+          ["Backlash in one market only", "Respond in that market's language; don't escalate it into other markets"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Prepare holding statements in Arabic and English in advance, reviewed by native speakers",
+          "Make sure someone with approval authority is reachable on each market's weekend and during Ramadan working hours",
+          "Keep records of briefs, approvals and permits; Kuwait's Digital Commerce Law is reported to require businesses to keep influencer agreements for at least five years",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The risks to plan for in advance are in the GCC section of influencer campaign risk management, and country rules in the GCC influencer marketing playbook.",
+        links: [
+          { text: "GCC section of influencer campaign risk management", href: "/blog/influencer-campaign-risk-management#gcc-risk-register" },
+          { text: "GCC influencer marketing playbook", href: "/blog/gcc-influencer-marketing-playbook" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Day-to-day comment handling, before anything becomes a crisis, is covered in who owns the comments on influencer campaigns.",
+        links: [
+          { text: "who owns the comments on influencer campaigns", href: "/blog/influencer-campaign-comment-management" }
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

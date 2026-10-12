@@ -17,8 +17,9 @@ export const uaeHubPost: BlogPost = {
     "A brand guide to influencer marketing in the UAE: audiences, platforms, the advertiser permit, Dubai vs Abu Dhabi, the seasonal calendar, costs and measurement.",
   author: AUTHOR,
   publishedAt: GCC_PUBLISHED,
+  updatedAt: "2026-10-10",
   lastReviewed: GCC_REVIEWED,
-  readingTime: "13 min read",
+  readingTime: "12 min read",
   inLanguage: GCC_LANGUAGE,
   spatialCoverage: "United Arab Emirates",
   tags: [
@@ -96,17 +97,20 @@ export const uaeHubPost: BlogPost = {
     },
     {
       type: "paragraph",
-      text: "Under Federal Decree-Law No. 55 of 2023 on media regulation, individuals who publish advertising content on social media in the UAE need an Advertiser Permit, whether they are paid in cash or in products, stays or other benefits. Enforcement began on 31 January 2026, and the National Media Authority took over from the UAE Media Council as regulator in late 2025 (see Pinsent Masons' summary of the deadline). According to the official requirements as reported by Gulf News, the permit for citizens and residents is free for its first three years and requires a trade or freelance licence for electronic media activity. Two groups are exempt: people promoting their own products or services, or those of a company they own, through their personal accounts, and under-18s taking part in educational, sporting, cultural or awareness activities within their age classification.",
+      text: "Under Federal Decree-Law No. 55 of 2023 on media regulation, individuals who publish advertising content on social media in the UAE need an Advertiser Permit, whether they are paid in cash or in products, stays or other benefits. Enforcement began on 31 January 2026, and the National Media Authority took over from the UAE Media Council as regulator in late 2025 (see Pinsent Masons' summary of the deadline). Applicants need a licence for electronic media activity. Gulf News reported that the permit is free for citizens and residents for its first three years, while the UAE Media Council's FAQ, still online when we checked on 10 October 2026, lists the first year as free and AED 1,000 for each annual renewal, so confirm the fee when applying. The FAQ exempts people promoting their own business through a personal account, employees promoting their employer, and purely editorial content; under-18s may take part in educational, sporting, cultural or awareness content, but commercial ads need a permit. Promo codes count as advertising. Our UAE advertiser permit guide covers the details and what brands must check.",
       links: [
         { text: "Pinsent Masons' summary of the deadline", href: SRC.pinsentDeadline.url },
-        { text: "as reported by Gulf News", href: SRC.gnPermitHowTo.url },
+        { text: "Gulf News reported", href: SRC.gnPermitHowTo.url },
+        { text: "UAE Media Council's FAQ", href: SRC.uaemcFaq.url },
+        { text: "UAE advertiser permit guide", href: "/blog/uae-advertiser-permit" },
       ],
     },
     {
       type: "paragraph",
-      text: "Visiting creators who aren't UAE residents need a separate Visitor Advertiser Permit. It must be applied for through an advertising or talent management agency accredited by the authority. It lasts three months and can be extended once, to a maximum of six months, and the UAE agency signs the contract and acts as the visitor's representative (Gulf News, July 2026). Permit holders must show their permit number on their social media accounts, and advertising may only be published through the accounts linked to the permit. You can check details on the authority's Advertiser Permit page and its Visitor Advertiser Permit page; both were unreachable when we reviewed this guide, so use the reports above as a cross-check.",
+      text: "Visiting creators who aren't UAE residents need a separate Visitor Advertiser Permit. It must be applied for through an advertising or talent management agency accredited by the authority. It lasts three months and can be extended, up to a total of six months, and the contract is with the UAE agency, which acts as the visitor's representative (Gulf News, July 2026; the Media Council's visitor permit page). Permit holders must show their permit number on their social media accounts, and advertising may only be published through the accounts linked to the permit. The National Media Authority's Advertiser Permit page and its Visitor Advertiser Permit page were unreachable when we reviewed this guide.",
       links: [
         { text: "Gulf News, July 2026", href: SRC.gnVisitor.url },
+        { text: "the Media Council's visitor permit page", href: SRC.uaemcVisitor.url },
         { text: "Advertiser Permit page", href: SRC.nmaPermit.url },
         { text: "Visitor Advertiser Permit page", href: SRC.nmaVisitor.url },
       ],
@@ -123,7 +127,7 @@ export const uaeHubPost: BlogPost = {
       type: "table",
       headers: ["If your campaign involves", "Check with", "Why"],
       rows: [
-        ["Any creator advertising on social media", "National Media Authority", "Advertiser Permit or Visitor Advertiser Permit, permit number displayed"],
+        ["Any creator advertising on social media", "National Media Authority (formerly the UAE Media Council)", "Advertiser Permit or Visitor Advertiser Permit, permit number displayed; brands must check the regulator's database of permit holders"],
         ["Medicines, medical devices, clinics, treatments or health claims", "MOHAP, plus DHA in Dubai or DoH in Abu Dhabi", "Prior approval of health advertising; DHA's social media standards cover influencers promoting facilities"],
         ["Investments, trading, financial advice or recommendations", "SCA (mainland), DFSA (DIFC), FSRA (ADGM), CBUAE for banking", "SCA's 2025 finfluencer licence; financial promotion rules"],
         ["Crypto and other virtual assets in Dubai", "VARA", "Marketing regulations, mandatory risk disclaimer, licensed-firm requirement"],
@@ -147,6 +151,13 @@ export const uaeHubPost: BlogPost = {
       links: [
         { text: "Saudi influencer advertising rules", href: "/blog/saudi-influencer-advertising-rules" },
         { text: "Saudi Arabia vs UAE influencer marketing", href: "/blog/influencer-marketing-saudi-arabia-vs-uae" },
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "One more rule matters for every brief. In March 2026, during the regional conflict, the UAE Attorney General warned that filming or resharing footage of drone and missile incidents is a criminal offence. Tell creators never to film or comment on security incidents, and pause scheduled posts if events make your content feel out of place.",
+      links: [
+        { text: "the UAE Attorney General warned", href: SRC.uaeStrikeFootage.url }
       ],
     },
     { type: "heading", text: "Dubai, Abu Dhabi and the Northern Emirates", id: "emirates" },
@@ -267,13 +278,16 @@ export const uaeHubPost: BlogPost = {
         ["Business audiences", "B2B influencer marketing in Dubai"],
         ["Apps", "Influencer marketing for mobile apps in the UAE"],
         ["Content production", "UGC agencies in Dubai"],
+        ["Events and exhibitions", "Influencer marketing for events and exhibitions in Dubai"],
+        ["Universities and education", "Influencer marketing for universities and education brands in the UAE"],
+        ["Expatriate communities", "Reaching expat communities in the UAE through influencer marketing"],
         ["Saudi Arabia", "Influencer marketing in Saudi Arabia"],
         ["Regional expansion", "Influencer marketing for brands entering the GCC"],
       ],
     },
     {
       type: "paragraph",
-      text: "Start with the industry guide closest to your business: beauty brands, fashion brands, restaurants, travel brands, e-commerce, healthcare and wellness, fintech, B2B, mobile apps, UGC partners, Saudi Arabia, or expanding across the GCC.",
+      text: "Start with the industry guide closest to your business: beauty brands, fashion brands, restaurants, travel brands, e-commerce, healthcare and wellness, fintech, B2B, mobile apps, UGC partners, events and exhibitions, universities, expatriate communities, Saudi Arabia, or expanding across the GCC.",
       links: [
         { text: "beauty brands", href: "/blog/influencer-marketing-beauty-brands-uae" },
         { text: "fashion brands", href: "/blog/influencer-marketing-fashion-brands-dubai" },
@@ -285,9 +299,17 @@ export const uaeHubPost: BlogPost = {
         { text: "B2B", href: "/blog/b2b-influencer-marketing-dubai" },
         { text: "mobile apps", href: "/blog/mobile-app-influencer-marketing-uae" },
         { text: "UGC partners", href: "/blog/ugc-agencies-dubai" },
+        { text: "events and exhibitions", href: "/blog/influencer-marketing-events-exhibitions-dubai" },
+        { text: "universities", href: "/blog/influencer-marketing-universities-uae" },
+        { text: "expatriate communities", href: "/blog/influencer-marketing-expat-communities-uae" },
         { text: "Saudi Arabia", href: "/blog/influencer-marketing-saudi-arabia" },
         { text: "expanding across the GCC", href: "/blog/gcc-influencer-marketing-playbook" },
       ],
+    },
+    {
+      type: "paragraph",
+      text: "Brands running the same campaign in the UAE, India and Australia can compare regulators, licensing and platforms in influencer marketing across Australia, India and the UAE.",
+      links: [{ text: "influencer marketing across Australia, India and the UAE", href: "/blog/influencer-marketing-australia-india-uae" }],
     },
     { type: "heading", text: "Conclusion", id: "conclusion" },
     {

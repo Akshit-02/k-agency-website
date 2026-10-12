@@ -2,6 +2,7 @@ import type { BlogPost } from "@/content/blog";
 import { AUTHOR } from "@/content/brand-guides/shared";
 import { SOURCES } from "@/content/creator-resources/shared";
 import { INTEL_PUBLISHED, INTEL_REVIEWED } from "@/content/brand-guides/intelligence-data";
+import { SRC as GCC_SRC } from "@/content/gcc-guides/shared";
 
 const META_BRANDED_CONTENT_LIBRARY = "https://www.socialmediatoday.com/news/meta-adds-branded-content-campaign-oversight-to-ads-library/691703/";
 
@@ -590,7 +591,8 @@ export const intelligenceResearchPosts: BlogPost[] = [
       "How to analyze competitors' influencer strategies: creator types, platforms, formats, messaging, frequency, themes, audience positioning and gap analysis.",
     author: AUTHOR,
     publishedAt: INTEL_PUBLISHED,
-    lastReviewed: INTEL_REVIEWED,
+    updatedAt: "2026-10-09",
+    lastReviewed: "October 2026",
     readingTime: "6 min read",
     tags: ["competitor influencer research", "competitor influencer strategy", "analyze competitor influencer marketing", "competitive creator analysis", "influencer gap analysis"],
     related: ["competitor-influencers", "influencer-market-mapping", "influencer-marketing-strategy"],
@@ -708,6 +710,25 @@ export const intelligenceResearchPosts: BlogPost[] = [
           "Compare by language and state, not just nationally; many categories are crowded in Hindi and English and open in regional languages.",
           "Watch festival timing by region: competitors may burst at Diwali but ignore Onam, Pongal or Durga Puja.",
           "Compare marketplace-led brands with D2C-led ones; their creator strategies often differ (codes and links vs awareness).",
+        ],
+      },
+      { type: "heading", text: "Researching competitors in the UAE and GCC", id: "gcc" },
+      {
+        type: "paragraph",
+        text: "The same framework works in the Gulf, with a few local adjustments. Meta's Ad Library lets anyone search the active ads running across Meta's apps, which shows creator content competitors are paying to amplify. TikTok's Creative Center has a Top Ads dashboard that can be filtered by region, industry and objective, though it shows a curated selection of advertiser-authorised ads rather than everything running.",
+        links: [
+          { text: "Meta's Ad Library", href: GCC_SRC.metaAdLibrary.url },
+          { text: "Top Ads dashboard", href: GCC_SRC.tiktokTopAds.url },
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Track competitors by market: a brand's UAE and Saudi creator programmes are often run by different teams or distributors",
+          "Log the language and dialect of each piece of creator content",
+          "Watch Snapchat Stories and creator accounts directly; much Gulf creator activity never runs as an ad",
+          "Note seasonal patterns around Ramadan, Eid and national days",
+          "Record which creators hold visible licence numbers or disclosures, as a signal of how competitors handle compliance",
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

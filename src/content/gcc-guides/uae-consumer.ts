@@ -168,6 +168,13 @@ export const uaeConsumerPosts: BlogPost[] = [
         text: "This is a hypothetical structure, not a Kudozz client result. Numbers will depend on your product, price and distribution. Selling in Saudi Arabia too? Its regulator, language and platform mix differ; see influencer marketing for beauty brands in Saudi Arabia.",
         links: [{ text: "influencer marketing for beauty brands in Saudi Arabia", href: "/blog/influencer-marketing-beauty-brands-saudi-arabia" }],
       },
+      {
+        type: "paragraph",
+        text: "For a demonstration brief with a claims sheet and before-and-after rules, see how to brief influencers for skincare product demonstrations in the GCC.",
+        links: [
+          { text: "how to brief influencers for skincare product demonstrations in the GCC", href: "/blog/skincare-influencer-brief-gcc" }
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -313,6 +320,13 @@ export const uaeConsumerPosts: BlogPost[] = [
           "Comment quality: are people asking about sizes, prices and where to buy?",
         ],
       },
+      {
+        type: "paragraph",
+        text: "Fine jewellery and watches have their own rules on what ads must state; see influencer marketing for watches and fine jewellery brands in the GCC.",
+        links: [
+          { text: "influencer marketing for watches and fine jewellery brands in the GCC", href: "/blog/watches-jewellery-influencer-marketing-gcc" }
+        ],
+      },
       { type: "heading", text: "Measuring sales, not just engagement", id: "measurement" },
       {
         type: "paragraph",
@@ -380,6 +394,7 @@ export const uaeConsumerPosts: BlogPost[] = [
       "Restaurant influencer marketing in Dubai: local creator selection, hosted visits, deliverables, tracking reservations and footfall, promotion permits and limits.",
     author: AUTHOR,
     publishedAt: GCC_PUBLISHED,
+    updatedAt: "2026-10-09",
     lastReviewed: GCC_REVIEWED,
     readingTime: "10 min read",
     inLanguage: GCC_LANGUAGE,
@@ -514,6 +529,28 @@ export const uaeConsumerPosts: BlogPost[] = [
           "Soft opening: host a small group of creators across a few nights so the kitchen isn't overwhelmed",
           "Opening weeks: stagger posts so they don't all land on the same day",
           "After four to six weeks: compare covers and bookings with targets; invite back the creators whose audiences came, and consider regular arrangements",
+        ],
+      },
+      { type: "heading", text: "Coffee shops and café chains", id: "cafes" },
+      {
+        type: "paragraph",
+        text: "Cafés differ from restaurants in a few ways that change the creator plan. Visits are frequent and habitual, so the goal is often a regular rather than a one-off booking; branches serve local neighborhoods, so city-wide reach is wasted on a single location; and specialty coffee has its own knowledgeable community of creators.",
+      },
+      {
+        type: "list",
+        items: [
+          "Specialty coffee creators for credibility on beans, roasting and brewing; lifestyle creators for atmosphere and work-friendly spaces",
+          "Branch-level creators: people who live or work near each location",
+          "Content for real moments: the morning commute, working from a café, late evenings in Ramadan",
+          "Loyalty-app sign-ups and first-visit offers with creator codes, so repeat visits can be tracked",
+          "For chains, a central creator framework with local execution",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Multi-branch chains and franchised café brands can use the governance model in franchise influencer marketing in the GCC.",
+        links: [
+          { text: "franchise influencer marketing in the GCC", href: "/blog/franchise-influencer-marketing-gcc" }
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
@@ -873,6 +910,13 @@ export const uaeConsumerPosts: BlogPost[] = [
           ["1 to 30", "10 to 15 micro creators across two or three content angles; codes and links set up; break-even calculated", "Which angles and creators produce delivered orders below break-even?"],
           ["31 to 60", "Rebook the best performers; run their content as paid ads; add consideration content", "Does paid amplification lower cost per order?"],
           ["61 to 90", "Commission or retainer terms for top creators; post-purchase content live", "Do creator-acquired customers reorder?"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Building the page creator traffic lands on, including Arabic layouts and local trust signals, is covered in how to build an influencer landing page that converts GCC traffic.",
+        links: [
+          { text: "how to build an influencer landing page that converts GCC traffic", href: "/blog/influencer-landing-page-gcc" }
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

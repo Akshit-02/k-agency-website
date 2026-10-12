@@ -361,6 +361,7 @@ export const uaeSpecialistPosts: BlogPost[] = [
       "B2B influencer marketing in Dubai: LinkedIn experts, founder and executive creators, industry specialists, webinars and events, lead quality and long sales cycles.",
     author: AUTHOR,
     publishedAt: GCC_PUBLISHED,
+    updatedAt: "2026-10-09",
     lastReviewed: GCC_REVIEWED,
     readingTime: "12 min read",
     inLanguage: GCC_LANGUAGE,
@@ -493,6 +494,29 @@ export const uaeSpecialistPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Expect most of the value to show up as influenced pipeline months later, not as form fills in week one. Set quarterly review points rather than judging after a single post.",
+      },
+      { type: "heading", text: "B2B SaaS in the GCC", id: "saas" },
+      {
+        type: "paragraph",
+        text: "Software companies selling to Gulf businesses face long cycles, several decision-makers and buyers who want proof the product works locally. Creators help most when they are practitioners who use the software and can show it solving a regional problem.",
+      },
+      {
+        type: "list",
+        items: [
+          "Practitioner creators: finance, HR, operations or IT professionals who use the category, not general business influencers",
+          "Local proof: Arabic interface, local integrations, payment and invoicing, and data residency answers where buyers ask about them",
+          "Formats: product walkthroughs, live demos, webinars and LinkedIn posts that link to a trial or demo booking",
+          "Measurement: trials, demo bookings, product-qualified leads and pipeline by creator over months, not clicks",
+          "Markets: Saudi buyers may expect Arabic content and local references; plan the UAE and Saudi Arabia separately",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Software-specific funnels are covered in influencer marketing for SaaS brands, written for an Indian context, and customer quality in how to measure customer quality from influencer campaigns.",
+        links: [
+          { text: "influencer marketing for SaaS brands", href: "/blog/saas-influencer-marketing-india" },
+          { text: "how to measure customer quality from influencer campaigns", href: "/blog/influencer-customer-quality" },
+        ],
       },
       { type: "heading", text: "Permits and professional rules", id: "rules" },
       {
