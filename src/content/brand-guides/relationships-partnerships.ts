@@ -669,17 +669,18 @@ export const relationshipsPartnershipPosts: BlogPost[] = [
     seoTitle: "Influencer Gifting Strategy: Build Creator Relationships",
     excerpt:
       "How to use gifting as a relationship gesture rather than a free-content tactic: gifting vs paid collaboration vs affiliate vs seeding, when gifting makes sense, what to send, the note, disclosure, follow-up and turning gifts into partnerships.",
+    metaDescription: "Influencer gifting strategy: gifting vs paid vs seeding, what to send, disclosure, follow-up, and how to run gifting and paid collaborations together in one program.",
     author: AUTHOR,
     publishedAt: REL_PUBLISHED,
-    lastReviewed: REL_REVIEWED,
-    readingTime: "6 min read",
-    tags: ["influencer gifting", "influencer gifting strategy", "gifting to creators", "gifting vs paid collaboration", "creator gifting India"],
+    updatedAt: "2026-10-14",
+    lastReviewed: "October 2026",
+    readingTime: "8 min read",
+    tags: ["influencer gifting", "influencer gifting strategy", "gifting and paid collaborations", "gifting to creators", "gifting vs paid collaboration", "creator gifting India"],
     related: ["influencer-product-seeding-program", "instagram-gifting-vs-paid-collaboration", "influencer-relationship-management"],
     hero: {
       src: "/blog/brand-guides/influencer-gifting.svg",
       alt: "Gifting as a relationship gesture: thoughtful product, personal note, no obligation, follow-up and a possible paid partnership",
     },
-    metaDescription: "Influencer gifting for brands: gifting vs paid, affiliate and seeding, when to gift, what to send, the note, disclosure and turning gifts into partnerships.",
     body: [
       {
         type: "paragraph",
@@ -754,7 +755,7 @@ export const relationshipsPartnershipPosts: BlogPost[] = [
       { type: "heading", text: "Disclosure", id: "disclosure" },
       {
         type: "paragraph",
-        text: "Under ASCI's influencer guidelines, free products, including unsolicited gifts, count as a material connection. If a creator posts about a gifted product, the post needs a clear disclosure such as a 'gifted' or 'free gift' label, even if their opinion is entirely their own. Mention this politely in your follow-up, especially to smaller creators who may be new to brand relationships. Influencer marketing compliance covers disclosure in detail.",
+        text: "Under ASCI's influencer guidelines, free products, including unsolicited gifts, count as a material connection. If a creator posts about a gifted product, the post needs a clear upfront disclosure, such as the 'Free gift' label listed in the guidelines, even if their opinion is entirely their own. Mention this politely in your follow-up, especially to smaller creators who may be new to brand relationships. Influencer marketing compliance covers disclosure in detail.",
         links: [
           { text: "ASCI's influencer guidelines", href: SOURCES.asciGuidelines },
           { text: "Influencer marketing compliance", href: "/blog/influencer-marketing-compliance" },
@@ -776,6 +777,43 @@ export const relationshipsPartnershipPosts: BlogPost[] = [
         type: "paragraph",
         text: "Creators who genuinely like a gifted product and mention it organically are strong candidates for paid work. Approach them with a proper offer that references their honest response. Never treat an organic post as a reason to expect free work next time. Repeat influencer collaborations covers the next steps.",
         links: [{ text: "Repeat influencer collaborations", href: "/blog/repeat-influencer-collaborations" }],
+      },
+      { type: "heading", text: "Running gifting and paid collaborations together", id: "gifting-and-paid" },
+      {
+        type: "paragraph",
+        text: "Many programs use both: gifts to discover creators and keep relationships warm, and paid collaborations for content the campaign depends on. Problems start when the two blur, for example when a gifted creator is asked for specific deliverables, or a paid creator sees a gifted creator get the same product with fewer demands. Keep the difference explicit.",
+      },
+      {
+        type: "table",
+        headers: ["", "Gifting", "Paid collaboration"],
+        rows: [
+          ["What you can ask for", "Nothing guaranteed; an invitation to try the product", "Agreed deliverables, dates, usage rights"],
+          ["Agreement", "A short note stating there's no obligation", "A written contract"],
+          ["Brief", "Product information and disclosure guidance only", "Full brief, approved claims and approvals"],
+          ["Disclosure", "Required if the creator posts", "Required"],
+          ["Usage rights", "None, unless separately agreed and paid", "As agreed in the contract"],
+          ["Role in the plan", "Discovery, goodwill, extra organic coverage", "The content the campaign relies on"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Never plan a launch around gifted posts; schedule paid creators for the dates that matter and treat gifted coverage as a bonus.",
+          "If you start requesting dates, scripts or specific deliverables from a gifted creator, it has become paid work: agree a fee and a contract.",
+          "Keep one tracker with each creator's status (gifted, paid, both) so nobody receives a paid brief by mistake or is chased for content they never promised.",
+          "Sequence them deliberately: a gifting wave before launch can show who genuinely likes the product, and those creators are natural candidates for the paid wave.",
+          "Send the same product information and disclosure guidance to both groups, so messages stay consistent.",
+          "Don't ask for usage rights on gifted content without paying for them.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Disclosure rules differ slightly by market. In India, ASCI treats free products as a material connection. In the UK, the ASA and CMA influencers' guide expects posts about gifts to be disclosed. In Australia, the ACCC's guidance for influencers covers gifted products too. Choosing between gifting and payment for a given creator is covered in Instagram gifting vs paid collaborations.",
+        links: [
+          { text: "the ASA and CMA influencers' guide", href: "https://www.asa.org.uk/advice-online/influencers-guide.html" },
+          { text: "the ACCC's guidance for influencers", href: "https://www.accc.gov.au/about-us/publications/social-media-influencer-testimonials-and-endorsements" },
+          { text: "Instagram gifting vs paid collaborations", href: "/blog/instagram-gifting-vs-paid-collaboration" },
+        ],
       },
       { type: "heading", text: "Gifting in India: practical notes", id: "india" },
       {
@@ -830,6 +868,11 @@ export const relationshipsPartnershipPosts: BlogPost[] = [
       },
     ],
     faqs: [
+      {
+        question: "How do you coordinate influencer gifting and paid collaborations?",
+        answer:
+          "Keep the difference explicit: gifting carries no obligation and no usage rights, paid work has a contract, brief and agreed deliverables. Plan key dates around paid creators, track each creator's status in one tracker, use gifting to find creators for paid work, and require disclosure from both.",
+      },
       {
         question: "What is influencer gifting?",
         answer:

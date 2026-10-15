@@ -25,8 +25,9 @@ export const planningAndProgramsPosts: BlogPost[] = [
       "Drive qualified website traffic from creators: link options by platform, UTM tracking, matching landing pages, quality metrics and fixing bouncing traffic.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
-    readingTime: "12 min read",
+    updatedAt: "2026-10-14",
+    lastReviewed: "October 2026",
+    readingTime: "8 min read",
     tags: ["influencer marketing website traffic", "drive traffic with influencers", "influencer UTM tracking", "creator link strategy", "influencer landing page"],
     related: ["influencer-marketing-kpis", "influencer-marketing-sales", "influencer-marketing-lead-generation"],
     hero: { src: "/blog/brand-guides/influencer-marketing-website-traffic.svg", alt: "Creator content sending visitors through story links, bio links and video descriptions to a matching landing page, measured by engaged sessions" },
@@ -92,6 +93,13 @@ export const planningAndProgramsPosts: BlogPost[] = [
           "Expect some traffic without tags (people who search your brand after watching); watch branded search and direct traffic too.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "A full naming convention, how GA4 groups creator traffic and the consent issues that lower tagged numbers are covered in influencer UTM tracking.",
+        links: [
+          { text: "influencer UTM tracking", href: "/blog/influencer-utm-tracking" },
+        ],
+      },
       { type: "heading", text: "Landing pages that keep visitors", id: "landing" },
       {
         type: "table",
@@ -110,6 +118,32 @@ export const planningAndProgramsPosts: BlogPost[] = [
           "In the language of the creator's content, where you can support it.",
           "One clear next step: buy, sign up, try the tool, book a call.",
           "A way back into the site for visitors who want to explore.",
+        ],
+      },
+      { type: "heading", text: "From click to conversion", id: "click-to-conversion" },
+      {
+        type: "paragraph",
+        text: "A creator click is a warm visitor with a short attention span, often on a phone and inside the app's own browser. They arrive expecting exactly what the creator showed. Every extra step between that expectation and the action loses people, so check the whole journey, not just the landing page.",
+      },
+      {
+        type: "table",
+        headers: ["Step", "What breaks it", "What to check"],
+        rows: [
+          ["Arrival", "Slow load in the in-app browser; a pop-up covering the product", "Open the creator's link inside Instagram or YouTube on a mid-range phone"],
+          ["Recognition", "A page that doesn't show what the creator showed", "Same product, same claim and the same offer visible without scrolling"],
+          ["Belief", "No proof beyond the creator's word", "Reviews, ratings, the creator's video on the page, clear returns and delivery terms"],
+          ["Decision", "Too many choices or unclear sizes, variants or pricing", "One recommended option; price including taxes and delivery shown early"],
+          ["Action", "Forced sign-up, long forms, missing payment options or an unapplied code", "Guest checkout, the code auto-applied, local payment methods (UPI and cash on delivery in India, for example)"],
+          ["After the click", "No way to come back later", "An opt-in for a reminder or guide; retargeting only with consent"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Compare creator traffic with your normal traffic at each step: if creator visitors add to cart as often but abandon at checkout, the problem is checkout, not the creator. Changes like these improve the odds; no single change guarantees a conversion rate. When engagement is high but sales are low, see why influencer campaigns get engagement but not sales; for follow-up, see influencer retargeting; and for Gulf audiences, building an influencer landing page for GCC traffic.",
+        links: [
+          { text: "why influencer campaigns get engagement but not sales", href: "/blog/influencer-engagement-no-sales" },
+          { text: "influencer retargeting", href: "/blog/influencer-retargeting" },
+          { text: "building an influencer landing page for GCC traffic", href: "/blog/influencer-landing-page-gcc" },
         ],
       },
       { type: "heading", text: "Measure quality, not clicks", id: "measurement" },
@@ -657,8 +691,11 @@ export const planningAndProgramsPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Hold a short review at day 30: what's slowing things down on either side, and what to change before the first campaign goes live. Day-to-day execution follows how influencer campaign management works.",
-        links: [{ text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" }],
+        text: "Hold a short review at day 30: what's slowing things down on either side, and what to change before the first campaign goes live. Day-to-day execution follows how influencer campaign management works, and what you should receive at days 30, 60 and 90 is set out in the first 30, 60 and 90 days of an influencer campaign.",
+        links: [
+          { text: "how influencer campaign management works", href: "/blog/influencer-campaign-management" },
+          { text: "the first 30, 60 and 90 days of an influencer campaign", href: "/blog/influencer-campaign-first-90-days" },
+        ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

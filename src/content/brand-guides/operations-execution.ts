@@ -205,8 +205,11 @@ export const operationsExecutionPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "A fast, reliable approval process is mostly decided before drafts arrive: one submission route, a named reviewer, a fixed review order, specialist reviews scheduled in advance, agreed rounds and written approvals. Then track every draft so nothing waits unseen. For rules on how many changes creators should be asked to make, see influencer revision policy.",
-        links: [{ text: "influencer revision policy", href: "/blog/influencer-revision-policy" }],
+        text: "A fast, reliable approval process is mostly decided before drafts arrive: one submission route, a named reviewer, a fixed review order, specialist reviews scheduled in advance, agreed rounds and written approvals. Then track every draft so nothing waits unseen. For rules on how many changes creators should be asked to make, see influencer revision policy, and for reviewing many creators against one standard, see brand consistency across influencer content.",
+        links: [
+          { text: "influencer revision policy", href: "/blog/influencer-revision-policy" },
+          { text: "brand consistency across influencer content", href: "/blog/influencer-brand-consistency" },
+        ],
       },
     ],
     faqs: [
@@ -368,8 +371,11 @@ export const operationsExecutionPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "A clear revision policy defines what's included, separates revisions from scope changes, sets turnaround times for both sides and prices extra work fairly. Agree it before production, apply it consistently and most revision friction disappears. To make sure revised content meets the standard before it goes live, see influencer content quality check.",
-        links: [{ text: "influencer content quality check", href: "/blog/influencer-content-quality-check" }],
+        text: "A clear revision policy defines what's included, separates revisions from scope changes, sets turnaround times for both sides and prices extra work fairly. Agree it before production, apply it consistently and most revision friction disappears. To make sure revised content meets the standard before it goes live, see influencer content quality check. Fewer revisions start with a clear brand kit and concept approval before filming, covered in brand consistency across influencer content.",
+        links: [
+          { text: "influencer content quality check", href: "/blog/influencer-content-quality-check" },
+          { text: "brand consistency across influencer content", href: "/blog/influencer-brand-consistency" },
+        ],
       },
     ],
     faqs: [
@@ -724,7 +730,11 @@ export const operationsExecutionPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Most influencer campaign delays are predictable and many are brand-side. Measure where work waits, fix the biggest bottleneck first, build realistic buffers, track upcoming deadlines and act early when a date is at risk. Campaigns get faster when the process improves, not when creators are chased harder.",
+        text: "Most influencer campaign delays are predictable and many are brand-side. Measure where work waits, fix the biggest bottleneck first, build realistic buffers, track upcoming deadlines and act early when a date is at risk. Campaigns get faster when the process improves, not when creators are chased harder. A dated influencer campaign calendar and a project plan that shows the critical path make bottlenecks visible before they cost a launch date.",
+        links: [
+          { text: "influencer campaign calendar", href: "/blog/influencer-campaign-calendar" },
+          { text: "project plan that shows the critical path", href: "/blog/influencer-campaign-project-plan#sections" },
+        ],
       },
     ],
     faqs: [
@@ -936,9 +946,10 @@ export const operationsExecutionPosts: BlogPost[] = [
       "What brands should do when influencers miss requirements (deadlines, disclosure, claims, deliverables, exclusivity): proportionate responses and prevention.",
     author: AUTHOR,
     publishedAt: EXEC_PUBLISHED,
-    lastReviewed: EXEC_REVIEWED,
-    readingTime: "6 min read",
-    tags: ["creator non-compliance", "influencer missed requirements", "influencer didn't follow brief", "influencer disclosure missing", "influencer breach of contract"],
+    updatedAt: "2026-10-14",
+    lastReviewed: "October 2026",
+    readingTime: "8 min read",
+    tags: ["creator non-compliance", "influencer missed deadline", "influencer missed requirements", "influencer didn't follow brief", "influencer disclosure missing", "influencer breach of contract"],
     related: ["influencer-campaign-escalation", "influencer-content-quality-check", "influencer-marketing-contract"],
     hero: {
       src: "/blog/brand-guides/creator-non-compliance.svg",
@@ -980,6 +991,39 @@ export const operationsExecutionPosts: BlogPost[] = [
         type: "paragraph",
         text: "Influencer campaign escalation covers who should be involved at each level.",
         links: [{ text: "Influencer campaign escalation", href: "/blog/influencer-campaign-escalation" }],
+      },
+      { type: "heading", text: "When an influencer misses a deadline", id: "missed-deadline" },
+      {
+        type: "paragraph",
+        text: "A missed draft or go-live date is the most common requirement creators miss, and the right response depends on how much the date matters. Work through it in this order:",
+      },
+      {
+        type: "table",
+        headers: ["When", "What to do"],
+        rows: [
+          ["Within hours of the missed date", "Check the brand's side: did product, brief, feedback or approval arrive on time? Then message the creator privately and ask what happened and when they can deliver."],
+          ["Same day", "Decide whether the date is critical. A launch-day or sale-window post is; a mid-campaign post often isn't. Agree a firm new time, in the creator's time zone, and confirm it in writing."],
+          ["If the date is critical and the new time doesn't work", "Move to a reserve creator from the approved shortlist, or reshuffle the posting order so another creator covers the slot."],
+          ["If the new time is missed too", "Follow the agreement: replacement, adjusted fee for partial delivery, or cancellation of that deliverable. Involve whoever owns the contract."],
+          ["After the campaign", "Record it on the creator's scorecard and in the post-mortem, along with any brand-side cause."],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Don't publish the delay or criticise the creator publicly; it rarely gets the content faster.",
+          "Keep payment tied to delivery as the agreement says, and don't penalise delays the brand caused.",
+          "If several creators miss dates, the cause is usually in the plan (late product, slow approvals, unrealistic dates), not the creators.",
+          "Prevent repeats with written dates, reminders before each deadline, buffers in the calendar and an approved reserve list.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Common causes of delay and how to build buffers are covered in influencer campaign delays, and planning dates backwards from fixed moments in the influencer campaign calendar.",
+        links: [
+          { text: "influencer campaign delays", href: "/blog/influencer-campaign-delays" },
+          { text: "influencer campaign calendar", href: "/blog/influencer-campaign-calendar" },
+        ],
       },
       { type: "heading", text: "Disclosure and claims: why these are different", id: "compliance" },
       {
@@ -1066,6 +1110,11 @@ export const operationsExecutionPosts: BlogPost[] = [
       },
     ],
     faqs: [
+      {
+        question: "What should brands do when an influencer misses a deadline?",
+        answer:
+          "Check whether anything on the brand's side caused it, contact the creator privately, decide whether the date is critical, and agree a firm new time in writing. If a critical date can't be met, use a reserve creator or reshuffle posting order, and follow the agreement on replacement or fee adjustment if the new date is missed too.",
+      },
       {
         question: "What should a brand do if an influencer doesn't follow the brief?",
         answer:
@@ -1236,8 +1285,11 @@ export const operationsExecutionPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "A good campaign tracker is simple: one row per creator per campaign, fixed statuses, the columns that drive action, same-day updates, flags for what's due or overdue and views for each team. It turns 'where are we?' into a filter, and it's the foundation for dashboards, payments and reports. For coordinating many creators at once, see influencer campaign coordination.",
-        links: [{ text: "influencer campaign coordination", href: "/blog/influencer-campaign-coordination" }],
+        text: "A good campaign tracker is simple: one row per creator per campaign, fixed statuses, the columns that drive action, same-day updates, flags for what's due or overdue and views for each team. It turns 'where are we?' into a filter, and it's the foundation for dashboards, payments and reports. For coordinating many creators at once, see influencer campaign coordination. The tracker records what happened; the influencer campaign calendar sets when it should happen.",
+        links: [
+          { text: "influencer campaign coordination", href: "/blog/influencer-campaign-coordination" },
+          { text: "influencer campaign calendar", href: "/blog/influencer-campaign-calendar" },
+        ],
       },
     ],
     faqs: [
@@ -1406,8 +1458,11 @@ export const operationsExecutionPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Coordinating many creators is about grouping, standardising shared work, planning go-lives deliberately and keeping relationships personal. Use one tracker, a shared FAQ, batch reviews and a daily rhythm in live windows, and size the team so every creator still gets timely replies. For the tracker itself, see influencer campaign tracker.",
-        links: [{ text: "influencer campaign tracker", href: "/blog/influencer-campaign-tracker" }],
+        text: "Coordinating many creators is about grouping, standardising shared work, planning go-lives deliberately and keeping relationships personal. Use one tracker, a shared FAQ, batch reviews and a daily rhythm in live windows, and size the team so every creator still gets timely replies. For the tracker itself, see influencer campaign tracker; for creators across several platforms, see multi-platform influencer campaigns.",
+        links: [
+          { text: "influencer campaign tracker", href: "/blog/influencer-campaign-tracker" },
+          { text: "multi-platform influencer campaigns", href: "/blog/multi-platform-influencer-campaigns" },
+        ],
       },
     ],
     faqs: [

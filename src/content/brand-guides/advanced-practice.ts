@@ -40,8 +40,9 @@ export const advancedPracticePosts: BlogPost[] = [
       "Measure influencer marketing incrementality: holdout and geo tests, lift studies, sales without discount codes, brand search signals and fair comparisons.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
-    readingTime: "5 min read",
+    updatedAt: "2026-10-14",
+    lastReviewed: "October 2026",
+    readingTime: "7 min read",
     tags: ["influencer marketing incrementality", "measure influencer sales without discount codes", "influencer brand lift", "geo test influencer marketing"],
     related: ["measuring-influencer-campaign-roi", "influencer-marketing-testing", "creator-attribution"],
     hero: {
@@ -68,6 +69,14 @@ export const advancedPracticePosts: BlogPost[] = [
           ["Typical tools", "Codes, UTM links, platform reports", "Holdouts, geo tests, lift studies"],
           ["Weakness", "Over-credits loyal buyers; misses unlinked buyers", "Needs planning, scale and a control group"],
           ["Best use", "Comparing creators within a campaign", "Deciding whether to keep investing in the channel"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "How attribution models share credit is explained in influencer marketing attribution models, and setting up codes and links so attributed sales are counted once in how to track influencer sales.",
+        links: [
+          { text: "influencer marketing attribution models", href: "/blog/influencer-marketing-attribution-models" },
+          { text: "how to track influencer sales", href: "/blog/track-influencer-sales" },
         ],
       },
       { type: "heading", text: "Methods that work for creator campaigns", id: "methods" },
@@ -137,6 +146,35 @@ export const advancedPracticePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Hypothetical, for illustration. A brand sells online in ten similar cities. It runs local creators in five cities for four weeks and none in the other five. New-customer orders rise 18% against baseline in the test cities and 6% in the control cities, so the estimated incremental lift is about 12 percentage points. Codes captured only part of the test-city increase. The brand repeats the test with the cities swapped before changing its budget.",
+      },
+      { type: "heading", text: "From lift to incremental ROI", id: "incremental-roi" },
+      {
+        type: "paragraph",
+        text: "Continuing the hypothetical example: the test cities normally produce 2,000 new-customer orders in four weeks. An 18% rise adds 360 orders, but the control cities suggest 6% (120 orders) would have come anyway, so the estimate is about 240 incremental orders. Creator codes recorded 300 orders in the test cities.",
+      },
+      {
+        type: "table",
+        headers: ["Line (hypothetical)", "Attributed (codes)", "Incremental (test)"],
+        rows: [
+          ["Orders", "300", "240"],
+          ["Contribution at ₹700 per order", "₹2,10,000", "₹1,68,000"],
+          ["Total creator cost", "₹2,00,000", "₹2,00,000"],
+          ["ROI = (contribution − cost) ÷ cost", "5%", "−16%"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Here codes over-credited the creators, because some code users would have bought anyway. In other campaigns codes under-credit, because influenced buyers skip the code. Only the comparison tells you which. Before deciding, add the contribution from repeat purchases by these customers, and treat a single test as an estimate with a range rather than a precise figure. How to measure influencer marketing ROI shows the full cost and contribution calculation.",
+        links: [{ text: "How to measure influencer marketing ROI", href: "/blog/measuring-influencer-campaign-roi#calculate-roi" }],
+      },
+      { type: "heading", text: "What research says about measuring ad effects", id: "research" },
+      {
+        type: "paragraph",
+        text: "Two widely cited studies explain why tests matter. A 2019 Marketing Science paper compared observational measurement with 15 large randomized advertising experiments at Facebook and found the observational methods often failed to recover the experimental results, even with extensive demographic and behavioral data. An earlier study of 25 field experiments found returns to advertising so noisy that informative experiments could need over 10 million person-weeks. Neither study is about influencer marketing specifically, but both apply: attribution without a comparison group can be badly wrong, and small tests can only detect large effects.",
+        links: [
+          { text: "A 2019 Marketing Science paper", href: "https://www.kellogg.northwestern.edu/academics-research/research/detail/2019/a-comparison-of-approaches-to-advertising-measurement-evidence-from/" },
+          { text: "An earlier study of 25 field experiments", href: "https://doi.org/10.1093/qje/qjv023" },
+        ],
       },
       { type: "heading", text: "Limits to be honest about", id: "limits" },
       {
@@ -616,12 +654,13 @@ export const advancedPracticePosts: BlogPost[] = [
     excerpt:
       "A repeatable process for running creator campaigns in several countries: what to keep global and what to localize, market rules and creator licensing, cross-border contracts, paying creators in multiple currencies, and one reporting framework that compares markets fairly.",
     metaDescription:
-      "Run international influencer campaigns: what to localize, market rules, cross-border contracts, multi-currency creator payments and global reporting.",
+      "Run international influencer campaigns and creator partnerships: operating models, local discovery, market rules, cross-border contracts, payments and global reporting.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    lastReviewed: REVIEWED,
-    readingTime: "5 min read",
-    tags: ["international influencer marketing", "global influencer campaign", "cross-border influencer contracts", "localize influencer campaigns", "pay influencers in multiple currencies"],
+    updatedAt: "2026-10-15",
+    lastReviewed: "October 2026",
+    readingTime: "12 min read",
+    tags: ["international influencer marketing", "multi-market creator partnerships", "influencer campaigns across time zones", "global influencer campaign", "cross-border influencer contracts", "localize influencer campaigns", "pay influencers in multiple currencies"],
     related: ["influencer-marketing-australia-india-uae", "influencer-marketing-contract", "influencer-marketing-payments"],
     hero: {
       src: "/blog/brand-guides/international-influencer-campaign-playbook.svg",
@@ -636,6 +675,35 @@ export const advancedPracticePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Keep the objective, product truth, creative idea, KPI definitions and reporting template global. Localize creator selection, briefs, claims, disclosure wording, contracts, payments, timing and channel mix. Check each market's advertising and creator-licensing rules before booking. Contract in a clear governing law and currency, name territories in usage rights, take tax advice on cross-border payments, and report market by market against the same definitions.",
+      },
+      { type: "heading", text: "Choosing which markets first", id: "market-priority" },
+      {
+        type: "paragraph",
+        text: "Most brands can't enter every market at once, and spreading a first international budget thinly across five countries rarely teaches anything. Score candidate markets on a few factors you can evidence, start with one or two, and add markets as each proves it works.",
+      },
+      {
+        type: "table",
+        headers: ["Factor", "Questions to answer", "Evidence"],
+        rows: [
+          ["Demand", "Are people already searching for, buying or asking about the product there?", "Site traffic and orders by country, marketplace data, enquiries"],
+          ["Ability to sell", "Can you price, deliver, take payment and serve customers locally?", "Logistics, payment and returns set up"],
+          ["Rules", "Do product claims, sector rules or creator licensing make it slow or costly?", "Market rules checked; licences such as the UAE permit or Saudi Mawthooq"],
+          ["Creator supply", "Are there enough creators with audiences in the market and your category?", "A test shortlist with audience-location data"],
+          ["Team capacity", "Can someone brief, approve and moderate in the local language and time zone?", "Named owner and reviewer"],
+          ["Cost to learn", "Can a test of several creators fit the budget, with fees, tax and currency costs?", "A costed test plan"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Market guides: influencer marketing in the UAE, the UK, Australia and Singapore, the GCC playbook for Saudi Arabia, Qatar, Kuwait and Oman, and diaspora creators for reaching communities abroad.",
+        links: [
+          { text: "influencer marketing in the UAE", href: "/blog/influencer-marketing-uae" },
+          { text: "the UK", href: "/blog/influencer-marketing-uk" },
+          { text: "Australia", href: "/blog/influencer-marketing-australia" },
+          { text: "Singapore", href: "/blog/influencer-marketing-singapore" },
+          { text: "the GCC playbook", href: "/blog/gcc-influencer-marketing-playbook" },
+          { text: "diaspora creators", href: "/blog/diaspora-influencer-marketing" },
+        ],
       },
       { type: "heading", text: "Global vs local", id: "localization" },
       {
@@ -669,6 +737,63 @@ export const advancedPracticePosts: BlogPost[] = [
         type: "paragraph",
         text: "For a market launch, local creators usually do the persuading and international creators add reach. Decide from audience-country data, not follower counts.",
       },
+      { type: "heading", text: "Creator partnerships across markets", id: "multi-market-partnerships" },
+      {
+        type: "paragraph",
+        text: "A one-off international campaign can be run centrally. A creator partnership program that runs for a year across several countries needs a clear split of who decides what, or markets drift apart and reporting fragments.",
+      },
+      {
+        type: "table",
+        headers: ["Operating model", "Who does what", "Fits when", "Watch for"],
+        rows: [
+          ["Central", "One team sources, briefs, contracts and reports for every market", "Two or three markets, similar languages, modest volume", "Weak local judgment on creators, language and culture"],
+          ["Hub and spoke", "Centre owns strategy, brand standards, rights, contracts template and reporting; each market sources creators, adapts briefs and reviews language", "Several markets, an always-on roster, local partners or staff", "Unclear decision rights; agree in writing who approves creators and content"],
+          ["Local-led", "Each market runs its own program inside global guardrails", "Large markets with their own teams and budgets", "Inconsistent definitions and duplicated spend; keep one reporting template"],
+        ],
+      },
+      { type: "subheading", text: "Local creator discovery and fit" },
+      {
+        type: "list",
+        items: [
+          "Set a minimum share of audience in the target country (from the creator's own insights) before shortlisting; a Dubai-based creator may have most followers elsewhere.",
+          "Have a native speaker of the exact language variety review content: Gulf Arabic, Egyptian Arabic and Modern Standard Arabic are not interchangeable, nor are Hindi and regional Indian languages.",
+          "Use the same selection scorecard in every market, with market-specific gates such as a valid licence or permit.",
+          "Expect different platform mixes by market, and check platform availability (TikTok isn't available in India).",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Market guides cover where to look: finding influencers in India, finding and vetting influencers in Australia, finding micro-influencers in Saudi Arabia and regional influencer marketing in the UK. The scorecard is in how to choose the right influencer.",
+        links: [
+          { text: "finding influencers in India", href: "/blog/find-indian-influencers" },
+          { text: "finding and vetting influencers in Australia", href: "/blog/find-vet-influencers-australia" },
+          { text: "finding micro-influencers in Saudi Arabia", href: "/blog/find-micro-influencers-saudi-arabia" },
+          { text: "regional influencer marketing in the UK", href: "/blog/regional-influencer-marketing-uk" },
+          { text: "how to choose the right influencer", href: "/blog/how-to-choose-the-right-influencer-for-your-brand#selection-scorecard" },
+        ],
+      },
+      { type: "subheading", text: "The Middle East is several markets" },
+      {
+        type: "paragraph",
+        text: "The UAE and Saudi Arabia license creators differently: the UAE requires an advertiser permit, and Saudi Arabia a Mawthooq licence from GAMR. Audiences, languages, platforms, seasons and working weeks also differ from one Gulf country to the next. Plan, contract and report each country separately, even when one regional team runs them. See Saudi Arabia vs the UAE, and our guides to Qatar, Kuwait and Oman.",
+        links: [
+          { text: "Saudi Arabia vs the UAE", href: "/blog/influencer-marketing-saudi-arabia-vs-uae" },
+          { text: "Qatar", href: "/blog/influencer-marketing-qatar" },
+          { text: "Kuwait", href: "/blog/influencer-marketing-kuwait" },
+          { text: "Oman", href: "/blog/influencer-marketing-oman" },
+        ],
+      },
+      { type: "subheading", text: "Pricing across markets" },
+      {
+        type: "paragraph",
+        text: "There is no reliable cross-market rate card, and fees don't convert by exchange rate: they reflect local demand, licensing, rights and the creator's own audience. Budget each market from quotes for your exact scope, and compare creators within a market before comparing markets. Market cost guides: India, the UK, Australia and Saudi Arabia.",
+        links: [
+          { text: "India", href: "/blog/influencer-marketing-cost-india" },
+          { text: "the UK", href: "/blog/influencer-marketing-cost-uk" },
+          { text: "Australia", href: "/blog/influencer-marketing-cost-australia" },
+          { text: "Saudi Arabia", href: "/blog/influencer-marketing-cost-saudi-arabia" },
+        ],
+      },
       { type: "heading", text: "Market rules and creator licensing", id: "rules" },
       {
         type: "list",
@@ -682,9 +807,9 @@ export const advancedPracticePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Sources and detail: the UAE's visitor advertiser permit, our UAE advertiser permit guide, and our market guides for the UAE, India and Australia.",
+        text: "Sources and detail: the official visitor advertiser permit page, our UAE advertiser permit guide, and our market guides for the UAE, India and Australia.",
         links: [
-          { text: "visitor advertiser permit", href: GCC_SRC.uaemcVisitor.url },
+          { text: "visitor advertiser permit", href: GCC_SRC.nmaVisitor.url },
           { text: "UAE advertiser permit guide", href: "/blog/uae-advertiser-permit" },
           { text: "the UAE", href: "/blog/influencer-marketing-uae" },
           { text: "India", href: "/blog/influencer-marketing-india" },
@@ -696,6 +821,30 @@ export const advancedPracticePosts: BlogPost[] = [
         text: "For a UK launch, the rules, labels and sector restrictions are summarised in influencer marketing in the UK.",
         links: [
           { text: "influencer marketing in the UK", href: "/blog/influencer-marketing-uk" },
+        ],
+      },
+      {
+        type: "table",
+        headers: ["Market", "Disclosure and licensing to check", "Guide"],
+        rows: [
+          ["India", "ASCI influencer guidelines: clear labels on paid, gifted or affiliate content", "Influencer marketing in India"],
+          ["UAE", "Advertiser permit for creators; visitor permit for visiting creators; clear ad disclosure", "UAE advertiser permit"],
+          ["Saudi Arabia", "Mawthooq licence; ads must be identifiable under the E-Commerce Law", "Saudi influencer advertising rules"],
+          ["United Kingdom", "CMA and ASA: ads must be obviously identifiable", "UK influencer advertising rules"],
+          ["Australia", "AANA code and Australian Consumer Law", "Australian influencer advertising rules"],
+          ["Singapore", "ASAS guidelines: identify marketing and disclose commercial relationships early", "Singapore market page"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Guides: influencer marketing in India, the UAE advertiser permit guide, Saudi influencer advertising rules, UK influencer advertising rules, Australian influencer advertising rules and our Singapore market page. Rules change, so check each one before a campaign starts.",
+        links: [
+          { text: "influencer marketing in India", href: "/blog/influencer-marketing-india" },
+          { text: "the UAE advertiser permit guide", href: "/blog/uae-advertiser-permit" },
+          { text: "Saudi influencer advertising rules", href: "/blog/saudi-influencer-advertising-rules" },
+          { text: "UK influencer advertising rules", href: "/blog/influencer-advertising-rules-uk" },
+          { text: "Australian influencer advertising rules", href: "/blog/influencer-advertising-rules-australia" },
+          { text: "our Singapore market page", href: "/markets/singapore" },
         ],
       },
       { type: "heading", text: "Cross-border contracts", id: "contracts" },
@@ -749,19 +898,69 @@ export const advancedPracticePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
+        text: "Converting everything to one currency doesn't make markets comparable. Prices, margins, media costs, platform mix, creator supply and seasons all differ, so a cost per order of ₹600 in India and AED 90 in the UAE can both be good or both be poor. Compare each market with its own benchmark first, then compare the indexes.",
+      },
+      {
+        type: "table",
+        headers: ["Market (hypothetical)", "Creator cost per order", "Market benchmark: paid social cost per order", "Index (creator ÷ benchmark × 100)"],
+        rows: [
+          ["India", "₹600", "₹750", "80 (creators cheaper than the benchmark)"],
+          ["UAE", "AED 90", "AED 80", "113 (creators dearer)"],
+          ["UK", "£18", "£20", "90"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Hypothetical figures. Read this as 'creators beat our own paid social in India and the UK, but not yet in the UAE', not as 'India is cheapest'. Also compare like with like: the same objective, the same attribution window, the same definition of an order (delivered and net of returns), and similar campaign maturity, since a first campaign in a new market rarely matches an established one. Engagement, reach, clicks, orders and revenue are different measures; don't rank markets on one and budget on another. A worked approach for Gulf markets is in GCC influencer campaign reporting.",
+        links: [{ text: "GCC influencer campaign reporting", href: "/blog/gcc-influencer-campaign-reporting" }],
+      },
+      {
+        type: "paragraph",
         text: "The report structure is in how to create an influencer marketing report.",
         links: [{ text: "how to create an influencer marketing report", href: "/blog/influencer-marketing-report" }],
       },
       { type: "heading", text: "Working across time zones", id: "time-zones" },
       {
+        type: "paragraph",
+        text: "Time zones cause more missed approvals than any other cross-border issue, mostly because deadlines get written as 'end of day' without saying whose day. The table shows how the markets brands most often combine with India line up.",
+      },
+      {
+        type: "table",
+        headers: ["Market", "Standard time (UTC)", "Compared with India", "Daylight saving", "Usual weekend"],
+        rows: [
+          ["India", "UTC+5:30", "-", "None", "Sunday; Saturday varies by employer"],
+          ["UAE", "UTC+4", "1h 30m behind", "None", "Saturday and Sunday for government since 2022; many, not all, private firms follow"],
+          ["Saudi Arabia", "UTC+3", "2h 30m behind", "None", "Friday and Saturday"],
+          ["United Kingdom", "UTC+0, or UTC+1 in summer", "5h 30m behind, or 4h 30m in summer", "Late March to late October", "Saturday and Sunday"],
+          ["Australia (Sydney, Melbourne)", "UTC+10, or UTC+11 in summer", "4h 30m ahead, or 5h 30m in summer", "Early October to early April in some states; not Queensland; Perth is UTC+8", "Saturday and Sunday"],
+          ["Singapore", "UTC+8", "2h 30m ahead", "None", "Saturday and Sunday"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The UAE government moved to a Saturday–Sunday weekend from January 2022, and Saudi Arabia moved to Friday–Saturday in 2013. Daylight-saving changes in the UK and Australia shift the gap with India by an hour twice a year, so check dates for campaigns that cross March, April, October or November.",
+        links: [
+          { text: "The UAE government moved to a Saturday–Sunday weekend from January 2022", href: "https://www.pinsentmasons.com/out-law/news/uae-move-weekend-saturday-and-sunday" },
+          { text: "Saudi Arabia moved to Friday–Saturday in 2013", href: "https://www.arabnews.com/news/455923" },
+        ],
+      },
+      {
         type: "list",
         items: [
+          "Write every deadline with a time and zone ('Thursday 17:00 GST'), never 'end of day'",
           "Schedule posts in each audience's local time, not head office time",
           "Set approval deadlines in the creator's time zone, and allow for working weeks and public holidays that differ by market",
-          "Name an approver who is awake during each market's launch window",
+          "Name an approver who is awake during each market's launch window, and a backup",
+          "Use the overlap hours for live calls: an Indian morning overlaps with the Australian afternoon, and an Indian afternoon with the UK morning",
+          "For a multi-market launch, go live in the easternmost market first and check each wave before the next market wakes up",
           "Keep one shared calendar showing every market's dates, holidays and blackout periods",
           "Agree response times for urgent issues, such as a disclosure correction, per market",
         ],
+      },
+      {
+        type: "paragraph",
+        text: "Building the shared calendar is covered in the influencer campaign calendar.",
+        links: [{ text: "influencer campaign calendar", href: "/blog/influencer-campaign-calendar" }],
       },
       { type: "heading", text: "Are you ready to expand?", id: "readiness" },
       {
@@ -816,6 +1015,11 @@ export const advancedPracticePosts: BlogPost[] = [
       },
     ],
     faqs: [
+      {
+        question: "How do you manage influencer campaigns across different time zones?",
+        answer:
+          "Write every deadline with a time and time zone, schedule posts in each audience's local time, set approval deadlines in the creator's zone, name an approver awake during each launch window, use overlap hours for calls, allow for different weekends and holidays, and keep one shared calendar for all markets.",
+      },
       {
         question: "How do you localize an influencer campaign?",
         answer:

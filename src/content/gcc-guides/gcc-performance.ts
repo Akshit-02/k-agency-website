@@ -606,15 +606,16 @@ export const gccPerformancePosts: BlogPost[] = [
     slug: "influencer-customer-quality",
     category: "Campaign Strategy",
     title: "How to Measure Customer Quality From Influencer Campaigns",
-    seoTitle: "How to Measure Customer Quality From Influencer Campaigns",
+    seoTitle: "Influencer Customer Quality: Repeat Purchases and CLV",
     excerpt:
       "How to judge creators on the customers they bring, not just the volume: the ladder from leads to qualified leads, first orders, net orders and retained customers, the metrics and formulas at each step, cohort comparison by creator, GCC issues such as cash-on-delivery cancellations, and how to use the results in creator decisions.",
     metaDescription:
-      "Measure customer quality from influencer campaigns: qualified leads, net orders, retention and value by creator cohort, with formulas and limits.",
+      "Measure customer quality from influencer campaigns: net orders, repeat purchases, customer lifetime value and payback by creator cohort, with formulas and limits.",
     author: AUTHOR,
     publishedAt: GCC6_PUBLISHED,
+    updatedAt: "2026-10-14",
     lastReviewed: GCC_REVIEWED,
-    readingTime: "11 min read",
+    readingTime: "7 min read",
     inLanguage: GCC_LANGUAGE,
     tags: ["influencer customer quality", "customer lifetime value influencer", "qualified leads influencer campaigns", "influencer cohort analysis"],
     related: ["influencer-marketing-customer-retention", "influencer-marketing-cpm-cpe-cpa", "break-even-roas-influencer-campaigns"],
@@ -674,6 +675,43 @@ export const gccPerformancePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Hypothetical, for illustration only. Creator A wins on first orders, but Creator B delivers customers who keep their orders and come back. Creator C looks best on rates, but 60 customers is too small a sample to rely on; rebook for more data rather than drawing a conclusion.",
+      },
+      { type: "heading", text: "Customer lifetime value and payback by creator", id: "lifetime-value" },
+      {
+        type: "paragraph",
+        text: "Repeat purchase rate tells you whether customers come back. Customer lifetime value (CLV) puts a money figure on it, so you can compare it with what the creator cost. For creator decisions, a simple historical version over a fixed window is enough; predictive models need far more data than most creator cohorts provide.",
+      },
+      {
+        type: "table",
+        headers: ["Measure", "Formula", "Use it for"],
+        rows: [
+          ["Contribution per customer (window)", "Net revenue from the cohort over X days, minus variable costs, ÷ customers", "The value side; use contribution, not revenue"],
+          ["Cost per new customer", "Total creator cost ÷ new customers acquired", "The cost side"],
+          ["Value-to-cost ratio", "Contribution per customer ÷ cost per new customer", "Above 1 means the cohort has paid back within the window"],
+          ["Payback period", "Days until cumulative contribution from the cohort equals the creator cost", "How long cash is tied up before a creator's customers pay back"],
+          ["Repeat purchase rate", "Customers with 2+ orders in the window ÷ customers", "Whether the creator's audience comes back"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Hypothetical example, with numbers chosen so each step can be checked. A creator costs AED 12,000 and brings 150 new customers: AED 80 per new customer. First orders produce AED 60 contribution per customer, so the cohort hasn't paid back at day 0 (ratio 0.75). By day 90, 30% have bought again, adding AED 45 contribution per repeat buyer, or AED 13.50 averaged across all 150 customers. Contribution per customer reaches AED 73.50 (ratio about 0.92). If the same repeat pattern continues, the cohort pays back somewhere in the next 90 days. A second creator whose customers rarely return might show a better first-order figure and never pay back. The same arithmetic works in any currency.",
+      },
+      {
+        type: "list",
+        items: [
+          "Fix the window before comparing (for example 90 or 180 days), and only compare cohorts whose window has closed.",
+          "Use contribution, after returns, delivery and discounts, not revenue.",
+          "Customers acquired with a deep discount often repeat less; compare creators with similar offers.",
+          "These are attributed customers: some would have found you anyway. For program-level decisions, pair cohort value with an incrementality test.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "How to set the cost side and the break-even point is covered in break-even ROAS for influencer campaigns, and tests of what creators actually added in influencer marketing incrementality.",
+        links: [
+          { text: "break-even ROAS for influencer campaigns", href: "/blog/break-even-roas-influencer-campaigns" },
+          { text: "influencer marketing incrementality", href: "/blog/influencer-marketing-incrementality" },
+        ],
       },
       { type: "heading", text: "Limits to keep in mind", id: "limits" },
       {
@@ -740,6 +778,11 @@ export const gccPerformancePosts: BlogPost[] = [
       },
     ],
     faqs: [
+      {
+        question: "How do you calculate customer lifetime value for influencer customers?",
+        answer:
+          "Keep the creator attribution on each customer record, then add up the contribution (revenue minus variable costs) those customers generate over a fixed window, such as 180 days, and divide by the number of customers. Compare it with the cost per new customer to see whether, and when, each creator's cohort pays back.",
+      },
       {
         question: "How do you measure the quality of customers from influencers?",
         answer:

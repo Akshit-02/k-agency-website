@@ -517,7 +517,7 @@ export const operationsRecordsPosts: BlogPost[] = [
       src: "/blog/brand-guides/influencer-marketing-operations.svg",
       alt: "Influencer operations flow from discovery and outreach through onboarding, production, payment and reporting to relationships",
     },
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-10-14",
     body: [
       {
         type: "paragraph",
@@ -689,6 +689,41 @@ export const operationsRecordsPosts: BlogPost[] = [
           ["Repeat acceptance by top creators", "Creator experience and relationship health"],
         ],
       },
+      { type: "heading", text: "Scaling campaigns without losing quality", id: "scaling-quality" },
+      {
+        type: "paragraph",
+        text: "When a brand goes from a handful of creators to dozens per campaign, or from one campaign a quarter to several at once, quality rarely collapses in one place. It erodes where people take shortcuts under volume. Watch the metrics above as volume grows: if fewer drafts arrive on time, revision rounds rise or on-time payments slip, the process is being stretched. These are the usual weak points and the fixes that hold up:",
+      },
+      {
+        type: "table",
+        headers: ["Where quality slips", "What it looks like", "What keeps it intact"],
+        rows: [
+          ["Creator selection", "Vetting shortcuts; creators chosen by availability", "Written criteria, scorecards and a reviewed roster of proven creators"],
+          ["Briefing", "Generic briefs; creators guessing", "Brief templates by campaign type, a one-page brand kit and concept approval before filming"],
+          ["Review", "One overloaded reviewer; standards drift between reviewers", "A shared checklist, tiered approval (routine content reviewed by the campaign team, claims by legal) and set turnaround times"],
+          ["Communication", "Missed messages across chat threads", "One tracker as the source of truth and status-driven reminders"],
+          ["Payments", "Late or wrong payments as volume grows", "A payment service level and scheduled payment runs"],
+          ["Relationships", "Top creators treated like everyone else", "A named contact and quicker terms for core creators"],
+          ["Reporting", "Manual reports that arrive late", "Standard report templates and a dashboard fed from the tracker"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Scale in steps: add volume, check the quality metrics for a cycle, then add more.",
+          "Grow the core roster before chasing new creators; repeat creators need less briefing and fewer revisions.",
+          "Automate status updates, reminders and data collection, but keep creator selection and creative judgement with people.",
+          "Add capacity (people or an agency) before the backlog shows up in late posts.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Keeping content on-brand across many creators is covered in brand consistency across influencer content, and automating the routine steps in influencer campaign automation.",
+        links: [
+          { text: "brand consistency across influencer content", href: "/blog/influencer-brand-consistency" },
+          { text: "influencer campaign automation", href: "/blog/influencer-campaign-automation" },
+        ],
+      },
       { type: "heading", text: "An influencer marketing maturity model", id: "maturity" },
       {
         type: "table",
@@ -835,6 +870,11 @@ export const operationsRecordsPosts: BlogPost[] = [
       },
     ],
     faqs: [
+      {
+        question: "How do you scale influencer campaigns without losing quality?",
+        answer:
+          "Scale in steps and watch quality metrics such as on-time drafts, revision rounds and on-time payments. Protect the stages that slip under volume with written vetting criteria, brief templates and a brand kit, concept approval, a shared review checklist with tiered approvals, one tracker and scheduled payments.",
+      },
       {
         question: "What is influencer marketing operations?",
         answer:

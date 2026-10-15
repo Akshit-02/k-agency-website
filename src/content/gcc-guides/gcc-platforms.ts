@@ -118,6 +118,13 @@ export const gccPlatformPosts: BlogPost[] = [
         text: "How to read engagement rates without misleading yourself is covered in how to calculate influencer engagement rate.",
         links: [{ text: "how to calculate influencer engagement rate", href: "/blog/influencer-engagement-rate" }],
       },
+      {
+        type: "paragraph",
+        text: "A wider comparison of Instagram, YouTube and TikTok across India, the Gulf, the UK, Australia and Singapore is in Instagram vs YouTube vs TikTok.",
+        links: [
+          { text: "Instagram vs YouTube vs TikTok", href: "/blog/instagram-vs-youtube-vs-tiktok" },
+        ],
+      },
       { type: "heading", text: "When to combine platforms", id: "combine" },
       {
         type: "list",
@@ -827,7 +834,8 @@ export const gccPlatformPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Good Arabic UGC sounds like someone from your customer's own world talking honestly about a product. Choose the dialect per market, brief with talking points, check subtitles and claims carefully, buy the rights you need, and let ad performance tell you which creators to work with again.",
+        text: "Good Arabic UGC sounds like someone from your customer's own world talking honestly about a product. Choose the dialect per market, brief with talking points, check subtitles and claims carefully, buy the rights you need, and let ad performance tell you which creators to work with again. Running UGC across the Gulf and other markets at once is covered in how to localize UGC.",
+        links: [{ text: "how to localize UGC", href: "/blog/ugc-localization" }],
       },
     ],
     faqs: [

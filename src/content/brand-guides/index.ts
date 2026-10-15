@@ -28,6 +28,15 @@ import { partnershipFormatPosts } from "@/content/brand-guides/partnership-forma
 import { measurementStrategyPosts } from "@/content/brand-guides/measurement-strategy";
 import { customerCommercePosts } from "@/content/brand-guides/customer-commerce";
 import { programEvidencePosts } from "@/content/brand-guides/program-evidence";
+import { founderQuestionPosts } from "@/content/brand-guides/founder-questions";
+import { founderExecutionPosts } from "@/content/brand-guides/founder-execution";
+import { founderUgcPosts } from "@/content/brand-guides/founder-ugc";
+import { founderMeasurementPosts } from "@/content/brand-guides/founder-measurement";
+import { founderPlatformPosts } from "@/content/brand-guides/founder-platforms";
+import { founderIndustryPosts } from "@/content/brand-guides/founder-industries";
+import { founderGrowthPosts } from "@/content/brand-guides/founder-growth";
+import { founderInternationalPosts } from "@/content/brand-guides/founder-international";
+import { founderFinalPosts } from "@/content/brand-guides/founder-final";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -77,4 +86,22 @@ export const brandGuidePosts: BlogPost[] = [
   // Batch 1760–1809: customer advocacy, AI shopping, marketplace sellers, data privacy, brand lift surveys, business case, employer branding; see docs/brand-guides-1760-1809-audit.md.
   ...customerCommercePosts,
   ...programEvidencePosts,
+  // Founder questions, batch 1 (roadmap topics 1–20); see docs/founder-questions-1-20-audit.md.
+  ...founderQuestionPosts,
+  // Founder questions, batch 2 (roadmap topics 21–40); see docs/founder-questions-21-40-audit.md.
+  ...founderExecutionPosts,
+  // Founder questions, batch 3 (roadmap topics 41–60, UGC); see docs/founder-questions-41-60-audit.md.
+  ...founderUgcPosts,
+  // Founder questions, batch 4 (roadmap topics 61–80, measurement); see docs/founder-questions-61-80-audit.md.
+  ...founderMeasurementPosts,
+  // Founder questions, batch 6 (roadmap topics 101–120, platforms); see docs/founder-questions-101-120-audit.md.
+  ...founderPlatformPosts,
+  // Founder questions, batch 7 (roadmap topics 121–140, industries); see docs/founder-questions-121-140-audit.md.
+  ...founderIndustryPosts,
+  // Founder questions, batch 8 (roadmap topics 141–160, conversion and growth); see docs/founder-questions-141-160-audit.md.
+  ...founderGrowthPosts,
+  // Founder questions, batch 9 (roadmap topics 161–180, international); see docs/founder-questions-161-180-audit.md.
+  ...founderInternationalPosts,
+  // Founder questions, batch 10 (roadmap topics 181–200, governance, risk and the future); see docs/founder-questions-181-200-audit.md.
+  ...founderFinalPosts,
 ];

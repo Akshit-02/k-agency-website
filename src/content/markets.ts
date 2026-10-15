@@ -604,7 +604,8 @@ export const markets: Market[] = [
       },
     ],
     guides: [
-      "influencer-marketing-strategy",
+      "influencer-marketing-singapore",
+      "influencer-disclosure-rules-by-country",
       "how-to-vet-influencers",
       "influencer-marketing-contract",
       "measuring-influencer-campaign-roi",

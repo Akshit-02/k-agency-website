@@ -754,6 +754,13 @@ export const gccSectorPosts: BlogPost[] = [
         text: "Compare communities on cost per result, not on reach: a smaller community with a strong product fit can return more than a large one with a weak fit. Survey-based measurement is covered in measuring influencer brand lift in the GCC.",
         links: [{ text: "measuring influencer brand lift in the GCC", href: "/blog/influencer-brand-lift-gcc" }],
       },
+      {
+        type: "paragraph",
+        text: "Reaching communities abroad from a home-market brand, including in the UK, Australia and Singapore, is covered in diaspora influencer marketing.",
+        links: [
+          { text: "diaspora influencer marketing", href: "/blog/diaspora-influencer-marketing" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",

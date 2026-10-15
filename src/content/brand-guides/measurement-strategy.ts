@@ -253,6 +253,14 @@ export const measurementStrategyPosts: BlogPost[] = [
         text: "Google's guidance is to always use utm_source, utm_medium and utm_campaign, and utm_content can tell creatives apart. Agree a naming scheme before the campaign, keep values lowercase and consistent so spellings don't split into separate rows, and test each link from a phone inside the app it will be shared in. Link shorteners and link-in-bio tools can strip parameters, so check the final landing URL.",
         links: [{ text: "Google's guidance", href: EXT.ga4Utm }],
       },
+      {
+        type: "paragraph",
+        text: "A naming convention that keeps tags consistent is in influencer UTM tracking, and why different attribution models give different totals in influencer marketing attribution models.",
+        links: [
+          { text: "influencer UTM tracking", href: "/blog/influencer-utm-tracking" },
+          { text: "influencer marketing attribution models", href: "/blog/influencer-marketing-attribution-models" },
+        ],
+      },
       { type: "heading", text: "Reporting errors to avoid", id: "errors" },
       {
         type: "list",

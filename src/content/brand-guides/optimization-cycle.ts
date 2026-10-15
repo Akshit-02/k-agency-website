@@ -20,11 +20,12 @@ export const optimizationCyclePosts: BlogPost[] = [
     excerpt:
       "A practical optimization system for creator campaigns: the levers brands control before, during and after a campaign, how to decide what to change, the optimization cycle that improves each campaign, and a repeatable playbook.",
     metaDescription:
-      "How to optimize influencer campaigns: levers before, during and after launch, deciding what to change, an iteration cycle and a repeatable playbook.",
+      "How to optimize influencer campaigns: levers before, during and after launch, deciding what to change, a 90-day optimization plan and a repeatable playbook.",
     author: AUTHOR,
     publishedAt: OPT_PUBLISHED,
-    lastReviewed: OPT_REVIEWED,
-    readingTime: "6 min read",
+    updatedAt: "2026-10-14",
+    lastReviewed: "October 2026",
+    readingTime: "8 min read",
     tags: ["influencer campaign optimization", "optimize influencer campaign", "influencer campaign iteration", "creator campaign playbook", "improve influencer campaign performance"],
     related: ["mid-campaign-optimization", "influencer-campaign-underperformance", "influencer-marketing-testing"],
     hero: {
@@ -96,6 +97,13 @@ export const optimizationCyclePosts: BlogPost[] = [
         text: "When results are weak, influencer campaign underperformance has a diagnostic table for separating creator, content, strategy, distribution, measurement and offer problems.",
         links: [{ text: "influencer campaign underperformance", href: "/blog/influencer-campaign-underperformance" }],
       },
+      {
+        type: "paragraph",
+        text: "If posts are drawing engagement but few sales, start with why influencer campaigns generate engagement but not sales before changing creators.",
+        links: [
+          { text: "why influencer campaigns generate engagement but not sales", href: "/blog/influencer-engagement-no-sales" },
+        ],
+      },
       { type: "heading", text: "Optimizing across campaign cycles", id: "iteration" },
       {
         type: "paragraph",
@@ -115,6 +123,41 @@ export const optimizationCyclePosts: BlogPost[] = [
         type: "paragraph",
         text: "Keeping most things stable while changing a few is what lets you learn what actually caused a difference. Influencer marketing testing covers how to structure those comparisons.",
         links: [{ text: "Influencer marketing testing", href: "/blog/influencer-marketing-testing" }],
+      },
+      { type: "heading", text: "A 90-day optimization plan", id: "ninety-day-plan" },
+      {
+        type: "paragraph",
+        text: "For a brand already running creators every month, a 90-day cycle is long enough to change something, measure it and decide, and short enough to keep momentum. The plan below assumes an always-on program or a series of campaigns; adjust the weeks to your purchase cycle.",
+      },
+      {
+        type: "table",
+        headers: ["Weeks", "Focus", "Outputs"],
+        rows: [
+          ["1–2", "Baseline and diagnosis: pull the last 90 days by creator, format, hook and offer; check tracking and rights records", "A one-page baseline (cost per result, top and bottom content, gaps in tracking) and three hypotheses to test"],
+          ["3–4", "Fix the leaks first: tracking, landing pages, codes, approval delays", "Clean links and codes, a landing page matched to creator content, a faster approval path"],
+          ["5–8", "Test: one creator or creative variable per round, with a comparison group and a fixed capture day", "Two test rounds with results labelled measured, estimated or assumed"],
+          ["9–10", "Shift budget in steps towards what beat the threshold; refresh fatigued creative; rebook strong creators", "A revised creator roster and budget split, written as decisions with owners"],
+          ["11–12", "Review: compare with the baseline, run the post-mortem, decide what carries into the next 90 days", "A decision log, updated briefs and the next quarter's test questions"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Set the thresholds (for example break-even cost per order) in week 1, not after results arrive.",
+          "Change one or two things per round; changing everything at once teaches nothing.",
+          "Keep a comparison group or region for budget shifts, so improvement isn't just seasonality.",
+          "Don't expect every creator to improve on every metric; judge each on the role it plays.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The measurement side is covered in creator campaign testing and influencer marketing incrementality, the week 9–10 decisions in scale, pause or stop, and what a brand-new program can expect in its first months in the first 30, 60 and 90 days of an influencer campaign.",
+        links: [
+          { text: "creator campaign testing", href: "/blog/influencer-marketing-testing" },
+          { text: "influencer marketing incrementality", href: "/blog/influencer-marketing-incrementality" },
+          { text: "scale, pause or stop", href: "/blog/scale-pause-stop-influencer-campaigns" },
+          { text: "the first 30, 60 and 90 days of an influencer campaign", href: "/blog/influencer-campaign-first-90-days" },
+        ],
       },
       { type: "heading", text: "A repeatable optimization playbook", id: "playbook" },
       {
@@ -628,7 +671,7 @@ export const optimizationCyclePosts: BlogPost[] = [
   {
     slug: "influencer-campaign-post-mortem",
     category: "Campaign Strategy",
-    title: "Creator Campaign Post-Mortem: How Brands Should Review a Campaign After It Ends",
+    title: "Influencer Campaign Post-Mortem: What It Should Include and How Brands Run One",
     seoTitle: "Influencer Campaign Post-Mortem: Template and Agenda",
     excerpt:
       "A structured post-campaign review for brands: what to analyse after launch (results, creators, content, process, costs), a blameless post-mortem agenda, a template, turning findings into decisions and what to share with creators.",
@@ -636,7 +679,8 @@ export const optimizationCyclePosts: BlogPost[] = [
       "How brands run an influencer campaign post-mortem: what to analyse after launch, a meeting agenda, a template and turning findings into next-campaign decisions.",
     author: AUTHOR,
     publishedAt: OPT_PUBLISHED,
-    lastReviewed: OPT_REVIEWED,
+    updatedAt: "2026-10-14",
+    lastReviewed: "October 2026",
     readingTime: "6 min read",
     tags: ["influencer campaign post-mortem", "influencer campaign performance review", "creator campaign review", "post-campaign analysis influencer", "campaign retrospective"],
     related: ["influencer-data-analytics", "creator-feedback-loop", "influencer-campaign-optimization"],
@@ -721,6 +765,13 @@ export const optimizationCyclePosts: BlogPost[] = [
           { text: "how to use influencer campaign insights to improve your next product launch", href: "/blog/influencer-campaign-insights-product-launch" }
         ],
       },
+      {
+        type: "paragraph",
+        text: "For the decision itself, including a decision log with owners and dates, see how to decide whether to scale, pause or stop an influencer campaign.",
+        links: [
+          { text: "how to decide whether to scale, pause or stop an influencer campaign", href: "/blog/scale-pause-stop-influencer-campaigns" },
+        ],
+      },
       { type: "heading", text: "What to share with creators", id: "share" },
       {
         type: "list",
@@ -739,7 +790,11 @@ export const optimizationCyclePosts: BlogPost[] = [
       { type: "heading", text: "When to run it", id: "timing" },
       {
         type: "paragraph",
-        text: "Run the post-mortem soon after the final capture date (for example 30 days after the last post), while details are fresh but results are complete. For long campaigns or always-on programmes, hold a short review after each wave and a fuller one each quarter.",
+        text: "Run the post-mortem soon after the final capture date (for example 30 days after the last post), while details are fresh but results are complete. For long campaigns or always-on programmes, hold a short review after each wave and a fuller one each quarter. Put the date in the project plan before launch so it isn't skipped, and make it the last gate of the campaign checklist.",
+        links: [
+          { text: "project plan", href: "/blog/influencer-campaign-project-plan" },
+          { text: "campaign checklist", href: "/blog/influencer-campaign-checklist#close-out" },
+        ],
       },
       { type: "heading", text: "Hypothetical example", id: "example" },
       {
@@ -800,9 +855,9 @@ export const optimizationCyclePosts: BlogPost[] = [
       "How brands test creators, content and approaches: hypothesis, variable, baseline, groups, success criteria, measurement window and the limits of tests.",
     author: AUTHOR,
     publishedAt: OPT_PUBLISHED,
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-10-14",
     lastReviewed: "October 2026",
-    readingTime: "6 min read",
+    readingTime: "9 min read",
     tags: ["influencer marketing testing", "creator campaign testing", "influencer campaign experimentation", "test influencer content", "influencer A/B testing"],
     related: ["influencer-campaign-optimization", "influencer-content-performance", "ugc-paid-social-testing"],
     hero: {
@@ -873,6 +928,29 @@ export const optimizationCyclePosts: BlogPost[] = [
         text: "Running several creator assets as ads with the same budget and audience is the most controlled test available, because distribution is held roughly constant. UGC for paid social covers ad testing.",
         links: [{ text: "UGC for paid social", href: "/blog/ugc-paid-social-testing" }],
       },
+      { type: "heading", text: "How big and how long should a test be?", id: "test-size" },
+      {
+        type: "paragraph",
+        text: "In a creator test the unit being compared is usually the creator or the region, not the viewer. Six creators against six is a sample of twelve, however many people saw the posts. Sales are also noisy: a large study of 25 online advertising field experiments with US retailers and brokerages found the median confidence interval on ROI was more than 100 percentage points wide, and that informative experiments could need over 10 million person-weeks. Most brands can't run tests that precise, so design for differences big enough to see.",
+        links: [{ text: "a large study of 25 online advertising field experiments", href: "https://doi.org/10.1093/qje/qjv023" }],
+      },
+      {
+        type: "table",
+        headers: ["Design choice", "Practical rule"],
+        rows: [
+          ["What to test", "Changes that could plausibly move results by a third or more (format, creator type, offer), not small wording tweaks"],
+          ["Group assignment", "Rank similar creators, then alternate them into the two groups, so the strongest don't all land in one version"],
+          ["Sample", "As many creators per group as budget allows; with a few dozen orders per group, treat results as directional"],
+          ["Duration", "Whole weeks, at least one normal purchase cycle, and the same capture day for every post"],
+          ["Timing", "Both groups live in the same period; avoid tests that straddle a sale, festival or price change"],
+          ["Paid layer", "Use the ad platform's own A/B test, which splits the audience randomly, when running creator content as ads"],
+          ["Write-up", "Hypothesis, metric and decision rule written down before launch, so the result can't be reinterpreted afterwards"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "When results are measured in hundreds of orders per group, a standard significance test on conversion rates becomes meaningful. Below that, look for large, consistent gaps and repeat the test before acting.",
+      },
       { type: "heading", text: "The limits of influencer testing", id: "limits" },
       {
         type: "list",
@@ -939,10 +1017,11 @@ export const optimizationCyclePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Scale in steps (for example, doubling rather than multiplying by ten), and keep a holdout so you can see whether results hold. Measuring the real effect is covered in influencer marketing incrementality, and building budget for the next stage in how to allocate your influencer marketing budget.",
+        text: "Scale in steps (for example, doubling rather than multiplying by ten), and keep a holdout so you can see whether results hold. Measuring the real effect is covered in influencer marketing incrementality, and building budget for the next stage in how to allocate your influencer marketing budget. The wider decision, including when to fix, pause or stop instead, is covered in how to decide whether to scale, pause or stop an influencer campaign.",
         links: [
           { text: "influencer marketing incrementality", href: "/blog/influencer-marketing-incrementality" },
           { text: "how to allocate your influencer marketing budget", href: "/blog/influencer-budget-allocation" },
+          { text: "how to decide whether to scale, pause or stop an influencer campaign", href: "/blog/scale-pause-stop-influencer-campaigns" },
         ],
       },
       { type: "heading", text: "Testing in Indian campaigns", id: "india" },

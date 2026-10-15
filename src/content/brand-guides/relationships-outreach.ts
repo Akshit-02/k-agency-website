@@ -891,6 +891,13 @@ export const relationshipsOutreachPosts: BlogPost[] = [
         text: "Then compare cost per expected thousand views and cost per usable asset, alongside fit, not instead of it. The full list of costs that hide in quotes is in influencer campaign hidden costs.",
         links: [{ text: "influencer campaign hidden costs", href: "/blog/influencer-campaign-hidden-costs" }],
       },
+      {
+        type: "paragraph",
+        text: "When several creators send full proposals, comparing full proposals side by side shows how to normalise reach, rights, exclusivity and payment terms before choosing.",
+        links: [
+          { text: "comparing full proposals side by side", href: "/blog/how-much-to-pay-influencers#compare-proposals" },
+        ],
+      },
       { type: "heading", text: "Step 2: Decide what the creator is worth to this campaign", id: "worth" },
       {
         type: "paragraph",

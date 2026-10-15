@@ -61,6 +61,7 @@ const TOPIC_TO_CAMPAIGN_GOAL: Record<string, string> = {
   "AU: Product Launch": "Product Launch",
   "UK: Campaign Planning": "Campaign Management",
   "UK: Agency Selection": "Influencer Marketing",
+  "SG: Campaign Planning": "Campaign Management",
   "UAE: Market Page": "Influencer Marketing",
   "KSA: Market Page": "Influencer Marketing",
   "UK: Market Page": "Influencer Marketing",
@@ -201,7 +202,7 @@ export function BrandInquiryForm() {
         <TextArea id="message" placeholder="What are you trying to achieve with this campaign?" {...register("message")} />
       </FieldWrapper>
 
-      {submitError && <p className="text-sm font-medium text-coral-dim">{submitError}</p>}
+      {submitError && <p role="alert" className="text-sm font-medium text-coral-dim">{submitError}</p>}
 
       <Button type="submit" size="lg" disabled={isSubmitting} className="w-full sm:w-auto">
         {isSubmitting ? "Sending..." : "Let's Build Your Campaign"}

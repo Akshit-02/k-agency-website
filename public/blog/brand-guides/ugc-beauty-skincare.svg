@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Beauty and skincare UGC</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">BEAUTY AND SKINCARE UGC</text>
+<rect x="82" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="70" y="220" width="268" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="268" font-size="24" font-weight="700" fill="#FAF1E2">Texture</text>
+<text x="92" y="310" font-size="19" fill="#FAF1E2" opacity=".85">Close-ups in</text>
+<text x="92" y="340" font-size="19" fill="#FAF1E2" opacity=".85">natural light</text>
+<rect x="380" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="368" y="220" width="268" height="240" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="390" y="268" font-size="24" font-weight="700" fill="#150F0B">Shades</text>
+<text x="390" y="310" font-size="19" fill="#150F0B" opacity=".85">Creators across</text>
+<text x="390" y="340" font-size="19" fill="#150F0B" opacity=".85">skin tones</text>
+<rect x="678" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="666" y="220" width="268" height="240" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="688" y="268" font-size="24" font-weight="700" fill="#150F0B">Routine</text>
+<text x="688" y="310" font-size="19" fill="#150F0B" opacity=".85">Where it fits</text>
+<text x="688" y="340" font-size="19" fill="#150F0B" opacity=".85">in the day</text>
+<rect x="976" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="964" y="220" width="268" height="240" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="986" y="268" font-size="24" font-weight="700" fill="#150F0B">Wear test</text>
+<text x="986" y="310" font-size="19" fill="#150F0B" opacity=".85">Check-ins through</text>
+<text x="986" y="340" font-size="19" fill="#150F0B" opacity=".85">the day</text>
+<rect x="1274" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="1262" y="220" width="268" height="240" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1284" y="268" font-size="24" font-weight="700" fill="#FAF1E2">Results</text>
+<text x="1284" y="310" font-size="19" fill="#FAF1E2" opacity=".85">Same light,</text>
+<text x="1284" y="340" font-size="19" fill="#FAF1E2" opacity=".85">realistic time</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">No filters that change the skin or the result.</text>
+</svg>

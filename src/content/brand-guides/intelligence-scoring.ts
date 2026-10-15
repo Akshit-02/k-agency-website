@@ -572,6 +572,13 @@ export const intelligenceScoringPosts: BlogPost[] = [
         type: "paragraph",
         text: "Both creators are invented. The point is that the larger account scores lower on the things that make recommendations work. That doesn't make Creator X useless; for a reach-only objective, their views may still be good value. Quality is one input into ranking, not the decision.",
       },
+      {
+        type: "paragraph",
+        text: "A quality score leaves out fit and cost. To combine it with audience fit, brand fit and commercial fit, with pass/fail gates for authenticity and brand safety, use the selection scorecard in how to choose the right influencer.",
+        links: [
+          { text: "the selection scorecard in how to choose the right influencer", href: "/blog/how-to-choose-the-right-influencer-for-your-brand#selection-scorecard" },
+        ],
+      },
       { type: "heading", text: "Limits of a quality score", id: "limits" },
       {
         type: "list",
@@ -822,6 +829,13 @@ export const intelligenceScoringPosts: BlogPost[] = [
         text: "Engagement quality isn't only a vetting check. After posting, audit comments on each sponsored post and compare with the creator's organic baseline. A sponsored post that generated questions and intent did its job even with modest likes; one with plenty of likes and no product discussion probably didn't. Feed the result into the creator performance scorecard.",
         links: [
           { text: "creator performance scorecard", href: "/blog/creator-performance-scorecard" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "When engagement looks healthy but orders don't follow, why influencer campaigns generate engagement but not sales walks through the diagnosis stage by stage.",
+        links: [
+          { text: "why influencer campaigns generate engagement but not sales", href: "/blog/influencer-engagement-no-sales" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

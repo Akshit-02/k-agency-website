@@ -172,8 +172,11 @@ export const campaignPlanningPosts: BlogPost[] = [
       { type: "heading", text: "How long should a campaign stay live?", id: "live-window" },
       {
         type: "paragraph",
-        text: "It depends on the objective. Awareness campaigns often run as a concentrated burst so reach overlaps; sales and lead campaigns need a longer window, because creator content keeps working after posting and buying decisions take time. Considered purchases (cars, property, education, B2B software) need measurement windows of weeks or months. Metrics by objective are covered in influencer marketing KPIs.",
-        links: [{ text: "influencer marketing KPIs", href: "/blog/influencer-marketing-kpis" }],
+        text: "It depends on the objective. Awareness campaigns often run as a concentrated burst so reach overlaps; sales and lead campaigns need a longer window, because creator content keeps working after posting and buying decisions take time. Considered purchases (cars, property, education, B2B software) need measurement windows of weeks or months. Metrics by objective are covered in influencer marketing KPIs. This guide covers how long a campaign takes to run; when each kind of result shows up once content is live is covered in how long influencer marketing takes to show results.",
+        links: [
+          { text: "influencer marketing KPIs", href: "/blog/influencer-marketing-kpis" },
+          { text: "how long influencer marketing takes to show results", href: "/blog/how-long-influencer-marketing-results" },
+        ],
       },
       { type: "heading", text: "Build the plan backwards", id: "backwards" },
       {
@@ -355,23 +358,11 @@ export const campaignPlanningPosts: BlogPost[] = [
       { type: "heading", text: "How many influencers does a campaign need?", id: "how-many-influencers" },
       {
         type: "paragraph",
-        text: "There's no universal number. Use these questions instead:",
-      },
-      {
-        type: "list",
-        items: [
-          "Reach: roughly how many people in your target audience need to see the campaign, and what's each creator's typical reach (not follower count)?",
-          "Frequency: will the same people see several creators, which helps recall?",
-          "Segments: how many audience segments, cities or languages must be covered? Each may need its own creators.",
-          "Testing: do you have enough creators to learn which types work, typically several per creator type you're testing?",
-          "Capacity: can your team or agency manage each creator properly?",
-          "Budget: does the count leave enough per creator for good content and rights?",
+        text: "There's no universal number. The count the budget can afford (step 3) is only a ceiling; the count the campaign needs comes from reach, learning and coverage. How many influencers a campaign needs works through all four counts with formulas and an example. A campaign of five well-chosen creators can outperform one of fifty spread thin. For product launches specifically, see the creator-count section in how to find the right influencers for a product launch.",
+        links: [
+          { text: "How many influencers a campaign needs", href: "/blog/how-many-influencers-for-a-campaign" },
+          { text: "how to find the right influencers for a product launch", href: "/blog/influencers-for-product-launch" },
         ],
-      },
-      {
-        type: "paragraph",
-        text: "A campaign of five well-chosen creators can outperform one of fifty spread thin. For product launches specifically, see the creator-count section in how to find the right influencers for a product launch.",
-        links: [{ text: "how to find the right influencers for a product launch", href: "/blog/influencers-for-product-launch" }],
       },
       { type: "heading", text: "Test, then scale", id: "test-scale" },
       {
@@ -571,6 +562,13 @@ export const campaignPlanningPosts: BlogPost[] = [
           { text: "Creator quality score", href: "/blog/creator-quality-score" },
           { text: "AI influencer matching", href: "/blog/ai-influencer-matching" },
           { text: "influencer ranking", href: "/blog/influencer-ranking" },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A ready-made scorecard with gates and objective-based weights is in how to choose the right influencer.",
+        links: [
+          { text: "how to choose the right influencer", href: "/blog/how-to-choose-the-right-influencer-for-your-brand#selection-scorecard" },
         ],
       },
       { type: "heading", text: "Keep a decision log", id: "decision-log" },

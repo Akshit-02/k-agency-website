@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Is influencer marketing worth it for a small business?</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">IS INFLUENCER MARKETING WORTH IT?</text>
+<rect x="82" y="232" width="466" height="240" fill="#150F0B"/>
+<rect x="70" y="220" width="466" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="268" font-size="24" font-weight="700" fill="#FAF1E2">Economics</text>
+<text x="92" y="310" font-size="19" fill="#FAF1E2" opacity=".85">Cost per customer</text>
+<text x="92" y="340" font-size="19" fill="#FAF1E2" opacity=".85">vs what one is worth</text>
+<rect x="578" y="232" width="466" height="240" fill="#150F0B"/>
+<rect x="566" y="220" width="466" height="240" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="588" y="268" font-size="24" font-weight="700" fill="#150F0B">Learning</text>
+<text x="588" y="310" font-size="19" fill="#150F0B" opacity=".85">Which creators and</text>
+<text x="588" y="340" font-size="19" fill="#150F0B" opacity=".85">messages work</text>
+<rect x="1074" y="232" width="466" height="240" fill="#150F0B"/>
+<rect x="1062" y="220" width="466" height="240" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1084" y="268" font-size="24" font-weight="700" fill="#150F0B">Content</text>
+<text x="1084" y="310" font-size="19" fill="#150F0B" opacity=".85">Assets you can reuse</text>
+<text x="1084" y="340" font-size="19" fill="#150F0B" opacity=".85">with the rights</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Check the break-even maths before you spend.</text>
+</svg>

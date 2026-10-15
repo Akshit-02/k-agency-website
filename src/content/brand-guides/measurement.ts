@@ -206,15 +206,16 @@ export const measurementPosts: BlogPost[] = [
     slug: "influencer-reach-vs-impressions",
     category: "Campaign Strategy",
     title: "Reach vs Impressions vs Views in Influencer Marketing: What Brands Should Track",
-    seoTitle: "Reach vs Impressions vs Views: What Brands Should Track",
+    seoTitle: "Reach, Impressions, Views and Engagement Explained",
     excerpt:
       "What reach, impressions and views mean in creator campaigns, how Instagram's switch to views changes reports, how to calculate frequency, which metric fits which objective, and how to collect the numbers from creators.",
     metaDescription:
-      "Reach vs impressions vs views for influencer campaigns: definitions, Instagram's move to views, frequency, which to track by objective and how to collect them.",
+      "Reach vs impressions vs views vs engagement in influencer campaigns: definitions, Instagram and YouTube view changes, frequency and which to track by objective.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-14",
     lastReviewed: REVIEWED,
-    readingTime: "8 min read",
+    readingTime: "6 min read",
     tags: ["reach vs impressions", "influencer reach", "instagram views vs reach", "influencer impressions", "influencer campaign metrics"],
     related: ["influencer-marketing-kpis", "influencer-marketing-cpm-cpe-cpa", "influencer-marketing-brand-awareness"],
     hero: {
@@ -239,7 +240,8 @@ export const measurementPosts: BlogPost[] = [
           ["Followers", "Accounts following the creator", "Not applicable", "Potential audience only; not a result"],
           ["Reach (accounts reached)", "Unique accounts that saw the content", "Counted once", "Audience size of a campaign"],
           ["Impressions / views", "Every time the content was shown or played", "Counted each time", "Total exposure, CPM"],
-          ["YouTube views", "Plays counted by YouTube's own view rules", "Can include repeats", "Exposure on long-form video"],
+          ["YouTube views", "Every play from the first frame, since 24 August 2026", "Can include repeats", "Exposure; use engaged views to compare with older reports"],
+          ["Engagements", "Likes, comments, shares and saves", "One person can engage several times", "What people did with the content"],
           ["Frequency", "Views ÷ reach", "Average per person", "Whether the message was repeated enough"],
         ],
       },
@@ -248,6 +250,38 @@ export const measurementPosts: BlogPost[] = [
         type: "paragraph",
         text: "Instagram replaced impressions and Reel plays with a single views metric across Reels, posts, Stories and Live, completed in April 2025. Views count every time content is seen, including repeats, so treat them like impressions in older reports. If a campaign compares this year's Instagram views with last year's impressions, label the change rather than presenting it as growth or decline.",
         links: [{ text: "replaced impressions and Reel plays", href: "https://www.socialmediatoday.com/news/instagram-updates-metrics-to-focus-creators-on-views/723645/" }],
+      },
+      { type: "heading", text: "YouTube's change to views, and engaged views", id: "youtube-views" },
+      {
+        type: "paragraph",
+        text: "YouTube changed what a view means from 24 August 2026. A view now counts from the first frame of playback across Shorts, long-form videos, podcasts and live streams, and the previous definition, where someone kept watching for a few seconds, is now called an engaged view. YouTube says most analytics, including retention and average view duration, remain based on engaged views. For creator reports, ask for both figures and compare engaged views with older YouTube view counts, not the new, higher view number.",
+        links: [{ text: "YouTube changed what a view means from 24 August 2026", href: "https://blog.youtube/inside-youtube/engaged-views-youtube-explained/" }],
+      },
+      {
+        type: "paragraph",
+        text: "Other platforms define views in their own way, and definitions change. Read the metric definition shown in each platform's analytics before comparing creators across platforms, and note that TikTok isn't available in India, so TikTok figures only matter for your other markets.",
+      },
+      { type: "heading", text: "Where engagement fits", id: "engagement" },
+      {
+        type: "paragraph",
+        text: "Reach and views measure exposure. Engagement measures what people did with the content: likes, comments, shares, saves and, on some platforms, profile visits or link taps. An engagement rate divides those actions by a base, and the base you choose changes the number a lot.",
+      },
+      {
+        type: "table",
+        headers: ["Engagement rate", "Formula", "Good for", "Watch out for"],
+        rows: [
+          ["By reach", "Engagements ÷ reach × 100", "How people who saw it responded", "Needs the creator's insights, captured on a fixed day"],
+          ["By views", "Engagements ÷ views × 100", "Video content, comparing across formats", "Repeat views lower the rate"],
+          ["By followers", "Engagements ÷ followers × 100", "Quick public screening of creators", "Ignores non-followers who saw it; inflated when a post goes beyond followers"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Saves, shares and comments with product questions are stronger signals than likes. Influencer engagement rate covers the formulas in depth, and influencer engagement quality covers telling real interest from vanity engagement.",
+        links: [
+          { text: "Influencer engagement rate", href: "/blog/influencer-engagement-rate" },
+          { text: "influencer engagement quality", href: "/blog/influencer-engagement-quality" },
+        ],
       },
       { type: "heading", text: "Which metric fits which objective", id: "by-objective" },
       {
@@ -314,6 +348,16 @@ export const measurementPosts: BlogPost[] = [
         question: "What is the difference between reach and impressions?",
         answer:
           "Reach counts unique accounts that saw content; impressions count every time it was shown. One person seeing a post three times adds one to reach and three to impressions.",
+      },
+      {
+        question: "What is the difference between reach and engagement?",
+        answer:
+          "Reach counts how many unique accounts saw the content. Engagement counts what they did with it: likes, comments, shares and saves. Engagement rate divides engagements by reach, views or followers, so always say which base you used.",
+      },
+      {
+        question: "How does YouTube count views now?",
+        answer:
+          "Since 24 August 2026, YouTube counts a view from the first frame of playback in every format. The previous definition is now reported as engaged views, which is the better figure for comparing with older reports.",
       },
       {
         question: "Are Instagram views the same as impressions?",

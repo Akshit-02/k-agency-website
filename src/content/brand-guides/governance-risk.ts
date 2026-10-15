@@ -130,6 +130,13 @@ export const governanceRiskPosts: BlogPost[] = [
           { text: "influencer controversy response", href: "/blog/influencer-controversy-response" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "Risks that come from the platforms themselves, such as a block, a ranking change or a new metric, are covered in platform dependency risk.",
+        links: [
+          { text: "platform dependency risk", href: "/blog/influencer-platform-dependency-risk" },
+        ],
+      },
       { type: "heading", text: "Who owns which risk", id: "owners" },
       {
         type: "table",

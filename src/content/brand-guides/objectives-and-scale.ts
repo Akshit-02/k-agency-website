@@ -278,7 +278,7 @@ export const objectivesAndScalePosts: BlogPost[] = [
       { type: "heading", text: "Amplify what works", id: "amplification" },
       {
         type: "paragraph",
-        text: "Organic creator posts reach part of the audience once. Running the best creator content as ads (for example through Instagram partnership ads, with the creator's permission and usage agreed) extends reach to lookalike and retargeting audiences with content that already proved it can persuade. Budget for usage rights and media from the start. See Instagram partnership ads.",
+        text: "Organic creator posts reach part of the audience once. Running the best creator content as ads (for example through partnership ads on Instagram, with the creator's permission and usage agreed) extends reach to lookalike and retargeting audiences with content that already proved it can persuade. Budget for usage rights and media from the start. See Instagram partnership ads.",
         links: [{ text: "Instagram partnership ads", href: "/blog/instagram-partnership-ads" }],
       },
       { type: "heading", text: "Tracking across site, marketplaces and quick commerce", id: "tracking" },
@@ -289,6 +289,13 @@ export const objectivesAndScalePosts: BlogPost[] = [
           "Marketplaces: brand-level sales and search trends during campaign windows; tracked links are harder, so use codes and time-based comparison.",
           "Quick commerce and offline: regional sales lift in campaign cities compared with similar non-campaign cities.",
           "Branded search: a common sign creators sent people looking.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Setting up codes, links, affiliate tracking and surveys so each order is counted once is covered step by step in how to track influencer sales.",
+        links: [
+          { text: "how to track influencer sales", href: "/blog/track-influencer-sales" },
         ],
       },
       { type: "heading", text: "Customer acquisition, not just orders", id: "acquisition" },
@@ -376,10 +383,10 @@ export const objectivesAndScalePosts: BlogPost[] = [
     seoTitle: "Always-On Influencer Marketing: Build and Scale a Program",
     excerpt:
       "How brands scale from one-off influencer campaigns to an always-on creator program: the six stages from first campaign to optimized program, when you're ready, the creator roster, monthly content calendar, budget model, testing, measurement and reporting rhythm, creator retention and content reuse.",
-    metaDescription: "Scale influencer marketing into an always-on program: stages, creator roster, monthly calendar, budget, testing, reporting and scaling across India.",
+    metaDescription: "Turn influencer marketing into a repeatable growth channel: an always-on program with a creator roster, calendar, budget, unit economics, testing and reporting.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
-    updatedAt: "2026-10-09",
+    updatedAt: "2026-10-14",
     lastReviewed: "October 2026",
     readingTime: "18 min read",
     tags: ["always-on influencer marketing", "scale influencer marketing", "always-on influencer budget", "always-on creator content", "scalable influencer marketing India", "creator content engine"],
@@ -610,6 +617,59 @@ export const objectivesAndScalePosts: BlogPost[] = [
           { text: "influencer ambassador programs", href: "/blog/brand-ambassador-program" },
         ],
       },
+      { type: "heading", text: "Is it a repeatable growth channel yet?", id: "repeatable-growth-channel" },
+      {
+        type: "paragraph",
+        text: "An always-on program is the structure. A repeatable growth channel is what it becomes when you can predict, within a range, what next month's spend will produce and you know which levers to pull. Four tests tell you whether you're there:",
+      },
+      {
+        type: "table",
+        headers: ["Test", "What it means", "How to check"],
+        rows: [
+          ["Predictable", "Cost per result stays within a band you can plan around", "Rolling monthly cost per result over at least two or three quarters"],
+          ["Scalable", "Spending more doesn't make each extra result much more expensive", "Marginal cost per result when you add creators or amplification, not just the average"],
+          ["Incremental", "Creators add sales that wouldn't have happened anyway", "Holdouts, regional tests or before-and-after comparisons alongside tracked orders"],
+          ["Documented", "The program runs from a playbook, not from one person's memory", "Could a new team member or agency run next month from what's written down?"],
+        ],
+      },
+      { type: "subheading", text: "The unit economics to track" },
+      {
+        type: "template",
+        label: "Creator channel unit economics",
+        text: "Blended creator CAC = total program cost (creators, rights, production, product, management, amplification) ÷ new customers from creators (tracked plus estimated lift)\n\nPayback period (months) = blended creator CAC ÷ monthly contribution margin per customer\n\nMarginal CAC = extra cost this month ÷ extra new customers this month, compared with last month\n\nContent value = cost of the creator assets you reused in ads, on product pages and in email, valued at what you'd otherwise pay to produce them",
+      },
+      {
+        type: "paragraph",
+        text: "If blended CAC is acceptable but marginal CAC rises steeply, you've found the program's current ceiling: widen the roster, add markets or improve the offer before adding money. Separating real lift from sales that would have happened anyway is covered in influencer marketing incrementality, and presenting these numbers to finance in the influencer marketing business case.",
+        links: [
+          { text: "influencer marketing incrementality", href: "/blog/influencer-marketing-incrementality" },
+          { text: "influencer marketing business case", href: "/blog/influencer-marketing-business-case" },
+        ],
+      },
+      { type: "subheading", text: "The playbook that makes it repeatable" },
+      {
+        type: "list",
+        items: [
+          "Creator criteria: who qualifies, the checks every creator passes and the red flags that rule them out.",
+          "Brief templates by campaign type, with approved claims and disclosure wording.",
+          "Contract and rights templates, including standard usage periods for paid use.",
+          "The monthly calendar, approval matrix and turnaround times.",
+          "The test log: what was tested, what won, what was retired.",
+          "Reporting templates and the decisions each review is allowed to make.",
+          "The roster: core, rotating and test creators, with rates, rights and renewal dates.",
+        ],
+      },
+      { type: "subheading", text: "The flywheel: creator content into paid media" },
+      {
+        type: "paragraph",
+        text: "The programs that grow fastest usually feed their best creator content into paid social, so reach is no longer limited to creators' organic audiences. Meta's own October 2026 creator white paper reports that, across 20 EMEA conversion lift studies, campaigns where at least 30% of creatives were partnership ads had a 45% lower median cost per incremental purchase than business-as-usual campaigns, at 92% confidence (summarised by PPC Land). That is the platform's own analysis, so test it in your account, but it supports budgeting rights and amplification as part of the program rather than as an afterthought.",
+        links: [{ text: "summarised by PPC Land", href: "https://ppc.land/meta-says-partnership-ads-cut-incremental-purchase-costs-45-in-emea-tests/" }],
+      },
+      {
+        type: "paragraph",
+        text: "Getting the first campaign right comes before any of this; what to expect in the first 30, 60 and 90 days of an influencer campaign covers that stage.",
+        links: [{ text: "what to expect in the first 30, 60 and 90 days of an influencer campaign", href: "/blog/influencer-campaign-first-90-days" }],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -636,6 +696,11 @@ export const objectivesAndScalePosts: BlogPost[] = [
       },
     ],
     faqs: [
+      {
+        question: "How do I turn influencer marketing into a repeatable growth channel?",
+        answer:
+          "Prove fit with a tracked campaign, rebook what works into a core roster, keep a test slot for new creators, feed the best content into paid media, document the playbook, and track blended and marginal cost per customer each month. It's repeatable when results are predictable within a range and the program doesn't depend on one person.",
+      },
       {
         question: "What is always-on influencer marketing?",
         answer:
