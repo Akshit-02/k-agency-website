@@ -1,3 +1,4 @@
+import { services } from "@/content/services";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
@@ -17,13 +18,14 @@ export function ServicesHero() {
         </Reveal>
         <Reveal delay={0.08}>
           <h1 className="mt-6 max-w-3xl font-display text-6xl leading-[0.98] tracking-tight text-balance text-ink sm:text-8xl">
-            Eight services. One coordinated <em className="italic text-coral">engine.</em>
+            {services.length} services. One coordinated <em className="italic text-coral">engine.</em>
           </h1>
         </Reveal>
         <Reveal delay={0.16}>
           <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/65 text-pretty">
-            Use one service or all eight. Each is designed to work independently, and to compound when combined
-            into a full campaign program.
+            Influencer marketing services for brands, from strategy and creator discovery to paid, barter, gifting
+            and affiliate campaigns, UGC, platform-specific campaigns and regional creators. Use one, or combine
+            them into a full campaign program.
           </p>
         </Reveal>
       </Container>

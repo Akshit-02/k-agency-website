@@ -379,15 +379,26 @@ export const SELECTION_CRITERIA: BlogBlock = {
 /** Kudozz's services as published on /services, linked; repeated factually on every location page. */
 export const KUDOZZ_SERVICES: BlogBlock = {
   type: "paragraph",
-  text: "Services: influencer marketing strategy, creator discovery and matchmaking, influencer outreach and management, social media campaigns, product launch campaigns, UGC campaigns, brand ambassador programs, and campaign reporting.",
+  text: "Services: influencer marketing strategy, creator discovery and matchmaking, influencer outreach and management, campaign reporting, paid influencer campaigns, barter influencer campaigns, influencer seeding and gifting, influencer affiliate and performance marketing, brand ambassador programs, product launch campaigns, social media campaigns, UGC campaigns, UGC content production, Instagram influencer marketing, YouTube influencer marketing, LinkedIn influencer marketing, regional influencer marketing, and micro and nano influencer marketing.",
   links: [
     { text: "influencer marketing strategy", href: "/services/campaign-strategy" },
     { text: "creator discovery and matchmaking", href: "/services/creator-discovery" },
     { text: "influencer outreach and management", href: "/services/outreach-management" },
-    { text: "product launch campaigns", href: "/services/product-launches" },
-    { text: "UGC campaigns", href: "/services/ugc-campaigns" },
-    { text: "brand ambassador programs", href: "/services/ambassador-programs" },
     { text: "campaign reporting", href: "/services/reporting" },
+    { text: "paid influencer campaigns", href: "/services/paid-influencer-campaigns" },
+    { text: "barter influencer campaigns", href: "/services/barter-influencer-campaigns" },
+    { text: "influencer seeding and gifting", href: "/services/influencer-seeding-gifting" },
+    { text: "influencer affiliate and performance marketing", href: "/services/influencer-affiliate-marketing" },
+    { text: "brand ambassador programs", href: "/services/ambassador-programs" },
+    { text: "product launch campaigns", href: "/services/product-launches" },
+    { text: "social media campaigns", href: "/services/social-campaigns" },
+    { text: "UGC campaigns", href: "/services/ugc-campaigns" },
+    { text: "UGC content production", href: "/services/ugc-content-production" },
+    { text: "Instagram influencer marketing", href: "/services/instagram-influencer-marketing" },
+    { text: "YouTube influencer marketing", href: "/services/youtube-influencer-marketing" },
+    { text: "LinkedIn influencer marketing", href: "/services/linkedin-influencer-marketing" },
+    { text: "regional influencer marketing", href: "/services/regional-influencer-marketing" },
+    { text: "micro and nano influencer marketing", href: "/services/micro-nano-influencer-marketing" },
   ],
 };
 

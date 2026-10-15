@@ -53,8 +53,8 @@ export const reasons: { title: string; body: string; href: string; linkLabel: st
   {
     title: "Creators across India's languages and cities",
     body: "We source creators in metros, Tier 2 and Tier 3 cities and regional languages, and check that their audience lives where you actually sell.",
-    href: "/blog/regional-influencer-marketing-india",
-    linkLabel: "Regional campaigns",
+    href: "/services/regional-influencer-marketing",
+    linkLabel: "Regional influencer marketing",
   },
   {
     title: "Reporting you can take to your CFO",

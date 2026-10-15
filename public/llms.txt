@@ -46,16 +46,37 @@ Based on the agency's own stated approach (not independently audited):
 
 ## Core Services
 
+Kudozz lists 18 services at https://www.kudozz.in/services, grouped as below. Each page opens with a direct definition, then covers process, deliverables, what the brand provides, how success is measured and FAQs.
+
+### Plan and manage
 - [Influencer Marketing Strategy](https://www.kudozz.in/services/campaign-strategy): Audience and category research, platform and format planning, creator tiering, and a KPI framework agreed before outreach begins.
 - [Creator Discovery & Matchmaking](https://www.kudozz.in/services/creator-discovery): Vetted creator shortlists screened for audience overlap, engagement authenticity, and brand fit rather than follower count.
 - [Influencer Outreach & Management](https://www.kudozz.in/services/outreach-management): End-to-end outreach, negotiation, contracting, usage rights, and deliverable tracking through a single point of contact.
-- [Social Media Campaigns](https://www.kudozz.in/services/social-campaigns): Coordinated multi-creator, multi-platform campaigns with a staggered publishing calendar and real-time performance monitoring.
-- [Product Launch Campaigns](https://www.kudozz.in/services/product-launches): Pre-launch seeding, embargo management, day-of creator coordination, and post-launch content extension.
-- [UGC Campaigns](https://www.kudozz.in/services/ugc-campaigns): Creator-shot content libraries produced for paid social, website, and email with usage rights cleared for owned and paid media.
-- [Brand Ambassador Programs](https://www.kudozz.in/services/ambassador-programs): Long-term, incentive-structured creator partnerships designed to compound over time instead of one-off placements.
 - [Campaign Reporting & Performance Tracking](https://www.kudozz.in/services/reporting): Unified dashboards, a KPI-vs-actual scorecard, and a plain-language debrief tied to the goals set at kickoff.
 
-Kudozz has not published a Pinterest-, Snapchat-, or LinkedIn-specific service page distinct from the eight listed above; platform-specific expertise for those platforms is demonstrated through the blog content referenced below rather than a dedicated service page at this time.
+### Campaign types and pay models
+- [Paid Influencer Campaigns](https://www.kudozz.in/services/paid-influencer-campaigns): Fee-based creator collaborations with contracted deliverables, dates, exclusivity, usage rights and disclosure; fees priced from current quotes, not rate cards.
+- [Barter Influencer Campaigns](https://www.kudozz.in/services/barter-influencer-campaigns): Product, service or experience exchanged for deliverables agreed in writing, mainly with nano and micro creators, with disclosure and post tracking.
+- [Influencer Seeding & Gifting](https://www.kudozz.in/services/influencer-seeding-gifting): Opt-in product gifting with no obligation to post, mention tracking, and a shortlist of creators to approach for paid or ambassador work.
+- [Influencer Affiliate & Performance Marketing](https://www.kudozz.in/services/influencer-affiliate-marketing): Commission and hybrid (fee plus commission) creator deals, tracked links and codes, creator recruitment and sales reporting by creator.
+- [Brand Ambassador Programs](https://www.kudozz.in/services/ambassador-programs): Long-term, incentive-structured creator partnerships designed to compound over time instead of one-off placements.
+- [Product Launch Campaigns](https://www.kudozz.in/services/product-launches): Pre-launch seeding, embargo management, day-of creator coordination, and post-launch content extension.
+- [Social Media Campaigns](https://www.kudozz.in/services/social-campaigns): Coordinated multi-creator, multi-platform campaigns with a staggered publishing calendar and real-time performance monitoring.
+
+### UGC and content
+- [UGC Campaigns](https://www.kudozz.in/services/ugc-campaigns): UGC run as a programme: angles and hooks to test, creator sourcing, usage rights for owned and paid media, and new rounds briefed from ad results.
+- [UGC Content Production](https://www.kudozz.in/services/ugc-content-production): Scripts, creator casting, shoots, editing, hook and length variations, and labelled file delivery with usage rights logged.
+
+### Platforms
+- [Instagram Influencer Marketing](https://www.kudozz.in/services/instagram-influencer-marketing): Reels, Stories, carousels and collab posts, creators chosen from audience insights, partnership ads and paid partnership labelling.
+- [YouTube Influencer Marketing](https://www.kudozz.in/services/youtube-influencer-marketing): Integrations, dedicated reviews and Shorts, creators chosen on average views and audience, with reporting that states which view metric it uses.
+- [LinkedIn Influencer Marketing](https://www.kudozz.in/services/linkedin-influencer-marketing): B2B practitioner creators mapped to buyer roles, posts, newsletters and webinars, Thought Leader Ads and pipeline-focused reporting.
+
+### Audiences and creator tiers
+- [Regional Influencer Marketing](https://www.kudozz.in/services/regional-influencer-marketing): Vernacular creators across Indian languages with audience-location checks, briefs localised by native speakers and results by region.
+- [Micro & Nano Influencer Marketing](https://www.kudozz.in/services/micro-nano-influencer-marketing): Many smaller creators (roughly 1,000 to 100,000 followers) vetted, briefed and managed in batches and reported as one campaign.
+
+Kudozz has not published Pinterest-, Snapchat- or TikTok-specific service pages; expertise on those platforms is covered in the blog content referenced below.
 
 ## Platform Expertise
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/config/site";
-import { services } from "@/content/services";
+import { services, getServicesByCategory } from "@/content/services";
 import { JsonLd, breadcrumbSchema, itemListSchema, faqSchema } from "@/lib/schema";
 import { ServicesHero } from "@/components/services/ServicesHero";
 import { ServiceRow } from "@/components/services/ServiceRow";
@@ -12,7 +12,7 @@ import { Container } from "@/components/ui/Container";
 export const metadata: Metadata = buildMetadata({
   title: "Influencer Marketing Services: What We Do",
   description:
-    "Explore Kudozz's influencer marketing services — strategy, creator discovery, outreach and management, UGC campaigns, product launches, ambassador programs, and reporting.",
+    "Influencer marketing services: strategy, discovery, paid, barter, gifting and affiliate campaigns, UGC, plus Instagram, YouTube, LinkedIn and regional creators.",
   path: "/services",
 });
 
@@ -43,6 +43,16 @@ const hubFaqs = [
       "Influencer marketing pays primarily for distribution to a creator's own audience. UGC (user-generated content) marketing pays for authentic-feeling content that your brand owns and distributes on its own paid and owned channels. Many campaigns use both.",
   },
   {
+    question: "What types of influencer campaigns does Kudozz run?",
+    answer:
+      "Paid campaigns with fixed fees, barter campaigns that exchange product for agreed posts, seeding and gifting with no obligation to post, affiliate and performance deals paid on tracked sales, ambassador programs, product launches, multi-creator social campaigns and UGC. We often combine them, for example seeding first and then paying the creators who respond best.",
+  },
+  {
+    question: "Which platforms does Kudozz run influencer campaigns on?",
+    answer:
+      "Mainly Instagram, YouTube and LinkedIn, each with its own service, plus Snapchat, TikTok and X in markets where they matter, such as the UAE, Saudi Arabia, the UK and Australia. We plan formats, creators and disclosure for each platform rather than reusing one plan everywhere.",
+  },
+  {
     question: "How long does it take to launch an influencer campaign?",
     answer:
       "A standard campaign typically takes two to four weeks from strategy sign-off to launch, covering creator discovery, outreach, and content approval. Compressed timelines are possible for product launches with a fixed date.",
@@ -68,9 +78,14 @@ export default function ServicesPage() {
       <ServicesHero />
       <section className="pb-28 sm:pb-36">
         <Container>
-          <h2 className="sr-only">All influencer marketing services</h2>
-          {services.map((service, i) => (
-            <ServiceRow key={service.slug} service={service} index={i} />
+          {getServicesByCategory().map((category) => (
+            <div key={category.id} className="mt-20 first:mt-0">
+              <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">{category.name}</h2>
+              <p className="mt-3 mb-8 max-w-2xl text-base text-ink/65">{category.description}</p>
+              {category.services.map((service) => (
+                <ServiceRow key={service.slug} service={service} index={parseInt(service.index, 10) - 1} />
+              ))}
+            </div>
           ))}
         </Container>
       </section>

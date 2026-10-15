@@ -11,8 +11,14 @@ import { getMarketBySlug, type Market } from "@/content/markets";
 // First match wins; the market prefix ("UAE: ", "AU: " …) is stripped before matching.
 const TOPIC_TO_SERVICE: [RegExp, string][] = [
   [/UGC|Creator Ads/i, "ugc-campaigns"],
-  [/Launch|Seeding|Product Drop/i, "product-launches"],
-  [/Always-On|Ambassador|Retention|Affiliate/i, "ambassador-programs"],
+  [/Seeding|Gifting/i, "influencer-seeding-gifting"],
+  [/Launch|Product Drop/i, "product-launches"],
+  [/Affiliate|Commission/i, "influencer-affiliate-marketing"],
+  [/Always-On|Ambassador|Retention/i, "ambassador-programs"],
+  [/Regional|Vernacular|Language/i, "regional-influencer-marketing"],
+  [/^Instagram/i, "instagram-influencer-marketing"],
+  [/^YouTube/i, "youtube-influencer-marketing"],
+  [/^LinkedIn|B2B/i, "linkedin-influencer-marketing"],
   [/Measurement|ROI|Reporting|Brand Lift|Performance|Traffic|Optimi[sz]ation|Forecast|Conversion/i, "reporting"],
   [/Discovery|Selection|Marketplace|Technology|Vetting/i, "creator-discovery"],
   [/Management|Compliance|Legal|Governance|Onboarding|Team|Contract/i, "outreach-management"],

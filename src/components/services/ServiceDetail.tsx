@@ -76,6 +76,15 @@ export function ServiceDetail({
         </Container>
       </section>
 
+      <section className="pb-20 sm:pb-24">
+        <Container>
+          <div className="max-w-3xl border-t-[1.5px] border-ink pt-8">
+            <h2 className="font-display text-2xl tracking-tight text-ink sm:text-3xl">{service.answer.question}</h2>
+            <p className="mt-4 text-lg leading-relaxed text-ink/75 text-pretty">{service.answer.text}</p>
+          </div>
+        </Container>
+      </section>
+
       <section className={`py-20 sm:py-28 ${theme.bg} ${theme.text}`}>
         <Container>
           <h2 className="font-display text-3xl tracking-tight sm:text-4xl">How it works</h2>
@@ -119,6 +128,41 @@ export function ServiceDetail({
           </div>
         </Container>
       </section>
+
+      {service.comparison && (
+        <section className="pb-20 sm:pb-28">
+          <Container>
+            <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">{service.comparison.title}</h2>
+            <div className="mt-8 overflow-x-auto border-[1.5px] border-ink">
+              <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
+                <thead className="bg-ink text-paper">
+                  <tr>
+                    {service.comparison.columns.map((col, i) => (
+                      <th key={i} scope="col" className="px-4 py-3 font-semibold">
+                        {col || <span className="sr-only">Compared on</span>}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {service.comparison.rows.map(([label, ...cells]) => (
+                    <tr key={label} className="border-t border-line">
+                      <th scope="row" className="px-4 py-3 align-top font-semibold text-ink">
+                        {label}
+                      </th>
+                      {cells.map((cell, i) => (
+                        <td key={i} className="px-4 py-3 align-top text-ink/70">
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Container>
+        </section>
+      )}
 
       <section className="bg-paper-dim py-20 sm:py-28">
         <Container>
