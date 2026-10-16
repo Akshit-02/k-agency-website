@@ -344,6 +344,37 @@ const KUDOZZ_ROW = [
   "Dedicated influencer and creator marketing, with audience-fit and authenticity screening",
 ];
 
+/**
+ * Profile blocks for a record from a topic cluster (UGC, Instagram...): like agencyProfile, but the services line is
+ * labelled for the topic and any verification note is shown.
+ */
+export function researchedProfile(a: AgencyRecord, position: number, localNote: string, servicesLabel: string): BlogBlock[] {
+  const facts = [`Presence: ${a.presence}`, `${servicesLabel}: ${a.services}`, `May suit: ${a.suitedFor}`];
+  if (a.notes) facts.push(`Note: ${a.notes}`);
+  return [
+    { type: "subheading", text: `${position}. ${a.name}` },
+    { type: "paragraph", text: `${a.focus}. ${localNote} Website: ${a.domain}.`, links: [{ text: a.domain, href: a.website }] },
+    { type: "list", items: facts },
+  ];
+}
+
+/** Comparison table for a topic cluster, Kudozz's row first. */
+export function researchedComparison(records: AgencyRecord[], kudozzRow: string[], headers: string[]): BlogBlock {
+  return {
+    type: "table",
+    headers,
+    rows: [
+      kudozzRow,
+      ...records.map((a) => [a.name, a.presence.split(/[;(]/)[0].trim(), shortenTwo(a.services), a.specialty, a.suitedFor]),
+    ],
+  };
+}
+
+function shortenTwo(text: string): string {
+  const first = text.split(/[,;:]/).slice(0, 2).join(",");
+  return first.length < text.length ? `${first.trim()}, and more` : text;
+}
+
 /** Comparison table with Kudozz first; `fit` supplies the last column per agency. */
 export function comparisonTable(ids: AgencyId[], kudozzFit: string, fit: Partial<Record<AgencyId, string>> = {}): BlogBlock {
   return {

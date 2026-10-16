@@ -135,6 +135,18 @@ export const cityPosts: BlogPost[] = [
         text: "Mumbai gives brands more agency options than anywhere else in India. Narrow the list by model first, specialist, integrated, PR-led or format-led, then compare how each one proves audience fit and reports results. The India guide covers national alternatives.",
         links: [{ text: "The India guide", href: "/blog/best-influencer-marketing-agencies-in-india" }],
       },
+      { type: "heading", text: "Specialist agency guides for Mumbai and Maharashtra", id: "specialist-guides" },
+      {
+        type: "paragraph",
+        text: "If you are hiring for one platform, for UGC, for day-to-day campaign management or for product seeding, see our separate shortlists for Mumbai and Maharashtra: the best Instagram influencer marketing agencies, the best YouTube influencer marketing agencies, the best UGC marketing agencies, the best influencer campaign management agencies and the best influencer seeding agencies. Each lists agencies whose own sites describe that work.",
+        links: [
+          { text: "the best Instagram influencer marketing agencies", href: "/blog/best-instagram-influencer-marketing-agencies-in-mumbai" },
+          { text: "the best YouTube influencer marketing agencies", href: "/blog/best-youtube-influencer-marketing-agencies-in-mumbai" },
+          { text: "the best UGC marketing agencies", href: "/blog/best-ugc-marketing-agencies-in-mumbai" },
+          { text: "the best influencer campaign management agencies", href: "/blog/best-influencer-campaign-management-agencies-in-mumbai" },
+          { text: "the best influencer seeding agencies", href: "/blog/best-influencer-seeding-agencies-in-mumbai" },
+        ],
+      },
     ],
     faqs: [
       {
@@ -266,6 +278,18 @@ export const cityPosts: BlogPost[] = [
         type: "paragraph",
         text: "Ahmedabad brands have good local digital agencies to choose from. If creators are central to your growth plan, compare them with a specialist that can take you from Ahmedabad to the rest of Gujarat and India. The India guide lists national alternatives.",
         links: [{ text: "The India guide", href: "/blog/best-influencer-marketing-agencies-in-india" }],
+      },
+      { type: "heading", text: "Specialist agency guides for Ahmedabad and Gujarat", id: "specialist-guides" },
+      {
+        type: "paragraph",
+        text: "If you are hiring for one platform, for UGC, for day-to-day campaign management or for product seeding, see our separate shortlists for Ahmedabad and Gujarat: the best Instagram influencer marketing agencies, the best YouTube influencer marketing agencies, the best UGC marketing agencies, the best influencer campaign management agencies and the best influencer seeding agencies. Each lists agencies whose own sites describe that work.",
+        links: [
+          { text: "the best Instagram influencer marketing agencies", href: "/blog/best-instagram-influencer-marketing-agencies-in-ahmedabad" },
+          { text: "the best YouTube influencer marketing agencies", href: "/blog/best-youtube-influencer-marketing-agencies-in-ahmedabad" },
+          { text: "the best UGC marketing agencies", href: "/blog/best-ugc-marketing-agencies-in-ahmedabad" },
+          { text: "the best influencer campaign management agencies", href: "/blog/best-influencer-campaign-management-agencies-in-ahmedabad" },
+          { text: "the best influencer seeding agencies", href: "/blog/best-influencer-seeding-agencies-in-ahmedabad" },
+        ],
       },
     ],
     faqs: [

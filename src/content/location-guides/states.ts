@@ -166,6 +166,18 @@ export const statePosts: BlogPost[] = [
         type: "paragraph",
         text: "In Maharashtra the useful question is not which agency is biggest, but which one can reach your customers where they live. Shortlist a partner that covers your priority cities, ask for proof of Marathi creator work if you need it, and compare proposals on audience fit and reporting, not follower counts.",
       },
+      { type: "heading", text: "Specialist agency guides for Mumbai and Maharashtra", id: "specialist-guides" },
+      {
+        type: "paragraph",
+        text: "If you are hiring for one platform, for UGC, for day-to-day campaign management or for product seeding, see our separate shortlists for Mumbai and Maharashtra: the best Instagram influencer marketing agencies, the best YouTube influencer marketing agencies, the best UGC marketing agencies, the best influencer campaign management agencies and the best influencer seeding agencies. Each lists agencies whose own sites describe that work.",
+        links: [
+          { text: "the best Instagram influencer marketing agencies", href: "/blog/best-instagram-influencer-marketing-agencies-in-mumbai" },
+          { text: "the best YouTube influencer marketing agencies", href: "/blog/best-youtube-influencer-marketing-agencies-in-mumbai" },
+          { text: "the best UGC marketing agencies", href: "/blog/best-ugc-marketing-agencies-in-mumbai" },
+          { text: "the best influencer campaign management agencies", href: "/blog/best-influencer-campaign-management-agencies-in-mumbai" },
+          { text: "the best influencer seeding agencies", href: "/blog/best-influencer-seeding-agencies-in-mumbai" },
+        ],
+      },
     ],
     faqs: [
       {
@@ -357,6 +369,18 @@ export const statePosts: BlogPost[] = [
         type: "paragraph",
         text: "A Surat saree brand, an Ahmedabad D2C skincare startup and a Rajkot manufacturer all need different creators, platforms and timelines. Choose an agency that understands your category and your city, can work in Gujarati when it helps, and can take you beyond Gujarat when you are ready.",
       },
+      { type: "heading", text: "Specialist agency guides for Ahmedabad and Gujarat", id: "specialist-guides" },
+      {
+        type: "paragraph",
+        text: "If you are hiring for one platform, for UGC, for day-to-day campaign management or for product seeding, see our separate shortlists for Ahmedabad and Gujarat: the best Instagram influencer marketing agencies, the best YouTube influencer marketing agencies, the best UGC marketing agencies, the best influencer campaign management agencies and the best influencer seeding agencies. Each lists agencies whose own sites describe that work.",
+        links: [
+          { text: "the best Instagram influencer marketing agencies", href: "/blog/best-instagram-influencer-marketing-agencies-in-ahmedabad" },
+          { text: "the best YouTube influencer marketing agencies", href: "/blog/best-youtube-influencer-marketing-agencies-in-ahmedabad" },
+          { text: "the best UGC marketing agencies", href: "/blog/best-ugc-marketing-agencies-in-ahmedabad" },
+          { text: "the best influencer campaign management agencies", href: "/blog/best-influencer-campaign-management-agencies-in-ahmedabad" },
+          { text: "the best influencer seeding agencies", href: "/blog/best-influencer-seeding-agencies-in-ahmedabad" },
+        ],
+      },
     ],
     faqs: [
       {
@@ -525,6 +549,18 @@ export const statePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "A Chennai car-accessories brand, a Tiruppur apparel label going D2C and a Madurai sweet shop all need different creators, languages and timing. Choose an agency that understands your category, can work in Tamil when it helps, and can reach the cities where your customers actually are.",
+      },
+      { type: "heading", text: "Specialist agency guides for Chennai and Tamil Nadu", id: "specialist-guides" },
+      {
+        type: "paragraph",
+        text: "If you are hiring for one platform, for UGC, for day-to-day campaign management or for product seeding, see our separate shortlists for Chennai and Tamil Nadu: the best Instagram influencer marketing agencies, the best YouTube influencer marketing agencies, the best UGC marketing agencies, the best influencer campaign management agencies and the best influencer seeding agencies. Each lists agencies whose own sites describe that work.",
+        links: [
+          { text: "the best Instagram influencer marketing agencies", href: "/blog/best-instagram-influencer-marketing-agencies-in-chennai" },
+          { text: "the best YouTube influencer marketing agencies", href: "/blog/best-youtube-influencer-marketing-agencies-in-chennai" },
+          { text: "the best UGC marketing agencies", href: "/blog/best-ugc-marketing-agencies-in-chennai" },
+          { text: "the best influencer campaign management agencies", href: "/blog/best-influencer-campaign-management-agencies-in-chennai" },
+          { text: "the best influencer seeding agencies", href: "/blog/best-influencer-seeding-agencies-in-chennai" },
+        ],
       },
     ],
     faqs: [
@@ -701,6 +737,18 @@ export const statePosts: BlogPost[] = [
         type: "paragraph",
         text: "Bengaluru gives Karnataka brands easy access to experienced agencies, but a campaign aimed at Mysuru or Hubballi needs Kannada creators and local audience checks, not just a Bengaluru shortlist. Choose a partner that can do both if your customers are spread across the state.",
       },
+      { type: "heading", text: "Specialist agency guides for Bengaluru", id: "specialist-guides" },
+      {
+        type: "paragraph",
+        text: "If you are hiring for one platform, for UGC, for day-to-day campaign management or for product seeding, see our separate shortlists for Bengaluru: the best Instagram influencer marketing agencies, the best YouTube influencer marketing agencies, the best UGC marketing agencies, the best influencer campaign management agencies and the best influencer seeding agencies. Each lists agencies whose own sites describe that work.",
+        links: [
+          { text: "the best Instagram influencer marketing agencies", href: "/blog/best-instagram-influencer-marketing-agencies-in-bangalore" },
+          { text: "the best YouTube influencer marketing agencies", href: "/blog/best-youtube-influencer-marketing-agencies-in-bangalore" },
+          { text: "the best UGC marketing agencies", href: "/blog/best-ugc-marketing-agencies-in-bangalore" },
+          { text: "the best influencer campaign management agencies", href: "/blog/best-influencer-campaign-management-agencies-in-bangalore" },
+          { text: "the best influencer seeding agencies", href: "/blog/best-influencer-seeding-agencies-in-bangalore" },
+        ],
+      },
     ],
     faqs: [
       {
@@ -872,6 +920,18 @@ export const statePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Delhi NCR has no shortage of agencies. The difference is whether a partner plans for the specific part of the region your customers live in, uses the right language register, and times the campaign around the region's crowded festive and wedding calendar.",
+      },
+      { type: "heading", text: "Specialist agency guides for Delhi NCR", id: "specialist-guides" },
+      {
+        type: "paragraph",
+        text: "If you are hiring for one platform, for UGC, for day-to-day campaign management or for product seeding, see our separate shortlists for Delhi NCR: the best Instagram influencer marketing agencies, the best YouTube influencer marketing agencies, the best UGC marketing agencies, the best influencer campaign management agencies and the best influencer seeding agencies. Each lists agencies whose own sites describe that work.",
+        links: [
+          { text: "the best Instagram influencer marketing agencies", href: "/blog/best-instagram-influencer-marketing-agencies-in-delhi" },
+          { text: "the best YouTube influencer marketing agencies", href: "/blog/best-youtube-influencer-marketing-agencies-in-delhi" },
+          { text: "the best UGC marketing agencies", href: "/blog/best-ugc-marketing-agencies-in-delhi" },
+          { text: "the best influencer campaign management agencies", href: "/blog/best-influencer-campaign-management-agencies-in-delhi" },
+          { text: "the best influencer seeding agencies", href: "/blog/best-influencer-seeding-agencies-in-delhi" },
+        ],
       },
     ],
     faqs: [

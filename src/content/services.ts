@@ -222,7 +222,7 @@ const serviceList: ServiceInput[] = [
     },
     name: "Influencer Outreach & Management",
     seoTitle: "Influencer Outreach & Campaign Management Services",
-    guides: ["influencer-campaign-management", "how-to-negotiate-with-influencers", "influencer-marketing-contract", "influencer-campaign-brief", "influencer-outreach-email"],
+    guides: ["influencer-campaign-management", "how-to-negotiate-with-influencers", "influencer-marketing-contract", "influencer-campaign-brief", "influencer-outreach-email", "best-influencer-campaign-management-agencies-in-india"],
     shortDescription: "Negotiation, contracts, and day-to-day coordination handled end to end.",
     description:
       "From first outreach to final invoice, we manage the relationship — negotiating terms, aligning deliverables, tracking approvals, and keeping creators and brand stakeholders in sync.",
@@ -786,7 +786,7 @@ const serviceList: ServiceInput[] = [
       text: "Influencer seeding, or gifting, is sending your product to selected creators with no payment and no obligation to post. Brands use it to earn organic mentions, get honest reactions and find creators who like the product enough to partner with later. If a creator does post, the post still needs a disclosure label, such as 'Free gift' in India.",
     },
     relatedSlugs: ["barter-influencer-campaigns", "product-launches", "ambassador-programs"],
-    guides: ["influencer-product-seeding-program", "influencer-gifting", "instagram-product-seeding", "instagram-gifting-vs-paid-collaboration", "influencer-disclosure-rules-by-country"],
+    guides: ["influencer-product-seeding-program", "influencer-gifting", "instagram-product-seeding", "instagram-gifting-vs-paid-collaboration", "influencer-disclosure-rules-by-country", "best-influencer-seeding-agencies-in-india"],
     shortDescription: "Products in the right hands, with no posting strings attached.",
     description:
       "Seeding puts your product with creators who would genuinely like it, without paying them or requiring a post. Done well, it produces organic mentions and tells you which creators to partner with next. We build the list, handle opt-ins and logistics, and track who posts.",
@@ -960,7 +960,7 @@ const serviceList: ServiceInput[] = [
       ],
     },
     relatedSlugs: ["ugc-campaigns", "paid-influencer-campaigns", "regional-influencer-marketing"],
-    guides: ["ugc-production-workflow", "ugc-video-scripts", "ugc-brief-template", "ugc-ad-hooks", "scale-ugc-content-production", "ugc-content-usage-rights"],
+    guides: ["ugc-production-workflow", "ugc-video-scripts", "ugc-brief-template", "ugc-ad-hooks", "scale-ugc-content-production", "ugc-content-usage-rights", "best-ugc-marketing-agencies-in-india"],
     shortDescription: "Scripted, shot and edited UGC assets, delivered to your specs.",
     description:
       "Sometimes you just need the assets: product videos for ads, unboxing clips for a marketplace listing, testimonials for a landing page. We handle scripts, creators, shoots, edits and variations, and deliver labelled files in the formats and ratios you need, with rights cleared.",
@@ -1036,7 +1036,7 @@ const serviceList: ServiceInput[] = [
       text: "Brands pay or partner with Instagram creators to feature a product in Reels, Stories, carousels or collab posts, labelled with Instagram's paid partnership tag. The strongest posts can then run as partnership ads from the creator's handle. Results are judged from creator-shared insights, link clicks and codes rather than follower counts.",
     },
     relatedSlugs: ["youtube-influencer-marketing", "ugc-content-production", "social-campaigns"],
-    guides: ["instagram-influencer-marketing", "instagram-reels-influencer-marketing", "instagram-partnership-ads", "instagram-collab-posts", "how-to-find-instagram-influencers", "instagram-influencer-marketing-roi"],
+    guides: ["instagram-influencer-marketing", "instagram-reels-influencer-marketing", "instagram-partnership-ads", "instagram-collab-posts", "how-to-find-instagram-influencers", "instagram-influencer-marketing-roi", "best-instagram-influencer-marketing-agencies-in-india"],
     shortDescription: "Reels, Stories, collab posts and partnership ads, planned for Instagram.",
     description:
       "Instagram rewards content that feels native: Reels that hook in the first seconds, Stories with links, collab posts that appear on both profiles. We plan each campaign around those formats, choose creators from audience data, and set up partnership ads so the best posts keep working.",
@@ -1112,7 +1112,7 @@ const serviceList: ServiceInput[] = [
       text: "Brands partner with YouTube creators for an integration (a sponsored segment inside a regular video), a dedicated review or tutorial, or Shorts. Creators turn on YouTube's paid promotion setting, and links and codes go in the description. Because videos stay searchable for years, YouTube suits products people research before they buy.",
     },
     relatedSlugs: ["instagram-influencer-marketing", "product-launches", "reporting"],
-    guides: ["youtube-influencer-marketing-india", "youtube-sponsorships", "youtube-shorts-influencer-marketing", "how-to-find-youtube-influencers", "youtube-influencer-marketing-roi", "youtube-product-reviews"],
+    guides: ["youtube-influencer-marketing-india", "youtube-sponsorships", "youtube-shorts-influencer-marketing", "how-to-find-youtube-influencers", "youtube-influencer-marketing-roi", "youtube-product-reviews", "best-youtube-influencer-marketing-agencies-in-india"],
     shortDescription: "Integrations, dedicated reviews and Shorts for considered purchases.",
     description:
       "YouTube is where people go to understand a product before they buy it. We plan integrations, dedicated reviews and Shorts with creators whose viewers match your customer, agree how long videos and links stay live, and report on views, watch time and tracked clicks.",

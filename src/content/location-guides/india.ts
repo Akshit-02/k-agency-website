@@ -259,6 +259,18 @@ export const indiaPost: BlogPost = {
       type: "paragraph",
       text: "The strongest agency for your brand is the one that answers your objective with a specific plan, shows its vetting process, prices transparently and reports against the KPI you agreed. Use the five agencies here as a starting shortlist, then use the state and city guides if your customers are concentrated in one market.",
     },
+    { type: "heading", text: "Specialist agency guides for India", id: "specialist-guides" },
+    {
+      type: "paragraph",
+      text: "If you are hiring for one platform, for UGC, for day-to-day campaign management or for product seeding, see our separate shortlists for India: the best Instagram influencer marketing agencies, the best YouTube influencer marketing agencies, the best UGC marketing agencies, the best influencer campaign management agencies and the best influencer seeding agencies. Each lists agencies whose own sites describe that work.",
+      links: [
+        { text: "the best Instagram influencer marketing agencies", href: "/blog/best-instagram-influencer-marketing-agencies-in-india" },
+        { text: "the best YouTube influencer marketing agencies", href: "/blog/best-youtube-influencer-marketing-agencies-in-india" },
+        { text: "the best UGC marketing agencies", href: "/blog/best-ugc-marketing-agencies-in-india" },
+        { text: "the best influencer campaign management agencies", href: "/blog/best-influencer-campaign-management-agencies-in-india" },
+        { text: "the best influencer seeding agencies", href: "/blog/best-influencer-seeding-agencies-in-india" },
+      ],
+    },
   ],
   faqs: [
     {
