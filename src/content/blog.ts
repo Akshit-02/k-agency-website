@@ -8,7 +8,8 @@ import { ukGuidePosts } from "@/content/uk-guides";
 import { SOURCES } from "@/content/creator-resources/shared";
 import { SRC as GCC_SRC } from "@/content/gcc-guides/shared";
 
-export type InlineLink = { text: string; href: string };
+/** `rel: "sponsored"` marks a paid or partner link (rendered with rel="sponsored"); pair it with a visible disclosure. */
+export type InlineLink = { text: string; href: string; rel?: "sponsored" };
 
 export type BlogBlock =
   | { type: "paragraph"; text: string; links?: InlineLink[] }
@@ -22662,7 +22663,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Creator-specific tracking", id: "tracking-app" },
       {
         type: "paragraph",
-        text: "Set up individual tracking links or promo codes per creator before launch, not after, so performance can be evaluated creator by creator rather than only in aggregate.",
+        text: "Set up individual tracking links or promo codes per creator before launch, not after, so performance can be evaluated creator by creator rather than only in aggregate. Preparing your app for influencer campaigns covers the deep links, store pages and attribution setup this depends on.",
+        links: [{ text: "Preparing your app for influencer campaigns", href: "/blog/app-deep-linking-influencer-campaigns" }],
       },
       { type: "heading", text: "Attribution challenges", id: "attribution-app" },
       {

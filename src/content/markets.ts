@@ -385,6 +385,7 @@ export const markets: Market[] = [
       "seasonal-influencer-marketing-uk",
       "ecommerce-influencer-marketing-uk",
       "regional-influencer-marketing-uk",
+      "influencer-tracking-uk-cookie-rules",
     ],
     reviewed: REVIEWED,
   },

@@ -171,8 +171,8 @@ export const founderMeasurementPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "These notes are general information, not legal advice. The ICO's storage and access guidance and MeitY's data protection framework page are the starting points for the UK and India.",
-        links: [
+        text: "These notes are general information, not legal advice. The ICO's storage and access guidance and MeitY's data protection framework page are the starting points for the UK and India. For UK campaigns, tracking influencer campaigns under the UK's cookie rules applies the ICO's guidance to creator links, affiliate tracking and codes.",
+        links: [{ text: "tracking influencer campaigns under the UK's cookie rules", href: "/blog/influencer-tracking-uk-cookie-rules" }, 
           { text: "The ICO's storage and access guidance", href: EXT.icoStorageAccess },
           { text: "MeitY's data protection framework page", href: EXT.dpdpRules },
         ],

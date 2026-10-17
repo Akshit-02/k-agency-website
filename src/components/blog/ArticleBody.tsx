@@ -21,7 +21,7 @@ import { RoiForecastCalculator } from "@/components/creator-resources/RoiForecas
 function renderWithLinks(text: string, links?: InlineLink[]) {
   if (!links || links.length === 0) return text;
 
-  type Part = string | { href: string; label: string };
+  type Part = string | { href: string; label: string; sponsored: boolean };
   let parts: Part[] = [text];
 
   for (const link of links) {
@@ -29,7 +29,11 @@ function renderWithLinks(text: string, links?: InlineLink[]) {
       if (typeof part !== "string") return [part];
       const idx = part.indexOf(link.text);
       if (idx === -1) return [part];
-      return [part.slice(0, idx), { href: link.href, label: link.text }, part.slice(idx + link.text.length)];
+      return [
+        part.slice(0, idx),
+        { href: link.href, label: link.text, sponsored: link.rel === "sponsored" },
+        part.slice(idx + link.text.length),
+      ];
     });
   }
 
@@ -46,7 +50,13 @@ function renderWithLinks(text: string, links?: InlineLink[]) {
     }
     if (part.href.startsWith("http")) {
       return (
-        <a key={i} href={part.href} target="_blank" rel="noreferrer noopener" className={linkClassName}>
+        <a
+          key={i}
+          href={part.href}
+          target="_blank"
+          rel={part.sponsored ? "sponsored noopener noreferrer" : "noreferrer noopener"}
+          className={linkClassName}
+        >
           {part.label}
         </a>
       );
