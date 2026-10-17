@@ -24,7 +24,7 @@ import { FeaturedPost } from "@/components/blog/FeaturedPost";
 export const metadata: Metadata = buildMetadata({
   title: "Creator Resources: Brand Deals, Platforms, Commerce & Business",
   description:
-    "Free guides for Indian creators: media kits, pricing, contracts, Instagram, YouTube and TikTok, trust-first commerce, audience ownership and running a creator business.",
+    "Free guides for Indian creators: media kits, pricing, contracts, Instagram, YouTube and TikTok, commerce, audience ownership and running a creator business.",
   path: CREATOR_RESOURCES.path,
 });
 

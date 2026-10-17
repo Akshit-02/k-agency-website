@@ -55,7 +55,7 @@ export const markets: Market[] = [
     country: "United Arab Emirates",
     seoTitle: "Influencer Marketing Agency in Dubai and the UAE",
     metaDescription:
-      "Kudozz runs influencer campaigns for brands in Dubai, Abu Dhabi and across the UAE: strategy, permit-checked creators, Arabic and English content, management and reporting.",
+      "Influencer campaigns for brands in Dubai, Abu Dhabi and across the UAE: strategy, permit-checked creators, Arabic and English content and reporting.",
     h1: "Influencer marketing agency for brands in Dubai and the UAE",
     intro: [
       "Kudozz plans and runs influencer and creator campaigns for brands selling in the UAE. We define the audience segment first (Emirati nationals, Arabic-speaking residents, South Asian communities, Western expatriates or visitors), shortlist creators whose audiences are actually in the Emirates, check their advertiser permits, manage contracts and content, and report results against one KPI agreed before launch.",
@@ -176,7 +176,7 @@ export const markets: Market[] = [
     country: "Saudi Arabia",
     seoTitle: "Influencer Marketing Agency in Saudi Arabia",
     metaDescription:
-      "Kudozz runs influencer campaigns for brands in Saudi Arabia: Mawthooq-licensed creators, Arabic briefs by dialect, Snapchat, TikTok and YouTube planning, and reporting in SAR.",
+      "Influencer campaigns for brands in Saudi Arabia: Mawthooq-licensed creators, Arabic briefs by dialect, Snapchat, TikTok and YouTube plans, SAR reporting.",
     h1: "Influencer marketing agency for brands in Saudi Arabia",
     intro: [
       "Kudozz plans and runs influencer campaigns for brands selling in Saudi Arabia. We start from one objective and an audience defined by city, age and language, shortlist Saudi creators who hold a valid Mawthooq licence, brief them in Arabic in the right dialect, and report results in SAR against the KPI agreed before launch.",
@@ -281,7 +281,7 @@ export const markets: Market[] = [
     country: "United Kingdom",
     seoTitle: "Influencer Marketing Agency in the UK",
     metaDescription:
-      "Kudozz runs influencer campaigns for brands in the UK: ASA and CMA-compliant briefs, creator vetting, contracts, paid usage rights and reporting tied to one agreed KPI.",
+      "Influencer campaigns for brands in the UK: ASA and CMA-compliant briefs, creator vetting, contracts, paid usage rights and reporting tied to one agreed KPI.",
     h1: "Influencer marketing agency for brands in the UK",
     intro: [
       "Kudozz plans and runs influencer and creator campaigns for brands selling in the UK. We set one objective, shortlist creators whose audiences are in the UK and fit your category, write ASA and CMA disclosure rules into contracts and briefs, manage approvals and usage rights, and report results creator by creator.",
@@ -394,7 +394,7 @@ export const markets: Market[] = [
     country: "Australia",
     seoTitle: "Influencer Marketing Agency in Australia",
     metaDescription:
-      "Kudozz runs influencer campaigns for brands in Australia: creator vetting, ACL and AANA-compliant disclosure, TGA checks, under-16 rules and reporting tied to one KPI.",
+      "Influencer campaigns for brands in Australia: creator vetting, ACL and AANA-compliant disclosure, TGA checks, under-16 rules and reporting tied to one KPI.",
     h1: "Influencer marketing agency for brands in Australia",
     intro: [
       "Kudozz plans and runs influencer and creator campaigns for brands selling in Australia. We set one objective, shortlist creators whose audiences are in Australia, make sure every paid, gifted or affiliate post is clearly disclosed and makes only claims you can prove, and report results creator by creator in AUD.",

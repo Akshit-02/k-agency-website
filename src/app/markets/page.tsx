@@ -14,7 +14,7 @@ import { FinalCTA } from "@/components/home/FinalCTA";
 const TITLE = "Markets We Serve: India, UAE, Saudi Arabia, UK, Australia, Singapore";
 const SEO_TITLE = "Influencer Marketing Markets: India, GCC, UK, AU, SG";
 const DESCRIPTION =
-  "Kudozz runs influencer campaigns for brands in India, the UAE, Saudi Arabia, the UK, Australia and Singapore. See how we work, and the local rules we plan around, in each market.";
+  "Kudozz runs influencer campaigns in India, the UAE, Saudi Arabia, the UK, Australia and Singapore. See how we work and the local rules we plan around.";
 
 export const metadata: Metadata = buildMetadata({ title: SEO_TITLE, description: DESCRIPTION, path: "/markets" });
 

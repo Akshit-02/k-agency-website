@@ -81,7 +81,7 @@ const serviceList: ServiceInput[] = [
     description:
       "Every campaign starts with a strategic brief, not a creator list. We study your audience, category, and business objective, then map the platform mix, content formats, and creator tiers most likely to move the metric you actually care about.",
     metaDescription:
-      "Influencer marketing strategy services from Kudozz: audience research, platform and format planning, creator tiering, and a KPI framework before outreach begins.",
+      "Influencer marketing strategy from Kudozz: audience research, platform and format planning, creator tiering and a KPI framework before outreach begins.",
     secondaryKeywords: ["influencer marketing strategy services", "influencer marketing strategy", "influencer campaign planning", "influencer marketing plan"],
     whoItsFor:
       "Brands running their first influencer campaign, or teams whose past campaigns produced reach without measurable results.",
@@ -152,7 +152,7 @@ const serviceList: ServiceInput[] = [
     description:
       "We screen for audience overlap, engagement quality, content style, and brand fit — not follower count alone. Every shortlist is vetted for authenticity signals before it reaches you.",
     metaDescription:
-      "Influencer discovery services that screen for audience overlap, engagement quality, and authenticity — not follower count. Curated creator shortlists with a documented rationale.",
+      "Creator discovery that screens for audience overlap, engagement quality and authenticity, not follower count, with a written reason for each creator.",
     secondaryKeywords: ["creator discovery services", "influencer discovery services", "creator matchmaking", "find influencers for brand"],
     whoItsFor:
       "Brands who have tried building creator shortlists in-house using follower count or hashtag search and gotten inconsistent results.",
@@ -302,7 +302,7 @@ const serviceList: ServiceInput[] = [
     description:
       "We orchestrate multi-creator, multi-platform pushes with staggered publishing, consistent messaging, and cross-promotion designed to compound reach instead of fragmenting it.",
     metaDescription:
-      "Social media influencer campaigns coordinated across multiple creators and platforms — publishing calendar, creative direction, and real-time performance monitoring.",
+      "Social media influencer campaigns run across many creators and platforms, with a publishing calendar, creative direction and live performance monitoring.",
     secondaryKeywords: ["social media influencer campaigns", "multi-creator campaigns", "influencer social media marketing"],
     whoItsFor: "Brands running a coordinated push across multiple creators and platforms rather than a single sponsored post.",
     deliverables: [
@@ -367,7 +367,7 @@ const serviceList: ServiceInput[] = [
     description:
       "Launch campaigns need sequencing — teasers, seeding, day-of coverage, and aftermarket content. We build the creator rollout calendar around your launch date, not the other way around.",
     metaDescription:
-      "Product launch influencer marketing: pre-launch seeding, embargo management, day-of creator coordination, and post-launch content extension built around your launch date.",
+      "Product launch influencer campaigns: pre-launch seeding, embargoes, launch-day creator coordination and post-launch content, planned around your date.",
     secondaryKeywords: ["product launch influencer marketing", "influencer product launch", "launch campaign creators"],
     whoItsFor: "Brands with a fixed launch date who need creator buzz sequenced around it, not scattered before or after.",
     deliverables: [
@@ -503,7 +503,7 @@ const serviceList: ServiceInput[] = [
     description:
       "One-off posts rarely build trust. We design ambassador programs — retainers, tiered incentives, and recurring content cadences — that turn creators into long-term brand partners.",
     metaDescription:
-      "Brand ambassador marketing programs: incentive design, ambassador recruitment, and ongoing relationship management for creator partnerships that compound over time.",
+      "Brand ambassador programmes: incentive design, ambassador recruitment and ongoing relationship management for creator partnerships that last.",
     secondaryKeywords: ["brand ambassador marketing", "influencer ambassador program", "creator partnership management"],
     whoItsFor: "Brands who want an always-on creator presence rather than one-off, single-post placements.",
     deliverables: [

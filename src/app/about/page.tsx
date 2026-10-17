@@ -7,7 +7,7 @@ import { FinalCTA } from "@/components/home/FinalCTA";
 
 const TITLE = "About Kudozz: Influencer Marketing Agency in India";
 const DESCRIPTION =
-  "Kudozz is an influencer marketing agency for brands in India: strategy-first campaigns, creator discovery, campaign management and reporting tied to one agreed KPI.";
+  "Kudozz is an influencer marketing agency for brands in India: strategy-first campaigns, creator discovery, management and reporting tied to one agreed KPI.";
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
