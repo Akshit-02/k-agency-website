@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Link from "next/link";
 import type { BlogBlock, InlineLink } from "@/content/blog";
 import { cn } from "@/lib/utils";
+import { isLinkAllowed } from "@/lib/links";
 import type { BlogCtaSet } from "@/lib/blogCta";
 import { BlogMidCTA } from "@/components/blog/BlogMidCTA";
 import { CreatorPricingCalculator } from "@/components/creator-resources/CreatorPricingCalculator";
@@ -41,6 +42,7 @@ function renderWithLinks(text: string, links?: InlineLink[]) {
 
   return parts.map((part, i) => {
     if (typeof part === "string") return <Fragment key={i}>{part}</Fragment>;
+    if (!isLinkAllowed(part.href)) return <Fragment key={i}>{part.label}</Fragment>;
     if (/\.(csv|pdf|xlsx)$/.test(part.href)) {
       return (
         <a key={i} href={part.href} download className={linkClassName}>

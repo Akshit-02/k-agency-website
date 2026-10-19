@@ -9,9 +9,11 @@ import { FAQSection } from "@/components/ui/FAQSection";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/animations/Reveal";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
+import { isLinkAllowed } from "@/lib/links";
 
 function SourceLink({ source }: { source: MarketLink }) {
   const className = "underline underline-offset-2 hover:text-ink";
+  if (!isLinkAllowed(source.url)) return <>{source.label}</>;
   return source.url.startsWith("/") ? (
     <Link href={source.url} className={className}>
       {source.label}
@@ -95,9 +97,9 @@ export function MarketDetail({
               {market.marketFacts?.map((fact) => (
                 <p key={fact.text} className="mt-6 text-sm text-paper/60">
                   {fact.text}{" "}
-                  <a href={fact.source.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-paper">
-                    Source: {fact.source.label}
-                  </a>
+                  <span>
+                    Source: <SourceLink source={fact.source} />
+                  </span>
                 </p>
               ))}
             </div>

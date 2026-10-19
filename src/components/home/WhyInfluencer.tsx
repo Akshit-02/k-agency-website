@@ -63,9 +63,7 @@ export function WhyInfluencer() {
                   <Waveform className="mb-2 h-16 w-24 text-lime" />
                   <p className="max-w-[16rem] text-sm text-paper/60">
                     {headline.label}{" "}
-                    <a href={headline.source.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-paper">
-                      {headline.source.name}
-                    </a>
+                    <span>{headline.source.name}</span>
                   </p>
                 </div>
               </div>
@@ -77,14 +75,7 @@ export function WhyInfluencer() {
               <StaggerItem key={stat.value} className={`p-8 ${stat.bg}`}>
                 <p className="font-black-display text-4xl tracking-tight sm:text-5xl">{stat.value}</p>
                 <p className="mt-3 max-w-sm text-sm opacity-80">{stat.label}</p>
-                <a
-                  href={stat.source.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-block text-xs underline underline-offset-2 opacity-80 hover:opacity-100"
-                >
-                  Source: {stat.source.name}
-                </a>
+                <p className="mt-3 text-xs opacity-80">Source: {stat.source.name}</p>
               </StaggerItem>
             ))}
           </StaggerReveal>

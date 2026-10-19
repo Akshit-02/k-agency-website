@@ -5,13 +5,14 @@ import { KudozzLogo } from "@/components/graphics/KudozzLogo";
 import { LinkedInGlyph, YouTubeGlyph } from "@/components/graphics/SocialIcons";
 import { Container } from "@/components/ui/Container";
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
+import { isLinkAllowed } from "@/lib/links";
 
 const socialLinks = [
   { href: siteConfig.social.instagram, label: "Instagram", Icon: AtSign },
   // { href: siteConfig.social.tiktok, label: "TikTok", Icon: Music3 },
   { href: siteConfig.social.linkedin, label: "LinkedIn", Icon: LinkedInGlyph },
   // { href: siteConfig.social.youtube, label: "YouTube", Icon: YouTubeGlyph },
-];
+].filter(({ href }) => isLinkAllowed(href));
 
 function FooterColumn({
   title,
@@ -51,20 +52,22 @@ export function Footer() {
             <p className="mt-5 text-sm leading-relaxed text-paper/60">
               {siteConfig.description}
             </p>
-            <div className="mt-6 flex gap-3">
-              {socialLinks.map(({ href, label, Icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label={label}
-                  className="flex size-10 items-center justify-center border-[1.5px] border-paper/20 text-paper/70 transition-colors hover:border-lime hover:bg-lime hover:text-ink"
-                >
-                  <Icon className="size-4" />
-                </a>
-              ))}
-            </div>
+            {socialLinks.length > 0 && (
+              <div className="mt-6 flex gap-3">
+                {socialLinks.map(({ href, label, Icon }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    aria-label={label}
+                    className="flex size-10 items-center justify-center border-[1.5px] border-paper/20 text-paper/70 transition-colors hover:border-lime hover:bg-lime hover:text-ink"
+                  >
+                    <Icon className="size-4" />
+                  </a>
+                ))}
+              </div>
+            )}
           </div>
 
           <div className="grid grid-cols-2 gap-10 sm:grid-cols-4">

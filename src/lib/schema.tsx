@@ -2,6 +2,7 @@ import { siteConfig } from "@/config/site";
 import type { BlogPost } from "@/content/blog";
 import { services, type Service } from "@/content/services";
 import type { Market } from "@/content/markets";
+import { isLinkAllowed } from "@/lib/links";
 
 /** Countries Kudozz delivers campaigns in (owner-confirmed 2026-10-12). India is the primary market. */
 export const SERVED_COUNTRIES = ["India", "United Arab Emirates", "Saudi Arabia", "United Kingdom", "Australia", "Singapore"];
@@ -32,7 +33,7 @@ export function organizationSchema() {
       url: `${siteConfig.url}/for-brands#inquiry`,
       areaServed: ["IN", "AE", "SA", "GB", "AU", "SG"],
     },
-    sameAs: Object.values(siteConfig.social),
+    sameAs: Object.values(siteConfig.social).filter(isLinkAllowed),
     knowsAbout: [
       "Influencer Marketing",
       "Influencer Marketing in India",
@@ -139,7 +140,7 @@ export function articleSchema(post: BlogPost, url: string) {
     ...(post.tags && post.tags.length > 0 ? { keywords: post.tags.join(", ") } : {}),
     ...(post.spatialCoverage ? { spatialCoverage: { "@type": "Place", name: post.spatialCoverage } } : {}),
     ...(post.mentions && post.mentions.length > 0
-      ? { mentions: post.mentions.map((m) => ({ "@type": "Organization", name: m.name, url: m.url })) }
+      ? { mentions: post.mentions.map((m) => ({ "@type": "Organization", name: m.name, ...(isLinkAllowed(m.url) ? { url: m.url } : {}) })) }
       : {}),
     inLanguage: post.inLanguage ?? "en-IN",
     author: {
