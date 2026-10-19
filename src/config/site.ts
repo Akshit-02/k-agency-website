@@ -63,12 +63,14 @@ export const siteConfig = {
       { label: "Why Kudozz", href: "/for-brands" },
       { label: "Services", href: "/services" },
       { label: "Markets We Serve", href: "/markets" },
+      { label: "Free Tools", href: "/tools" },
       { label: "Start a Campaign", href: "/for-brands#inquiry" },
     ],
     forCreators: [
       { label: "Join the Network", href: "/for-creators" },
       { label: "How It Works", href: "/for-creators#how-it-works" },
       { label: "Creator Resources", href: "/creator-resources" },
+      { label: "Free Tools", href: "/tools" },
       { label: "Apply Now", href: "/for-creators#apply" },
     ],
     legal: [
