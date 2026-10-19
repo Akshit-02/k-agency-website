@@ -373,6 +373,7 @@ Kudozz also publishes practical, free guides for creators (not only brands) at [
 - [For Brands](https://www.kudozz.in/for-brands): How Kudozz works with brands, the problems it solves, and the brand inquiry form to start a campaign.
 - [For Creators](https://www.kudozz.in/for-creators): How creators join the Kudozz network and apply for campaigns.
 - [Creator Resources](https://www.kudozz.in/creator-resources): Free guides for creators organised into 10 topics (SEO, content, growth, community, analytics, brand deals, monetization, commerce, protection, business) plus Instagram, YouTube and TikTok platform hubs, each with crawlable section pages such as /creator-resources/search-foundations and /creator-resources/instagram-creator-resources.
+- [Free Tools](https://www.kudozz.in/tools): 18 free calculators, checklists and a scorecard (campaign cost, budget allocation, ROI forecast, influencer vetting, creator pricing, agency profitability and more) plus two CSV templates. They run in the browser, use only the numbers the user enters (no built-in market rates) and need no sign-up.
 - [Services](https://www.kudozz.in/services): Full service list (see Core Services above).
 - [About](https://www.kudozz.in/about): Company background, values, and approach.
 - [Contact](https://www.kudozz.in/contact): General contact details and inquiry form.
