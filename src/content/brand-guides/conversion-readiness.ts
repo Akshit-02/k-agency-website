@@ -5,7 +5,6 @@ import { AUTHOR } from "@/content/brand-guides/shared";
  * Conversion readiness (2026-10-17): what a brand's store, landing page, app and tracking need before creator
  * traffic arrives. Each article carries one link to a ZSpace Labs service page. Kudozz has a paid arrangement
  * with ZSpace Labs, so those links use rel="sponsored" and sit next to a visible disclosure sentence.
- * Record: reports/zspace-content/ (manifest, link register, quality report).
  */
 const PUBLISHED = "2026-10-17";
 const REVIEWED = "October 2026";
