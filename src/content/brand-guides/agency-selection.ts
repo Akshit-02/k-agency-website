@@ -233,8 +233,11 @@ export const agencySelectionPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "A detailed breakdown of each service is in what an influencer marketing agency actually does.",
-        links: [{ text: "what an influencer marketing agency actually does", href: "/blog/influencer-marketing-services-india" }],
+        text: "A detailed breakdown of each service is in what an influencer marketing agency actually does. To compare proposals line by line, each of Kudozz's influencer marketing services pages lists its deliverables and what the brand needs to provide.",
+        links: [
+          { text: "what an influencer marketing agency actually does", href: "/blog/influencer-marketing-services-india" },
+          { text: "influencer marketing services", href: "/services" },
+        ],
       },
       { type: "heading", text: "What moves the agency fee", id: "fee-drivers" },
       {

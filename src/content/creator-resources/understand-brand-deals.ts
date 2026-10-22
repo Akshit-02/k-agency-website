@@ -428,11 +428,11 @@ export const understandBrandDealPosts: BlogPost[] = [
     slug: "creator-usage-rights",
     category: "Creator Resources",
     title: "Creator Usage Rights: What Brands Can and Can't Do With Your Content",
-    seoTitle: "Creator Usage Rights: What Brands Can Do With Your Content",
+    seoTitle: "Creator Usage Rights: Ad Rights, Duration and Perpetual Use",
     excerpt:
       "Organic reposting, paid ads, whitelisting, website use, editing and perpetual rights explained from the creator's side, with a simple way to define and price each one.",
     metaDescription:
-      "Creator usage rights explained: organic vs paid usage, whitelisting, website and social reposting, duration, territory, media, editing, derivative content and perpetual rights, and why to price them separately.",
+      "What brands can do with your content: organic vs paid ad rights, what 30-day and perpetual ad rights mean, how long brands can run your content, and pricing.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     readingTime: "11 min read",
@@ -452,6 +452,10 @@ export const understandBrandDealPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "In most creator deals, you keep ownership (copyright) of what you make and grant the brand a licence to use it in defined ways. A contract that assigns copyright to the brand transfers ownership entirely. That's a much bigger deal, and worth legal advice before agreeing.",
+      },
+      {
+        type: "paragraph",
+        text: "In India, don't rely on that default without a written agreement. Under section 17(b) of the Copyright Act, 1957, a photograph or film made for payment at someone else's request belongs first to the person who commissioned it, unless an agreement says otherwise. A paid Reel shot to a brand's brief can fall into that category, so state who owns the content, and what the brand may do with it, in writing before you film.",
       },
       { type: "heading", text: "Types of usage", id: "types" },
       {
@@ -505,6 +509,27 @@ export const understandBrandDealPosts: BlogPost[] = [
           "Media: which platforms and channels (Meta ads, YouTube ads, website, print).",
           "Editing: can the brand cut, crop, add text, change audio, or combine with other footage?",
         ],
+      },
+      { type: "heading", text: "Ad rights terms decoded: 30-day, perpetual and buyout", id: "ad-rights-terms" },
+      {
+        type: "paragraph",
+        text: "Brand emails and contracts use shorthand for these grants. Here is what the common terms usually mean, and what to confirm before you agree.",
+      },
+      {
+        type: "table",
+        headers: ["Term you'll see", "What it usually means", "Confirm before agreeing"],
+        rows: [
+          ["Organic usage or repost rights", "The brand may share your post on its own accounts, with credit", "For how long, and whether posts stay up afterwards"],
+          ["Paid usage or ad rights", "The brand may run your content as ads from its own account", "Platforms, territory and when the clock starts"],
+          ["30-day (or 60- or 90-day) ad rights", "Paid ads for that many days, then no new ad spend", "Whether day one is your posting date or the first ad date, and what happens to ads still running"],
+          ["Whitelisting or partnership ad rights", "Ads run through your handle, under your name", "Whether you approve ad copy, and when access is removed"],
+          ["Perpetual ad rights", "Paid use with no end date", "Whether it's limited to specific uses, and how it's priced"],
+          ["Buyout", "Broad rights, often all media for a long or unlimited period; sometimes a transfer of ownership", "Whether it's a licence or an assignment of your copyright"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "How long can a brand use your content in paid ads? Only as long as your agreement says. Giving a brand ad access inside Instagram is a platform setting, not an agreement on duration, so the time limit belongs in writing. If the agreement is silent, don't assume either way: confirm the paid-usage period before the content goes live, or it can end up running far longer than you were paid for.",
       },
       { type: "heading", text: "Editing rights and derivative content", id: "editing-derivatives" },
       {

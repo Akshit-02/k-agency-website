@@ -9076,6 +9076,11 @@ const corePosts: BlogPost[] = [
         links: [{ text: "how much should you pay influencers", href: "/blog/how-much-to-pay-influencers" }],
       },
       {
+        type: "paragraph",
+        text: "If you'd rather have the creators chosen and the campaign planned and run for you, see our Instagram influencer marketing service.",
+        links: [{ text: "Instagram influencer marketing service", href: "/services/instagram-influencer-marketing" }],
+      },
+      {
         type: "quote",
         text: "The follower count on a creator's profile is the least useful number in the entire pricing conversation. It's just the easiest one to see first.",
         attribution: "Kudozz Social Team",
@@ -9573,7 +9578,7 @@ const corePosts: BlogPost[] = [
     slug: "instagram-partnership-ads",
     category: "Instagram Marketing",
     title: "Instagram Partnership Ads: Complete Guide to Creator Ads for Brands",
-    seoTitle: "Instagram Partnership Ads: A Guide for Brands",
+    seoTitle: "What Are Instagram Partnership Ads? How They Work for Brands",
     excerpt:
       "Partnership Ads let a brand run paid ads through a creator's own content and identity, with the creator's explicit permission. How the workflow actually works, and why it's now Meta's standard route for paid branded content.",
     metaDescription: "Instagram Partnership Ads explained: running paid ads through a creator's handle, the permission workflow, costs and when to use them.",
@@ -9659,6 +9664,11 @@ const corePosts: BlogPost[] = [
         ],
       },
       {
+        type: "paragraph",
+        text: "On the Instagram campaigns we run, paid usage and partnership ad permissions are agreed in the creator contract before any content is made. Our Instagram influencer marketing services page explains how that fits into planning and reporting.",
+        links: [{ text: "Instagram influencer marketing services", href: "/services/instagram-influencer-marketing" }],
+      },
+      {
         type: "quote",
         text: "A Partnership Ad works because it looks like the creator's own post and performs like a real ad at the same time. Losing either half of that defeats the point.",
         attribution: "Kudozz Social Team",
@@ -9699,6 +9709,8 @@ const corePosts: BlogPost[] = [
     seoTitle: "How to Contact Instagram Influencers (With Templates)",
     excerpt:
       "The difference between a message that gets a reply and one that gets ignored usually comes down to specificity. Templates and a negotiation framework for reaching out to Instagram creators.",
+    metaDescription:
+      "How to contact Instagram influencers: when to DM and when to email, what the first message needs, DM, email and follow-up templates, and how to discuss pay.",
     author: { name: "Kudozz Social Team", role: "Agency Team" },
     publishedAt: "2026-09-12",
     readingTime: "9 min read",
@@ -9746,6 +9758,11 @@ const corePosts: BlogPost[] = [
         type: "quote",
         text: "Subject: Collaboration opportunity with [Brand]\n\nHi [Name],\n\nI'm [Your name] from [Brand], and I've been following your content on [specific topic/style] for a while, particularly [specific example]. We're planning a [campaign type] campaign and think your style and audience would be a strong fit.\n\nWhat we're looking for: [brief deliverable summary]\nCompensation: [range or structure]\nTimeline: [rough window]\n\nIf this sounds interesting, I'd love to share more details and hear your rate and availability. Happy to work around your schedule for a quick call or continue over email, whichever's easier.\n\nBest,\n[Your name]",
         attribution: "Sample email template",
+      },
+      {
+        type: "paragraph",
+        text: "Need a different scenario, such as gifting, a product launch or a long-term partnership? The influencer outreach email guide has nine worked examples and advice on subject lines.",
+        links: [{ text: "influencer outreach email guide", href: "/blog/influencer-outreach-email" }],
       },
       { type: "heading", text: "Follow-Up Message Template", id: "follow-up-template" },
       {
@@ -24086,7 +24103,7 @@ const corePosts: BlogPost[] = [
     slug: "influencer-marketing-travel-brands-india",
     category: "Brand Marketing",
     title: "Influencer Marketing for Travel Brands: How to Build Creator-Led Destination Campaigns",
-    seoTitle: "Travel and Tourism Influencer Marketing: Destinations",
+    seoTitle: "Travel and Tourism Influencer Marketing: A Guide for Brands",
     excerpt:
       "How Indian travel and tourism brands can use creators for destination discovery and authentic storytelling, with honest disclosure so sponsored trips aren't mistaken for independent editorial reviews.",
     metaDescription: "Travel and tourism influencer marketing in India: destination creators, itinerary content, tourism boards and familiarization trips, languages and measurement.",
@@ -25773,10 +25790,10 @@ const corePosts: BlogPost[] = [
     slug: "influencer-campaign-management",
     category: "Campaign Strategy",
     title: "How Influencer Campaign Management Works: A Step-by-Step Guide",
-    seoTitle: "Influencer Campaign Management: Process and Services",
+    seoTitle: "Influencer Campaign Management: How It Works, Step by Step",
     excerpt:
       "What influencer campaign management is and what it includes: the scope of the work, the step-by-step workflow from objective to final report, who does what, and what to expect from campaign management services.",
-    metaDescription: "How influencer campaign management works step by step, who does what, and what to expect from campaign management services: contacts, approvals and reporting.",
+    metaDescription: "How to manage an influencer campaign from objective to final report: the 13 steps, who does what at each stage, a checklist and the problems to plan for.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-09-06",
     updatedAt: "2026-10-14",
@@ -32378,6 +32395,11 @@ const corePosts: BlogPost[] = [
           { text: "influencer marketing ROI forecasting", href: "/blog/influencer-marketing-roi-forecasting" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "If you'd like creator quotes gathered and compared for you, our paid influencer campaigns service prices creators from current quotes rather than rate cards.",
+        links: [{ text: "paid influencer campaigns service", href: "/services/paid-influencer-campaigns" }],
+      },
     ],
     faqs: [
       {
@@ -36196,6 +36218,14 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "UGC creators are sourced differently than influencers: content style and camera presence matter more than follower count, since the content won't be distributed through their own channel. Many UGC creators have a small public following or none at all. Our full guide to how to find and hire UGC creators covers where to source them, how to evaluate portfolios, and how to brief, negotiate with, and onboard a new creator before scaling up.",
         links: [{ text: "how to find and hire UGC creators", href: "/blog/how-to-find-ugc-creators" }],
+      },
+      {
+        type: "paragraph",
+        text: "If you want this handled for you, Kudozz offers two UGC services: UGC content production, for a batch of ad-ready assets, and UGC campaigns, for an ongoing programme that tests and improves creative over time.",
+        links: [
+          { text: "UGC content production", href: "/services/ugc-content-production" },
+          { text: "UGC campaigns", href: "/services/ugc-campaigns" },
+        ],
       },
       { type: "heading", text: "Writing the brief and budgeting the work", id: "brief-and-budget-pillar" },
       {
