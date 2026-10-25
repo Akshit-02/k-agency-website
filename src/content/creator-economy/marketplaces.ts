@@ -27,7 +27,7 @@ export const marketplacePosts: BlogPost[] = [
     slug: "creator-marketplace",
     category: "Creator Economy",
     title: "Creator Marketplace: How Brand–Creator Marketplaces Work",
-    seoTitle: "Creator Marketplace: How Brand–Creator Platforms Work",
+    seoTitle: "What Is a Creator Marketplace? How It Works for Brands",
     excerpt:
       "What a creator marketplace is and how it works for brands, creators and the platform in the middle: the marketplace types, how a campaign moves through one, platform-native marketplaces from Meta, YouTube, LinkedIn and TikTok and their India availability, and how marketplaces differ from creator databases, discovery tools, networks and agencies.",
     metaDescription:

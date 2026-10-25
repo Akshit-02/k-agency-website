@@ -38,6 +38,7 @@ import { founderGrowthPosts } from "@/content/brand-guides/founder-growth";
 import { founderInternationalPosts } from "@/content/brand-guides/founder-international";
 import { founderFinalPosts } from "@/content/brand-guides/founder-final";
 import { conversionReadinessPosts } from "@/content/brand-guides/conversion-readiness";
+import { contentGapPosts } from "@/content/brand-guides/content-gaps";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -107,4 +108,6 @@ export const brandGuidePosts: BlogPost[] = [
   ...founderFinalPosts,
   // Conversion readiness (2026-10-17): store, landing page, app and tracking groundwork; see reports/zspace-content/.
   ...conversionReadinessPosts,
+  // Next-20 batch (2026-10-24): eight gaps left after checking the candidate topics; see reports/next-20-blogs/.
+  ...contentGapPosts,
 ];

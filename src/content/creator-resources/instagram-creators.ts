@@ -598,11 +598,10 @@ export const instagramCreatorPosts: BlogPost[] = [
     slug: "instagram-creator-marketplace",
     category: "Creator Resources",
     title: "Instagram Creator Marketplace: How Creators Can Get Discovered by Brands",
-    seoTitle: "Instagram Creator Marketplace: A Guide for Indian Creators",
+    seoTitle: "Instagram Creator Marketplace: How It Works for Creators",
     excerpt:
       "How Meta's Creator Marketplace works from the creator's side: eligibility, onboarding, building a portfolio brands can search, responding to projects, partnership ads, and why it complements rather than replaces pitching.",
-    metaDescription:
-      "Meta Creator Marketplace for Indian creators: eligibility, onboarding, building a searchable portfolio, responding to projects and pricing partnership ads.",
+    metaDescription: "How the Instagram Creator Marketplace works for Indian creators: eligibility, onboarding, a searchable portfolio, responding to brand projects and pricing.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

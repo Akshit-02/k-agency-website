@@ -242,6 +242,7 @@ export const programEvidencePosts: BlogPost[] = [
       "Design a brand lift survey for an influencer campaign: metrics, neutral questions, control groups, sample sizes, platform minimums and reporting.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-25",
     lastReviewed: REVIEWED,
     readingTime: "5 min read",
     tags: ["influencer brand lift survey", "brand lift study influencer campaign", "measure influencer awareness", "brand lift survey questions", "creator campaign brand lift India"],
@@ -336,6 +337,46 @@ export const programEvidencePosts: BlogPost[] = [
           { text: "Google's About Brand Lift", href: EXT.googleBrandLift },
           { text: "minimum budget table", href: EXT.googleBrandLiftMinimums },
           { text: "Meta's guide to brand lift tests", href: EXT.metaBrandLift },
+        ],
+      },
+      { type: "heading", text: "Measuring message recall, not just brand recall", id: "message-recall" },
+      {
+        type: "paragraph",
+        text: "Engagement shows people reacted to a post. It doesn't show whether they remember the brand or the one point the campaign was meant to make. Viewers often recall a funny creator and forget the product, or remember the product but not why it's different. Check the message at two points: in the content before and after posting, and in the audience afterwards.",
+      },
+      {
+        type: "paragraph",
+        text: "First, check the content itself. If the key message never clearly appears, no survey will find it.",
+      },
+      {
+        type: "table",
+        headers: ["Check", "What to look for"],
+        rows: [
+          ["Brand early", "Brand or product named or shown in the first few seconds"],
+          ["Message said", "The key message stated in the creator's own words, once, clearly"],
+          ["Message shown", "Product in use, on-screen text or a demo that makes the point visible"],
+          ["Caption", "The message and the brand in the first line of the caption"],
+          ["Comments", "Whether comments repeat the message correctly, misunderstand it, or ignore it"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Then add message questions to the survey, after the brand questions so they don't prime them.",
+      },
+      {
+        type: "list",
+        items: [
+          "Unaided message recall: 'What, if anything, do you remember about [brand]'s recent online content?' Code the open answers into the key message, other messages and nothing specific.",
+          "Aided message association: list the key message among three or four plausible decoys and ask which they associate with the brand.",
+          "Correct attribution: show a still or a short muted clip with the brand hidden and ask which brand it was for.",
+          "Compare exposed and control groups as for brand metrics; a message people already associate with the brand will show little lift.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Results per creator need a large enough sample for each creator, which is rarely affordable. More often, compare by content approach (for example demo-led versus story-led) or by creator type, and use the content checks to explain the differences. Keeping the message consistent across many creators is covered in maintaining brand consistency across influencer content.",
+        links: [
+          { text: "maintaining brand consistency across influencer content", href: "/blog/influencer-brand-consistency" },
         ],
       },
       { type: "heading", text: "Step 5: Report it honestly", id: "report" },

@@ -60,6 +60,13 @@ export const advancedPracticePosts: BlogPost[] = [
         type: "paragraph",
         text: "To measure incrementality, compare a group exposed to creator activity with a similar group that wasn't, over the same period. For creators, the most practical method is usually a geographic test: run creators who reach one set of regions, hold back comparable regions, and compare sales or sign-ups. Platform lift studies can measure paid creator ads where you have access. Brand search demand and direct traffic are useful supporting signals. Codes remain helpful, but treat them as a floor, not the total.",
       },
+      {
+        type: "paragraph",
+        text: "Untracked sharing on WhatsApp and in DMs is one reason tracked results undercount; see dark social and influencer marketing.",
+        links: [
+          { text: "dark social and influencer marketing", href: "/blog/dark-social-influencer-marketing" },
+        ],
+      },
       { type: "heading", text: "Attribution vs incrementality", id: "definitions" },
       {
         type: "table",
@@ -405,6 +412,7 @@ export const advancedPracticePosts: BlogPost[] = [
       "Make influencer campaigns accessible: captions, alt text, contrast, no flashing, audio description, plain language and how to brief and check creators.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-24",
     lastReviewed: REVIEWED,
     readingTime: "4 min read",
     tags: ["accessible influencer marketing", "social media accessibility", "captions for creator content", "inclusive influencer campaigns"],
@@ -494,6 +502,19 @@ export const advancedPracticePosts: BlogPost[] = [
           { text: "influencer content quality checks", href: "/blog/influencer-content-quality-check" },
         ],
       },
+      { type: "heading", text: "Copy-ready accessibility checklist for briefs", id: "brief-checklist" },
+      {
+        type: "template",
+        label: "Accessibility requirements (add to the creator brief)",
+        text: "Video\n[ ] Captions added and checked by a person, including product and brand names\n[ ] Captions in the language spoken; if the video mixes languages (for example Hinglish), captions match what's said\n[ ] Key information said aloud: product name, offer, price, disclosure\n[ ] On-screen text large, high contrast, on screen long enough to read, clear of app buttons\n[ ] No rapid flashing (no more than three flashes in any one second)\n\nImages and carousels\n[ ] Custom alt text describing the product and what matters in the image\n[ ] Text in images also written in the caption\n\nCaptions and copy\n[ ] Plain language; hashtags at the end, written in CamelCase (#SummerSale)\n[ ] Disclosure at the start, in words, not only as an icon or label\n[ ] Emojis used sparingly and not in place of words\n\nLinks and landing pages\n[ ] Link text says where it goes\n[ ] Landing page works with a keyboard and a screen reader, and on a small screen\n\nSign-off\n[ ] Checked at draft stage and again on the live post",
+      },
+      {
+        type: "paragraph",
+        text: "For regional-language campaigns, automatic captions are often weaker than for English, so budget time for a native speaker to correct them. Build these checks into the same review step as claims and disclosure; see how to check creator deliverables.",
+        links: [
+          { text: "how to check creator deliverables", href: "/blog/influencer-content-quality-check" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -536,6 +557,7 @@ export const advancedPracticePosts: BlogPost[] = [
       "Avoid influencer campaign hidden costs and scope creep: unused deliverables and rights, revisions, exclusivity, reshoots, rush fees and agency extras.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-24",
     lastReviewed: REVIEWED,
     readingTime: "4 min read",
     tags: ["influencer campaign hidden costs", "influencer scope creep", "negotiate influencer deliverables", "influencer marketing budget"],
@@ -613,6 +635,24 @@ export const advancedPracticePosts: BlogPost[] = [
         links: [
           { text: "influencer marketing budget guide", href: "/blog/influencer-marketing-budget" },
           { text: "how much to pay influencers", href: "/blog/how-much-to-pay-influencers" },
+        ],
+      },
+      { type: "heading", text: "Influencer campaign scope of work template", id: "scope-of-work-template" },
+      {
+        type: "paragraph",
+        text: "A scope of work (SOW) is the document that stops scope creep before it starts. It lists exactly what will be delivered, by when and by whom, so any extra request is visibly a change with its own price. Use it with a creator, or with an agency running several creators, and attach it to the contract.",
+      },
+      {
+        type: "template",
+        label: "Influencer campaign scope of work",
+        text: "Campaign: [name]  |  Brand: [ ]  |  Creator or agency: [ ]  |  SOW version and date: [ ]\n\n1. OBJECTIVE AND KPI\n[What the campaign must achieve and the one number that decides success]\n\n2. DELIVERABLES\nItem | Platform | Format and length | Quantity | Language | Draft due | Go-live window\n[e.g. Reel | Instagram | 30-60s, 9:16 | 1 | Hindi | 12 Nov | 18-20 Nov]\n\n3. INCLUDED\nRevision rounds: [ ]  |  Raw files: [yes/no]  |  Stories or reminders: [ ]  |  Link in bio for [days]\n\n4. NOT INCLUDED (priced separately if requested)\n[Paid usage, whitelisting, extra cuts, additional platforms, reshoots after approval, rush delivery]\n\n5. USAGE AND EXCLUSIVITY\nOrganic reposting: [channels, period]  |  Paid usage: [channels, period, territory]  |  Exclusivity: [category, period]\n\n6. RESPONSIBILITIES\nBrand: product and claims by [date]; one approver; feedback within [x] working days\nCreator or agency: drafts on time; disclosure on every post; insights shared at [7/30] days\n\n7. FEES AND PAYMENT\nFee: ₹[ ] excluding GST; schedule: [advance / on approval / on posting]; TDS as applicable\n\n8. CHANGES\nAny change to deliverables, dates or usage needs written agreement and may change the fee.\n\nSigned: [brand] [creator or agency]",
+      },
+      {
+        type: "paragraph",
+        text: "The full set of contract clauses is in influencer marketing contracts, and agency-level SOW checks in the influencer marketing agency checklist.",
+        links: [
+          { text: "influencer marketing contracts", href: "/blog/influencer-marketing-contract" },
+          { text: "influencer marketing agency checklist", href: "/blog/influencer-marketing-agency-checklist" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
@@ -704,6 +744,11 @@ export const advancedPracticePosts: BlogPost[] = [
           { text: "the GCC playbook", href: "/blog/gcc-influencer-marketing-playbook" },
           { text: "diaspora creators", href: "/blog/diaspora-influencer-marketing" },
         ],
+      },
+      {
+        type: "paragraph",
+        text: "If India is one of the markets, see how international brands can launch in India for city, language and channel choices specific to the Indian market.",
+        links: [{ text: "how international brands can launch in India", href: "/blog/international-brands-influencer-marketing-india" }],
       },
       { type: "heading", text: "Global vs local", id: "localization" },
       {

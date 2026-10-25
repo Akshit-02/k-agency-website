@@ -736,6 +736,11 @@ export const relationshipsPartnershipPosts: BlogPost[] = [
         type: "paragraph",
         text: "Asking first respects creators who get too many products, confirms the address and size or shade, avoids waste and starts a conversation instead of a delivery.",
       },
+      {
+        type: "paragraph",
+        text: "If creators ask you for free product and you can't say yes, decline kindly and point them to your programme; templates are in how brands can decline influencer requests.",
+        links: [{ text: "how brands can decline influencer requests", href: "/blog/decline-influencer-collaboration-requests" }],
+      },
       { type: "heading", text: "What to send and how", id: "what-to-send" },
       {
         type: "list",
@@ -1013,6 +1018,11 @@ export const relationshipsPartnershipPosts: BlogPost[] = [
         type: "template",
         label: "Brand declining after a creator has engaged",
         text: "Hi [name], thanks so much for sharing your rates and ideas. We've decided to go a different direction for this campaign, [brief honest reason if appropriate: budget / different format]. We really appreciated your time and would like to keep in touch for future campaigns.",
+      },
+      {
+        type: "paragraph",
+        text: "For declining requests creators send you, such as free-product asks, paid pitches and agency rosters, see how to politely decline an influencer collaboration request, which has templates for each.",
+        links: [{ text: "how to politely decline an influencer collaboration request", href: "/blog/decline-influencer-collaboration-requests" }],
       },
       { type: "heading", text: "Handling rejection through a manager", id: "managers" },
       {

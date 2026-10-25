@@ -178,9 +178,10 @@ export const rightsAndAnalyticsPosts: BlogPost[] = [
     excerpt:
       "Whitelisting lets a brand run ads that appear to come from you. Here's how it differs from licensing and paid amplification, how platform permissions work, what to charge for, and the risks to manage.",
     metaDescription:
-      "Creator whitelisting explained: paid amplification vs licensing vs creator-authorised ads, Meta partnership ads permissions, duration, territory, usage, pricing considerations, risks and how to revoke access.",
+      "How creator whitelisting works on Meta, YouTube and TikTok: granting permission, how it differs from licensing, what to charge, the risks and how to revoke it.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
+    updatedAt: "2026-10-24",
     lastReviewed: CREATOR_FACTS_REVIEWED,
     readingTime: "11 min read",
     tags: ["creator whitelisting", "influencer whitelisting", "partnership ads", "paid amplification", "creator licensing"],
@@ -212,14 +213,19 @@ export const rightsAndAnalyticsPosts: BlogPost[] = [
         type: "list",
         items: [
           "Meta (Instagram and Facebook): partnership ads, which show both the creator and brand. Creators grant permissions at the account level or for specific content, and can revoke them. See Instagram's help on partnership ad permissions.",
-          "YouTube: brands can promote creator content through YouTube's creator partnership and advertising tools; YouTube has also announced ways for brands to boost creators' affiliate content. Check the current YouTube and Google Ads documentation for what's live in India.",
-          "Other platforms use their own terms and tools. TikTok's Spark Ads are often mentioned in global guides, but TikTok isn't available in India.",
+          "YouTube: partnership ads powered by BrandConnect. You link a video to the brand's Google Ads account, or accept the brand's request to link it, and the brand runs it as an ad. Google says the advertiser is responsible for securing the rights to use the video as an ad, so agree the terms separately.",
+          "TikTok: Spark Ads. You switch on ad authorization for a post, choose how long it lasts, and share the code with the brand. TikTok is blocked in India, so this only matters for campaigns aimed at audiences in other markets.",
+          "Other platforms use their own terms and tools; check each platform's current help pages.",
         ],
       },
       {
         type: "paragraph",
-        text: "Terminology and permission settings change often. Check the official documentation before agreeing to a setup: Instagram's partnership ad permissions page is the place to start for Meta.",
-        links: [{ text: "Instagram's partnership ad permissions page", href: SOURCES.instagramPartnershipAdPermissions }],
+        text: "Terminology and permission settings change often. Check the official documentation before agreeing to a setup: Instagram's partnership ad permissions page for Meta, Google's partnership ads help page for YouTube and TikTok's Spark Ads help article.",
+        links: [
+          { text: "Instagram's partnership ad permissions page", href: SOURCES.instagramPartnershipAdPermissions },
+          { text: "Google's partnership ads help page", href: SOURCES.googleAdsPartnershipAds },
+          { text: "TikTok's Spark Ads help article", href: SOURCES.tiktokSparkAds },
+        ],
       },
       { type: "heading", text: "How authorisation usually works", id: "authorisation" },
       {

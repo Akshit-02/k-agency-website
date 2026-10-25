@@ -1057,10 +1057,10 @@ export const contentAnalyticsPosts: BlogPost[] = [
     seoTitle: "Creator A/B Testing: Test Hooks, Thumbnails and Titles",
     excerpt:
       "How to run controlled content experiments instead of random changes: built-in tools like YouTube's title and thumbnail testing and Instagram Trial Reels, manual test design, and reading results fairly.",
-    metaDescription:
-      "Creator A/B testing: controlled tests for hooks, thumbnails, titles and formats, YouTube title and thumbnail A/B testing, Instagram Trial Reels, manual test design, sample sizes and avoiding false conclusions.",
+    metaDescription: "How creators can A/B test hooks, thumbnails, titles and formats: built-in tools, designing a fair manual test, a worked example, a test log and false results.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-24",
     lastReviewed: CREATOR_FACTS_REVIEWED,
     readingTime: "10 min read",
     tags: ["A/B testing creators", "thumbnail test", "YouTube test and compare", "Trial Reels", "content experiments"],
@@ -1121,6 +1121,16 @@ export const contentAnalyticsPosts: BlogPost[] = [
           "Watch for outside events (festivals, news) that affect all posts.",
           "Record results even when the test \"fails\"; that's learning too.",
         ],
+      },
+      { type: "heading", text: "A worked example and a test log", id: "worked-example" },
+      {
+        type: "paragraph",
+        text: "Hypothetical. A cooking creator wants to know whether a 'finished dish first' hook beats a 'raw ingredients first' hook for recipe Reels. Over four weeks they post eight recipes, alternating the hook, keeping length, posting time and topic type similar. They compare the average 3-second hold rate and saves per 1,000 views for each group, not total views. Finished-dish hooks win on hold rate in six of eight pairs, but saves are similar, so they keep the hook and test calls to save next.",
+      },
+      {
+        type: "template",
+        label: "Creator test log",
+        text: "Test name: [ ]\nQuestion: [which version gets more X?]\nVariable changed: [only one: hook / thumbnail / title / length / format]\nKept the same: [topic type, length, posting day and time, platform]\nMetric that decides it: [e.g. 3-second hold rate, click-through rate, saves per 1,000 views]\nPosts in version A: [links]  |  Posts in version B: [links]\nResult A: [ ]  |  Result B: [ ]\nOther things that changed: [trends, collaborations, holidays]\nDecision: [keep / drop / test again]  |  Next test: [ ]",
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

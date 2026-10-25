@@ -224,11 +224,10 @@ export const creatorCommercePosts: BlogPost[] = [
     slug: "youtube-shopping-india-creators",
     category: "Creator Resources",
     title: "YouTube Shopping for Indian Creators: How Affiliate Product Tagging Works",
-    seoTitle: "YouTube Shopping India: Eligibility, Retailers and Commissions",
+    seoTitle: "YouTube Shopping in India: Affiliate Program and Eligibility",
     excerpt:
       "How the YouTube Shopping affiliate programme works in India in 2026: who's eligible, which retailers take part, how tagging works in videos, Shorts and Live, how commissions are paid, and whether it fits your content.",
-    metaDescription:
-      "YouTube Shopping for Indian creators: eligibility, participating retailers, product tagging in long-form, Shorts and Live, affiliate commissions and payouts, disclosure, and how to decide if Shopping fits your channel.",
+    metaDescription: "YouTube Shopping affiliate program in India: who's eligible, participating retailers, tagging products in videos, Shorts and Live, commissions and payouts.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

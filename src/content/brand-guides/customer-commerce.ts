@@ -33,6 +33,7 @@ export const customerCommercePosts: BlogPost[] = [
       "Build a customer advocacy program: find existing fans, invite the right ones, reward without buying opinions, handle disclosure and rights, and measure it.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-25",
     lastReviewed: REVIEWED,
     readingTime: "6 min read",
     tags: ["customer advocacy program", "brand advocacy program", "turn customers into creators", "brand fans program", "customer creator program India"],
@@ -156,6 +157,39 @@ export const customerCommercePosts: BlogPost[] = [
           ["Content that performs well when reposted", "A usage-rights fee for ads"],
           ["Growing, relevant audience", "A place in the ambassador program"],
           ["Strong referrals", "An affiliate agreement with commission"],
+        ],
+      },
+      { type: "heading", text: "Connecting creator campaigns to a customer referral programme", id: "creator-referrals" },
+      {
+        type: "paragraph",
+        text: "Creators bring in new customers; a referral programme turns those customers into the next source of customers. The two work best together when the creator introduces the referral offer, not when every creator is paid as an affiliate.",
+      },
+      {
+        type: "table",
+        headers: ["Approach", "How it works", "When it fits"],
+        rows: [
+          ["Creator introduces the referral offer", "The creator's audience gets a welcome offer plus a referral link to share after their first order", "Products people talk about with friends and family"],
+          ["Give-get rewards", "Both the referrer and the friend receive a reward, such as credit or a free item", "Repeat-purchase categories"],
+          ["Creator-themed referral moments", "A limited-time referral push tied to a creator's series or launch", "Launches and festivals"],
+          ["Referral leaderboards for advocates", "Top-referring customers get early access or a feature, not cash", "Community-led brands"],
+          ["Affiliate only for true partners", "Commission for creators who actively sell; referral rewards for everyone else", "Brands with both creators and customer advocates"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Keep the referral reward the same however a customer arrived, so creator customers aren't treated differently.",
+          "Track which creator brought the first customer, then count the referrals that customer makes.",
+          "Referrers who post publicly about a reward must disclose it.",
+          "Don't reward reviews or ratings; reward referrals only.",
+          "Judge creators on the customers they bring and the referrals those customers make, over months.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Commission-based creator partnerships are covered in influencer affiliate programmes.",
+        links: [
+          { text: "influencer affiliate programmes", href: "/blog/influencer-affiliate-program" },
         ],
       },
       { type: "heading", text: "What to measure", id: "measure" },
@@ -322,6 +356,13 @@ export const customerCommercePosts: BlogPost[] = [
         type: "paragraph",
         text: "You can't yet measure AI visibility the way you measure search rankings. Some practical signals: referral traffic from AI assistants in your analytics (where the referrer is passed), branded search trends, questions customers mention in support chats ('ChatGPT said...'), and periodic manual checks of how assistants describe your product, logged with the date and prompt. Treat these as directional. Report them separately from campaign results, and don't attribute sales to an 'AI effect' without a test.",
       },
+      {
+        type: "paragraph",
+        text: "For traditional search, what creator partnerships can and can't do is explained in influencer marketing and SEO.",
+        links: [
+          { text: "influencer marketing and SEO", href: "/blog/influencer-marketing-seo" },
+        ],
+      },
       { type: "heading", text: "Questions to ask an agency selling AI visibility", id: "agency-questions" },
       {
         type: "list",
@@ -451,6 +492,11 @@ export const customerCommercePosts: BlogPost[] = [
           { text: "why creator reports and analytics don't match", href: "/blog/influencer-reporting-discrepancies" },
           { text: "influencer marketing for e-commerce", href: "/blog/influencer-marketing-ecommerce-brands-india#marketplace-tracking" },
         ],
+      },
+      {
+        type: "paragraph",
+        text: "Selling through quick-commerce apps as well? The measurement problem is similar but local; see creator campaigns for quick-commerce brands.",
+        links: [{ text: "creator campaigns for quick-commerce brands", href: "/blog/quick-commerce-influencer-marketing-india" }],
       },
       { type: "heading", text: "Reviews: what not to do", id: "reviews" },
       {

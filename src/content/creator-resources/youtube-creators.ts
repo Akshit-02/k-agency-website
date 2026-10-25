@@ -742,11 +742,10 @@ export const youtubeCreatorPosts: BlogPost[] = [
     slug: "youtube-brandconnect-vs-creator-partnerships",
     category: "Creator Resources",
     title: "YouTube BrandConnect vs Creator Partnerships: What Creators Need to Know",
-    seoTitle: "YouTube BrandConnect vs Creator Partnerships Explained",
+    seoTitle: "YouTube BrandConnect Is Now Creator Partnerships",
     excerpt:
       "BrandConnect is now YouTube Creator Partnerships. The history from FameBit to BrandConnect to Creator Partnerships, what changed for creators, what stayed the same, and how to read old advice that still uses the BrandConnect name.",
-    metaDescription:
-      "What happened to YouTube BrandConnect: the history from FameBit to BrandConnect to YouTube Creator Partnerships, what changed for creators and how to read old advice.",
+    metaDescription: "What happened to YouTube BrandConnect: from FameBit to BrandConnect to YouTube Creator Partnerships, what changed for creators and how to read old advice.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,
@@ -865,8 +864,7 @@ export const youtubeCreatorPosts: BlogPost[] = [
     seoTitle: "YouTube Affiliate Marketing for Creators: A Practical Guide",
     excerpt:
       "How YouTube creators earn from affiliate recommendations in India: YouTube Shopping tags vs description links, choosing programmes, video formats that convert, placing links without clutter, disclosure and tracking.",
-    metaDescription:
-      "YouTube affiliate marketing for Indian creators: Shopping tags vs description links, programmes, formats that convert, link placement, disclosure and tracking.",
+    metaDescription: "How YouTube affiliate marketing works for Indian creators: Shopping tags vs description links, programmes, formats that convert, disclosure and tracking.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,
@@ -1346,11 +1344,10 @@ export const youtubeCreatorPosts: BlogPost[] = [
     slug: "youtube-channel-membership-strategy",
     category: "Creator Resources",
     title: "YouTube Channel Membership Strategy: How to Build a Valuable Paid Community",
-    seoTitle: "YouTube Channel Membership Strategy: Perks, Tiers, Retention",
+    seoTitle: "YouTube Channel Memberships: Strategy, Perks and Tiers",
     excerpt:
       "A strategy for YouTube channel memberships: deciding if you're ready, designing tiers around a monthly promise, choosing perks YouTube allows, planning members-only content, launching, and keeping members beyond month three.",
-    metaDescription:
-      "YouTube channel membership strategy: readiness, tier design, allowed perks, members-only content calendar, launch plan, retention and what to measure.",
+    metaDescription: "How to plan YouTube channel memberships: when you're ready, tier design, perks that are allowed, members-only content, launch and retention.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

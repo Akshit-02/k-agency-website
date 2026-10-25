@@ -276,6 +276,7 @@ export const uaeHubPost: BlogPost = {
         ["Health and wellness", "Influencer marketing for healthcare and wellness brands in the UAE"],
         ["Financial services", "Influencer marketing for fintech brands in the UAE"],
         ["Business audiences", "B2B influencer marketing in Dubai"],
+        ["Real estate", "Influencer marketing for real estate in Dubai"],
         ["Apps", "Influencer marketing for mobile apps in the UAE"],
         ["Content production", "UGC agencies in Dubai"],
         ["Events and exhibitions", "Influencer marketing for events and exhibitions in Dubai"],
@@ -287,7 +288,7 @@ export const uaeHubPost: BlogPost = {
     },
     {
       type: "paragraph",
-      text: "Start with the industry guide closest to your business: beauty brands, fashion brands, restaurants, travel brands, e-commerce, healthcare and wellness, fintech, B2B, mobile apps, UGC partners, events and exhibitions, universities, expatriate communities, Saudi Arabia, or expanding across the GCC.",
+      text: "Start with the industry guide closest to your business: beauty brands, fashion brands, restaurants, travel brands, e-commerce, healthcare and wellness, fintech, B2B, real estate developers and brokers, mobile apps, UGC partners, events and exhibitions, universities, expatriate communities, Saudi Arabia, or expanding across the GCC.",
       links: [
         { text: "beauty brands", href: "/blog/influencer-marketing-beauty-brands-uae" },
         { text: "fashion brands", href: "/blog/influencer-marketing-fashion-brands-dubai" },
@@ -297,6 +298,7 @@ export const uaeHubPost: BlogPost = {
         { text: "healthcare and wellness", href: "/blog/influencer-marketing-healthcare-wellness-uae" },
         { text: "fintech", href: "/blog/influencer-marketing-fintech-brands-uae" },
         { text: "B2B", href: "/blog/b2b-influencer-marketing-dubai" },
+        { text: "real estate developers and brokers", href: "/blog/real-estate-influencer-marketing-dubai" },
         { text: "mobile apps", href: "/blog/mobile-app-influencer-marketing-uae" },
         { text: "UGC partners", href: "/blog/ugc-agencies-dubai" },
         { text: "events and exhibitions", href: "/blog/influencer-marketing-events-exhibitions-dubai" },

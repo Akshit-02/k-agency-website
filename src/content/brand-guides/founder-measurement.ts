@@ -243,6 +243,13 @@ export const founderMeasurementPosts: BlogPost[] = [
         type: "paragraph",
         text: "Track influencer sales with at least two methods per creator: a unique promo code and a unique tagged link, recorded against each order. Add an affiliate platform if creators are paid on commission, and a 'how did you hear about us?' question at checkout to catch people who used neither. Agree a rule for which method gets credit when an order has more than one, count delivered orders net of returns, and report the total as attributed sales, not as the sales the campaign caused.",
       },
+      {
+        type: "paragraph",
+        text: "Codes and links can't capture sales from privately forwarded posts; dark social explains how to estimate them.",
+        links: [
+          { text: "dark social", href: "/blog/dark-social-influencer-marketing" },
+        ],
+      },
       { type: "heading", text: "The methods compared", id: "methods" },
       {
         type: "table",
@@ -476,6 +483,13 @@ export const founderMeasurementPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "A 'how did you hear about us?' question at checkout catches influence that left no click at all, which is exactly where creators are most under-credited. List creators and platforms by name, include 'a friend or family member' and 'other', and compare the share naming creators with what your click-based reports say. Self-reports depend on memory, so treat them as a second opinion, not a replacement.",
+      },
+      {
+        type: "paragraph",
+        text: "When people share creator content privately, the resulting visits often show up as direct traffic; how to estimate that is covered in dark social and influencer marketing.",
+        links: [
+          { text: "dark social and influencer marketing", href: "/blog/dark-social-influencer-marketing" },
+        ],
       },
       { type: "heading", text: "Measuring the creator's role across the customer journey", id: "customer-journey" },
       {

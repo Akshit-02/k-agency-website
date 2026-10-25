@@ -619,8 +619,7 @@ export const understandBrandDealPosts: BlogPost[] = [
     seoTitle: "Creator Exclusivity in Brand Deals: Meaning and Negotiation",
     excerpt:
       "Exclusivity clauses stop you working with other brands, sometimes for months. Here's how the different types work, why they have a price, and what to ask before agreeing.",
-    metaDescription:
-      "Creator exclusivity explained: category, competitor, platform and geographic exclusivity, duration, why exclusivity has economic value, questions to ask and how to negotiate it, with examples.",
+    metaDescription: "Creator exclusivity explained: category, competitor, platform and market exclusivity, how long it should last, what it's worth and how to negotiate it.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     readingTime: "9 min read",
@@ -1129,6 +1128,13 @@ export const understandBrandDealPosts: BlogPost[] = [
         type: "template",
         label: "Deliverables summary (confirm in writing with the brand)",
         text: "CAMPAIGN: [name]  BRAND: [name]  CREATOR: [@handle]\n\n1. Instagram Reel\n   Length 30–45 sec · Concept: [approved concept]\n   Caption: creator-written, brand approves key points\n   Tags: @brand in caption and on screen · Paid partnership label ON\n   Posting window: [date range] · Stays live: minimum 6 months\n\n2. Instagram Story set\n   4 frames on posting day · Link sticker to [tracked URL]\n   Highlight: 14 days\n\n3. Revisions: 1 round on script, 1 round on draft. Further rounds ₹____\n\n4. Timeline: product received [date] → script [date] → draft [date] → brand feedback within 2 working days → post [date]\n\n5. Report: screenshots of views, reach, likes, comments, saves, shares, link clicks 7 days after posting\n\n6. Not included: raw footage, paid usage, whitelisting (available as add-ons)",
+      },
+      {
+        type: "paragraph",
+        text: "Brands writing the same document from their side can use the influencer campaign scope of work template.",
+        links: [
+          { text: "influencer campaign scope of work template", href: "/blog/influencer-campaign-hidden-costs#scope-of-work-template" },
+        ],
       },
       { type: "heading", text: "Deliverables checklist", id: "checklist" },
       {

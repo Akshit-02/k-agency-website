@@ -34,6 +34,13 @@ export const searchDiscoveryPosts: BlogPost[] = [
         type: "paragraph",
         text: "Creator SEO means making your content easy to find when people search, on Google, YouTube, Instagram, TikTok and increasingly AI search tools. Each platform ranks results differently, but the same foundations help everywhere: pick topics people actually search for, use the words they use in titles, captions, spoken audio and on-screen text, answer the question quickly and well, keep your identity consistent across platforms, and measure which searches bring viewers. There is no single universal algorithm.",
       },
+      {
+        type: "paragraph",
+        text: "If you're a brand asking how creator partnerships affect your own search visibility, see influencer marketing and SEO for brands.",
+        links: [
+          { text: "influencer marketing and SEO for brands", href: "/blog/influencer-marketing-seo" },
+        ],
+      },
       { type: "heading", text: "How discovery differs by platform", id: "platforms" },
       {
         type: "image",

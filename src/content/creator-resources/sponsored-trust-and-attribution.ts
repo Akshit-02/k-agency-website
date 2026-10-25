@@ -1015,8 +1015,7 @@ export const sponsoredTrustAndAttributionPosts: BlogPost[] = [
     seoTitle: "Creator Discount Codes: Use Promo Codes to Measure Sales",
     excerpt:
       "How creators use discount codes to measure and drive sales: setting up unique codes, naming, what to agree with the brand, code leakage to coupon sites, disclosure, reporting, and combining codes with links.",
-    metaDescription:
-      "How creators use discount codes to track sales: unique codes, naming, terms to agree, coupon-site leakage, disclosure, reporting and combining codes with links.",
+    metaDescription: "Do creator codes give discounts? Usually, yes. How creators use discount codes to track sales: unique codes, terms, coupon-site leakage and disclosure.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

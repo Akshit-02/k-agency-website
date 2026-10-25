@@ -1,0 +1,21 @@
+candidate_no,candidate_topic,existing_urls,intent_overlap,decision,rationale
+1,Employee Advocacy vs Influencer Marketing,/blog/employee-influencer-marketing (sections 'Employee advocacy vs. employee influencer marketing' and 'Employee advocacy or external creators for B2B?'; updated batch A); /blog/x-employee-advocacy,Same intent,REPLACE,Covered; updated today
+2,Influencer Campaign Around a Live Event,"/blog/experiential-influencer-marketing (event types and logistics, batch B); /blog/event-influencer-marketing-india (batch 3)",Same intent,REPLACE,Updated in two batches today
+3,"Schools, Colleges and Education Brands",/blog/influencer-marketing-colleges (746w; 57 impr @8.0); /blog/influencer-marketing-education-edtech-brands-india (47 @6.4),Same intent; the colleges page lacks school and coaching coverage,UPDATE,'student influencer marketing' 24 @8.7 maps to the colleges page; CCPA coaching-ad guidelines (Nov 2024) not covered
+4,Real Estate Developers and Property Launches,/blog/influencer-marketing-real-estate-brands-india (15 @8.9); /blog/real-estate-influencer-marketing-dubai (batch A),Same intent,REPLACE,Owners exist
+5,"Hotels, Resorts and Hospitality",/blog/influencer-marketing-hospitality-brands-india (24 @8.3); travel page tourism table (batch 3),Same intent,REPLACE,Owner exists
+6,Skincare and Beauty Beyond Product Reviews,"/blog/influencer-marketing-beauty-brands-india (1,255w; 58 @9.4); /blog/ugc-beauty-skincare",Same intent,UPDATE,"Near page one, one click; add a section on beauty content beyond reviews"
+7,"FMCG: Sampling, Reach and Repeat Purchase",/blog/influencer-marketing-fmcg-brands-india; /blog/quick-commerce-influencer-marketing-india (batch A),Same intent,REPLACE,Owners exist
+8,Fintech: Building Trust Responsibly,"/blog/influencer-marketing-fintech-brands-india (33 @22.85, ranks poorly; reviewed Sep 2026)",Same intent,UPDATE,Add a 2026 vetting step backed by the CFA Institute 2026 study; review date
+9,"Automotive: Test Drives, Reviews and Launches",/blog/automotive-influencer-marketing-india; dealerships (batch B),Same intent,REPLACE,Updated today
+10,Home Decor and Furniture,/blog/home-interior-influencer-marketing-india (17 @10.8),Same intent,REPLACE,Low evidence
+11,Pet Care Brands,/blog/pet-influencer-marketing-india (639w; 25 @21.5),Same intent; thin owner,UPDATE,Thin page ranking poorly
+12,Parenting and Baby,/blog/parenting-baby-influencer-marketing-india (updated 2026-10-14),Same intent,REPLACE,Recently updated
+13,Gaming and Esports,"/blog/gaming-influencer-marketing-india (esports section, batch B)",Same intent,REPLACE,Updated today
+14,Nonprofits: Awareness and Fundraising,/blog/nonprofit-influencer-marketing-gcc (GCC only),India intent not covered,REPLACE,"No Search Console demand (0 nonprofit, NGO, charity or CSR queries), and no verified Kudozz nonprofit service. Deferred as a possible new page"
+15,Sustainable and Eco-Conscious Brands,"/blog/sustainability-influencer-marketing-india (updated 2026-10-14, incl. CCPA greenwashing)",Same intent,REPLACE,Owner current
+16,Employee-Generated Content for Employer Branding,/blog/employer-branding-influencer-marketing; /blog/employee-influencer-marketing,Same intent,REPLACE,Owners exist
+17,Using Creator Feedback to Improve Products,/blog/creator-feedback-loop; /blog/influencer-partnerships ('Creator feedback loops and product development input'); /blog/customer-insights-influencer-brief,Same intent,REPLACE,Owners exist
+18,Creator Meet-Up or Brand Experience Event,/blog/experiential-influencer-marketing (batch B),Same intent,REPLACE,Updated today
+19,Virtual Influencers vs Human Creators,"/blog/ai-influencers-vs-human-creators (188 impr @6.05, 2 clicks); /blog/ai-influencer-marketing",Same intent,UPDATE,Near page one; add brand-fit and risk tables
+20,Creator Partnership Program for an Audience Community,/blog/customer-advocacy-program; /blog/brand-ambassador-program; /blog/influencer-partnerships ('Creator communities'),Same intent,REPLACE,Owners exist

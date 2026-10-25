@@ -336,6 +336,11 @@ export const founderFinalPosts: BlogPost[] = [
           ["Positive comments", "What did we learn about our customers and product?"],
         ],
       },
+      {
+        type: "paragraph",
+        text: "If your agency reports EMV, ask how it's calculated; what EMV measures and when to use it sets out the questions.",
+        links: [{ text: "what EMV measures and when to use it", href: "/blog/earned-media-value-influencer-marketing" }],
+      },
       { type: "heading", text: "An agency scorecard", id: "scorecard" },
       {
         type: "table",

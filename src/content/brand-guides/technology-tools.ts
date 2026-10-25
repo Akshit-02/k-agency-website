@@ -84,6 +84,13 @@ export const technologyToolsPosts: BlogPost[] = [
           "Check brand tags in your category to find creators who already work with similar products.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "If you're not sure which niche to search, see 13 creator niches beyond lifestyle influencers.",
+        links: [
+          { text: "13 creator niches beyond lifestyle influencers", href: "/blog/creator-niches-beyond-lifestyle" },
+        ],
+      },
       { type: "heading", text: "How to search by audience", id: "by-audience" },
       {
         type: "paragraph",

@@ -871,11 +871,10 @@ export const tiktokCreatorPosts: BlogPost[] = [
     slug: "tiktok-affiliate-marketing",
     category: "Creator Resources",
     title: "TikTok Affiliate Marketing: How Creators Can Earn From Product Recommendations",
-    seoTitle: "TikTok Affiliate Marketing: How TikTok Shop Affiliate Works",
+    seoTitle: "TikTok Shop Affiliate: How It Works (Not in India)",
     excerpt:
       "How TikTok Shop affiliate works for creators in markets where TikTok Shop operates: eligibility basics, choosing products, showcases, video and LIVE formats that sell honestly, disclosure and tracking, plus Indian alternatives.",
-    metaDescription:
-      "TikTok Shop affiliate for creators: markets, eligibility basics, choosing products, showcase, shoppable video and LIVE formats, disclosure, and Indian alternatives.",
+    metaDescription: "How TikTok Shop affiliate works in the markets where it runs: eligibility, choosing products, showcase, video and LIVE, disclosure, and Indian alternatives.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

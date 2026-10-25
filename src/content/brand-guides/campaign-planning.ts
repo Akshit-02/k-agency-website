@@ -30,8 +30,8 @@ export const campaignPlanningPosts: BlogPost[] = [
     tags: ["influencer campaign timeline", "influencer campaign deadlines", "how long does an influencer campaign take", "creator campaign schedule", "influencer campaign stages"],
     related: ["influencer-campaign-delays", "influencer-content-approval", "influencer-campaign-management"],
     hero: { src: "/blog/brand-guides/influencer-marketing-campaign-timeline.svg", alt: "Week-by-week influencer campaign timeline from brief and creator sourcing through contracts, production, approvals, go-live and reporting" },
-    metaDescription: "How long an influencer campaign takes: every stage from brief to report, example timelines, managing deadlines, delays and planning back from go-live.",
-    updatedAt: "2026-10-08",
+    metaDescription: "How long an influencer campaign takes: about 3-5 weeks for a small test and 6-10 for a launch, stage by stage, plus how to run a fast-turnaround campaign.",
+    updatedAt: "2026-10-24",
     body: [
       {
         type: "paragraph",
@@ -131,6 +131,41 @@ export const campaignPlanningPosts: BlogPost[] = [
         links: [
           { text: "influencer campaign delays", href: "/blog/influencer-campaign-delays" },
         ],
+      },
+      { type: "heading", text: "Running a fast-turnaround campaign", id: "fast-turnaround" },
+      {
+        type: "paragraph",
+        text: "Sometimes the date isn't negotiable: a competitor launch, a news moment, a stock clearance or a sale event you joined late. A campaign can go live in about two weeks, but only by removing steps, not by asking everyone to work faster. Decide in advance what you're willing to give up.",
+      },
+      {
+        type: "table",
+        headers: ["Can be compressed", "How", "What you give up"],
+        rows: [
+          ["Sourcing", "Rebook creators who have worked with you before, or use a pre-vetted shortlist", "Fresh audiences and new creator discovery"],
+          ["Negotiation", "Offer a fixed fee and standard terms; no paid usage or exclusivity", "Ad rights and better rates from negotiation"],
+          ["Production", "Simple formats (Stories, one Reel or Short) using product the creator already has or can buy locally", "Complex shoots, multi-asset packages"],
+          ["Approvals", "One named approver, same-day feedback, a single revision round", "Wide stakeholder sign-off"],
+        ],
+      },
+      {
+        type: "table",
+        headers: ["Should not be compressed", "Why"],
+        rows: [
+          ["Audience and authenticity checks", "A rushed booking of a creator with a bought audience wastes the whole budget"],
+          ["Claims review for regulated categories", "Health, finance and food claims carry legal risk whatever the deadline"],
+          ["Disclosure", "Required on every post in every market"],
+          ["Written terms", "A short email confirming fee, deliverables, dates and usage is enough, but it must exist"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Illustrative two-week plan: days 1-2 brief and rebook from your shortlist; days 3-4 confirm terms by email and send briefs; days 5-9 creators film; days 10-11 same-day reviews; days 12-14 staggered go-live. Treat it as the exception. Brands that keep a vetted, recently active shortlist and a standard contract can run rush campaigns without cutting the checks that matter; a pilot campaign is a good way to build that shortlist.",
+        links: [{ text: "pilot campaign", href: "/blog/pilot-influencer-campaign" }],
+      },
+      {
+        type: "paragraph",
+        text: "For launch-day coordination across many creators, see the launch-week run sheet in influencer marketing for product launches.",
+        links: [{ text: "influencer marketing for product launches", href: "/blog/influencers-for-product-launch" }],
       },
       { type: "heading", text: "Managing deadlines once the campaign starts", id: "deadlines" },
       {
@@ -240,11 +275,10 @@ export const campaignPlanningPosts: BlogPost[] = [
     slug: "influencer-budget-allocation",
     category: "Campaign Strategy",
     title: "How to Allocate Your Influencer Marketing Budget Across Creators",
-    seoTitle: "Influencer Budget Allocation: Creators and Tiers",
+    seoTitle: "How to Allocate an Influencer Marketing Budget",
     excerpt:
       "How to plan an influencer campaign with a fixed budget: reserving money for non-creator costs, splitting the creator budget by objective and tier, working out how many influencers you can afford, test-and-scale allocation, and an allocator that turns your budget and quoted fees into a creator count.",
-    metaDescription:
-      "Plan an influencer campaign on a fixed budget: reserve non-creator costs, split by tier and objective, work out how many creators you can afford.",
+    metaDescription: "How to split a fixed influencer budget: reserve non-creator costs, divide by objective and creator type, and work out how many creators you can afford.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
     updatedAt: "2026-10-08",
@@ -903,6 +937,7 @@ export const campaignPlanningPosts: BlogPost[] = [
     metaDescription: "Plan a pan-India or multi-city influencer campaign: national and regional creators, cities and languages, localized briefs, logistics and measurement.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-24",
     lastReviewed: REVIEWED,
     readingTime: "14 min read",
     tags: ["pan India influencer marketing", "multilingual influencer marketing", "multi-city influencer campaign", "multi-language creator campaign", "national influencer campaign India"],
@@ -943,6 +978,44 @@ export const campaignPlanningPosts: BlogPost[] = [
           "Group markets by language rather than by state boundary alone; Hindi covers many states, while Tamil Nadu, Kerala or West Bengal may need their own creators.",
           "Consider city tier: metro, tier 2 and tier 3 audiences may need different creators and formats.",
           "Prioritize: a few well-covered markets beat many thin ones.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "International brands entering India for the first time usually start narrower than a pan-India plan; launching an international brand in India sets out a phased entry.",
+        links: [{ text: "launching an international brand in India", href: "/blog/international-brands-influencer-marketing-india" }],
+      },
+      { type: "heading", text: "A city-by-city rollout plan", id: "city-rollout" },
+      {
+        type: "paragraph",
+        text: "Hyperlocal campaigns work best rolled out in waves, so each city's results inform the next. A simple scorecard keeps the choice of next city objective:",
+      },
+      {
+        type: "table",
+        headers: ["Factor", "Question", "Score 1-3"],
+        rows: [
+          ["Availability", "Can customers in this city buy and receive the product quickly?", ""],
+          ["Existing demand", "Do you already get orders, enquiries or searches from here?", ""],
+          ["Creator supply", "Are there enough active local creators whose audience lives in the city?", ""],
+          ["Language", "Can you brief and review content in the city's main language?", ""],
+          ["Margin", "Do delivery or retail costs leave room for creator spend here?", ""],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Wave 1: two or three high-scoring cities, with a comparison city that gets no creator activity.",
+          "Wave 2: add cities only where Wave 1 beat its comparison city and stock held up.",
+          "Keep a city-level results table: creators, spend, reach in the city, orders or leads, cost per result.",
+          "Reuse the creators and formats that worked, but brief locally; a joke or reference that lands in Pune may not in Kochi.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For cities beyond the metros, see influencer marketing in tier 2 and tier 3 cities; for brands selling through quick-commerce apps, measuring by city is covered in influencer marketing for quick-commerce brands.",
+        links: [
+          { text: "influencer marketing in tier 2 and tier 3 cities", href: "/blog/influencer-marketing-tier-2-tier-3-cities" },
+          { text: "influencer marketing for quick-commerce brands", href: "/blog/quick-commerce-influencer-marketing-india" },
         ],
       },
       { type: "heading", text: "Finding regional creators for each market", id: "regional-creators" },

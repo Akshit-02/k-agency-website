@@ -276,8 +276,7 @@ export const getBrandReadyPosts: BlogPost[] = [
     seoTitle: "Influencer Rate Card India: How to Build and Price Yours",
     excerpt:
       "A rate card turns \"what do you charge?\" into a quick, professional answer. Here's how to structure one, which line items to include, and how to price add-ons like usage rights and exclusivity.",
-    metaDescription:
-      "How to create an influencer rate card in India: line items for Reels, Stories, YouTube integrations and UGC, add-ons for usage rights and exclusivity, bundles, and a pricing framework.",
+    metaDescription: "How to build an influencer rate card in India: prices for Reels, Stories and YouTube integrations, usage-rights and exclusivity add-ons, and bundles.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     readingTime: "11 min read",

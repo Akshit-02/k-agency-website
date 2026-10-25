@@ -991,8 +991,7 @@ export const pricingAndDealSelectionPosts: BlogPost[] = [
     seoTitle: "How to Say No to Brand Collaborations Professionally",
     excerpt:
       "How creators decline brand deals without burning bridges: when to say no, how fast to reply, how much to explain, templates for poor fit, low budget, timing, exclusivity conflicts, gifted-only offers and values conflicts, and how to counter instead of refusing.",
-    metaDescription:
-      "How creators decline brand collaborations professionally: when to say no, templates for poor fit, low budget, timing and exclusivity conflicts, and counter-offers.",
+    metaDescription: "How creators can decline brand collaborations professionally: when to say no, templates for poor fit, low budget, timing and exclusivity, and counter-offers.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

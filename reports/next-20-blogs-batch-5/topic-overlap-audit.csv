@@ -1,0 +1,21 @@
+candidate_no,candidate_topic,existing_urls,intent_overlap,decision,rationale
+1,Find Influencers Through Social Listening,"/blog/social-listening-creator-discovery (1,087w, exact intent); /blog/influencer-social-listening (1,304w, broader)",Same intent; two overlapping pages,CONSOLIDATE (evaluate),"Neither is in the GSC export. Clear roles already (discovery vs programme); documented, cross-link check only"
+2,Audience Overlap Between Influencers,/blog/influencer-audience-overlap (739w),Same intent,REPLACE,Exact owner; no GSC data
+3,Content Quality Over Follower Counts,/blog/creator-quality-score; /blog/influencer-audience-quality; /blog/how-to-vet-influencers,Same intent,REPLACE,Three owners
+4,Map Creator Communities Around Your Audience,"/blog/influencer-market-mapping (1,172w)",Same intent,REPLACE,Exact owner
+5,Customer Conversations Into Campaign Ideas,/blog/customer-insights-influencer-brief; /blog/influencer-social-listening,Same intent,REPLACE,Owners exist
+6,Live Shopping With Influencers,/blog/influencer-livestream-campaigns-gcc; /blog/instagram-live-influencer-marketing (in-app Live Shopping ended); /blog/youtube-shopping-india-creators,India brand-side intent partly uncovered,REPLACE (deferred),No GSC demand; India live-shopping availability changes often and wasn't verified here. Needs a platform-verification spike first
+7,Creator-Led Social Commerce Strategy,/blog/creator-commerce-india; /blog/influencer-marketing-sales; /blog/influencer-marketing-amazon-flipkart-sellers; /blog/quick-commerce-influencer-marketing-india,Same intent,REPLACE,Owners exist
+8,Social Search and Influencer Marketing,"/blog/social-search-for-creators (creator, 70 @11.1); /blog/creator-content-ai-product-discovery (brand); /blog/creator-seo",Brand-side angle partly covered,REPLACE (deferred),No brand-side GSC demand; would overlap the creator page
+9,Creator Content Series vs One-Off Posts,"/blog/creator-content-series; /blog/youtube-sponsorships (series row, batch B); /blog/influencer-partnerships",Same intent,REPLACE,Owners exist
+10,Turn Campaigns Into a Brand Community,/blog/customer-advocacy-program; /blog/influencer-campaign-comment-management; /blog/brand-ambassador-program,Same intent,REPLACE,Owners exist
+11,Measure Brand Lift,/blog/influencer-brand-lift-survey; /blog/influencer-brand-lift-gcc,Same intent,REPLACE,Owners exist
+12,Measure Incremental Sales,/blog/influencer-marketing-incrementality,Same intent,REPLACE,Exact owner
+13,Manage Multiple Campaigns at Once,/blog/influencer-campaign-coordination; /blog/influencer-campaign-calendar; /blog/influencer-marketing-operations,Same intent,REPLACE,Owners exist
+14,Content Approval Workflow,"/blog/influencer-content-approval (1,245w)",Same intent,REPLACE,Exact owner
+15,Accessible Influencer Content Checklist,/blog/accessible-influencer-campaigns (627w),Same intent; owner short and lacks a copy-ready checklist,UPDATE,Add a brief-ready checklist and India language notes
+16,Fashion: Collections and Trends,/blog/influencer-marketing-fashion-brands-india (snippet updated batch 4),Same intent,REPLACE,Updated today
+17,Travel: Discovery to Bookings,/blog/influencer-marketing-travel-brands-india (batch 3),Same intent,REPLACE,Updated today
+18,Luxury: Exclusivity vs Reach,/blog/luxury-influencer-marketing-india (836w; 22 @8.05),Same intent; lacks an explicit reach-vs-exclusivity decision,UPDATE,Add a trade-off section
+19,Customer Advocacy Alongside Influencers,"/blog/customer-advocacy-program (1,201w)",Same intent,REPLACE,Exact owner
+20,Influencer Marketing RFP Template,/blog/influencer-marketing-rfp (114 @5.7; snippet updated batch 4),Same intent; no copy-ready template,UPDATE,Add a fill-in RFP template

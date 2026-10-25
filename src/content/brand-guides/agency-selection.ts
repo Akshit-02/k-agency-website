@@ -177,6 +177,7 @@ export const agencySelectionPosts: BlogPost[] = [
       "How influencer marketing agencies in India charge: retainer, campaign fee, percentage of spend and hybrid models, what's included, and how to compare quotes.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-24",
     lastReviewed: "September 2026",
     readingTime: "14 min read",
     tags: ["influencer marketing agency fees India", "influencer marketing agency pricing", "influencer agency retainer", "influencer agency commission", "agency management fee influencer", "influencer marketing agency cost"],
@@ -237,6 +238,27 @@ export const agencySelectionPosts: BlogPost[] = [
         links: [
           { text: "what an influencer marketing agency actually does", href: "/blog/influencer-marketing-services-india" },
           { text: "influencer marketing services", href: "/services" },
+        ],
+      },
+      { type: "heading", text: "Agency fees vs creator fees: what you're paying for", id: "agency-vs-creator-fees" },
+      {
+        type: "table",
+        headers: ["Cost", "Paid to", "What it covers", "Ask the agency"],
+        rows: [
+          ["Creator fees", "Creators (sometimes passed through the agency)", "Content, posting and any usage, exclusivity or whitelisting", "Are creator fees shown separately and at cost, or marked up?"],
+          ["Agency management or retainer fee", "The agency", "Strategy, sourcing, vetting, negotiation, briefs, approvals, coordination, reporting", "Which of these are included, and how many creators or campaigns does the fee cover?"],
+          ["Production", "Agency, creators or a production partner", "Shoots, editing, extra cuts and raw files", "Is production priced per asset or included?"],
+          ["Paid amplification", "Ad platforms, via the brand or agency", "Partnership ads and boosting", "Who holds the ad account, and is a media fee charged on spend?"],
+          ["Product, shipping and logistics", "Couriers and the brand", "Seeding and barter costs", "Who handles dispatch and returns?"],
+          ["Tools and tracking", "Software vendors", "Discovery, reporting and link tracking", "Are tool costs billed separately?"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Ask every agency to quote in the same structure, with creator fees separated from the agency's own fee and GST shown separately. Then compare like with like. The questions to ask before signing are in influencer marketing agency questions, and the contract points in the influencer marketing agency checklist.",
+        links: [
+          { text: "influencer marketing agency questions", href: "/blog/influencer-marketing-agency-pitch-questions" },
+          { text: "influencer marketing agency checklist", href: "/blog/influencer-marketing-agency-checklist" },
         ],
       },
       { type: "heading", text: "What moves the agency fee", id: "fee-drivers" },
@@ -517,12 +539,11 @@ export const agencySelectionPosts: BlogPost[] = [
     slug: "influencer-marketing-rfp",
     category: "Brand Marketing",
     title: "Influencer Marketing RFP: How Brands Should Evaluate Agencies",
-    updatedAt: "2026-10-14",
-    seoTitle: "Influencer Marketing RFP: How to Evaluate Agency Proposals",
+    updatedAt: "2026-10-24",
+    seoTitle: "Influencer Marketing RFP: What to Include and How to Score",
     excerpt:
       "How brands run an influencer marketing RFP: when a formal process is worth it, the RFP structure, how many agencies to invite, what a strong proposal contains, a weighted scoring matrix for comparing agencies, pitch meetings, paid pilots and making the final decision.",
-    metaDescription:
-      "Run an influencer marketing RFP and evaluate agency proposals: what a good proposal contains, how to make quotes comparable, a weighted scoring matrix and pilots.",
+    metaDescription: "How to run an influencer marketing RFP: what to put in it, what a strong agency proposal contains, a weighted scoring matrix and when to run a paid pilot.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: "October 2026",
@@ -574,6 +595,16 @@ export const agencySelectionPosts: BlogPost[] = [
         type: "paragraph",
         text: "Brief structure: how to write an influencer marketing agency brief.",
         links: [{ text: "how to write an influencer marketing agency brief", href: "/blog/influencer-marketing-agency-brief" }],
+      },
+      { type: "heading", text: "Influencer marketing RFP template", id: "rfp-template" },
+      {
+        type: "paragraph",
+        text: "A fill-in version of the sections above. Send it with your campaign brief, and ask every agency to answer in the same order so proposals can be compared line by line.",
+      },
+      {
+        type: "template",
+        label: "Influencer marketing RFP",
+        text: "1. ABOUT US\n[Company, brands, products, markets, who the customer is]\n\n2. WHAT WE NEED\nObjective: [e.g. first orders from new customers in 3 cities]  |  Primary KPI: [ ]\nScope: [strategy / creator discovery / outreach and negotiation / contracts and payments / content approvals / UGC / paid amplification / reporting]\nPlatforms and languages: [ ]  |  Markets: [ ]\nTimeline: campaign window [dates]; ongoing or one-off: [ ]\n\n3. BUDGET\nTotal range: ₹[ ] to ₹[ ], [including / excluding] creator fees, GST shown separately\n\n4. WHAT TO SEND US (in this order, max [x] pages)\na) Your understanding of our objective and audience\nb) Proposed approach: creator mix, formats, phasing\nc) Three example creators you'd consider, with why (no outreach to them yet)\nd) Measurement plan: what you'll track, how, and what you won't be able to measure\ne) Team: who works on our account and their time allocation\nf) Pricing: agency fee model and amount, creator fee estimate, production, paid media fee, tools; all separately\ng) Process: approvals, disclosure checks, contracts, creator payments\nh) Two references from similar briefs (client permission required)\ni) Your standard contract terms, including notice period and data ownership\n\n5. HOW WE'LL DECIDE\n[Criterion and weight, e.g. strategy 30%, creator fit 25%, measurement 15%, team 15%, price 15%]\n\n6. PROCESS AND DATES\nQuestions by [date] to [email]; answers shared with all agencies\nSubmission by [date]; pitch meetings [dates]; decision by [date]; start [date]\n\n7. TERMS\nConfidentiality: [ ]  |  Paid pitch or unpaid: [ ]  |  We may run a paid pilot before a longer contract",
       },
       { type: "heading", text: "How many agencies to invite", id: "how-many" },
       {
@@ -803,7 +834,7 @@ export const agencySelectionPosts: BlogPost[] = [
     slug: "influencer-marketing-agency-pitch-questions",
     category: "Brand Marketing",
     title: "Influencer Marketing Agency Questions: 25 Questions Brands Should Ask Before Hiring",
-    updatedAt: "2026-10-01",
+    updatedAt: "2026-10-24",
     seoTitle: "25 Questions to Ask an Influencer Marketing Agency",
     excerpt: "Twenty-five questions to ask an influencer marketing agency before hiring, grouped by strategy, creators, process, compliance, measurement, team, commercials and due diligence, with what a strong answer and a weak answer sound like, and the red flags to listen for.",
     metaDescription: "25 questions to ask an influencer marketing agency before hiring, with strong and weak answers, plus due-diligence and red-flag checks on fees and reporting.",
@@ -850,6 +881,17 @@ export const agencySelectionPosts: BlogPost[] = [
         type: "paragraph",
         text: "What good vetting involves is covered in how to vet influencers before a brand collaboration.",
         links: [{ text: "how to vet influencers before a brand collaboration", href: "/blog/how-to-vet-influencers" }],
+      },
+      { type: "subheading", text: "Follow-up questions on how the agency vets creators" },
+      {
+        type: "list",
+        items: [
+          "Which audience data do you get directly from creators (insights screenshots or exports), and how recent must it be?",
+          "What share of a creator's audience must be in our target market before you'd recommend them?",
+          "Which signs of bought followers or engagement make you reject a creator, and how many did you reject for the last brief like ours?",
+          "How do you check past content and sponsorships for brand-safety and competitor conflicts?",
+          "Who makes the final shortlist decision, and can we see the creators you considered and dropped, with reasons?",
+        ],
       },
       { type: "heading", text: "Process and compliance (questions 9–12)", id: "process" },
       {
@@ -924,6 +966,31 @@ export const agencySelectionPosts: BlogPost[] = [
         links: [
           { text: "influencer marketing agency checklist", href: "/blog/influencer-marketing-agency-checklist" },
           { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" },
+        ],
+      },
+      { type: "heading", text: "If you're evaluating a platform instead of an agency", id: "platform-questions" },
+      {
+        type: "paragraph",
+        text: "Self-serve influencer platforms and marketplaces sell software or access to creators, not a managed service, so the questions change. Ask these before signing a platform contract:",
+      },
+      {
+        type: "table",
+        headers: ["Question", "Why it matters"],
+        rows: [
+          ["Where does creator audience data come from: connected accounts, estimates or scraped data?", "Estimated data can differ a lot from the creator's own insights"],
+          ["How many active creators match our markets, languages and categories, not the whole database?", "Database size says little about relevant supply"],
+          ["What does the plan include: seats, searches, campaigns, payments, reporting?", "Overage and add-on costs change the real price"],
+          ["Who handles contracts, disclosure checks and creator payments?", "On most platforms that work stays with your team"],
+          ["Can we export our creator lists, content and results if we leave?", "Avoids losing your data with the subscription"],
+          ["What's the minimum term and notice period?", "Annual commitments are common; test before committing"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The differences between the models are covered in influencer marketing agency vs platform, and what features matter in influencer marketing software.",
+        links: [
+          { text: "influencer marketing agency vs platform", href: "/blog/influencer-marketing-platforms" },
+          { text: "influencer marketing software", href: "/blog/influencer-marketing-software" },
         ],
       },
       { type: "heading", text: "Red flags", id: "red-flags" },
@@ -1062,6 +1129,13 @@ export const agencySelectionPosts: BlogPost[] = [
         type: "paragraph",
         text: "Check who owns the content creators produce, what usage rights the brand gets (organic reposting, paid ads, website, duration, territory), and that the agency's contracts with creators actually grant those rights. A common problem: the brand's agreement with the agency promises ad usage, but the agency's contract with the creator only covered organic posting. Usage rights are explained in influencer usage rights.",
         links: [{ text: "influencer usage rights", href: "/blog/influencer-usage-rights" }],
+      },
+      {
+        type: "paragraph",
+        text: "This checklist is for your contract with an agency. For contracts with individual creators, a one-page influencer agreement outline is in influencer marketing contracts.",
+        links: [
+          { text: "influencer marketing contracts", href: "/blog/influencer-marketing-contract#influencer-contract-checklist" },
+        ],
       },
       { type: "heading", text: "Compliance responsibilities", id: "compliance" },
       {

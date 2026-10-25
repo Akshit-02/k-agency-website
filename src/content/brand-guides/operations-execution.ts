@@ -22,7 +22,7 @@ export const operationsExecutionPosts: BlogPost[] = [
       "A step-by-step influencer content approval process: collecting drafts, review order, who approves what, turnaround times, approval records and faster workflows.",
     author: AUTHOR,
     publishedAt: EXEC_PUBLISHED,
-    updatedAt: "2026-10-10",
+    updatedAt: "2026-10-25",
     lastReviewed: "October 2026",
     readingTime: "6 min read",
     tags: ["influencer content approval process", "creator content review", "influencer campaign approvals", "creator content submission", "influencer approval workflow"],
@@ -184,6 +184,39 @@ export const operationsExecutionPosts: BlogPost[] = [
         type: "paragraph",
         text: "Details are in Australian influencer advertising rules.",
         links: [{ text: "Australian influencer advertising rules", href: "/blog/influencer-advertising-rules-australia" }],
+      },
+      { type: "heading", text: "Setting an approval SLA", id: "approval-sla" },
+      {
+        type: "paragraph",
+        text: "An approval SLA (service level agreement) is a written promise about how quickly each reviewer responds. It stops drafts waiting in someone's inbox while a creator's posting date gets closer. Keep it short, realistic and visible to everyone involved, including the creator.",
+      },
+      {
+        type: "table",
+        headers: ["Step", "Reviewer", "Suggested turnaround (illustrative)", "If missed"],
+        rows: [
+          ["Concept or script", "Campaign owner", "1-2 working days", "Escalate to the marketing lead; creator's draft date moves by the same time"],
+          ["Claims check (regulated categories)", "Legal or compliance", "2-3 working days", "Use the pre-approved claims list; flag only new claims for review"],
+          ["Draft content", "Campaign owner (one consolidated set of comments)", "1-2 working days", "Treat as approved if agreed in the contract, or escalate"],
+          ["Revision", "Campaign owner", "1 working day", "Escalate"],
+          ["Final check before posting", "Campaign owner", "Same day", "Post on the next agreed slot"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Agree the SLA at kickoff and write it into the brief and the creator contract.",
+          "Consolidate feedback into one set of comments per round; the reviewer, not the creator, reconciles conflicting views.",
+          "Pre-approve claims and disclosure wording so routine drafts don't wait for legal.",
+          "Track turnaround per reviewer for a few campaigns, then adjust the SLA to what's achievable.",
+          "When the brand misses its SLA, move creator deadlines by the same amount rather than squeezing the creator.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The turnaround times above are illustrative starting points, not a standard; regulated categories and multi-market campaigns often need longer. Revision limits are covered in creator revision policy.",
+        links: [
+          { text: "creator revision policy", href: "/blog/influencer-revision-policy" },
+        ],
       },
       { type: "heading", text: "Hypothetical example", id: "example" },
       {

@@ -387,8 +387,7 @@ export const ownedAudiencePosts: BlogPost[] = [
     seoTitle: "Link in Bio for Creators: How to Build One That Converts",
     excerpt:
       "Your bio link gets tapped by people who already like you. Here's how to structure it so they find what they came for, whether that's your newsletter, products, latest video or your work-with-me page.",
-    metaDescription:
-      "Link in bio for creators: what to put on it, how many links, order and layout, tools vs your own website, tracking clicks, brand and affiliate links, and link-in-bio mistakes to avoid.",
+    metaDescription: "Link in bio for creators: what to include, how many links, order and layout, tools vs your own site, tracking clicks, and brand and affiliate links.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     readingTime: "9 min read",

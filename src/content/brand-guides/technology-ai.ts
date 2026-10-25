@@ -45,6 +45,13 @@ export const technologyAiPosts: BlogPost[] = [
         text: "If you came here looking for virtual or AI-generated influencers, see AI influencers vs human creators, which covers when a virtual character makes sense and the disclosure rules that apply to it.",
         links: [{ text: "AI influencers vs human creators", href: "/blog/ai-influencers-vs-human-creators" }],
       },
+      {
+        type: "paragraph",
+        text: "This guide is about using AI to run creator campaigns. If you are marketing an AI product, see influencer marketing for AI software and copilot products.",
+        links: [
+          { text: "influencer marketing for AI software and copilot products", href: "/blog/ai-software-influencer-marketing" },
+        ],
+      },
       { type: "heading", text: "Where AI fits in a creator campaign", id: "where-ai-fits" },
       {
         type: "paragraph",

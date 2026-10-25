@@ -951,6 +951,11 @@ export const optimizationCyclePosts: BlogPost[] = [
         type: "paragraph",
         text: "When results are measured in hundreds of orders per group, a standard significance test on conversion rates becomes meaningful. Below that, look for large, consistent gaps and repeat the test before acting.",
       },
+      {
+        type: "paragraph",
+        text: "If you haven't yet decided whether to invest in the channel at all, run a pilot rather than an in-campaign test; how to run a pilot influencer campaign covers sizing, pass marks and the scale-or-stop decision.",
+        links: [{ text: "how to run a pilot influencer campaign", href: "/blog/pilot-influencer-campaign" }],
+      },
       { type: "heading", text: "The limits of influencer testing", id: "limits" },
       {
         type: "list",

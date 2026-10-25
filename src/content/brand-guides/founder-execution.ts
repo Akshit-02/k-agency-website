@@ -363,10 +363,10 @@ export const founderExecutionPosts: BlogPost[] = [
     seoTitle: "Multi-Platform Influencer Campaigns: How to Manage Them",
     excerpt:
       "How to run one influencer campaign across Instagram, YouTube, TikTok, Snapchat and LinkedIn: give each platform a job, plan platform-native deliverables, use each platform's disclosure tool, track and report consistently, and handle market differences.",
-    metaDescription:
-      "Manage influencer campaigns across several platforms: a job for each platform, native deliverables, disclosure tools, creator ads, tracking and consistent reporting.",
+    metaDescription: "How to run influencer campaigns across several platforms: a job for each platform, native content, contracts, launch timing and comparing results fairly.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-25",
     lastReviewed: REVIEWED,
     readingTime: "8 min read",
     tags: ["multi-platform influencer campaign", "cross-platform influencer marketing", "influencer campaign Instagram YouTube", "influencer campaign platforms"],
@@ -487,6 +487,29 @@ export const founderExecutionPosts: BlogPost[] = [
           { text: "influencer reporting discrepancies", href: "/blog/influencer-reporting-discrepancies" },
         ],
       },
+      { type: "heading", text: "Comparing performance across platforms fairly", id: "comparing-platforms" },
+      {
+        type: "paragraph",
+        text: "Platforms count things differently, so raw numbers can't be compared directly. A YouTube view, an Instagram Reel play and a LinkedIn impression aren't the same unit, and YouTube changed its view definition on 24 August 2026 to count from the first frame, calling the old measure engaged views.",
+      },
+      {
+        type: "table",
+        headers: ["Instead of comparing", "Compare", "Why"],
+        rows: [
+          ["Views across platforms", "Cost per thousand unique people reached, where available", "Views count repeats and differ by definition"],
+          ["Engagement totals", "Engagement rate by reach, and saves and shares per 1,000 reached", "Likes behave differently on each platform"],
+          ["Link clicks", "Tagged sessions and conversions per platform", "In-app link taps don't all become visits"],
+          ["Each platform's own conversion report", "Deduplicated orders from codes and links in your own data", "Platforms each claim credit for the same sale"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Report each platform against the job it was given (reach, explanation or conversion) rather than ranking platforms on one metric. Why platform reports and site analytics disagree is explained in creator platform reports vs website analytics, and YouTube's change is on YouTube's official blog.",
+        links: [
+          { text: "creator platform reports vs website analytics", href: "/blog/influencer-reporting-discrepancies" },
+          { text: "YouTube's official blog", href: "https://blog.youtube/inside-youtube/engaged-views-youtube-explained/" },
+        ],
+      },
       { type: "heading", text: "Running it day to day", id: "operations" },
       {
         type: "list",
@@ -503,6 +526,34 @@ export const founderExecutionPosts: BlogPost[] = [
         links: [
           { text: "influencer campaign coordination", href: "/blog/influencer-campaign-coordination" },
           { text: "influencer content quality check", href: "/blog/influencer-content-quality-check" },
+        ],
+      },
+      { type: "heading", text: "Questions to answer before adding a platform", id: "adding-a-platform" },
+      {
+        type: "paragraph",
+        text: "Adding a platform to a campaign that works elsewhere is tempting, but every platform adds creators to manage, formats to produce and numbers to reconcile. Answer these before committing budget.",
+      },
+      {
+        type: "table",
+        headers: ["Question", "What a good answer looks like"],
+        rows: [
+          ["What job will this platform do that the current ones don't?", "A specific audience or stage, such as search intent on YouTube or professionals on LinkedIn"],
+          ["Are your customers actually there, in your market?", "Audience data from creators or research, not global platform claims"],
+          ["Is the platform available in your market?", "Confirmed for each country; for example, TikTok is not available in India"],
+          ["Do you have native content, or just reposts?", "At least one concept built for the platform's format"],
+          ["Are there enough suitable creators?", "A test shortlist with audience-location screenshots"],
+          ["Can you track results there?", "Codes, links or platform reports agreed in advance"],
+          ["Who will manage it day to day?", "A named owner with time to brief, approve and moderate"],
+          ["Do contracts and rights cover it?", "Platform, deliverables and ad rights written in"],
+          ["What would make you stop?", "A pass mark and a review date set before launch"],
+          ["What will you take from existing platforms to fund it?", "A budget decision, not an add-on"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Run the new platform as a small test with its own pass marks before scaling; how to size one is covered in how to run a pilot influencer campaign.",
+        links: [
+          { text: "how to run a pilot influencer campaign", href: "/blog/pilot-influencer-campaign" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

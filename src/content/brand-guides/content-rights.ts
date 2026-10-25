@@ -377,6 +377,13 @@ export const contentRightsPosts: BlogPost[] = [
           { text: "influencer marketing governance", href: "/blog/influencer-marketing-governance" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "The wider operating model for groups, including shared creator records and group reporting, is in the enterprise influencer marketing guide.",
+        links: [
+          { text: "enterprise influencer marketing guide", href: "/blog/influencer-marketing-enterprise-brands" },
+        ],
+      },
       { type: "heading", text: "Indian legal context", id: "india-law" },
       {
         type: "paragraph",

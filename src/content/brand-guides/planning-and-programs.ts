@@ -326,6 +326,13 @@ export const planningAndProgramsPosts: BlogPost[] = [
         type: "paragraph",
         text: "Track return rates by reason for products with and without the new content, over the same period. Don't ask creators to hide limitations to lower returns; content that oversells raises them.",
       },
+      {
+        type: "paragraph",
+        text: "A fuller method, from mapping return reasons to measuring results, is in how creator content can help reduce product returns.",
+        links: [
+          { text: "how creator content can help reduce product returns", href: "/blog/creator-content-reduce-returns" },
+        ],
+      },
       { type: "heading", text: "Loyalty programs beyond discount codes", id: "loyalty" },
       {
         type: "paragraph",
@@ -592,6 +599,7 @@ export const planningAndProgramsPosts: BlogPost[] = [
       "Onboard an influencer marketing agency well: the onboarding pack, access, approval matrix, claims, finance setup, tracking, kickoff agenda and first 30 days.",
     author: AUTHOR,
     publishedAt: PUBLISHED,
+    updatedAt: "2026-10-25",
     lastReviewed: REVIEWED,
     readingTime: "11 min read",
     tags: ["influencer marketing agency onboarding", "agency kickoff meeting", "onboard influencer agency", "agency onboarding checklist", "influencer agency first 30 days"],
@@ -672,6 +680,44 @@ export const planningAndProgramsPosts: BlogPost[] = [
         text: "Reporting expectations: influencer campaign reporting.",
         links: [{ text: "influencer campaign reporting", href: "/blog/influencer-marketing-report" }],
       },
+      { type: "subheading", text: "Giving the agency access safely" },
+      {
+        type: "paragraph",
+        text: "Agencies often need to see analytics, run creator ads or create discount codes. Give access through each platform's user or partner features, never by sharing passwords, and give the least access that does the job. Most platforms let you grant and remove access per person or per agency without changing your own login.",
+      },
+      {
+        type: "table",
+        headers: ["System", "How access is usually granted", "Often enough for a creator campaign"],
+        rows: [
+          ["Google Analytics 4", "Add the agency's users with a role; roles range from Viewer and Analyst to Marketer, Editor and Administrator, and cost or revenue metrics can be hidden", "Viewer or Analyst; add revenue data only if the agency reports on sales"],
+          ["Meta (Facebook and Instagram) business assets", "Share specific assets, such as an ad account or Page, with the agency's own business portfolio as a partner, with permissions per asset", "Ad account access for partnership ads only, if the agency runs them"],
+          ["Shopify", "Approve a collaborator request from the agency's Shopify Partner account, choosing which sections it can reach", "Discounts and analytics, not orders or payments, unless needed"],
+          ["Marketplaces and apps", "Use the platform's own user or agency roles where they exist; otherwise share scheduled data exports", "Read-only reports"],
+          ["Spreadsheets and drives", "Share folders with named people, not 'anyone with the link'", "Edit access to campaign folders only"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "What does the agency need to see, and what does it need to change?",
+          "Can a weekly export do the job instead of live access?",
+          "Who at the agency gets access, by name?",
+          "Does the access include customer personal data, and is that necessary?",
+          "Is there a written agreement covering how the agency handles your data?",
+          "How will you remove access when the engagement or a person changes?",
+          "Who on your side approves new access requests?",
+          "Are two-step verification and the platform's security settings switched on for your own admin accounts?",
+          "Will the agency connect any third-party tools to your accounts, and which?",
+          "How often will you review who has access (for example quarterly)?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Role names and options change, so check each platform's help pages when you set access up. If the agency will handle customers' or creators' personal data, India's Digital Personal Data Protection Act and Rules set obligations on your business as well as the agency; influencer marketing and data privacy explains who is responsible for what. This is operational guidance, not legal advice.",
+        links: [
+          { text: "influencer marketing and data privacy", href: "/blog/influencer-marketing-data-privacy" },
+        ],
+      },
       { type: "heading", text: "The kickoff meeting", id: "kickoff" },
       {
         type: "template",
@@ -743,7 +789,7 @@ export const planningAndProgramsPosts: BlogPost[] = [
     slug: "influencer-marketing-governance",
     category: "Brand Marketing",
     title: "Influencer Marketing Governance: How Brands Can Create Rules for Creator Partnerships",
-    updatedAt: "2026-10-01",
+    updatedAt: "2026-10-25",
     seoTitle: "Influencer Marketing Governance and SOPs for Brands",
     excerpt:
       "How brands set rules and standard processes for creator partnerships: the policies every brand needs (selection, brand safety, disclosure, claims, contracts, payments, data, crisis), who approves what, a campaign SOP with templates, and keeping governance light enough that campaigns still move.",
@@ -894,6 +940,48 @@ export const planningAndProgramsPosts: BlogPost[] = [
           { text: "influencer marketing data privacy", href: "/blog/influencer-marketing-data-privacy" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "For companies with several brands or business units, how to split responsibilities between a central team and each unit is set out in influencer marketing for enterprise brands.",
+        links: [
+          { text: "influencer marketing for enterprise brands", href: "/blog/influencer-marketing-enterprise-brands" },
+        ],
+      },
+      { type: "subheading", text: "A shared reporting standard for several agencies" },
+      {
+        type: "paragraph",
+        text: "When different agencies run different markets, products or platforms, their reports rarely match: one counts views, another impressions; one reports engagement rate on followers, another on reach. A short reporting standard, attached to every statement of work, makes the numbers comparable.",
+      },
+      {
+        type: "table",
+        headers: ["Field", "Define it as", "Common inconsistency"],
+        rows: [
+          ["Views and reach", "The platform's own metric names, captured on a stated day after posting (for example day 7)", "Mixing views, plays and impressions; different capture days"],
+          ["Engagement rate", "The formula, such as engagements divided by reach, with what counts as an engagement", "Dividing by followers in one report and by reach in another"],
+          ["Clicks", "Link clicks from the platform or your analytics, stated which", "Platform clicks compared with site sessions"],
+          ["Conversions", "The source (codes, links, analytics) and attribution window", "Different windows, double-counted codes"],
+          ["Costs", "Creator fee, production, product, agency fee, ad spend and tax, listed separately", "Fees reported with or without GST, agency fee hidden"],
+          ["Currency", "Local currency plus a reporting currency with the rate used", "Unstated exchange rates"],
+          ["Naming", "Campaign, market, creator handle, platform and format codes", "Free-text names that can't be joined"],
+          ["Evidence", "Screenshots or exports of platform insights", "Numbers with no source"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Share a spreadsheet template rather than a description, and ask every agency to fill the same columns.",
+          "Agree the dates reports are due and the capture day for each metric.",
+          "Keep commentary separate from numbers, so the numbers can be combined.",
+          "Review the standard once a year, or when a platform renames a metric.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Why platform numbers and website analytics disagree, and how to reconcile them, is covered in why creator platform reports and website analytics don't match.",
+        links: [
+          { text: "why creator platform reports and website analytics don't match", href: "/blog/influencer-reporting-discrepancies" },
+        ],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
@@ -1026,6 +1114,13 @@ export const planningAndProgramsPosts: BlogPost[] = [
           ["Content approval", "R", "A", "C (regulated claims)", "I", "R"],
           ["Paid amplification", "C", "I", "I", "A", "C"],
           ["Reporting", "A", "I", "I", "C", "R"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Running creator marketing across several business units? See influencer marketing for enterprise and multi-brand groups.",
+        links: [
+          { text: "influencer marketing for enterprise and multi-brand groups", href: "/blog/influencer-marketing-enterprise-brands" },
         ],
       },
       { type: "heading", text: "Handoffs with other teams", id: "handoffs" },
@@ -1207,6 +1302,13 @@ export const planningAndProgramsPosts: BlogPost[] = [
           "Space product pushes so the same audience isn't hit with several asks at once.",
           "Use brand-level creator partnerships for consistent presence, and product-level campaigns for launches.",
           "Report by product as well as by campaign, so budget follows what sells.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "To set each product's creator objective by its stage, use the planning sheet in influencer marketing across the product lifecycle.",
+        links: [
+          { text: "influencer marketing across the product lifecycle", href: "/blog/influencer-marketing-product-lifecycle" },
         ],
       },
       { type: "heading", text: "Step 5: Plan across regions", id: "regions" },
