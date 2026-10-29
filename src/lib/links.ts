@@ -1,9 +1,10 @@
 /**
- * Outbound-link policy: the site links out to zspace.in only. Every other
- * external URL in the content stays in the data (so sources can be re-checked
- * or restored) but renders as plain text and is left out of JSON-LD.
+ * Outbound-link policy: the site links out to zspace.in and link-exchange
+ * partners (flowjam.com) only. Every other external URL in the content stays
+ * in the data (so sources can be re-checked or restored) but renders as plain
+ * text and is left out of JSON-LD.
  */
-const ALLOWED_EXTERNAL_HOSTS = ["zspace.in"];
+const ALLOWED_EXTERNAL_HOSTS = ["zspace.in", "flowjam.com"];
 
 export function isExternal(href: string) {
   return /^https?:\/\//i.test(href);
