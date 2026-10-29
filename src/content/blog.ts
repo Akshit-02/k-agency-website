@@ -11946,6 +11946,13 @@ const corePosts: BlogPost[] = [
           { text: "UGC ads", href: "/blog/ugc-ads-indian-brands" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "If the ad is being produced with AI tools rather than a creator, this shot sheet method shows how to pair each scripted line with a visual before anything gets generated.",
+        links: [
+          { text: "shot sheet method", href: "https://www.flowjam.com/blog/how-to-write-a-video-ad-script-with-ai-2026" },
+        ],
+      },
     ],
     faqs: [
       {
