@@ -5,14 +5,13 @@ import { KudozzLogo } from "@/components/graphics/KudozzLogo";
 import { LinkedInGlyph, YouTubeGlyph } from "@/components/graphics/SocialIcons";
 import { Container } from "@/components/ui/Container";
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
-import { isLinkAllowed } from "@/lib/links";
 
 const socialLinks = [
   { href: siteConfig.social.instagram, label: "Instagram", Icon: AtSign },
   // { href: siteConfig.social.tiktok, label: "TikTok", Icon: Music3 },
   { href: siteConfig.social.linkedin, label: "LinkedIn", Icon: LinkedInGlyph },
   // { href: siteConfig.social.youtube, label: "YouTube", Icon: YouTubeGlyph },
-].filter(({ href }) => isLinkAllowed(href));
+];
 
 function FooterColumn({
   title,

@@ -38,9 +38,9 @@ export const siteConfig = {
     creatorEmail: "connect@kudozz.in",
   },
   social: {
-    instagram: "https://instagram.com/kudozz.in",
+    instagram: "https://www.instagram.com/kudozz.in",
     // tiktok: "https://tiktok.com/@kudozz",
-    linkedin: "https://www.linkedin.com/company/kudozz-studio/",
+    linkedin: "https://www.linkedin.com/company/kudozz-media",
     // x: "https://x.com/kudozz",
     // youtube: "https://youtube.com/@kudozz",
   },

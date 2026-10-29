@@ -33,7 +33,8 @@ export function organizationSchema() {
       url: `${siteConfig.url}/for-brands#inquiry`,
       areaServed: ["IN", "AE", "SA", "GB", "AU", "SG"],
     },
-    sameAs: Object.values(siteConfig.social).filter(isLinkAllowed),
+    // Own profiles, so they bypass the outbound-link allowlist.
+    sameAs: Object.values(siteConfig.social),
     knowsAbout: [
       "Influencer Marketing",
       "Influencer Marketing in India",
