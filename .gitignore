@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 /social-content
+/kudozz-reels-batch-02
 
 # dependencies
 /node_modules
