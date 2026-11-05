@@ -307,6 +307,11 @@ export const planningAndProgramsPosts: BlogPost[] = [
         type: "paragraph",
         text: "Support tickets, reviews and returns reasons show which features customers don't find or don't understand. Turn the most common ones into short creator explainers, one feature per video, shown in real use. Creators are useful here because they explain in customers' language rather than the product team's, and because a familiar face makes a tutorial more likely to be watched than a manual. Ask creators to show the feature solving a problem, not just to list it.",
       },
+      {
+        type: "paragraph",
+        text: "To turn this into upgrades, add-ons and repeat purchases, see how to use creators to drive upgrades and cross-sells.",
+        links: [{ text: "use creators to drive upgrades and cross-sells", href: "/blog/influencer-marketing-cross-sell-upsell" }],
+      },
       { type: "heading", text: "Reducing confusion and returns", id: "returns" },
       {
         type: "paragraph",
@@ -1350,6 +1355,11 @@ export const planningAndProgramsPosts: BlogPost[] = [
           "Adjustments to the next quarter's calendar.",
         ],
       },
+{
+  type: "paragraph",
+  text: "For an agenda and a one-page template for the leadership meeting itself, see how to run a quarterly influencer marketing review.",
+  links: [{ text: "quarterly influencer marketing review", href: "/blog/influencer-marketing-quarterly-review" }],
+},
 { type: "heading", text: "The annual program review", id: "annual-review" },
       {
         type: "paragraph",

@@ -125,6 +125,11 @@ export const objectivesAndScalePosts: BlogPost[] = [
           ["Feed back", "Share lead quality by creator with the campaign team weekly"],
         ],
       },
+      {
+        type: "paragraph",
+        text: "For the setup behind this, including capturing the creator on every lead, routing WhatsApp enquiries and follow-up timing, see connecting influencer campaigns to your CRM and follow-up.",
+        links: [{ text: "connecting influencer campaigns to your CRM and follow-up", href: "/blog/influencer-leads-crm-follow-up" }],
+      },
       { type: "heading", text: "Measure from lead to sale", id: "measurement" },
       {
         type: "table",

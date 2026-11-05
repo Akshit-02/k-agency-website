@@ -2040,6 +2040,11 @@ export const contentGapPosts: BlogPost[] = [
         label: "Product stage planning sheet",
         text: "Product | Stage (launch / growth / maturity / decline / relaunch) | Evidence for the stage (sales trend, awareness, repeat rate)\nObjective this quarter | Creator approach | Budget share | Primary KPI and target\nWhat would make us change the plan (e.g. KPI below X for 8 weeks)",
       },
+      {
+        type: "paragraph",
+        text: "If you're still deciding which products deserve creator budget at all, start with how to decide which products to prioritise for influencer marketing.",
+        links: [{ text: "which products to prioritise for influencer marketing", href: "/blog/which-products-to-promote-with-influencers" }],
+      },
       { type: "heading", text: "Common mistakes", id: "common-mistakes" },
       {
         type: "list",

@@ -9911,6 +9911,11 @@ const corePosts: BlogPost[] = [
           { text: "creator whitelisting", href: "/blog/creator-whitelisting" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "If you'd rather plan the creator fees, ad permissions and paid budget together, that's part of how Kudozz runs paid influencer campaigns.",
+        links: [{ text: "paid influencer campaigns", href: "/services/paid-influencer-campaigns" }],
+      },
       { type: "heading", text: "Usage rights and campaign permissions", id: "usage-rights-permissions" },
       {
         type: "paragraph",
@@ -12453,6 +12458,11 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "Effective UGC content ideas map to a specific funnel stage: awareness formats like first impressions and myth-busting earn attention, consideration formats like tutorials and comparisons help someone evaluate the product, conversion formats like testimonials and problem-solution content push a decision, and retention formats like routines and community content keep existing customers engaged. Picking the format based on the objective, not just what looks easy to produce, is what separates useful UGC from generic content.",
       },
+      {
+        type: "paragraph",
+        text: "New to UGC as a channel? Start with what UGC marketing is and how brands use it.",
+        links: [{ text: "what UGC marketing is and how brands use it", href: "/blog/what-is-ugc-marketing" }],
+      },
       { type: "heading", text: "Which UGC types work best for which goal", id: "types-by-goal" },
       {
         type: "table",
@@ -12680,6 +12690,11 @@ const corePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Organic UGC is judged on whether it earns engagement in a feed. Paid UGC is judged on whether it earns a click and, further down, a conversion, inside an ad account competing against every other ad the viewer sees. The same footage can serve both purposes, but a paid UGC ad usually needs a tighter edit, an earlier hook, and a more explicit call to action than a piece of content meant to be posted organically.",
+      },
+      {
+        type: "paragraph",
+        text: "For the fundamentals before you put money behind UGC, see the complete guide to UGC marketing.",
+        links: [{ text: "complete guide to UGC marketing", href: "/blog/what-is-ugc-marketing" }],
       },
       { type: "heading", text: "Why UGC works in performance advertising", id: "why-ugc-works-in-ads" },
       {
@@ -12996,6 +13011,11 @@ const corePosts: BlogPost[] = [
           "Exclusivity: asking a creator not to work with competing brands during a period typically adds to the fee",
           "Volume: bulk or retainer arrangements often bring a lower per-asset cost than one-off single videos",
         ],
+      },
+      {
+        type: "paragraph",
+        text: "If you're still deciding whether UGC fits your marketing at all, see the complete guide to UGC marketing first.",
+        links: [{ text: "complete guide to UGC marketing", href: "/blog/what-is-ugc-marketing" }],
       },
       { type: "heading", text: "Pricing by content type", id: "pricing-by-type" },
       {
@@ -13367,6 +13387,11 @@ const corePosts: BlogPost[] = [
         type: "quote",
         text: "A festival campaign built the week before the festival looks exactly like what it is. The brands that win the season started planning before the previous one ended.",
         attribution: "Kudozz Strategy Team",
+      },
+      {
+        type: "paragraph",
+        text: "If your whole business peaks in one or two seasons, the budget needs planning as carefully as the creative. See influencer budget planning for seasonal businesses.",
+        links: [{ text: "influencer budget planning for seasonal businesses", href: "/blog/influencer-budget-seasonal-business" }],
       },
       { type: "heading", text: "Indian festival and seasonal calendar for creator campaigns", id: "festival-calendar" },
       {
@@ -15441,6 +15466,11 @@ const corePosts: BlogPost[] = [
           { text: "influencer marketing for healthcare brands in India", href: "/blog/influencer-marketing-healthcare-brands-india" },
           { text: "influencer marketing for fintech brands in India", href: "/blog/influencer-marketing-fintech-brands-india" },
         ],
+      },
+      {
+        type: "paragraph",
+        text: "For a category-by-category map covering supplements, finance, insurance, gaming, alcohol, crypto, real estate and coaching, see influencer marketing in regulated categories in India.",
+        links: [{ text: "influencer marketing in regulated categories in India", href: "/blog/regulated-categories-influencer-marketing-india" }],
       },
       { type: "heading", text: "Platform-specific considerations", id: "platform-considerations" },
       {
@@ -21776,6 +21806,11 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "Retail attribution has real limits: a shopper might see a creator's content, browse later without using a tracked code, and still be influenced by that exposure without it showing up in the data. Treat trackable metrics as a meaningful but partial view of a campaign's actual impact.",
       },
+      {
+        type: "paragraph",
+        text: "When most sales happen at the till rather than online, see how to measure influencer impact on in-store sales for store codes, POS capture and matched-market tests.",
+        links: [{ text: "measure influencer impact on in-store sales", href: "/blog/measure-influencer-in-store-sales" }],
+      },
       { type: "heading", text: "Retail Influencer Campaign Funnel", id: "retail-funnel" },
       {
         type: "table",
@@ -21856,6 +21891,11 @@ const corePosts: BlogPost[] = [
           { text: "experiential influencer marketing", href: "/blog/experiential-influencer-marketing" },
           { text: "influencer marketing in tier 2 and tier 3 cities", href: "/blog/influencer-marketing-tier-2-tier-3-cities" },
         ],
+      },
+      {
+        type: "paragraph",
+        text: "For the full plan, including creator selection by catchment, filming permissions and multi-city rollouts, see planning an influencer campaign for a new store opening.",
+        links: [{ text: "planning an influencer campaign for a new store opening", href: "/blog/store-opening-influencer-campaign" }],
       },
     ],
     faqs: [
@@ -26862,10 +26902,10 @@ const corePosts: BlogPost[] = [
     slug: "influencer-campaign-management",
     category: "Campaign Strategy",
     title: "How Influencer Campaign Management Works: A Step-by-Step Guide",
-    seoTitle: "Influencer Campaign Management: How It Works, Step by Step",
+    seoTitle: "How to Manage Influencer Campaigns: A Step-by-Step Guide",
     excerpt:
       "What influencer campaign management is and what it includes: the scope of the work, the step-by-step workflow from objective to final report, who does what, and what to expect from campaign management services.",
-    metaDescription: "How to manage an influencer campaign from objective to final report: the 13 steps, who does what at each stage, a checklist and the problems to plan for.",
+    metaDescription: "Influencer campaign management, step by step: how brands manage a campaign from objective to final report, who does what at each stage, and a checklist.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-09-06",
     updatedAt: "2026-10-14",
@@ -27165,6 +27205,11 @@ const corePosts: BlogPost[] = [
           { text: "influencer marketing team structure", href: "/blog/influencer-marketing-team-structure" },
         ],
       },
+      {
+        type: "paragraph",
+        text: "If you're comparing agencies to run campaigns for you, see the best influencer campaign management agencies in India.",
+        links: [{ text: "best influencer campaign management agencies in India", href: "/blog/best-influencer-campaign-management-agencies-in-india" }],
+      },
       { type: "heading", text: "Running many campaigns at once", id: "running-many-campaigns" },
       {
         type: "paragraph",
@@ -27244,7 +27289,7 @@ const corePosts: BlogPost[] = [
   {
     slug: "influencer-marketing-services-india",
     category: "Brand Marketing",
-    title: "Influencer Marketing Services: What Should a Full-Service Agency Handle?",
+    title: "What Does an Influencer Marketing Agency Do? The Services Explained",
     seoTitle: "What Does an Influencer Marketing Agency Do?",
     excerpt:
       "What an influencer marketing agency actually does, from strategy through reporting, the work you don't see during a live campaign, and how to choose the services your brand needs.",
@@ -27451,6 +27496,11 @@ const corePosts: BlogPost[] = [
         type: "quote",
         text: "The most useful question a brand can ask isn't 'what services do you offer.' It's 'which of these do we actually need right now.'",
         attribution: "Kudozz Strategy Team",
+      },
+      {
+        type: "paragraph",
+        text: "The full list, with what each service includes and who it suits, is on the Kudozz services page.",
+        links: [{ text: "Kudozz services page", href: "/services" }],
       },
       { type: "heading", text: "Deciding what your brand actually needs", id: "deciding-what-you-need" },
       {
@@ -30575,7 +30625,7 @@ const corePosts: BlogPost[] = [
     slug: "influencer-marketing-cost-india",
     category: "Campaign Strategy",
     title: "How Much Does Influencer Marketing Cost in India?",
-    seoTitle: "Influencer Marketing Cost in India: What Drives It",
+    seoTitle: "How Much Does Influencer Marketing Cost in India?",
     metaDescription: "What influencer marketing costs in India: the factors behind creator fees, why published 2026 rate guides disagree, agency fees and a method to price your campaign.",
     excerpt:
       "What drives influencer marketing costs in India, what published 2026 rate guides say and why they disagree, how agency fees fit in, and a method to price your own campaign from real quotes.",
@@ -30623,6 +30673,11 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "Why two specific creators quote very different rates, and how to judge whether a quote is worth paying, is covered in how much to pay influencers.",
         links: [{ text: "how much to pay influencers", href: "/blog/how-much-to-pay-influencers" }],
+      },
+      {
+        type: "paragraph",
+        text: "For one platform in detail, see Instagram influencer rates in India, which breaks down how Reels, Stories and feed posts are priced.",
+        links: [{ text: "Instagram influencer rates in India", href: "/blog/instagram-influencer-rates-india" }],
       },
       { type: "heading", text: "What published rate guides say, and why they disagree", id: "published-rate-guides" },
       {
@@ -31228,6 +31283,11 @@ const corePosts: BlogPost[] = [
         type: "paragraph",
         text: "Creator demonstrations and reviews placed directly on product pages can address exactly the hesitations a shopper has at the point of decision, often more effectively than brand-written copy addressing the same objections.",
       },
+      {
+        type: "paragraph",
+        text: "For placement, which clips answer which buyer hesitations and how to test the effect, see using creator content on product pages.",
+        links: [{ text: "using creator content on product pages", href: "/blog/creator-content-product-pages" }],
+      },
       { type: "heading", text: "5. Email marketing", id: "email-marketing-reuse" },
       {
         type: "paragraph",
@@ -31282,6 +31342,11 @@ const corePosts: BlogPost[] = [
           { text: "how to build an influencer content library", href: "/blog/influencer-content-library" },
           { text: "influencer marketing for sales", href: "/blog/influencer-marketing-sales" },
         ],
+      },
+      {
+        type: "paragraph",
+        text: "For a step-by-step approach to getting sales teams and dealers to actually use this content, see how to get sales teams to use influencer content.",
+        links: [{ text: "get sales teams to use influencer content", href: "/blog/creator-content-sales-enablement" }],
       },
       { type: "heading", text: "Turning creator posts into ad creative", id: "posts-to-ads" },
       {
@@ -32137,6 +32202,11 @@ const corePosts: BlogPost[] = [
           ["Proof on your own channels", "Visitors check your Instagram and site before buying", "Have creator content, reviews and a clear story live before launch day"],
           ["Smaller first budget", "You don't yet know which creators and messages convert", "Test, then scale what works after launch"],
         ],
+      },
+      {
+        type: "paragraph",
+        text: "If your product creates a category buyers don't yet know they need, the launch has to sell the problem first. See influencer marketing for a new product category.",
+        links: [{ text: "influencer marketing for a new product category", href: "/blog/new-product-category-influencer-marketing" }],
       },
       {
         type: "paragraph",
@@ -33336,6 +33406,11 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
+        text: "If you work with the same creators across several campaigns, see how to structure multi-campaign creator agreements and renewals.",
+        links: [{ text: "multi-campaign creator agreements and renewals", href: "/blog/multi-campaign-influencer-agreements" }],
+      },
+      {
+        type: "paragraph",
         text: "For creators reviewing an agreement rather than drafting one, the influencer contract guide for creators explains each clause from the creator's perspective.",
         links: [{ text: "influencer contract guide for creators", href: "/blog/influencer-contract-guide-for-creators" }],
       },
@@ -33446,6 +33521,11 @@ const corePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Rates for the same creator can differ across platforms because production expectations and audience behavior differ: a scripted YouTube video typically costs more to produce and commands a higher rate than a single Instagram Story.",
+      },
+      {
+        type: "paragraph",
+        text: "For Instagram specifically, see Instagram influencer rates in India for how each format is usually priced.",
+        links: [{ text: "Instagram influencer rates in India", href: "/blog/instagram-influencer-rates-india" }],
       },
       { type: "heading", text: "4. Content format and production requirements", id: "content-format" },
       {
@@ -37661,7 +37741,7 @@ const corePosts: BlogPost[] = [
     slug: "what-is-ugc-marketing",
     category: "UGC Marketing",
     title: "UGC Marketing: The Complete Guide for Indian Brands",
-    seoTitle: "What Is UGC? User-Generated Content Marketing Explained",
+    seoTitle: "What Is UGC Marketing? User-Generated Content Explained",
     excerpt:
       "What UGC marketing actually is, how it works, the difference between customer and creator-generated content, and how Indian and D2C brands can build a UGC strategy that actually gets used across the funnel.",
     metaDescription: "What user-generated content (UGC) is, how UGC marketing works, customer vs creator UGC, how it helps a brand grow, rights, disclosure and how to start.",

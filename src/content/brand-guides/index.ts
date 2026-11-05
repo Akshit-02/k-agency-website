@@ -39,6 +39,9 @@ import { founderInternationalPosts } from "@/content/brand-guides/founder-intern
 import { founderFinalPosts } from "@/content/brand-guides/founder-final";
 import { conversionReadinessPosts } from "@/content/brand-guides/conversion-readiness";
 import { contentGapPosts } from "@/content/brand-guides/content-gaps";
+import { commercialPlanningPosts } from "@/content/brand-guides/commercial-planning";
+import { commerceJourneyPosts } from "@/content/brand-guides/commerce-journeys";
+import { programmeGrowthPosts } from "@/content/brand-guides/programme-growth";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -110,4 +113,8 @@ export const brandGuidePosts: BlogPost[] = [
   ...conversionReadinessPosts,
   // Next-20 batch (2026-10-24): eight gaps left after checking the candidate topics; see reports/next-20-blogs/.
   ...contentGapPosts,
+  // Batch 26 (2026-11-05): 15 gaps left after checking 100 proposed topics; see reports/next-100-industry-marketing-batch-26/.
+  ...commercialPlanningPosts,
+  ...commerceJourneyPosts,
+  ...programmeGrowthPosts,
 ];

@@ -379,11 +379,11 @@ export const instagramCreatorPosts: BlogPost[] = [
     slug: "instagram-subscriptions",
     category: "Creator Resources",
     title: "Instagram Subscriptions for Creators: Complete Guide to Paid Content",
-    seoTitle: "Instagram Subscriptions for Creators in India: Full Guide",
+    seoTitle: "Instagram Subscriptions in India: Price, Eligibility and Fees",
     excerpt:
       "How Instagram Subscriptions work for Indian creators: the 10,000-follower requirement, what subscribers get, pricing, fees and payouts, what to put behind the paywall, and how to launch without alienating free followers.",
     metaDescription:
-      "Instagram Subscriptions for Indian creators: 10,000-follower eligibility, subscriber content, pricing, fees, payouts, launch plan and reducing churn.",
+      "How Instagram Subscriptions work in India: what subscribers get, whether it can be viewed free, 10,000-follower eligibility, pricing, fees and payouts.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

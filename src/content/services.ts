@@ -229,6 +229,17 @@ const serviceList: ServiceInput[] = [
     metaDescription:
       "Influencer outreach and campaign management services: negotiation, contracting, usage rights, and deliverable tracking handled by a single point of contact.",
     secondaryKeywords: ["influencer outreach services", "influencer campaign management services", "influencer campaign management", "creator management"],
+    comparison: {
+      title: "Managing creators in-house vs with Kudozz",
+      columns: ["", "In-house team", "Managed by Kudozz"],
+      rows: [
+        ["Outreach and negotiation", "Your team contacts and negotiates with each creator", "Kudozz approaches creators and negotiates rates, deliverables and timelines"],
+        ["Contracts and usage rights", "Your own templates, agreed creator by creator", "Agreed in every contract before content is produced; who contracts is set per engagement"],
+        ["Drafts and approvals", "Tracked across separate emails and DMs", "Tracked in one place; nothing publishes without your approver's sign-off"],
+        ["Creator communication", "A separate thread with every creator", "One point of contact for your team and every creator"],
+        ["Usually suits", "A few creators, or relationships your team already runs well", "Several creators at once, when your team lacks the bandwidth"],
+      ],
+    },
     whoItsFor: "Brands who don't have the internal bandwidth to negotiate, contract, and coordinate multiple creators at once.",
     deliverables: [
       "Outreach and negotiation",
@@ -279,6 +290,11 @@ const serviceList: ServiceInput[] = [
         question: "What do influencer campaign management services include?",
         answer:
           "Outreach and negotiation, contracting with usage rights agreed upfront, tracking of drafts, revisions and approvals, and a single point of contact for your team and every creator.",
+      },
+      {
+        question: "Is influencer campaign management the same as influencer management?",
+        answer:
+          "Not quite. Influencer campaign management runs a brand's campaign from outreach to publishing. \"Influencer management\" is also used for talent management, where an agency represents creators. This service is campaign management on the brand's side.",
       },
       {
         question: "How is creator communication managed during a campaign?",

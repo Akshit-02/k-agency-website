@@ -288,7 +288,7 @@ export const contentAnalyticsPosts: BlogPost[] = [
     excerpt:
       "What each Instagram Insights metric means for creators, including views, reach, interactions, watch time, follows and profile activity, how to read Reels, Stories and posts, and what to do with them.",
     metaDescription:
-      "Instagram Insights for creators: views, reach, interactions, saves, shares, watch time, follows and profile activity explained, Reels vs Stories vs posts insights, audience data, and a monthly review routine.",
+      "How to view and read Instagram Insights as a creator: Reel insights, views, reach, watch time, follows and profile activity, plus a monthly review routine.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

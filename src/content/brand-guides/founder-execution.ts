@@ -142,6 +142,11 @@ export const founderExecutionPosts: BlogPost[] = [
           "Stock and fulfilment limits: dates when you couldn't ship orders the campaign creates.",
         ],
       },
+      {
+        type: "paragraph",
+        text: "If stock is tight, blackout dates alone won't protect you. See how to plan influencer campaigns when stock or supply is limited.",
+        links: [{ text: "plan influencer campaigns when stock or supply is limited", href: "/blog/influencer-marketing-limited-stock" }],
+      },
       { type: "heading", text: "Step 6: Give every date an owner", id: "owners" },
       {
         type: "paragraph",

@@ -414,11 +414,11 @@ export const contentCreationPosts: BlogPost[] = [
     slug: "youtube-shorts-content-strategy",
     category: "Creator Resources",
     title: "YouTube Shorts Content Strategy: How to Build a Channel Around Short-Form Video",
-    seoTitle: "YouTube Shorts Strategy: Build a Channel Around Shorts",
+    seoTitle: "YouTube Shorts Content Strategy: Grow a Shorts Channel",
     excerpt:
       "How to use YouTube Shorts as a growth engine: Shorts-only vs hybrid channels, formats, linking Shorts to long videos, how views and engaged views are counted, and what to measure.",
     metaDescription:
-      "YouTube Shorts content strategy: Shorts-only vs hybrid channels, formats that work, titles and search, linking Shorts to long videos, views vs engaged views, monetization basics and key metrics.",
+      "How to plan a content strategy to grow a YouTube Shorts channel: Shorts-only vs hybrid, formats that work, linking Shorts to long videos and what to measure.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

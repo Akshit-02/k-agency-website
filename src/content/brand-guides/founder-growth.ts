@@ -108,6 +108,11 @@ export const founderGrowthPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
+        text: "If your product's benefit is slow, invisible or hard to film, see creator content for products that are hard to demonstrate.",
+        links: [{ text: "creator content for products that are hard to demonstrate", href: "/blog/creator-content-hard-to-demonstrate-products" }],
+      },
+      {
+        type: "paragraph",
         text: "No format or length guarantees performance; these are starting points to test. Platform choice is covered in Instagram vs YouTube vs TikTok, and format detail in Instagram Stories vs Reels and YouTube Shorts vs long-form.",
         links: [
           { text: "Instagram vs YouTube vs TikTok", href: "/blog/instagram-vs-youtube-vs-tiktok" },

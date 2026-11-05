@@ -157,6 +157,11 @@ export const measurementPosts: BlogPost[] = [
         text: "These metrics are for evaluation first. Some brands also use them as payment terms, such as a fixed fee plus a bonus per sale, or pure commission. Performance-only deals shift risk to the creator, so experienced creators often decline them or price them higher. How brands should pay influencers compares flat fee, affiliate, CPA and hybrid models.",
         links: [{ text: "How brands should pay influencers", href: "/blog/influencer-marketing-payments" }],
       },
+      {
+        type: "paragraph",
+        text: "To work out the highest CPA a campaign can afford before it loses money, see how to calculate the break-even point of an influencer campaign.",
+        links: [{ text: "break-even point of an influencer campaign", href: "/blog/influencer-campaign-break-even" }],
+      },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {
         type: "list",
