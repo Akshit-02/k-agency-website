@@ -8,6 +8,7 @@ import { BrandServices } from "@/components/brands/BrandServices";
 import { WhyChooseUs } from "@/components/brands/WhyChooseUs";
 import { FeaturedCampaigns } from "@/components/home/FeaturedCampaigns";
 import { InquirySection } from "@/components/brands/InquirySection";
+import { BrandMarketsIndustries } from "@/components/brands/BrandMarketsIndustries";
 import { FAQSection } from "@/components/ui/FAQSection";
 
 export const metadata: Metadata = buildMetadata({
@@ -36,12 +37,17 @@ const brandFaqs = [
   {
     question: "How fast can a campaign go from inquiry to launch?",
     answer:
-      "Most campaigns move from a signed strategy brief to launch in two to four weeks. Product launches with a fixed date can move faster with a compressed seeding timeline.",
+      "It depends on the number of creators, approvals, product shipping and usage terms. A small campaign with creators already agreed can launch within a few weeks of the strategy being signed off; launches with a fixed date are planned backwards from that date, with seeding and approvals scheduled first. We give you a timeline with the proposal.",
   },
   {
     question: "What if we've never run an influencer campaign before?",
     answer:
-      "That's the most common starting point for our clients. Every engagement begins with a strategy call regardless of experience level, and we handle the parts — creator vetting, contracting, coordination — that are easiest to get wrong the first time.",
+      "That's fine. Every engagement begins with a strategy call regardless of experience, and we handle the parts that are easiest to get wrong the first time: creator vetting, contracting, disclosure, approvals and coordination.",
+  },
+  {
+    question: "Can Kudozz run campaigns for brands outside India?",
+    answer:
+      "Yes. Besides India, Kudozz runs campaigns for brands in the UAE, Saudi Arabia, the UK, Australia and Singapore. Each market has its own creator licensing, disclosure rules and languages, which we plan for from the start. Kudozz Studios Private Limited is registered in India, and contracting and invoicing are agreed per campaign.",
   },
 ];
 
@@ -60,6 +66,7 @@ export default function ForBrandsPage() {
       <ProblemsSolved />
       <BrandServices />
       <WhyChooseUs />
+      <BrandMarketsIndustries />
       {/* <FeaturedCampaigns /> */}
       <FAQSection
         faqs={brandFaqs}

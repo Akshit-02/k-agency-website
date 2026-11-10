@@ -1,29 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
-<title id="t">Always-on D2C creator loop</title>
-<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<title id="t">D2C influencer marketing playbook by growth stage</title>
 <rect width="1600" height="700" fill="#FAF1E2"/>
-<text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">D2C ALWAYS-ON CREATOR PROGRAM</text>
-<path d="M800 140 L1168 313" stroke="#150F0B" stroke-width="3" stroke-opacity=".35"/>
-<path d="M1168 313 L1027 592" stroke="#150F0B" stroke-width="3" stroke-opacity=".35"/>
-<path d="M1027 592 L573 592" stroke="#150F0B" stroke-width="3" stroke-opacity=".35"/>
-<path d="M573 592 L432 313" stroke="#150F0B" stroke-width="3" stroke-opacity=".35"/>
-<path d="M432 313 L800 140" stroke="#150F0B" stroke-width="3" stroke-opacity=".35"/>
-<rect x="662" y="108" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="650" y="96" width="300" height="88" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
-<text x="676" y="146" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Core creators</text>
-<rect x="1030" y="281" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="1018" y="269" width="300" height="88" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
-<text x="1044" y="319" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Rotating tests</text>
-<rect x="889" y="560" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="877" y="548" width="300" height="88" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
-<text x="903" y="598" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">UGC for ads</text>
-<rect x="435" y="560" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="423" y="548" width="300" height="88" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
-<text x="449" y="598" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Partnership ads</text>
-<rect x="294" y="281" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="282" y="269" width="300" height="88" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
-<text x="308" y="319" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">CAC and repeat</text>
-<rect x="610" y="330" width="380" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
-<text x="800" y="382" font-size="28" font-weight="700" text-anchor="middle" fill="#FAF1E2">Monthly loop</text>
-<text x="800" y="420" font-size="20" text-anchor="middle" fill="#FAF1E2" opacity=".85">Content → ads → learning</text>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">D2C GROWTH PLAYBOOK</text>
+<rect x="82" y="232" width="342" height="240" fill="#150F0B"/>
+<rect x="70" y="220" width="342" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="268" font-size="24" font-weight="700" fill="#FAF1E2">Before PMF</text>
+<text x="92" y="310" font-size="19" fill="#FAF1E2" opacity=".85">Seeding and micro</text>
+<text x="92" y="340" font-size="19" fill="#FAF1E2" opacity=".85">creators, learn fast</text>
+<rect x="454" y="232" width="342" height="240" fill="#150F0B"/>
+<rect x="442" y="220" width="342" height="240" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="464" y="268" font-size="24" font-weight="700" fill="#150F0B">Scaling on Meta</text>
+<text x="464" y="310" font-size="19" fill="#150F0B" opacity=".85">Creator content as ads,</text>
+<text x="464" y="340" font-size="19" fill="#150F0B" opacity=".85">fight creative fatigue</text>
+<rect x="826" y="232" width="342" height="240" fill="#150F0B"/>
+<rect x="814" y="220" width="342" height="240" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="836" y="268" font-size="24" font-weight="700" fill="#150F0B">Every channel</text>
+<text x="836" y="310" font-size="19" fill="#150F0B" opacity=".85">Site, marketplaces,</text>
+<text x="836" y="340" font-size="19" fill="#150F0B" opacity=".85">quick commerce</text>
+<rect x="1198" y="232" width="342" height="240" fill="#150F0B"/>
+<rect x="1186" y="220" width="342" height="240" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1208" y="268" font-size="24" font-weight="700" fill="#150F0B">Measure honestly</text>
+<text x="1208" y="310" font-size="19" fill="#150F0B" opacity=".85">Blended CAC, margin</text>
+<text x="1208" y="340" font-size="19" fill="#150F0B" opacity=".85">and repeat purchase</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Spend from contribution margin, not from follower counts.</text>
 </svg>

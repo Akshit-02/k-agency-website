@@ -527,7 +527,7 @@ export const commercialPlanningPosts: BlogPost[] = [
       { type: "heading", text: "Is influencer marketing a good acquisition channel for you?", id: "acquisition-channel" },
       {
         type: "paragraph",
-        text: "Break-even also lets you compare creators fairly with other channels. Use the same cost definition and the same order rule for each channel, then compare cost per new customer and payback, not ROAS. A creator campaign with a slightly higher cost per customer can still be the better channel if those customers reorder more or return less. Equally, if creator customers are mostly discount hunters who never come back, a low first-order CPA can hide a poor investment.",
+        text: "Break-even also lets you compare creators fairly with other channels. Use the same cost definition and the same order rule for each channel, then compare cost per new customer and payback, not ROAS. A creator campaign with a slightly higher cost per customer can still be the better channel if those customers reorder more or return less. Equally, if creator customers are mostly discount hunters who never come back, a low first-order CPA can hide a poor investment. How this calculation shapes a D2C brand's overall creator budget is covered in influencer marketing for D2C brands in India.", links: [{ text: "influencer marketing for D2C brands in India", href: "/blog/influencer-marketing-d2c-brands-india" }],
       },
       { type: "heading", text: "Common mistakes", id: "common-mistakes" },
       {

@@ -213,7 +213,7 @@ export const rightsAndAnalyticsPosts: BlogPost[] = [
         type: "list",
         items: [
           "Meta (Instagram and Facebook): partnership ads, which show both the creator and brand. Creators grant permissions at the account level or for specific content, and can revoke them. See Instagram's help on partnership ad permissions.",
-          "YouTube: partnership ads powered by BrandConnect. You link a video to the brand's Google Ads account, or accept the brand's request to link it, and the brand runs it as an ad. Google says the advertiser is responsible for securing the rights to use the video as an ad, so agree the terms separately.",
+          "YouTube: Creator Partnerships boost (formerly partnership ads; BrandConnect was renamed Creator Partnerships in March 2026). You grant the brand partner access to the video in YouTube Studio, or accept the brand's request for access, and the brand can then run it as an ad. You can remove access later, though YouTube notes the video may still be promoted in other ad contexts. Google says the advertiser is responsible for securing the rights to use the video as an ad, so agree the terms separately.",
           "TikTok: Spark Ads. You switch on ad authorization for a post, choose how long it lasts, and share the code with the brand. TikTok is blocked in India, so this only matters for campaigns aimed at audiences in other markets.",
           "Other platforms use their own terms and tools; check each platform's current help pages.",
         ],

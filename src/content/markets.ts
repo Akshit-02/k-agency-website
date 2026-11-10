@@ -510,7 +510,7 @@ export const markets: Market[] = [
       "Kudozz runs influencer campaigns for brands in Singapore: ASAS-compliant disclosure, MAS and MOH sector checks, multilingual creators, management and reporting.",
     h1: "Influencer marketing agency for brands in Singapore",
     intro: [
-      "Kudozz plans and runs influencer and creator campaigns for brands selling in Singapore. We set one objective, shortlist creators whose audiences are in Singapore, choose language by audience (English, Mandarin, Malay or Tamil), build ASAS disclosure rules into every brief and contract, and report results creator by creator in SGD.",
+      "Kudozz plans and runs influencer and creator campaigns, often called KOL (key opinion leader) campaigns in Singapore, for brands selling in Singapore. We set one objective, shortlist creators whose audiences are in Singapore, choose language by audience (English, Mandarin, Malay or Tamil), build ASAS disclosure rules into every brief and contract, and report results creator by creator in SGD.",
       "Singapore is a compact, highly connected market: DataReportal counted 5.33 million social media user identities in October 2025, equal to 90.6% of the population. That makes audience overlap between creators a real planning issue, so we check it before shortlisting.",
     ],
     ogLocale: "en_SG",

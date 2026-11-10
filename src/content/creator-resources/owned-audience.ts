@@ -922,206 +922,250 @@ export const ownedAudiencePosts: BlogPost[] = [
     ],
   },
   {
-    slug: "how-to-build-a-creator-community",
-    category: "Creator Resources",
-    title: "How to Build a Creator Community: From Followers to an Engaged Audience",
-    seoTitle: "How to Build a Creator Community From Your Followers",
-    excerpt:
-      "Followers watch. A community talks back, and to each other. Here's how creators can turn an audience into a community: choosing a home, rituals, moderation, and when (and whether) to charge.",
-    metaDescription:
-      "How to build a creator community: audience vs community, choosing platforms, community rituals, moderation and rules, member contribution, measuring community health, and moving to paid communities.",
-    author: CREATOR_AUTHOR,
-    publishedAt: CREATOR_CLUSTER_PUBLISHED,
-    lastReviewed: CREATOR_FACTS_REVIEWED,
-    readingTime: "11 min read",
-    tags: ["creator community", "build a community", "online community", "engaged audience", "community management", "creator community building", "turn followers into community"],
-    related: ["whatsapp-community-for-creators", "creator-paid-community-india", "creator-newsletter-india"],
-    body: [
-      {
-        type: "paragraph",
-        text: "An audience is a group of people who watch you. A community is a group of people who know each other because of you. The difference matters: communities are more resilient to algorithm changes, generate ideas and feedback, and are far more likely to support what you build.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "To build a creator community: define who it's for and why they'd want to meet each other, start where your audience already is (comments, broadcast channels, WhatsApp, Discord or Telegram), create simple recurring rituals (weekly prompts, live Q&As, challenges), set clear rules and moderate them, give members ways to contribute, and measure participation rather than size. Start free and small; consider paid tiers only when members are getting consistent value.",
-      },
-      { type: "heading", text: "Audience vs community", id: "audience-vs-community" },
-      {
-        type: "table",
-        headers: ["", "Audience", "Community"],
-        rows: [
-          ["Direction", "Creator → followers", "Creator ↔ members ↔ members"],
-          ["Main activity", "Watching, liking", "Discussing, helping, sharing"],
-          ["Value comes from", "Your content", "Your content plus other members"],
-          ["Size", "Can be very large", "Usually smaller, more active"],
-          ["Resilience", "Depends on platform reach", "Survives platform changes better"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "An engaged audience still matters, especially for brand deals; see how to build an audience brands want to reach. This guide is about the next step.",
-        links: [{ text: "how to build an audience brands want to reach", href: "/blog/how-to-build-an-audience-brands-want" }],
-      },
-      { type: "heading", text: "Step 1: Define the community's purpose", id: "purpose" },
-      {
-        type: "template",
-        label: "Community purpose statement",
-        text: "A place for [specific people] to [shared goal or interest] together, with [what I provide].\n\nExamples (illustrative):\n• A place for first-time investors to ask \"stupid\" money questions without judgement, with a weekly live Q&A from me.\n• A place for Gujarat weekend travellers to swap itineraries and stays, with my monthly route drops.\n• A place for beginner home bakers to share bakes and troubleshoot, with weekly challenges.",
-      },
-      { type: "heading", text: "Step 2: Choose where it lives", id: "platforms" },
-      {
-        type: "table",
-        headers: ["Home", "Strengths", "Limits"],
-        rows: [
-          ["Comments and Lives", "Already where your audience is", "Conversation is with you, less between members"],
-          ["Instagram broadcast channels", "One-to-many updates to followers, polls, reactions", "Mostly broadcast; limited member-to-member discussion"],
-          ["WhatsApp Channels and Communities", "Very familiar to Indian audiences; high reach on phones", "Group size limits; moderation effort; privacy considerations"],
-          ["Telegram groups and channels", "Large groups, bots, topics", "Less familiar to some audiences"],
-          ["Discord", "Structured channels, roles, events", "Learning curve for non-gamers"],
-          ["Community platforms or your own site", "Ownership, courses and paid tiers built in", "Members need a new app or login"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Start where your audience already spends time. For Indian creators that is often WhatsApp; see WhatsApp community for creators. Instagram's help centre describes how broadcast channels work.",
-        links: [
-          { text: "WhatsApp community for creators", href: "/blog/whatsapp-community-for-creators" },
-          { text: "how broadcast channels work", href: SOURCES.instagramBroadcastChannels },
-        ],
-      },
-      { type: "heading", text: "Step 3: Create rituals", id: "rituals" },
-      {
-        type: "list",
-        items: [
-          "Weekly prompt: \"Share your Sunday bake\", \"What did you invest in this month?\"",
-          "Recurring live session: Q&A, co-working, review of member submissions.",
-          "Challenges: 7-day or 30-day, with check-ins.",
-          "Member spotlights: celebrate progress and contributions.",
-          "Monthly drops: a resource, route, template or recap only the community gets.",
-        ],
-      },
-      { type: "heading", text: "Step 4: Set rules and moderate", id: "moderation" },
-      {
-        type: "list",
-        items: [
-          "Write five or six clear rules: be respectful, no spam or self-promotion without permission, no medical or financial advice presented as fact, no sharing members' personal data.",
-          "Pin the rules and repeat them to new members.",
-          "Appoint trusted members as moderators as it grows.",
-          "Remove spam and scams quickly; communities are a target for fake offers.",
-          "Protect privacy: large groups can expose phone numbers; choose settings and platforms accordingly.",
-        ],
-      },
-      { type: "heading", text: "Step 5: Let members contribute", id: "contribution" },
-      {
-        type: "paragraph",
-        text: "The strongest communities don't depend on the creator for every post. Ask members to answer each other, share resources, host sessions or run challenges. Credit them publicly.",
-      },
-      { type: "heading", text: "Measuring community health", id: "metrics" },
-      {
-        type: "table",
-        headers: ["Metric", "What it shows"],
-        rows: [
-          ["Active members (weekly)", "How many people participate, not just join"],
-          ["Member-to-member replies", "Whether it's a community or a broadcast"],
-          ["Retention after 30/90 days", "Whether people keep finding value"],
-          ["Ritual participation", "Which formats work"],
-          ["Qualitative feedback", "What members want more or less of"],
-        ],
-      },
-      { type: "heading", text: "When to charge", id: "when-to-charge" },
-      {
-        type: "paragraph",
-        text: "Charging can improve commitment and fund your time, but only once members get consistent value. See how to build a paid community and creator memberships.",
-        links: [
-          { text: "how to build a paid community", href: "/blog/creator-paid-community-india" },
-          { text: "creator memberships", href: "/blog/creator-memberships" },
-        ],
-      },
-      { type: "heading", text: "Community and brand partnerships", id: "brands" },
-      {
-        type: "paragraph",
-        text: "An active community makes you more valuable to relevant brands, but members didn't join to be sold to. If you bring a brand into the community (a sponsored session, a member discount), disclose it clearly, keep it relevant, and don't share member data with brands.",
-      },
-      { type: "heading", text: "The community ladder", id: "ladder" },
-      {
-        type: "image",
-        src: "/blog/creator-resources/creator-community-ladder.svg",
-        alt: "Creator community ladder: discovery, engagement, conversation, belonging and ownership",
-        caption: "Each step asks a little more of the audience, and gives more back.",
-        width: 1200,
-        height: 675,
-      },
-      {
-        type: "table",
-        headers: ["Step", "What happens", "Your job"],
-        rows: [
-          ["Discovery", "People find your content", "Be findable and clear"],
-          ["Engagement", "They react, save and share", "Make content worth keeping"],
-          ["Conversation", "They reply and ask", "Invite and answer; see community engagement"],
-          ["Belonging", "They talk to each other", "Create rituals and spaces"],
-          ["Ownership", "They join spaces you can reach directly", "Email, WhatsApp, community platforms"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Designing conversations is covered in creator community engagement; paid spaces in how to build a paid community; owned channels in creator audience ownership.",
-        links: [
-          { text: "creator community engagement", href: "/blog/creator-community-engagement" },
-          { text: "how to build a paid community", href: "/blog/creator-paid-community-india" },
-          { text: "creator audience ownership", href: "/blog/creator-audience-ownership" },
-        ],
-      },
-      { type: "heading", text: "Mistakes to avoid", id: "mistakes" },
-      {
-        type: "list",
-        items: [
-          "Launching a big group with no purpose or rituals.",
-          "Posting only announcements, so it becomes a broadcast.",
-          "No rules or moderation until something goes wrong.",
-          "Charging before the free version works.",
-          "Using the community mainly as a sales channel.",
-          "Ignoring privacy settings in large groups.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Communities grow faster alongside other creators; see creator cross-promotion.",
-        links: [{ text: "creator cross-promotion", href: "/blog/creator-cross-promotion" }],
-      },
-      {
-        type: "paragraph",
-        text: "If your audience is mostly on Instagram, broadcast channels are an easy place to start; see Instagram broadcast channels.",
-        links: [{ text: "Instagram broadcast channels", href: "/blog/instagram-broadcast-channels" }],
-      },
-      { type: "heading", text: "Conclusion", id: "conclusion" },
-      {
-        type: "paragraph",
-        text: "Start with a clear purpose and a small group of your most engaged followers. Build one or two rituals, moderate from day one, and measure how many members talk to each other. A healthy community supports everything else you do, from newsletters to products to brand partnerships.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What's the difference between an audience and a community?",
-        answer:
-          "An audience watches your content. A community interacts with you and with each other around a shared purpose, which makes it more resilient and more valuable.",
-      },
-      {
-        question: "Where should creators build a community?",
-        answer:
-          "Start where your audience already is. For many Indian creators that's WhatsApp or Instagram broadcast channels; others use Telegram, Discord or a dedicated community platform.",
-      },
-      {
-        question: "How big does a community need to be?",
-        answer: "Size matters less than participation. A small group where members help each other is healthier than a large, silent one.",
-      },
-      {
-        question: "Should creator communities be free or paid?",
-        answer:
-          "Most start free. Charging makes sense once members are getting consistent, clearly defined value and you can commit to delivering it.",
-      },
-    ],
-  },
+      slug: "how-to-build-a-creator-community",
+      category: "Creator Resources",
+      title: "How to Build a Creator Community: From Followers to an Engaged Audience",
+      seoTitle: "How to Build a Creator Community: Platforms, Rules, Rituals",
+      excerpt:
+        "Followers watch. A community talks back, and to each other. How Indian creators choose a home, run rituals, moderate, keep members safe and decide when to charge.",
+      metaDescription:
+        "How to build a creator community in India: audience vs community, WhatsApp, Telegram, Discord or YouTube, rituals, a code of conduct, safety and health metrics.",
+      author: { name: "Kudozz Partnerships Team", role: "Creator Partnerships" },
+      publishedAt: "2026-09-28",
+      updatedAt: "2026-11-10",
+      lastReviewed: "November 2026",
+      readingTime: "9 min read",
+      tags: ["creator community", "build a community", "whatsapp channel for creators", "community moderation", "engaged audience", "turn followers into community"],
+      related: ["whatsapp-community-for-creators", "creator-community-engagement", "creator-paid-community-india", "instagram-broadcast-channels", "creator-audience-ownership"],
+      body: [
+        {
+          type: "paragraph",
+          text: "You have followers who like and comment, but when the algorithm has a bad week, it feels like nobody is there. A community fixes that. It's a group of people who know each other because of you, keep showing up when reach dips, and tell you what to make next. This guide covers how to start one, where to host it in India, how to keep it safe, and how to tell if it's working.",
+        },
+        { type: "heading", text: "Quick answer", id: "quick-answer" },
+        {
+          type: "paragraph",
+          text: "To build a creator community, pick one specific shared interest, invite your most engaged followers into a single space they already use (a WhatsApp Community, Telegram group, Discord server, YouTube membership or an offline meetup), and run one or two simple weekly rituals. Publish a short code of conduct, moderate from day one, and protect members from scammers who impersonate you. Measure how many members reply to each other, not how many joined. Charge only once the free version is clearly valuable.",
+        },
+        { type: "heading", text: "Audience vs community", id: "audience-vs-community" },
+        {
+          type: "table",
+          headers: ["", "Audience", "Community"],
+          rows: [
+            ["Direction", "You talk, followers watch", "You and members talk, and members talk to each other"],
+            ["Main activity", "Watching, liking, saving", "Asking, helping, sharing their own work"],
+            ["Value comes from", "Your content", "Your content plus other members"],
+            ["Size", "Can be very large", "Usually smaller and more active"],
+            ["If reach drops", "You lose visibility", "Members still meet in the space you run"],
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "The test is simple: if you stopped posting for a week, would members still talk to each other? If not, you have an audience with a group chat, which is fine as a start. An engaged audience still matters for brand deals (see how to build an audience brands want to reach), and replying well in comments is covered in creator community engagement. This guide is about the next step.",
+          links: [
+            { text: "how to build an audience brands want to reach", href: "/blog/how-to-build-an-audience-brands-want" },
+            { text: "creator community engagement", href: "/blog/creator-community-engagement" },
+          ],
+        },
+        { type: "heading", text: "Step 1: Choose a shared purpose", id: "purpose" },
+        {
+          type: "paragraph",
+          text: "People join a community for each other as much as for you. That needs a narrow, shared reason to be there. \"My fans\" is not a purpose. \"Beginner runners in Pune training for their first 10K\" is. If you're unsure what your followers have in common, look at the questions they ask in comments and DMs, or run a quick poll; creator audience research shows how.",
+          links: [{ text: "creator audience research", href: "/blog/creator-audience-research" }],
+        },
+        {
+          type: "template",
+          label: "Community purpose statement",
+          text: "A place for [specific people] to [shared goal or interest] together, with [what I provide].\n\nExamples (illustrative):\n- A place for first-time investors to ask basic money questions without judgement, with a monthly live Q&A from me.\n- A place for Gujarat weekend travellers to swap itineraries and stays, with my monthly route drops.\n- A place for Telugu-speaking home bakers to share bakes and troubleshoot, with a weekly challenge.",
+        },
+        { type: "heading", text: "Step 2: Choose where it lives", id: "platforms" },
+        {
+          type: "paragraph",
+          text: "Start where your members already spend time, and start in one place. Feature sets change often, so check the current options in each app before you commit.",
+        },
+        {
+          type: "table",
+          headers: ["Home", "Good for", "Trade-offs"],
+          rows: [
+            ["Instagram broadcast channel", "Updates, polls and behind-the-scenes for followers", "Mostly one-way; members don't really talk to each other"],
+            ["WhatsApp Channel", "One-way updates on the app most Indians open daily", "Broadcast only, no member-to-member chat"],
+            ["WhatsApp Community or group", "Real conversation in a familiar app, including for regional-language audiences", "Phone numbers can be exposed; heavy moderation load; notification fatigue"],
+            ["Telegram group", "Large groups, files, topic threads", "Less familiar to some audiences; scam bots and fake admins are common"],
+            ["YouTube Posts and channel memberships", "Your existing viewers, perks for members", "Memberships have eligibility rules; little member-to-member chat"],
+            ["Discord server", "Gaming, tech, coding and study groups; roles and voice rooms", "Learning curve for non-gamers; needs active moderators"],
+            ["Offline meetups", "Deep trust, local communities in Indore, Kochi, Guwahati and beyond", "Venue cost, safety planning, limited reach"],
+          ],
+        },
+        { type: "subheading", text: "WhatsApp: Channels vs Communities and groups" },
+        {
+          type: "paragraph",
+          text: "These are different tools. According to the WhatsApp Help Center on channel privacy (fetched 10 November 2026), people viewing a channel can't see who else follows it or a follower's name, phone number or profile photo, while channel admins can see a follower's profile name. That makes Channels a safer way to broadcast. Groups and Communities allow conversation, but WhatsApp's own Building a Safe Community guide warns admins not to @mention members in the announcement group, because that exposes their number to the whole community. Our WhatsApp community for creators guide covers setup in detail.",
+          links: [
+            { text: "WhatsApp Help Center on channel privacy", href: "https://faq.whatsapp.com/549900560675125" },
+            { text: "Building a Safe Community", href: "https://www.whatsapp.com/communities/learning/buildingasafecommunity" },
+            { text: "WhatsApp community for creators", href: "/blog/whatsapp-community-for-creators" },
+          ],
+        },
+        { type: "subheading", text: "YouTube memberships" },
+        {
+          type: "paragraph",
+          text: "YouTube's Partner Program help page lists channel memberships under the expanded YPP tier: at least 500 subscribers, 3 public uploads in the last 90 days, and either 3,000 watch hours in 12 months or 3 million Shorts views in 90 days, with an 18+ requirement and exclusions for Made for Kids channels (fetched 10 November 2026). Check your eligibility in YouTube Studio under Earn. If your audience is mostly on Instagram, start with Instagram broadcast channels instead.",
+          links: [
+            { text: "Partner Program help page", href: "https://support.google.com/youtube/answer/72857" },
+            { text: "Instagram broadcast channels", href: "/blog/instagram-broadcast-channels" },
+          ],
+        },
+        { type: "heading", text: "Step 3: Create rituals", id: "rituals" },
+        {
+          type: "paragraph",
+          text: "Rituals give people a reason to come back on a predictable day and a low-effort way to take part. Start with one or two and keep them for at least six weeks before judging.",
+        },
+        {
+          type: "list",
+          items: [
+            "Weekly prompt: \"Share your Sunday bake\", \"What did you save this month?\", \"Post your long-run route\".",
+            "Member spotlight: feature one member's progress or work each week, with their permission.",
+            "AMA or live Q&A: monthly, with questions collected in advance so quieter members get answers too.",
+            "Challenges: 7-day or 30-day, with a daily check-in thread.",
+            "Festival or season moments: a Navratri outfit thread, a monsoon trek plan, an exam-season study room.",
+            "Monthly drop: a resource, template or recap only the community gets.",
+          ],
+        },
+        { type: "heading", text: "Step 4: Let members contribute", id: "contribution" },
+        {
+          type: "paragraph",
+          text: "A community that depends on you for every message becomes a broadcast. Your goal is member-to-member conversation. When someone asks a question, wait a little before answering so other members can help. Tag in a member who solved the same problem last month. Invite regulars to host a session, run a challenge or welcome newcomers, and credit them publicly. Over time, appoint two or three trusted members as moderators.",
+        },
+        { type: "heading", text: "Step 5: Set rules and moderate", id: "moderation" },
+        {
+          type: "paragraph",
+          text: "Write rules before you need them. Pin them, share them with every new member, and enforce them the same way for everyone, including friends and long-time fans. Use admin controls such as join approvals, removing members and deleting messages. Our guide to creator content moderation covers spam and abuse handling in comments as well.",
+          links: [{ text: "creator content moderation", href: "/blog/creator-content-moderation" }],
+        },
+        {
+          type: "template",
+          label: "Code of conduct (copy and adapt)",
+          text: "WELCOME TO [COMMUNITY NAME]\nThis is a space for [purpose]. To keep it useful and safe:\n\n1. Be kind. Disagree with ideas, not people. No abuse, slurs or bullying, in any language.\n2. Stay on topic: [topic]. Off-topic chat goes in [thread/day].\n3. No selling, links or self-promotion without admin permission.\n4. Protect privacy. Don't share anyone's number, photos, address or screenshots from this group outside it.\n5. No medical, legal or financial advice presented as fact. Share experiences, not guarantees.\n6. I will never DM you asking for money, OTPs, passwords or payments for prizes. If someone does, it's a scam. Report it to [admin name].\n7. Admins may remove messages or members who break these rules.\n\nQuestions? Message [admin name / moderator names].",
+        },
+        { type: "heading", text: "Step 6: Keep members safe", id: "safety" },
+        {
+          type: "paragraph",
+          text: "The bigger your community, the more it attracts people who want to exploit it. You can't prevent every problem, but you can make your space harder to abuse.",
+        },
+        {
+          type: "list",
+          items: [
+            "Impersonators: scammers copy your name and photo, then DM members with fake giveaways, \"VIP group\" fees or investment tips. Tell members, often, what you will never ask for, and report fake accounts quickly.",
+            "Deepfakes: fake videos or voice notes of you can be used to promote scams. Our guide to deepfakes and creator identity protection explains what to watch for.",
+            "Minors: if teenagers might join, keep conversations public within the group, never encourage private DMs between adults and minors, and remove anyone who does. Consider an 18+ rule for topics like finance or dating.",
+            "Harassment: remove harassers first and discuss later. Screenshot evidence before deleting, in case a member wants to report it.",
+            "Offline meetups: choose public venues, share an agenda, never publish attendees' details, and have a second organiser present.",
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "Start with creator impersonation and deepfakes and creator identity protection, and secure your own accounts with two-step verification so nobody can take over your admin role.",
+          links: [
+            { text: "creator impersonation", href: "/blog/creator-impersonation" },
+            { text: "deepfakes and creator identity protection", href: "/blog/deepfakes-creator-identity-protection" },
+          ],
+        },
+        { type: "heading", text: "Measuring community health", id: "metrics" },
+        {
+          type: "table",
+          headers: ["Metric", "How to track it", "What it tells you"],
+          rows: [
+            ["Weekly active members", "Count unique people who posted or reacted this week", "Participation, not just joins"],
+            ["Member-to-member replies", "Of the last 20 questions, how many did a member answer before you?", "Whether it's a community or a broadcast"],
+            ["30- and 90-day retention", "Of people who joined in a given month, how many still take part", "Whether people keep finding value"],
+            ["Ritual participation", "Responses per weekly prompt or attendees per AMA", "Which formats to keep"],
+            ["Exits and mutes", "Leaves after big announcements or promotions", "Whether you're over-posting or over-selling"],
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "A simple spreadsheet updated every Sunday is enough. There's no universal benchmark; compare this month with last month.",
+        },
+        { type: "heading", text: "When to charge", id: "when-to-charge" },
+        {
+          type: "paragraph",
+          text: "Charging can fund your time and increase commitment, but only once members already get consistent value for free. Signs you're ready: members ask for more of something specific, rituals run without you pushing them, and you can commit to a paid offering every month. Our guides on how to build a paid community in India and YouTube channel membership strategy cover pricing, perks and platforms.",
+          links: [
+            { text: "how to build a paid community in India", href: "/blog/creator-paid-community-india" },
+            { text: "YouTube channel membership strategy", href: "/blog/youtube-channel-membership-strategy" },
+          ],
+        },
+        { type: "heading", text: "Community and brand partnerships", id: "brands" },
+        {
+          type: "paragraph",
+          text: "An active community can make you more useful to relevant brands, but members didn't join to be sold to. If you bring a brand in (a sponsored session or a member discount), disclose it clearly, keep it relevant to the purpose, and never share members' names, numbers or data with brands.",
+        },
+        { type: "heading", text: "The community ladder", id: "ladder" },
+        {
+          type: "image",
+          src: "/blog/creator-resources/creator-community-ladder.svg",
+          alt: "Creator community ladder: discovery, engagement, conversation, belonging and ownership",
+          caption: "Each step asks a little more of the audience, and gives more back.",
+          width: 1200,
+          height: 675,
+        },
+        {
+          type: "table",
+          headers: ["Step", "What happens", "Your job"],
+          rows: [
+            ["Discovery", "People find your content", "Be findable and clear about your niche"],
+            ["Engagement", "They react, save and share", "Make content worth keeping"],
+            ["Conversation", "They reply and ask questions", "Invite and answer"],
+            ["Belonging", "They talk to each other", "Create rituals and a safe space"],
+            ["Ownership", "They join spaces you can reach directly", "Move them to channels you control; see creator audience ownership"],
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "Each step asks a little more of members and gives them more back. For the ownership step, read creator audience ownership.",
+          links: [{ text: "creator audience ownership", href: "/blog/creator-audience-ownership" }],
+        },
+        { type: "heading", text: "Mistakes to avoid", id: "mistakes" },
+        {
+          type: "list",
+          items: [
+            "Opening a big group on day one with no purpose or rituals.",
+            "Running three platforms at once and doing none of them well.",
+            "Posting only announcements, so the group becomes a broadcast.",
+            "No rules or moderators until something goes wrong.",
+            "Adding people to WhatsApp groups without asking them first.",
+            "Charging before the free version works, or using the group mainly to sell.",
+          ],
+        },
+        { type: "heading", text: "Conclusion", id: "conclusion" },
+        {
+          type: "paragraph",
+          text: "Write a one-line purpose, invite 20 to 50 of your most engaged followers into one space, and run one weekly ritual for six weeks. Pin a code of conduct, warn members about impersonators, and track how often members answer each other. Once that loop works, grow it slowly, and only then think about paid tiers.",
+        },
+      ],
+      faqs: [
+        {
+          question: "How many members do I need to start a community?",
+          answer:
+            "Fewer than you think. Twenty to fifty engaged people who share an interest are enough to test rituals. It's easier to build habits in a small group and grow it than to revive a large, silent one.",
+        },
+        {
+          question: "Can I run a community in a regional language?",
+          answer:
+            "Yes, and a shared language can strengthen it. Write your rules and prompts in the language members use most, and add a second-language summary if your audience is mixed, such as Hindi and English or Tamil and English.",
+        },
+        {
+          question: "How much time does running a community take?",
+          answer:
+            "Plan for a few short check-ins each day plus time for one weekly ritual. Moderators and member-led sessions reduce the load as it grows; if you can't commit that time, start with a broadcast channel instead.",
+        },
+        {
+          question: "Should I make my community invite-only?",
+          answer:
+            "Invite-only or approval-based joining helps early on. It keeps spam out and lets you set the tone with your most engaged followers before opening it more widely.",
+        },
+      ],
+    },
   {
     slug: "whatsapp-community-for-creators",
     category: "Creator Resources",

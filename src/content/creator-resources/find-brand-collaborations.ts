@@ -762,8 +762,8 @@ export const findBrandCollaborationPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Many first collaborations start with a gifted product. Creator product seeding explains whether you owe a post, how to disclose it and how to turn it into paid work.",
-        links: [{ text: "Creator product seeding", href: "/blog/creator-product-seeding" }],
+        text: "Many first collaborations start with a gifted product. Creator product seeding explains whether you owe a post, how to disclose it and how to turn it into paid work. If your following is still small, UGC work for brands is another route in; see this guide to becoming a UGC creator.",
+        links: [{ text: "Creator product seeding", href: "/blog/creator-product-seeding" }, { text: "becoming a UGC creator", href: "/blog/how-to-become-a-ugc-creator-india" }],
       },
     ],
     faqs: [

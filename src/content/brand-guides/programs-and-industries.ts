@@ -1469,25 +1469,32 @@ export const programsAndIndustriesPosts: BlogPost[] = [
     title: "Influencer Marketing in Tier 2 and Tier 3 Cities: How Brands Can Scale Beyond Metros",
     seoTitle: "Influencer Marketing in Tier 2 and Tier 3 Cities",
     excerpt:
-      "How brands use creators to grow beyond metro cities: deciding which states and cities to prioritize, the difference between tier 2 and tier 3 audiences, creator types and platforms that work, price and availability realities, local trust, offline conversion paths and measuring market expansion.",
+      "How brands use creators to grow beyond metro cities: choosing which states and cities to prioritise, the difference between tier 2 and tier 3 audiences, winning first-time online shoppers, local creators and formats, conversion paths including COD, and measuring market expansion.",
     metaDescription:
-      "Scale beyond metros with creators: choosing tier 2 and tier 3 cities, local creators, platforms and formats, availability, offline conversion and measurement.",
-    author: AUTHOR,
-    publishedAt: PUBLISHED,
-    updatedAt: "2026-10-25",
-    lastReviewed: REVIEWED,
-    readingTime: "13 min read",
-    tags: ["influencer marketing tier 2 cities", "tier 3 city influencer marketing", "Bharat influencer marketing", "scale beyond metro cities", "small town creators India"],
+      "Grow beyond metros with creators: choosing tier 2 and 3 cities, winning first-time online shoppers, local creators, COD and returns, and measuring by market.",
+    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
+    publishedAt: "2026-09-30",
+    updatedAt: "2026-11-10",
+    lastReviewed: "November 2026",
+    readingTime: "11 min read",
+    tags: [
+      "influencer marketing tier 2 cities",
+      "tier 3 city influencer marketing",
+      "Bharat influencer marketing",
+      "first-time online shoppers India",
+      "scale beyond metro cities",
+      "small town creators India",
+    ],
     related: ["regional-influencer-marketing-india", "pan-india-influencer-marketing-campaign", "influencer-audience-quality"],
     hero: { src: "/blog/brand-guides/influencer-marketing-tier-2-tier-3-cities.svg", alt: "Expansion from metro cities to tier 2 and tier 3 markets with local creators, availability checks and market-level measurement" },
     body: [
       {
         type: "paragraph",
-        text: "Many Indian brands reach a point where metro growth slows and the next customers live in Indore, Coimbatore, Guwahati, Nashik, Bhubaneswar and hundreds of smaller towns. Creators are often the most practical way to reach them, because local creators already hold the trust that a brand from a big city hasn't earned yet. The mistake is treating \"tier 2 and 3\" as one audience.",
+        text: "Many Indian brands reach a point where metro growth slows and the next customers live in Indore, Coimbatore, Guwahati, Nashik, Bhubaneswar and hundreds of smaller towns. Creators are often the most practical way to reach them, because local creators already hold the trust that a brand from a big city hasn't earned yet. The mistake is treating \"tier 2 and 3\" as one audience, and forgetting that many of these customers are buying online from an unfamiliar brand for the first time.",
       },
       {
         type: "paragraph",
-        text: "Language strategy is covered in regional and vernacular influencer marketing, and running campaigns across many markets at once in how to run a pan-India influencer marketing campaign. This guide is about the decision to expand beyond metros and how to do it.",
+        text: "Language strategy is covered in regional and vernacular influencer marketing, and running campaigns across many markets at once in how to run a pan-India influencer marketing campaign. This guide is about the decision to expand beyond metros, how to win shoppers who are new to buying online, and how to measure it.",
         links: [
           { text: "regional and vernacular influencer marketing", href: "/blog/regional-influencer-marketing-india" },
           { text: "how to run a pan-India influencer marketing campaign", href: "/blog/pan-india-influencer-marketing-campaign" },
@@ -1496,14 +1503,25 @@ export const programsAndIndustriesPosts: BlogPost[] = [
       { type: "heading", text: "Quick answer", id: "quick-answer" },
       {
         type: "paragraph",
-        text: "To scale beyond metros with creators: pick states and cities where you can actually deliver (distribution, delivery, service, price points), test a few markets before rolling out, work with local and regional-language creators whose audiences live there, use formats that fit how those audiences use platforms, give content a local conversion path (nearby stores, cash-on-delivery options, local offers), and measure market by market against comparable markets you haven't targeted yet.",
+        text: "To scale beyond metros with creators: pick states and cities where you can actually deliver (distribution, delivery, service, price points), test a few markets before rolling out, and work with local and regional-language creators whose audiences live there. For first-time online shoppers, have creators show the whole buying process (ordering, paying, delivery and returns), not just the product. Offer a local conversion path such as cash on delivery, a marketplace listing or a nearby store, and measure market by market against comparable cities you haven't targeted yet.",
+      },
+      { type: "heading", text: "Why the next customers are outside metros", id: "why-now" },
+      {
+        type: "paragraph",
+        text: "Bain's How India Shops Online 2026 report (with Flipkart) found that tier 2 and smaller cities contributed about half of incremental e-retail orders in 2025, while online-shopper penetration there is still roughly 25–30% of internet users against 45–50% in metro and tier 1 cities. In other words, most of the growth and most of the headroom sit in the same place. Bain also notes that festive periods bring in about one in four new shoppers, which is why many brands time their first push into new cities around a festival.",
+        links: [{ text: "How India Shops Online 2026 report", href: "https://www.bain.com/insights/how-india-shops-online-2026/" }],
+      },
+      {
+        type: "paragraph",
+        text: "Creators are already part of that journey. Amazon India reported in March 2026 that nearly 70% of purchases driven by creators in its influencer programme come from non-metro cities (company-reported). Brands don't need to persuade these shoppers to trust creators; they need to work with the creators these shoppers already follow.",
+        links: [{ text: "Amazon India reported in March 2026", href: "https://www.aboutamazon.in/news/retail/amazon-influencer-program-india" }],
       },
       { type: "heading", text: "Decide where to go first", id: "where" },
       {
         type: "table",
         headers: ["Question", "Data to use"],
         rows: [
-          ["Can we deliver and serve customers there?", "Delivery coverage, store and dealer presence, service network"],
+          ["Can we deliver and serve customers there?", "Delivery coverage, return-to-origin (RTO) rates by pin code, store and dealer presence, service network"],
           ["Is there demand already?", "Orders, searches and enquiries from those cities"],
           ["Does our price and pack size fit?", "Local price sensitivity, smaller packs or entry variants"],
           ["Which language and culture?", "Primary languages, local festivals and occasions"],
@@ -1512,7 +1530,7 @@ export const programsAndIndustriesPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Start with a handful of cities where these answers are good, learn, then expand in clusters by state or language rather than scattering across the map.",
+        text: "Start with a handful of cities where these answers are good, learn, then expand in clusters by state or language rather than scattering across the map. If your logistics partner shows unusually high RTO in a cluster, fix that before sending creator traffic there; every failed delivery costs you twice.",
       },
       { type: "heading", text: "Tier 2 is not tier 3", id: "tiers" },
       {
@@ -1521,7 +1539,7 @@ export const programsAndIndustriesPosts: BlogPost[] = [
         rows: [
           ["Audience", "Aspirational, often bilingual, growing online shopping", "More local-language, value-conscious, strong community ties"],
           ["Creators", "City lifestyle, food, fashion, tech creators", "Local and regional-language creators, family and community creators"],
-          ["Formats", "Reels and Shorts, reviews, city discovery", "Simple demos, relatable humor, local stories, longer explainers"],
+          ["Formats", "Reels and Shorts, reviews, city discovery", "Simple demos, relatable humour, local stories, longer explainers"],
           ["Conversion", "Online orders plus local stores", "Local stores, cash on delivery, WhatsApp enquiries, dealers"],
         ],
       },
@@ -1529,20 +1547,49 @@ export const programsAndIndustriesPosts: BlogPost[] = [
         type: "paragraph",
         text: "These are broad tendencies, not rules; audiences vary widely within each tier. Let the audience data for specific creators guide choices.",
       },
+      { type: "heading", text: "Winning first-time online shoppers", id: "first-time-shoppers" },
+      {
+        type: "paragraph",
+        text: "A large share of new customers in smaller cities aren't just new to your brand; they're new to buying this kind of product online, or new to buying from a website that isn't Amazon, Flipkart or Meesho. Their hesitation is rarely about the product. It's about the process: will it arrive, is it genuine, what if it doesn't fit, how do I pay, who do I call. Creator content can answer those questions better than any FAQ page, because the creator is someone they already trust doing it in front of them.",
+      },
+      { type: "subheading", text: "The five fears to address" },
+      {
+        type: "table",
+        headers: ["Fear", "What the creator shows", "What the brand must have ready"],
+        rows: [
+          ["\"Will I get scammed?\"", "Ordering from the real site or official listing, the confirmation SMS, the delivery arriving", "A recognisable checkout, order tracking, a reachable phone or WhatsApp number"],
+          ["\"I don't want to pay in advance\"", "Choosing cash on delivery or UPI on delivery, step by step", "COD in the creator's region, with a policy for COD fees stated clearly"],
+          ["\"What if it doesn't fit or I don't like it?\"", "Starting a return or exchange on camera, and what happens next", "A simple return or exchange flow, and honest timelines"],
+          ["\"Is it genuine?\"", "Packaging, seals, batch numbers, the brand's official account", "Consistent packaging; warnings about fake sellers if they exist"],
+          ["\"Is it worth the price?\"", "Price per use, how long it lasts, comparison with what they use now", "A starter pack or smaller size that lowers the first-purchase risk"],
+        ],
+      },
+      { type: "subheading", text: "Explain the process in the viewer's language" },
+      {
+        type: "paragraph",
+        text: "A Hindi, Marathi or Tamil creator explaining how to order is far more effective than a translated caption on a metro creator's video. Brief creators to spend the last 15–20 seconds on the buying step: 'link in bio, choose cash on delivery, it came in four days, here's how I'd return it'. That segment often matters more than the product demo for a first-time buyer.",
+      },
+      { type: "subheading", text: "Marketplace or your own site for the first purchase?" },
+      {
+        type: "paragraph",
+        text: "For a shopper's first purchase from an unknown brand, a marketplace listing often converts better because the marketplace carries the trust: familiar checkout, saved address, known returns. Your own site gives you the customer data and margin. A practical split is to send first-purchase creator traffic in smaller cities to the marketplace where you have strong reviews, and use your site (with COD and a clear returns promise) for repeat purchases and bundles. If you sell mainly through marketplaces, influencer marketing for Amazon and Flipkart sellers covers listing readiness and tracking.",
+        links: [{ text: "influencer marketing for Amazon and Flipkart sellers", href: "/blog/influencer-marketing-amazon-flipkart-sellers" }],
+      },
       { type: "heading", text: "Finding local creators", id: "creators" },
       {
         type: "list",
         items: [
           "Search in the local language and script, and by city names and local landmarks.",
-          "Check where each creator's audience actually lives; see influencer audience quality and fit.",
-          "Look for community and family creators, local food explorers and small-town comedy and storytelling creators.",
+          "Check where each creator's audience actually lives, not just where the creator lives.",
+          "Look for community and family creators, local food explorers, teachers, shop owners and small-town comedy and storytelling creators.",
           "Ask local distributors, store owners and sales teams which creators customers mention.",
+          "Prefer creators who already explain how to buy things online; some have built followings on exactly that.",
           "Expect smaller follower counts with strong local trust; that's the point.",
         ],
       },
       {
         type: "paragraph",
-        text: "Audience checks: influencer audience quality and fit. Shortlisting: how to build an influencer shortlist.",
+        text: "Audience checks are covered in influencer audience quality and fit, and shortlisting in how to build an influencer shortlist.",
         links: [
           { text: "influencer audience quality and fit", href: "/blog/influencer-audience-quality" },
           { text: "how to build an influencer shortlist", href: "/blog/influencer-shortlist" },
@@ -1553,10 +1600,10 @@ export const programsAndIndustriesPosts: BlogPost[] = [
         type: "list",
         items: [
           "Show the product in local, everyday settings rather than metro lifestyles.",
-          "Explain value clearly: price, quantity, how long it lasts.",
+          "Explain value clearly: price, quantity, how long it lasts, price per use.",
           "Answer trust questions: where to buy, how returns work, whether it's genuine.",
           "Use local festivals and occasions, which vary by region.",
-          "Keep the core product facts consistent across all markets.",
+          "Keep the core product facts consistent across all markets, even when language and examples change.",
         ],
       },
       { type: "heading", text: "Conversion paths", id: "conversion" },
@@ -1564,26 +1611,29 @@ export const programsAndIndustriesPosts: BlogPost[] = [
         type: "table",
         headers: ["Path", "When it fits"],
         rows: [
+          ["Marketplace listing with strong reviews", "First purchase from an unknown brand; categories where marketplaces already lead"],
+          ["Online with cash on delivery", "Categories where trust in prepaid is lower; watch RTO by pin code"],
           ["\"Available at\" local stores", "Retail and FMCG with distribution"],
-          ["Online with cash on delivery", "Categories where trust in prepaid is lower"],
-          ["Quick commerce", "Only where the service actually operates"],
-          ["WhatsApp or call enquiry", "Services, education, property, automobiles"],
+          ["Quick commerce", "Only where the service actually operates and your product is stocked"],
+          ["WhatsApp or call enquiry", "Higher-priced products, services, education, automobiles"],
           ["Dealer or franchise visit", "Durables, vehicles, building materials"],
         ],
       },
       {
         type: "paragraph",
-        text: "Never promote availability you can't deliver; nothing damages a new market faster than creators sending people to a product they can't buy.",
+        text: "Never promote availability you can't deliver; nothing damages a new market faster than creators sending people to a product they can't buy. If you sell through chat, influencer marketing for brands selling through WhatsApp covers click-to-chat links and measuring orders by creator.",
+        links: [{ text: "influencer marketing for brands selling through WhatsApp", href: "/blog/whatsapp-commerce-influencer-marketing" }],
       },
       { type: "heading", text: "Measuring expansion", id: "measurement" },
       {
         type: "list",
         items: [
-          "Sales or orders by pin code and city, during and after the campaign.",
+          "Orders and new customers by pin code and city, during and after the campaign.",
           "Comparison markets: similar cities without creator activity.",
-          "Store-level sell-through in campaign cities.",
-          "Local search and enquiry trends.",
-          "Creator-level engagement from the target cities (from creator insights).",
+          "COD share, RTO rate and return rate for creator-driven orders, by city. A cheap first order that comes back unpaid isn't a customer.",
+          "Repeat purchase from first-time buyers at 60 and 90 days.",
+          "Store-level sell-through in campaign cities, where you have retail.",
+          "Creator-level engagement from the target cities, from creator insights.",
         ],
       },
       {
@@ -1610,11 +1660,10 @@ export const programsAndIndustriesPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Farmer and agri creators are covered in influencer marketing for agriculture brands, selling through local shops in influencer marketing for brands sold through distributors and retailers, and chat-based selling in influencer marketing for brands selling through WhatsApp.",
+        text: "Farmer and agri creators are covered in influencer marketing for agriculture brands, and selling through local shops in influencer marketing for brands sold through distributors and retailers.",
         links: [
           { text: "influencer marketing for agriculture brands", href: "/blog/agritech-influencer-marketing-india" },
           { text: "influencer marketing for brands sold through distributors and retailers", href: "/blog/influencer-marketing-distributors-retailers" },
-          { text: "influencer marketing for brands selling through WhatsApp", href: "/blog/whatsapp-commerce-influencer-marketing" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
@@ -1622,8 +1671,10 @@ export const programsAndIndustriesPosts: BlogPost[] = [
         type: "list",
         items: [
           "Treating all non-metro markets as one audience.",
-          "Metro creators with national audiences booked for local reach.",
-          "Promoting products that aren't available locally.",
+          "Booking metro creators with national audiences for local reach.",
+          "Showing the product but never the buying process, so first-time shoppers stall at checkout.",
+          "Removing COD to cut RTO, then wondering why conversion collapsed in new cities.",
+          "Promoting products that aren't available or deliverable locally.",
           "Translated metro content instead of locally made content.",
           "Measuring only national totals, hiding which markets responded.",
         ],
@@ -1631,14 +1682,24 @@ export const programsAndIndustriesPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Growth beyond metros is won city by city. Choose markets where you can deliver, test before rolling out, work with local creators whose audiences live there, make content that fits local life, give people a local way to buy, and measure each market against a comparison so the next expansion goes where it works.",
+        text: "Growth beyond metros is won city by city, and often one first-time shopper at a time. Choose markets where you can deliver, test before rolling out, work with local creators whose audiences live there, have them show the whole buying process as well as the product, give people a local way to buy, and measure each market against a comparison so the next expansion goes where it works.",
       },
     ],
     faqs: [
       {
         question: "How can brands use influencers to grow in tier 2 and tier 3 cities?",
         answer:
-          "Choose markets where you can deliver, test a few cities first, work with local and regional-language creators whose audiences live there, make locally relevant content, give a local conversion path and measure by market.",
+          "Choose markets where you can deliver, test a few cities first, work with local and regional-language creators whose audiences live there, make locally relevant content that also explains how to order and return, give a local conversion path and measure by market.",
+      },
+      {
+        question: "How do you build trust with first-time online shoppers?",
+        answer:
+          "Have trusted local creators show the full process on camera: ordering from the official site or listing, paying by cash on delivery or UPI, the delivery arriving and how a return works. Back it with a reachable support number, honest timelines and a low-risk starter pack.",
+      },
+      {
+        question: "Should we offer cash on delivery for creator campaigns in smaller cities?",
+        answer:
+          "Usually yes, because many first-time buyers won't prepay an unfamiliar brand. Track RTO and return rates by pin code and creator, and tighten COD only where losses are high rather than removing it everywhere.",
       },
       {
         question: "Are tier 2 and tier 3 audiences the same?",
@@ -1648,7 +1709,7 @@ export const programsAndIndustriesPosts: BlogPost[] = [
       {
         question: "How do you measure influencer campaigns in smaller cities?",
         answer:
-          "By sales or orders by pin code, comparisons with similar non-campaign cities, store sell-through, local search and enquiry trends, and creator audience engagement from target cities.",
+          "By orders and new customers by pin code, comparisons with similar non-campaign cities, COD, RTO and return rates for creator-driven orders, repeat purchase at 60 and 90 days, and creator audience engagement from target cities.",
       },
     ],
   },

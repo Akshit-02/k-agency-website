@@ -298,10 +298,10 @@ export const creatorGrowthPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Creator trend research explains how to spot trends early and decide which fit, and trend vs evergreen content helps set the balance.",
+        text: "Creator trend research explains how to spot trends early and decide which fit, and trend vs evergreen content helps set the balance. Growth only counts if you can keep going, so set a cadence you can sustain; this guide on creator burnout covers how.",
         links: [
           { text: "Creator trend research", href: "/blog/creator-trend-research" },
-          { text: "trend vs evergreen content", href: "/blog/trend-vs-evergreen-content-creators" },
+          { text: "trend vs evergreen content", href: "/blog/trend-vs-evergreen-content-creators" }, { text: "creator burnout", href: "/blog/creator-burnout-india" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },

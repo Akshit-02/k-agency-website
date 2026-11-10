@@ -465,10 +465,10 @@ export const gccPlatformPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Instagram-specific planning is in Instagram Live influencer marketing, and affiliate and code tracking across the UAE and Saudi Arabia in influencer affiliate marketing in the UAE and Saudi Arabia.",
+        text: "Instagram-specific planning is in Instagram Live influencer marketing, and affiliate and code tracking across the UAE and Saudi Arabia in influencer affiliate marketing in the UAE and Saudi Arabia. Brands also selling in India can check which platforms support live shopping in India.",
         links: [
           { text: "Instagram Live influencer marketing", href: "/blog/instagram-live-influencer-marketing" },
-          { text: "influencer affiliate marketing in the UAE and Saudi Arabia", href: "/blog/influencer-affiliate-marketing-uae-saudi-arabia" },
+          { text: "influencer affiliate marketing in the UAE and Saudi Arabia", href: "/blog/influencer-affiliate-marketing-uae-saudi-arabia" }, { text: "which platforms support live shopping in India", href: "/blog/live-shopping-india-brands" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

@@ -131,10 +131,10 @@ export const protectionAndOperationsPosts: BlogPost[] = [
       { type: "heading", text: "Copyright is one layer of your IP", id: "ip-layers" },
       {
         type: "paragraph",
-        text: "Copyright protects your content, but not your channel name, logo or likeness. Those are covered by trademarks, personality rights and contracts; see creator intellectual property and the creator trademark guide.",
+        text: "Copyright protects your content, but not your channel name, logo or likeness. Those are covered by trademarks, personality rights and contracts; see creator intellectual property and the creator trademark guide. Music has its own rules on top of this; read what creators should know about music for Reels and YouTube.",
         links: [
           { text: "creator intellectual property", href: "/blog/creator-intellectual-property" },
-          { text: "creator trademark guide", href: "/blog/creator-trademark" },
+          { text: "creator trademark guide", href: "/blog/creator-trademark" }, { text: "music for Reels and YouTube", href: "/blog/music-for-reels-youtube-copyright" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
@@ -175,125 +175,226 @@ export const protectionAndOperationsPosts: BlogPost[] = [
   {
     slug: "protect-videos-from-reuploads",
     category: "Creator Resources",
-    title: "How Creators Can Protect Their Videos From Reuploads and Content Theft",
-    seoTitle: "How to Protect Your Videos From Reuploads and Theft",
+    title: "What to Do When Someone Steals Your Content: A Creator's Guide to Copyright and Reporting",
+    seoTitle: "Someone Stole Your Content? What to Do and How to Report",
     excerpt:
-      "Practical steps to prevent, find and remove reuploads of your videos: watermarks and upload habits, YouTube's Copyright Match Tool and Content ID, Meta's content protection, reporting, and when to let it go.",
+      "Found your video reuploaded on someone else's page? Collect evidence, check whether it is really infringement, report it on YouTube or Instagram, and know your options under Indian law.",
     metaDescription:
-      "How creators protect videos from reuploads: prevention habits, finding copies, YouTube Copyright Match Tool and Content ID, Meta content protection and Rights Manager, reporting reuploads, and handling repeat offenders.",
-    author: CREATOR_AUTHOR,
-    publishedAt: PUBLISHED,
-    lastReviewed: CREATOR_FACTS_REVIEWED,
-    readingTime: "10 min read",
-    tags: ["reupload protection", "content theft", "Copyright Match Tool", "Content ID", "Meta content protection"],
-    related: ["creator-copyright", "creator-impersonation", "creator-content-licensing"],
+      "Someone reposted your video without permission? Save evidence, report it on YouTube or Instagram, send a takedown message, and learn the Indian copyright basics.",
+    author: { name: "Kudozz Partnerships Team", role: "Creator Partnerships" },
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-11-10",
+    lastReviewed: "November 2026",
+    readingTime: "9 min read",
+    tags: ["someone stole my content", "report copyright Instagram", "YouTube copyright removal", "reuploaded video", "copyright India creators"],
+    related: ["creator-copyright", "creator-impersonation", "creator-account-security", "deepfakes-creator-identity-protection"],
     body: [
       {
         type: "paragraph",
-        text: "Few things are more frustrating than finding your video on someone else's page with more views than yours. Reuploads take views, credit and sometimes income. You can't stop every copy, but you can make them harder, find them faster and remove them through official routes.",
+        text: "You open Instagram or YouTube and there it is: your video, on someone else's page, sometimes with more views than yours and no credit. It feels personal, and the urge is to fire off angry comments. Slow down for half an hour, collect proof, and then use the official reporting routes, which work far better than a public fight.",
       },
       { type: "heading", text: "Quick answer", id: "quick-answer" },
       {
         type: "paragraph",
-        text: "To protect videos from reuploads: upload to your main platform first, add a subtle on-video handle, keep original files, use platform detection tools (YouTube's Copyright Match Tool for YPP channels, Content ID for eligible rights holders, Meta's content protection and Rights Manager for eligible creators), report copies through official copyright forms, and escalate repeat offenders. Weigh whether each copy is worth pursuing.",
+        text: "If someone steals your content: save evidence first (links, dated screenshots, your original file and upload date). Check it is a real copy of your work, not inspiration or fair dealing such as review or criticism. Then report it through the platform's copyright route: YouTube's copyright removal request in Studio, or Meta's Intellectual Property reporting form for Instagram. A polite message to the uploader can work for small cases. For repeat or commercial theft, speak to a lawyer about your options under India's Copyright Act. Never file false claims.",
       },
-      { type: "heading", text: "Prevention habits", id: "prevention" },
       {
-        type: "list",
-        items: [
-          "Upload to your primary platform first, before cross-posting.",
-          "Add a small, consistent handle or logo on the video (hard to crop).",
-          "Keep raw and project files as proof of origin.",
-          "Say your name or channel early in the video.",
-          "Avoid posting full-length originals on platforms you don't monitor.",
+        type: "paragraph",
+        text: "This guide is general information, not legal advice. For a dispute involving money, a brand or a repeat offender, talk to a lawyer who handles copyright.",
+      },
+      { type: "heading", text: "The first 30 minutes: evidence checklist", id: "evidence" },
+      {
+        type: "paragraph",
+        text: "Posts get deleted, usernames change and view counts move. Capture everything before you report or message anyone.",
+      },
+      {
+        type: "template",
+        label: "Evidence checklist",
+        text: "[ ] Exact URL of every copy (post, reel, video, profile)\n[ ] Screenshots or a screen recording showing the copy, the account name, the date and view count (your phone's status bar shows the time)\n[ ] Link to your original post and its upload date\n[ ] Your original file: raw footage, project file, or the export with its creation date\n[ ] Any proof you made it: behind-the-scenes clips, drafts, script\n[ ] Note whether the copy removed your watermark, credit or voice\n[ ] Note whether they are earning from it: ads, a brand tag, a paid link\n[ ] Save everything in one dated folder with a backup",
+      },
+      {
+        type: "paragraph",
+        text: "If you already keep organised raw files, this takes minutes. If not, creator file management and a creator backup strategy make the next incident much easier.",
+        links: [
+          { text: "creator file management", href: "/blog/creator-file-management" },
+          { text: "creator backup strategy", href: "/blog/creator-backup-strategy" },
         ],
       },
-      { type: "heading", text: "Detection tools", id: "tools" },
+      { type: "heading", text: "Is it actually infringement?", id: "is-it-infringement" },
+      {
+        type: "paragraph",
+        text: "Not every similar video is theft. Copyright protects your actual expression (your footage, edit, script, photos, voiceover), not a general idea, format or trend. Someone making their own version of the same recipe or the same meme format is usually inspiration. Someone downloading your reel and reposting it is copying.",
+      },
       {
         type: "table",
-        headers: ["Tool", "Who can use it", "What it does"],
+        headers: ["Situation", "Usually", "What to do"],
         rows: [
-          ["YouTube Copyright Match Tool", "Channels in the YouTube Partner Program", "Finds full reuploads of your videos uploaded after yours on YouTube"],
-          ["YouTube Content ID", "Rights holders who meet eligibility criteria", "Automated matching with block, track or monetize options"],
-          ["Meta content protection", "Eligible creators, rolling out via Facebook", "Protects reels posted to Facebook and detects matches across Facebook and Instagram"],
-          ["Meta Rights Manager", "Rights holders approved by Meta", "Matching and management of content across Facebook and Instagram"],
+          ["Your full video reposted on another account", "Copying", "Report through the copyright route"],
+          ["Your clip used inside a reaction, review or criticism", "May be fair dealing", "Watch it fully; report only if it is mostly your video with little added"],
+          ["Same idea or trend, their own footage", "Inspiration", "Let it go, or make your version better"],
+          ["Your video reposted with credit by a fan page", "Still copying, but often low harm", "A polite message may be enough"],
+          ["Your face or voice used in a fake ad or account", "Impersonation, possibly deepfake", "Use the impersonation route as well"],
+          ["A brand reposting your paid collab", "Depends on your contract", "Check usage rights before reporting"],
         ],
       },
       {
         type: "paragraph",
-        text: "Official details: YouTube Copyright Match Tool, Content ID eligibility and Meta's content protection for creators.",
+        text: "Under India's Copyright Act, 1957, section 51 says copyright is infringed when someone, without a licence, does something only the copyright owner has the right to do. Section 52(1)(a) says fair dealing for private or personal use (including research), criticism or review, or reporting current events is not infringement. YouTube's fair use page also notes that adding credit or a disclaimer does not by itself make a use fair. How copyright works for creators, from ownership to licensing, is explained in creator copyright.",
         links: [
-          { text: "YouTube Copyright Match Tool", href: SOURCES.youtubeCopyrightMatch },
-          { text: "Content ID eligibility", href: SOURCES.youtubeContentId },
-          { text: "Meta's content protection for creators", href: SOURCES.metaContentProtection },
+          { text: "India's Copyright Act, 1957", href: "https://www.indiacode.nic.in/bitstream/123456789/1367/1/A195714.pdf" },
+          { text: "YouTube's fair use page", href: "https://support.google.com/youtube/answer/9783148" },
+          { text: "creator copyright", href: "/blog/creator-copyright" },
         ],
       },
-      { type: "heading", text: "Reporting a reupload", id: "reporting" },
+      { type: "heading", text: "Reporting on YouTube", id: "reporting" },
       {
-        type: "template",
-        label: "Before you report",
-        text: "☐ Link to your original and its upload date\n☐ Link(s) to the copy and screenshots\n☐ Confirm you own the rights (not licensed to them)\n☐ Check it isn't an authorised use (collab, licence, brand repost)\n☐ Use the platform's official copyright form (not the spam or impersonation form)",
+        type: "paragraph",
+        text: "YouTube's copyright removal request is filed by the copyright owner or someone authorised to act for them. For videos, go to YouTube Studio, then Content detection, then New removal request. For other content you can email copyright@youtube.com. YouTube asks for:",
       },
       {
         type: "list",
         items: [
-          "YouTube: via Copyright Match Tool or the copyright removal request.",
-          "Instagram / Facebook: via the copyright reporting form or in-app reporting.",
-          "Other sites: contact the site owner or host with a takedown notice.",
+          "Your contact details.",
+          "A description of your original work.",
+          "The exact URLs of the copies.",
+          "A good-faith statement and a statement that the information is accurate, made under penalty of perjury.",
+          "Your full legal name as a signature.",
         ],
+      },
+      {
+        type: "paragraph",
+        text: "Two options are worth knowing. You can schedule the removal for 7 days, which gives the uploader time to delete the video themselves and avoid a copyright strike, a fair choice for a first-time or small offender. You can also ask YouTube to prevent future copies. YouTube warns that misusing the process can lead to account termination and that your personal information may be shared with the uploader. Details are on YouTube's copyright removal help page.",
+        links: [{ text: "YouTube's copyright removal help page", href: "https://support.google.com/youtube/answer/2807622" }],
+      },
+      { type: "subheading", text: "Copyright Match Tool and Content ID" },
+      {
+        type: "paragraph",
+        text: "According to YouTube Help, the Copyright Match Tool is available to any channel that has filed a valid copyright removal request, or through a separate access form; YPP channels find it on the Copyright page in Studio. It looks for full or nearly full reuploads of your videos, so short clips may not be flagged. It only scans videos uploaded after yours, which is why posting first on your own channel matters. For each match you can request removal, contact the channel, or archive it. Content ID is a separate automated system that compares uploads against reference files from rights owners, and the Match Tool does not scan videos already covered by Content ID. See YouTube's Copyright Match Tool page.",
+        links: [{ text: "Copyright Match Tool page", href: "https://support.google.com/youtube/answer/7648743" }],
+      },
+      { type: "subheading", text: "If the uploader files a counter notification" },
+      {
+        type: "paragraph",
+        text: "The uploader can file a counter notification if they believe your request was a mistake, for example because of fair use or fair dealing. Under YouTube's counter notification process, you then have 10 US business days to show you have started legal action; if you don't, the video can be reinstated. This is the point to talk to a lawyer rather than argue in comments.",
+        links: [{ text: "counter notification process", href: "https://support.google.com/youtube/answer/2807684" }],
+      },
+      { type: "heading", text: "Reporting on Instagram and Facebook", id: "instagram" },
+      {
+        type: "paragraph",
+        text: "Meta uses separate forms for copyright, trademark and counterfeit goods, so pick the right one. A reel or photo copied from you is usually a copyright matter, filed through the Meta Intellectual Property Reporting Form. Trademark is for misuse of a brand name or logo, which matters if you have registered your channel name (see creator trademark). Only the rights owner or an authorised representative can file.",
+        links: [
+          { text: "Meta Intellectual Property Reporting Form", href: "https://help.instagram.com/contact/552695131608132/" },
+          { text: "creator trademark", href: "/blog/creator-trademark" },
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          "Instagram typically shares your name, email and report details with the person who posted, so use a business email.",
+          "If you change your mind, reports can be withdrawn by emailing ip@instagram.com.",
+          "Instagram has a repeat-infringer policy that can disable accounts.",
+          "Check the form itself for current fields and options, as these change.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If the account is pretending to be you, not just using your video, report the impersonation separately; creator impersonation walks through it. If your face or voice has been faked, read deepfakes and creator identity protection.",
+        links: [
+          { text: "creator impersonation", href: "/blog/creator-impersonation" },
+          { text: "deepfakes and creator identity protection", href: "/blog/deepfakes-creator-identity-protection" },
+        ],
+      },
+      { type: "heading", text: "Other websites and apps", id: "other-sites" },
+      {
+        type: "paragraph",
+        text: "Most platforms and hosting providers have a copyright or legal contact. Look for links named copyright, intellectual property, DMCA or legal in the site footer or help centre, and send the same evidence pack: your original, the copy's URL and a statement that you own the work. For a website, the hosting company is often more responsive than the site owner.",
+      },
+      { type: "heading", text: "Sending a polite takedown message", id: "takedown-message" },
+      {
+        type: "paragraph",
+        text: "For a small repost page or a fellow creator who may not know better, a direct message often works faster than a formal report. Keep it calm and specific.",
+      },
+      {
+        type: "template",
+        label: "Takedown message (edit to fit)",
+        text: "Hi [name],\n\nI'm [your name], the creator of this video: [link to your original, posted on DATE].\n\nYour account has posted it here without my permission: [link to copy].\n\nPlease remove it within [48 hours / 3 days]. If you'd like to share my work in future, you're welcome to share my original post or ask me first.\n\nIf it isn't removed, I'll report it through [YouTube / Instagram]'s copyright process.\n\nThanks,\n[Your name, handle, business email]",
+      },
+      {
+        type: "paragraph",
+        text: "Escalate to a lawyer when the copier is earning from your work (brand deals, ads, selling it), when a business or brand is using your content without a licence, when it keeps happening after reports, or when they file a counter notification. Under section 63 of the Copyright Act, knowingly infringing copyright is punishable with imprisonment of six months to three years and a fine of ₹50,000 to ₹2 lakh, though a court may reduce this where the infringement was not for gain in trade or business. Whether to pursue that route is a decision to make with legal advice.",
       },
       { type: "heading", text: "When a copy isn't worth fighting", id: "judgement" },
       {
         type: "paragraph",
-        text: "Short clips with credit on small accounts may be worth a polite message rather than a formal claim. Some creators even let fan pages share clips with credit. Decide based on harm: lost income, misleading use, or someone profiting from your work.",
+        text: "Not every copy deserves a formal report. A short clip with clear credit on a small fan account may be better handled with a message, or left alone. Decide based on harm: are they earning from it, misleading people about who made it, competing for the same brand deals, or attaching it to something you would never endorse? Spend your energy on those.",
       },
-      { type: "heading", text: "Repeat offenders and impersonators", id: "repeat" },
+      { type: "heading", text: "Repeat offenders", id: "repeat" },
       {
         type: "paragraph",
-        text: "Accounts that repeatedly steal content, or pretend to be you, should be reported through both copyright and impersonation routes. See creator impersonation.",
-        links: [{ text: "creator impersonation", href: "/blog/creator-impersonation" }],
+        text: "For accounts that steal again and again, keep a running log of every copy, report each one through the copyright route, and note your report reference numbers. Repeat-infringer policies on both YouTube and Instagram exist for exactly this. If the account also uses your name or photo, file impersonation reports too, and tighten your own login security, since some theft rings also target creator accounts; creator account security covers the basics.",
+        links: [{ text: "creator account security", href: "/blog/creator-account-security" }],
       },
-      {
-        type: "paragraph",
-        text: "Reuploads are a copyright issue; what else you own, from trademarks to personality rights, is mapped in creator intellectual property.",
-        links: [
-          { text: "creator intellectual property", href: "/blog/creator-intellectual-property" },
-        ],
-      },
-      { type: "heading", text: "Common mistakes", id: "mistakes" },
+      { type: "heading", text: "Reducing future theft", id: "prevention" },
       {
         type: "list",
         items: [
-          "Filing claims against authorised uses, such as a brand's licensed repost.",
-          "Using the wrong reporting form.",
-          "Not keeping originals as evidence.",
-          "Abusing copyright tools; platforms can penalise false claims.",
+          "Post first on your own channel or profile, before sharing anywhere else. The Copyright Match Tool only catches uploads made after yours.",
+          "Add a small, consistent handle or logo where it is hard to crop out, and say your name or handle early in the video.",
+          "Keep raw footage and project files, organised by date, as proof of origin.",
+          "Avoid posting full-length originals on platforms you never check.",
+          "If you use music, use tracks you are licensed for, so your own videos are not the ones getting claimed. Music for Reels and YouTube copyright explains the options.",
+          "When a brand or page wants to reuse your work, agree terms in writing first; see creator content licensing.",
         ],
       },
       {
         type: "paragraph",
-        text: "When licensing your videos to others, agree terms in writing; see creator content licensing and creator usage rights.",
-        links: [{ text: "creator content licensing", href: "/blog/creator-content-licensing" }, { text: "creator usage rights", href: "/blog/creator-usage-rights" }],
+        text: "More on the last two points: music for Reels and YouTube copyright, and creator content licensing.",
+        links: [
+          { text: "music for Reels and YouTube copyright", href: "/blog/music-for-reels-youtube-copyright" },
+          { text: "creator content licensing", href: "/blog/creator-content-licensing" },
+        ],
+      },
+      { type: "heading", text: "Don't misuse copyright claims", id: "mistakes" },
+      {
+        type: "paragraph",
+        text: "Copyright tools are powerful, and platforms take abuse seriously. YouTube's removal request includes a statement made under penalty of perjury, and misuse can lead to account termination. Avoid these mistakes:",
+      },
+      {
+        type: "list",
+        items: [
+          "Reporting a video because it copies your idea or format, not your actual content.",
+          "Reporting authorised uses, such as a brand's licensed repost or a collab partner's agreed post.",
+          "Using copyright reports to settle a personal fight or silence criticism of you.",
+          "Using the wrong form, such as spam or impersonation, for a copyright problem, or the other way round.",
+          "Not keeping originals, so you cannot prove the work is yours.",
+        ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
         type: "paragraph",
-        text: "Build prevention habits, turn on the detection tools you're eligible for, and use official forms with good evidence. For the legal background, see creator copyright.",
-        links: [{ text: "creator copyright", href: "/blog/creator-copyright" }],
+        text: "When your content is stolen, act in order: save evidence, confirm it is a real copy, use the platform's official copyright route, and message small offenders politely. Keep legal action for commercial or repeat theft, with a lawyer's advice. Then build habits (posting first, watermarks, organised originals) that make the next copy easier to catch and remove.",
       },
     ],
     faqs: [
       {
-        question: "How do I stop people reuploading my YouTube videos?",
-        answer: "You can't stop every copy, but uploading first, adding a subtle handle, keeping originals, using the Copyright Match Tool if you're in YPP, and reporting copies through YouTube's copyright process help.",
+        question: "Do I need to register my copyright before reporting stolen content?",
+        answer:
+          "YouTube and Instagram ask you to confirm you own the work and to describe it; neither form, as described in their help pages, asks for a registration certificate. For court action in India, ask a lawyer whether registration would help your case.",
       },
       {
-        question: "What's the difference between the Copyright Match Tool and Content ID?",
-        answer: "The Copyright Match Tool is for YPP creators to find full reuploads of their videos. Content ID is an automated system for rights holders who meet stricter eligibility criteria.",
+        question: "Someone reposted my video with credit. Is that allowed?",
+        answer:
+          "Credit alone does not give someone permission to repost your work. Whether to act is your choice: many creators allow fan pages with credit, while others ask for removal. A polite message is a good first step.",
       },
       {
-        question: "Can Instagram creators protect reels from reuploads?",
-        answer: "Meta offers content protection for eligible creators, which protects reels posted to Facebook and detects matches across Facebook and Instagram. Anyone can report copyright infringement through Instagram's forms.",
+        question: "Is DMCA valid in India?",
+        answer:
+          "The DMCA is a US law. YouTube's and Instagram's copyright reporting routes are open to creators in India, and some steps (such as YouTube's 10 US business day counter-notification window) reflect US rules. In India, your rights come from the Copyright Act, 1957. Ask a lawyer how the two interact in your case.",
+      },
+      {
+        question: "Will the person know I reported them?",
+        answer:
+          "Often yes. YouTube says your personal information may be shared with the uploader, and Instagram typically shares your name, email and report details. Use a business email, not a personal one.",
       },
     ],
   },
@@ -426,8 +527,8 @@ export const protectionAndOperationsPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Impersonation is one part of a wider picture; creator reputation management covers search results, corrections and handling criticism.",
-        links: [{ text: "creator reputation management", href: "/blog/creator-reputation-management" }],
+        text: "Impersonation is one part of a wider picture; creator reputation management covers search results, corrections and handling criticism. When the fake uses your face or voice rather than just your name, follow this guide to deepfakes and creator identity.",
+        links: [{ text: "creator reputation management", href: "/blog/creator-reputation-management" }, { text: "deepfakes and creator identity", href: "/blog/deepfakes-creator-identity-protection" }],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {
@@ -809,131 +910,245 @@ export const protectionAndOperationsPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "creator-campaign-reporting",
-    category: "Creator Resources",
-    title: "Creator Campaign Reporting: What to Send Brands After a Collaboration",
-    seoTitle: "Creator Campaign Reporting: What to Send Brands After a Deal",
-    excerpt:
-      "What a professional post-campaign report includes, when to send it, how to present results honestly, and how the report becomes the start of your next deal with the brand.",
-    metaDescription:
-      "Creator campaign reporting: what to send brands after a collaboration, report timing, contents (deliverables, metrics, audience response, learnings), format options, honesty rules and a ready-to-use report template.",
-    author: CREATOR_AUTHOR,
-    publishedAt: PUBLISHED,
-    readingTime: "10 min read",
-    tags: ["campaign report", "influencer report", "post-campaign report", "creator reporting", "brand collaboration results"],
-    related: ["creator-analytics-for-brand-deals", "creator-case-study", "creator-client-management"],
-    body: [
-      {
-        type: "paragraph",
-        text: "The report is the last deliverable of a campaign, and often the first step toward the next one. Brands collect results from many creators; the ones who send clear, honest, on-time reports are easy to rebook.",
-      },
-      {
-        type: "paragraph",
-        text: "For which metrics exist and how to present them honestly, see creator analytics for brand deals. This guide is the reporting process and document.",
-        links: [{ text: "creator analytics for brand deals", href: "/blog/creator-analytics-for-brand-deals" }],
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "After a collaboration, send a short report on the agreed date (often 7 days after posting, sometimes with a 30-day update). Include live links and posting dates, confirmation of deliverables and disclosure, native-insights screenshots for the agreed metrics, results compared with your own averages, audience response themes from comments, any clicks or conversions you can see, and one or two learnings. Keep it factual and don't inflate numbers.",
-      },
-      { type: "heading", text: "When to send", id: "timing" },
-      {
-        type: "table",
-        headers: ["Report", "When", "Contents"],
-        rows: [
-          ["Live confirmation", "Same day as posting", "Links, posting time, disclosure confirmed"],
-          ["Main report", "As agreed, often 7 days after posting", "Full metrics, comments, learnings"],
-          ["Update (optional)", "30 days after posting, for evergreen or YouTube content", "Updated views and clicks"],
-        ],
-      },
-      { type: "heading", text: "What to include", id: "contents" },
-      {
-        type: "list",
-        items: [
-          "Campaign name, brand, your handle, dates.",
-          "Deliverables with links; confirmation they match the agreement.",
-          "Disclosure used (label and platform tool).",
-          "Agreed metrics as native-insights screenshots, with the date taken.",
-          "Comparison with your own recent averages.",
-          "Audience response: common questions, sentiment, notable comments.",
-          "Clicks, code uses or sales you can see (brand data only if they shared it).",
-          "Learnings and a suggestion for next time.",
-        ],
-      },
-      { type: "heading", text: "Report template", id: "template" },
-      {
-        type: "template",
-        label: "Post-campaign report",
-        text: "CAMPAIGN REPORT — [Brand] × [@handle] — [Campaign] — Data as of [date]\n\n1. DELIVERABLES\n• Reel — [link] — posted [date, time] — paid partnership label ✓\n• Story set (4 frames) — [date] — link sticker ✓\n\n2. RESULTS (native insights, screenshots attached)\nReel: views __ · reach __ · non-follower __% · avg watch time __ · saves __ · shares __ · comments __\nStories: views per frame __ · link taps __ · replies __\n\n3. VS MY AVERAGE (last 90 days, Reels)\nViews __x · saves __x · shares __x\n\n4. AUDIENCE RESPONSE\nTop themes: [price questions, shade range, where to buy]\nSentiment: [mostly positive / mixed], examples attached\n\n5. LEARNINGS\n[e.g. the texture close-up drove most saves; next time lead with it]\n\n6. NEXT\n[optional: follow-up idea or usage extension if the brand is running it as an ad]",
-      },
-      { type: "heading", text: "Format options", id: "format" },
-      {
-        type: "list",
-        items: [
-          "A PDF or one-page document, with screenshots attached.",
-          "A shared slide or sheet if the brand prefers.",
-          "The brand's own reporting template, if they send one; fill it accurately.",
-        ],
-      },
-      { type: "heading", text: "Honesty rules", id: "honesty" },
-      {
-        type: "list",
-        items: [
-          "Only native-insights data or brand-shared data.",
-          "No cropped or edited screenshots.",
-          "Say if results were below average, and what you learned.",
-          "Separate organic results from any paid boost.",
-        ],
-      },
-      { type: "heading", text: "From report to next deal", id: "next-deal" },
-      {
-        type: "paragraph",
-        text: "End the report with a light next step: a follow-up content idea, or an offer to extend usage if the brand is running your content as an ad. Then turn the results into a case study for future pitches. See creator case study and creator client management.",
-        links: [
-          { text: "creator case study", href: "/blog/creator-case-study" },
-          { text: "creator client management", href: "/blog/creator-client-management" },
-        ],
-      },
-      { type: "heading", text: "Common mistakes", id: "mistakes" },
-      {
-        type: "list",
-        items: [
-          "Sending the report late or only when chased.",
-          "Screenshots without dates.",
-          "Metrics the brand didn't ask for, and none of the ones it did.",
-          "Inflating or cherry-picking results.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "For sales-focused campaigns, creator attribution explains how to report tracked sales honestly, and creator discount codes covers code-based measurement.",
-        links: [
-          { text: "creator attribution", href: "/blog/creator-attribution" },
-          { text: "creator discount codes", href: "/blog/creator-discount-codes" },
-        ],
-      },
-      { type: "heading", text: "Conclusion", id: "conclusion" },
-      {
-        type: "paragraph",
-        text: "Put the report date in your campaign tracker the day you sign, use the template, and send it on time with a clear next step. It's one of the simplest ways to become a creator brands rebook.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What should a creator send brands after a campaign?",
-        answer: "Live links and dates, confirmation of deliverables and disclosure, native-insights screenshots for agreed metrics, comparison with your averages, audience response themes, any clicks or conversions, and learnings.",
-      },
-      {
-        question: "When should I send a campaign report?",
-        answer: "On the agreed date, often 7 days after posting, with an optional 30-day update for evergreen or YouTube content.",
-      },
-      {
-        question: "What if the campaign underperformed?",
-        answer: "Report it honestly, compare with your averages, and share what you learned and what you'd change. Honest reports build more trust than inflated ones.",
-      },
-    ],
-  },
+      slug: "creator-campaign-reporting",
+      category: "Creator Resources",
+      title: "Creator Campaign Reporting: What to Send Brands After a Collaboration",
+      seoTitle: "Creator Campaign Report Template: What to Send Brands",
+      excerpt:
+        "A creator-side guide to the campaign performance report: what to screenshot and when, platform metrics, tracked links, a one-page template and an illustrative example.",
+      metaDescription:
+        "How to make a campaign performance report after a brand collab: what to screenshot at 24h, 7 and 30 days, Instagram and YouTube metrics, and a free template.",
+      author: { name: "Kudozz Partnerships Team", role: "Creator Partnerships" },
+      publishedAt: "2026-09-29",
+      updatedAt: "2026-11-10",
+      lastReviewed: "November 2026",
+      readingTime: "9 min read",
+      tags: ["campaign report", "influencer campaign report template", "post-campaign report", "creator reporting", "brand collaboration results", "instagram insights"],
+      related: ["creator-analytics-for-brand-deals", "creator-case-study", "instagram-insights-for-creators", "youtube-analytics-for-creators", "creator-brand-brief"],
+      body: [
+        {
+          type: "paragraph",
+          text: "Your Reel is live, the brand has paid (or is about to), and the chat goes quiet. This is the moment most creators lose the next deal. A clear, honest campaign report, sent on time, tells the brand manager exactly what they got and gives them something to forward to their boss. This guide shows you what to collect, when to collect it, and how to put it on one page.",
+        },
+        { type: "heading", text: "Quick answer", id: "quick-answer" },
+        {
+          type: "paragraph",
+          text: "A creator campaign report is a short document you send the brand after a collaboration. Take dated screenshots of native insights at about 24 hours, 7 days and (for YouTube or evergreen posts) 30 days. Report the metrics you agreed in the brief, plus link clicks or code uses from the brand's tracking, and the main themes from comments and DMs. Compare results with your own recent averages, add one or two learnings and a next-step idea. Never estimate, edit or inflate numbers.",
+        },
+        { type: "heading", text: "Why a good report wins repeat deals", id: "why-reports-matter" },
+        {
+          type: "paragraph",
+          text: "Brand and agency teams have to justify every creator they pay. When you send a clean report, you do part of their job for them. That makes you the easy choice when the next campaign comes around, and gives you real evidence for your next pitch or creator case study.",
+          links: [{ text: "creator case study", href: "/blog/creator-case-study" }],
+        },
+        {
+          type: "list",
+          items: [
+            "It shows you treat the collab as a job, not a one-off post.",
+            "It answers the brand's questions before they ask, so there's less back-and-forth.",
+            "It gives you documented results to reference in future brand deals.",
+            "It creates a natural reason to propose the next piece of work.",
+          ],
+        },
+        { type: "heading", text: "Before you post: agree what success means", id: "agree-kpis" },
+        {
+          type: "paragraph",
+          text: "The report starts at the brief stage. Ask the brand which two or three numbers matter most (for example views, saves and link clicks), when they want the report, and whether they'll share tracking data such as a UTM link or discount code. If the brief doesn't say, read our guide to the creator brand brief and confirm it in writing. Reporting against agreed KPIs is far stronger than sending every number you can find.",
+          links: [{ text: "creator brand brief", href: "/blog/creator-brand-brief" }],
+        },
+        { type: "heading", text: "When to collect data and when to send", id: "timing" },
+        {
+          type: "table",
+          headers: ["Checkpoint", "What to do", "Why"],
+          rows: [
+            ["Posting day", "Send live links, posting time and confirmation of the disclosure label", "The brand can check the post went live as agreed"],
+            ["About 24 hours", "Screenshot insights for Reels, posts and every Story frame", "Stories disappear from your profile after 24 hours, so capture them early"],
+            ["7 days", "Screenshot again and send the main report (or as agreed)", "Most short-form views arrive in the first week"],
+            ["30 days (optional)", "Update views, watch time and clicks", "YouTube videos and searchable posts keep growing"],
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "Every screenshot should show the date it was taken, or you should write the date next to it. \"Data as of 14 November\" turns a screenshot into evidence.",
+        },
+        { type: "heading", text: "What to collect, platform by platform", id: "contents" },
+        {
+          type: "paragraph",
+          text: "Metric names change from time to time, so use the labels your app shows today. Our guides to Instagram insights for creators and YouTube analytics for creators explain where each number lives.",
+          links: [
+            { text: "Instagram insights for creators", href: "/blog/instagram-insights-for-creators" },
+            { text: "YouTube analytics for creators", href: "/blog/youtube-analytics-for-creators" },
+          ],
+        },
+        {
+          type: "table",
+          headers: ["Format", "Metrics to screenshot", "Notes"],
+          rows: [
+            ["Instagram Reel or post", "Views, accounts reached (or viewers), likes, comments, shares, saves, follows, profile activity", "Include the follower vs non-follower split if your Insights screen shows it"],
+            ["Instagram Stories", "Views per frame, taps forward, taps back, exits, replies, link sticker taps", "Screenshot each frame; the drop between frames shows where attention fell"],
+            ["YouTube video or Short", "Views, watch time, average view duration, impressions click-through rate, traffic sources", "Add top comments and the timestamp where the brand segment starts"],
+            ["Links and codes", "Clicks on tracked links, code redemptions, sales (only if the brand shares them)", "Use the brand's link or code, not one you made up"],
+          ],
+        },
+        { type: "heading", text: "Tracked links and discount codes", id: "tracked-links" },
+        {
+          type: "paragraph",
+          text: "Native insights show attention. Sales and sign-ups usually live in the brand's systems. Before posting, ask for a unique tracked link or code for you, and after the campaign ask for the click and redemption totals. If they won't share them, report the link sticker taps or description clicks you can see and say plainly that conversions were tracked on their side. Creator attribution and creator discount codes go deeper on this.",
+          links: [
+            { text: "Creator attribution", href: "/blog/creator-attribution" },
+            { text: "creator discount codes", href: "/blog/creator-discount-codes" },
+          ],
+        },
+        { type: "heading", text: "The qualitative part brands remember", id: "audience-response" },
+        {
+          type: "paragraph",
+          text: "Numbers say how many people saw the content. Comments and DMs say what they thought. Spend 15 minutes grouping them into themes:",
+        },
+        {
+          type: "list",
+          items: [
+            "Buying questions: price, sizes, shade range, \"is it available in Coimbatore?\"",
+            "Objections or doubts: \"will this work on oily skin?\", \"is the app in Marathi?\"",
+            "Positive signals: \"ordered\", \"saved for Diwali\", tagging friends.",
+            "Questions you answered in DMs, with names and personal details removed.",
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "Include two or three representative comments as screenshots. Never share a follower's phone number, name or DM without consent; describe the theme instead.",
+        },
+        { type: "heading", text: "Report template", id: "template" },
+        {
+          type: "template",
+          label: "One-page campaign report",
+          text: "CAMPAIGN REPORT: [Brand] x [@handle], [Campaign name]\nData as of: [date]  |  Prepared by: [name]\n\n1. OBJECTIVE\n[What the brand wanted, from the brief: e.g. awareness for a new launch in Tamil Nadu]\n\n2. DELIVERABLES AND LIVE LINKS\n- Reel: [link], posted [date, time], paid partnership label: yes\n- Stories (x frames): [date], link sticker: yes\n- YouTube integration: [link], segment at [mm:ss], paid promotion: yes\n\n3. RESULTS VS AGREED KPIs (native insights, screenshots attached)\nKPI | Target or my average | Result | Note\n[Views] | [ ] | [ ] | [ ]\n[Saves] | [ ] | [ ] | [ ]\n[Link clicks / code uses] | [ ] | [ ] | [source: brand / my insights]\n\n4. AUDIENCE SNAPSHOT\n[Top cities, age range, language mix, from Insights on date X]\n\n5. AUDIENCE RESPONSE\nTop themes: [ ]\nExample comments: [attached]\n\n6. LEARNINGS\n[What worked, what didn't, what you'd change]\n\n7. NEXT STEP\n[One specific proposal: follow-up format, festive-season post, usage extension]",
+        },
+        { type: "heading", text: "A one-page example (illustrative numbers)", id: "example" },
+        {
+          type: "paragraph",
+          text: "Here's how a filled report might read for a hypothetical Kannada-and-English food creator in Mysuru promoting a masala brand. All figures are invented for illustration and are not a benchmark.",
+        },
+        {
+          type: "table",
+          headers: ["KPI", "My 90-day Reel average", "This campaign", "Note"],
+          rows: [
+            ["Views (7 days)", "18,000", "24,500", "About 1.4x my average (illustrative)"],
+            ["Saves", "310", "690", "Recipe format drove saves"],
+            ["Shares", "140", "260", "Mostly shared to DMs"],
+            ["Link sticker taps (Stories)", "n/a", "410", "From 3 Story frames"],
+            ["Code redemptions", "n/a", "Shared by brand", "Brand reported total on 20 Nov"],
+          ],
+        },
+        {
+          type: "template",
+          label: "Example learnings and next step (illustrative)",
+          text: "LEARNINGS\n- The 3-second close-up of the tempering drove most saves; comments asked for the full recipe.\n- 40% of comments asked whether the pack is sold in local kirana stores, not only online.\n- Story frame 2 (price) had the most exits; next time lead with the dish, then price.\n\nNEXT STEP\nA two-part Ugadi recipe series using the same masala, with a pinned comment listing nearby stores.",
+        },
+        { type: "heading", text: "Sharing data safely with the brand", id: "share-safely" },
+        {
+          type: "paragraph",
+          text: "Screenshots are usually enough. Some brands also ask for direct access to the numbers. Platform tools let you do this without ever sharing your password, which you should never do.",
+        },
+        {
+          type: "list",
+          items: [
+            "Instagram: when you use the paid partnership label and the brand approves the tag, Instagram can give the brand partner access to that content's insights. Check the current behaviour in the app and confirm with the brand which metrics they can see.",
+            "YouTube: brand partner access lets a brand view organic and paid metrics for a sponsored video in Google Ads, including views, watch time, average view duration, reach, likes, shares and audience age, gender and country, according to YouTube Help (fetched November 2026). Sharing it adds a \"Paid promotion\" label, and you can remove access at any time.",
+            "Agencies: if the deal came through an agency, send the report to your agency contact unless they say otherwise.",
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "The details of brand partner access, and how it connects to the wider programme, are in our guide to YouTube Creator Partnerships in India; the source is YouTube Help on brand partner access. If you work through agencies, here's how to work with an influencer marketing agency as a creator.",
+          links: [
+            { text: "YouTube Creator Partnerships in India", href: "/blog/youtube-creator-partnerships-india" },
+            { text: "YouTube Help on brand partner access", href: "https://support.google.com/youtube/answer/15672082" },
+            { text: "work with an influencer marketing agency as a creator", href: "/blog/work-with-influencer-marketing-agency-creator" },
+          ],
+        },
+        { type: "heading", text: "When a post underperforms", id: "underperformed" },
+        {
+          type: "paragraph",
+          text: "It happens to every creator. The worst response is silence or a report that hides the weak numbers. A good one:",
+        },
+        {
+          type: "list",
+          items: [
+            "States the result plainly next to your average, without excuses.",
+            "Offers a likely reason you can support (posting time clashed with a cricket final, the hook buried the product, the Story link was on the last frame).",
+            "Points to anything that did work, such as strong saves or buying questions in comments.",
+            "Suggests a fix, and if your agreement includes it, a make-good such as an extra Story frame.",
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "Brands remember who was straight with them. An honest weak report keeps the relationship open; a padded one ends it when their own data disagrees.",
+        },
+        { type: "heading", text: "What not to do", id: "honesty" },
+        {
+          type: "list",
+          items: [
+            "Don't estimate or round up. Use only native insights or data the brand shared.",
+            "Don't crop, edit or recreate screenshots.",
+            "Don't report reach or impressions for things you can't see, such as reposts on other accounts.",
+            "Don't mix results from a paid boost with organic results without labelling them.",
+            "Don't add metrics the brand didn't ask for while leaving out the ones it did.",
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "For more on presenting numbers honestly, see creator analytics for brand deals.",
+          links: [{ text: "creator analytics for brand deals", href: "/blog/creator-analytics-for-brand-deals" }],
+        },
+        { type: "heading", text: "From report to next deal", id: "next-deal" },
+        {
+          type: "paragraph",
+          text: "End with one specific idea tied to what you learned, not a vague \"let's work again\". A festive follow-up, a regional-language version or a longer YouTube review are all natural next steps. Then save the report: it becomes the source for your next pitch and for the results section in your creator media kit, and it feeds into how you price future brand deals.",
+          links: [
+            { text: "creator media kit", href: "/blog/creator-media-kit" },
+            { text: "future brand deals", href: "/blog/creator-brand-deals" },
+          ],
+        },
+        { type: "heading", text: "Common mistakes", id: "mistakes" },
+        {
+          type: "list",
+          items: [
+            "Sending the report late, or only after the brand chases you.",
+            "Forgetting to screenshot Stories before the data gets hard to find.",
+            "Screenshots without dates.",
+            "A ten-page deck when the brand wanted one page.",
+            "No next step at the end.",
+          ],
+        },
+        { type: "heading", text: "Conclusion", id: "conclusion" },
+        {
+          type: "paragraph",
+          text: "Set calendar reminders for the 24-hour, 7-day and 30-day checkpoints the day you sign the deal. Collect dated screenshots, ask the brand for tracking data, group the comments into themes, and fill the one-page template. Send it on time, be honest about what didn't work, and close with one clear idea. That habit does more for repeat deals than any single viral post.",
+        },
+      ],
+      faqs: [
+        {
+          question: "Do I have to share my audience demographics with the brand?",
+          answer:
+            "Only if it was agreed or it helps the brand judge fit. Share aggregate data such as top cities, age ranges and gender split from your insights, never details about individual followers.",
+        },
+        {
+          question: "Can the brand ask for my Instagram or YouTube login to check the numbers?",
+          answer:
+            "Don't share your password. Send dated screenshots, or use the platform's own partner tools (the paid partnership label on Instagram or brand partner access on YouTube) so the brand can see insights without logging in to your account.",
+        },
+        {
+          question: "What if the brand never asked for a report?",
+          answer:
+            "Send a short one anyway, about a week after posting. It costs you an hour and makes you stand out from creators who disappear after the post goes live.",
+        },
+        {
+          question: "Should the report be a PDF, a slide or a message?",
+          answer:
+            "Whatever the brand prefers. A one-page PDF or shared document with screenshots attached works for most. If the brand sends its own template, fill that accurately instead.",
+        },
+      ],
+    },
   {
     slug: "creator-client-management",
     category: "Creator Resources",

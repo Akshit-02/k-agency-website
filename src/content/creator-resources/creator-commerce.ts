@@ -1,5 +1,5 @@
 import type { BlogPost } from "@/content/blog";
-import { CREATOR_AUTHOR, CREATOR_CLUSTER_PUBLISHED, CREATOR_FACTS_REVIEWED, SOURCES } from "@/content/creator-resources/shared";
+import { CREATOR_AUTHOR, CREATOR_CLUSTER_PUBLISHED, SOURCES } from "@/content/creator-resources/shared";
 
 /** Creator commerce: affiliate marketing, YouTube Shopping, stacking revenue around brand content. */
 export const creatorCommercePosts: BlogPost[] = [
@@ -223,165 +223,327 @@ export const creatorCommercePosts: BlogPost[] = [
   {
     slug: "youtube-shopping-india-creators",
     category: "Creator Resources",
-    title: "YouTube Shopping for Indian Creators: How Affiliate Product Tagging Works",
-    seoTitle: "YouTube Shopping in India: Affiliate Program and Eligibility",
+    title: "YouTube Shopping in India: Eligibility, Payouts and How to Pick Products That Sell",
+    seoTitle: "YouTube Shopping India: Eligibility, Payouts and What to Tag",
     excerpt:
-      "How the YouTube Shopping affiliate programme works in India in 2026: who's eligible, which retailers take part, how tagging works in videos, Shorts and Live, how commissions are paid, and whether it fits your content.",
-    metaDescription: "YouTube Shopping affiliate program in India: who's eligible, participating retailers, tagging products in videos, Shorts and Live, commissions and payouts.",
-    author: CREATOR_AUTHOR,
-    publishedAt: CREATOR_CLUSTER_PUBLISHED,
-    lastReviewed: CREATOR_FACTS_REVIEWED,
-    readingTime: "12 min read",
-    tags: ["YouTube Shopping India", "YouTube Shopping affiliate", "product tagging", "YouTube affiliate program", "creator commerce"],
-    related: ["creator-affiliate-marketing-india", "creator-monetization-india", "creator-revenue-streams-from-brand-content"],
+      "A creator's guide to the YouTube Shopping affiliate programme in India: who qualifies, which retailers are live, how commission and AdSense payouts work, and a framework for choosing products your viewers will actually buy.",
+    metaDescription:
+      "YouTube Shopping in India, explained for creators: eligibility, live retailers, Amazon tags, payouts via AdSense, and how to choose products your viewers buy.",
+    author: { name: "Kudozz Partnerships Team", role: "Creator Partnerships" },
+    publishedAt: "2026-09-28",
+    updatedAt: "2026-11-10",
+    lastReviewed: "November 2026",
+    readingTime: "11 min read",
+    tags: ["YouTube Shopping India", "YouTube Shopping affiliate", "product tagging", "YouTube affiliate program", "Affiliate Partnerships Boost", "creator commerce"],
+    related: ["youtube-product-tagging", "youtube-affiliate-marketing", "youtube-creator-partnerships-india", "youtube-creator-monetization", "creator-affiliate-marketing-india"],
     body: [
       {
         type: "paragraph",
-        text: "YouTube Shopping has become one of the fastest-growing income streams for Indian creators. YouTube reports that average affiliate payouts to creators in India grew more than 160% year over year (Q1 2025 to Q1 2026), and that more than half of eligible Indian creators had enrolled in the affiliate programme by May 2026. Here's how it works and how to decide whether it suits your channel.",
-        links: [{ text: "YouTube reports", href: "https://blog.google/intl/en-in/products/platforms/helping-indian-creators-build-thriving-businesses-on-youtube-shopping/" }],
-      },
-      {
-        type: "paragraph",
-        text: "Details in this guide were checked against YouTube's official help centre and Google's India blog in September 2026. Eligibility, retailers and features change; always confirm in YouTube Studio.",
+        text: "You've seen the yellow Shopping button under other creators' videos and wondered whether it's worth the effort on your channel. The honest answer depends on two things: whether you're eligible, and whether you tag products your viewers were already close to buying. This guide covers both, with the official rules as of November 2026 and a practical way to choose what to tag.",
       },
       { type: "heading", text: "Quick answer", id: "quick-answer" },
       {
         type: "paragraph",
-        text: "YouTube Shopping lets eligible creators tag products from participating retailers in long-form videos, Shorts and live streams. Through the YouTube Shopping affiliate programme, creators in India earn a commission when viewers buy tagged products on the retailer's site. To join, your channel must be in the YouTube Partner Program and meet its subscriber threshold, and music channels, Official Artist Channels and channels set as Made for Kids aren't eligible. Commissions are paid through AdSense for YouTube, typically 60 to 120 days after purchase. You must follow YouTube's paid promotion and disclosure rules.",
+        text: "The YouTube Shopping affiliate programme lets eligible Indian creators tag products from participating retailers such as Flipkart, Myntra and Nykaa in videos, Shorts and live streams. When a viewer buys through a tag, you earn the commission the retailer sets for that product, paid through AdSense for YouTube 60 to 120 days after purchase. Returns reverse the commission. You need to be in the YouTube Partner Program and meet the subscriber threshold YouTube shows in Studio. Products you genuinely use, at prices your audience pays, convert best.",
       },
-      { type: "heading", text: "Eligibility", id: "eligibility" },
+      { type: "heading", text: "What YouTube Shopping affiliate is and how earning works", id: "how-it-works" },
+      {
+        type: "paragraph",
+        text: "YouTube Shopping affiliate is a commission programme run inside YouTube Studio. Retailers list products, you tag the ones that appear in your content, and viewers see those products in a Shopping button, product list or Shorts sticker. If they buy, you earn a share of that sale. According to YouTube's affiliate programme overview, each brand or retailer sets its own commission rate and attribution window per product, and you can see both on the offer before you tag it.",
+        links: [{ text: "YouTube's affiliate programme overview", href: "https://support.google.com/youtube/answer/13376398" }],
+      },
       {
         type: "list",
         items: [
-          "Your channel is in the YouTube Partner Program.",
-          "It meets the subscriber threshold YouTube sets for the programme in your YPP tier.",
-          "You're based in an eligible country; India is on the list.",
-          "Your channel isn't a music channel, an Official Artist Channel or associated with music partners.",
-          "Your audience isn't set as Made for Kids, and the channel doesn't have a significant number of made-for-kids videos.",
+          "Rates: set by the merchant per product and shown on each offer in Studio. YouTube does not publish fixed percentages.",
+          "Custom campaigns: merchants may offer higher rates for specific campaigns. Joining them is optional.",
+          "Payout: through AdSense for YouTube, 60 to 120 days after the purchase.",
+          "Returns: if the buyer returns the product, the commission is reversed.",
+          "Temporary incentive: the overview page describes a period where 100% of the merchant's commission is passed to creators, with at least 30 days' notice before rates drop. Check whether it applies to the offers you see.",
         ],
       },
       {
         type: "paragraph",
-        text: "See YouTube's affiliate programme overview and eligibility page. Once eligible, enrolment is in YouTube Studio under Earn.",
-        links: [{ text: "affiliate programme overview and eligibility", href: SOURCES.youtubeShoppingAffiliate }],
+        text: "Commission is business income, so keep a simple record of what lands in AdSense each month. TDS for influencers in India explains the tax side.",
+        links: [{ text: "TDS for influencers in India", href: "/blog/tds-for-influencers-india" }],
+      },
+      { type: "heading", text: "Eligibility", id: "eligibility" },
+      {
+        type: "paragraph",
+        text: "YouTube's get started with Shopping page and the overview page list these requirements. Neither page gives a subscriber number; they say your channel must meet the YPP subscriber threshold.",
+        links: [{ text: "get started with Shopping page", href: "https://support.google.com/youtube/answer/12257682?hl=en-IN" }],
+      },
+      {
+        type: "table",
+        headers: ["Requirement", "What the help pages say"],
+        rows: [
+          ["Programme", "Your channel is in the YouTube Partner Program"],
+          ["Subscribers", "Meets the YPP subscriber threshold (no number stated on the help page)"],
+          ["Country", "India is listed, alongside the US, South Korea, Indonesia, Thailand, Vietnam, Malaysia, the Philippines, Singapore, Brazil, Taiwan and Japan"],
+          ["Channel type", "Not a music channel, Official Artist Channel, or channel tied to music partners such as labels or distributors"],
+          ["Audience setting", "Not set to Made for Kids, and no significant number of Made for Kids videos"],
+          ["Standing", "No active Community Guidelines strikes"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The number has changed over time. When the programme launched in India in October 2024, TechCrunch reported that creators needed YPP membership plus at least 10,000 subscribers. Reports of a lower threshold since then are unverified, so don't rely on any figure you read online, including this one. Open YouTube Studio, go to Earn, and check whether Shopping appears for your channel.",
+        links: [{ text: "TechCrunch reported", href: "https://techcrunch.com/2024/10/24/youtube-brings-its-affilate-program-to-india-partners-with-walmart-owned-flipkart/" }],
       },
       { type: "heading", text: "Participating retailers in India", id: "retailers" },
       {
         type: "paragraph",
-        text: "According to Google's India blog, the programme's partners in India include Flipkart, Myntra, Nykaa, Purplle, Shopsy and Tira, with AJIO, Meesho, Snapdeal and Tata CLiQ announced as rolling out. On 23 September 2026, YouTube announced Amazon product tagging for creators in India, along with localised product tags and affiliate campaigns. Which retailers and products appear for your channel, and the commission on each, is shown in YouTube Studio.",
+        text: "The programme launched in India with Flipkart and Myntra, according to Google's India launch post from October 2024. In September 2026, Google's India blog post on helping creators build businesses on YouTube Shopping listed the current partners and the next wave.",
         links: [
-          { text: "Google's India blog", href: SOURCES.youtubeShoppingIndia },
-          { text: "YouTube announced Amazon product tagging for creators in India", href: SOURCES.madeOnYouTube2026 },
+          { text: "Google's India launch post", href: "https://blog.google/intl/en-in/products/platforms/youtube-shopping-affiliate-program-arrives-in-india/" },
+          { text: "helping creators build businesses on YouTube Shopping", href: "https://blog.google/intl/en-in/products/platforms/helping-indian-creators-build-thriving-businesses-on-youtube-shopping/" },
         ],
       },
-      { type: "heading", text: "How product tagging works", id: "tagging" },
       {
         type: "table",
-        headers: ["Format", "How tagging works", "Tips"],
+        headers: ["Retailer", "Status", "Source and date"],
         rows: [
-          ["Long-form videos", "Tag products in YouTube Studio; viewers see them in a product shelf and during the video", "Mention the product when it's on screen; add timestamps"],
-          ["Shorts", "Tag products; you can choose which appears as the Shopping product sticker", "Put the main product first; show it clearly in the first seconds"],
-          ["Live streams", "Tag during or after the stream; products added later appear in replays", "Plan the product list before going live"],
+          ["Flipkart, Myntra", "Live (launch partners)", "Google India blog, Oct 2024"],
+          ["Nykaa, Purplle, Shopsy, Tira", "Live (\"already in the program\")", "Google India blog, Sep 2026"],
+          ["AJIO, Meesho, Snapdeal, Tata CLiQ", "Announced as \"set to roll out soon\"; not confirmed live as of November 2026", "Google India blog, Sep 2026"],
+          ["Amazon", "Announced for India \"in the coming weeks\" in Sep 2026; India is now listed on the Amazon tagging help page", "YouTube blog, 23 Sep 2026; YouTube Help"],
         ],
       },
       {
         type: "paragraph",
-        text: "YouTube's help page on tagging products covers the current limits and steps, including how many products can be tagged.",
-        links: [{ text: "YouTube's help page on tagging products", href: SOURCES.youtubeTagProducts }],
+        text: "The help pages don't name merchants. The list that actually applies to you is in Studio under Earn, then Shopping, then Explore affiliate offers.",
       },
-      { type: "heading", text: "How commissions are paid", id: "commissions" },
+      { type: "subheading", text: "Amazon product tags" },
+      {
+        type: "paragraph",
+        text: "YouTube announced at Made On YouTube 2026 that Amazon tagging would expand to India and Brazil. The Amazon tagging help page now lists India as eligible. It requires YPP and affiliate enrolment and supports auto-tagging. One difference matters for your monthly review: Amazon analytics are aggregate only, showing daily revenue, clicks and sales without a per-video or per-product breakdown. Amazon commissions lock monthly and are paid in a later AdSense cycle, so January earnings arrive around March.",
+        links: [
+          { text: "announced at Made On YouTube 2026", href: "https://blog.youtube/news-and-events/made-on-youtube-creator-monetization-shopping/" },
+          { text: "Amazon tagging help page", href: "https://support.google.com/youtube/answer/17105501" },
+        ],
+      },
+      { type: "heading", text: "Tagging on videos, Shorts and Live", id: "tagging" },
+      {
+        type: "paragraph",
+        text: "You can tag products in long-form videos, Shorts and live streams, and viewers can shop on mobile, web and connected TV. YouTube's tagging help page sets a limit of 60 products per video or Short.",
+        links: [{ text: "YouTube's tagging help page", href: "https://support.google.com/youtube/answer/10191533" }],
+      },
+      {
+        type: "table",
+        headers: ["Format", "How tags appear", "What to do"],
+        rows: [
+          ["Long-form", "Shopping button plus tags in the description. Timestamps on videos of 1 minute or more, each lasting 15 to 60 seconds, added on desktop", "Add a timestamp when each product is on screen"],
+          ["Shorts", "A product sticker shows the first tagged product; you can reorder the list", "Put the product the Short is about first"],
+          ["Live", "Tag and pin products during the stream; pinning several at once is desktop only", "Prepare the product list before you go live"],
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The live tagging help page doesn't state a product limit for streams, so check in Studio rather than trusting third-party numbers. YouTube also says product tags now show localised offers based on the viewer's location. For list order, timestamps and refreshing old uploads, see our YouTube product tagging tips.",
+        links: [
+          { text: "live tagging help page", href: "https://support.google.com/youtube/answer/12299016" },
+          { text: "YouTube product tagging tips", href: "/blog/youtube-product-tagging" },
+        ],
+      },
+      { type: "heading", text: "How to choose products that actually convert", id: "choose-products" },
+      {
+        type: "paragraph",
+        text: "Sixty tags is a ceiling, not a target. Viewers buy when the product solves a problem they recognise, at a price they already pay, from someone they trust on that topic. Run every product through these six checks before tagging it.",
+      },
+      {
+        type: "table",
+        headers: ["Check", "Question to ask", "Red flag"],
+        rows: [
+          ["Audience fit", "Do my comments and DMs ask about this kind of product?", "You're tagging it only because the commission rate looks good"],
+          ["You actually use it", "Have I used it long enough to show real pros and cons?", "You unboxed it on camera for the first time"],
+          ["Price band", "Is the price close to what my viewers usually spend in this category?", "A ₹40,000 phone on a channel where viewers ask for under-₹1,000 picks"],
+          ["Problem-solution fit", "Does the video show the problem this product fixes?", "The product appears in the background with no context"],
+          ["Format fit", "Does this product need a demo, a comparison or just a quick show?", "A skincare routine squeezed into a 10-second Short"],
+          ["Tag count", "Would a viewer know which tag to tap?", "Twenty loosely related tags on a five-minute video"],
+        ],
+      },
+      { type: "subheading", text: "Match the price band to your audience" },
+      {
+        type: "paragraph",
+        text: "Your analytics show where viewers are and what they watch, but your comments show what they can afford. A budget-beauty creator in Indore and a premium-tech reviewer in Bengaluru may have similar subscriber counts and completely different baskets. If you're unsure, tag one budget and one mid-range option for the same need and let the Affiliate tab tell you which one your audience picks.",
+      },
+      { type: "subheading", text: "Choose the content format by product type" },
+      {
+        type: "table",
+        headers: ["Product type", "Format that tends to suit it", "Why"],
+        rows: [
+          ["Gadgets, appliances", "Long-form review or comparison", "Viewers want specs, trade-offs and real use"],
+          ["Skincare, haircare", "Tutorial or routine, then a follow-up after a few weeks", "Results take time; a follow-up builds trust"],
+          ["Fashion, accessories", "Haul, styling Short, or \"what I wore this week\"", "Visual, quick decisions, sizes matter"],
+          ["Kitchen and home", "Tutorial or \"what I use\" setup tour", "Seeing it in use answers most questions"],
+          ["Festive and gifting", "Gift guide by budget before Diwali, Rakhi or wedding season", "Viewers are already planning purchases"],
+        ],
+      },
+      { type: "subheading", text: "Avoid over-tagging" },
       {
         type: "list",
         items: [
-          "A viewer taps a tagged product and buys on the retailer's site.",
-          "Commission rates are set per product or retailer and shown in Studio.",
-          "Commissions are paid through AdSense for YouTube, typically 60 to 120 days after purchase, to allow for returns.",
-          "Returned or cancelled orders don't earn commission.",
-          "Commission income may have tax implications; keep records and see TDS for creators.",
+          "Tag what appears or is discussed in the video. Unrelated tags look like spam and make the shelf harder to use.",
+          "On Shorts, keep the main product first so the sticker matches what's on screen.",
+          "Don't tag a competitor's product in a sponsored video. Check exclusivity clauses before tagging anything in a brand deal.",
+          "If a product disappoints you, untag it. One honest \"I stopped using this\" protects every future recommendation.",
         ],
       },
       {
         type: "paragraph",
-        text: "YouTube has also announced affiliate campaigns in India, where retailers and brands can offer incentives such as exclusive commission rates or bonuses for content featuring specific products, and tools for brands to boost creators' affiliate content with paid media. Check Studio for what's available to your channel.",
+        text: "For how exclusivity clauses work, see creator exclusivity in brand deals.",
+        links: [{ text: "creator exclusivity in brand deals", href: "/blog/creator-exclusivity" }],
+      },
+      { type: "heading", text: "Content formats that suit tagging", id: "formats" },
+      {
+        type: "list",
+        items: [
+          "Honest review: one product, what it does well, where it falls short, who should skip it.",
+          "Comparison: two or three options in the same price band, with a clear \"pick this if\" for each.",
+          "\"What I use\": your desk setup, travel kit, kitchen or skincare shelf. Evergreen and easy to keep tags updated.",
+          "Tutorial: the product is the tool for a result (a recipe, a hairstyle, a phone camera setting).",
+          "Haul: works for fashion and beauty when you show fit, texture or size honestly, not just the packaging.",
+        ],
+      },
+      {
+        type: "template",
+        label: "Product selection worksheet (copy for each video)",
+        text: "Video idea:\nViewer problem it solves:\nProduct 1: ___ | Used for ___ weeks | Price ₹___ | Retailer ___ | Commission shown in Studio ___%\nWould I recommend it with no commission? Yes / No\nFormat: review / comparison / what I use / tutorial / haul\nWhere it appears in the video (timestamp):\nTotal tags planned (keep it to what's on screen):\nSponsored video? If yes, any exclusivity conflict?\nDisclosure line I'll say on camera:",
+      },
+      { type: "heading", text: "Reading the Affiliate analytics tab", id: "analytics" },
+      {
+        type: "paragraph",
+        text: "In YouTube Studio, go to Analytics, then Revenue, then the Affiliate tab. According to YouTube's affiliate analytics help page, it shows estimated revenue, earned revenue, total sales, orders and product clicks, with cards for top content, top tagged products and top sellers. Advanced mode breaks results down by product, content, geography and seller. Earnings are typically finalised in two to three months, and AdSense is the final word on what you're paid.",
+        links: [{ text: "YouTube's affiliate analytics help page", href: "https://support.google.com/youtube/answer/16322165" }],
+      },
+      {
+        type: "table",
+        headers: ["Metric", "What it tells you", "What to do"],
+        rows: [
+          ["Product clicks", "Whether viewers are interested enough to tap", "High views but few clicks: show the product more clearly or explain it"],
+          ["Orders", "Whether interest becomes a purchase", "Many clicks but few orders: check price, stock, ratings on the retailer page"],
+          ["Total sales", "The basket value, which can include other items", "Useful for spotting which retailers bring bigger baskets"],
+          ["Earned revenue", "Commission after it's confirmed", "Your real number for planning; estimated revenue can still change"],
+          ["By video / product / seller", "Which content and products carry the results", "Make more of what works; untag what never gets clicked"],
+        ],
+      },
+      {
+        type: "template",
+        label: "Monthly Shopping review (20 minutes)",
+        text: "1. Affiliate tab, last 28 days: note product clicks, orders, earned revenue\n2. Top 5 videos by clicks: is the tagged product clearly shown? Add timestamps if missing\n3. Top 5 products: do I have a newer video that should also tag them?\n4. Zero-click tags older than 60 days: remove or replace\n5. Out-of-stock or discontinued products: swap for a current equivalent\n6. Upcoming sale or festival: plan one gift guide or comparison\n7. Cross-check last cycle's payout in AdSense",
+      },
+      {
+        type: "paragraph",
+        text: "Clicks and orders are only part of the picture; YouTube analytics for creators explains how retention and traffic sources affect what you see here.",
+        links: [{ text: "YouTube analytics for creators", href: "/blog/youtube-analytics-for-creators" }],
+      },
+      { type: "heading", text: "Affiliate Partnerships Boost: what it means for you", id: "affiliate-boost" },
+      {
+        type: "paragraph",
+        text: "Affiliate Partnerships Boost lets brands and sellers whose products you've tagged run your shoppable videos as ads. YouTube's Affiliate Partnerships Boost help page lists India among the eligible markets, and Google's India blog described it as recently launched in September 2026. It's opt-in: in Studio go to Earn, then Shopping, then Affiliate boost, and sign the Affiliate Boost terms.",
+        links: [{ text: "Affiliate Partnerships Boost help page", href: "https://support.google.com/youtube/answer/16984119" }],
+      },
+      {
+        type: "list",
+        items: [
+          "You earn commission on purchases the ads drive, at the same rates as organic sales.",
+          "Eligibility: YPP, not music or Official Artist Channel, not Made for Kids, and enrolled in affiliate with a contract you signed yourself rather than through a Content Owner.",
+          "Brands get broad metrics and aggregated audience insights, and can turn on comments on their ad placements.",
+          "You get an email when an advertiser picks your video.",
+          "To stop it, remove that advertiser's tags from a video or switch it off for the whole channel under Advanced settings.",
+          "Analytics, Advanced mode, Organic vs. Paid shows which results came from ads.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Before opting in, ask yourself whether you're comfortable with your face and voice appearing as an ad for that brand. If a brand wants more than commission-based boosting, such as a fee, a fixed duration or use outside YouTube, that's a separate deal. See creator whitelisting for how paid usage is usually priced.",
+        links: [{ text: "creator whitelisting", href: "/blog/creator-whitelisting" }],
+      },
+      { type: "heading", text: "YouTube Shopping and brand deals", id: "brand-deals" },
+      {
+        type: "paragraph",
+        text: "Shopping and sponsorships can sit together. A brand might sponsor a video and you tag its product so viewers can buy directly. Agree this with the brand upfront, and make sure tags don't break exclusivity terms. Sponsored deals found through YouTube's own brand tool work differently from affiliate commission: the brand pays you directly under your own contract. Our guide to YouTube Creator Partnerships in India covers that side.",
+        links: [{ text: "YouTube Creator Partnerships in India", href: "/blog/youtube-creator-partnerships-india" }],
       },
       { type: "heading", text: "Disclosure", id: "disclosure" },
       {
         type: "paragraph",
-        text: "YouTube requires creators in the programme to follow its branded content policies and add appropriate disclosures, including the paid product placements and endorsements disclosure where relevant. In India, also follow ASCI's influencer guidelines: make the commercial relationship clear upfront. A simple spoken line helps: \"The products are tagged below; I earn a commission if you buy.\"",
+        text: "The tagging help page asks creators to add appropriate disclosures, including YouTube's paid product placement disclosure, and to follow the branded content policy. On the YouTube paid promotion page, the setting is under Details, Show more, Paid promotion. In India, ASCI's influencer guidelines expect the commercial link to be clear to viewers. Say it plainly and early, and don't overclaim results.",
         links: [
-          { text: "paid product placements and endorsements disclosure", href: SOURCES.youtubePaidPromotion },
-          { text: "ASCI's influencer guidelines", href: SOURCES.asciSocial },
+          { text: "YouTube paid promotion page", href: "https://support.google.com/youtube/answer/154235" },
+          { text: "ASCI's influencer guidelines", href: "https://www.ascionline.in/social/" },
         ],
+      },
+      {
+        type: "template",
+        label: "Simple disclosure lines",
+        text: "Spoken (start of video): \"Products I use are tagged below. If you buy through them, I earn a small commission at no extra cost to you.\"\nHindi/Hinglish: \"Neeche products tagged hain. Aap unse kharidte ho toh mujhe commission milta hai.\"\nSponsored + tagged: \"This video is sponsored by [brand], and their product is tagged below.\"\nAvoid: \"guaranteed results\", \"best in India\", or medical-style claims you can't back up.",
+      },
+      {
+        type: "paragraph",
+        text: "Our creator disclosure guide covers ASCI labels, placement and gifted products in more detail.",
+        links: [{ text: "creator disclosure guide", href: "/blog/creator-disclosure-guide" }],
       },
       { type: "heading", text: "Does YouTube Shopping fit your content?", id: "fit" },
       {
         type: "table",
         headers: ["Good fit", "Weaker fit"],
         rows: [
-          ["Reviews, comparisons, hauls, tutorials, setups, fashion and beauty, tech, home", "Commentary, news, entertainment with no products"],
-          ["Audience asks \"where did you buy it?\"", "Audience rarely discusses products"],
-          ["Products available from participating Indian retailers", "Products mostly unavailable in India or from non-participating sellers"],
-          ["Evergreen content that keeps getting views", "Content that's only relevant for a day"],
+          ["Reviews, comparisons, tutorials, setups, fashion, beauty, tech, kitchen, home", "News, commentary or entertainment where no products appear"],
+          ["Viewers ask \"where did you buy it?\" or \"link please\"", "Viewers rarely discuss products"],
+          ["Products sold by participating Indian retailers", "Products mostly unavailable from participating sellers"],
+          ["Evergreen videos that keep getting views", "Content relevant for a day"],
         ],
       },
-      { type: "heading", text: "A simple evaluation plan", id: "evaluation" },
+      { type: "heading", text: "A simple 90-day plan", id: "evaluation" },
       {
         type: "list",
         items: [
-          "Tag products in your 10 most-viewed evergreen videos where products genuinely appear.",
-          "Add products to new videos as part of your upload routine.",
-          "After 60 to 90 days, look at clicks, orders and confirmed commissions by video.",
-          "Double down on formats that convert; don't force tags onto videos where they don't fit.",
-          "Keep brand deals and Shopping aligned: don't tag a competitor's product in a sponsored video.",
-        ],
-      },
-      { type: "heading", text: "YouTube Shopping and brand deals", id: "brand-deals" },
-      {
-        type: "paragraph",
-        text: "Shopping and sponsorships can work together: a brand sponsors a video and you tag its product so viewers can buy directly, earning a commission on top of the fee where the product is in the programme. Discuss this upfront with the brand, and make sure product tags don't conflict with exclusivity terms. YouTube Creator Partnerships, available to eligible Indian creators, is YouTube's own tool for managing brand enquiries and media kits.",
-        links: [{ text: "YouTube Creator Partnerships", href: SOURCES.youtubeCreatorPartnerships }],
-      },
-      {
-        type: "paragraph",
-        text: "Shopping is one of several YouTube income streams; see YouTube creator monetization for the full picture, and creator storefront for bringing recommendations together off YouTube.",
-        links: [{ text: "YouTube creator monetization", href: "/blog/youtube-creator-monetization" }, { text: "creator storefront", href: "/blog/creator-storefront" }],
-      },
-      {
-        type: "paragraph",
-        text: "For affiliate income beyond YouTube, see creator affiliate marketing in India. For the full income picture, see creator monetization in India.",
-        links: [
-          { text: "creator affiliate marketing in India", href: "/blog/creator-affiliate-marketing-india" },
-          { text: "creator monetization in India", href: "/blog/creator-monetization-india" },
+          "Week 1: tag products in your ten most-viewed evergreen videos where products genuinely appear.",
+          "Every upload: run the product selection worksheet before you publish.",
+          "Month 1 and 2: do the monthly review; fix videos with views but no clicks.",
+          "Day 90: compare earned revenue by format. Make more of the format that works and stop forcing tags where they don't fit.",
         ],
       },
       {
         type: "paragraph",
-        text: "For tagging practice (which products, list order, timestamps, the Shorts sticker and updating old videos), see YouTube product tagging. For affiliate strategy beyond Shopping, including description links and disclosure, see YouTube affiliate marketing.",
+        text: "Shopping is one of several income streams. YouTube creator monetization gives the full picture, and YouTube affiliate marketing covers description links and programmes outside Shopping.",
         links: [
-          { text: "YouTube product tagging", href: "/blog/youtube-product-tagging" },
+          { text: "YouTube creator monetization", href: "/blog/youtube-creator-monetization" },
           { text: "YouTube affiliate marketing", href: "/blog/youtube-affiliate-marketing" },
         ],
+      },
+      { type: "heading", text: "Conclusion", id: "conclusion" },
+      {
+        type: "paragraph",
+        text: "YouTube Shopping is live in India with Flipkart, Myntra, Nykaa, Purplle, Shopsy and Tira, Amazon tagging now listed for India, and more retailers announced. Check your eligibility in Studio rather than trusting a number online. Then tag fewer, better products: things you use, at prices your viewers pay, shown in a format that answers their questions. Review the Affiliate tab monthly and disclose every tag clearly.",
       },
     ],
     faqs: [
       {
-        question: "Is YouTube Shopping available in India?",
+        question: "How many subscribers do I need for YouTube Shopping in India?",
         answer:
-          "Yes. India is among the countries eligible for the YouTube Shopping affiliate programme. Creators must be in the YouTube Partner Program and meet its subscriber threshold, and music and Made for Kids channels aren't eligible.",
+          "YouTube's help pages say you must be in YPP and meet the YPP subscriber threshold, without giving a number. At the October 2024 India launch it was 10,000 subscribers (TechCrunch). The figure may have changed, so check Earn in YouTube Studio for your channel.",
       },
       {
-        question: "Which retailers are part of YouTube Shopping in India?",
+        question: "How much commission will I get per sale?",
         answer:
-          "Google's India blog lists Flipkart, Myntra, Nykaa, Purplle, Shopsy and Tira, with AJIO, Meesho, Snapdeal and Tata CLiQ announced as rolling out, and YouTube announced Amazon product tagging for India in September 2026. Check YouTube Studio for what's available to your channel.",
+          "It depends on the product. Each retailer sets its own rate and attribution window, shown on the offer in Studio before you tag it. YouTube doesn't publish standard percentages, and returned orders reverse the commission.",
       },
       {
-        question: "When are YouTube Shopping commissions paid?",
-        answer: "Through AdSense for YouTube, typically 60 to 120 days after the purchase, to account for returns.",
+        question: "Why am I getting clicks but no sales?",
+        answer:
+          "Usually the price, stock or reviews on the retailer page put viewers off, or the product doesn't match your audience's budget. Check the product page yourself, try a lower-priced alternative for the same need, and make sure the video shows why the product is worth buying.",
       },
       {
-        question: "Can I tag products in YouTube Shorts?",
+        question: "Can I tag Amazon products on YouTube in India?",
         answer:
-          "Yes. Products can be tagged in Shorts, long-form videos and live streams. In Shorts, you can choose which product appears as the Shopping product sticker.",
+          "YouTube's Amazon tagging help page lists India as eligible, following a September 2026 announcement. You need YPP and affiliate enrolment. Analytics for Amazon tags are aggregate only, without per-video breakdowns.",
+      },
+      {
+        question: "Does Affiliate Partnerships Boost cost me anything?",
+        answer:
+          "No fee is described. Brands pay for the ads and you earn commission on sales they drive at your usual rates. It's opt-in, and you can switch it off channel-wide or remove a specific advertiser's tags.",
       },
     ],
   },

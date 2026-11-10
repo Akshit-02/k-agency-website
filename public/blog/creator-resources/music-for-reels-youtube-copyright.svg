@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Music for Reels and YouTube: choose a source, check the licence, keep a record, and get brand approval for paid content</title><rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="40" font-weight="700" fill="#150F0B">Music for Reels and YouTube: check the licence first</text>
+<rect x="80" y="180" width="380" height="110" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="100" y="214" font-size="15" fill="#150F0B" opacity=".7">Platform libraries</text>
+<text x="100" y="250" font-size="20" font-weight="700" fill="#150F0B">YouTube Audio Library</text><text x="100" y="276" font-size="20" font-weight="700" fill="#150F0B">Meta Sound Collection</text>
+<rect x="80" y="320" width="380" height="110" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="100" y="354" font-size="15" fill="#150F0B" opacity=".7">Credit required</text>
+<text x="100" y="398" font-size="24" font-weight="700" fill="#150F0B">Creative Commons</text>
+<rect x="80" y="460" width="380" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="100" y="494" font-size="15" fill="#FAF1E2" opacity=".7">Paid licence</text>
+<text x="100" y="538" font-size="24" font-weight="700" fill="#FAF1E2">Royalty-free / stock</text>
+<line x1="460" y1="235" x2="540" y2="375" stroke="#150F0B" stroke-width="3"/>
+<line x1="460" y1="375" x2="540" y2="375" stroke="#150F0B" stroke-width="3"/>
+<line x1="460" y1="515" x2="540" y2="375" stroke="#150F0B" stroke-width="3"/>
+<rect x="540" y="250" width="320" height="250" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="565" y="290" font-size="15" fill="#150F0B" opacity=".7">Licence check</text>
+<text x="565" y="335" font-size="21" fill="#150F0B">✓ Which platforms?</text>
+<text x="565" y="375" font-size="21" fill="#150F0B">✓ Commercial use?</text>
+<text x="565" y="415" font-size="21" fill="#150F0B">✓ Credit text?</text>
+<text x="565" y="455" font-size="21" fill="#150F0B">✓ Ads allowed?</text>
+<line x1="860" y1="375" x2="940" y2="375" stroke="#150F0B" stroke-width="3"/>
+<rect x="940" y="300" width="240" height="150" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="962" y="335" font-size="15" fill="#FAF1E2" opacity=".7">Keep proof</text>
+<text x="962" y="378" font-size="24" font-weight="700" fill="#FAF1E2">Licence log</text>
+<text x="962" y="415" font-size="16" fill="#FAF1E2" opacity=".8">Track · source · ID · date</text>
+<line x1="1180" y1="375" x2="1210" y2="375" stroke="#150F0B" stroke-width="3"/><line x1="1210" y1="275" x2="1210" y2="475" stroke="#150F0B" stroke-width="3"/><line x1="1210" y1="275" x2="1240" y2="275" stroke="#150F0B" stroke-width="3"/><line x1="1210" y1="475" x2="1240" y2="475" stroke="#150F0B" stroke-width="3"/>
+<rect x="1240" y="210" width="280" height="130" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1260" y="245" font-size="15" fill="#150F0B" opacity=".7">Your own posts</text>
+<text x="1260" y="290" font-size="22" font-weight="700" fill="#150F0B">Follow platform</text>
+<text x="1260" y="320" font-size="22" font-weight="700" fill="#150F0B">music rules</text>
+<rect x="1240" y="410" width="280" height="130" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="1260" y="445" font-size="15" fill="#150F0B" opacity=".7">Paid partnership / UGC</text>
+<text x="1260" y="490" font-size="22" font-weight="700" fill="#150F0B">Brand-approved,</text>
+<text x="1260" y="520" font-size="22" font-weight="700" fill="#150F0B">licensed music</text>
+<text x="80" y="640" font-size="18" fill="#150F0B" opacity=".7">Royalty-free is not copyright-free · No track is safe everywhere · General information, not legal advice</text>
+</svg>

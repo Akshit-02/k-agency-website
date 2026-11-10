@@ -163,8 +163,8 @@ export const conversionReadinessPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Influencer UTM tracking has a naming convention you can copy, and the reasons tagged numbers usually come in lower than the clicks creators report.",
-        links: [{ text: "Influencer UTM tracking", href: "/blog/influencer-utm-tracking" }],
+        text: "Influencer UTM tracking has a naming convention you can copy, and the reasons tagged numbers usually come in lower than the clicks creators report. If you also sell on Amazon or quick-commerce apps, decide where each creator's link should point before you brief anyone.",
+        links: [{ text: "Influencer UTM tracking", href: "/blog/influencer-utm-tracking" }, { text: "decide where each creator's link should point", href: "/blog/influencer-traffic-website-marketplace-quick-commerce" }],
       },
       { type: "heading", text: "Pre-launch checklist", id: "pre-launch-checklist" },
       {

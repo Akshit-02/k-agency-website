@@ -50,8 +50,14 @@ export default function ContactPage() {
             >
               campaign inquiry form
             </Link>
-            . For everything else (press, partnerships, general questions) use
-            the form below.
+            . Creators who want to join the network should{" "}
+            <Link
+              href="/for-creators#apply"
+              className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-4"
+            >
+              apply on the For Creators page
+            </Link>
+            . For everything else (press, partnerships, general questions) use the form below.
           </p>
         </Reveal>
 

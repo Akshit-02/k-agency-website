@@ -217,12 +217,12 @@ export const technologyAiPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "ASCI's influencer guidelines expect virtual influencers to tell consumers they aren't interacting with a real person, and platform labels are explained in Meta's approach to labelling AI-generated content. Market detail for the Gulf is in AI influencer content and virtual influencers in the GCC, and creator-side rules in AI disclosure for creators.",
+        text: "ASCI's influencer guidelines expect virtual influencers to tell consumers they aren't interacting with a real person, and platform labels are explained in Meta's approach to labelling AI-generated content. Market detail for the Gulf is in AI influencer content and virtual influencers in the GCC, and creator-side rules in AI disclosure for creators. AI is also changing how customers buy; what agentic commerce means for D2C founders in India explains what is live and what is still a pilot.",
         links: [
           { text: "ASCI's influencer guidelines", href: "https://www.ascionline.in/social/wp-content/uploads/2025/04/ASCI-Influencer-Guidelines.pdf" },
           { text: "Meta's approach to labelling AI-generated content", href: "https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/" },
           { text: "AI influencer content and virtual influencers in the GCC", href: "/blog/ai-generated-influencer-content-gcc" },
-          { text: "AI disclosure for creators", href: "/blog/ai-disclosure-creators" },
+          { text: "AI disclosure for creators", href: "/blog/ai-disclosure-creators" }, { text: "what agentic commerce means for D2C founders in India", href: "/blog/agentic-commerce-india-d2c-brands" },
         ],
       },
       { type: "heading", text: "A 30-day way to start", id: "start" },

@@ -1761,7 +1761,7 @@ export const creatorBusinessStrategyPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Many creators combine options: independent for their own direct relationships, non-exclusive agency networks for campaigns, and a manager later.",
+        text: "Many creators combine options: independent for their own direct relationships, non-exclusive agency networks for campaigns, and a manager later. If you're mainly dealing with campaign agencies rather than managers, see how to work with an influencer marketing agency as a creator.", links: [{ text: "how to work with an influencer marketing agency as a creator", href: "/blog/work-with-influencer-marketing-agency-creator" }],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

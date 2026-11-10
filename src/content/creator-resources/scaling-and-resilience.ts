@@ -496,10 +496,10 @@ export const scalingAndResiliencePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "If someone creates a fake account in your name rather than taking yours, see creator impersonation. For the public side of a hack, see creator crisis management.",
+        text: "If someone creates a fake account in your name rather than taking yours, see creator impersonation. For the public side of a hack, see creator crisis management. Securing your accounts also makes it easier to respond if someone misuses your likeness; see protecting your face, voice and name from deepfakes.",
         links: [
           { text: "creator impersonation", href: "/blog/creator-impersonation" },
-          { text: "creator crisis management", href: "/blog/creator-crisis-management" },
+          { text: "creator crisis management", href: "/blog/creator-crisis-management" }, { text: "protecting your face, voice and name from deepfakes", href: "/blog/deepfakes-creator-identity-protection" },
         ],
       },
       { type: "heading", text: "Quarterly security review", id: "review" },
@@ -791,9 +791,9 @@ export const scalingAndResiliencePosts: BlogPost[] = [
       { type: "tool", tool: "creator-continuity-checklist" },
       {
         type: "paragraph",
-        text: "Continuity also depends on your files surviving a lost laptop or failed drive; creator backup strategy covers the 3-2-1 approach.",
+        text: "Continuity also depends on your files surviving a lost laptop or failed drive; creator backup strategy covers the 3-2-1 approach. If the risk you're planning for is your own energy, see how to stay consistent without burning out.",
         links: [
-          { text: "creator backup strategy", href: "/blog/creator-backup-strategy" },
+          { text: "creator backup strategy", href: "/blog/creator-backup-strategy" }, { text: "how to stay consistent without burning out", href: "/blog/creator-burnout-india" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },

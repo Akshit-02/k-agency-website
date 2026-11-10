@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">LinkedIn for creators: a profile set up for opportunities, linked to B2B collaborations, speaking, consulting and jobs</title>
+<rect x="0" y="0" width="1600" height="700" fill="#FAF1E2"/>
+<text x="100" y="110" font-size="40" font-weight="700" fill="#150F0B">LinkedIn for creators: show how you work</text>
+<text x="100" y="160" font-size="22" fill="#150F0B" opacity=".65">A clear profile turns posts into professional conversations.</text>
+<rect x="100" y="210" width="620" height="400" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="100" y="210" width="620" height="90" fill="#5A2EEA"/>
+<circle cx="190" cy="310" r="50" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<rect x="140" y="380" width="380" height="20" fill="#150F0B"/>
+<text x="140" y="436" font-size="20" fill="#150F0B" opacity=".75">Headline: who you help and how</text>
+<rect x="140" y="460" width="160" height="50" rx="25" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="183" y="493" font-size="20" font-weight="700" fill="#150F0B">Follow</text>
+<rect x="140" y="530" width="170" height="56" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<text x="156" y="565" font-size="17" fill="#150F0B">Portfolio</text>
+<rect x="326" y="530" width="170" height="56" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<text x="342" y="565" font-size="17" fill="#150F0B">Case study</text>
+<rect x="512" y="530" width="170" height="56" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<text x="528" y="565" font-size="17" fill="#150F0B">Newsletter</text>
+<path d="M740 410 L 820 410" stroke="#150F0B" stroke-width="4"/><path d="M810 398 L 826 410 L 810 422" stroke="#150F0B" stroke-width="4" fill="none"/>
+<rect x="850" y="210" width="650" height="80" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="880" y="260" font-size="24" font-weight="700" fill="#150F0B">B2B brand collaborations</text>
+<rect x="850" y="310" width="650" height="80" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="880" y="360" font-size="24" font-weight="700" fill="#150F0B">Speaking and workshops</text>
+<rect x="850" y="410" width="650" height="80" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="880" y="460" font-size="24" font-weight="700" fill="#FAF1E2">Consulting and training</text>
+<rect x="850" y="510" width="650" height="80" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="880" y="560" font-size="24" font-weight="700" fill="#150F0B">Freelance, jobs and agency roles</text>
+</svg>

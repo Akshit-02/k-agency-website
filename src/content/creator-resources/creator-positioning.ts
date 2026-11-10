@@ -205,13 +205,13 @@ export const creatorPositioningPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Guides: creator positioning, how to build authority as a creator, creator thought leadership, founder creator brand and employee influencer marketing.",
+        text: "Guides: creator positioning, how to build authority as a creator, creator thought leadership, founder creator brand and employee influencer marketing. If your niche is professional, LinkedIn can carry your personal brand too; see LinkedIn for creators.",
         links: [
           { text: "creator positioning", href: "/blog/creator-positioning" },
           { text: "how to build authority as a creator", href: "/blog/how-to-build-authority-as-a-creator" },
           { text: "creator thought leadership", href: "/blog/creator-thought-leadership" },
           { text: "founder creator brand", href: "/blog/founder-creator-brand" },
-          { text: "employee influencer marketing", href: "/blog/employee-influencer-marketing" },
+          { text: "employee influencer marketing", href: "/blog/employee-influencer-marketing" }, { text: "LinkedIn for creators", href: "/blog/linkedin-for-creators-india" },
         ],
       },
     ],

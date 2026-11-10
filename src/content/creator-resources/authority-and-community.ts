@@ -148,8 +148,8 @@ export const authorityAndCommunityPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Reputation: creator reputation management.",
-        links: [{ text: "creator reputation management", href: "/blog/creator-reputation-management" }],
+        text: "Reputation: creator reputation management. Long-form audio is one of the most durable formats for ideas; see how to start a podcast as a creator.",
+        links: [{ text: "creator reputation management", href: "/blog/creator-reputation-management" }, { text: "how to start a podcast as a creator", href: "/blog/how-to-start-a-podcast-creator-india" }],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

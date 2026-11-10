@@ -464,13 +464,13 @@ export const commerceAndYouTubePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Each stream has a deeper guide: YouTube Live monetization, YouTube channel membership strategy, YouTube affiliate marketing and YouTube Creator Partnerships. For the channel plan that supports them, see YouTube content strategy.",
+        text: "Each stream has a deeper guide: YouTube Live monetization, YouTube channel membership strategy, YouTube affiliate marketing and YouTube Creator Partnerships. For the channel plan that supports them, see YouTube content strategy. Before monetising, check the music in your videos; this guide explains Content ID claims, strikes and safe sources.",
         links: [
           { text: "YouTube Live monetization", href: "/blog/youtube-live-monetization" },
           { text: "YouTube channel membership strategy", href: "/blog/youtube-channel-membership-strategy" },
           { text: "YouTube affiliate marketing", href: "/blog/youtube-affiliate-marketing" },
           { text: "YouTube Creator Partnerships", href: "/blog/youtube-creator-partnerships-india" },
-          { text: "YouTube content strategy", href: "/blog/youtube-content-strategy" },
+          { text: "YouTube content strategy", href: "/blog/youtube-content-strategy" }, { text: "Content ID claims, strikes and safe sources", href: "/blog/music-for-reels-youtube-copyright" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },

@@ -56,9 +56,10 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.28, ease: [0.16, 1, 0.3, 1] }}
               className="mt-7 max-w-lg text-lg leading-relaxed text-ink/65 text-pretty"
             >
-              Kudozz is an influencer marketing agency for Indian brands. We plan creator campaigns, find and vet
-              creators whose audiences match your customers, run outreach, content and approvals, and report
-              results against the KPI you set at the start.
+              Kudozz is an influencer marketing agency for brands in India, with campaigns in the UAE, Saudi Arabia,
+              the UK, Australia and Singapore. We plan creator campaigns, find and vet creators whose audiences match
+              your customers, run outreach, content and approvals, and report results against the KPI you set at the
+              start.
             </motion.p>
 
             <motion.div

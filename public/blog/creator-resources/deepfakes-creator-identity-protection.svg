@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 -12.5 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creator identity protection: prevent, detect, respond and recover from deepfakes</title><rect x="-200" y="-12.5" width="1600" height="700" fill="#FAF1E2"/>
+<text x="60" y="80" font-size="34" font-weight="700" fill="#150F0B">Protect your face, voice and name</text>
+<path d="M600 120 L700 155 L700 235 Q700 290 600 320 Q500 290 500 235 L500 155 Z" fill="#150F0B"/>
+<text x="600" y="215" font-size="18" font-weight="700" fill="#FAF1E2" text-anchor="middle">Face · Voice</text>
+<text x="600" y="245" font-size="18" font-weight="700" fill="#FAF1E2" text-anchor="middle">Name</text>
+<rect x="60" y="370" width="255" height="110" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="76" y="402" font-size="14" fill="#150F0B" opacity=".7">01</text>
+<text x="76" y="446" font-size="24" font-weight="700" fill="#150F0B">Prevent</text>
+<rect x="60" y="488" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="76" y="516" font-size="16" fill="#150F0B">2FA · pinned note · clauses</text>
+<rect x="335" y="370" width="255" height="110" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="351" y="402" font-size="14" fill="#150F0B" opacity=".7">02</text>
+<text x="351" y="446" font-size="24" font-weight="700" fill="#150F0B">Detect</text>
+<rect x="335" y="488" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="351" y="516" font-size="16" fill="#150F0B">Audience reports · alerts</text>
+<rect x="610" y="370" width="255" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="626" y="402" font-size="14" fill="#FAF1E2" opacity=".7">03</text>
+<text x="626" y="446" font-size="24" font-weight="700" fill="#FAF1E2">Respond</text>
+<rect x="610" y="488" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="626" y="516" font-size="16" fill="#150F0B">Evidence · report · 1930</text>
+<rect x="885" y="370" width="255" height="110" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="901" y="402" font-size="14" fill="#FAF1E2" opacity=".7">04</text>
+<text x="901" y="446" font-size="24" font-weight="700" fill="#FAF1E2">Recover</text>
+<rect x="885" y="488" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="901" y="516" font-size="16" fill="#150F0B">Tell audience · follow up</text>
+<text x="60" y="640" font-size="18" fill="#150F0B" opacity=".65">A plan written in advance turns a stressful day into a manageable one.</text></svg>

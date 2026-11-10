@@ -42,6 +42,9 @@ import { contentGapPosts } from "@/content/brand-guides/content-gaps";
 import { commercialPlanningPosts } from "@/content/brand-guides/commercial-planning";
 import { commerceJourneyPosts } from "@/content/brand-guides/commerce-journeys";
 import { programmeGrowthPosts } from "@/content/brand-guides/programme-growth";
+import { d2cGrowthPosts } from "@/content/brand-guides/d2c-growth";
+import { creatorCommercePosts } from "@/content/brand-guides/creator-commerce";
+import { commerceIntelligencePosts } from "@/content/brand-guides/commerce-intelligence";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -117,4 +120,10 @@ export const brandGuidePosts: BlogPost[] = [
   ...commercialPlanningPosts,
   ...commerceJourneyPosts,
   ...programmeGrowthPosts,
+  // D2C and e-commerce growth (2026-11-10): one new page; the other approved topics refreshed existing pages. See reports/d2c-ecommerce-growth/.
+  ...d2cGrowthPosts,
+  // Batch 28 (2026-11-10): four creator-commerce gaps; the other approved topics refreshed existing pages. See reports/d2c-batch-28/.
+  ...creatorCommercePosts,
+  // Batch 29 (2026-11-10): three AI-shopping and commerce-intelligence gaps; seven existing pages refreshed. See reports/d2c-batch-29/.
+  ...commerceIntelligencePosts,
 ];

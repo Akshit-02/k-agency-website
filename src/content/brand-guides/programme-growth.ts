@@ -1048,7 +1048,7 @@ export const programmeGrowthPosts: BlogPost[] = [
       { type: "heading", text: "Measuring content that explains rather than shows", id: "measurement" },
       {
         type: "paragraph",
-        text: "Explainer and diary content often converts later than a flashy demo, so judge it on signals of understanding and intent as well as clicks: average watch time and completion, saves and shares, the questions in comments, and assisted conversions over a longer window. Comparing one format with another inside the same campaign tells you more than comparing it with a different product's demo video.",
+        text: "Explainer and diary content often converts later than a flashy demo, so judge it on signals of understanding and intent as well as clicks: average watch time and completion, saves and shares, the questions in comments, and assisted conversions over a longer window. Comparing one format with another inside the same campaign tells you more than comparing it with a different product's demo video. How much proof a product needs also depends on its price; see choosing creator content by price point.", links: [{ text: "choosing creator content by price point", href: "/blog/creator-content-by-price-point" }],
       },
       { type: "heading", text: "Common mistakes", id: "common-mistakes" },
       {

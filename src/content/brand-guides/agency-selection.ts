@@ -345,9 +345,9 @@ export const agencySelectionPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Onboarding a retained agency well is covered in influencer marketing agency onboarding.",
+        text: "Onboarding a retained agency well is covered in influencer marketing agency onboarding. For D2C brands, choosing an influencer agency as a D2C founder explains how fee models interact with tracking and pilots.",
         links: [
-          { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" },
+          { text: "influencer marketing agency onboarding", href: "/blog/influencer-marketing-agency-onboarding" }, { text: "choosing an influencer agency as a D2C founder", href: "/blog/influencer-marketing-agency-d2c-brands" },
         ],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
@@ -1009,10 +1009,10 @@ export const agencySelectionPosts: BlogPost[] = [
       { type: "heading", text: "Using the answers", id: "using-answers" },
       {
         type: "paragraph",
-        text: "Ask every agency the same questions and note answers in the same sheet, so you're comparing like with like. For formal selection, fold these questions into the scoring matrix in the influencer marketing RFP guide; before signing, confirm the answers made it into the contract with the influencer marketing agency checklist.",
+        text: "Ask every agency the same questions and note answers in the same sheet, so you're comparing like with like. For formal selection, fold these questions into the scoring matrix in the influencer marketing RFP guide; before signing, confirm the answers made it into the contract with the influencer marketing agency checklist. If you run a D2C brand, what D2C founders should look for in an influencer agency adds the questions about margins, ad rights and tracking.",
         links: [
           { text: "influencer marketing RFP guide", href: "/blog/influencer-marketing-rfp" },
-          { text: "influencer marketing agency checklist", href: "/blog/influencer-marketing-agency-checklist" },
+          { text: "influencer marketing agency checklist", href: "/blog/influencer-marketing-agency-checklist" }, { text: "what D2C founders should look for in an influencer agency", href: "/blog/influencer-marketing-agency-d2c-brands" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },

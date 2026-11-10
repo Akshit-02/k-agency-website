@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Accessible content for creators: one video becomes reviewed captions, subtitles, alt text and readable on-screen text</title><rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="40" font-weight="700" fill="#150F0B">Accessible content: more people can follow your video</text>
+<rect x="80" y="240" width="300" height="240" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<rect x="110" y="270" width="240" height="130" fill="#FAF1E2" opacity=".12"/>
+<polygon points="210,305 210,365 260,335" fill="#CCFF3D"/>
+<rect x="110" y="415" width="240" height="38" fill="#FAF1E2"/>
+<text x="124" y="441" font-size="18" font-weight="700" fill="#150F0B">[music] Namaste!</text>
+<text x="110" y="225" font-size="16" fill="#150F0B" opacity=".7">Your video</text>
+<line x1="380" y1="360" x2="460" y2="360" stroke="#150F0B" stroke-width="3"/>
+<rect x="460" y="290" width="240" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="480" y="325" font-size="15" fill="#150F0B" opacity=".7">Checkpoint</text>
+<text x="480" y="362" font-size="22" font-weight="700" fill="#150F0B">✓ Review auto</text>
+<text x="480" y="392" font-size="22" font-weight="700" fill="#150F0B">captions</text>
+<line x1="700" y1="360" x2="780" y2="360" stroke="#150F0B" stroke-width="3"/>
+<line x1="780" y1="200" x2="780" y2="560" stroke="#150F0B" stroke-width="3"/>
+<line x1="780" y1="200" x2="820" y2="200" stroke="#150F0B" stroke-width="3"/>
+<line x1="780" y1="320" x2="820" y2="320" stroke="#150F0B" stroke-width="3"/>
+<line x1="780" y1="440" x2="820" y2="440" stroke="#150F0B" stroke-width="3"/>
+<line x1="780" y1="560" x2="820" y2="560" stroke="#150F0B" stroke-width="3"/>
+<rect x="820" y="160" width="330" height="80" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="840" y="190" font-size="14" fill="#150F0B" opacity=".7">Same language</text>
+<text x="840" y="224" font-size="24" font-weight="700" fill="#150F0B">Captions</text>
+<rect x="820" y="280" width="330" height="80" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="840" y="310" font-size="14" fill="#150F0B" opacity=".7">Other languages</text>
+<text x="840" y="344" font-size="22" font-weight="700" fill="#150F0B">Subtitles, translations</text>
+<rect x="820" y="400" width="330" height="80" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="840" y="430" font-size="14" fill="#FAF1E2" opacity=".7">Screen readers</text>
+<text x="840" y="464" font-size="24" font-weight="700" fill="#FAF1E2">Alt text</text>
+<rect x="820" y="520" width="330" height="80" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="840" y="550" font-size="14" fill="#FAF1E2" opacity=".7">Contrast, size, safe zones</text>
+<text x="840" y="584" font-size="24" font-weight="700" fill="#FAF1E2">Readable text</text>
+<rect x="1200" y="200" width="320" height="360" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1225" y="240" font-size="15" fill="#150F0B" opacity=".7">Who can follow</text>
+<text x="1225" y="290" font-size="21" fill="#150F0B">✓ Deaf / hard of hearing</text>
+<text x="1225" y="340" font-size="21" fill="#150F0B">✓ Watching on mute</text>
+<text x="1225" y="390" font-size="21" fill="#150F0B">✓ Regional audiences</text>
+<text x="1225" y="440" font-size="21" fill="#150F0B">✓ Second-language</text>
+<text x="1225" y="490" font-size="21" fill="#150F0B">✓ Screen reader users</text>
+<text x="80" y="640" font-size="18" fill="#150F0B" opacity=".7">Captions · Subtitles · Alt text · Readable on-screen text · Native-reviewed translations</text>
+</svg>

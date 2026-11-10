@@ -362,8 +362,8 @@ export const growthProgramPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "If you want to reuse affiliate content in ads or on product pages, agree usage rights in the program terms; see influencer usage rights.",
-        links: [{ text: "influencer usage rights", href: "/blog/influencer-usage-rights" }],
+        text: "If you want to reuse affiliate content in ads or on product pages, agree usage rights in the program terms; see influencer usage rights. Affiliate tags are one of the routes covered in how D2C brands turn creator content into sales through social commerce.",
+        links: [{ text: "influencer usage rights", href: "/blog/influencer-usage-rights" }, { text: "how D2C brands turn creator content into sales through social commerce", href: "/blog/social-commerce-india-d2c-brands" }],
       },
       { type: "heading", text: "Common mistakes", id: "mistakes" },
       {

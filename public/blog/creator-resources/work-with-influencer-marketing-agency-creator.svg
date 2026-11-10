@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Working with an influencer marketing agency: a clean campaign flow and a legitimacy checklist</title>
+<rect x="0" y="0" width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Working with an agency: a clean campaign flow</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Confirm everything in writing. Money only ever flows to you.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="220" width="200" height="96" fill="#150F0B"/>
+<rect x="320" y="220" width="200" height="96" fill="#FF4D1C"/>
+<rect x="560" y="220" width="200" height="96" fill="#5A2EEA"/>
+<rect x="800" y="220" width="200" height="96" fill="#CCFF3D"/>
+<rect x="80" y="360" width="200" height="96" fill="#FFFFFF"/>
+<rect x="320" y="360" width="200" height="96" fill="#150F0B"/>
+<rect x="560" y="360" width="200" height="96" fill="#FF4D1C"/>
+<rect x="800" y="360" width="200" height="96" fill="#CCFF3D"/>
+</g>
+<g font-size="15" opacity=".75"><text x="100" y="250" fill="#FAF1E2">01</text><text x="340" y="250" fill="#150F0B">02</text><text x="580" y="250" fill="#FAF1E2">03</text><text x="820" y="250" fill="#150F0B">04</text><text x="100" y="390" fill="#150F0B">05</text><text x="340" y="390" fill="#FAF1E2">06</text><text x="580" y="390" fill="#150F0B">07</text><text x="820" y="390" fill="#150F0B">08</text></g>
+<g font-size="22" font-weight="700"><text x="100" y="292" fill="#FAF1E2">Brief</text><text x="340" y="292" fill="#150F0B">Confirm terms</text><text x="580" y="292" fill="#FAF1E2">Draft</text><text x="820" y="292" fill="#150F0B">Approval</text><text x="100" y="432" fill="#150F0B">Go-live + #ad</text><text x="340" y="432" fill="#FAF1E2">Report</text><text x="580" y="432" fill="#150F0B">Invoice</text><text x="820" y="432" fill="#150F0B">Payment</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M282 268 H318 M522 268 H558 M762 268 H798"/><path d="M282 408 H318 M522 408 H558 M762 408 H798"/></g>
+<rect x="1080" y="220" width="440" height="330" fill="#150F0B" stroke="#150F0B" stroke-width="2"/>
+<text x="1110" y="266" font-size="24" font-weight="700" fill="#CCFF3D">Legitimacy check</text>
+<g font-size="19" fill="#FAF1E2"><text x="1110" y="312">✓ Registered company details</text><text x="1110" y="352">✓ Real domain email</text><text x="1110" y="392">✓ Brands you can verify</text><text x="1110" y="432">✓ Written agreement</text></g>
+<g font-size="19" fill="#FF4D1C" font-weight="700"><text x="1110" y="482">✗ Fees, deposits, OTPs</text><text x="1110" y="520">✗ Asks for your password</text></g>
+<text x="80" y="540" font-size="20" fill="#150F0B">Paperwork that is normal: PAN, GSTIN if registered, bank details, invoice.</text>
+<text x="80" y="620" font-size="18" fill="#150F0B" opacity=".65">Registering with any agency is a way to be considered, not a guarantee of campaigns.</text>
+</svg>

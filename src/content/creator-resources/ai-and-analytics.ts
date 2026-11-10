@@ -149,10 +149,10 @@ export const aiAndAnalyticsPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Two related guides go further: AI for brand collaborations covers pitches, briefs, proposals and reports, and AI influencers vs human creators compares virtual personas with real creators.",
+        text: "Two related guides go further: AI for brand collaborations covers pitches, briefs, proposals and reports, and AI influencers vs human creators compares virtual personas with real creators. To take your videos into other languages, read AI dubbing and translation for creators.",
         links: [
           { text: "AI for brand collaborations", href: "/blog/ai-for-creator-brand-collaborations" },
-          { text: "AI influencers vs human creators", href: "/blog/ai-influencers-vs-human-creators" },
+          { text: "AI influencers vs human creators", href: "/blog/ai-influencers-vs-human-creators" }, { text: "AI dubbing and translation for creators", href: "/blog/ai-dubbing-translation-for-creators" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },

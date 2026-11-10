@@ -52,6 +52,8 @@ import { creatorAgenciesPosts } from "@/content/creator-resources/creator-agenci
 import { agencyGrowthPosts } from "@/content/creator-resources/agency-growth";
 import { talentAndRosterPosts } from "@/content/creator-resources/talent-and-roster";
 import { campaignOperationsPosts } from "@/content/creator-resources/campaign-operations";
+import { creatorBatch01Posts } from "@/content/creator-resources/creator-batch-01";
+import { creatorBatch02Posts } from "@/content/creator-resources/creator-batch-02";
 
 /**
  * Creator Resources: the creator-facing cluster (media kits, pricing,
@@ -182,6 +184,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "creator-content-frameworks",
       "creator-content-workflow",
       "creator-content-distribution",
+      "gaming-content-creator-india",
     ],
   },
   {
@@ -225,6 +228,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "creator-storytelling",
       "creator-thumbnail-strategy",
       "creator-title-strategy",
+      "accessible-content-captions-for-creators",
     ],
   },
   {
@@ -239,6 +243,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "turn-long-video-into-short-form-content",
       "content-batching-for-creators",
       "creator-content-calendar",
+      "how-to-start-a-podcast-creator-india",
     ],
   },
   {
@@ -253,6 +258,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "ai-content-workflow-for-creators",
       "ai-for-creator-brand-collaborations",
       "ai-disclosure-creators",
+      "ai-dubbing-translation-for-creators",
       "ai-influencers-vs-human-creators",
     ],
   },
@@ -311,6 +317,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "how-to-build-authority-as-a-creator",
       "creator-thought-leadership",
       "founder-creator-brand",
+      "linkedin-for-creators-india",
     ],
   },
   {
@@ -400,6 +407,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "influencer-rate-card-india",
       "creator-portfolio",
       "ugc-creator-portfolio",
+      "how-to-become-a-ugc-creator-india",
       "creator-pitch-deck",
     ],
   },
@@ -418,6 +426,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "first-brand-collaboration-india",
       "how-much-should-creators-charge-india",
       "how-to-negotiate-brand-deals-as-a-creator",
+      "work-with-influencer-marketing-agency-creator",
     ],
   },
   {
@@ -632,6 +641,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "creator-intellectual-property",
       "creator-copyright",
       "creator-trademark",
+      "music-for-reels-youtube-copyright",
     ],
     alsoSee: ["influencer-contract-guide-for-creators", "creator-usage-rights", "creator-content-licensing", "creator-exclusivity"],
   },
@@ -645,6 +655,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
     slugs: [
       "protect-videos-from-reuploads",
       "creator-impersonation",
+      "deepfakes-creator-identity-protection",
       "creator-scams-fake-brand-collaborations",
       "creator-account-security",
     ],
@@ -687,6 +698,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "how-to-build-a-creator-website",
       "link-in-bio-for-creators",
       "creator-business-kit",
+      "content-creator-career-india",
     ],
     alsoSee: ["creator-operations"],
   },
@@ -926,6 +938,7 @@ export const creatorResourceSections: CreatorResourceSection[] = [
       "creator-business-risk-management",
       "creator-platform-risk",
       "creator-business-continuity",
+      "creator-burnout-india",
     ],
     alsoSee: ["creator-account-security", "creator-reputation-management", "creator-crisis-management", "creator-revenue-diversification"],
   },
@@ -1120,4 +1133,6 @@ export const creatorResourcePosts: BlogPost[] = [
   ...findBrandCollaborationPosts,
   ...understandBrandDealPosts,
   ...runYourCreatorBusinessPosts,
+  ...creatorBatch01Posts,
+  ...creatorBatch02Posts,
 ];

@@ -25,7 +25,7 @@ export function CreatorNetwork() {
           <SectionHeading
             eyebrow="Creator Network"
             title="One network, every category that matters to your brand."
-            description="Names and profiles shown to brands are drawn from our vetted, active network — browse the categories we work across."
+            description="Creators apply to join and are reviewed before they reach a brand shortlist. These are the categories we source across."
           />
           <Reveal>
             <Button href="/for-creators#apply" variant="secondary">

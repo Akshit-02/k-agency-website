@@ -1155,8 +1155,8 @@ export const contentCreationPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "If you publish the same idea on TikTok for audiences abroad and on Reels for Indian audiences, see TikTok vs Instagram Reels for what to change between them.",
-        links: [{ text: "TikTok vs Instagram Reels", href: "/blog/tiktok-vs-instagram-reels" }],
+        text: "If you publish the same idea on TikTok for audiences abroad and on Reels for Indian audiences, see TikTok vs Instagram Reels for what to change between them. Whichever platforms you adapt for, add captions and readable on-screen text; here's how to make content accessible.",
+        links: [{ text: "TikTok vs Instagram Reels", href: "/blog/tiktok-vs-instagram-reels" }, { text: "how to make content accessible", href: "/blog/accessible-content-captions-for-creators" }],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
       {

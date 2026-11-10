@@ -246,12 +246,12 @@ export const indiaPost: BlogPost = {
     },
     {
       type: "paragraph",
-      text: "Our full framework is in how to choose an influencer marketing agency in India, with the questions to ask in a pitch and a pre-signing checklist. If you're still deciding whether to hire anyone, compare an agency with an in-house team.",
+      text: "Our full framework is in how to choose an influencer marketing agency in India, with the questions to ask in a pitch and a pre-signing checklist. If you're still deciding whether to hire anyone, compare an agency with an in-house team. D2C and e-commerce brands should also read how to evaluate an influencer agency for a D2C brand.",
       links: [
         { text: "how to choose an influencer marketing agency in India", href: "/blog/choose-influencer-marketing-agency-india" },
         { text: "questions to ask in a pitch", href: "/blog/influencer-marketing-agency-pitch-questions" },
         { text: "pre-signing checklist", href: "/blog/influencer-marketing-agency-checklist" },
-        { text: "compare an agency with an in-house team", href: "/blog/influencer-marketing-agency-vs-in-house" },
+        { text: "compare an agency with an in-house team", href: "/blog/influencer-marketing-agency-vs-in-house" }, { text: "how to evaluate an influencer agency for a D2C brand", href: "/blog/influencer-marketing-agency-d2c-brands" },
       ],
     },
     { type: "heading", text: "Conclusion", id: "conclusion" },

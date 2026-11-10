@@ -499,10 +499,10 @@ export const manageCampaignPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Curious how brands are taught to write briefs? See how to create an effective influencer campaign brief and how to brief influencers, both written for brand teams.",
+        text: "Curious how brands are taught to write briefs? See how to create an effective influencer campaign brief and how to brief influencers, both written for brand teams. When the brief comes through an agency, this guide to working with agencies covers the rest of the process.",
         links: [
           { text: "how to create an effective influencer campaign brief", href: "/blog/influencer-campaign-brief" },
-          { text: "how to brief influencers", href: "/blog/influencer-campaign-brief" },
+          { text: "how to brief influencers", href: "/blog/influencer-campaign-brief" }, { text: "working with agencies", href: "/blog/work-with-influencer-marketing-agency-creator" },
         ],
       },
     ],

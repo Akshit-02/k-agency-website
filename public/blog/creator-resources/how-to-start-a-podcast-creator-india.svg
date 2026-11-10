@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Starting a podcast: three equipment tiers leading to YouTube, Spotify and Apple Podcasts</title>
+<rect x="0" y="0" width="1600" height="700" fill="#FAF1E2"/>
+<text x="100" y="110" font-size="40" font-weight="700" fill="#150F0B">Start a podcast with the gear you have</text>
+<text x="100" y="160" font-size="22" fill="#150F0B" opacity=".65">Upgrade only when your current tier holds you back.</text>
+<rect x="100" y="220" width="300" height="250" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="124" y="262" font-size="18" fill="#150F0B" opacity=".7">Tier 1</text>
+<rect x="210" y="290" width="70" height="120" rx="12" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<circle cx="320" cy="320" r="12" fill="#150F0B"/><path d="M320 332 C 320 370, 290 380, 280 390" stroke="#150F0B" stroke-width="3" fill="none"/>
+<text x="124" y="448" font-size="22" font-weight="700" fill="#150F0B">Phone + lav mic</text>
+<rect x="440" y="220" width="300" height="250" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="464" y="262" font-size="18" fill="#150F0B" opacity=".7">Tier 2</text>
+<rect x="565" y="285" width="50" height="90" rx="25" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="584" y="375" width="12" height="30" fill="#150F0B"/><rect x="555" y="405" width="70" height="10" fill="#150F0B"/>
+<text x="464" y="448" font-size="22" font-weight="700" fill="#150F0B">USB microphone</text>
+<rect x="780" y="220" width="300" height="250" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<text x="804" y="262" font-size="18" fill="#FAF1E2" opacity=".8">Tier 3</text>
+<rect x="840" y="285" width="44" height="90" rx="22" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<rect x="940" y="320" width="110" height="60" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
+<circle cx="975" cy="350" r="10" fill="#150F0B"/><circle cx="1015" cy="350" r="10" fill="#150F0B"/>
+<path d="M862 375 C 862 420, 940 420, 950 380" stroke="#FAF1E2" stroke-width="3" fill="none"/>
+<text x="804" y="448" font-size="22" font-weight="700" fill="#FAF1E2">XLR + interface</text>
+<path d="M1100 345 L 1160 345" stroke="#150F0B" stroke-width="4"/><path d="M1150 333 L 1166 345 L 1150 357" stroke="#150F0B" stroke-width="4" fill="none"/>
+<rect x="1190" y="220" width="310" height="70" fill="#150F0B"/>
+<text x="1214" y="264" font-size="22" font-weight="700" fill="#FAF1E2">YouTube podcasts</text>
+<rect x="1190" y="310" width="310" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1214" y="354" font-size="22" font-weight="700" fill="#150F0B">Spotify for Creators</text>
+<rect x="1190" y="400" width="310" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1214" y="444" font-size="22" font-weight="700" fill="#150F0B">Apple Podcasts</text>
+<rect x="100" y="520" width="1400" height="90" fill="#FFFFFF" stroke="#150F0B" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="130" y="575" font-size="22" fill="#150F0B">Plan 6 episodes  ·  Record 3 ahead  ·  Clip every episode  ·  Disclose every sponsor</text>
+</svg>

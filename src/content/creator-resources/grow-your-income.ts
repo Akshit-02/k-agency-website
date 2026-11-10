@@ -461,11 +461,11 @@ export const growYourIncomePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Choosing the primary model is covered in creator business model, managing dependency in creator revenue diversification and planning income in creator revenue forecasting.",
+        text: "Choosing the primary model is covered in creator business model, managing dependency in creator revenue diversification and planning income in creator revenue forecasting. Income streams are one part of a longer creator career; this guide covers the roles and skills that sit beyond influencing.",
         links: [
           { text: "creator business model", href: "/blog/creator-business-model" },
           { text: "creator revenue diversification", href: "/blog/creator-revenue-diversification" },
-          { text: "creator revenue forecasting", href: "/blog/creator-revenue-forecasting" },
+          { text: "creator revenue forecasting", href: "/blog/creator-revenue-forecasting" }, { text: "roles and skills that sit beyond influencing", href: "/blog/content-creator-career-india" },
         ],
       },
     ],

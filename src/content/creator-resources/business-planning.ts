@@ -348,10 +348,10 @@ export const businessPlanningPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Turn the costs section of your plan into a monthly creator business budget, and the revenue section into a creator revenue forecast.",
+        text: "Turn the costs section of your plan into a monthly creator business budget, and the revenue section into a creator revenue forecast. For the wider picture of roles you can grow into, read building a creator career beyond influencing.",
         links: [
           { text: "creator business budget", href: "/blog/creator-business-budget" },
-          { text: "creator revenue forecast", href: "/blog/creator-revenue-forecasting" },
+          { text: "creator revenue forecast", href: "/blog/creator-revenue-forecasting" }, { text: "building a creator career beyond influencing", href: "/blog/content-creator-career-india" },
         ],
       },
       { type: "heading", text: "Conclusion", id: "conclusion" },
