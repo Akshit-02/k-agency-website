@@ -48,7 +48,7 @@ export const uaePermitPosts: BlogPost[] = [
       { type: "heading", text: "Who regulates the permit", id: "regulator" },
       {
         type: "paragraph",
-        text: "The permit comes from Federal Decree-Law No. 55 of 2023 on media regulation. Pinsent Masons reported that the National Media Authority replaced the UAE Media Council as the national media regulator, but the Media Council's website, including its FAQ and visitor permit page, was still online when we checked, while the National Media Authority's permit pages were not loading. The rules below come from the Media Council FAQ and its visitor permit page. If the authority publishes updated guidance, it takes precedence.",
+        text: "The permit comes from Federal Decree-Law No. 55 of 2023 on media regulation. Pinsent Masons reported that the National Media Authority (NMA) replaced the UAE Media Council as the national media regulator. The Media Council's website now redirects to the NMA, whose permit service pages (checked 10 November 2026) set the current requirements and fees, including the visitor permit page. Some detail below comes from the Media Council FAQ, which survives only as an archived copy; where the two differ, the NMA's pages take precedence.",
         links: [
           { text: "Pinsent Masons reported", href: SRC.pinsentDeadline.url },
           { text: "Media Council FAQ", href: SRC.uaemcFaq.url },
@@ -87,16 +87,16 @@ export const uaePermitPosts: BlogPost[] = [
       },
       {
         type: "table",
-        headers: ["Point", "Media Council FAQ (checked 10 October 2026)", "Press reports"],
+        headers: ["Point", "NMA service pages (checked 10 November 2026)", "Earlier sources"],
         rows: [
-          ["Fee for citizens and residents", "First permit free for the first year; AED 1,000 for annual renewal", "Free for the first three years, then AED 1,000 a year (Gulf News, September 2025; Pinsent Masons, January 2026)"],
-          ["Visitor permit fee", "Not stated; renewal fees apply", "AED 500 for three months (Pinsent Masons)"],
-          ["When the rules apply", "Policy in effect from 1 January 2025", "Registration deadline extended to 31 January 2026 (Pinsent Masons)"],
+          ["Fee for citizens and residents", "Free for the first three years, then AED 1,000", "The archived Media Council FAQ said free for the first year, then AED 1,000 a year; Gulf News (September 2025) and Pinsent Masons (January 2026) reported three years free"],
+          ["Visitor permit fee", "AED 500 for three months; can be extended up to six months in total", "AED 500 for three months (Pinsent Masons)"],
+          ["When the rules apply", "Not stated on the service pages", "Policy in effect from 1 January 2025 (archived FAQ); registration deadline extended to 31 January 2026 (Pinsent Masons), with enforcement from 1 February 2026 (Gulf News)"],
         ],
       },
       {
         type: "paragraph",
-        text: "Because the sources differ, check the fee and any deadline when you or your creators apply. Sources: Gulf News on eligibility and fees and Pinsent Masons on the deadline.",
+        text: "The NMA's own pages now settle the fees; still check them when you or your creators apply, as fees and requirements can change. Earlier sources: Gulf News on eligibility and fees and Pinsent Masons on the deadline.",
         links: [
           { text: "Gulf News on eligibility and fees", href: SRC.gnPermitHowTo.url },
           { text: "Pinsent Masons on the deadline", href: SRC.pinsentDeadline.url },

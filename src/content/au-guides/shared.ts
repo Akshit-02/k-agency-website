@@ -31,7 +31,7 @@ export const AU_SRC = {
   // Social media minimum age and privacy
   esafetyPlatforms: { url: "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions/which-platforms-are-age-restricted", label: "eSafety, which platforms are age-restricted (timed out on our fetch; content via search index)", checked: "2026-10-09" },
   esafetyFaq: { url: "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions/faqs", label: "eSafety, social media age restrictions FAQs", checked: "2026-10-09" },
-  esafetyNotice: { url: "https://www.esafety.gov.au/newsroom/media-releases/platforms-on-notice-to-comply-with-social-media-minimum-age", label: "eSafety, platforms on notice; civil penalties up to $49.5 million", checked: "2026-10-09" },
+  esafetyNotice: { url: "https://www.esafety.gov.au/newsroom/media-releases/platforms-on-notice-to-comply-with-social-media-minimum-age", label: "eSafety, platforms on notice (penalty figure since raised by a September 2026 amendment)", checked: "2026-11-10" },
   smmaFactSheet: { url: "https://www.infrastructure.gov.au/sites/default/files/documents/social-media-minimum-age-fact-sheet-january-2026.pdf", label: "Department of Infrastructure, Social Media Minimum Age fact sheet (January 2026)", checked: "2026-10-09" },
   oaicChildrensCode: { url: "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code", label: "OAIC, Children's Online Privacy Code (exposure draft March 2026; registration due by 10 December 2026)", checked: "2026-10-09" },
   // Tax

@@ -549,8 +549,11 @@ export const auPlanningPosts: BlogPost[] = [
       { type: "heading", text: "Unfair contract terms", id: "uct" },
       {
         type: "paragraph",
-        text: "Many creators are small businesses. Since 9 November 2023, it has been prohibited to propose, use or rely on unfair terms in standard form contracts with consumers and small businesses, with penalties for contracts made, renewed or varied from that date. A small business means fewer than 100 employees or annual turnover under $10 million, and a contract is presumed to be standard form unless shown otherwise. Maximum penalties for a company are the greatest of $50 million, three times the benefit, or 30% of adjusted turnover during the breach period. The ACCC's announcement of the new penalties explains the changes.",
-        links: [{ text: "announcement of the new penalties", href: AU_SRC.acccUct.url }],
+        text: "Many creators are small businesses. Since 9 November 2023, it has been prohibited to propose, use or rely on unfair terms in standard form contracts with consumers and small businesses, with penalties for contracts made, renewed or varied from that date. A small business means fewer than 100 employees or annual turnover under $10 million, and a contract is presumed to be standard form unless shown otherwise. For conduct from 28 March 2026, the maximum penalty for a company is the greatest of $100 million, three times the benefit, or 30% of adjusted turnover during the breach period; it was $50 million before that date, according to the ACCC's fines and penalties page. The ACCC's announcement of the new penalties explains the unfair contract terms changes.",
+        links: [
+          { text: "fines and penalties page", href: "https://www.accc.gov.au/business/compliance-and-enforcement/fines-and-penalties" },
+          { text: "announcement of the new penalties", href: AU_SRC.acccUct.url },
+        ],
       },
       {
         type: "list",

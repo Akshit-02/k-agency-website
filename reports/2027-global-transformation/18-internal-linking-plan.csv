@@ -1,0 +1,28 @@
+source_url,destination_url,anchor_text,status,reason
+https://www.kudozz.in/for-brands,https://www.kudozz.in/markets/uae,UAE,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-brands,https://www.kudozz.in/markets/saudi-arabia,Saudi Arabia,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-brands,https://www.kudozz.in/markets/uk,UK,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-brands,https://www.kudozz.in/markets/australia,Australia,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-brands,https://www.kudozz.in/markets/singapore,Singapore,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-brands,https://www.kudozz.in/markets,Compare markets,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-brands,https://www.kudozz.in/services/regional-influencer-marketing,India,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-brands,https://www.kudozz.in/blog/influencer-marketing-d2c-brands-india,D2C & E-commerce (and 10 other industry playbooks),implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-creators,https://www.kudozz.in/blog/creator-disclosure-guide,Creator disclosure guide,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-creators,https://www.kudozz.in/blog/creator-brand-brief,How to read a brand brief,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-creators,https://www.kudozz.in/blog/creator-product-reviews,Reviewing sponsored products,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/for-creators,https://www.kudozz.in/blog/creator-campaign-reporting,Creator campaign reports,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/contact,https://www.kudozz.in/for-creators#apply,apply on the For Creators page,implemented,Core-page conversion and market discovery
+https://www.kudozz.in/blog/best-influencer-marketing-agencies-in-india,https://www.kudozz.in/for-brands,"Kudozz entry: ""talk to Kudozz about your campaign""",recommended,Main commercial entry page → inquiry
+https://www.kudozz.in/blog/best-influencer-marketing-agencies-in-india,https://www.kudozz.in/services,"Kudozz entry: ""Kudozz services""",recommended,Listicle → services
+https://www.kudozz.in/blog/best-influencer-marketing-agencies-in-india,https://www.kudozz.in/markets,"""brands outside India""",recommended,Market discovery
+https://www.kudozz.in/,https://www.kudozz.in/for-creators,"Hero: ""Creator? Join the network""",recommended,Creator path from home
+https://www.kudozz.in/blog/instagram-subscriptions,https://www.kudozz.in/creator-resources/instagram-creator-resources,Instagram creator resources,recommended,"Highest-traffic page (24,613 impr) → creator hub"
+https://www.kudozz.in/blog/instagram-trial-reels,https://www.kudozz.in/blog/instagram-insights-for-creators,Instagram Insights explained,recommended,High-impression creator page → refreshed guide
+https://www.kudozz.in/blog/instagram-creator-monetization,https://www.kudozz.in/for-creators,join the Kudozz creator network,recommended,High-impression creator page → application (in addition to CTAs)
+https://www.kudozz.in/markets/uae,https://www.kudozz.in/blog/uae-advertiser-permit,UAE advertiser permit guide,recommended,Commercial → compliance depth
+https://www.kudozz.in/markets/uk,https://www.kudozz.in/blog/influencer-tracking-uk-cookie-rules,UK cookie rules for creator tracking,recommended,Commercial → compliance depth
+https://www.kudozz.in/blog/influencer-marketing-saudi-arabia,https://www.kudozz.in/markets/saudi-arabia,Kudozz in Saudi Arabia,recommended,Guide → commercial page
+https://www.kudozz.in/blog/influencer-marketing-uk,https://www.kudozz.in/markets/uk,Kudozz in the UK,recommended,Guide → commercial page
+https://www.kudozz.in/blog/influencer-marketing-australia,https://www.kudozz.in/markets/australia,Kudozz in Australia,recommended,Guide → commercial page
+https://www.kudozz.in/blog/influencer-marketing-uae,https://www.kudozz.in/markets/uae,Kudozz in the UAE,recommended,Guide → commercial page
+Sep 2026 high-impression posts (see 04),"October 2026 pages (markets, GCC/UK/AU guides)",descriptive anchors,recommended,Help discovery and crawling of unindexed October pages

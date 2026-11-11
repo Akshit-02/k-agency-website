@@ -172,7 +172,7 @@ export const programEvidencePosts: BlogPost[] = [
         rows: [
           ["UAE", "Federal Decree-Law No. 45 of 2021 (Personal Data Protection Law), in force from 2 January 2022; DIFC has its own data protection law", "Processing generally needs consent unless an exception applies; check free-zone rules where relevant"],
           ["Saudi Arabia", "Personal Data Protection Law, overseen by SDAIA", "Take local advice on consent and cross-border transfers"],
-          ["United Kingdom", "UK GDPR, the Data Protection Act 2018 and PECR, overseen by the ICO", "Advertising cookies need consent; the ICO's April 2026 guidance sets the limited exceptions"],
+          ["United Kingdom", "UK GDPR, the Data Protection Act 2018 and PECR, overseen by the Information Commission (the ICO until 30 September 2026)", "Advertising cookies need consent; the ICO's April 2026 guidance sets the limited exceptions"],
           ["Singapore", "Personal Data Protection Act (PDPA), overseen by the PDPC", "Do Not Call rules apply to marketing messages to Singapore numbers"],
           ["Australia", "Privacy Act 1988, overseen by the OAIC", "Check obligations for collecting and using personal information in contests and lead forms"],
         ],

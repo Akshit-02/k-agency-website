@@ -135,6 +135,11 @@ const serviceList: ServiceInput[] = [
         answer:
           "Audience and category research, platform and format strategy, creator tiering and budget allocation, and a KPI framework agreed before any creator is contacted, delivered as a written strategy.",
       },
+      {
+        question: "Can you plan one campaign across India and another market?",
+        answer:
+          "Yes, for the markets Kudozz works in: India, the UAE, Saudi Arabia, the UK, Australia and Singapore. The strategy keeps one objective and KPI but plans each market separately, because creator licensing, disclosure labels, languages and platform mix differ. For example, UAE creators need a National Media Authority permit, and the UK's ASA advises against using \"Sponsored\" as the only label.",
+      },
     ],
     motif: "orbit",
   },
@@ -210,6 +215,11 @@ const serviceList: ServiceInput[] = [
         question: "Should brands use an agency for creator discovery?",
         answer:
           "It helps most when you need many creators, creators in specific regions or niches, or consistent vetting at speed. Brands with a small, familiar niche can often build shortlists in-house using clear criteria.",
+      },
+      {
+        question: "Can you find creators outside India?",
+        answer:
+          "Yes, in the UAE, Saudi Arabia, the UK, Australia and Singapore. Shortlists are screened for the share of each creator's audience in the target country, and for the local licence where one is required, such as the UAE advertiser permit or Saudi Arabia's Mawthooq licence. A creator who lives in a market doesn't always have an audience there, so audience location is checked rather than assumed.",
       },
     ],
     motif: "grid",
@@ -301,6 +311,11 @@ const serviceList: ServiceInput[] = [
         answer:
           "One dedicated contact handles creator communication and follow-ups, with every creator's status tracked in one place, so your team isn't managing separate threads with each creator.",
       },
+      {
+        question: "How do contracts and payments work for creators in other countries?",
+        answer:
+          "Kudozz Studios Private Limited is registered in India, and contracting, invoicing currency and payment terms are agreed per campaign. Each creator agreement sets out deliverables, dates, usage rights, disclosure wording for that market and any licence the creator must hold. Tax and withholding treatment depends on where the creator and brand are based, so confirm it with your finance team or adviser.",
+      },
     ],
     motif: "channel",
   },
@@ -366,6 +381,11 @@ const serviceList: ServiceInput[] = [
         answer:
           "Yes — we build the creator publishing calendar around your existing brand content and product calendar so the two reinforce rather than compete.",
       },
+      {
+        question: "Can a social campaign run in more than one language?",
+        answer:
+          "Yes. Multi-creator campaigns can run in several languages at once, for example Hindi, Tamil and English in India, or Arabic and English in the Gulf. Each language gets creators who publish natively in it and a brief localised by a native speaker, rather than one script translated, and results are reported by language as well as by creator.",
+      },
     ],
     motif: "pulse",
   },
@@ -430,6 +450,11 @@ const serviceList: ServiceInput[] = [
         question: "What happens to the content after launch day?",
         answer:
           "We build a post-launch extension plan — usage rights negotiated up front let the content be reused in paid social and owned channels well after the launch window closes.",
+      },
+      {
+        question: "Can you launch in India and an international market at the same time?",
+        answer:
+          "Yes, if the launch markets are among those Kudozz works in. Launch dates are planned backwards from the slowest market: shipping product to creators, licence checks for UAE or Saudi creators, approvals and embargo terms. Staggered launches by market are often more practical than a single global day, and the plan shows both options.",
       },
     ],
     motif: "beacon",
@@ -500,6 +525,11 @@ const serviceList: ServiceInput[] = [
         question: "What is the difference between a UGC campaign and UGC content production?",
         answer:
           "UGC content production is the making of the assets: scripts, shoots, edits and variations to a spec. A UGC campaign is the programme around them: which angles to test, how the content runs in ads and on your site, and what the next batch should be based on results. Kudozz offers production on its own or as part of a campaign.",
+      },
+      {
+        question: "Can UGC be produced in languages other than English and Hindi?",
+        answer:
+          "Yes. UGC can be produced in regional Indian languages and, for Gulf campaigns, in Arabic and English, with creators who speak the language natively. When UGC will run as ads in another country, usage rights and disclosure follow that market's rules, which are agreed before production.",
       },
     ],
     relatedSlugs: ["ugc-content-production", "paid-influencer-campaigns", "influencer-affiliate-marketing"],

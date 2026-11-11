@@ -82,16 +82,16 @@ export const markets: Market[] = [
     rules: [
       {
         title: "Creators need an Advertiser Permit",
-        body: "Under Federal Decree-Law No. 55 of 2023, people who publish advertising content on social media in the UAE need an Advertiser Permit, whether they are paid in cash or in products, stays or other benefits. Enforcement began on 31 January 2026, and the National Media Authority is now the regulator. We check permit status before a creator is shortlisted.",
+        body: "Under Federal Decree-Law No. 55 of 2023, people who publish advertising content on social media in the UAE need an Advertiser Permit, whether they are paid in cash or in products, stays or other benefits. The registration deadline was 31 January 2026, permits have been enforced since 1 February 2026, and the National Media Authority is now the regulator. We check permit status before a creator is shortlisted.",
         sources: [
-          { label: "National Media Authority: Advertiser Permit", url: "https://www.nmo.gov.ae/en/initiatives/advertiser-permit-1" },
+          { label: "National Media Authority: Advertiser Permit", url: "https://www.nma.gov.ae/en/services/permit-for-an-individual-to-provide-advertising-or-media-content-on-social-media-and-other-digital-platforms" },
           { label: "Pinsent Masons: UAE influencer licence deadline (January 2026)", url: "https://www.pinsentmasons.com/out-law/news/uae-influencer-licence-deadline-looms" },
         ],
       },
       {
         title: "Visiting creators need a visitor permit",
         body: "Creators who are not UAE residents need a Visitor Advertiser Permit, arranged through an accredited agency, before they post sponsored content from the UAE. Factor the lead time into flown-in creator trips.",
-        sources: [{ label: "National Media Authority: Visitor Advertiser Permit", url: "https://www.nmo.gov.ae/en/initiatives/visitor-advertiser-permit" }],
+        sources: [{ label: "National Media Authority: Visitor Advertiser Permit", url: "https://www.nma.gov.ae/en/services/permit-for-visiting-individuals-to-provide-advertising-or-media-content-on-social-media" }],
       },
       {
         title: "Health and financial claims carry extra approvals",
@@ -140,7 +140,7 @@ export const markets: Market[] = [
       {
         question: "Do UAE influencers need a licence to post sponsored content?",
         answer:
-          "Yes. Under Federal Decree-Law No. 55 of 2023, people who publish advertising content on social media in the UAE need an Advertiser Permit, whether paid in cash or in kind, with enforcement from 31 January 2026. Visiting creators need a Visitor Advertiser Permit through an accredited agency. Kudozz checks permit status before shortlisting.",
+          "Yes. Under Federal Decree-Law No. 55 of 2023, people who publish advertising content on social media in the UAE need an Advertiser Permit, whether paid in cash or in kind, with enforcement from 1 February 2026. Visiting creators need a Visitor Advertiser Permit through an accredited agency. Kudozz checks permit status before shortlisting.",
       },
       {
         question: "Should a UAE influencer campaign be in Arabic or English?",

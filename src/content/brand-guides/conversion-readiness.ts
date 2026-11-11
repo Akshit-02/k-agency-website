@@ -734,7 +734,7 @@ export const conversionReadinessPosts: BlogPost[] = [
     body: [
       {
         type: "paragraph",
-        text: "Most influencer campaigns are measured with tools that store or read something on the visitor's device: analytics cookies, advertising pixels and affiliate tracking. In the UK, that falls under the Privacy and Electronic Communications Regulations (PECR), which the Information Commissioner's Office (ICO) enforces. The ICO finalised its guidance on storage and access technologies on 29 April 2026, and it settles several questions that matter for creator campaigns, including what the new analytics exception does and doesn't cover.",
+        text: "Most influencer campaigns are measured with tools that store or read something on the visitor's device: analytics cookies, advertising pixels and affiliate tracking. In the UK, that falls under the Privacy and Electronic Communications Regulations (PECR), which the Information Commissioner's Office (ICO) enforced until 30 September 2026, when its functions passed to the new Information Commission under the Data (Use and Access) Act 2025. The ICO finalised its guidance on storage and access technologies on 29 April 2026, and it settles several questions that matter for creator campaigns, including what the new analytics exception does and doesn't cover.",
         links: [{ text: "The ICO finalised its guidance on storage and access technologies", href: SRC.icoGuidance }],
       },
       {

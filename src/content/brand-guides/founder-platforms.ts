@@ -16,7 +16,7 @@ const EXT = {
   youtubePaidPromotion: "https://support.google.com/youtube/answer/154235",
   tiktokDisclosure: "https://ads.tiktok.com/help/article/about-the-content-disclosure-setting-for-creators",
   pinterestPaidPartnership: "https://help.pinterest.com/en/node/3261",
-  nmaPermit: "https://www.nmo.gov.ae/en/initiatives/advertiser-permit-1",
+  nmaPermit: "https://www.nma.gov.ae/en/services/permit-for-an-individual-to-provide-advertising-or-media-content-on-social-media-and-other-digital-platforms",
   gamr: "https://gamr.gov.sa/en",
   asaInfluencersGuide: "https://www.asa.org.uk/resource/influencers-guide.html",
   cmaWhoRegulates: "https://assets.publishing.service.gov.uk/media/68b81754536d629f9c82aa16/Who_regulates_hidden_advertising.pdf",

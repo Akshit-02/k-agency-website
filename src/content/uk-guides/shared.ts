@@ -14,8 +14,8 @@ export const UK_HUB = { name: "United Kingdom", href: "/blog/influencer-marketin
 
 export const UK_SRC = {
   // Disclosure: ASA/CAP and CMA
-  asaInfluencerGuide: { url: "https://www.asa.org.uk/resource/influencers-guide.html", label: "ASA/CAP and CMA, Influencers' guide to making clear that ads are ads (3rd edition, 23 March 2023; page notes a DMCC Act update to follow)", checked: "2026-10-10" },
-  asaInfluencerGuidePdf: { url: "https://www.asa.org.uk/static/b3d29825-db12-44c2-bfcff1b344b564b3/Influencerguidance2023v4-FINAL-DMMCA-Holding1.pdf", label: "ASA/CAP and CMA influencers' guide (PDF): payment, affiliate links, labels, 12-month rule, control test, sanctions", checked: "2026-10-10" },
+  asaInfluencerGuide: { url: "https://www.asa.org.uk/resource/influencers-guide.html", label: "ASA/CAP and CMA, Influencers' guide to making clear that ads are ads (2026 edition, October 2026, updated for the DMCC Act 2024)", checked: "2026-11-10" },
+  asaInfluencerGuidePdf: { url: "https://www.asa.org.uk/static/17cf70a4-f904-4684-a68c8310ba7700e1/Influencers-guide-to-making-clear-that-ads-are-ads.pdf", label: "ASA/CAP and CMA influencers' guide (PDF): payment, affiliate links, labels, 12-month rule, control test, sanctions", checked: "2026-10-10" },
   cmaWhoRegulates: { url: "https://assets.publishing.service.gov.uk/media/68b81754536d629f9c82aa16/Who_regulates_hidden_advertising.pdf", label: "CMA, Who regulates hidden advertising? (DMCC Act Part 4 replaced the CPRs from 6 April 2025; no control requirement; applies to brands, creators, intermediaries and platforms)", checked: "2026-10-10" },
   cmaBrands: { url: "https://www.gov.uk/government/publications/reviews-and-social-media-endorsements-guidance-for-businesses-and-brands/social-media-endorsements-guidance-for-brands", label: "CMA, Social media endorsements: guidance for brands", checked: "2026-10-10" },
   cmaCreators: { url: "https://www.gov.uk/government/publications/social-media-endorsements-guide-for-influencers", label: "CMA, Content creators and social media endorsements (published 23 January 2019, updated 3 September 2025)", checked: "2026-10-10" },

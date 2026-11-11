@@ -951,7 +951,7 @@ export const auCorePosts: BlogPost[] = [
         items: [
           "Requires age-restricted social media platforms to take reasonable steps to prevent Australians under 16 from having accounts",
           "Applies from 10 December 2025",
-          "Platforms face civil penalties of up to $49.5 million for failing to comply, according to eSafety",
+          "Platforms face civil penalties for failing to comply. eSafety originally stated up to $49.5 million; an enforcement amendment that received assent on 11 September 2026 raised the maximum (reported at about $99 million to $109.2 million), so check eSafety for the current figure",
           "Covered platforms named by eSafety: Facebook, Instagram, Kick, Reddit, Snapchat, Threads, TikTok, Twitch, X and YouTube; the list can change",
         ],
       },
