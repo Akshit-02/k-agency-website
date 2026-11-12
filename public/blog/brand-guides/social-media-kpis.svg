@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Social media KPIs by business goal</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">KPIS BY BUSINESS GOAL</text>
+<rect x="82" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="70" y="220" width="268" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="258" font-size="19" font-weight="700" fill="#FAF1E2" opacity=".7">GOAL 1</text>
+<text x="92" y="298" font-size="24" font-weight="700" fill="#FAF1E2">Awareness</text>
+<text x="92" y="340" font-size="19" fill="#FAF1E2" opacity=".85">Reach among the</text>
+<text x="92" y="370" font-size="19" fill="#FAF1E2" opacity=".85">right audience</text>
+<rect x="380" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="368" y="220" width="268" height="240" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="390" y="258" font-size="19" font-weight="700" fill="#150F0B" opacity=".7">GOAL 2</text>
+<text x="390" y="298" font-size="24" font-weight="700" fill="#150F0B">Consideration</text>
+<text x="390" y="340" font-size="19" fill="#150F0B" opacity=".85">Saves, shares,</text>
+<text x="390" y="370" font-size="19" fill="#150F0B" opacity=".85">profile visits</text>
+<rect x="678" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="666" y="220" width="268" height="240" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="688" y="258" font-size="19" font-weight="700" fill="#150F0B" opacity=".7">GOAL 3</text>
+<text x="688" y="298" font-size="24" font-weight="700" fill="#150F0B">Community</text>
+<text x="688" y="340" font-size="19" fill="#150F0B" opacity=".85">Meaningful</text>
+<text x="688" y="370" font-size="19" fill="#150F0B" opacity=".85">comments and DMs</text>
+<rect x="976" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="964" y="220" width="268" height="240" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="986" y="258" font-size="19" font-weight="700" fill="#150F0B" opacity=".7">GOAL 4</text>
+<text x="986" y="298" font-size="24" font-weight="700" fill="#150F0B">Conversion</text>
+<text x="986" y="340" font-size="19" fill="#150F0B" opacity=".85">UTM sessions,</text>
+<text x="986" y="370" font-size="19" fill="#150F0B" opacity=".85">leads and orders</text>
+<rect x="1274" y="232" width="268" height="240" fill="#150F0B"/>
+<rect x="1262" y="220" width="268" height="240" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="1284" y="258" font-size="19" font-weight="700" fill="#FAF1E2" opacity=".7">GOAL 5</text>
+<text x="1284" y="298" font-size="24" font-weight="700" fill="#FAF1E2">Retention</text>
+<text x="1284" y="340" font-size="19" fill="#FAF1E2" opacity=".85">Repeat engagers,</text>
+<text x="1284" y="370" font-size="19" fill="#FAF1E2" opacity=".85">customer tags</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Two or three KPIs per goal. Judge them against your own baseline.</text>
+</svg>

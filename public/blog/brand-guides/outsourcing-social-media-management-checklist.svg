@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Checklist before outsourcing social media management</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">READY BEFORE KICKOFF</text>
+<rect x="82" y="142" width="440" height="170" fill="#150F0B"/>
+<rect x="70" y="130" width="440" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="178" font-size="24" font-weight="700" fill="#FAF1E2">Brand assets</text>
+<text x="92" y="220" font-size="19" fill="#FAF1E2" opacity=".85">Logos, fonts, footage</text>
+<rect x="572" y="142" width="440" height="170" fill="#150F0B"/>
+<rect x="560" y="130" width="440" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="582" y="178" font-size="24" font-weight="700" fill="#150F0B">Access</text>
+<text x="582" y="220" font-size="19" fill="#150F0B" opacity=".85">Roles, not passwords</text>
+<rect x="1062" y="142" width="440" height="170" fill="#150F0B"/>
+<rect x="1050" y="130" width="440" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1072" y="178" font-size="24" font-weight="700" fill="#150F0B">Approvers</text>
+<text x="1072" y="220" font-size="19" fill="#150F0B" opacity=".85">One owner, one backup</text>
+<rect x="82" y="357" width="440" height="170" fill="#150F0B"/>
+<rect x="70" y="345" width="440" height="170" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="393" font-size="24" font-weight="700" fill="#150F0B">Business data</text>
+<text x="92" y="435" font-size="19" fill="#150F0B" opacity=".85">FAQs, products, results</text>
+<rect x="572" y="357" width="440" height="170" fill="#150F0B"/>
+<rect x="560" y="345" width="440" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="582" y="393" font-size="24" font-weight="700" fill="#150F0B">Claims and law</text>
+<text x="582" y="435" font-size="19" fill="#150F0B" opacity=".85">ASCI, data, legal</text>
+<rect x="1062" y="357" width="440" height="170" fill="#150F0B"/>
+<rect x="1050" y="345" width="440" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1072" y="393" font-size="24" font-weight="700" fill="#FAF1E2">Offboarding</text>
+<text x="1072" y="435" font-size="19" fill="#FAF1E2" opacity=".85">Remove access cleanly</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Prepare access, assets and approvers before day one.</text>
+</svg>

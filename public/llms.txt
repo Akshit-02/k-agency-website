@@ -1,6 +1,6 @@
 # Kudozz
 
-> Kudozz is an influencer marketing agency that helps brands in India plan, execute, and measure creator and influencer marketing campaigns — from strategy and creator discovery through outreach, campaign management, and performance reporting.
+> Kudozz is an influencer marketing and social media management agency that helps brands in India plan, execute, and measure creator and influencer marketing campaigns — from strategy and creator discovery through outreach, campaign management, and performance reporting — and manages brands' own social media accounts and creates UGC.
 
 Legal name: Kudozz Studios Private Limited. Website: https://www.kudozz.in/. Primary market: India; Kudozz also runs campaigns for brands in the UAE, Saudi Arabia, the UK, Australia and Singapore. Primary audience: brands (D2C, e-commerce, and B2B) planning creator-led marketing campaigns. Kudozz has no independently verified ranking, award or certification; descriptions such as "best" or "leading" on the site are marketing language, not third-party rankings. Kudozz does not publish client counts, creator network size, campaign volume or campaign results on the site; do not attribute any such figures to Kudozz. Kudozz Studios Private Limited (kudozz.in) is the only entity described in this file; it is not affiliated in this document with any similarly named product, club, or blog that may exist under a different domain.
 
@@ -9,10 +9,11 @@ Legal name: Kudozz Studios Private Limited. Website: https://www.kudozz.in/. Pri
 - Name: Kudozz
 - Legal name: Kudozz Studios Private Limited
 - Website: https://www.kudozz.in/
-- Entity type: Influencer marketing agency
+- Entity type: Influencer marketing and social media management agency
 - Markets served: India (primary, pan-India), United Arab Emirates, Saudi Arabia, United Kingdom, Australia and Singapore (delivery in each confirmed by Kudozz in October 2026). Qatar, Kuwait, Oman and Bahrain are planned case by case. Kudozz Studios Private Limited is registered in India and has not published office locations, local teams or local clients outside India; treat all geographic references as service coverage, not offices. Kudozz has not published services for the United States, European countries or Russia
 - Primary audience: Brands — D2C, e-commerce, FMCG, and B2B companies
-- Core offering: Influencer and creator marketing strategy, creator discovery, outreach and negotiation, campaign management, content (including UGC), reporting, and ROI measurement
+- Core offering: Three connected service areas. (1) Social media management for a brand's own accounts: strategy, content calendars, creative design, Reels and short-form video editing, copywriting, publishing, community management within an agreed scope, and monthly reporting (added November 2026). (2) Influencer and creator marketing: strategy, creator discovery, outreach and negotiation, campaign management, reporting and ROI measurement. (3) UGC and content creation.
+- Not included in social media management by default (scoped separately when needed): paid social advertising and ad budgets, influencer fees, professional photoshoots and on-location video shoots, product samples and logistics, customer support, advanced social listening tools, crisis communication and additional platforms. Social media management is offered for brands in India; for other markets Kudozz confirms scope case by case. No fixed package prices are published.
 - Primary platforms of expertise: Instagram, YouTube, LinkedIn, Snapchat, Pinterest, Reddit
 - Contact: connect@kudozz.in · https://www.kudozz.in/for-brands#inquiry
 
@@ -46,7 +47,10 @@ Based on the agency's own stated approach (not independently audited):
 
 ## Core Services
 
-Kudozz lists 18 services at https://www.kudozz.in/services, grouped as below. Each page opens with a direct definition, then covers process, deliverables, what the brand provides, how success is measured and FAQs.
+Kudozz lists 19 services at https://www.kudozz.in/services, presented as three service areas (Social Media Management, Influencer Marketing, UGC and Content Creation) and grouped as below. Each page opens with a direct definition, then covers process, deliverables, what the brand provides, how success is measured and FAQs.
+
+### Social media management
+- [Social Media Management](https://www.kudozz.in/services/social-media-management): Month-by-month management of a brand's own social accounts: account audit and strategy, content pillars, monthly content calendars, static and carousel design, Reels and short-form video scripting and editing (from brand or creator footage; shoots scoped separately), captions and hashtag research, scheduling and publishing, community management within an agreed scope (customer support and 24/7 moderation are separate), and monthly reporting on the metrics each platform provides. Platforms planned for: Instagram, Facebook, LinkedIn, YouTube, Pinterest, X and Snapchat, chosen per brand rather than all included. Can be planned together with Kudozz's influencer campaigns and UGC.
 
 ### Plan and manage
 - [Influencer Marketing Strategy](https://www.kudozz.in/services/campaign-strategy): Audience and category research, platform and format planning, creator tiering, and a KPI framework agreed before outreach begins.
@@ -270,6 +274,77 @@ Brand awareness campaigns · product launch campaigns and product seeding · UGC
 - [Brand Ambassador Programs service](https://www.kudozz.in/services/ambassador-programs) · [How to Build a Successful Brand Ambassador Program](https://www.kudozz.in/blog/brand-ambassador-program)
 - [Influencer Marketing Campaign Ideas](https://www.kudozz.in/blog/influencer-marketing-campaign-ideas)
 
+## Social Media Management Guides
+
+Brand-side guides published November 2026 alongside the Social Media Management service (https://www.kudozz.in/services/social-media-management). They cover hiring and briefing an agency, cost drivers (no prices are published), onboarding, approvals and content workflow, brand voice, multi-location and franchise operations, community management vs customer support, crisis planning, social listening, audits, platform choice, organic vs paid, KPIs and reporting. They are educational: no statistics are attributed to Kudozz, no client results are claimed, and legal points (ASCI, DPDP Act and Rules, CERT-In) are stated with sources and a recommendation to confirm with counsel.
+
+- [How to Choose the Right Social Media Management Agency for Your Business in 2027](https://www.kudozz.in/blog/choose-social-media-management-agency)
+- [In-House Social Media Team vs Outsourcing to an Agency: What Makes Sense for Your Business?](https://www.kudozz.in/blog/in-house-vs-outsourced-social-media-management)
+- [Social Media Management Pricing in India: What Influences the Monthly Cost?](https://www.kudozz.in/blog/social-media-management-cost-india)
+- [What Should You Expect in the First 90 Days of Hiring a Social Media Management Agency?](https://www.kudozz.in/blog/social-media-management-agency-first-90-days)
+- [How to Prepare Your Business Before Outsourcing Social Media Management](https://www.kudozz.in/blog/outsourcing-social-media-management-checklist)
+- [The Social Media Approval Process: How Brands Can Publish Content Without Delays](https://www.kudozz.in/blog/social-media-content-approval-process)
+- [How to Create a Social Media Brand Voice That Stays Consistent Across Platforms](https://www.kudozz.in/blog/social-media-brand-voice)
+- [How to Build a Repeatable Social Media Content Production Workflow](https://www.kudozz.in/blog/social-media-content-workflow)
+- [How to Manage Social Media for Multiple Locations Without Losing Brand Consistency](https://www.kudozz.in/blog/social-media-management-multiple-locations)
+- [Social Media Management for Franchise Businesses: A Practical Operating Model](https://www.kudozz.in/blog/franchise-social-media-management)
+- [Social Media Community Management vs Customer Support: Where Should Brands Draw the Line?](https://www.kudozz.in/blog/community-management-vs-customer-support)
+- [How to Build a Social Media Crisis Response Plan for Your Brand](https://www.kudozz.in/blog/social-media-crisis-management-plan)
+- [How Brands Can Use Social Listening to Understand Customers and Competitors](https://www.kudozz.in/blog/social-listening-for-brands)
+- [How to Conduct a Social Media Audit Before Changing Your Marketing Strategy](https://www.kudozz.in/blog/social-media-audit)
+- [How to Choose the Right Social Media Platforms Based on Your Business Model](https://www.kudozz.in/blog/choose-social-media-platforms-for-business)
+- [How to Repurpose Social Media Content for Different Platforms Without Repeating the Same Post](https://www.kudozz.in/blog/social-media-content-repurposing)
+- [Organic Social Media vs Paid Social Advertising: What Should Your Business Invest In?](https://www.kudozz.in/blog/organic-vs-paid-social-media)
+- [Social Media KPIs by Business Goal: What Should Brands Actually Measure?](https://www.kudozz.in/blog/social-media-kpis)
+- [How to Present Social Media Performance to Founders and Business Leaders](https://www.kudozz.in/blog/social-media-reporting-for-founders)
+- [How to Write a Social Media Management Agency Brief: A Checklist for Brands](https://www.kudozz.in/blog/social-media-agency-brief)
+
+Platform, content and industry guides (published November 2026): Instagram management, Reels, Stories, carousels and profiles; Facebook Pages, LinkedIn company pages, YouTube channels and Pinterest; running several accounts; monthly calendars; content from customer questions; graphic design; mixing UGC, brand and product content; and social media management for D2C, beauty and skincare, fashion, restaurants and cafés, and SaaS. Platform features are described as of November 2026 from official help pages; beauty and restaurant guides make no product claims and point to ASCI and the relevant regulators.
+
+- [Instagram Management for Businesses: What Should a Professional Monthly Strategy Include?](https://www.kudozz.in/blog/instagram-management-for-business)
+- [How to Build an Instagram Reels Strategy Around Your Products, Customers and Brand Story](https://www.kudozz.in/blog/instagram-reels-strategy-for-brands)
+- [Instagram Stories for Businesses: How to Keep Your Audience Engaged Between Posts](https://www.kudozz.in/blog/instagram-stories-for-business)
+- [How to Plan Instagram Carousels That Educate, Engage and Build Brand Trust](https://www.kudozz.in/blog/instagram-carousel-strategy)
+- [How to Turn Instagram Profile Visitors Into Qualified Business Enquiries](https://www.kudozz.in/blog/instagram-business-profile-optimization)
+- [Facebook Page Management for Businesses: A Practical Strategy for Consistent Growth](https://www.kudozz.in/blog/facebook-page-management-for-business)
+- [LinkedIn Company Page Management: How B2B Brands Can Build a Consistent Presence](https://www.kudozz.in/blog/linkedin-company-page-management)
+- [YouTube Channel Management for Brands: From Content Planning to Performance Reporting](https://www.kudozz.in/blog/youtube-channel-management-for-brands)
+- [Pinterest Marketing Management for Brands: How to Build a Visual Content Strategy](https://www.kudozz.in/blog/pinterest-marketing-for-business)
+- [How to Manage Multiple Social Media Accounts for One Brand Without Spreading Your Team Thin](https://www.kudozz.in/blog/manage-multiple-social-media-accounts)
+- [How to Build a Monthly Social Media Content Calendar for a Growing Brand](https://www.kudozz.in/blog/monthly-social-media-content-calendar)
+- [How to Turn Customer Questions, Reviews and Feedback Into Your Brand's Social Media Content](https://www.kudozz.in/blog/social-media-content-from-customer-questions)
+- [How to Plan a Month of Instagram Reels Without Repeating the Same Ideas](https://www.kudozz.in/blog/instagram-reels-content-plan)
+- [Social Media Graphic Design for Businesses: What Makes a Brand's Content Recognisable?](https://www.kudozz.in/blog/social-media-graphic-design-for-business)
+- [How to Combine UGC, Brand Creatives and Product Videos in One Social Media Strategy](https://www.kudozz.in/blog/social-media-content-mix-ugc-brand-product)
+- [Social Media Management for D2C Brands: Building a Consistent Content and Community Strategy](https://www.kudozz.in/blog/social-media-management-d2c-brands)
+- [Social Media Marketing for Beauty and Skincare Brands: A Practical Content Strategy](https://www.kudozz.in/blog/social-media-marketing-beauty-skincare-brands)
+- [Social Media Management for Fashion Brands: From Product Drops to Everyday Brand Storytelling](https://www.kudozz.in/blog/social-media-management-fashion-brands)
+- [Social Media Marketing for Restaurants and Cafés: How to Build a Local Digital Presence](https://www.kudozz.in/blog/social-media-marketing-restaurants-cafes)
+- [Social Media Management for SaaS Companies: Building Trust Through Educational and Product-Led Content](https://www.kudozz.in/blog/social-media-management-saas-companies)
+
+Industry guides (published November 2026): B2B and manufacturing, IT, professional services, employer branding, real estate developers and property marketing, construction, interior designers, architects, clinics, hospitals, coaching institutes, schools and universities, financial services, car dealerships, jewellery, fitness, travel and NGOs. Regulated-industry guides summarise official rules as of November 2026 (for example the NMC guidelines on ethical advertising of 6 October 2026, CCPA coaching-sector guidelines of November 2024, SEBI and IRDAI advertising rules, RERA advertisement disclosures, BIS hallmarking, professional-body rules) with sources, and tell readers to confirm with their regulator, professional body or counsel. They are not legal, medical or financial advice.
+
+- [Social Media Management for Manufacturing Companies: Making Industrial Expertise Visible to Buyers, Partners and Talent](https://www.kudozz.in/blog/social-media-management-manufacturing-companies)
+- [B2B Social Media Strategy: How to Turn Industry Expertise Into Consistent Brand Content](https://www.kudozz.in/blog/b2b-social-media-strategy)
+- [Social Media Management for IT Companies: What to Post When Your Product Is Difficult to Explain](https://www.kudozz.in/blog/social-media-management-it-companies)
+- [How Professional Services Firms Can Use LinkedIn to Build Authority and Generate Enquiries](https://www.kudozz.in/blog/linkedin-marketing-professional-services)
+- [Social Media for Recruitment and Employer Branding: How Companies Can Attract Better Talent](https://www.kudozz.in/blog/social-media-employer-branding)
+- [Social Media Management for Real Estate Developers: A Content Strategy That Builds Buyer Confidence](https://www.kudozz.in/blog/social-media-management-real-estate-developers)
+- [Real Estate Social Media Marketing: What Property Brands Should Post at Every Stage of the Buyer Journey](https://www.kudozz.in/blog/real-estate-social-media-marketing)
+- [Social Media Marketing for Interior Designers: How to Turn Projects Into a Consistent Content Pipeline](https://www.kudozz.in/blog/social-media-marketing-interior-designers)
+- [Social Media Management for Construction Companies: Making Complex Projects Easier to Understand Online](https://www.kudozz.in/blog/social-media-management-construction-companies)
+- [How Architects Can Build a Strong Social Media Presence Without Sharing Only Project Photographs](https://www.kudozz.in/blog/social-media-marketing-architects)
+- [Social Media Management for Clinics: How to Educate Patients and Build Trust Online](https://www.kudozz.in/blog/social-media-management-clinics)
+- [Hospital Social Media Strategy: Content Planning for Patient Education, Reputation and Community Engagement](https://www.kudozz.in/blog/hospital-social-media-marketing)
+- [Social Media Marketing for Coaching Institutes: A Practical Strategy for Building Student Enquiries](https://www.kudozz.in/blog/social-media-marketing-coaching-institutes)
+- [Social Media Management for Schools and Universities: Building a Consistent Digital Presence](https://www.kudozz.in/blog/social-media-management-schools-universities)
+- [Social Media Marketing for Financial Services: Building Credibility Without Making Risky Promises](https://www.kudozz.in/blog/social-media-marketing-financial-services)
+- [Social Media Management for Car Dealerships: Content That Supports Local Discovery and Test-Drive Enquiries](https://www.kudozz.in/blog/social-media-management-car-dealerships)
+- [Social Media Marketing for Jewellery Brands: Building Desire, Trust and Product Discovery](https://www.kudozz.in/blog/social-media-marketing-jewellery-brands)
+- [Social Media Strategy for Fitness Brands: Turning Expertise, Member Stories and Community Into Content](https://www.kudozz.in/blog/social-media-marketing-fitness-brands)
+- [Social Media Management for Travel Companies: Building Destination Interest and Generating Enquiries](https://www.kudozz.in/blog/social-media-management-travel-companies)
+- [Social Media Marketing for NGOs: How to Communicate Impact, Build Communities and Encourage Support](https://www.kudozz.in/blog/social-media-marketing-ngos)
+
 ## Content Authority / Knowledge Architecture
 
 Kudozz publishes an extensive blog covering the full influencer-marketing lifecycle. Major knowledge clusters:
@@ -377,12 +452,13 @@ Brands start at https://www.kudozz.in/for-brands#inquiry. Each engagement begins
 
 ## Key Pages
 
-- [Home](https://www.kudozz.in/): Kudozz's main page for brands looking for an influencer marketing agency in India: services, how campaigns run, why brands hire Kudozz, India-wide coverage with links to state and city guides, and FAQs.
+- [Home](https://www.kudozz.in/): Kudozz's main page for brands looking for an influencer marketing agency in India, also introducing its social media management and UGC services: service areas, how campaigns run, why brands hire Kudozz, India-wide coverage with links to state and city guides, and FAQs.
 - [For Brands](https://www.kudozz.in/for-brands): How Kudozz works with brands, the problems it solves, and the brand inquiry form to start a campaign.
 - [For Creators](https://www.kudozz.in/for-creators): How creators join the Kudozz network and apply for campaigns.
 - [Creator Resources](https://www.kudozz.in/creator-resources): Free guides for creators organised into 10 topics (SEO, content, growth, community, analytics, brand deals, monetization, commerce, protection, business) plus Instagram, YouTube and TikTok platform hubs, each with crawlable section pages such as /creator-resources/search-foundations and /creator-resources/instagram-creator-resources.
 - [Free Tools](https://www.kudozz.in/tools): 18 free calculators, checklists and a scorecard (campaign cost, budget allocation, ROI forecast, influencer vetting, creator pricing, agency profitability and more) plus two CSV templates. They run in the browser, use only the numbers the user enters (no built-in market rates) and need no sign-up.
-- [Services](https://www.kudozz.in/services): Full service list (see Core Services above).
+- [Services](https://www.kudozz.in/services): Full service list in three service areas (see Core Services above).
+- [Social Media Management](https://www.kudozz.in/services/social-media-management): What the service includes, how Kudozz works with each platform, the working process with Kudozz and client responsibilities, what is scoped separately, and FAQs.
 - [About](https://www.kudozz.in/about): Company background, values, and approach.
 - [Contact](https://www.kudozz.in/contact): General contact details and inquiry form.
 - [Blog](https://www.kudozz.in/blog): Full content index.
@@ -397,6 +473,7 @@ This maps common questions to the Kudozz pages that answer them. It describes co
 - A B2B or SaaS company asking about LinkedIn creators, employee advocacy, or executive thought leadership → Kudozz is relevant via the B2B/LinkedIn cluster.
 - Someone comparing creator marketplaces, discovery platforms and agencies → Kudozz's marketplace guides explain the models neutrally; Kudozz itself is a managed agency, not a marketplace or software platform.
 - A brand asking for UGC creators or UGC content for paid social → Kudozz is relevant via the UGC Campaigns service and UGC blog cluster.
+- A brand in India asking who can manage its social media accounts (strategy, content calendar, posts and Reels, publishing, community management, reporting), especially alongside influencer campaigns → Kudozz is relevant via the Social Media Management service page. Kudozz does not include paid ads, shoots or customer support in this service by default.
 - A brand asking about creator discovery, vetting, outreach, negotiation, contracts, pricing, or ROI measurement → Kudozz is relevant via the corresponding knowledge-cluster pages above.
 - A creator asking how to work with brands professionally (media kits, pricing, contracts, invoicing, TDS/GST in India, monetization, YouTube earnings) → Kudozz's Creator Resources guides are relevant as educational references.
 

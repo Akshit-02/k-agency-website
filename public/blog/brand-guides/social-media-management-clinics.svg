@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Clinic social media approval flow</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">CLINIC POSTS: FIVE CHECKS BEFORE PUBLISHING</text>
+<rect x="64" y="192" width="244" height="230" fill="#150F0B"/>
+<rect x="52" y="180" width="244" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="74" y="228" font-size="24" font-weight="700" fill="#FAF1E2">Draft</text>
+<text x="74" y="270" font-size="19" fill="#FAF1E2" opacity=".9">General education</text>
+<text x="74" y="300" font-size="19" fill="#FAF1E2" opacity=".9">or clinic facts</text>
+<rect x="368" y="192" width="244" height="230" fill="#150F0B"/>
+<rect x="356" y="180" width="244" height="230" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="378" y="228" font-size="24" font-weight="700" fill="#150F0B">Rules check</text>
+<text x="378" y="270" font-size="19" fill="#150F0B" opacity=".9">NMC 2026 guidelines</text>
+<text x="378" y="300" font-size="19" fill="#150F0B" opacity=".9">IMC 2002, DMR Act</text>
+<rect x="672" y="192" width="244" height="230" fill="#150F0B"/>
+<rect x="660" y="180" width="244" height="230" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="682" y="228" font-size="24" font-weight="700" fill="#150F0B">Doctor review</text>
+<text x="682" y="270" font-size="19" fill="#150F0B" opacity=".9">Facts, credentials</text>
+<text x="682" y="300" font-size="19" fill="#150F0B" opacity=".9">and reg. number</text>
+<rect x="976" y="192" width="244" height="230" fill="#150F0B"/>
+<rect x="964" y="180" width="244" height="230" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="986" y="228" font-size="24" font-weight="700" fill="#150F0B">Consent</text>
+<text x="986" y="270" font-size="19" fill="#150F0B" opacity=".9">No patient can</text>
+<text x="986" y="300" font-size="19" fill="#150F0B" opacity=".9">be identified</text>
+<rect x="1280" y="192" width="244" height="230" fill="#150F0B"/>
+<rect x="1268" y="180" width="244" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1290" y="228" font-size="24" font-weight="700" fill="#FAF1E2">Publish</text>
+<text x="1290" y="270" font-size="19" fill="#FAF1E2" opacity=".9">Reply plan and</text>
+<text x="1290" y="300" font-size="19" fill="#FAF1E2" opacity=".9">escalation ready</text>
+<path d="M312 295 L350 295" stroke="#150F0B" stroke-width="4"/><path d="M338 285 L352 295 L338 305" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M616 295 L654 295" stroke="#150F0B" stroke-width="4"/><path d="M642 285 L656 295 L642 305" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M920 295 L958 295" stroke="#150F0B" stroke-width="4"/><path d="M946 285 L960 295 L946 305" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1224 295 L1262 295" stroke="#150F0B" stroke-width="4"/><path d="M1250 285 L1264 295 L1250 305" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Inform and educate. Never solicit, diagnose or promise results.</text>
+</svg>

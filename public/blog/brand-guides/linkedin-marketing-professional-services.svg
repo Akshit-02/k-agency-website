@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Four-week LinkedIn calendar for a professional services firm</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">A FOUR-WEEK LINKEDIN CALENDAR FOR FIRMS</text>
+<rect x="82" y="172" width="320" height="310" fill="#150F0B"/>
+<rect x="70" y="160" width="320" height="310" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="208" font-size="24" font-weight="700" fill="#FAF1E2">Week 1</text>
+<text x="92" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#FAF1E2" opacity=".7">FIRM PAGE</text>
+<text x="92" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Rule change explainer</text>
+<text x="92" y="324" font-size="16" font-weight="700" letter-spacing="1" fill="#FAF1E2" opacity=".7">PARTNER</text>
+<text x="92" y="352" font-size="19" fill="#FAF1E2" opacity=".9">What it means for</text>
+<text x="92" y="382" font-size="19" fill="#FAF1E2" opacity=".9">one sector</text>
+<rect x="462" y="172" width="320" height="310" fill="#150F0B"/>
+<rect x="450" y="160" width="320" height="310" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="472" y="208" font-size="24" font-weight="700" fill="#150F0B">Week 2</text>
+<text x="472" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">FIRM PAGE</text>
+<text x="472" y="280" font-size="19" fill="#150F0B" opacity=".9">Checklist carousel</text>
+<text x="472" y="324" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">PARTNER</text>
+<text x="472" y="352" font-size="19" fill="#150F0B" opacity=".9">Anonymised client</text>
+<text x="472" y="382" font-size="19" fill="#150F0B" opacity=".9">question answered</text>
+<rect x="842" y="172" width="320" height="310" fill="#150F0B"/>
+<rect x="830" y="160" width="320" height="310" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="852" y="208" font-size="24" font-weight="700" fill="#150F0B">Week 3</text>
+<text x="852" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">FIRM PAGE</text>
+<text x="852" y="280" font-size="19" fill="#150F0B" opacity=".9">Knowledge session</text>
+<text x="852" y="324" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">PARTNER</text>
+<text x="852" y="352" font-size="19" fill="#150F0B" opacity=".9">Commentary on a</text>
+<text x="852" y="382" font-size="19" fill="#150F0B" opacity=".9">published judgment</text>
+<rect x="1222" y="172" width="320" height="310" fill="#150F0B"/>
+<rect x="1210" y="160" width="320" height="310" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1232" y="208" font-size="24" font-weight="700" fill="#150F0B">Week 4</text>
+<text x="1232" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">FIRM PAGE</text>
+<text x="1232" y="280" font-size="19" fill="#150F0B" opacity=".9">Monthly round-up</text>
+<text x="1232" y="324" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">PARTNER</text>
+<text x="1232" y="352" font-size="19" fill="#150F0B" opacity=".9">Key points from a</text>
+<text x="1232" y="382" font-size="19" fill="#150F0B" opacity=".9">talk or panel</text>
+<rect x="70" y="550" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="591" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Every post: professional body rules and confidentiality check</text>
+</svg>

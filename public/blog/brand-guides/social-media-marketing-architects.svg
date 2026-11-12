@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Architecture practice content themes beyond project photos</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">ARCHITECTS: SIX THEMES BEYOND THE FINISHED PHOTO</text>
+<rect x="82" y="152" width="440" height="160" fill="#150F0B"/>
+<rect x="70" y="140" width="440" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="186" font-size="24" font-weight="700" fill="#FAF1E2">Philosophy</text>
+<text x="90" y="228" font-size="19" fill="#FAF1E2" opacity=".85">What the practice</text>
+<text x="90" y="258" font-size="19" fill="#FAF1E2" opacity=".85">believes, shown</text>
+<rect x="592" y="152" width="440" height="160" fill="#150F0B"/>
+<rect x="580" y="140" width="440" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="600" y="186" font-size="24" font-weight="700" fill="#150F0B">Process</text>
+<text x="600" y="228" font-size="19" fill="#150F0B" opacity=".85">Sketches, models,</text>
+<text x="600" y="258" font-size="19" fill="#150F0B" opacity=".85">rejected options</text>
+<rect x="1102" y="152" width="440" height="160" fill="#150F0B"/>
+<rect x="1090" y="140" width="440" height="160" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1110" y="186" font-size="24" font-weight="700" fill="#150F0B">Site</text>
+<text x="1110" y="228" font-size="19" fill="#150F0B" opacity=".85">Reading sun, slope,</text>
+<text x="1110" y="258" font-size="19" fill="#150F0B" opacity=".85">wind and views</text>
+<rect x="82" y="352" width="440" height="160" fill="#150F0B"/>
+<rect x="70" y="340" width="440" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="386" font-size="24" font-weight="700" fill="#150F0B">Materials</text>
+<text x="90" y="428" font-size="19" fill="#150F0B" opacity=".85">How each material</text>
+<text x="90" y="458" font-size="19" fill="#150F0B" opacity=".85">is used and ages</text>
+<rect x="592" y="352" width="440" height="160" fill="#150F0B"/>
+<rect x="580" y="340" width="440" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="600" y="386" font-size="24" font-weight="700" fill="#150F0B">People</text>
+<text x="600" y="428" font-size="19" fill="#150F0B" opacity=".85">Founder voice,</text>
+<text x="600" y="458" font-size="19" fill="#150F0B" opacity=".85">team and makers</text>
+<rect x="1102" y="352" width="440" height="160" fill="#150F0B"/>
+<rect x="1090" y="340" width="440" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1110" y="386" font-size="24" font-weight="700" fill="#FAF1E2">Problems solved</text>
+<text x="1110" y="428" font-size="19" fill="#FAF1E2" opacity=".85">Budget, by-laws,</text>
+<text x="1110" y="458" font-size="19" fill="#FAF1E2" opacity=".85">a narrow plot</text>
+<rect x="70" y="560" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="601" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Check the CoA professional conduct rules before you publish</text>
+</svg>

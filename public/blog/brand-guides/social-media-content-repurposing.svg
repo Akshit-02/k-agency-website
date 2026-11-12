@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">One product Reel repurposed into five platform-specific formats</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">ONE SOURCE ASSET, FIVE ADAPTED FORMATS</text>
+<path d="M640 215 H 1530" stroke="#150F0B" stroke-width="4" fill="none"/>
+<path d="M202 215 V 344" stroke="#150F0B" stroke-width="4" fill="none"/>
+<path d="M498 215 V 344" stroke="#150F0B" stroke-width="4" fill="none"/>
+<path d="M794 215 V 344" stroke="#150F0B" stroke-width="4" fill="none"/>
+<path d="M1090 215 V 344" stroke="#150F0B" stroke-width="4" fill="none"/>
+<path d="M1386 215 V 344" stroke="#150F0B" stroke-width="4" fill="none"/>
+<text x="680" y="200" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">ADAPT, DON'T RESIZE</text>
+<rect x="70" y="140" width="560" height="150" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="200" font-size="28" font-weight="700" fill="#FAF1E2">Product Reel (source)</text>
+<text x="92" y="245" font-size="19" fill="#FAF1E2" opacity=".85">Planned for every cut-down</text>
+<rect x="82" y="362" width="264" height="170" fill="#150F0B"/>
+<rect x="70" y="350" width="264" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="398" font-size="24" font-weight="700" fill="#FAF1E2">LinkedIn post</text>
+<text x="92" y="440" font-size="19" fill="#FAF1E2" opacity=".85">Why we made it</text>
+<rect x="378" y="362" width="264" height="170" fill="#150F0B"/>
+<rect x="366" y="350" width="264" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="388" y="398" font-size="24" font-weight="700" fill="#150F0B">YouTube Short</text>
+<text x="388" y="440" font-size="19" fill="#150F0B" opacity=".85">Searchable title</text>
+<rect x="674" y="362" width="264" height="170" fill="#150F0B"/>
+<rect x="662" y="350" width="264" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="684" y="398" font-size="24" font-weight="700" fill="#150F0B">Carousel</text>
+<text x="684" y="440" font-size="19" fill="#150F0B" opacity=".85">Steps to save</text>
+<rect x="970" y="362" width="264" height="170" fill="#150F0B"/>
+<rect x="958" y="350" width="264" height="170" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="980" y="398" font-size="24" font-weight="700" fill="#150F0B">Pinterest pin</text>
+<text x="980" y="440" font-size="19" fill="#150F0B" opacity=".85">Links to product</text>
+<rect x="1266" y="362" width="264" height="170" fill="#150F0B"/>
+<rect x="1254" y="350" width="264" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="1276" y="398" font-size="24" font-weight="700" fill="#150F0B">Story</text>
+<text x="1276" y="440" font-size="19" fill="#150F0B" opacity=".85">Poll and link</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">New hook, length and caption for each platform. Clean files, agreed rights.</text>
+</svg>

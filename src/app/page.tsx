@@ -6,6 +6,7 @@ import { Hero } from "@/components/home/Hero";
 import { TrustBar } from "@/components/home/TrustBar";
 import { WhyInfluencer } from "@/components/home/WhyInfluencer";
 import { WhatWeDo } from "@/components/home/WhatWeDo";
+import { ServiceAreas } from "@/components/home/ServiceAreas";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { WhyKudozz } from "@/components/home/WhyKudozz";
 import { IndiaCoverage } from "@/components/home/IndiaCoverage";
@@ -16,7 +17,7 @@ import { FinalCTA } from "@/components/home/FinalCTA";
 
 const TITLE = "Best Influencer Marketing Agency in India | Kudozz";
 const DESCRIPTION =
-  "Kudozz is an influencer marketing agency for brands across India: creator discovery, campaign strategy, outreach, UGC and reporting tied to the KPI you set.";
+  "Kudozz is an influencer marketing and social media management agency in India: creator campaigns, brand social media, UGC and reporting tied to your goals.";
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
@@ -33,6 +34,7 @@ export default function HomePage() {
       <JsonLd data={faqSchema(homeFaqs)} />
       <Hero />
       <TrustBar />
+      <ServiceAreas />
       <WhyInfluencer />
       <WhatWeDo />
       <HowItWorks />
@@ -40,8 +42,13 @@ export default function HomePage() {
       <IndiaCoverage />
       <GlobalMarkets />
       <CreatorNetwork />
-      <FAQSection faqs={homeFaqs} eyebrow="FAQ" title="Questions brands ask before hiring an influencer agency." />
-      <FinalCTA />
+      <FAQSection faqs={homeFaqs} eyebrow="FAQ" title="Questions brands ask before working with Kudozz." />
+      <FinalCTA
+        title="Let's talk about your brand's social presence."
+        body="Tell us about your brand, your customers and what you need: social media management, creator campaigns, UGC or a mix. We'll come back with a point of view and a plan before we talk fees."
+        primaryLabel="Let's Discuss Your Brand"
+        secondary={{ label: "Join Our Creator Network", href: "/for-creators#apply" }}
+      />
     </>
   );
 }

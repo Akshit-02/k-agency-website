@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A recognisable social media design system</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">A SYSTEM, NOT ONE TEMPLATE</text>
+<rect x="82" y="182" width="440" height="370" fill="#150F0B"/>
+<rect x="70" y="170" width="440" height="370" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="218" font-size="24" font-weight="700" fill="#FAF1E2">Fixed elements</text>
+<text x="92" y="260" font-size="19" fill="#FAF1E2" opacity=".85">Colour codes</text>
+<text x="92" y="290" font-size="19" fill="#FAF1E2" opacity=".85">Two typefaces</text>
+<text x="92" y="320" font-size="19" fill="#FAF1E2" opacity=".85">Image framing</text>
+<text x="92" y="350" font-size="19" fill="#FAF1E2" opacity=".85">Text rules</text>
+<text x="92" y="380" font-size="19" fill="#FAF1E2" opacity=".85">Logo rule</text>
+<rect x="602" y="182" width="440" height="110" fill="#150F0B"/>
+<rect x="590" y="170" width="440" height="110" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="612" y="218" font-size="24" font-weight="700" fill="#150F0B">Template families</text>
+<text x="612" y="260" font-size="19" fill="#150F0B" opacity=".85">Education, product, offer</text>
+<rect x="602" y="312" width="440" height="110" fill="#150F0B"/>
+<rect x="590" y="300" width="440" height="110" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="612" y="348" font-size="24" font-weight="700" fill="#150F0B">Variants</text>
+<text x="612" y="390" font-size="19" fill="#150F0B" opacity=".85">3 or 4 per family</text>
+<rect x="602" y="442" width="440" height="110" fill="#150F0B"/>
+<rect x="590" y="430" width="440" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="612" y="478" font-size="24" font-weight="700" fill="#150F0B">Real photos and UGC</text>
+<text x="612" y="520" font-size="19" fill="#150F0B" opacity=".85">Break up flat design</text>
+<rect x="1122" y="182" width="420" height="370" fill="#150F0B"/>
+<rect x="1110" y="170" width="420" height="370" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1132" y="218" font-size="24" font-weight="700" fill="#150F0B">Checks</text>
+<text x="1132" y="260" font-size="19" fill="#150F0B" opacity=".85">Contrast and size</text>
+<text x="1132" y="290" font-size="19" fill="#150F0B" opacity=".85">Alt text, captions</text>
+<text x="1132" y="320" font-size="19" fill="#150F0B" opacity=".85">Current spec page</text>
+<text x="1132" y="350" font-size="19" fill="#150F0B" opacity=".85">Honest offers</text>
+<text x="1132" y="380" font-size="19" fill="#150F0B" opacity=".85">Human review</text>
+<path d="M522 355 L578 355" stroke="#150F0B" stroke-width="4"/><path d="M566 345 L580 355 L566 365" fill="none" stroke="#150F0B" stroke-width="4"/><path d="M1042 355 L1098 355" stroke="#150F0B" stroke-width="4"/><path d="M1086 345 L1100 355 L1086 365" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Keep a few things fixed. Vary the rest on purpose.</text>
+</svg>

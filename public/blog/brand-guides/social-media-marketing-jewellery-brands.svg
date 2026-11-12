@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Jewellery brand festive and wedding content calendar</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">JEWELLERY: A YEAR OF CONTENT IN FOUR PHASES</text>
+<line x1="90" y1="190" x2="1510" y2="190" stroke="#150F0B" stroke-width="4"/>
+<circle cx="235" cy="190" r="22" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="235" y="198" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">1</text>
+<line x1="235" y1="212" x2="235" y2="250" stroke="#150F0B" stroke-width="4"/>
+<rect x="82" y="262" width="330" height="200" fill="#150F0B"/>
+<rect x="70" y="250" width="330" height="200" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="296" font-size="24" font-weight="700" fill="#150F0B">Everyday and craft</text>
+<text x="90" y="338" font-size="19" fill="#150F0B" opacity=".85">Karigars, care,</text>
+<text x="90" y="368" font-size="19" fill="#150F0B" opacity=".85">styling, education</text>
+<circle cx="611" cy="190" r="22" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="611" y="198" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">2</text>
+<line x1="611" y1="212" x2="611" y2="250" stroke="#150F0B" stroke-width="4"/>
+<rect x="458" y="262" width="330" height="200" fill="#150F0B"/>
+<rect x="446" y="250" width="330" height="200" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="466" y="296" font-size="24" font-weight="700" fill="#150F0B">Festive build-up</text>
+<text x="466" y="338" font-size="19" fill="#150F0B" opacity=".85">Teasers, gifting,</text>
+<text x="466" y="368" font-size="19" fill="#150F0B" opacity=".85">store readiness</text>
+<circle cx="987" cy="190" r="22" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="987" y="198" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">3</text>
+<line x1="987" y1="212" x2="987" y2="250" stroke="#150F0B" stroke-width="4"/>
+<rect x="834" y="262" width="330" height="200" fill="#150F0B"/>
+<rect x="822" y="250" width="330" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="842" y="296" font-size="24" font-weight="700" fill="#FAF1E2">Wedding season</text>
+<text x="842" y="338" font-size="19" fill="#FAF1E2" opacity=".85">Bridal sets with</text>
+<text x="842" y="368" font-size="19" fill="#FAF1E2" opacity=".85">consent, bookings</text>
+<circle cx="1363" cy="190" r="22" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1363" y="198" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">4</text>
+<line x1="1363" y1="212" x2="1363" y2="250" stroke="#150F0B" stroke-width="4"/>
+<rect x="1210" y="262" width="330" height="200" fill="#150F0B"/>
+<rect x="1198" y="250" width="330" height="200" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1218" y="296" font-size="24" font-weight="700" fill="#150F0B">Gifting moments</text>
+<text x="1218" y="338" font-size="19" fill="#150F0B" opacity=".85">Occasion edits,</text>
+<text x="1218" y="368" font-size="19" fill="#150F0B" opacity=".85">lightweight pieces</text>
+<rect x="70" y="540" width="1460" height="64" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="581" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Claims check: karat, hallmark, price, stock, consent</text>
+<text x="70" y="650" font-size="20" fill="#150F0B" opacity=".75">True colour and scale in every visual. No investment-value language.</text>
+</svg>

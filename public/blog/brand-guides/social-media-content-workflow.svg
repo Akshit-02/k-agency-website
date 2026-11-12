@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A repeatable social media content production workflow</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">A REPEATABLE MONTHLY CONTENT WORKFLOW</text>
+<rect x="80" y="240" width="200" height="120" fill="#150F0B"/>
+<rect x="70" y="230" width="200" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="170" y="300" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Brief</text>
+<line x1="284" y1="290" x2="301" y2="290" stroke="#150F0B" stroke-width="4"/>
+<polygon points="315,290 299,280 299,300" fill="#150F0B"/>
+<rect x="325" y="240" width="200" height="120" fill="#150F0B"/>
+<rect x="315" y="230" width="200" height="120" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="415" y="300" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Plan</text>
+<line x1="529" y1="290" x2="546" y2="290" stroke="#150F0B" stroke-width="4"/>
+<polygon points="560,290 544,280 544,300" fill="#150F0B"/>
+<rect x="570" y="240" width="200" height="120" fill="#150F0B"/>
+<rect x="560" y="230" width="200" height="120" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="660" y="300" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Produce</text>
+<line x1="774" y1="290" x2="791" y2="290" stroke="#150F0B" stroke-width="4"/>
+<polygon points="805,290 789,280 789,300" fill="#150F0B"/>
+<rect x="815" y="240" width="200" height="120" fill="#150F0B"/>
+<rect x="805" y="230" width="200" height="120" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="905" y="300" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Review</text>
+<line x1="1019" y1="290" x2="1036" y2="290" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1050,290 1034,280 1034,300" fill="#150F0B"/>
+<rect x="1060" y="240" width="200" height="120" fill="#150F0B"/>
+<rect x="1050" y="230" width="200" height="120" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1150" y="300" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Publish</text>
+<line x1="1264" y1="290" x2="1281" y2="290" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1295,290 1279,280 1279,300" fill="#150F0B"/>
+<rect x="1305" y="240" width="200" height="120" fill="#150F0B"/>
+<rect x="1295" y="230" width="200" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1395" y="300" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Learn</text>
+<path d="M1395 364 L1395 450 L170 450 L170 378" fill="none" stroke="#150F0B" stroke-width="4"/>
+<polygon points="170,364 160,382 180,382" fill="#150F0B"/>
+<text x="782" y="490" font-size="19" text-anchor="middle" fill="#150F0B" opacity=".85">Learnings feed next month's brief</text>
+<rect x="530" y="120" width="300" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="680" y="158" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Creator and UGC input</text>
+<line x1="680" y1="184" x2="680" y2="214" stroke="#150F0B" stroke-width="4"/>
+<polygon points="680,228 670,212 690,212" fill="#150F0B"/>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Same stages, same dates, every month.</text>
+</svg>

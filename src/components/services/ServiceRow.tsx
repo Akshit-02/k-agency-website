@@ -15,7 +15,17 @@ const rowThemes = [
   { bg: "bg-ink", text: "text-paper", sub: "text-paper/60", dot: "bg-coral" },
 ];
 
-export function ServiceRow({ service, index = 0 }: { service: Service; index?: number }) {
+export function ServiceRow({
+  service,
+  index = 0,
+  headingLevel = "h3",
+}: {
+  service: Service;
+  index?: number;
+  /** Use "h4" when the row sits under an h3 group heading (services hub). */
+  headingLevel?: "h3" | "h4";
+}) {
+  const Heading = headingLevel;
   const [open, setOpen] = useState(false);
   const theme = rowThemes[index % rowThemes.length];
 
@@ -40,7 +50,7 @@ export function ServiceRow({ service, index = 0 }: { service: Service; index?: n
           <span className={cn("font-black-display text-sm transition-colors", open ? theme.sub : "text-ink/35")}>
             {service.index}
           </span>
-          <h3 className="m-0">
+          <Heading className="m-0">
             <Link
               href={`/services/${service.slug}`}
               className={cn(
@@ -50,7 +60,7 @@ export function ServiceRow({ service, index = 0 }: { service: Service; index?: n
             >
               {service.name}
             </Link>
-          </h3>
+          </Heading>
         </div>
         <button
           type="button"

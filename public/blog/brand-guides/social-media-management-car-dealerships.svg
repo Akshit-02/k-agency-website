@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Dealership content by buyer stage</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">CAR DEALERSHIPS: LOCAL DISCOVERY TO SERVICE</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">Dealership content by buyer stage</text>
+<text x="70" y="290" font-size="20" font-weight="700" fill="#150F0B">Buyer asks</text>
+<text x="70" y="450" font-size="20" font-weight="700" fill="#150F0B">Dealer posts</text>
+<rect x="252" y="190" width="213" height="56" fill="#150F0B"/>
+<rect x="240" y="178" width="213" height="56" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="346" y="215" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Discover</text>
+<rect x="240" y="256" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="262" y="292" font-size="18" fill="#150F0B" opacity=".9">Which car fits</text>
+<text x="262" y="320" font-size="18" fill="#150F0B" opacity=".9">my family?</text>
+<rect x="240" y="396" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="262" y="432" font-size="18" fill="#150F0B" opacity=".9">Walkarounds of</text>
+<text x="262" y="460" font-size="18" fill="#150F0B" opacity=".9">cars in stock</text>
+<path d="M469 206 L503 206" stroke="#150F0B" stroke-width="4"/><path d="M494 198 L503 206 L494 214" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="521" y="190" width="213" height="56" fill="#150F0B"/>
+<rect x="509" y="178" width="213" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="615" y="215" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Compare</text>
+<rect x="509" y="256" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="531" y="292" font-size="18" fill="#150F0B" opacity=".9">How do these</text>
+<text x="531" y="320" font-size="18" fill="#150F0B" opacity=".9">variants differ?</text>
+<rect x="509" y="396" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="531" y="432" font-size="18" fill="#150F0B" opacity=".9">Fair, factual</text>
+<text x="531" y="460" font-size="18" fill="#150F0B" opacity=".9">comparisons</text>
+<path d="M738 206 L772 206" stroke="#150F0B" stroke-width="4"/><path d="M763 198 L772 206 L763 214" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="790" y="190" width="213" height="56" fill="#150F0B"/>
+<rect x="778" y="178" width="213" height="56" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="884" y="215" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Test drive</text>
+<rect x="778" y="256" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="292" font-size="18" fill="#150F0B" opacity=".9">What happens</text>
+<text x="800" y="320" font-size="18" fill="#150F0B" opacity=".9">at the showroom?</text>
+<rect x="778" y="396" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="432" font-size="18" fill="#150F0B" opacity=".9">Slot booking by</text>
+<text x="800" y="460" font-size="18" fill="#150F0B" opacity=".9">WhatsApp or form</text>
+<path d="M1007 206 L1041 206" stroke="#150F0B" stroke-width="4"/><path d="M1032 198 L1041 206 L1032 214" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1059" y="190" width="213" height="56" fill="#150F0B"/>
+<rect x="1047" y="178" width="213" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1153" y="215" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Delivery</text>
+<rect x="1047" y="256" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1069" y="292" font-size="18" fill="#150F0B" opacity=".9">Will this feel</text>
+<text x="1069" y="320" font-size="18" fill="#150F0B" opacity=".9">special?</text>
+<rect x="1047" y="396" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1069" y="432" font-size="18" fill="#150F0B" opacity=".9">Handover photos</text>
+<text x="1069" y="460" font-size="18" fill="#150F0B" opacity=".9">with consent</text>
+<path d="M1276 206 L1310 206" stroke="#150F0B" stroke-width="4"/><path d="M1301 198 L1310 206 L1301 214" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1328" y="190" width="213" height="56" fill="#150F0B"/>
+<rect x="1316" y="178" width="213" height="56" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1422" y="215" font-size="23" font-weight="700" text-anchor="middle" fill="#FAF1E2">Service</text>
+<rect x="1316" y="256" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1338" y="292" font-size="18" fill="#150F0B" opacity=".9">How do I look</text>
+<text x="1338" y="320" font-size="18" fill="#150F0B" opacity=".9">after it?</text>
+<rect x="1316" y="396" width="213" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1338" y="432" font-size="18" fill="#150F0B" opacity=".9">Service tips and</text>
+<text x="1338" y="460" font-size="18" fill="#150F0B" opacity=".9">bay walkthroughs</text>
+<rect x="70" y="560" width="460" height="70" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="300" y="604" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Official figures only</text>
+<rect x="570" y="560" width="460" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="604" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Offers show terms</text>
+<rect x="1070" y="560" width="460" height="70" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1300" y="604" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Every enquiry logged</text>
+</svg>

@@ -41,12 +41,9 @@ export function Hero() {
                 Best Influencer Marketing Agency in India
                 <span className="sr-only">:</span>
               </span>
-              <span className="mt-6 block font-display text-[15vw] leading-[0.92] tracking-tight text-balance sm:text-8xl lg:text-[6.4rem]">
-                Influence
-                <br />
-                isn&apos;t <em className="italic text-coral">bought.</em>
-                <br />
-                It&apos;s built.
+              <span className="mt-6 block font-display text-[11vw] leading-[0.98] tracking-tight text-balance sm:text-6xl lg:text-[4.1rem]">
+                Build your brand&apos;s social presence with strategy, content and{" "}
+                <em className="italic text-coral">creators.</em>
               </span>
             </motion.h1>
 
@@ -56,10 +53,10 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.28, ease: [0.16, 1, 0.3, 1] }}
               className="mt-7 max-w-lg text-lg leading-relaxed text-ink/65 text-pretty"
             >
-              Kudozz is an influencer marketing agency for brands in India, with campaigns in the UAE, Saudi Arabia,
-              the UK, Australia and Singapore. We plan creator campaigns, find and vet creators whose audiences match
-              your customers, run outreach, content and approvals, and report results against the KPI you set at the
-              start.
+              Kudozz brings social media management, influencer marketing and creator-led content together to help
+              brands connect with the right audiences. We run your brand&apos;s own accounts, find and vet creators whose
+              audiences match your customers, and report against the goals you set at the start. Influencer campaigns
+              run in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.
             </motion.p>
 
             <motion.div
@@ -69,7 +66,7 @@ export function Hero() {
               className="mt-10 flex flex-wrap items-center gap-4"
             >
               <Button href={homeInquiryHref("hero")} size="lg" magnetic>
-                Plan Your Campaign
+                Let&apos;s Discuss Your Brand
               </Button>
               <Button href="/services" variant="secondary" size="lg">
                 Explore Our Services

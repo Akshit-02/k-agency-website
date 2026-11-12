@@ -56,10 +56,14 @@ export function organizationSchema() {
       "LinkedIn Influencer Marketing",
       "B2B Influencer Marketing",
       "Micro and Nano Influencer Marketing",
+      "Social Media Management",
+      "Social Media Strategy",
+      "Social Media Content Creation",
+      "Community Management",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Influencer marketing services",
+      name: "Social media management, influencer marketing and UGC services",
       itemListElement: services.map((service) => ({
         "@type": "Offer",
         itemOffered: {

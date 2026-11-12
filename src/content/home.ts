@@ -11,7 +11,7 @@ export function homeInquiryHref(position: string) {
 
 /** Hero facts: things Kudozz can state about how it works, not unverified volume numbers. */
 export const heroFacts = [
-  { value: "8", label: "Core services" },
+  { value: "3", label: "Connected service areas" },
   { value: "1 KPI", label: "Agreed before launch" },
   { value: "Pan-India", label: "Creator sourcing" },
   { value: "Nano–Macro", label: "Creator tiers" },
@@ -83,7 +83,65 @@ export const markets: { name: string; note: string; href: string }[] = [
   { name: "Uttar Pradesh", note: "Lucknow, Noida, Kanpur", href: "/blog/best-influencer-marketing-agencies-in-uttar-pradesh" },
 ];
 
+/** The homepage's service-discovery cards. Links point at existing URLs only. */
+export const serviceAreas: {
+  name: string;
+  body: string;
+  points: string[];
+  href: string;
+  cta: string;
+  theme: "coral" | "violet" | "lime";
+}[] = [
+  {
+    name: "Social Media Management",
+    body: "We plan, create and publish content for your brand's own accounts, look after the community and report what to change next month.",
+    points: ["Strategy and content calendars", "Posts, carousels and Reels", "Publishing and community management", "Monthly reporting"],
+    href: "/services/social-media-management",
+    cta: "Explore Social Media Management",
+    theme: "coral",
+  },
+  {
+    name: "Influencer Marketing",
+    body: "Creator campaigns planned around one agreed KPI, with creators vetted for audience fit and managed end to end.",
+    points: ["Campaign strategy", "Paid, barter and affiliate campaigns", "Product launches", "Instagram, YouTube and LinkedIn"],
+    href: "/services#influencer-marketing",
+    cta: "See Influencer Marketing",
+    theme: "violet",
+  },
+  {
+    name: "UGC and Content Creation",
+    body: "Creator-made videos and assets your brand owns, for ads, product pages, marketplaces and your own feed.",
+    points: ["UGC videos and hooks", "Product demonstrations", "Creator-led content", "Rights agreed for repurposing"],
+    href: "/services/ugc-content-production",
+    cta: "See UGC Production",
+    theme: "lime",
+  },
+];
+
+export const supportingServices: { name: string; body: string; href: string }[] = [
+  {
+    name: "Creator Discovery",
+    body: "Shortlists screened for audience fit and authenticity, with a written reason for every creator.",
+    href: "/services/creator-discovery",
+  },
+  {
+    name: "Campaign Management",
+    body: "Outreach, contracts, briefs, approvals and publishing dates handled through one point of contact.",
+    href: "/services/outreach-management",
+  },
+];
+
 export const homeFaqs = [
+  {
+    question: "Does Kudozz manage brand social media accounts?",
+    answer:
+      "Yes. Alongside influencer marketing, Kudozz manages brand social media: strategy, monthly content calendars, posts and Reels, captions, publishing, community management within an agreed scope and monthly reporting. Paid advertising, shoots and customer support are scoped separately.",
+  },
+  {
+    question: "Can Kudozz run our social media and influencer campaigns together?",
+    answer:
+      "Yes. One team can plan your own content and your creator campaigns on the same calendar, so launches line up and creator or UGC content can be reused on your channels where usage rights allow. You can also hire Kudozz for just one of them.",
+  },
   {
     question: "What does an influencer marketing agency do?",
     answer:

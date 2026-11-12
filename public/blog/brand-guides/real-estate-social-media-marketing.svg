@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A property buyer-journey content matrix</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75" letter-spacing="1">WHAT TO POST AT EACH STAGE OF THE BUYER JOURNEY</text>
+<rect x="330" y="130" width="282" height="64" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="471" y="172" font-size="25" font-weight="700" text-anchor="middle" fill="#FAF1E2">Awareness</text>
+<rect x="636" y="130" width="282" height="64" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="777" y="172" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Research</text>
+<rect x="942" y="130" width="282" height="64" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1083" y="172" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Site visit</text>
+<rect x="1248" y="130" width="282" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1389" y="172" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Decision</text>
+<rect x="70" y="220" width="230" height="140" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="185" y="298" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">BUYER ASKS</text>
+<rect x="330" y="220" width="282" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="350" y="280" font-size="20" fill="#150F0B">Is this area</text>
+<text x="350" y="312" font-size="20" fill="#150F0B">worth a look?</text>
+<rect x="636" y="220" width="282" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="656" y="280" font-size="20" fill="#150F0B">Can we afford it?</text>
+<text x="656" y="312" font-size="20" fill="#150F0B">How does it compare?</text>
+<rect x="942" y="220" width="282" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="962" y="280" font-size="20" fill="#150F0B">Is it worth</text>
+<text x="962" y="312" font-size="20" fill="#150F0B">a Saturday?</text>
+<rect x="1248" y="220" width="282" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1268" y="280" font-size="20" fill="#150F0B">What happens</text>
+<text x="1268" y="312" font-size="20" fill="#150F0B">next?</text>
+<rect x="70" y="390" width="230" height="140" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="185" y="468" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">WE POST</text>
+<rect x="330" y="390" width="282" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="350" y="450" font-size="20" fill="#150F0B">Area stories,</text>
+<text x="350" y="482" font-size="20" fill="#150F0B">project reveal</text>
+<rect x="636" y="390" width="282" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="656" y="450" font-size="20" fill="#150F0B">Buying basics,</text>
+<text x="656" y="482" font-size="20" fill="#150F0B">layouts, FAQs</text>
+<rect x="942" y="390" width="282" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="962" y="450" font-size="20" fill="#150F0B">Walkthroughs,</text>
+<text x="962" y="482" font-size="20" fill="#150F0B">dated progress</text>
+<rect x="1248" y="390" width="282" height="140" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1268" y="450" font-size="20" fill="#150F0B">Booking process,</text>
+<text x="1268" y="482" font-size="20" fill="#150F0B">objection answers</text>
+<rect x="70" y="590" width="1460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="629" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">Track every enquiry: UTM links plus a CRM source and quality tag.</text>
+</svg>

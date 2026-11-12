@@ -10,6 +10,8 @@ const pairs = [
   { problem: "Managing a dozen creators across a dozen inboxes", solution: "One point of contact handling outreach, contracts, and approvals" },
   { problem: "No clear way to measure campaign ROI", solution: "Unified reporting tied to the goal we agreed on at kickoff" },
   { problem: "Coordinating deliverables, usage rights, and deadlines", solution: "A managed production calendar with built-in approval checkpoints" },
+  { problem: "Brand accounts that go quiet between campaigns", solution: "Social media management with a monthly calendar, publishing and reporting" },
+  { problem: "Creator content that disappears after one post", solution: "Usage rights agreed upfront so UGC can run on your own channels" },
   { problem: "Scaling from one campaign to an always-on program", solution: "Ambassador program design built for long-term, repeatable results" },
 ];
 
@@ -19,8 +21,8 @@ export function ProblemsSolved() {
       <Container>
         <SectionHeading
           eyebrow="Problems We Solve"
-          title="The influencer marketing problems that quietly kill ROI."
-          description="Most campaigns don't fail because influencer marketing doesn't work. They fail because of the operational gaps around it."
+          title="The social and creator problems that quietly kill ROI."
+          description="Most campaigns don't fail because influencer marketing or social media doesn't work. They fail because of the operational gaps around them."
           dark
         />
 

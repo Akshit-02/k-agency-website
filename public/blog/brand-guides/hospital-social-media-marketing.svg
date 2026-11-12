@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Hospital social media governance flow</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">HOSPITAL CONTENT: WHO APPROVES WHAT</text>
+<rect x="82" y="192" width="316" height="230" fill="#150F0B"/>
+<rect x="70" y="180" width="316" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="228" font-size="24" font-weight="700" fill="#FAF1E2">1. Request</text>
+<text x="92" y="270" font-size="19" fill="#FAF1E2" opacity=".9">Department asks</text>
+<text x="92" y="300" font-size="19" fill="#FAF1E2" opacity=".9">for a post</text>
+<rect x="458" y="192" width="316" height="230" fill="#150F0B"/>
+<rect x="446" y="180" width="316" height="230" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="468" y="228" font-size="24" font-weight="700" fill="#150F0B">2. Draft</text>
+<text x="468" y="270" font-size="19" fill="#150F0B" opacity=".9">Comms writes it</text>
+<text x="468" y="300" font-size="19" fill="#150F0B" opacity=".9">to the matrix</text>
+<rect x="834" y="192" width="316" height="230" fill="#150F0B"/>
+<rect x="822" y="180" width="316" height="230" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="844" y="228" font-size="24" font-weight="700" fill="#150F0B">3. Medical review</text>
+<text x="844" y="270" font-size="19" fill="#150F0B" opacity=".9">Clinician checks</text>
+<text x="844" y="300" font-size="19" fill="#150F0B" opacity=".9">each health fact</text>
+<rect x="1210" y="192" width="316" height="230" fill="#150F0B"/>
+<rect x="1198" y="180" width="316" height="230" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1220" y="228" font-size="24" font-weight="700" fill="#150F0B">4. Legal, privacy</text>
+<text x="1220" y="270" font-size="19" fill="#150F0B" opacity=".9">Claims, awards,</text>
+<text x="1220" y="300" font-size="19" fill="#150F0B" opacity=".9">charges, consent</text>
+<path d="M402 295 L440 295" stroke="#150F0B" stroke-width="4"/><path d="M428 285 L442 295 L428 305" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M778 295 L816 295" stroke="#150F0B" stroke-width="4"/><path d="M804 285 L818 295 L804 305" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1154 295 L1192 295" stroke="#150F0B" stroke-width="4"/><path d="M1180 285 L1194 295 L1180 305" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Incidents skip the queue: medical director, legal and CEO first.</text>
+</svg>

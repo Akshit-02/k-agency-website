@@ -8,8 +8,11 @@ import { JsonLd, breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema
 import { ServiceDetail } from "@/components/services/ServiceDetail";
 import { FinalCTA } from "@/components/home/FinalCTA";
 
+// Social media management has its own route (src/app/services/social-media-management) with a custom layout.
+const CUSTOM_ROUTE_SLUGS = new Set(["social-media-management"]);
+
 export function generateStaticParams() {
-  return services.map((service) => ({ slug: service.slug }));
+  return services.filter((service) => !CUSTOM_ROUTE_SLUGS.has(service.slug)).map((service) => ({ slug: service.slug }));
 }
 
 export async function generateMetadata(props: PageProps<"/services/[slug]">): Promise<Metadata> {
@@ -27,7 +30,7 @@ export async function generateMetadata(props: PageProps<"/services/[slug]">): Pr
 export default async function ServiceDetailPage(props: PageProps<"/services/[slug]">) {
   const { slug } = await props.params;
   const service = getServiceBySlug(slug);
-  if (!service) notFound();
+  if (!service || CUSTOM_ROUTE_SLUGS.has(service.slug)) notFound();
 
   const related = getRelatedServices(service);
   const guides = service.guides.flatMap((guideSlug) => {

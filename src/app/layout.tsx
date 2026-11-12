@@ -31,7 +31,7 @@ const archivoBlack = Archivo_Black({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — Influencer Marketing Agency`,
+    default: `${siteConfig.name} — Influencer Marketing & Social Media Agency`,
     template: `%s — ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -52,13 +52,13 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} — Influencer Marketing Agency`,
+    title: `${siteConfig.name} — Influencer Marketing & Social Media Agency`,
     description: siteConfig.description,
     images: [{ url: siteConfig.ogImage, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} — Influencer Marketing Agency`,
+    title: `${siteConfig.name} — Influencer Marketing & Social Media Agency`,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
   },

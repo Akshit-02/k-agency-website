@@ -45,6 +45,21 @@ import { programmeGrowthPosts } from "@/content/brand-guides/programme-growth";
 import { d2cGrowthPosts } from "@/content/brand-guides/d2c-growth";
 import { creatorCommercePosts } from "@/content/brand-guides/creator-commerce";
 import { commerceIntelligencePosts } from "@/content/brand-guides/commerce-intelligence";
+import { smmHiringPosts } from "@/content/brand-guides/smm-hiring";
+import { smmOperationsPosts } from "@/content/brand-guides/smm-operations";
+import { smmConsistencyPosts } from "@/content/brand-guides/smm-consistency";
+import { smmListeningPosts } from "@/content/brand-guides/smm-listening";
+import { smmPerformancePosts } from "@/content/brand-guides/smm-performance";
+import { smmInstagramPosts } from "@/content/brand-guides/smm-instagram";
+import { smmPlanningPosts } from "@/content/brand-guides/smm-planning";
+import { smmPlatformPosts } from "@/content/brand-guides/smm-platforms";
+import { smmCreativePosts } from "@/content/brand-guides/smm-creative";
+import { smmIndustryPosts } from "@/content/brand-guides/smm-industries";
+import { smmB2bPosts } from "@/content/brand-guides/smm-b2b";
+import { smmPropertyPosts } from "@/content/brand-guides/smm-property";
+import { smmDesignLifestylePosts } from "@/content/brand-guides/smm-design-lifestyle";
+import { smmSectorPosts } from "@/content/brand-guides/smm-sectors";
+import { smmHealthEducationPosts } from "@/content/brand-guides/smm-health-education";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -126,4 +141,23 @@ export const brandGuidePosts: BlogPost[] = [
   ...creatorCommercePosts,
   // Batch 29 (2026-11-10): three AI-shopping and commerce-intelligence gaps; seven existing pages refreshed. See reports/d2c-batch-29/.
   ...commerceIntelligencePosts,
+  // Social media management batch 01 (2026-11-11): 20 brand-side guides supporting /services/social-media-management.
+  // See reports/social-media-management-batch-01/.
+  ...smmHiringPosts,
+  ...smmOperationsPosts,
+  ...smmConsistencyPosts,
+  ...smmListeningPosts,
+  ...smmPerformancePosts,
+  // Social media management batch 02 (2026-11-12): platform, content and industry guides. See reports/social-media-management-batch-02/.
+  ...smmInstagramPosts,
+  ...smmPlanningPosts,
+  ...smmPlatformPosts,
+  ...smmCreativePosts,
+  ...smmIndustryPosts,
+  // Social media management batch 03 (2026-11-12): industry guides. See reports/social-media-management-batch-03/.
+  ...smmB2bPosts,
+  ...smmPropertyPosts,
+  ...smmDesignLifestylePosts,
+  ...smmSectorPosts,
+  ...smmHealthEducationPosts,
 ];

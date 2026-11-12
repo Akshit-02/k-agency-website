@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">School and university social media governance</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">SCHOOLS AND UNIVERSITIES: SAME PROCESS, DIFFERENT RISKS</text>
+<rect x="82" y="182" width="436" height="260" fill="#150F0B"/>
+<rect x="70" y="170" width="436" height="260" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="218" font-size="24" font-weight="700" fill="#FAF1E2">Schools</text>
+<text x="92" y="260" font-size="19" fill="#FAF1E2" opacity=".9">Audience: parents</text>
+<text x="92" y="290" font-size="19" fill="#FAF1E2" opacity=".9">Students under 18</text>
+<text x="92" y="320" font-size="19" fill="#FAF1E2" opacity=".9">Parent consent</text>
+<text x="92" y="350" font-size="19" fill="#FAF1E2" opacity=".9">Safeguarding lead</text>
+<rect x="588" y="182" width="436" height="260" fill="#150F0B"/>
+<rect x="576" y="170" width="436" height="260" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="598" y="218" font-size="24" font-weight="700" fill="#150F0B">Both</text>
+<text x="598" y="260" font-size="19" fill="#150F0B" opacity=".9">Consent register</text>
+<text x="598" y="290" font-size="19" fill="#150F0B" opacity=".9">No tagging students</text>
+<text x="598" y="320" font-size="19" fill="#150F0B" opacity=".9">Honest admissions</text>
+<text x="598" y="350" font-size="19" fill="#150F0B" opacity=".9">Named approvers</text>
+<rect x="1094" y="182" width="436" height="260" fill="#150F0B"/>
+<rect x="1082" y="170" width="436" height="260" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="1104" y="218" font-size="24" font-weight="700" fill="#150F0B">Universities</text>
+<text x="1104" y="260" font-size="19" fill="#150F0B" opacity=".9">Audience: students</text>
+<text x="1104" y="290" font-size="19" fill="#150F0B" opacity=".9">Mostly adults</text>
+<text x="1104" y="320" font-size="19" fill="#150F0B" opacity=".9">Student consent</text>
+<text x="1104" y="350" font-size="19" fill="#150F0B" opacity=".9">Admissions + legal</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Check consent before every post, not after a complaint.</text>
+</svg>

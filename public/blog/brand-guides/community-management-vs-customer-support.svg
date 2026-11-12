@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Community management vs customer support: who handles which comment or DM</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">ONE INBOX, TWO JOBS</text>
+<rect x="82" y="242" width="342" height="220" fill="#150F0B"/>
+<rect x="70" y="230" width="342" height="220" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="278" font-size="24" font-weight="700" fill="#150F0B">Comments and DMs</text>
+<text x="92" y="320" font-size="19" fill="#150F0B" opacity=".85">Questions, praise,</text>
+<text x="92" y="350" font-size="19" fill="#150F0B" opacity=".85">orders, complaints,</text>
+<text x="92" y="380" font-size="19" fill="#150F0B" opacity=".85">threats, spam</text>
+<path d="M412 300 L560 200" stroke="#150F0B" stroke-width="4" fill="none"/>
+<path d="M412 380 L560 480" stroke="#150F0B" stroke-width="4" fill="none"/>
+<rect x="572" y="132" width="440" height="170" fill="#150F0B"/>
+<rect x="560" y="120" width="440" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="582" y="166" font-size="24" font-weight="700" fill="#FAF1E2">Community team</text>
+<text x="582" y="208" font-size="19" fill="#FAF1E2" opacity=".9">Product questions,</text>
+<text x="582" y="238" font-size="19" fill="#FAF1E2" opacity=".9">praise, moderation</text>
+<rect x="572" y="412" width="440" height="170" fill="#150F0B"/>
+<rect x="560" y="400" width="440" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="582" y="446" font-size="24" font-weight="700" fill="#150F0B">Support team</text>
+<text x="582" y="488" font-size="19" fill="#150F0B" opacity=".9">Orders, refunds,</text>
+<text x="582" y="518" font-size="19" fill="#150F0B" opacity=".9">damaged products</text>
+<path d="M1000 485 L1140 485" stroke="#150F0B" stroke-width="4" fill="none"/>
+<path d="M1000 205 L1140 330" stroke="#150F0B" stroke-width="4" fill="none" stroke-dasharray="10 8"/>
+<rect x="1152" y="262" width="378" height="240" fill="#150F0B"/>
+<rect x="1140" y="250" width="378" height="240" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1162" y="296" font-size="24" font-weight="700" fill="#150F0B">Escalate now</text>
+<text x="1162" y="338" font-size="19" fill="#150F0B" opacity=".85">Safety, legal threats,</text>
+<text x="1162" y="368" font-size="19" fill="#150F0B" opacity=".85">media, regulators:</text>
+<text x="1162" y="398" font-size="19" fill="#150F0B" opacity=".85">brand lead decides</text>
+<rect x="70" y="610" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="651" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Acknowledge in public. Resolve with the team that has the authority.</text>
+</svg>

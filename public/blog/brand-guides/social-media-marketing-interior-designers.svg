@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Interior design project-to-content pipeline</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">INTERIOR STUDIO: ONE PROJECT, FIVE STAGES OF CONTENT</text>
+<rect x="82" y="212" width="250" height="230" fill="#150F0B"/>
+<rect x="70" y="200" width="250" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="246" font-size="24" font-weight="700" fill="#FAF1E2">Brief</text>
+<text x="90" y="288" font-size="18" fill="#FAF1E2" opacity=".85">Moodboard and</text>
+<text x="90" y="318" font-size="18" fill="#FAF1E2" opacity=".85">the client problem</text>
+<line x1="336" y1="315" x2="354" y2="315" stroke="#150F0B" stroke-width="4"/>
+<polygon points="366,315 352,306 352,324" fill="#150F0B"/>
+<rect x="382" y="212" width="250" height="230" fill="#150F0B"/>
+<rect x="370" y="200" width="250" height="230" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="390" y="246" font-size="24" font-weight="700" fill="#150F0B">Site</text>
+<text x="390" y="288" font-size="18" fill="#150F0B" opacity=".85">Fixed-corner</text>
+<text x="390" y="318" font-size="18" fill="#150F0B" opacity=".85">before shots</text>
+<line x1="636" y1="315" x2="654" y2="315" stroke="#150F0B" stroke-width="4"/>
+<polygon points="666,315 652,306 652,324" fill="#150F0B"/>
+<rect x="682" y="212" width="250" height="230" fill="#150F0B"/>
+<rect x="670" y="200" width="250" height="230" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="690" y="246" font-size="24" font-weight="700" fill="#150F0B">Build</text>
+<text x="690" y="288" font-size="18" fill="#150F0B" opacity=".85">Materials, joinery,</text>
+<text x="690" y="318" font-size="18" fill="#150F0B" opacity=".85">lighting tests</text>
+<line x1="936" y1="315" x2="954" y2="315" stroke="#150F0B" stroke-width="4"/>
+<polygon points="966,315 952,306 952,324" fill="#150F0B"/>
+<rect x="982" y="212" width="250" height="230" fill="#150F0B"/>
+<rect x="970" y="200" width="250" height="230" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="990" y="246" font-size="24" font-weight="700" fill="#150F0B">Reveal</text>
+<text x="990" y="288" font-size="18" fill="#150F0B" opacity=".85">Walkthrough Reel,</text>
+<text x="990" y="318" font-size="18" fill="#150F0B" opacity=".85">room-by-room posts</text>
+<line x1="1236" y1="315" x2="1254" y2="315" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1266,315 1252,306 1252,324" fill="#150F0B"/>
+<rect x="1282" y="212" width="250" height="230" fill="#150F0B"/>
+<rect x="1270" y="200" width="250" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1290" y="246" font-size="24" font-weight="700" fill="#FAF1E2">Archive</text>
+<text x="1290" y="288" font-size="18" fill="#FAF1E2" opacity=".85">Pins, FAQs and</text>
+<text x="1290" y="318" font-size="18" fill="#FAF1E2" opacity=".85">lessons learned</text>
+<rect x="70" y="500" width="1460" height="64" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="541" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Client consent and photo rights checked before posting</text>
+<text x="70" y="630" font-size="20" fill="#150F0B" opacity=".75">No addresses, family photos or valuables. Before and after from the same angle and light.</text>
+</svg>

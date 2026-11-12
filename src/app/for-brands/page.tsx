@@ -12,9 +12,9 @@ import { BrandMarketsIndustries } from "@/components/brands/BrandMarketsIndustri
 import { FAQSection } from "@/components/ui/FAQSection";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Influencer Marketing Services for Brands: Strategy to Reporting",
+  title: "Influencer Marketing & Social Media Services for Brands",
   description:
-    "Partner with Kudozz, an influencer marketing agency for brands offering campaign strategy, creator discovery, outreach, and transparent reporting end to end.",
+    "Work with Kudozz on influencer campaigns, brand social media management and UGC: strategy, creator discovery, content, publishing and transparent reporting.",
   path: "/for-brands",
 });
 
@@ -22,12 +22,17 @@ const brandFaqs = [
   {
     question: "What's the minimum budget to work with Kudozz?",
     answer:
-      "There's no fixed minimum. We scope the budget to your objective, markets and creator mix on the first call, and show creator fees and agency fees separately. Single campaigns are quoted per project; ambassador programs are usually structured as ongoing retainers.",
+      "There's no fixed minimum. We scope the budget to your objective, markets and creator mix on the first call, and show creator fees and agency fees separately. Single campaigns are quoted per project; ambassador programs and social media management are ongoing work, so they're usually scoped month by month.",
   },
   {
     question: "Do you only work with large brands?",
     answer:
       "No. We work with brands across company sizes, from funded DTC startups to established consumer brands, as long as there's a clear objective and budget to run a real campaign rather than a single gifted post.",
+  },
+  {
+    question: "Can Kudozz manage our social media as well as influencer campaigns?",
+    answer:
+      "Yes. Kudozz manages brand social media, covering strategy, content calendars, posts and Reels, publishing, community management within an agreed scope and monthly reporting, and can plan it alongside your creator campaigns. Paid advertising, shoots and customer support are scoped separately.",
   },
   {
     question: "Can Kudozz manage creators we've already found ourselves?",
@@ -71,7 +76,7 @@ export default function ForBrandsPage() {
       <FAQSection
         faqs={brandFaqs}
         eyebrow="Before You Reach Out"
-        title="What brands ask us before starting a campaign."
+        title="What brands ask us before we start working together."
         dark
       />
       <InquirySection />

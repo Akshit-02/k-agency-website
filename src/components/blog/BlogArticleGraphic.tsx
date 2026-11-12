@@ -9,12 +9,14 @@ const categoryStyles: Record<BlogCategory, { bg: string; fg: string; mark: strin
   "Instagram Marketing": { bg: "bg-ink", fg: "text-paper", mark: "text-coral" },
   "Campaign Strategy": { bg: "bg-coral", fg: "text-ink", mark: "text-paper" },
   "UGC Marketing": { bg: "bg-violet", fg: "text-paper", mark: "text-coral" },
+  "Social Media Management": { bg: "bg-coral", fg: "text-ink", mark: "text-violet" },
   "Creator Resources": { bg: "bg-lime", fg: "text-ink", mark: "text-violet" },
 };
 
 /** Labels whose initials would read badly if derived word by word. */
 const FIXED_INITIALS: Record<string, string> = {
   "UGC Marketing": "UGC",
+  "Social Media Management": "SMM",
   "AI for Creators": "AI",
   "Instagram for Creators": "IG",
   "YouTube for Creators": "YT",

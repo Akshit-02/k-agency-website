@@ -4,7 +4,7 @@ export const siteConfig = {
   legalName: "Kudozz Studios Private Limited",
   tagline: "Influence, Engineered.",
   description:
-    "Kudozz is an influencer marketing agency in India that connects brands with the right creators, and plans, runs and measures campaigns for awareness, engagement and sales in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.",
+    "Kudozz is an influencer marketing and social media management agency in India. We connect brands with the right creators, manage brand social media and create UGC, and run influencer campaigns in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.",
   url: "https://www.kudozz.in",
   ogImage: "/opengraph-image",
   locale: "en_IN",
@@ -28,6 +28,8 @@ export const siteConfig = {
   keywords: [
     "influencer marketing agency",
     "influencer marketing services",
+    "social media management services",
+    "social media management agency",
     "influencer marketing for brands",
     "creator marketing agency",
     "UGC marketing agency",
@@ -50,8 +52,20 @@ export const siteConfig = {
     { label: "For Creators", href: "/for-creators" },
     { label: "Services", href: "/services" },
     { label: "Blog", href: "/blog" },
+    { label: "Contact", href: "/contact" },
   ],
-  navCta: { label: "Start a Campaign", href: "/for-brands#inquiry" },
+  /** Services dropdown (desktop) and sub-list (mobile menu). Every link is an existing service URL. */
+  servicesMenu: [
+    { label: "Social Media Management", href: "/services/social-media-management" },
+    { label: "Influencer Marketing", href: "/services#influencer-marketing" },
+    { label: "Campaign Strategy", href: "/services/campaign-strategy" },
+    { label: "Creator Discovery", href: "/services/creator-discovery" },
+    { label: "Outreach Management", href: "/services/outreach-management" },
+    { label: "Social Campaigns", href: "/services/social-campaigns" },
+    { label: "Product Launches", href: "/services/product-launches" },
+    { label: "UGC & Content Creation", href: "/services/ugc-content-production" },
+  ],
+  navCta: { label: "Talk to Our Team", href: "/for-brands#inquiry" },
   footerNav: {
     company: [
       { label: "About", href: "/about" },
@@ -61,10 +75,12 @@ export const siteConfig = {
     ],
     forBrands: [
       { label: "Why Kudozz", href: "/for-brands" },
-      { label: "Services", href: "/services" },
+      { label: "Social Media Management", href: "/services/social-media-management" },
+      { label: "Influencer Marketing", href: "/services#influencer-marketing" },
+      { label: "UGC & Content", href: "/services/ugc-content-production" },
       { label: "Markets We Serve", href: "/markets" },
       { label: "Free Tools", href: "/tools" },
-      { label: "Start a Campaign", href: "/for-brands#inquiry" },
+      { label: "Talk to Our Team", href: "/for-brands#inquiry" },
     ],
     forCreators: [
       { label: "Join the Network", href: "/for-creators" },

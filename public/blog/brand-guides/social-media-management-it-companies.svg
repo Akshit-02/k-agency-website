@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Translating a technical feature into a simple social hook</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">FROM TECHNICAL FEATURE TO SIMPLE HOOK (HYPOTHETICAL)</text>
+<rect x="82" y="212" width="300" height="200" fill="#150F0B"/>
+<rect x="70" y="200" width="300" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="248" font-size="24" font-weight="700" fill="#FAF1E2">Feature</text>
+<text x="92" y="292" font-size="19" fill="#FAF1E2" opacity=".9">Patch automation</text>
+<rect x="472" y="212" width="300" height="200" fill="#150F0B"/>
+<rect x="460" y="200" width="300" height="200" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="482" y="248" font-size="24" font-weight="700" fill="#150F0B">Who notices</text>
+<text x="482" y="292" font-size="19" fill="#150F0B" opacity=".9">IT manager at a</text>
+<text x="482" y="322" font-size="19" fill="#150F0B" opacity=".9">200-person company</text>
+<rect x="862" y="212" width="300" height="200" fill="#150F0B"/>
+<rect x="850" y="200" width="300" height="200" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="872" y="248" font-size="24" font-weight="700" fill="#150F0B">Simple hook</text>
+<text x="872" y="292" font-size="19" fill="#150F0B" opacity=".9">The laptops nobody</text>
+<text x="872" y="322" font-size="19" fill="#150F0B" opacity=".9">updated last month</text>
+<rect x="1252" y="212" width="300" height="200" fill="#150F0B"/>
+<rect x="1240" y="200" width="300" height="200" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1262" y="248" font-size="24" font-weight="700" fill="#150F0B">Format</text>
+<text x="1262" y="292" font-size="19" fill="#150F0B" opacity=".9">45-second explainer</text>
+<text x="1262" y="322" font-size="19" fill="#150F0B" opacity=".9">on LinkedIn</text>
+<path d="M390 300 H452 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M780 300 H842 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1170 300 H1232 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="500" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="541" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Honest hooks only: no guarantees, no client data on screen</text>
+</svg>

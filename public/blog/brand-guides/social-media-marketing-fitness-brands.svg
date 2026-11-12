@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Fitness brand content model with guardrails</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">FITNESS BRANDS: FOUR CONTENT JOBS, ONE SET OF GUARDRAILS</text>
+<rect x="82" y="152" width="400" height="170" fill="#150F0B"/>
+<rect x="70" y="140" width="400" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="186" font-size="24" font-weight="700" fill="#FAF1E2">Educate</text>
+<text x="90" y="228" font-size="19" fill="#FAF1E2" opacity=".85">Form tips, first</text>
+<text x="90" y="258" font-size="19" fill="#FAF1E2" opacity=".85">class, recovery</text>
+<rect x="532" y="152" width="400" height="170" fill="#150F0B"/>
+<rect x="520" y="140" width="400" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="540" y="186" font-size="24" font-weight="700" fill="#150F0B">Show the trainers</text>
+<text x="540" y="228" font-size="19" fill="#150F0B" opacity=".85">Accurate credentials,</text>
+<text x="540" y="258" font-size="19" fill="#150F0B" opacity=".85">how they coach</text>
+<rect x="82" y="362" width="400" height="170" fill="#150F0B"/>
+<rect x="70" y="350" width="400" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="396" font-size="24" font-weight="700" fill="#150F0B">Celebrate members</text>
+<text x="90" y="438" font-size="19" fill="#150F0B" opacity=".85">Milestones shared</text>
+<text x="90" y="468" font-size="19" fill="#150F0B" opacity=".85">with consent</text>
+<rect x="532" y="362" width="400" height="170" fill="#150F0B"/>
+<rect x="520" y="350" width="400" height="170" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="540" y="396" font-size="24" font-weight="700" fill="#150F0B">Gather community</text>
+<text x="540" y="438" font-size="19" fill="#150F0B" opacity=".85">Events, run clubs,</text>
+<text x="540" y="468" font-size="19" fill="#150F0B" opacity=".85">safe challenges</text>
+<rect x="1022" y="152" width="520" height="380" fill="#150F0B"/>
+<rect x="1010" y="140" width="520" height="380" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1034" y="190" font-size="26" font-weight="700" fill="#150F0B">Guardrails</text>
+<text x="1034" y="240" font-size="21" fill="#150F0B">No promised results</text>
+<text x="1034" y="284" font-size="21" fill="#150F0B">Respectful body image</text>
+<text x="1034" y="328" font-size="21" fill="#150F0B">Written consent</text>
+<text x="1034" y="372" font-size="21" fill="#150F0B">Medical questions go</text>
+<text x="1034" y="416" font-size="21" fill="#150F0B">to a professional</text>
+<text x="1034" y="460" font-size="21" fill="#150F0B">Safety in challenges</text>
+<line x1="930" y1="330" x2="988" y2="330" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1000,330 986,321 986,339" fill="#150F0B"/>
+<rect x="70" y="590" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="631" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Teach, welcome and celebrate. Never promise a transformation.</text>
+</svg>

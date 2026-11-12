@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Manufacturing content planning matrix by audience</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">CONTENT PLANNING MATRIX FOR MANUFACTURERS</text>
+<rect x="82" y="172" width="320" height="330" fill="#150F0B"/>
+<rect x="70" y="160" width="320" height="330" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="208" font-size="24" font-weight="700" fill="#FAF1E2">Buyers</text>
+<text x="92" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#FAF1E2" opacity=".7">WHAT TO POST</text>
+<text x="92" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Process explainers</text>
+<text x="92" y="310" font-size="19" fill="#FAF1E2" opacity=".9">Quality checks</text>
+<text x="92" y="340" font-size="19" fill="#FAF1E2" opacity=".9">Certificates held</text>
+<text x="92" y="384" font-size="16" font-weight="700" letter-spacing="1" fill="#FAF1E2" opacity=".7">WHERE</text>
+<text x="92" y="412" font-size="19" fill="#FAF1E2" opacity=".9">LinkedIn, YouTube</text>
+<rect x="462" y="172" width="320" height="330" fill="#150F0B"/>
+<rect x="450" y="160" width="320" height="330" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="472" y="208" font-size="24" font-weight="700" fill="#150F0B">Dealers</text>
+<text x="472" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHAT TO POST</text>
+<text x="472" y="280" font-size="19" fill="#150F0B" opacity=".9">Product updates</text>
+<text x="472" y="310" font-size="19" fill="#150F0B" opacity=".9">Installation tips</text>
+<text x="472" y="340" font-size="19" fill="#150F0B" opacity=".9">Training clips</text>
+<text x="472" y="384" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHERE</text>
+<text x="472" y="412" font-size="19" fill="#150F0B" opacity=".9">LinkedIn, Facebook</text>
+<rect x="842" y="172" width="320" height="330" fill="#150F0B"/>
+<rect x="830" y="160" width="320" height="330" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="852" y="208" font-size="24" font-weight="700" fill="#150F0B">Skilled talent</text>
+<text x="852" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHAT TO POST</text>
+<text x="852" y="280" font-size="19" fill="#150F0B" opacity=".9">Apprenticeships</text>
+<text x="852" y="310" font-size="19" fill="#150F0B" opacity=".9">Safety practices</text>
+<text x="852" y="340" font-size="19" fill="#150F0B" opacity=".9">Career paths</text>
+<text x="852" y="384" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHERE</text>
+<text x="852" y="412" font-size="19" fill="#150F0B" opacity=".9">LinkedIn, Instagram</text>
+<rect x="1222" y="172" width="320" height="330" fill="#150F0B"/>
+<rect x="1210" y="160" width="320" height="330" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1232" y="208" font-size="24" font-weight="700" fill="#150F0B">Community</text>
+<text x="1232" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHAT TO POST</text>
+<text x="1232" y="280" font-size="19" fill="#150F0B" opacity=".9">Local hiring drives</text>
+<text x="1232" y="310" font-size="19" fill="#150F0B" opacity=".9">Plant visit days</text>
+<text x="1232" y="340" font-size="19" fill="#150F0B" opacity=".9">Verified CSR updates</text>
+<text x="1232" y="384" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHERE</text>
+<text x="1232" y="412" font-size="19" fill="#150F0B" opacity=".9">Facebook, LinkedIn</text>
+<rect x="70" y="570" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="611" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Every shop-floor post: confidentiality and safety sign-off</text>
+</svg>

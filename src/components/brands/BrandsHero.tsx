@@ -35,7 +35,7 @@ export function BrandsHero() {
             >
               {/* The descriptive phrase leads the H1 for search; the slogan stays the visual headline. */}
               <span className="mb-5 block font-sans text-sm font-semibold uppercase tracking-[0.16em] text-ink/70 sm:text-base">
-                Influencer marketing services for brands
+                Influencer marketing and social media services for brands
                 <span className="sr-only">:</span>
               </span>
               Stop chasing attention. Start building <em className="italic text-coral">influence.</em>
@@ -46,9 +46,10 @@ export function BrandsHero() {
               transition={{ duration: 0.7, delay: 0.25 }}
               className="mt-7 max-w-xl text-lg leading-relaxed text-ink/65 text-pretty"
             >
-              We help brands identify and collaborate with the creators who already have your customer&apos;s
-              attention, then run the campaign end to end, from strategy to final report. We work with brands in
-              India, the UAE, Saudi Arabia, the UK, Australia and Singapore.
+              We help brands work with the creators who already have their customer&apos;s attention, manage their own
+              social media, and produce UGC they can use everywhere. Pick one, or let one team plan all three, from
+              strategy to final report. We run influencer campaigns for brands in India, the UAE, Saudi Arabia, the
+              UK, Australia and Singapore.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 18 }}
@@ -57,7 +58,7 @@ export function BrandsHero() {
               className="mt-10"
             >
               <Button href="#inquiry" size="lg" icon={false} magnetic>
-                Start a Brand Inquiry <ArrowDown className="size-4" />
+                Tell Us About Your Brand <ArrowDown className="size-4" />
               </Button>
             </motion.div>
           </div>

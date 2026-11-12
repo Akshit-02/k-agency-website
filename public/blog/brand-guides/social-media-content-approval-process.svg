@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Three-stage social media content approval workflow</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">THE SOCIAL MEDIA APPROVAL PROCESS</text>
+<rect x="82" y="162" width="420" height="220" fill="#150F0B"/>
+<rect x="70" y="150" width="420" height="220" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="198" font-size="24" font-weight="700" fill="#FAF1E2">1. Calendar</text>
+<text x="92" y="240" font-size="19" fill="#FAF1E2" opacity=".85">Topics, dates, formats</text>
+<text x="92" y="270" font-size="19" fill="#FAF1E2" opacity=".85">Flag claims for legal</text>
+<line x1="504" y1="260" x2="566" y2="260" stroke="#150F0B" stroke-width="4"/>
+<polygon points="580,260 564,250 564,270" fill="#150F0B"/>
+<rect x="602" y="162" width="420" height="220" fill="#150F0B"/>
+<rect x="590" y="150" width="420" height="220" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="612" y="198" font-size="24" font-weight="700" fill="#150F0B">2. Creative</text>
+<text x="612" y="240" font-size="19" fill="#150F0B" opacity=".85">Design, video, captions</text>
+<text x="612" y="270" font-size="19" fill="#150F0B" opacity=".85">Up to two rounds</text>
+<line x1="1024" y1="260" x2="1086" y2="260" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1100,260 1084,250 1084,270" fill="#150F0B"/>
+<rect x="1122" y="162" width="420" height="220" fill="#150F0B"/>
+<rect x="1110" y="150" width="420" height="220" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1132" y="198" font-size="24" font-weight="700" fill="#150F0B">3. Pre-publish check</text>
+<text x="1132" y="240" font-size="19" fill="#150F0B" opacity=".85">Dates, links, tags</text>
+<text x="1132" y="270" font-size="19" fill="#150F0B" opacity=".85">Offer still valid</text>
+<rect x="70" y="420" width="1460" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="100" y="468" font-size="24" font-weight="700" fill="#150F0B">Reactive fast lane</text>
+<text x="100" y="505" font-size="19" fill="#150F0B" opacity=".85">One named approver, pre-approved templates, no new claims or offers</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">One accountable approver per stage. Decide topics early.</text>
+</svg>

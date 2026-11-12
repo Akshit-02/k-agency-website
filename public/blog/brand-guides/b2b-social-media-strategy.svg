@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">B2B expertise-to-content system</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">FROM INDUSTRY EXPERTISE TO CONSISTENT CONTENT</text>
+<rect x="82" y="202" width="300" height="210" fill="#150F0B"/>
+<rect x="70" y="190" width="300" height="210" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="238" font-size="24" font-weight="700" fill="#FAF1E2">1. Capture</text>
+<text x="92" y="282" font-size="19" fill="#FAF1E2" opacity=".9">SME interviews</text>
+<text x="92" y="312" font-size="19" fill="#FAF1E2" opacity=".9">Buyer question bank</text>
+<text x="92" y="342" font-size="19" fill="#FAF1E2" opacity=".9">Sales call notes</text>
+<rect x="472" y="202" width="300" height="210" fill="#150F0B"/>
+<rect x="460" y="190" width="300" height="210" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="482" y="238" font-size="24" font-weight="700" fill="#150F0B">2. Shape</text>
+<text x="482" y="282" font-size="19" fill="#150F0B" opacity=".9">Content pillars</text>
+<text x="482" y="312" font-size="19" fill="#150F0B" opacity=".9">Plain language</text>
+<text x="482" y="342" font-size="19" fill="#150F0B" opacity=".9">Post, carousel, video</text>
+<rect x="862" y="202" width="300" height="210" fill="#150F0B"/>
+<rect x="850" y="190" width="300" height="210" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="872" y="238" font-size="24" font-weight="700" fill="#150F0B">3. Check</text>
+<text x="872" y="282" font-size="19" fill="#150F0B" opacity=".9">Expert accuracy</text>
+<text x="872" y="312" font-size="19" fill="#150F0B" opacity=".9">Client approval</text>
+<text x="872" y="342" font-size="19" fill="#150F0B" opacity=".9">Legal if sensitive</text>
+<rect x="1252" y="202" width="300" height="210" fill="#150F0B"/>
+<rect x="1240" y="190" width="300" height="210" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1262" y="238" font-size="24" font-weight="700" fill="#150F0B">4. Publish</text>
+<text x="1262" y="282" font-size="19" fill="#150F0B" opacity=".9">Company page</text>
+<text x="1262" y="312" font-size="19" fill="#150F0B" opacity=".9">Expert profiles</text>
+<text x="1262" y="342" font-size="19" fill="#150F0B" opacity=".9">Reuse in sales kits</text>
+<path d="M390 295 H452 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M780 295 H842 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1170 295 H1232 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1390 422 V472 H220 V422" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M208 436 l12 -14 l12 14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="805" y="530" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">Sales feedback and new questions start the next month</text>
+</svg>

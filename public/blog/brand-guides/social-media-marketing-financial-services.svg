@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Every post passes a compliance gate</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">FINANCIAL SERVICES ON SOCIAL MEDIA</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">Every post passes a compliance gate</text>
+<rect x="82" y="212" width="244" height="220" fill="#150F0B"/>
+<rect x="70" y="200" width="244" height="220" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="244" font-size="24" font-weight="700" fill="#150F0B">1. Idea</text>
+<text x="92" y="282" font-size="19" fill="#150F0B" opacity=".9">Explainer, FAQ</text>
+<text x="92" y="310" font-size="19" fill="#150F0B" opacity=".9">or literacy post</text>
+<path d="M332 310 L368 310" stroke="#150F0B" stroke-width="4"/><path d="M359 302 L368 310 L359 318" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="386" y="212" width="244" height="220" fill="#150F0B"/>
+<rect x="374" y="200" width="244" height="220" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="396" y="244" font-size="24" font-weight="700" fill="#150F0B">2. Regulator</text>
+<text x="396" y="282" font-size="19" fill="#150F0B" opacity=".9">RBI, SEBI or</text>
+<text x="396" y="310" font-size="19" fill="#150F0B" opacity=".9">IRDAI rules?</text>
+<path d="M636 310 L672 310" stroke="#150F0B" stroke-width="4"/><path d="M663 302 L672 310 L663 318" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="690" y="212" width="244" height="220" fill="#150F0B"/>
+<rect x="678" y="200" width="244" height="220" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="700" y="244" font-size="24" font-weight="700" fill="#150F0B">3. Draft</text>
+<text x="700" y="282" font-size="19" fill="#150F0B" opacity=".9">Plain words,</text>
+<text x="700" y="310" font-size="19" fill="#150F0B" opacity=".9">exact disclaimer</text>
+<path d="M940 310 L976 310" stroke="#150F0B" stroke-width="4"/><path d="M967 302 L976 310 L967 318" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="994" y="212" width="244" height="220" fill="#150F0B"/>
+<rect x="982" y="200" width="244" height="220" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1004" y="244" font-size="24" font-weight="700" fill="#FAF1E2">4. Sign-off</text>
+<text x="1004" y="282" font-size="19" fill="#FAF1E2" opacity=".9">Compliance</text>
+<text x="1004" y="310" font-size="19" fill="#FAF1E2" opacity=".9">officer approves</text>
+<path d="M1244 310 L1280 310" stroke="#150F0B" stroke-width="4"/><path d="M1271 302 L1280 310 L1271 318" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1298" y="212" width="244" height="220" fill="#150F0B"/>
+<rect x="1286" y="200" width="244" height="220" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1308" y="244" font-size="24" font-weight="700" fill="#150F0B">5. Publish</text>
+<text x="1308" y="282" font-size="19" fill="#150F0B" opacity=".9">Log version,</text>
+<text x="1308" y="310" font-size="19" fill="#150F0B" opacity=".9">watch comments</text>
+<rect x="82" y="512" width="710" height="120" fill="#150F0B"/>
+<rect x="70" y="500" width="710" height="120" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="544" font-size="24" font-weight="700" fill="#150F0B">Education: on the feed</text>
+<text x="92" y="582" font-size="19" fill="#150F0B" opacity=".9">How it works, risks,</text>
+<text x="92" y="610" font-size="19" fill="#150F0B" opacity=".9">charges, fraud safety</text>
+<rect x="832" y="512" width="710" height="120" fill="#150F0B"/>
+<rect x="820" y="500" width="710" height="120" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="842" y="544" font-size="24" font-weight="700" fill="#150F0B">Advice: keep it off</text>
+<text x="842" y="582" font-size="19" fill="#150F0B" opacity=".9">No tips, no promised</text>
+<text x="842" y="610" font-size="19" fill="#150F0B" opacity=".9">returns, no 'buy this'</text>
+</svg>

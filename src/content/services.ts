@@ -1,3 +1,5 @@
+import { smmGuideGroups } from "@/content/social-media-management";
+
 export type ProcessStep = { title: string; body: string };
 export type ServiceFaq = { question: string; answer: string };
 
@@ -48,6 +50,11 @@ export type Service = {
   process: ProcessStep[];
   benefits: string[];
   faqs: ServiceFaq[];
+  /**
+   * Optional one-paragraph note shown on the service page explaining how this service works alongside
+   * social media management. Text before and after the link is kept separate so the link renders inline.
+   */
+  socialNote?: { before: string; linkText: string; after: string };
   motif: "orbit" | "grid" | "wave" | "beacon" | "loop" | "pulse" | "channel" | "ledger";
 };
 
@@ -141,6 +148,11 @@ const serviceList: ServiceInput[] = [
           "Yes, for the markets Kudozz works in: India, the UAE, Saudi Arabia, the UK, Australia and Singapore. The strategy keeps one objective and KPI but plans each market separately, because creator licensing, disclosure labels, languages and platform mix differ. For example, UAE creators need a National Media Authority permit, and the UK's ASA advises against using \"Sponsored\" as the only label.",
       },
     ],
+    socialNote: {
+      before: "Influencer campaigns work best when they fit the plan for your own accounts. If you also want your brand channels planned around the same objective, see ",
+      linkText: "social media management",
+      after: ", which can run on the same calendar as your creator campaigns.",
+    },
     motif: "orbit",
   },
   {
@@ -222,6 +234,11 @@ const serviceList: ServiceInput[] = [
           "Yes, in the UAE, Saudi Arabia, the UK, Australia and Singapore. Shortlists are screened for the share of each creator's audience in the target country, and for the local licence where one is required, such as the UAE advertiser permit or Saudi Arabia's Mawthooq licence. A creator who lives in a market doesn't always have an audience there, so audience location is checked rather than assumed.",
       },
     ],
+    socialNote: {
+      before: "Creators you find for a campaign can also help with the content your own accounts need every month, from product demos to Reels. Our ",
+      linkText: "social media management",
+      after: " service can plan that creator content into your monthly calendar.",
+    },
     motif: "grid",
   },
   {
@@ -317,6 +334,11 @@ const serviceList: ServiceInput[] = [
           "Kudozz Studios Private Limited is registered in India, and contracting, invoicing currency and payment terms are agreed per campaign. Each creator agreement sets out deliverables, dates, usage rights, disclosure wording for that market and any licence the creator must hold. Tax and withholding treatment depends on where the creator and brand are based, so confirm it with your finance team or adviser.",
       },
     ],
+    socialNote: {
+      before: "Good creator relationships don't have to end with one campaign. When a brand also uses our ",
+      linkText: "social media management",
+      after: " service, creators who worked well can be briefed for ongoing content on the brand's own channels.",
+    },
     motif: "channel",
   },
   {
@@ -387,6 +409,11 @@ const serviceList: ServiceInput[] = [
           "Yes. Multi-creator campaigns can run in several languages at once, for example Hindi, Tamil and English in India, or Arabic and English in the Gulf. Each language gets creators who publish natively in it and a brief localised by a native speaker, rather than one script translated, and results are reported by language as well as by creator.",
       },
     ],
+    socialNote: {
+      before: "A social campaign is a burst of activity around a moment. Between campaigns, your own accounts still need a steady rhythm, which is what our ",
+      linkText: "social media management",
+      after: " service covers, so campaign and always-on content are planned together.",
+    },
     motif: "pulse",
   },
   {
@@ -457,6 +484,11 @@ const serviceList: ServiceInput[] = [
           "Yes, if the launch markets are among those Kudozz works in. Launch dates are planned backwards from the slowest market: shipping product to creators, licence checks for UAE or Saudi creators, approvals and embargo terms. Staggered launches by market are often more practical than a single global day, and the plan shows both options.",
       },
     ],
+    socialNote: {
+      before: "A launch needs your own accounts ready too: teasers, launch-day posts and follow-up content that answers questions. Our ",
+      linkText: "social media management",
+      after: " service can plan that alongside the creator side of the launch, on one schedule.",
+    },
     motif: "beacon",
   },
   {
@@ -533,6 +565,11 @@ const serviceList: ServiceInput[] = [
       },
     ],
     relatedSlugs: ["ugc-content-production", "paid-influencer-campaigns", "influencer-affiliate-marketing"],
+    socialNote: {
+      before: "UGC isn't only for ads. Where usage rights allow, it can fill your organic feed with real voices between designed posts. Our ",
+      linkText: "social media management",
+      after: " service plans where each UGC asset is used across your channels.",
+    },
     motif: "loop",
   },
   {
@@ -1071,6 +1108,11 @@ const serviceList: ServiceInput[] = [
           "Yes. We cast creators who speak the language your customers use, including Hindi and South Indian languages in India and Arabic for the UAE and Saudi Arabia, and we localise scripts rather than translating them word for word.",
       },
     ],
+    socialNote: {
+      before: "Produced UGC can do more than one job. With rights that cover organic use, the same videos can appear in your Reels and Stories, planned into the monthly calendar by our ",
+      linkText: "social media management",
+      after: " team.",
+    },
     motif: "grid",
   },
   {
@@ -1147,6 +1189,11 @@ const serviceList: ServiceInput[] = [
           "Use the paid partnership label for any commercial relationship, and in India add an upfront ASCI label such as 'Ad' or 'Collaboration' in the caption or on the video. The platform label alone may not be enough in every market.",
       },
     ],
+    socialNote: {
+      before: "Creator posts send people to your profile. What they find there matters, which is why some brands pair Instagram creator campaigns with our ",
+      linkText: "social media management",
+      after: " service for the brand account itself.",
+    },
     motif: "orbit",
   },
   {
@@ -1464,6 +1511,69 @@ const serviceList: ServiceInput[] = [
     ],
     motif: "loop",
   },
+  {
+    // Full page lives at src/app/services/social-media-management (custom layout); this entry feeds the services
+    // hub, sitemap, Organization/Service schema and related-service links. Copy source: src/content/social-media-management.ts.
+    slug: "social-media-management",
+    name: "Social Media Management",
+    seoTitle: "Social Media Management Services for Brands",
+    answer: {
+      question: "What is social media management?",
+      text: "Social media management is the ongoing work of running a brand's social accounts: deciding what to say and where, planning a content calendar, creating posts and short videos, publishing them, responding to the community and reviewing what worked. Kudozz does this month by month, and can connect it with creator partnerships and UGC when your plan needs them.",
+    },
+    relatedSlugs: ["ugc-content-production", "social-campaigns", "instagram-influencer-marketing"],
+    // Grouped list lives in src/content/social-media-management.ts (smmGuideGroups).
+    guides: smmGuideGroups.flatMap((group) => group.slugs),
+    shortDescription: "Strategy, content calendars, posts, Reels, publishing, community and monthly reporting for your brand accounts.",
+    description:
+      "We run your brand's social accounts month by month: strategy, content calendars, design, Reels, copy, publishing, community management and reporting, connected with creator partnerships and UGC when your plan needs them.",
+    metaDescription:
+      "Social media management for brands: strategy, content calendars, posts, Reels, publishing, community management and monthly reporting, connected with creators.",
+    secondaryKeywords: [
+      "social media management services",
+      "social media management agency",
+      "social media marketing agency",
+      "instagram management services",
+      "social media content creation",
+      "reels creation services",
+    ],
+    whoItsFor:
+      "Founders, marketing heads and brand managers who need their own social accounts planned, produced and run consistently, without building a full in-house social team.",
+    deliverables: [
+      "Social media audit and strategy",
+      "Monthly content calendar",
+      "Post, carousel and Reel creation",
+      "Captions, hooks and hashtag research",
+      "Scheduling and publishing",
+      "Community management within agreed scope",
+      "Monthly performance report",
+    ],
+    clientProvides: [
+      "Brand guidelines and product information",
+      "Access to your social accounts or insights",
+      "Upcoming launches, offers and key dates",
+      "A named person who approves content",
+    ],
+    successMeasures: [
+      "Content published on the agreed calendar",
+      "Platform metrics agreed at the start, reported monthly",
+      "Clear recommendations that shape the next month",
+    ],
+    process: [
+      { title: "Discovery & Audit", body: "We learn the brand, review your accounts and competitors, and agree the platforms and goals." },
+      { title: "Strategy & Calendar", body: "Content pillars, tone and posting rhythm, turned into a monthly calendar you approve." },
+      { title: "Create & Publish", body: "Designs, videos and copy shared for approval, then scheduled and published on time." },
+      { title: "Engage & Review", body: "Community management within agreed scope and a monthly report that shapes the next calendar." },
+    ],
+    benefits: [
+      "A consistent presence instead of bursts of posting",
+      "One team for your own content and your creator campaigns",
+      "A calendar your team can see and approve in one place",
+      "Monthly reporting with recommendations, not screenshots",
+    ],
+    faqs: [],
+    motif: "channel",
+  },
 ];
 
 /** Display order and grouping for the services hub, home page and numbering. Every service must appear once. */
@@ -1505,6 +1615,39 @@ export const serviceCategories: ServiceCategory[] = [
     name: "Audiences and creator tiers",
     description: "Reaching customers in their own language and through smaller, closer creator communities.",
     slugs: ["regional-influencer-marketing", "micro-nano-influencer-marketing"],
+  },
+  {
+    // Kept last so the display numbers of the existing 18 services don't change; the hub, homepage and
+    // navigation show it first through SERVICE_PILLARS below.
+    id: "social-media",
+    name: "Social media management",
+    description: "Strategy, content, publishing, community and reporting for your brand's own social accounts.",
+    slugs: ["social-media-management"],
+  },
+];
+
+/**
+ * The three service areas Kudozz presents to brands (homepage, services hub, For Brands). Each pillar groups
+ * existing categories; no service moves URL.
+ */
+export const SERVICE_PILLARS: { id: string; name: string; description: string; categoryIds: string[] }[] = [
+  {
+    id: "social-media-management",
+    name: "Social Media Management",
+    description: "Your brand's own accounts, planned, created, published and reviewed month by month.",
+    categoryIds: ["social-media"],
+  },
+  {
+    id: "influencer-marketing",
+    name: "Influencer Marketing",
+    description: "Creator campaigns from strategy and discovery to outreach, launches and reporting.",
+    categoryIds: ["plan-and-manage", "campaign-types", "platforms", "audiences"],
+  },
+  {
+    id: "ugc-content-creation",
+    name: "UGC and Content Creation",
+    description: "Creator-made videos and assets your brand owns: UGC, product demos and content you can repurpose.",
+    categoryIds: ["ugc"],
   },
 ];
 

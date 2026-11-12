@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Multi-location social media: central rules, local content, escalation and reporting by location</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">CENTRAL RULES, LOCAL MATERIAL</text>
+<rect x="82" y="212" width="342" height="280" fill="#150F0B"/>
+<rect x="70" y="200" width="342" height="280" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="248" font-size="24" font-weight="700" fill="#FAF1E2">Central team</text>
+<text x="92" y="290" font-size="19" fill="#FAF1E2" opacity=".85">Voice and templates</text>
+<text x="92" y="320" font-size="19" fill="#FAF1E2" opacity=".85">Monthly calendar</text>
+<text x="92" y="350" font-size="19" fill="#FAF1E2" opacity=".85">National offers</text>
+<rect x="454" y="212" width="342" height="280" fill="#150F0B"/>
+<rect x="442" y="200" width="342" height="280" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="464" y="248" font-size="24" font-weight="700" fill="#150F0B">City accounts</text>
+<text x="464" y="290" font-size="19" fill="#150F0B" opacity=".85">Only where cities</text>
+<text x="464" y="320" font-size="19" fill="#150F0B" opacity=".85">post every week</text>
+<text x="464" y="350" font-size="19" fill="#150F0B" opacity=".85">Regional language</text>
+<rect x="826" y="212" width="342" height="280" fill="#150F0B"/>
+<rect x="814" y="200" width="342" height="280" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="836" y="248" font-size="24" font-weight="700" fill="#150F0B">Location Pages</text>
+<text x="836" y="290" font-size="19" fill="#150F0B" opacity=".85">Address and hours</text>
+<text x="836" y="320" font-size="19" fill="#150F0B" opacity=".85">Local reviews</text>
+<text x="836" y="350" font-size="19" fill="#150F0B" opacity=".85">Store photos</text>
+<rect x="1198" y="212" width="342" height="280" fill="#150F0B"/>
+<rect x="1186" y="200" width="342" height="280" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1208" y="248" font-size="24" font-weight="700" fill="#150F0B">Escalation</text>
+<text x="1208" y="290" font-size="19" fill="#150F0B" opacity=".85">Refunds, safety,</text>
+<text x="1208" y="320" font-size="19" fill="#150F0B" opacity=".85">health questions</text>
+<text x="1208" y="350" font-size="19" fill="#150F0B" opacity=".85">go to a named owner</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Plan in one grid. Report by location, not just in total.</text>
+</svg>

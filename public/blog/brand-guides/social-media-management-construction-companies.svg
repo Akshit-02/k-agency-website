@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A site-to-post workflow for a construction company</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75" letter-spacing="1">SITE-TO-POST WORKFLOW FOR A CONSTRUCTION COMPANY</text>
+<rect x="82" y="162" width="311" height="240" fill="#150F0B"/>
+<rect x="70" y="150" width="311" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="196" font-size="24" font-weight="700" fill="#FAF1E2">1. Capture</text>
+<text x="92" y="236" font-size="19" fill="#FAF1E2" opacity=".9">Site contact films</text>
+<text x="92" y="266" font-size="19" fill="#FAF1E2" opacity=".9">per site rules</text>
+<text x="92" y="296" font-size="19" fill="#FAF1E2" opacity=".9">Correct PPE in frame</text>
+<text x="92" y="326" font-size="19" fill="#FAF1E2" opacity=".9">Upload, date, stage</text>
+<rect x="465" y="162" width="311" height="240" fill="#150F0B"/>
+<rect x="453" y="150" width="311" height="240" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="475" y="196" font-size="24" font-weight="700" fill="#150F0B">2. Check</text>
+<text x="475" y="236" font-size="19" fill="#150F0B" opacity=".9">Facts confirmed</text>
+<text x="475" y="266" font-size="19" fill="#150F0B" opacity=".9">Confidential details</text>
+<text x="475" y="296" font-size="19" fill="#150F0B" opacity=".9">removed: screens,</text>
+<text x="475" y="326" font-size="19" fill="#150F0B" opacity=".9">documents, layouts</text>
+<rect x="848" y="162" width="311" height="240" fill="#150F0B"/>
+<rect x="836" y="150" width="311" height="240" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="858" y="196" font-size="24" font-weight="700" fill="#150F0B">3. Permission</text>
+<text x="858" y="236" font-size="19" fill="#150F0B" opacity=".9">Client agrees to</text>
+<text x="858" y="266" font-size="19" fill="#150F0B" opacity=".9">this content</text>
+<text x="858" y="296" font-size="19" fill="#150F0B" opacity=".9">Featured people</text>
+<text x="858" y="326" font-size="19" fill="#150F0B" opacity=".9">consent in writing</text>
+<rect x="1231" y="162" width="311" height="240" fill="#150F0B"/>
+<rect x="1219" y="150" width="311" height="240" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1241" y="196" font-size="24" font-weight="700" fill="#150F0B">4. Publish</text>
+<text x="1241" y="236" font-size="19" fill="#150F0B" opacity=".9">Caption explains</text>
+<text x="1241" y="266" font-size="19" fill="#150F0B" opacity=".9">the method simply</text>
+<text x="1241" y="296" font-size="19" fill="#150F0B" opacity=".9">Enquiries go to</text>
+<text x="1241" y="326" font-size="19" fill="#150F0B" opacity=".9">business development</text>
+<line x1="399" y1="270" x2="431" y2="270" stroke="#150F0B" stroke-width="4"/>
+<polygon points="447,270 431,260 431,280" fill="#150F0B"/>
+<line x1="782" y1="270" x2="814" y2="270" stroke="#150F0B" stroke-width="4"/>
+<polygon points="830,270 814,260 814,280" fill="#150F0B"/>
+<line x1="1165" y1="270" x2="1197" y2="270" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1213,270 1197,260 1197,280" fill="#150F0B"/>
+<rect x="70" y="430" width="311" height="54" fill="#FAF1E2" stroke="#150F0B" stroke-width="4" stroke-dasharray="10 6"/>
+<text x="92" y="464" font-size="20" font-weight="700" fill="#150F0B">Approves: Site in-charge</text>
+<rect x="453" y="430" width="311" height="54" fill="#FAF1E2" stroke="#150F0B" stroke-width="4" stroke-dasharray="10 6"/>
+<text x="475" y="464" font-size="20" font-weight="700" fill="#150F0B">Approves: Project manager</text>
+<rect x="836" y="430" width="311" height="54" fill="#FAF1E2" stroke="#150F0B" stroke-width="4" stroke-dasharray="10 6"/>
+<text x="858" y="464" font-size="20" font-weight="700" fill="#150F0B">Approves: Client</text>
+<rect x="1219" y="430" width="311" height="54" fill="#FAF1E2" stroke="#150F0B" stroke-width="4" stroke-dasharray="10 6"/>
+<text x="1241" y="464" font-size="20" font-weight="700" fill="#150F0B">Approves: Marketing head</text>
+<rect x="70" y="540" width="1460" height="60" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="579" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">No unverified safety records or certifications. Ever.</text>
+</svg>

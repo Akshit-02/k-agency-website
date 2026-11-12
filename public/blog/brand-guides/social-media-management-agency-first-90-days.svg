@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">The first 90 days with a social media management agency</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">THE FIRST 90 DAYS WITH A SOCIAL MEDIA AGENCY</text>
+<rect x="82" y="212" width="420" height="280" fill="#150F0B"/>
+<rect x="70" y="200" width="420" height="280" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="248" font-size="24" font-weight="700" fill="#FAF1E2">Days 1 to 30</text>
+<text x="92" y="290" font-size="19" fill="#FAF1E2" opacity=".85">Access and assets</text>
+<text x="92" y="320" font-size="19" fill="#FAF1E2" opacity=".85">Account audit</text>
+<text x="92" y="350" font-size="19" fill="#FAF1E2" opacity=".85">Written strategy</text>
+<text x="92" y="380" font-size="19" fill="#FAF1E2" opacity=".85">Approval process agreed</text>
+<line x1="504" y1="340" x2="566" y2="340" stroke="#150F0B" stroke-width="4"/>
+<polygon points="580,340 564,330 564,350" fill="#150F0B"/>
+<rect x="602" y="212" width="420" height="280" fill="#150F0B"/>
+<rect x="590" y="200" width="420" height="280" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="612" y="248" font-size="24" font-weight="700" fill="#150F0B">Days 31 to 60</text>
+<text x="612" y="290" font-size="19" fill="#150F0B" opacity=".85">First full calendars</text>
+<text x="612" y="320" font-size="19" fill="#150F0B" opacity=".85">Consistent publishing</text>
+<text x="612" y="350" font-size="19" fill="#150F0B" opacity=".85">Community, in scope</text>
+<text x="612" y="380" font-size="19" fill="#150F0B" opacity=".85">Early observations</text>
+<line x1="1024" y1="340" x2="1086" y2="340" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1100,340 1084,330 1084,350" fill="#150F0B"/>
+<rect x="1122" y="212" width="420" height="280" fill="#150F0B"/>
+<rect x="1110" y="200" width="420" height="280" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1132" y="248" font-size="24" font-weight="700" fill="#150F0B">Days 61 to 90</text>
+<text x="1132" y="290" font-size="19" fill="#150F0B" opacity=".85">Calendars that learn</text>
+<text x="1132" y="320" font-size="19" fill="#150F0B" opacity=".85">First monthly reports</text>
+<text x="1132" y="350" font-size="19" fill="#150F0B" opacity=".85">90-day review</text>
+<text x="1132" y="380" font-size="19" fill="#150F0B" opacity=".85">Next-quarter plan</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Judge day 90 on consistency, process and learnings.</text>
+</svg>

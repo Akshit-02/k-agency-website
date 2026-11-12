@@ -59,14 +59,16 @@ export function AboutContent() {
 
       <section className="pb-8">
         <Container>
-          <SectionHeading eyebrow="What We Do" title="An influencer marketing agency for brands in India." />
+          <SectionHeading eyebrow="What We Do" title="An influencer marketing and social media agency for brands in India." />
           <Reveal>
             <p className="mt-8 max-w-3xl text-lg leading-relaxed text-ink/70 text-pretty">
               {siteConfig.name} ({siteConfig.legalName}) plans, runs and measures influencer and creator marketing
               campaigns for brands across India: D2C and e-commerce companies, consumer brands and B2B businesses. We
               find creators whose audience matches your customer, from nano to macro tiers and across regional
               languages, manage outreach, contracts and approvals, and report results against the KPI agreed before
-              launch.
+              launch. We also manage brands&apos; own social media, from strategy and content calendars to Reels,
+              publishing, community management and monthly reporting, so creator campaigns and the brand&apos;s own
+              accounts can run from one plan.
             </p>
           </Reveal>
           <div className="mt-12 grid gap-10 md:grid-cols-3">

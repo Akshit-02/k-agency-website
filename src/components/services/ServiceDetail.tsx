@@ -81,6 +81,18 @@ export function ServiceDetail({
           <div className="max-w-3xl border-t-[1.5px] border-ink pt-8">
             <h2 className="font-display text-2xl tracking-tight text-ink sm:text-3xl">{service.answer.question}</h2>
             <p className="mt-4 text-lg leading-relaxed text-ink/75 text-pretty">{service.answer.text}</p>
+            {service.socialNote && (
+              <p className="mt-6 border-l-[3px] border-violet pl-5 text-base leading-relaxed text-ink/70 text-pretty">
+                {service.socialNote.before}
+                <Link
+                  href="/services/social-media-management"
+                  className="font-semibold text-ink underline decoration-violet decoration-2 underline-offset-4 hover:text-violet"
+                >
+                  {service.socialNote.linkText}
+                </Link>
+                {service.socialNote.after}
+              </p>
+            )}
           </div>
         </Container>
       </section>

@@ -56,6 +56,7 @@ export type BlogCategory =
   | "Instagram Marketing"
   | "Campaign Strategy"
   | "UGC Marketing"
+  | "Social Media Management"
   | "Creator Resources";
 
 export type BlogPost = {
@@ -45508,5 +45509,6 @@ export const blogCategories: BlogCategory[] = [
   "Instagram Marketing",
   "Campaign Strategy",
   "UGC Marketing",
+  "Social Media Management",
   "Creator Resources",
 ];
