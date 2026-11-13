@@ -93,7 +93,9 @@ export default function ServicesPage() {
       <section className="pb-28 sm:pb-36">
         <Container>
           {SERVICE_PILLARS.map((pillar, p) => {
-            const categories = getServicesByCategory().filter((c) => pillar.categoryIds.includes(c.id));
+            // Ordered by the pillar's own categoryIds, so a category appended later (the overview) can lead its pillar.
+            const allCategories = getServicesByCategory();
+            const categories = pillar.categoryIds.flatMap((id) => allCategories.filter((c) => c.id === id));
             return (
               <section key={pillar.id} id={pillar.id} aria-labelledby={`${pillar.id}-heading`} className="scroll-mt-28 pt-20 first:pt-0">
                 <div className="flex items-baseline gap-5 border-b-[3px] border-ink pb-6">

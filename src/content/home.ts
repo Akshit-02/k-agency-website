@@ -104,7 +104,7 @@ export const serviceAreas: {
     name: "Influencer Marketing",
     body: "Creator campaigns planned around one agreed KPI, with creators vetted for audience fit and managed end to end.",
     points: ["Campaign strategy", "Paid, barter and affiliate campaigns", "Product launches", "Instagram, YouTube and LinkedIn"],
-    href: "/services#influencer-marketing",
+    href: "/services/influencer-marketing",
     cta: "See Influencer Marketing",
     theme: "violet",
   },

@@ -57,7 +57,7 @@ export const siteConfig = {
   /** Services dropdown (desktop) and sub-list (mobile menu). Every link is an existing service URL. */
   servicesMenu: [
     { label: "Social Media Management", href: "/services/social-media-management" },
-    { label: "Influencer Marketing", href: "/services#influencer-marketing" },
+    { label: "Influencer Marketing", href: "/services/influencer-marketing" },
     { label: "Campaign Strategy", href: "/services/campaign-strategy" },
     { label: "Creator Discovery", href: "/services/creator-discovery" },
     { label: "Outreach Management", href: "/services/outreach-management" },
@@ -76,7 +76,7 @@ export const siteConfig = {
     forBrands: [
       { label: "Why Kudozz", href: "/for-brands" },
       { label: "Social Media Management", href: "/services/social-media-management" },
-      { label: "Influencer Marketing", href: "/services#influencer-marketing" },
+      { label: "Influencer Marketing", href: "/services/influencer-marketing" },
       { label: "UGC & Content", href: "/services/ugc-content-production" },
       { label: "Markets We Serve", href: "/markets" },
       { label: "Free Tools", href: "/tools" },

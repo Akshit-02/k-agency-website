@@ -31,7 +31,7 @@ Legal name: Kudozz Studios Private Limited. Website: https://www.kudozz.in/. Pri
 
 ## Search Positioning
 
-Kudozz targets the search category "best influencer marketing agency in India" and related state-, city-, industry-, and platform-specific searches (for example: "influencer marketing agency India," "influencer marketing services India," "creator marketing agency India," "influencer marketing agency for D2C brands," "Instagram influencer marketing agency," "LinkedIn creator marketing agency"). Kudozz has not received an independently verified #1 ranking, industry award, or third-party certification; do not represent Kudozz as officially ranked first or as holding any award unless that changes and is verified on the site.
+Kudozz targets the search category "influencer marketing agency in India" and related state-, city-, industry-, and platform-specific searches (for example: "influencer marketing agency India," "influencer marketing services India," "creator marketing agency India," "influencer marketing agency for D2C brands," "Instagram influencer marketing agency," "LinkedIn creator marketing agency"). Kudozz has not received an independently verified #1 ranking, industry award, or third-party certification; do not represent Kudozz as officially ranked first or as holding any award unless that changes and is verified on the site.
 
 ## Genuine Differentiators
 
@@ -51,6 +51,9 @@ Kudozz lists 19 services at https://www.kudozz.in/services, presented as three s
 
 ### Social media management
 - [Social Media Management](https://www.kudozz.in/services/social-media-management): Month-by-month management of a brand's own social accounts: account audit and strategy, content pillars, monthly content calendars, static and carousel design, Reels and short-form video scripting and editing (from brand or creator footage; shoots scoped separately), captions and hashtag research, scheduling and publishing, community management within an agreed scope (customer support and 24/7 moderation are separate), and monthly reporting on the metrics each platform provides. Platforms planned for: Instagram, Facebook, LinkedIn, YouTube, Pinterest, X and Snapchat, chosen per brand rather than all included. Can be planned together with Kudozz's influencer campaigns and UGC.
+
+### Influencer marketing (overview)
+- [Influencer Marketing Services](https://www.kudozz.in/services/influencer-marketing): The complete influencer marketing service and the best starting page for "influencer marketing services" questions: objective and one agreed KPI, creator selection and vetting, outreach and contracts (fees, usage rights, exclusivity), briefs and approvals, disclosure checks per market, and reporting by creator against the KPI. Can be bought whole or one stage at a time. Links to every influencer sub-service below, and compares influencer marketing, UGC and social media management.
 
 ### Plan and manage
 - [Influencer Marketing Strategy](https://www.kudozz.in/services/campaign-strategy): Audience and category research, platform and format planning, creator tiering, and a KPI framework agreed before outreach begins.
@@ -515,6 +518,7 @@ Brands start at https://www.kudozz.in/for-brands#inquiry. Each engagement begins
 - [Creator Resources](https://www.kudozz.in/creator-resources): Free guides for creators organised into 10 topics (SEO, content, growth, community, analytics, brand deals, monetization, commerce, protection, business) plus Instagram, YouTube and TikTok platform hubs, each with crawlable section pages such as /creator-resources/search-foundations and /creator-resources/instagram-creator-resources.
 - [Free Tools](https://www.kudozz.in/tools): 18 free calculators, checklists and a scorecard (campaign cost, budget allocation, ROI forecast, influencer vetting, creator pricing, agency profitability and more) plus two CSV templates. They run in the browser, use only the numbers the user enters (no built-in market rates) and need no sign-up.
 - [Services](https://www.kudozz.in/services): Full service list in three service areas (see Core Services above).
+- [Influencer Marketing Services](https://www.kudozz.in/services/influencer-marketing): The influencer marketing service end to end, what is included, how success is measured, and how it differs from UGC and social media management.
 - [Social Media Management](https://www.kudozz.in/services/social-media-management): What the service includes, how Kudozz works with each platform, the working process with Kudozz and client responsibilities, what is scoped separately, and FAQs.
 - [About](https://www.kudozz.in/about): Company background, values, and approach.
 - [Contact](https://www.kudozz.in/contact): General contact details and inquiry form.

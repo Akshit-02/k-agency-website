@@ -11,7 +11,7 @@ export const understandBrandDealPosts: BlogPost[] = [
     excerpt:
       "Why two creators with the same follower count can charge very different fees, the factors that actually move a price, and a step-by-step way to work out your own number.",
     metaDescription:
-      "How much should creators charge in India? The pricing factors that matter (views, engagement, niche, platform, production, rights, exclusivity) and a worked framework, with clearly labelled examples.",
+      "How much should creators charge in India? The factors that set a rate (views, engagement, niche, platform, rights, exclusivity) and a worked pricing framework.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     readingTime: "12 min read",

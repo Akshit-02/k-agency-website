@@ -338,7 +338,7 @@ export const commerceAndYouTubePosts: BlogPost[] = [
     excerpt:
       "Every way creators earn on YouTube in 2026: the Partner Program tiers, ad and Premium revenue, Shorts, fan funding, YouTube Shopping, Creator Partnerships and off-platform income, with current eligibility.",
     metaDescription:
-      "YouTube creator monetization: YouTube Partner Program eligibility and tiers, ad revenue, Shorts revenue sharing, memberships, Super Chat, Super Thanks, Gifts, YouTube Shopping, Creator Partnerships and brand deals.",
+      "How creators earn from YouTube: Partner Program eligibility and tiers, ad and Shorts revenue, memberships, Super Chat, Shopping and brand deals, explained.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

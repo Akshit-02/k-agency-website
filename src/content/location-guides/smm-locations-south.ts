@@ -357,7 +357,7 @@ const bengaluruPost: BlogPost = {
       type: "paragraph",
       text: "Usually scoped separately: paid social ads and ad budgets, shoots, influencer fees, customer support and crisis communication. If creators are in your plan, influencer marketing and UGC content production are separate pieces of work. Ask for inclusions and exclusions in writing, like a scope section on a service page.",
       links: [
-        { text: "influencer marketing", href: "/services#influencer-marketing" },
+        { text: "influencer marketing", href: "/services/influencer-marketing" },
         { text: "UGC content production", href: "/services/ugc-content-production" },
         { text: "a scope section on a service page", href: `${SMM}#scope` },
       ],
@@ -607,7 +607,7 @@ const hyderabadPost: BlogPost = {
       type: "paragraph",
       text: "Usually scoped separately: paid social ads and ad budgets, site or restaurant shoots, influencer fees, customer support and crisis communication. If food or property creators are in your plan, treat influencer marketing and UGC content production as separate services.",
       links: [
-        { text: "influencer marketing", href: "/services#influencer-marketing" },
+        { text: "influencer marketing", href: "/services/influencer-marketing" },
         { text: "UGC content production", href: "/services/ugc-content-production" },
       ],
     },
@@ -857,7 +857,7 @@ const chennaiPost: BlogPost = {
       type: "paragraph",
       text: "Normally scoped separately: paid social ads and ad budgets, store or factory shoots, influencer fees, customer support and crisis communication. Creator content for a festive collection is a separate brief, so treat influencer marketing and UGC content production as separate costs.",
       links: [
-        { text: "influencer marketing", href: "/services#influencer-marketing" },
+        { text: "influencer marketing", href: "/services/influencer-marketing" },
         { text: "UGC content production", href: "/services/ugc-content-production" },
       ],
     },

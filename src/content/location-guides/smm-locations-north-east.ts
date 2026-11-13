@@ -367,7 +367,7 @@ const delhi: BlogPost = {
         { text: "short-form video editing", href: "/services/social-media-management#reels-short-form-video" },
         { text: "community management", href: "/services/social-media-management#community-management" },
         { text: "analytics and reporting", href: "/services/social-media-management#analytics-reporting" },
-        { text: "Influencer campaigns", href: "/services#influencer-marketing" },
+        { text: "Influencer campaigns", href: "/services/influencer-marketing" },
         { text: "UGC", href: "/services/ugc-content-production" },
       ],
     },
@@ -600,7 +600,7 @@ const ahmedabad: BlogPost = {
       type: "paragraph",
       text: "Ongoing management usually covers strategy, monthly calendars, creative design, Reels and short-form editing, copywriting, publishing, community management and reporting. Paid ads and ad budgets, product or festive shoots, influencer fees, customer support and crisis communication are normally scoped separately. Influencer campaigns and UGC can add creator voices to a festive calendar when needed. Kudozz lists each part of its own scope on its service page, including copywriting and publishing.",
       links: [
-        { text: "Influencer campaigns", href: "/services#influencer-marketing" },
+        { text: "Influencer campaigns", href: "/services/influencer-marketing" },
         { text: "UGC", href: "/services/ugc-content-production" },
         { text: "copywriting", href: "/services/social-media-management#copywriting" },
         { text: "publishing", href: "/services/social-media-management#publishing" },
@@ -832,7 +832,7 @@ const kolkata: BlogPost = {
       type: "paragraph",
       text: "Ongoing management normally covers strategy, monthly calendars, creative design, short-form video editing, copywriting, publishing, community management within agreed limits, and reporting. Paid ads and ad budgets, shoots, influencer fees, customer support and crisis communication are generally scoped separately. Influencer campaigns and UGC can support a Pujo or product launch push. Kudozz's own scope, including creative design and community management, is set out on its service page.",
       links: [
-        { text: "Influencer campaigns", href: "/services#influencer-marketing" },
+        { text: "Influencer campaigns", href: "/services/influencer-marketing" },
         { text: "UGC", href: "/services/ugc-content-production" },
         { text: "creative design", href: "/services/social-media-management#creative-design" },
         { text: "community management", href: "/services/social-media-management#community-management" },

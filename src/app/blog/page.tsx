@@ -6,12 +6,12 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
 import { FeaturedPost } from "@/components/blog/FeaturedPost";
-import { BlogExplorer } from "@/components/blog/BlogExplorer";
+import { BlogExplorer, BLOG_GRID_COUNT } from "@/components/blog/BlogExplorer";
 import { toBlogCardData } from "@/components/blog/BlogCard";
 import { BlogNewsletter } from "@/components/blog/BlogNewsletter";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Influencer Marketing Blog: Strategy & Creator Economy Insights",
+  title: "Influencer Marketing Blog: Strategy and Creator Insights",
   description:
     "Practical, no-fluff writing on influencer marketing strategy, UGC, the creator economy, and campaign measurement from the Kudozz team.",
   path: "/blog",
@@ -19,7 +19,10 @@ export const metadata: Metadata = buildMetadata({
 
 export default function BlogIndexPage() {
   const featured = blogPosts.find((p) => p.featured) ?? blogPosts[0];
-  const rest = blogPosts.filter((p) => p.slug !== featured.slug).map(toBlogCardData);
+  // Only the cards shown in full need an excerpt; the compact archive list shows titles (see BlogExplorer).
+  const rest = blogPosts
+    .filter((p) => p.slug !== featured.slug)
+    .map((p, i) => (i < BLOG_GRID_COUNT ? toBlogCardData(p) : { ...toBlogCardData(p), excerpt: "" }));
 
   return (
     <>

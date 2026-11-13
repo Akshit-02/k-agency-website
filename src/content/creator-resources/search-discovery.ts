@@ -11,7 +11,7 @@ export const searchDiscoveryPosts: BlogPost[] = [
     excerpt:
       "Search is where people go when they already want something. Here's how discovery works across Google, YouTube, Instagram, TikTok and AI search, and a single system for being findable on all of them.",
     metaDescription:
-      "Creator SEO explained: how discovery differs across Google, YouTube, Instagram, TikTok and AI search, and a practical system to make your content findable for the questions your audience asks.",
+      "Creator SEO explained: how discovery works on Google, YouTube, Instagram, TikTok and AI search, and a practical system to make your content easy to find.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     updatedAt: "2026-09-29",
@@ -882,7 +882,7 @@ export const searchDiscoveryPosts: BlogPost[] = [
     excerpt:
       "A step-by-step method for choosing Instagram keywords and placing them in your name, bio, captions, on-screen text, hashtags and highlights, with examples across niches and a caption template.",
     metaDescription:
-      "Instagram keyword strategy for creators: finding keywords in Instagram search suggestions, building a keyword map, and placing keywords in your name, bio, captions, on-screen text, hashtags and highlights.",
+      "Instagram keyword strategy for creators: find keywords in Instagram search, build a keyword map, and place them in your name, bio, captions and on-screen text.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     readingTime: "10 min read",

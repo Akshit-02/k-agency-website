@@ -13,7 +13,7 @@ export const instagramCreatorPosts: BlogPost[] = [
     slug: "instagram-creator-monetization",
     category: "Creator Resources",
     title: "Instagram Creator Monetization: Complete Guide for Indian Creators",
-    seoTitle: "Instagram Monetization in India: Requirements and Options",
+    seoTitle: "Instagram Monetization Requirements in India: Every Option",
     excerpt:
       "Every way Indian creators can earn on Instagram in 2026: Gifts, Subscriptions, live badges, branded content, Creator Marketplace, affiliate tools and off-platform income, with eligibility checked against Instagram's help centre.",
     metaDescription:
@@ -203,7 +203,7 @@ export const instagramCreatorPosts: BlogPost[] = [
     slug: "instagram-gifts",
     category: "Creator Resources",
     title: "Instagram Gifts for Creators: How Fan Support and Monetization Work",
-    seoTitle: "Instagram Gifts on Reels: How Creators Earn From Stars",
+    seoTitle: "What Are Instagram Gifts? How Creators Earn From Stars",
     excerpt:
       "How Instagram Gifts work: Stars, the US$0.01-per-Star payout, eligibility in India, which Reels can receive gifts, how to track earnings, and how to invite support without begging.",
     metaDescription:
@@ -1309,11 +1309,11 @@ export const instagramCreatorPosts: BlogPost[] = [
     slug: "instagram-trial-reels",
     category: "Creator Resources",
     title: "Instagram Trial Reels: How Creators Can Test Content Before Sharing It With Everyone",
-    seoTitle: "Instagram Trial Reels: Eligibility, Insights and Testing",
+    seoTitle: "Instagram Trial Reels: What They Are and How to Use Them",
     excerpt:
       "How Instagram Trial Reels work: eligibility, showing Reels to non-followers first, reading trial insights, sharing to everyone manually or automatically, and a testing routine that teaches you something every week.",
     metaDescription:
-      "Trial Reels need 200 followers on a professional account or 1,000 on a personal one. How trials reach non-followers, reading insights and when to share.",
+      "What Instagram Trial Reels are, who can use them (200 followers on a professional account), how trials reach non-followers first and how to read results.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

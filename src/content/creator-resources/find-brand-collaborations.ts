@@ -205,7 +205,7 @@ export const findBrandCollaborationPosts: BlogPost[] = [
     excerpt:
       "Fifteen copy-ready email templates for creators, from a first cold pitch to politely declining an unfair offer, with notes on why each one works and how to adapt it.",
     metaDescription:
-      "15 brand collaboration email templates for creators: cold and warm pitches, paid, UGC, YouTube sponsorship, affiliate, launch and seasonal pitches, follow-ups, negotiation and declining offers.",
+      "15 brand collaboration email templates for creators: cold and warm pitches, paid, UGC, YouTube and affiliate pitches, follow-ups, negotiation and declining.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     readingTime: "14 min read",
@@ -614,7 +614,7 @@ export const findBrandCollaborationPosts: BlogPost[] = [
     excerpt:
       "A practical path to your first brand deal: getting your niche and samples ready, choosing realistic brands, pitching, deciding between gifting and paid work, and avoiding the scams that target new creators.",
     metaDescription:
-      "How to get your first brand collaboration as a creator in India: niche, sample content, media kit, finding brands, pitching, gifting vs paid, UGC as an entry point, first negotiation and avoiding scams.",
+      "How to get your first brand collaboration in India: pick a niche, make sample content and a media kit, find and pitch brands, and weigh gifting vs paid offers.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     readingTime: "11 min read",

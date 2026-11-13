@@ -11,7 +11,7 @@ export const creatorBusinessOperationsPosts: BlogPost[] = [
     excerpt:
       "Why brands and agencies deduct tax before paying you, which categories they usually use, what changed under the Income-tax Act, 2025, and the records and certificates creators should keep.",
     metaDescription:
-      "TDS for influencers and content creators in India: what TDS is, when brands and agencies deduct it, common categories under the Income-tax Act, 2025, Form 131 certificates, checking TDS credit and records to keep.",
+      "TDS for influencers and creators in India: when brands and agencies deduct it, common categories under the Income-tax Act, 2025, Form 131 and checking credit.",
     author: CREATOR_AUTHOR,
     publishedAt: CREATOR_CLUSTER_PUBLISHED,
     lastReviewed: CREATOR_FACTS_REVIEWED,

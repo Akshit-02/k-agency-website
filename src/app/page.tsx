@@ -15,7 +15,8 @@ import { CreatorNetwork } from "@/components/home/CreatorNetwork";
 import { FAQSection } from "@/components/ui/FAQSection";
 import { FinalCTA } from "@/components/home/FinalCTA";
 
-const TITLE = "Best Influencer Marketing Agency in India | Kudozz";
+// No unverifiable superlative ("Best"): the H1 and title name what Kudozz is, which is also the head query.
+const TITLE = "Influencer Marketing & Social Media Agency in India | Kudozz";
 const DESCRIPTION =
   "Kudozz is an influencer marketing and social media management agency in India: creator campaigns, brand social media, UGC and reporting tied to your goals.";
 

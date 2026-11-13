@@ -284,11 +284,11 @@ export const contentAnalyticsPosts: BlogPost[] = [
     slug: "instagram-insights-for-creators",
     category: "Creator Resources",
     title: "Instagram Insights for Creators: What Every Metric Means, Beyond Views",
-    seoTitle: "Instagram Insights for Creators: Every Metric Explained",
+    seoTitle: "How to View Instagram Insights for Reels, Posts and Stories",
     excerpt:
       "A creator's guide to Instagram Insights: what views, viewers, watch time, average watch time, interactions, follows and profile activity mean, how to open insights for Reels, posts, Stories and your account, and how to judge them against your own medians.",
     metaDescription:
-      "How to view Instagram Insights for Reels, posts, Stories and your account, what views, viewers, watch time and follows mean, plus a monthly review template.",
+      "How to view insights on your Instagram Reels, posts, Stories and account, what views, watch time and follows mean, plus a monthly review template.",
     author: { name: "Kudozz Partnerships Team", role: "Creator Partnerships" },
     publishedAt: "2026-09-29",
     updatedAt: "2026-11-10",

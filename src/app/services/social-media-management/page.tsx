@@ -326,7 +326,7 @@ export default function SocialMediaManagementPage() {
                 ))}
               </Reveal>
               <Reveal delay={0.15} className="mt-8 flex flex-wrap gap-3">
-                <Button href="/services#influencer-marketing" variant="secondary">
+                <Button href="/services/influencer-marketing" variant="secondary">
                   Explore Influencer Marketing
                 </Button>
                 <Button href="/services/ugc-content-production" variant="ghost">

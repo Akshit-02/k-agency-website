@@ -1606,7 +1606,7 @@ export const creatorBusinessStrategyPosts: BlogPost[] = [
     excerpt:
       "A neutral comparison of working independently, with a talent manager, a creator agency, an influencer marketing agency or network, or an MCN: services, fee structures, brand access, negotiation, creative control, contracts and how to decide.",
     metaDescription:
-      "A neutral comparison of independent creators, talent managers, creator agencies, influencer marketing agencies and MCNs: services, fees, control, contracts and fit.",
+      "A neutral comparison of independent creators, talent managers, creator agencies, influencer marketing agencies and MCNs: services, fees, control and fit.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     updatedAt: "2026-09-29",

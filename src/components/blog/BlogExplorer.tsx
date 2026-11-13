@@ -1,13 +1,22 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import { Search } from "lucide-react";
 import type { BlogCategory } from "@/content/blog";
 import { blogCategories } from "@/content/blog";
 import { BlogCard, type BlogCardData } from "@/components/blog/BlogCard";
 import { cn } from "@/lib/utils";
 
+/**
+ * How many results render as full visual cards. The rest render as a compact list: with 1,000+ articles, full
+ * cards pushed the /blog HTML past 2 MB, the most Googlebot reads of an HTML file (2026-11 SEO audit). Every
+ * article stays linked in the HTML either way.
+ */
+export const BLOG_GRID_COUNT = 12;
+
 // Props of a client component are serialised into the page, so this takes card fields only (see BlogCardData).
+// Archive items arrive without an excerpt to keep that payload small; search still matches their titles.
 export function BlogExplorer({ posts }: { posts: BlogCardData[] }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<BlogCategory | "All">("All");
@@ -68,11 +77,28 @@ export function BlogExplorer({ posts }: { posts: BlogCardData[] }) {
       {filtered.length === 0 ? (
         <p className="py-16 text-center text-ink/50">No articles match your search.</p>
       ) : (
-        <div className="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((post, i) => (
-            <BlogCard key={post.slug} post={post} delay={(i % 3) * 0.05} />
-          ))}
-        </div>
+        <>
+          <div className="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+            {filtered.slice(0, BLOG_GRID_COUNT).map((post, i) => (
+              <BlogCard key={post.slug} post={post} delay={(i % 3) * 0.05} />
+            ))}
+          </div>
+          {filtered.length > BLOG_GRID_COUNT && (
+            <div className="mt-20">
+              <h2 className="font-display text-3xl tracking-tight text-ink">More articles</h2>
+              <ul className="mt-6 grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+                {filtered.slice(BLOG_GRID_COUNT).map((post) => (
+                  <li key={post.slug} className="border-t border-line">
+                    <Link href={`/blog/${post.slug}`} className="group block py-3">
+                      <span className="block text-[11px] font-semibold uppercase tracking-wide text-coral">{post.category}</span>
+                      <span className="mt-1 block text-base leading-snug text-ink group-hover:text-coral">{post.title}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

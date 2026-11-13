@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Check } from "lucide-react";
-import type { Service } from "@/content/services";
+import { getServicesByCategory, type Service } from "@/content/services";
 import { ServiceMotif } from "@/components/graphics/ServiceMotif";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
@@ -38,6 +38,8 @@ export function ServiceDetail({
   breadcrumbItems: Crumb[];
 }) {
   const theme = themes[(parseInt(service.index, 10) - 1) % themes.length];
+  const allCategories = service.includesCategories ? getServicesByCategory() : [];
+  const included = (service.includesCategories ?? []).flatMap((id) => allCategories.filter((c) => c.id === id));
 
   return (
     <>
@@ -96,6 +98,40 @@ export function ServiceDetail({
           </div>
         </Container>
       </section>
+
+      {included.length > 0 && (
+        <section className="pb-20 sm:pb-24" aria-labelledby="included-heading">
+          <Container>
+            <h2 id="included-heading" className="font-display text-3xl tracking-tight text-ink sm:text-4xl">
+              What&apos;s included
+            </h2>
+            <p className="mt-3 max-w-2xl text-base text-ink/65">
+              Each part of the service has its own page. Use the whole service or only the parts you need.
+            </p>
+            <div className="mt-10 grid gap-10 sm:grid-cols-2">
+              {included.map((category) => (
+                <div key={category.id} className="border-t-[1.5px] border-ink pt-5">
+                  <h3 className="font-display text-xl tracking-tight text-ink">{category.name}</h3>
+                  <p className="mt-1 text-sm text-ink/60">{category.description}</p>
+                  <ul className="mt-4 space-y-3">
+                    {category.services.map((s) => (
+                      <li key={s.slug}>
+                        <Link
+                          href={`/services/${s.slug}`}
+                          className="font-semibold text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+                        >
+                          {s.name}
+                        </Link>
+                        <span className="text-sm text-ink/65">: {s.shortDescription}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
 
       <section className={`py-20 sm:py-28 ${theme.bg} ${theme.text}`}>
         <Container>

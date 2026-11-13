@@ -55,6 +55,11 @@ export type Service = {
    * social media management. Text before and after the link is kept separate so the link renders inline.
    */
   socialNote?: { before: string; linkText: string; after: string };
+  /**
+   * Pillar pages only: service categories (ids from serviceCategories) whose services are listed on the page as
+   * "What's included", so the overview links down to every sub-service.
+   */
+  includesCategories?: string[];
   motif: "orbit" | "grid" | "wave" | "beacon" | "loop" | "pulse" | "channel" | "ledger";
 };
 
@@ -75,6 +80,124 @@ const PAY_MODEL_COMPARISON: ServiceComparison = {
 };
 
 const serviceList: ServiceInput[] = [
+  {
+    // Pillar page for the influencer marketing service area (2026-11 SEO audit). Before this, the nav pointed at
+    // /services#influencer-marketing and no URL owned "influencer marketing services". Claims here restate what the
+    // other service pages already publish; add results or client names only once they are verified.
+    slug: "influencer-marketing",
+    answer: {
+      question: "What do influencer marketing services include?",
+      text: "Influencer marketing services cover everything between a brand's objective and a finished creator campaign: strategy and a single agreed KPI, finding and vetting creators, outreach and contracts, briefs and content approvals, disclosure checks, publishing and a report against that KPI. Kudozz can run the whole campaign or take on one part of it, such as creator discovery or reporting.",
+    },
+    name: "Influencer Marketing Services",
+    seoTitle: "Influencer Marketing Services: Strategy to Reporting",
+    guides: [
+      "what-is-influencer-marketing",
+      "influencer-marketing-strategy",
+      "influencer-campaign-management",
+      "influencer-marketing-cost-india",
+      "measuring-influencer-campaign-roi",
+      "choose-influencer-marketing-agency-india",
+      "influencer-marketing-agency-vs-in-house",
+      "influencer-marketing-d2c-brands-india",
+    ],
+    shortDescription: "End-to-end creator campaigns, from strategy and creator selection to reporting.",
+    description:
+      "Kudozz plans and runs influencer campaigns for brands: we agree the objective and one KPI, choose creators for audience fit rather than follower count, manage outreach, contracts, briefs and approvals, and report results against the KPI we agreed at the start.",
+    metaDescription:
+      "End-to-end influencer marketing services from Kudozz: strategy, creator discovery and vetting, outreach, contracts, content approvals and KPI reporting.",
+    secondaryKeywords: [
+      "influencer marketing services",
+      "influencer marketing agency",
+      "influencer marketing company",
+      "influencer campaign services",
+      "managed influencer marketing",
+    ],
+    whoItsFor:
+      "Consumer, D2C, e-commerce and B2B brands that want creator campaigns run properly, whether it's a first test or an always-on programme, without building an in-house influencer team.",
+    deliverables: [
+      "A written campaign strategy with one primary KPI",
+      "A vetted creator shortlist, with the reason each creator is on it",
+      "Creator contracts covering fees, deliverables, dates, usage rights and exclusivity",
+      "Briefs, content review and approval before anything goes live",
+      "Disclosure checks for each market's advertising rules",
+      "A results report by creator against the agreed KPI",
+    ],
+    clientProvides: [
+      "Your business objective and the metric that matters most for this campaign",
+      "Who your customer is and where they live, so creator audiences can be matched to them",
+      "A budget range, plus any fixed dates such as launches, sales or festivals",
+      "Product samples, brand guidelines and one person who can approve content",
+    ],
+    successMeasures: [
+      "Results reported against the KPI agreed before outreach, not against reach alone",
+      "Creator fees and agency fees shown separately in the proposal",
+      "Every published post checked for the required disclosure label",
+      "A clear recommendation on which creators and formats to keep, change or drop next time",
+    ],
+    process: [
+      { title: "Objective & KPI", body: "We start with what the campaign needs to achieve and agree one primary KPI, a budget and the markets before any creator is contacted." },
+      { title: "Creator Selection", body: "We shortlist creators across nano to macro tiers and screen each one for audience location, engagement quality and fake followers." },
+      { title: "Outreach & Production", body: "We negotiate fees and usage rights, write briefs, review drafts against the brief and your guidelines, and schedule publishing." },
+      { title: "Reporting", body: "We report results by creator against the KPI, with tracked links or codes where sales attribution is possible, and what to change next time." },
+    ],
+    benefits: [
+      "One team accountable for the campaign from strategy to report",
+      "Creators chosen for who their audience is, not how big it is",
+      "Contracts that settle usage rights and exclusivity before content is made",
+      "Reporting your finance team can follow, with creator and agency costs separated",
+    ],
+    comparison: {
+      title: "Influencer marketing vs UGC vs social media management",
+      columns: ["", "Influencer marketing", "UGC and content creation", "Social media management"],
+      rows: [
+        ["What you pay for", "A creator's reach and recommendation to their own audience", "Creator-made content your brand uses on its own channels and ads", "Running your brand's own accounts month by month"],
+        ["Whose audience sees it", "The creator's followers", "Your audience, through your feed, website or paid ads", "Your followers and the people your posts reach"],
+        ["Typical output", "Sponsored Reels, posts, Stories, videos or integrations", "Product demos, testimonial-style videos, unboxings and photos", "Content calendar, posts, Reels, captions, community replies, monthly report"],
+        ["Best for", "Awareness, trust and launches through voices your customers follow", "Ad creative, product pages and a steady supply of content", "A consistent, active brand presence"],
+      ],
+    },
+    relatedSlugs: ["ugc-content-production", "social-media-management", "micro-nano-influencer-marketing"],
+    includesCategories: ["plan-and-manage", "campaign-types", "platforms", "audiences"],
+    faqs: [
+      {
+        question: "Can Kudozz run only part of an influencer campaign?",
+        answer:
+          "Yes. Some brands hand over the whole campaign; others want help with one stage, such as building a creator shortlist, managing creators they already work with, or reporting on a campaign their own team ran. The proposal lists exactly which stages Kudozz owns.",
+      },
+      {
+        question: "How does Kudozz choose creators for a campaign?",
+        answer:
+          "We start from your customer, not a follower count. Each candidate is checked for where their audience lives, its age and language, how genuine their engagement looks and whether they have worked with competitors recently. Every creator on the shortlist comes with the reason they are there, and you approve the final list.",
+      },
+      {
+        question: "Which platforms and creator tiers do you work with?",
+        answer:
+          "Mainly Instagram, YouTube and LinkedIn, with Snapchat, TikTok and X where they matter in a market, such as the UAE, Saudi Arabia, the UK and Australia. Creator tiers run from nano and micro creators to macro creators; most budgets work best as a mix sized to the objective.",
+      },
+      {
+        question: "Can we use the creators' content in our own ads?",
+        answer:
+          "Only if the contract says so. Usage rights, covering where the content can run, for how long and whether it can be used in paid ads, are negotiated with each creator before content is made, and they affect the fee. If you mainly need content for ads, UGC production is often the better fit.",
+      },
+      {
+        question: "How is influencer content disclosed?",
+        answer:
+          "Every sponsored post carries the label required in its market. In India that follows ASCI's influencer guidelines, for example 'Ad' or 'Collaboration'. The UK, UAE, Saudi Arabia and Australia have their own rules, which we build into briefs and check at the approval stage.",
+      },
+      {
+        question: "How do we start working with Kudozz on influencer marketing?",
+        answer:
+          "Send a brand inquiry with your objective, product, markets and rough budget. We come back with questions or a point of view, then a proposal covering the strategy, creator mix, timeline and fees before any work begins.",
+      },
+    ],
+    socialNote: {
+      before: "Running your own brand accounts as well? Creator campaigns land better when your feed is ready for the attention. See ",
+      linkText: "social media management",
+      after: ", which can run on the same calendar as your influencer campaigns.",
+    },
+    motif: "orbit",
+  },
   {
     slug: "campaign-strategy",
     answer: {
@@ -1624,6 +1747,14 @@ export const serviceCategories: ServiceCategory[] = [
     description: "Strategy, content, publishing, community and reporting for your brand's own social accounts.",
     slugs: ["social-media-management"],
   },
+  {
+    // Appended (2026-11 SEO audit) so existing display numbers don't change; SERVICE_PILLARS lists it first, and
+    // the hub orders categories by the pillar's categoryIds.
+    id: "influencer-overview",
+    name: "Start here",
+    description: "The complete influencer marketing service, from objective and creator selection to reporting.",
+    slugs: ["influencer-marketing"],
+  },
 ];
 
 /**
@@ -1641,7 +1772,7 @@ export const SERVICE_PILLARS: { id: string; name: string; description: string; c
     id: "influencer-marketing",
     name: "Influencer Marketing",
     description: "Creator campaigns from strategy and discovery to outreach, launches and reporting.",
-    categoryIds: ["plan-and-manage", "campaign-types", "platforms", "audiences"],
+    categoryIds: ["influencer-overview", "plan-and-manage", "campaign-types", "platforms", "audiences"],
   },
   {
     id: "ugc-content-creation",

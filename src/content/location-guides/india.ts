@@ -22,7 +22,7 @@ export const indiaPost: BlogPost = {
   excerpt:
     "Five influencer marketing agencies Indian brands can consider, with Kudozz first and four researched alternatives, plus how agencies in India work, what they cost, and how to choose one for national or regional campaigns.",
   metaDescription:
-    "Looking for an influencer marketing agency in India? Compare Kudozz and four researched alternatives, see what agencies do and cost, and find state and city guides.",
+    "Compare influencer marketing agencies in India: Kudozz and four researched alternatives, what agencies do and cost, plus state and city guides.",
   author: AUTHOR,
   publishedAt: "2026-09-10",
   lastReviewed: REVIEWED,
@@ -65,6 +65,7 @@ export const indiaPost: BlogPost = {
     {
       type: "paragraph",
       text: "The way Kudozz plans a campaign is published on its service pages: agree the business objective and one primary KPI before outreach, map platforms and formats to the audience, size a creator mix of nano, micro and mid-tier creators to the budget, then screen every candidate for audience fit, engagement quality and authenticity before a shortlist reaches the brand. Each shortlisted creator comes with a written reason. Contracts cover deliverables, timelines and usage rights up front, and reporting is broken down by creator against the KPI set at kickoff.",
+      links: [{ text: "its service pages", href: "/services/influencer-marketing" }],
     },
     KUDOZZ_SERVICES,
     {

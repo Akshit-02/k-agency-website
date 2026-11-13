@@ -23,7 +23,11 @@ const TOPIC_TO_SERVICE: [RegExp, string][] = [
   [/Discovery|Selection|Marketplace|Technology|Vetting/i, "creator-discovery"],
   [/Management|Compliance|Legal|Governance|Onboarding|Team|Contract/i, "outreach-management"],
   [/^(X|Instagram|YouTube|LinkedIn|Snapchat|Pinterest|Reddit|Podcast|TikTok|Livestream|Platform)|Event|Seasonal|Ramadan|Retail/i, "social-campaigns"],
+  [/Plan|Budget|Pricing|Strateg/i, "campaign-strategy"],
 ];
+
+/** Generic topics (location, industry, agency comparison, general) link the influencer marketing pillar page. */
+const FALLBACK_SERVICE = "influencer-marketing";
 
 function marketFor(post: BlogPost, topic: string): Market | "all" | undefined {
   const place = `${post.spatialCoverage ?? ""} ${topic}`;
@@ -45,7 +49,7 @@ export function getBlogServiceLink(post: BlogPost, ctaSet: BlogCtaSet): { servic
   const market = marketFor(post, ctaSet.topic);
   if (ctaSet.mid.href.startsWith("/services/")) return market ? { market } : null;
   const topic = ctaSet.topic.replace(/^(UAE|KSA|GCC|AU|UK|SG):\s*/, "");
-  const slug = TOPIC_TO_SERVICE.find(([re]) => re.test(topic))?.[1] ?? "campaign-strategy";
+  const slug = TOPIC_TO_SERVICE.find(([re]) => re.test(topic))?.[1] ?? FALLBACK_SERVICE;
   const service = getServiceBySlug(slug);
   if (!service) return null;
   return { service, market };

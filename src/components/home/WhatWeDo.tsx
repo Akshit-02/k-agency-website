@@ -8,7 +8,8 @@ import { Reveal } from "@/components/animations/Reveal";
 
 export function WhatWeDo() {
   // Influencer marketing detail; social media management is introduced in ServiceAreas above.
-  const categories = getServicesByCategory().filter((c) => c.id !== "social-media");
+  // The overview category holds the pillar page itself, linked from the button below rather than the grid.
+  const categories = getServicesByCategory().filter((c) => c.id !== "social-media" && c.id !== "influencer-overview");
   const core = categories.find((c) => c.id === "plan-and-manage") ?? categories[0];
   const rest = categories.filter((c) => c.id !== core.id);
 
@@ -21,7 +22,8 @@ export function WhatWeDo() {
             title="Influencer marketing services, from strategy to reporting."
             description="Influencer marketing is where Kudozz started, and it's still at the centre of what we do. Hire us for the whole campaign or for the one piece your team can't cover."
           />
-          <Reveal delay={0.15}>
+          <Reveal delay={0.15} className="flex flex-wrap gap-3">
+            <Button href="/services/influencer-marketing">Explore Influencer Marketing</Button>
             <Button href="/services" variant="secondary">
               View All Services
             </Button>

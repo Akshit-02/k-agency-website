@@ -27646,9 +27646,10 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "To see how specific agencies package these services, compare Kudozz with four alternatives in the best influencer marketing agencies in India.",
+        text: "To see how specific agencies package these services, compare Kudozz with four alternatives in the best influencer marketing agencies in India. For what Kudozz itself covers at each stage, see Kudozz's influencer marketing services.",
         links: [
           { text: "best influencer marketing agencies in India", href: "/blog/best-influencer-marketing-agencies-in-india" },
+          { text: "Kudozz's influencer marketing services", href: "/services/influencer-marketing" },
         ],
       },
       { type: "heading", text: "Services that genuinely vary between agencies", id: "services-that-vary" },
@@ -31072,7 +31073,8 @@ const corePosts: BlogPost[] = [
     category: "Campaign Strategy",
     title: "How Much Does Influencer Marketing Cost in India?",
     seoTitle: "How Much Does Influencer Marketing Cost in India?",
-    metaDescription: "What influencer marketing costs in India: the factors behind creator fees, why published 2026 rate guides disagree, agency fees and a method to price your campaign.",
+    metaDescription:
+      "What influencer marketing costs in India: the factors behind creator fees, why 2026 rate guides disagree, agency fees and a method to price your campaign.",
     excerpt:
       "What drives influencer marketing costs in India, what published 2026 rate guides say and why they disagree, how agency fees fit in, and a method to price your own campaign from real quotes.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
@@ -38422,7 +38424,7 @@ const corePosts: BlogPost[] = [
     excerpt:
       "A clear definition of influencer marketing: how it works, how it helps a business grow, the types of influencers and campaigns, costs, rules, common mistakes and how brands get started.",
     metaDescription:
-      "What influencer marketing is, how it works and how it helps a business grow through reach, trust, content and sales, plus influencer types, costs, rules and a first step.",
+      "What influencer marketing is, how it works and how it helps a business grow through reach, trust, content and sales, plus influencer types, costs and rules.",
     author: { name: "Kudozz Strategy Team", role: "Agency Team" },
     publishedAt: "2026-09-05",
     updatedAt: "2026-10-14",

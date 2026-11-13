@@ -174,7 +174,7 @@ export const rightsAndAnalyticsPosts: BlogPost[] = [
     slug: "creator-whitelisting",
     category: "Creator Resources",
     title: "Creator Whitelisting: Complete Guide to Allowing Brands to Run Ads With Your Content",
-    seoTitle: "Creator Whitelisting: Letting Brands Run Ads With Your Content",
+    seoTitle: "Creator Whitelisting: How Brands Run Ads With Your Content",
     excerpt:
       "Whitelisting lets a brand run ads that appear to come from you. Here's how it differs from licensing and paid amplification, how platform permissions work, what to charge for, and the risks to manage.",
     metaDescription:

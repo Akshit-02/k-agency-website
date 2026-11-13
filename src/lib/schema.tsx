@@ -214,6 +214,7 @@ export function serviceSchema(service: Service, url: string) {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
+    "@id": `${url}#service`,
     name: service.name,
     description: service.description,
     disambiguatingDescription: service.answer.text,
@@ -261,7 +262,8 @@ export function JsonLd({ data }: { data: Record<string, unknown> }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      // "<" is escaped so text such as "</script>" inside content can never close the tag early.
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, "\\u003c") }}
     />
   );
 }

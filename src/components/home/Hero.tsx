@@ -38,7 +38,7 @@ export function Hero() {
             >
               <span className="inline-flex items-center gap-2 border-[1.5px] border-ink px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] sm:text-sm">
                 <span className="h-1.5 w-1.5 rounded-full bg-coral" aria-hidden="true" />
-                Best Influencer Marketing Agency in India
+                Influencer Marketing &amp; Social Media Agency in India
                 <span className="sr-only">:</span>
               </span>
               <span className="mt-6 block font-display text-[11vw] leading-[0.98] tracking-tight text-balance sm:text-6xl lg:text-[4.1rem]">

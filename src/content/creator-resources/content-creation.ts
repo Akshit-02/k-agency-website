@@ -551,7 +551,7 @@ export const contentCreationPosts: BlogPost[] = [
     excerpt:
       "Fifty hook templates grouped by type, with niche examples, plus the rules that make a hook honest and effective, and how to test which hooks actually hold viewers.",
     metaDescription:
-      "50 short-form video hook ideas for Reels and Shorts, grouped by type (question, result, mistake, myth, list, story, challenge), with niche examples, visual and text hooks, and how to test hooks honestly.",
+      "50 short-form video hooks for Reels and Shorts, grouped by type (question, result, mistake, myth, story and more), with niche examples and how to test them.",
     author: CREATOR_AUTHOR,
     publishedAt: PUBLISHED,
     updatedAt: "2026-09-29",
