@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">One region, three content briefs</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">DELHI NCR: BUSINESS MIX TO CONTENT NEEDS</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">One region, three content briefs</text>
+<rect x="78" y="178" width="446" height="60" fill="#150F0B"/>
+<rect x="70" y="170" width="446" height="60" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="293" y="208" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Delhi</text>
+<path d="M293 238 L293 262" stroke="#150F0B" stroke-width="4"/><path d="M285 253 L293 262 L301 253" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="270" width="446" height="100" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="306" font-size="19" fill="#150F0B" opacity=".9">Education, healthcare</text>
+<text x="92" y="334" font-size="19" fill="#150F0B" opacity=".9">Hospitality, retail</text>
+<path d="M293 378 L293 402" stroke="#150F0B" stroke-width="4"/><path d="M285 393 L293 402 L301 393" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="82" y="422" width="446" height="100" fill="#150F0B"/>
+<rect x="70" y="410" width="446" height="100" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="454" font-size="24" font-weight="700" fill="#150F0B">Instagram first</text>
+<text x="92" y="492" font-size="19" fill="#150F0B" opacity=".9">Reels, offers, FAQs</text>
+<rect x="584" y="178" width="446" height="60" fill="#150F0B"/>
+<rect x="576" y="170" width="446" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="799" y="208" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Gurugram</text>
+<path d="M799 238 L799 262" stroke="#150F0B" stroke-width="4"/><path d="M791 253 L799 262 L807 253" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="576" y="270" width="446" height="100" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="598" y="306" font-size="19" fill="#150F0B" opacity=".9">BPM, IT services</text>
+<text x="598" y="334" font-size="19" fill="#150F0B" opacity=".9">Auto, corporate</text>
+<path d="M799 378 L799 402" stroke="#150F0B" stroke-width="4"/><path d="M791 393 L799 402 L807 393" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="588" y="422" width="446" height="100" fill="#150F0B"/>
+<rect x="576" y="410" width="446" height="100" fill="#FAF1E2" stroke="#150F0B" stroke-width="4"/>
+<text x="598" y="454" font-size="24" font-weight="700" fill="#150F0B">LinkedIn first</text>
+<text x="598" y="492" font-size="19" fill="#150F0B" opacity=".9">Leaders, hiring posts</text>
+<rect x="1090" y="178" width="446" height="60" fill="#150F0B"/>
+<rect x="1082" y="170" width="446" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1305" y="208" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Noida</text>
+<path d="M1305 238 L1305 262" stroke="#150F0B" stroke-width="4"/><path d="M1297 253 L1305 262 L1313 253" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1082" y="270" width="446" height="100" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1104" y="306" font-size="19" fill="#150F0B" opacity=".9">IT and ITeS firms</text>
+<text x="1104" y="334" font-size="19" fill="#150F0B" opacity=".9">Product companies</text>
+<path d="M1305 378 L1305 402" stroke="#150F0B" stroke-width="4"/><path d="M1297 393 L1305 402 L1313 393" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1094" y="422" width="446" height="100" fill="#150F0B"/>
+<rect x="1082" y="410" width="446" height="100" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1104" y="454" font-size="24" font-weight="700" fill="#150F0B">LinkedIn + YouTube</text>
+<text x="1104" y="492" font-size="19" fill="#150F0B" opacity=".9">Explainers, webinars</text>
+<rect x="78" y="578" width="335" height="64" fill="#150F0B"/>
+<rect x="70" y="570" width="335" height="64" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="237" y="610" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Diwali</text>
+<rect x="453" y="578" width="335" height="64" fill="#150F0B"/>
+<rect x="445" y="570" width="335" height="64" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="612" y="610" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Wedding season</text>
+<rect x="828" y="578" width="335" height="64" fill="#150F0B"/>
+<rect x="820" y="570" width="335" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="987" y="610" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Winter air days</text>
+<rect x="1203" y="578" width="335" height="64" fill="#150F0B"/>
+<rect x="1195" y="570" width="335" height="64" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1362" y="610" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Admissions cycles</text>
+</svg>

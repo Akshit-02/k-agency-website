@@ -60,6 +60,16 @@ import { smmPropertyPosts } from "@/content/brand-guides/smm-property";
 import { smmDesignLifestylePosts } from "@/content/brand-guides/smm-design-lifestyle";
 import { smmSectorPosts } from "@/content/brand-guides/smm-sectors";
 import { smmHealthEducationPosts } from "@/content/brand-guides/smm-health-education";
+import { smmD2cCustomerPosts } from "@/content/brand-guides/smm-d2c-customers";
+import { smmD2cPlanningPosts } from "@/content/brand-guides/smm-d2c-planning";
+import { smmFoodPosts } from "@/content/brand-guides/smm-food";
+import { smmRestaurantPosts } from "@/content/brand-guides/smm-restaurants";
+import { smmRetailPosts } from "@/content/brand-guides/smm-retail";
+import { smmSalonPosts } from "@/content/brand-guides/smm-salons";
+import { smmMedicalPosts } from "@/content/brand-guides/smm-medical";
+import { smmDentalVetPosts } from "@/content/brand-guides/smm-dental-vet";
+import { smmFitnessPosts } from "@/content/brand-guides/smm-fitness";
+import { smmLocalServicePosts } from "@/content/brand-guides/smm-local-services";
 
 /**
  * Brand lead-generation cluster (900–949): new brand-side guides kept outside blog.ts's core array.
@@ -160,4 +170,17 @@ export const brandGuidePosts: BlogPost[] = [
   ...smmDesignLifestylePosts,
   ...smmSectorPosts,
   ...smmHealthEducationPosts,
+  // Social media management batch 04 (2026-11-12/13): D2C, food, restaurants and retail. See reports/social-media-management-batch-04/.
+  ...smmD2cCustomerPosts,
+  ...smmD2cPlanningPosts,
+  ...smmFoodPosts,
+  ...smmRestaurantPosts,
+  ...smmRetailPosts,
+  // Social media management batch 05 (2026-11-13): salons, healthcare practices, fitness, coaches and local services.
+  // Regulated healthcare guides (smm-medical, smm-dental-vet) need professional review before release. See reports/social-media-management-batch-05/.
+  ...smmSalonPosts,
+  ...smmMedicalPosts,
+  ...smmDentalVetPosts,
+  ...smmFitnessPosts,
+  ...smmLocalServicePosts,
 ];

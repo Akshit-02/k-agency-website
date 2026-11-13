@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Four briefs, two big moments</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">KOLKATA: BUSINESS MIX TO CONTENT NEEDS</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">Four briefs, two big moments</text>
+<rect x="82" y="192" width="420" height="160" fill="#150F0B"/>
+<rect x="70" y="180" width="420" height="160" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="224" font-size="24" font-weight="700" fill="#150F0B">Poila Baishakh</text>
+<text x="92" y="262" font-size="19" fill="#150F0B" opacity=".9">Mid-April</text>
+<text x="92" y="290" font-size="19" fill="#150F0B" opacity=".9">Bengali New Year</text>
+<rect x="82" y="392" width="420" height="160" fill="#150F0B"/>
+<rect x="70" y="380" width="420" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="424" font-size="24" font-weight="700" fill="#150F0B">Durga Puja</text>
+<text x="92" y="462" font-size="19" fill="#150F0B" opacity=".9">September or October</text>
+<text x="92" y="490" font-size="19" fill="#150F0B" opacity=".9">Plan weeks ahead</text>
+<path d="M514 360 L562 360" stroke="#150F0B" stroke-width="4"/><path d="M553 352 L562 360 L553 368" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="582" y="192" width="460" height="160" fill="#150F0B"/>
+<rect x="570" y="180" width="460" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="592" y="224" font-size="24" font-weight="700" fill="#150F0B">Food and retail</text>
+<text x="592" y="262" font-size="19" fill="#150F0B" opacity=".9">Reels, menus, Pujo</text>
+<text x="592" y="290" font-size="19" fill="#150F0B" opacity=".9">Bengali captions</text>
+<rect x="1082" y="192" width="460" height="160" fill="#150F0B"/>
+<rect x="1070" y="180" width="460" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1092" y="224" font-size="24" font-weight="700" fill="#150F0B">Education, health</text>
+<text x="1092" y="262" font-size="19" fill="#150F0B" opacity=".9">Admissions, explainers</text>
+<text x="1092" y="290" font-size="19" fill="#150F0B" opacity=".9">Careful replies</text>
+<rect x="582" y="392" width="460" height="160" fill="#150F0B"/>
+<rect x="570" y="380" width="460" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="592" y="424" font-size="24" font-weight="700" fill="#150F0B">Tea, manufacturing</text>
+<text x="592" y="462" font-size="19" fill="#150F0B" opacity=".9">Buyers outside Bengal</text>
+<text x="592" y="490" font-size="19" fill="#150F0B" opacity=".9">LinkedIn, YouTube</text>
+<rect x="1082" y="392" width="460" height="160" fill="#150F0B"/>
+<rect x="1070" y="380" width="460" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1092" y="424" font-size="24" font-weight="700" fill="#FAF1E2">IT in Sector V</text>
+<text x="1092" y="462" font-size="19" fill="#FAF1E2" opacity=".9">Hiring posts</text>
+<text x="1092" y="490" font-size="19" fill="#FAF1E2" opacity=".9">Thought leadership</text>
+<rect x="78" y="598" width="460" height="60" fill="#150F0B"/>
+<rect x="70" y="590" width="460" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="300" y="628" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Bengali</text>
+<rect x="578" y="598" width="460" height="60" fill="#150F0B"/>
+<rect x="570" y="590" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="628" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Hindi</text>
+<rect x="1078" y="598" width="460" height="60" fill="#150F0B"/>
+<rect x="1070" y="590" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1300" y="628" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">English</text>
+</svg>

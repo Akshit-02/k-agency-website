@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Wellness claims ladder</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">WELLNESS BRANDS: SORT EVERY CLAIM BEFORE YOU POST</text>
+<rect x="82" y="432" width="340" height="170" fill="#150F0B"/>
+<rect x="70" y="420" width="340" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="466" font-size="24" font-weight="700" fill="#150F0B">1. Description</text>
+<text x="90" y="508" font-size="19" fill="#150F0B" opacity=".85">What it is, what is</text>
+<text x="90" y="538" font-size="19" fill="#150F0B" opacity=".85">in it, how to use it</text>
+<text x="90" y="619" font-size="19" font-weight="700" fill="#150F0B">Fine if accurate</text>
+<rect x="462" y="322" width="340" height="170" fill="#150F0B"/>
+<rect x="450" y="310" width="340" height="170" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="470" y="356" font-size="24" font-weight="700" fill="#150F0B">2. Structure/function</text>
+<text x="470" y="398" font-size="19" fill="#150F0B" opacity=".85">Needs evidence and</text>
+<text x="470" y="428" font-size="19" fill="#150F0B" opacity=".85">regulatory fit</text>
+<text x="470" y="509" font-size="19" font-weight="700" fill="#150F0B">Approved wording only</text>
+<rect x="842" y="212" width="340" height="170" fill="#150F0B"/>
+<rect x="830" y="200" width="340" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="850" y="246" font-size="24" font-weight="700" fill="#150F0B">3. Disease claim</text>
+<text x="850" y="288" font-size="19" fill="#150F0B" opacity=".85">Treats, cures or</text>
+<text x="850" y="318" font-size="19" fill="#150F0B" opacity=".85">prevents a disease</text>
+<text x="850" y="399" font-size="19" font-weight="700" fill="#150F0B">Prohibited for supplements</text>
+<rect x="1270" y="160" width="270" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1290" y="205" font-size="22" font-weight="700" fill="#FAF1E2">Check before</text>
+<text x="1290" y="240" font-size="22" font-weight="700" fill="#FAF1E2">publishing</text>
+<text x="70" y="670" font-size="18" fill="#150F0B" opacity=".75">Based on the DMR Act 1954, FSSAI nutraceutical and claims regulations, and the ASCI Code. Sign-off stays with the brand.</text>
+</svg>

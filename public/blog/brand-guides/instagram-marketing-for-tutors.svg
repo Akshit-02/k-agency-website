@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Two audiences, one trial class</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">TUTORS AND PRIVATE TEACHERS</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">Two audiences, one trial class</text>
+<rect x="82" y="192" width="470" height="170" fill="#150F0B"/>
+<rect x="70" y="180" width="470" height="170" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="224" font-size="26" font-weight="700" fill="#150F0B">Students want</text>
+<text x="92" y="262" font-size="20" fill="#150F0B" opacity=".9">Clear explanations</text>
+<text x="92" y="290" font-size="20" fill="#150F0B" opacity=".9">Solved questions</text>
+<text x="92" y="318" font-size="20" fill="#150F0B" opacity=".9">Study techniques</text>
+<rect x="82" y="402" width="470" height="170" fill="#150F0B"/>
+<rect x="70" y="390" width="470" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="434" font-size="26" font-weight="700" fill="#150F0B">Parents want</text>
+<text x="92" y="472" font-size="20" fill="#150F0B" opacity=".9">Method and progress</text>
+<text x="92" y="500" font-size="20" fill="#150F0B" opacity=".9">Safety and timings</text>
+<text x="92" y="528" font-size="20" fill="#150F0B" opacity=".9">Clear fee policy</text>
+<path d="M556 265 L630 265" stroke="#150F0B" stroke-width="4"/><path d="M621 257 L630 265 L621 273" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M556 475 L630 475" stroke="#150F0B" stroke-width="4"/><path d="M621 467 L630 475 L621 483" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="652" y="262" width="380" height="240" fill="#150F0B"/>
+<rect x="640" y="250" width="380" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="662" y="294" font-size="28" font-weight="700" fill="#FAF1E2">Trial class</text>
+<text x="662" y="332" font-size="21" fill="#FAF1E2" opacity=".9">Profile, Highlights,</text>
+<text x="662" y="360" font-size="21" fill="#FAF1E2" opacity=".9">WhatsApp reply,</text>
+<text x="662" y="388" font-size="21" fill="#FAF1E2" opacity=".9">no obligation</text>
+<text x="1090" y="200" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">GROUND RULES</text>
+<rect x="1090" y="215" width="440" height="54" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1310" y="250" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Parent consent first</text>
+<rect x="1090" y="287" width="440" height="54" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1310" y="322" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">No student faces</text>
+<rect x="1090" y="359" width="440" height="54" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1310" y="394" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">No private DMs</text>
+<rect x="1090" y="431" width="440" height="54" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1310" y="466" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Parents see contact</text>
+<rect x="1090" y="503" width="440" height="54" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1310" y="538" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">No rank claims</text>
+<text x="70" y="630" font-size="22" font-weight="700" fill="#150F0B">20 ideas: sample lessons, parent trust, study skills, about your tuition</text>
+</svg>

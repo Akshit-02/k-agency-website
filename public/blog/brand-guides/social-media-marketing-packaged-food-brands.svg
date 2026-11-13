@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Packaged food content pillars with a claims check</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">PACKAGED FOOD: FIVE PILLARS, ONE CLAIMS CHECK</text>
+<rect x="82" y="152" width="256" height="190" fill="#150F0B"/>
+<rect x="70" y="140" width="256" height="190" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="186" font-size="23" font-weight="700" fill="#FAF1E2">Recipes</text>
+<text x="90" y="228" font-size="18" fill="#FAF1E2" opacity=".85">Usage ideas,</text>
+<text x="90" y="258" font-size="18" fill="#FAF1E2" opacity=".85">pairings</text>
+<rect x="378" y="152" width="256" height="190" fill="#150F0B"/>
+<rect x="366" y="140" width="256" height="190" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="386" y="186" font-size="23" font-weight="700" fill="#150F0B">Pack and label</text>
+<text x="386" y="228" font-size="18" fill="#150F0B" opacity=".85">Serving size,</text>
+<text x="386" y="258" font-size="18" fill="#150F0B" opacity=".85">ingredients</text>
+<rect x="674" y="152" width="256" height="190" fill="#150F0B"/>
+<rect x="662" y="140" width="256" height="190" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="682" y="186" font-size="23" font-weight="700" fill="#150F0B">Sourcing</text>
+<text x="682" y="228" font-size="18" fill="#150F0B" opacity=".85">Only what you</text>
+<text x="682" y="258" font-size="18" fill="#150F0B" opacity=".85">can evidence</text>
+<rect x="970" y="152" width="256" height="190" fill="#150F0B"/>
+<rect x="958" y="140" width="256" height="190" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="978" y="186" font-size="23" font-weight="700" fill="#150F0B">Availability</text>
+<text x="978" y="228" font-size="18" fill="#150F0B" opacity=".85">Cities, apps,</text>
+<text x="978" y="258" font-size="18" fill="#150F0B" opacity=".85">date checked</text>
+<rect x="1266" y="152" width="256" height="190" fill="#150F0B"/>
+<rect x="1254" y="140" width="256" height="190" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1274" y="186" font-size="23" font-weight="700" fill="#FAF1E2">Community</text>
+<text x="1274" y="228" font-size="18" fill="#FAF1E2" opacity=".85">Reposts with</text>
+<text x="1274" y="258" font-size="18" fill="#FAF1E2" opacity=".85">permission</text>
+<rect x="82" y="412" width="1460" height="110" fill="#150F0B"/>
+<rect x="70" y="400" width="1460" height="110" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="445" font-size="26" font-weight="700" text-anchor="middle" fill="#150F0B">Claims check before publishing</text>
+<text x="800" y="485" font-size="20" text-anchor="middle" fill="#150F0B" opacity=".85">Matches the label. No disease claims. Restricted words cleared. Offer terms stated.</text>
+<line x1="198" y1="342" x2="198" y2="386" stroke="#150F0B" stroke-width="4"/>
+<polygon points="198,398 189,384 207,384" fill="#150F0B"/>
+<line x1="494" y1="342" x2="494" y2="386" stroke="#150F0B" stroke-width="4"/>
+<polygon points="494,398 485,384 503,384" fill="#150F0B"/>
+<line x1="790" y1="342" x2="790" y2="386" stroke="#150F0B" stroke-width="4"/>
+<polygon points="790,398 781,384 799,384" fill="#150F0B"/>
+<line x1="1086" y1="342" x2="1086" y2="386" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1086,398 1077,384 1095,384" fill="#150F0B"/>
+<line x1="1382" y1="342" x2="1382" y2="386" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1382,398 1373,384 1391,384" fill="#150F0B"/>
+<text x="70" y="600" font-size="20" fill="#150F0B" opacity=".75">Based on FSSAI Advertising and Claims Regulations, 2018 and the ASCI Code. Regulatory sign-off stays with the brand.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Restaurant shoot brief in five steps</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">A RESTAURANT SHOOT BRIEF: FIVE STEPS ON ONE PAGE</text>
+<rect x="64" y="192" width="244" height="240" fill="#150F0B"/>
+<rect x="52" y="180" width="244" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="74" y="228" font-size="24" font-weight="700" fill="#FAF1E2">1. Purpose</text>
+<text x="74" y="270" font-size="19" fill="#FAF1E2" opacity=".9">Menu launch or</text>
+<text x="74" y="300" font-size="19" fill="#FAF1E2" opacity=".9">content bank</text>
+<text x="74" y="330" font-size="19" fill="#FAF1E2" opacity=".9">Channels listed</text>
+<rect x="368" y="192" width="244" height="240" fill="#150F0B"/>
+<rect x="356" y="180" width="244" height="240" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="378" y="228" font-size="24" font-weight="700" fill="#150F0B">2. Dish list</text>
+<text x="378" y="270" font-size="19" fill="#150F0B" opacity=".9">Chef signs off</text>
+<text x="378" y="300" font-size="19" fill="#150F0B" opacity=".9">real portions</text>
+<text x="378" y="330" font-size="19" fill="#150F0B" opacity=".9">and garnish</text>
+<rect x="672" y="192" width="244" height="240" fill="#150F0B"/>
+<rect x="660" y="180" width="244" height="240" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="682" y="228" font-size="24" font-weight="700" fill="#150F0B">3. Shot list</text>
+<text x="682" y="270" font-size="19" fill="#150F0B" opacity=".9">Overhead, angled</text>
+<text x="682" y="300" font-size="19" fill="#150F0B" opacity=".9">detail, action</text>
+<text x="682" y="330" font-size="19" fill="#150F0B" opacity=".9">vertical clips</text>
+<rect x="976" y="192" width="244" height="240" fill="#150F0B"/>
+<rect x="964" y="180" width="244" height="240" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="986" y="228" font-size="24" font-weight="700" fill="#150F0B">4. Shoot day</text>
+<text x="986" y="270" font-size="19" fill="#150F0B" opacity=".9">Between services</text>
+<text x="986" y="300" font-size="19" fill="#150F0B" opacity=".9">daylight tables</text>
+<text x="986" y="330" font-size="19" fill="#150F0B" opacity=".9">plate in batches</text>
+<rect x="1280" y="192" width="244" height="240" fill="#150F0B"/>
+<rect x="1268" y="180" width="244" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1290" y="228" font-size="24" font-weight="700" fill="#FAF1E2">5. Approve</text>
+<text x="1290" y="270" font-size="19" fill="#FAF1E2" opacity=".9">Chef: accuracy</text>
+<text x="1290" y="300" font-size="19" fill="#FAF1E2" opacity=".9">Owner: brand</text>
+<text x="1290" y="330" font-size="19" fill="#FAF1E2" opacity=".9">Team: channel</text>
+<path d="M312 300 L350 300" stroke="#150F0B" stroke-width="4"/><path d="M338 290 L352 300 L338 310" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M616 300 L654 300" stroke="#150F0B" stroke-width="4"/><path d="M642 290 L656 300 L642 310" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M920 300 L958 300" stroke="#150F0B" stroke-width="4"/><path d="M946 290 L960 300 L946 310" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1224 300 L1262 300" stroke="#150F0B" stroke-width="4"/><path d="M1250 290 L1264 300 L1250 310" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Shoot every dish exactly as the customer receives it.</text>
+</svg>

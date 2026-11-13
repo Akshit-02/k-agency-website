@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Pune: business mix mapped to platforms and content, with local calendar moments</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="80" font-size="22" font-weight="700" fill="#150F0B" opacity=".8" letter-spacing="1">PUNE: B2B AND CAMPUS NEXT TO CAFES AND STORES</text>
+<rect x="82" y="122" width="320" height="150" fill="#150F0B"/>
+<rect x="70" y="110" width="320" height="150" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="156" font-size="24" font-weight="700" fill="#FAF1E2">IT and ITES</text>
+<text x="92" y="200" font-size="19" fill="#FAF1E2" opacity=".9">Hinjawadi and</text>
+<text x="92" y="230" font-size="19" fill="#FAF1E2" opacity=".9">other IT parks</text>
+<line x1="230" y1="272" x2="230" y2="318" stroke="#150F0B" stroke-width="4"/>
+<polygon points="220,316 240,316 230,332" fill="#150F0B"/>
+<rect x="82" y="348" width="320" height="200" fill="#150F0B"/>
+<rect x="70" y="336" width="320" height="200" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="382" font-size="24" font-weight="700" fill="#150F0B">LinkedIn first</text>
+<text x="92" y="426" font-size="19" fill="#150F0B" opacity=".9">Employer brand</text>
+<text x="92" y="456" font-size="19" fill="#150F0B" opacity=".9">Team stories</text>
+<text x="92" y="486" font-size="19" fill="#150F0B" opacity=".9">Thought pieces</text>
+<rect x="458" y="122" width="320" height="150" fill="#150F0B"/>
+<rect x="446" y="110" width="320" height="150" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="468" y="156" font-size="24" font-weight="700" fill="#150F0B">Auto and making</text>
+<text x="468" y="200" font-size="19" fill="#150F0B" opacity=".9">Chakan belt,</text>
+<text x="468" y="230" font-size="19" fill="#150F0B" opacity=".9">component makers</text>
+<line x1="606" y1="272" x2="606" y2="318" stroke="#150F0B" stroke-width="4"/>
+<polygon points="596,316 616,316 606,332" fill="#150F0B"/>
+<rect x="458" y="348" width="320" height="200" fill="#150F0B"/>
+<rect x="446" y="336" width="320" height="200" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="468" y="382" font-size="24" font-weight="700" fill="#150F0B">LinkedIn, YouTube</text>
+<text x="468" y="426" font-size="19" fill="#150F0B" opacity=".9">Plant videos</text>
+<text x="468" y="456" font-size="19" fill="#150F0B" opacity=".9">Dealer updates</text>
+<text x="468" y="486" font-size="19" fill="#150F0B" opacity=".9">Trade fairs</text>
+<rect x="834" y="122" width="320" height="150" fill="#150F0B"/>
+<rect x="822" y="110" width="320" height="150" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="844" y="156" font-size="24" font-weight="700" fill="#150F0B">Education</text>
+<text x="844" y="200" font-size="19" fill="#150F0B" opacity=".9">Colleges, schools</text>
+<text x="844" y="230" font-size="19" fill="#150F0B" opacity=".9">and coaching</text>
+<line x1="982" y1="272" x2="982" y2="318" stroke="#150F0B" stroke-width="4"/>
+<polygon points="972,316 992,316 982,332" fill="#150F0B"/>
+<rect x="834" y="348" width="320" height="200" fill="#150F0B"/>
+<rect x="822" y="336" width="320" height="200" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="844" y="382" font-size="24" font-weight="700" fill="#150F0B">Instagram, YT</text>
+<text x="844" y="426" font-size="19" fill="#150F0B" opacity=".9">Admissions cycle</text>
+<text x="844" y="456" font-size="19" fill="#150F0B" opacity=".9">Campus life</text>
+<text x="844" y="486" font-size="19" fill="#150F0B" opacity=".9">WhatsApp replies</text>
+<rect x="1210" y="122" width="320" height="150" fill="#150F0B"/>
+<rect x="1198" y="110" width="320" height="150" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1220" y="156" font-size="24" font-weight="700" fill="#150F0B">Startups and local</text>
+<text x="1220" y="200" font-size="19" fill="#150F0B" opacity=".9">Cafes, clinics,</text>
+<text x="1220" y="230" font-size="19" fill="#150F0B" opacity=".9">retail, D2C</text>
+<line x1="1358" y1="272" x2="1358" y2="318" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1348,316 1368,316 1358,332" fill="#150F0B"/>
+<rect x="1210" y="348" width="320" height="200" fill="#150F0B"/>
+<rect x="1198" y="336" width="320" height="200" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1220" y="382" font-size="24" font-weight="700" fill="#150F0B">Instagram first</text>
+<text x="1220" y="426" font-size="19" fill="#150F0B" opacity=".9">Weekly Reels</text>
+<text x="1220" y="456" font-size="19" fill="#150F0B" opacity=".9">Local offers</text>
+<text x="1220" y="486" font-size="19" fill="#150F0B" opacity=".9">Neighbourhood</text>
+<rect x="70" y="586" width="1460" height="64" fill="#150F0B"/>
+<text x="800" y="627" font-size="25" font-weight="700" text-anchor="middle" fill="#CCFF3D">Calendar: Ganeshotsav, Diwali, admissions and December music</text>
+</svg>

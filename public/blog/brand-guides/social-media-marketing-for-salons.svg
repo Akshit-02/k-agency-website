@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Salon enquiry journey</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">SALONS: FROM REEL TO REPEAT VISIT</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">The salon enquiry journey</text>
+<rect x="82" y="192" width="420" height="150" fill="#150F0B"/>
+<rect x="70" y="180" width="420" height="150" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="222" font-size="24" font-weight="700" fill="#150F0B">1. Sees a Reel</text>
+<text x="90" y="260" font-size="20" fill="#150F0B" opacity=".9">Service named,</text>
+<text x="90" y="288" font-size="20" fill="#150F0B" opacity=".9">area in caption</text>
+<path d="M510 260 L552 260" stroke="#150F0B" stroke-width="4"/>
+<path d="M543 252 L552 260 L543 268" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="572" y="192" width="420" height="150" fill="#150F0B"/>
+<rect x="560" y="180" width="420" height="150" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="580" y="222" font-size="24" font-weight="700" fill="#150F0B">2. Visits profile</text>
+<text x="580" y="260" font-size="20" fill="#150F0B" opacity=".9">Bio, Highlights,</text>
+<text x="580" y="288" font-size="20" fill="#150F0B" opacity=".9">one booking route</text>
+<path d="M1000 260 L1042 260" stroke="#150F0B" stroke-width="4"/>
+<path d="M1033 252 L1042 260 L1033 268" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1062" y="192" width="420" height="150" fill="#150F0B"/>
+<rect x="1050" y="180" width="420" height="150" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="1070" y="222" font-size="24" font-weight="700" fill="#150F0B">3. Sends a DM</text>
+<text x="1070" y="260" font-size="20" fill="#150F0B" opacity=".9">'Price?' answered</text>
+<text x="1070" y="288" font-size="20" fill="#150F0B" opacity=".9">within hours</text>
+<rect x="1062" y="422" width="420" height="150" fill="#150F0B"/>
+<rect x="1050" y="410" width="420" height="150" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1070" y="452" font-size="24" font-weight="700" fill="#150F0B">4. Books</text>
+<text x="1070" y="490" font-size="20" fill="#150F0B" opacity=".9">Slots offered,</text>
+<text x="1070" y="518" font-size="20" fill="#150F0B" opacity=".9">stylist named</text>
+<path d="M1042 490 L1000 490" stroke="#150F0B" stroke-width="4"/>
+<path d="M1009 482 L1000 490 L1009 498" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="572" y="422" width="420" height="150" fill="#150F0B"/>
+<rect x="560" y="410" width="420" height="150" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="580" y="452" font-size="24" font-weight="700" fill="#150F0B">5. Visits</text>
+<text x="580" y="490" font-size="20" fill="#150F0B" opacity=".9">Service, aftercare,</text>
+<text x="580" y="518" font-size="20" fill="#150F0B" opacity=".9">photo consent</text>
+<path d="M552 490 L510 490" stroke="#150F0B" stroke-width="4"/>
+<path d="M519 482 L510 490 L519 498" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="82" y="422" width="420" height="150" fill="#150F0B"/>
+<rect x="70" y="410" width="420" height="150" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="452" font-size="24" font-weight="700" fill="#150F0B">6. Comes back</text>
+<text x="90" y="490" font-size="20" fill="#150F0B" opacity=".9">Rebook at checkout,</text>
+<text x="90" y="518" font-size="20" fill="#150F0B" opacity=".9">opted-in reminders</text>
+<path d="M1260 346 L1260 396" stroke="#150F0B" stroke-width="4"/>
+<path d="M1252 387 L1260 396 L1268 387" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="70" y="615" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">COUNT: ENQUIRIES BY SOURCE, REPLY TIME, BOOKINGS, REPEAT VISITS</text>
+</svg>

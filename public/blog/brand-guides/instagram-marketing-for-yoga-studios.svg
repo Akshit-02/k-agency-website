@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A month of yoga studio content</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">YOGA STUDIOS: COMMUNITY BEYOND CLASSES</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">A month of yoga studio content</text>
+<rect x="82" y="192" width="320" height="190" fill="#150F0B"/>
+<rect x="70" y="180" width="320" height="190" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="222" font-size="26" font-weight="700" fill="#150F0B">Week 1</text>
+<text x="90" y="260" font-size="20" fill="#150F0B" opacity=".9">Arrive</text>
+<text x="90" y="288" font-size="20" fill="#150F0B" opacity=".9">First class guide,</text>
+<text x="90" y="316" font-size="20" fill="#150F0B" opacity=".9">posture glossary</text>
+<path d="M408 275 L444 275" stroke="#150F0B" stroke-width="4"/>
+<path d="M435 267 L444 275 L435 283" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="462" y="192" width="320" height="190" fill="#150F0B"/>
+<rect x="450" y="180" width="320" height="190" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="470" y="222" font-size="26" font-weight="700" fill="#150F0B">Week 2</text>
+<text x="470" y="260" font-size="20" fill="#150F0B" opacity=".9">Teachers</text>
+<text x="470" y="288" font-size="20" fill="#150F0B" opacity=".9">Real credentials,</text>
+<text x="470" y="316" font-size="20" fill="#150F0B" opacity=".9">prop demos</text>
+<path d="M788 275 L824 275" stroke="#150F0B" stroke-width="4"/>
+<path d="M815 267 L824 275 L815 283" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="842" y="192" width="320" height="190" fill="#150F0B"/>
+<rect x="830" y="180" width="320" height="190" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="850" y="222" font-size="26" font-weight="700" fill="#150F0B">Week 3</text>
+<text x="850" y="260" font-size="20" fill="#150F0B" opacity=".9">Community</text>
+<text x="850" y="288" font-size="20" fill="#150F0B" opacity=".9">Workshops, events,</text>
+<text x="850" y="316" font-size="20" fill="#150F0B" opacity=".9">consented stories</text>
+<path d="M1168 275 L1204 275" stroke="#150F0B" stroke-width="4"/>
+<path d="M1195 267 L1204 275 L1195 283" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1222" y="192" width="320" height="190" fill="#150F0B"/>
+<rect x="1210" y="180" width="320" height="190" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1230" y="222" font-size="26" font-weight="700" fill="#150F0B">Week 4</text>
+<text x="1230" y="260" font-size="20" fill="#150F0B" opacity=".9">Studio life</text>
+<text x="1230" y="288" font-size="20" fill="#150F0B" opacity=".9">The space, etiquette,</text>
+<text x="1230" y="316" font-size="20" fill="#150F0B" opacity=".9">next month</text>
+<text x="70" y="430" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">EVERY WEEK IN STORIES</text>
+<rect x="70" y="445" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="300.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Timetable</text>
+<rect x="570" y="445" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="800.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Question box</text>
+<rect x="1070" y="445" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1300.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Holiday hours</text>
+<text x="70" y="565" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">WORDING RULE</text>
+<rect x="70" y="580" width="710" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="425.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Describe the class</text>
+<rect x="820" y="580" width="710" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1175.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Don't promise the outcome</text>
+</svg>

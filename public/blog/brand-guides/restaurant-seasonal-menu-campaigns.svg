@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Six-week restaurant campaign timeline</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">A SEASONAL MENU CAMPAIGN, WEEK BY WEEK</text>
+<rect x="76" y="202" width="214" height="210" fill="#150F0B"/>
+<rect x="64" y="190" width="214" height="210" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="86" y="238" font-size="24" font-weight="700" fill="#FAF1E2">Wk -3 Plan</text>
+<text x="86" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Dishes, prices</text>
+<text x="86" y="310" font-size="19" fill="#FAF1E2" opacity=".9">Campaign brief</text>
+<rect x="326" y="202" width="214" height="210" fill="#150F0B"/>
+<rect x="314" y="190" width="214" height="210" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="336" y="238" font-size="24" font-weight="700" fill="#150F0B">Wk -2 Shoot</text>
+<text x="336" y="280" font-size="19" fill="#150F0B" opacity=".9">Plate and film</text>
+<text x="336" y="310" font-size="19" fill="#150F0B" opacity=".9">Edit and write</text>
+<rect x="576" y="202" width="214" height="210" fill="#150F0B"/>
+<rect x="564" y="190" width="214" height="210" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="586" y="238" font-size="24" font-weight="700" fill="#150F0B">Wk -1 Tease</text>
+<text x="586" y="280" font-size="19" fill="#150F0B" opacity=".9">Two teasers</text>
+<text x="586" y="310" font-size="19" fill="#150F0B" opacity=".9">Staff tasting</text>
+<rect x="826" y="202" width="214" height="210" fill="#150F0B"/>
+<rect x="814" y="190" width="214" height="210" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="836" y="238" font-size="24" font-weight="700" fill="#150F0B">Wk 0 Launch</text>
+<text x="836" y="280" font-size="19" fill="#150F0B" opacity=".9">Menu carousel</text>
+<text x="836" y="310" font-size="19" fill="#150F0B" opacity=".9">Pinned post</text>
+<rect x="1076" y="202" width="214" height="210" fill="#150F0B"/>
+<rect x="1064" y="190" width="214" height="210" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1086" y="238" font-size="24" font-weight="700" fill="#FAF1E2">Wk 1-2 Run</text>
+<text x="1086" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Dish Reels</text>
+<text x="1086" y="310" font-size="19" fill="#FAF1E2" opacity=".9">Guest reshares</text>
+<rect x="1326" y="202" width="214" height="210" fill="#150F0B"/>
+<rect x="1314" y="190" width="214" height="210" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1336" y="238" font-size="24" font-weight="700" fill="#FAF1E2">Wk 3 Close</text>
+<text x="1336" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Real end date</text>
+<text x="1336" y="310" font-size="19" fill="#FAF1E2" opacity=".9">Sales debrief</text>
+<path d="M70 450 L1520 450" stroke="#150F0B" stroke-width="4"/><circle cx="171" cy="450" r="10" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/><circle cx="421" cy="450" r="10" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/><circle cx="671" cy="450" r="10" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/><circle cx="921" cy="450" r="10" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/><circle cx="1171" cy="450" r="10" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/><circle cx="1421" cy="450" r="10" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/><text x="70" y="510" font-size="21" fill="#150F0B">Events: compress to 3 to 4 weeks around booking.  Offers: clear terms, no fake countdowns.</text>
+<rect x="70" y="580" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="621" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Start when the kitchen starts, not when it finishes.</text>
+</svg>

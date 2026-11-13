@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A personal trainer content framework</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">PERSONAL TRAINERS: CREDIBILITY AND FIT</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">A personal trainer content framework</text>
+<rect x="82" y="192" width="264" height="190" fill="#150F0B"/>
+<rect x="70" y="180" width="264" height="190" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="222" font-size="24" font-weight="700" fill="#150F0B">Teach</text>
+<text x="90" y="260" font-size="19" fill="#150F0B" opacity=".9">Form cues with</text>
+<text x="90" y="288" font-size="19" fill="#150F0B" opacity=".9">a safety line</text>
+<rect x="382" y="192" width="264" height="190" fill="#150F0B"/>
+<rect x="370" y="180" width="264" height="190" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="390" y="222" font-size="24" font-weight="700" fill="#150F0B">Point of view</text>
+<text x="390" y="260" font-size="19" fill="#150F0B" opacity=".9">How you coach,</text>
+<text x="390" y="288" font-size="19" fill="#150F0B" opacity=".9">labelled opinion</text>
+<rect x="682" y="192" width="264" height="190" fill="#150F0B"/>
+<rect x="670" y="180" width="264" height="190" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="690" y="222" font-size="24" font-weight="700" fill="#150F0B">Process</text>
+<text x="690" y="260" font-size="19" fill="#150F0B" opacity=".9">What working</text>
+<text x="690" y="288" font-size="19" fill="#150F0B" opacity=".9">with you is like</text>
+<rect x="982" y="192" width="264" height="190" fill="#150F0B"/>
+<rect x="970" y="180" width="264" height="190" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="990" y="222" font-size="24" font-weight="700" fill="#150F0B">Client stories</text>
+<text x="990" y="260" font-size="19" fill="#150F0B" opacity=".9">Consent, no</text>
+<text x="990" y="288" font-size="19" fill="#150F0B" opacity=".9">promised results</text>
+<rect x="1282" y="192" width="264" height="190" fill="#150F0B"/>
+<rect x="1270" y="180" width="264" height="190" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1290" y="222" font-size="24" font-weight="700" fill="#150F0B">Trainer life</text>
+<text x="1290" y="260" font-size="19" fill="#150F0B" opacity=".9">Your training,</text>
+<text x="1290" y="288" font-size="19" fill="#150F0B" opacity=".9">in Stories</text>
+<text x="70" y="430" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">ENQUIRY SCREEN</text>
+<rect x="70" y="445" width="320" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="230.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Enquiry</text>
+<path d="M396 475 L442 475" stroke="#150F0B" stroke-width="4"/>
+<path d="M433 467 L442 475 L433 483" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="450" y="445" width="320" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="610.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Five questions</text>
+<path d="M776 475 L822 475" stroke="#150F0B" stroke-width="4"/>
+<path d="M813 467 L822 475 L813 483" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="830" y="445" width="320" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="990.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Health flag?</text>
+<path d="M1156 475 L1202 475" stroke="#150F0B" stroke-width="4"/>
+<path d="M1193 467 L1202 475 L1193 483" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1210" y="445" width="320" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1370.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Doctor's go-ahead</text>
+<text x="70" y="565" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">SHOW IN THE BIO</text>
+<rect x="70" y="580" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="300.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Your niche</text>
+<rect x="570" y="580" width="460" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="800.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Certificate and issuer</text>
+<rect x="1070" y="580" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1300.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">How to enquire</text>
+</svg>

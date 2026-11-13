@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Café Instagram idea library by format</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">CAFÉ INSTAGRAM: 36 IDEAS IN FIVE FORMATS</text>
+<rect x="82" y="152" width="440" height="160" fill="#150F0B"/>
+<rect x="70" y="140" width="440" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="186" font-size="24" font-weight="700" fill="#FAF1E2">Reels: 10</text>
+<text x="90" y="228" font-size="19" fill="#FAF1E2" opacity=".85">Opening up, one</text>
+<text x="90" y="258" font-size="19" fill="#FAF1E2" opacity=".85">drink start to end</text>
+<rect x="582" y="152" width="440" height="160" fill="#150F0B"/>
+<rect x="570" y="140" width="440" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="590" y="186" font-size="24" font-weight="700" fill="#150F0B">Carousels: 8</text>
+<text x="590" y="228" font-size="19" fill="#150F0B" opacity=".85">Order like a regular,</text>
+<text x="590" y="258" font-size="19" fill="#150F0B" opacity=".85">best seat for...</text>
+<rect x="1082" y="152" width="440" height="160" fill="#150F0B"/>
+<rect x="1070" y="140" width="440" height="160" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1090" y="186" font-size="24" font-weight="700" fill="#150F0B">Stories: 8</text>
+<text x="1090" y="228" font-size="19" fill="#150F0B" opacity=".85">Bake count, polls,</text>
+<text x="1090" y="258" font-size="19" fill="#150F0B" opacity=".85">table status</text>
+<rect x="332" y="352" width="440" height="160" fill="#150F0B"/>
+<rect x="320" y="340" width="440" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="340" y="386" font-size="24" font-weight="700" fill="#150F0B">Single posts: 5</text>
+<text x="340" y="428" font-size="19" fill="#150F0B" opacity=".85">Empty room in</text>
+<text x="340" y="458" font-size="19" fill="#150F0B" opacity=".85">morning light</text>
+<rect x="832" y="352" width="440" height="160" fill="#150F0B"/>
+<rect x="820" y="340" width="440" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="840" y="386" font-size="24" font-weight="700" fill="#150F0B">Community: 5</text>
+<text x="840" y="428" font-size="19" fill="#150F0B" opacity=".85">Neighbour collabs,</text>
+<text x="840" y="458" font-size="19" fill="#150F0B" opacity=".85">local events</text>
+<rect x="70" y="560" width="1460" height="64" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="601" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Views to visits: directions, calls, ask at the counter</text>
+</svg>

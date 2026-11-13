@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A 14-day product launch content plan</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75" letter-spacing="1">A 14-DAY PRODUCT LAUNCH CONTENT PLAN</text>
+<rect x="82" y="182" width="311" height="270" fill="#150F0B"/>
+<rect x="70" y="170" width="311" height="270" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="216" font-size="24" font-weight="700" fill="#FAF1E2">Build: days 1-4</text>
+<text x="92" y="256" font-size="19" fill="#FAF1E2" opacity=".9">Name the problem</text>
+<text x="92" y="286" font-size="19" fill="#FAF1E2" opacity=".9">Show the making</text>
+<text x="92" y="316" font-size="19" fill="#FAF1E2" opacity=".9">Poll for questions</text>
+<text x="92" y="346" font-size="19" fill="#FAF1E2" opacity=".9">Countdown reminder</text>
+<rect x="465" y="182" width="311" height="270" fill="#150F0B"/>
+<rect x="453" y="170" width="311" height="270" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="475" y="216" font-size="24" font-weight="700" fill="#150F0B">Launch: day 5</text>
+<text x="475" y="256" font-size="19" fill="#150F0B" opacity=".9">What it is</text>
+<text x="475" y="286" font-size="19" fill="#150F0B" opacity=".9">Price and size</text>
+<text x="475" y="316" font-size="19" fill="#150F0B" opacity=".9">Where to buy</text>
+<text x="475" y="346" font-size="19" fill="#150F0B" opacity=".9">Pinned post</text>
+<rect x="848" y="182" width="311" height="270" fill="#150F0B"/>
+<rect x="836" y="170" width="311" height="270" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="858" y="216" font-size="24" font-weight="700" fill="#150F0B">Explain: 6-10</text>
+<text x="858" y="256" font-size="19" fill="#150F0B" opacity=".9">30-second demo</text>
+<text x="858" y="286" font-size="19" fill="#150F0B" opacity=".9">Ingredients, plainly</text>
+<text x="858" y="316" font-size="19" fill="#150F0B" opacity=".9">&#39;You asked&#39; replies</text>
+<text x="858" y="346" font-size="19" fill="#150F0B" opacity=".9">Fair comparisons</text>
+<rect x="1231" y="182" width="311" height="270" fill="#150F0B"/>
+<rect x="1219" y="170" width="311" height="270" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1241" y="216" font-size="24" font-weight="700" fill="#150F0B">Prove: 11-14</text>
+<text x="1241" y="256" font-size="19" fill="#150F0B" opacity=".9">Customer reactions</text>
+<text x="1241" y="286" font-size="19" fill="#150F0B" opacity=".9">with permission</text>
+<text x="1241" y="316" font-size="19" fill="#150F0B" opacity=".9">Honest stock news</text>
+<text x="1241" y="346" font-size="19" fill="#150F0B" opacity=".9">FAQ Highlight</text>
+<line x1="399" y1="305" x2="431" y2="305" stroke="#150F0B" stroke-width="4"/>
+<polygon points="447,305 431,295 431,315" fill="#150F0B"/>
+<line x1="782" y1="305" x2="814" y2="305" stroke="#150F0B" stroke-width="4"/>
+<polygon points="830,305 814,295 814,315" fill="#150F0B"/>
+<line x1="1165" y1="305" x2="1197" y2="305" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1213,305 1197,295 1197,315" fill="#150F0B"/>
+<rect x="70" y="540" width="1460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="579" font-size="24" font-weight="700" text-anchor="middle" fill="#150F0B">Before day 1: product page, stock, claims evidence, FAQ and UTM links ready</text>
+</svg>

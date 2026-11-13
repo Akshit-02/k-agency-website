@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Doctor monthly publishing framework</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">A DOCTOR'S MONTH: FOUR SLOTS, ONE REVIEW</text>
+<rect x="82" y="152" width="320" height="180" fill="#150F0B"/>
+<rect x="70" y="140" width="320" height="180" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="186" font-size="24" font-weight="700" fill="#FAF1E2">Week 1</text>
+<text x="92" y="228" font-size="19" fill="#FAF1E2" opacity=".9">Patient question,</text>
+<text x="92" y="258" font-size="19" fill="#FAF1E2" opacity=".9">answered generally</text>
+<rect x="452" y="152" width="320" height="180" fill="#150F0B"/>
+<rect x="440" y="140" width="320" height="180" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="462" y="186" font-size="24" font-weight="700" fill="#150F0B">Week 2</text>
+<text x="462" y="228" font-size="19" fill="#150F0B" opacity=".9">Explainer in</text>
+<text x="462" y="258" font-size="19" fill="#150F0B" opacity=".9">your specialty</text>
+<rect x="822" y="152" width="320" height="180" fill="#150F0B"/>
+<rect x="810" y="140" width="320" height="180" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="832" y="186" font-size="24" font-weight="700" fill="#150F0B">Week 3</text>
+<text x="832" y="228" font-size="19" fill="#150F0B" opacity=".9">Myth check with</text>
+<text x="832" y="258" font-size="19" fill="#150F0B" opacity=".9">MoHFW or WHO link</text>
+<rect x="1192" y="152" width="320" height="180" fill="#150F0B"/>
+<rect x="1180" y="140" width="320" height="180" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1202" y="186" font-size="24" font-weight="700" fill="#150F0B">Week 4</text>
+<text x="1202" y="228" font-size="19" fill="#150F0B" opacity=".9">Talk, paper or</text>
+<text x="1202" y="258" font-size="19" fill="#150F0B" opacity=".9">practice notice</text>
+<rect x="82" y="382" width="690" height="160" fill="#150F0B"/>
+<rect x="70" y="370" width="690" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="416" font-size="24" font-weight="700" fill="#150F0B">Profile base</text>
+<text x="92" y="458" font-size="19" fill="#150F0B" opacity=".9">Name, qualifications,</text>
+<text x="92" y="488" font-size="19" fill="#150F0B" opacity=".9">SMR/NMR reg. number</text>
+<rect x="852" y="382" width="690" height="160" fill="#150F0B"/>
+<rect x="840" y="370" width="690" height="160" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="862" y="416" font-size="24" font-weight="700" fill="#150F0B">Inbox routine</text>
+<text x="862" y="458" font-size="19" fill="#150F0B" opacity=".9">Approved replies; no</text>
+<text x="862" y="488" font-size="19" fill="#150F0B" opacity=".9">advice in DMs</text>
+<rect x="70" y="590" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="631" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Educate in your own name. Never solicit, diagnose or promote.</text>
+</svg>

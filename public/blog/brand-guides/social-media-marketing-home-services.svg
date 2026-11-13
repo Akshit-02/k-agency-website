@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Answer three questions before the call</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">HOME SERVICE BUSINESSES: LOCAL ENQUIRIES</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">Answer three questions before the call</text>
+<rect x="70" y="190" width="440" height="64" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="290" y="230" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Do you cover my area?</text>
+<rect x="70" y="280" width="440" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="290" y="320" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Can I trust who comes?</text>
+<rect x="70" y="370" width="440" height="64" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="290" y="410" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">What happens on visit?</text>
+<path d="M526 310 L590 310" stroke="#150F0B" stroke-width="4"/><path d="M581 302 L590 310 L581 318" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="600" y="180" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">WEEKLY PLAN</text>
+<rect x="600" y="195" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="655" y="226" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Mon</text>
+<rect x="730" y="195" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="920" y="226" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Job of the week</text>
+<rect x="600" y="253" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="655" y="284" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Tue</text>
+<rect x="730" y="253" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="920" y="284" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Meet the technician</text>
+<rect x="600" y="311" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="655" y="342" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Wed</text>
+<rect x="730" y="311" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="920" y="342" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Signs to call a pro</text>
+<rect x="600" y="369" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="655" y="400" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Thu</text>
+<rect x="730" y="369" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="920" y="400" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Price and visit FAQ</text>
+<rect x="600" y="427" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="655" y="458" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Fri</text>
+<rect x="730" y="427" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="920" y="458" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Areas covered</text>
+<path d="M1126 310 L1180 310" stroke="#150F0B" stroke-width="4"/><path d="M1171 302 L1180 310 L1171 318" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1202" y="207" width="340" height="280" fill="#150F0B"/>
+<rect x="1190" y="195" width="340" height="280" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1212" y="239" font-size="25" font-weight="700" fill="#150F0B">WhatsApp reply</text>
+<text x="1212" y="277" font-size="20" fill="#150F0B" opacity=".9">Area or pin code</text>
+<text x="1212" y="305" font-size="20" fill="#150F0B" opacity=".9">Photo of problem</text>
+<text x="1212" y="333" font-size="20" fill="#150F0B" opacity=".9">Preferred time</text>
+<text x="1212" y="361" font-size="20" fill="#150F0B" opacity=".9">Honest price note</text>
+<text x="70" y="560" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">NEVER</text>
+<rect x="70" y="578" width="335" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="237" y="616" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Unsafe DIY demos</text>
+<rect x="445" y="578" width="335" height="60" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="612" y="616" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Licences not held</text>
+<rect x="820" y="578" width="335" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="987" y="616" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Fake slot scarcity</text>
+<rect x="1195" y="578" width="335" height="60" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="1362" y="616" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Customer addresses</text>
+</svg>

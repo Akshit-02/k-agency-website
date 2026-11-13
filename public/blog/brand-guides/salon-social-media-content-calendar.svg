@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Salon calendar loop</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">SALON CONTENT CALENDAR: REPEAT BOOKINGS</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">Plan the month from your own booking data</text>
+<rect x="82" y="192" width="320" height="180" fill="#150F0B"/>
+<rect x="70" y="180" width="320" height="180" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="222" font-size="24" font-weight="700" fill="#150F0B">Booking data</text>
+<text x="90" y="260" font-size="20" fill="#150F0B" opacity=".9">Your own gaps</text>
+<text x="90" y="288" font-size="20" fill="#150F0B" opacity=".9">between visits</text>
+<path d="M410 270 L437 270" stroke="#150F0B" stroke-width="4"/>
+<path d="M428 262 L437 270 L428 278" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="457" y="192" width="320" height="180" fill="#150F0B"/>
+<rect x="445" y="180" width="320" height="180" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="465" y="222" font-size="24" font-weight="700" fill="#150F0B">Pillars</text>
+<text x="465" y="260" font-size="20" fill="#150F0B" opacity=".9">Maintenance, colour,</text>
+<text x="465" y="288" font-size="20" fill="#150F0B" opacity=".9">care, occasions</text>
+<path d="M785 270 L812 270" stroke="#150F0B" stroke-width="4"/>
+<path d="M803 262 L812 270 L803 278" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="832" y="192" width="320" height="180" fill="#150F0B"/>
+<rect x="820" y="180" width="320" height="180" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="840" y="222" font-size="24" font-weight="700" fill="#150F0B">30-day plan</text>
+<text x="840" y="260" font-size="20" fill="#150F0B" opacity=".9">Posts, Stories,</text>
+<text x="840" y="288" font-size="20" fill="#150F0B" opacity=".9">rebooking prompts</text>
+<path d="M1160 270 L1187 270" stroke="#150F0B" stroke-width="4"/>
+<path d="M1178 262 L1187 270 L1178 278" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1207" y="192" width="320" height="180" fill="#150F0B"/>
+<rect x="1195" y="180" width="320" height="180" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1215" y="222" font-size="24" font-weight="700" fill="#150F0B">Shoot day</text>
+<text x="1215" y="260" font-size="20" fill="#150F0B" opacity=".9">One slow morning</text>
+<text x="1215" y="288" font-size="20" fill="#150F0B" opacity=".9">a month</text>
+<path d="M1355 376 L1355 436" stroke="#150F0B" stroke-width="4"/>
+<path d="M1347 427 L1355 436 L1363 427" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1070" y="446" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1300.0" y="484" font-size="21" font-weight="700" text-anchor="middle" fill="#FAF1E2">Schedule and Monday check</text>
+<path d="M1060 476 L590 476" stroke="#150F0B" stroke-width="4"/>
+<path d="M599 468 L590 476 L599 484" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="446" width="500" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="320.0" y="484" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Day 30: review vs repeat visits</text>
+<path d="M230 440 L230 380" stroke="#150F0B" stroke-width="4" stroke-dasharray="10 8"/>
+<path d="M222 389 L230 380 L238 389" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="70" y="590" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">NO BORROWED REBOOKING INTERVALS: USE YOUR REGISTER</text>
+</svg>

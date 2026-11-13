@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Mapping customer questions to product explainer formats</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">CUSTOMER QUESTION TO EXPLAINER FORMAT</text>
+<rect x="82" y="152" width="420" height="160" fill="#150F0B"/>
+<rect x="70" y="140" width="420" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="188" font-size="24" font-weight="700" fill="#FAF1E2">Will it fit me?</text>
+<text x="92" y="232" font-size="19" fill="#FAF1E2" opacity=".9">Size and fit video</text>
+<text x="92" y="262" font-size="19" fill="#FAF1E2" opacity=".9">on two body types</text>
+<rect x="572" y="152" width="420" height="160" fill="#150F0B"/>
+<rect x="560" y="140" width="420" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="582" y="188" font-size="24" font-weight="700" fill="#150F0B">How do I use it?</text>
+<text x="582" y="232" font-size="19" fill="#150F0B" opacity=".9">Real-time demo</text>
+<text x="582" y="262" font-size="19" fill="#150F0B" opacity=".9">with on-screen steps</text>
+<rect x="1062" y="152" width="420" height="160" fill="#150F0B"/>
+<rect x="1050" y="140" width="420" height="160" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1072" y="188" font-size="24" font-weight="700" fill="#150F0B">Which one to buy?</text>
+<text x="1072" y="232" font-size="19" fill="#150F0B" opacity=".9">Side-by-side</text>
+<text x="1072" y="262" font-size="19" fill="#150F0B" opacity=".9">comparison carousel</text>
+<rect x="82" y="352" width="420" height="160" fill="#150F0B"/>
+<rect x="70" y="340" width="420" height="160" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="388" font-size="24" font-weight="700" fill="#150F0B">Works with mine?</text>
+<text x="92" y="432" font-size="19" fill="#150F0B" opacity=".9">Compatibility</text>
+<text x="92" y="462" font-size="19" fill="#150F0B" opacity=".9">checklist graphic</text>
+<rect x="572" y="352" width="420" height="160" fill="#150F0B"/>
+<rect x="560" y="340" width="420" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="582" y="388" font-size="24" font-weight="700" fill="#FAF1E2">What's in it?</text>
+<text x="582" y="432" font-size="19" fill="#FAF1E2" opacity=".9">Label walkthrough</text>
+<text x="582" y="462" font-size="19" fill="#FAF1E2" opacity=".9">matching the pack</text>
+<rect x="1062" y="352" width="420" height="160" fill="#150F0B"/>
+<rect x="1050" y="340" width="420" height="160" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="1072" y="388" font-size="24" font-weight="700" fill="#150F0B">What will I get?</text>
+<text x="1072" y="432" font-size="19" fill="#150F0B" opacity=".9">Unboxing with</text>
+<text x="1072" y="462" font-size="19" fill="#150F0B" opacity=".9">every item shown</text>
+<rect x="70" y="570" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="611" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Reuse every explainer on product pages and marketplaces</text>
+</svg>

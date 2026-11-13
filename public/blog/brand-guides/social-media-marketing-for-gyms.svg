@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">The gym membership journey</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">GYMS: LOCAL AWARENESS TO MEMBERSHIP</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">The gym membership journey</text>
+<rect x="82" y="192" width="200" height="190" fill="#150F0B"/>
+<rect x="70" y="180" width="200" height="190" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="90" y="222" font-size="24" font-weight="700" fill="#150F0B">1 Notice</text>
+<text x="90" y="260" font-size="19" fill="#150F0B" opacity=".9">Route Reels,</text>
+<text x="90" y="288" font-size="19" fill="#150F0B" opacity=".9">floor tours</text>
+<path d="M284 275 L320 275" stroke="#150F0B" stroke-width="4"/>
+<path d="M311 267 L320 275 L311 283" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="336" y="192" width="200" height="190" fill="#150F0B"/>
+<rect x="324" y="180" width="200" height="190" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="344" y="222" font-size="24" font-weight="700" fill="#150F0B">2 Consider</text>
+<text x="344" y="260" font-size="19" fill="#150F0B" opacity=".9">Crowd guide,</text>
+<text x="344" y="288" font-size="19" fill="#150F0B" opacity=".9">fees answered</text>
+<path d="M538 275 L574 275" stroke="#150F0B" stroke-width="4"/>
+<path d="M565 267 L574 275 L565 283" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="590" y="192" width="200" height="190" fill="#150F0B"/>
+<rect x="578" y="180" width="200" height="190" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="598" y="222" font-size="24" font-weight="700" fill="#150F0B">3 Trial</text>
+<text x="598" y="260" font-size="19" fill="#150F0B" opacity=".9">Start-here</text>
+<text x="598" y="288" font-size="19" fill="#150F0B" opacity=".9">highlight</text>
+<path d="M792 275 L828 275" stroke="#150F0B" stroke-width="4"/>
+<path d="M819 267 L828 275 L819 283" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="844" y="192" width="200" height="190" fill="#150F0B"/>
+<rect x="832" y="180" width="200" height="190" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="852" y="222" font-size="24" font-weight="700" fill="#150F0B">4 Join</text>
+<text x="852" y="260" font-size="19" fill="#150F0B" opacity=".9">Plans, freeze,</text>
+<text x="852" y="288" font-size="19" fill="#150F0B" opacity=".9">refund terms</text>
+<path d="M1046 275 L1082 275" stroke="#150F0B" stroke-width="4"/>
+<path d="M1073 267 L1082 275 L1073 283" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1098" y="192" width="200" height="190" fill="#150F0B"/>
+<rect x="1086" y="180" width="200" height="190" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1106" y="222" font-size="24" font-weight="700" fill="#150F0B">5 Settle</text>
+<text x="1106" y="260" font-size="19" fill="#150F0B" opacity=".9">Week-one</text>
+<text x="1106" y="288" font-size="19" fill="#150F0B" opacity=".9">checklist</text>
+<path d="M1300 275 L1336 275" stroke="#150F0B" stroke-width="4"/>
+<path d="M1327 267 L1336 275 L1327 283" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1352" y="192" width="200" height="190" fill="#150F0B"/>
+<rect x="1340" y="180" width="200" height="190" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1360" y="222" font-size="24" font-weight="700" fill="#150F0B">6 Renew</text>
+<text x="1360" y="260" font-size="19" fill="#150F0B" opacity=".9">New classes,</text>
+<text x="1360" y="288" font-size="19" fill="#150F0B" opacity=".9">events</text>
+<text x="70" y="430" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">SIGNAL TO COUNT AT THE DESK</text>
+<rect x="70" y="445" width="214" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="177.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Direction taps</text>
+<rect x="324" y="445" width="214" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="431.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Fee DMs</text>
+<rect x="578" y="445" width="214" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="685.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Trials attended</text>
+<rect x="832" y="445" width="214" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="939.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Joins via social</text>
+<rect x="1086" y="445" width="214" height="60" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1193.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Month-one visits</text>
+<rect x="1340" y="445" width="214" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1447.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Renewals</text>
+<text x="70" y="565" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">GUARDRAILS</text>
+<rect x="70" y="580" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="300.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Real crowd hours</text>
+<rect x="570" y="580" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="800.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">No fake slot counts</text>
+<rect x="1070" y="580" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1300.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">No results promises</text>
+</svg>

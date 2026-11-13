@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Turn every listing part into content</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">AMAZON AND FLIPKART SELLERS</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">Turn every listing part into content</text>
+<text x="70" y="192" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">ON THE LISTING</text>
+<text x="560" y="192" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">ON SOCIAL</text>
+<text x="1130" y="192" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">LANDS ON</text>
+<rect x="70" y="210" width="400" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="270" y="243" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Title and features</text>
+<rect x="560" y="210" width="440" height="50" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="780" y="243" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">One Reel per feature</text>
+<path d="M482 235 L550 235" stroke="#150F0B" stroke-width="4"/><path d="M541 227 L550 235 L541 243" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="276" width="400" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="270" y="309" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Images</text>
+<rect x="560" y="276" width="440" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="780" y="309" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">How it is made</text>
+<path d="M482 301 L550 301" stroke="#150F0B" stroke-width="4"/><path d="M541 293 L550 301 L541 309" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="342" width="400" height="50" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="270" y="375" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">A+ Content</text>
+<rect x="560" y="342" width="440" height="50" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="780" y="375" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Brand story carousel</text>
+<path d="M482 367 L550 367" stroke="#150F0B" stroke-width="4"/><path d="M541 359 L550 367 L541 375" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="408" width="400" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="270" y="441" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Customer questions</text>
+<rect x="560" y="408" width="440" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="780" y="441" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">FAQ Reels, Stories</text>
+<path d="M482 433 L550 433" stroke="#150F0B" stroke-width="4"/><path d="M541 425 L550 433 L541 441" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="474" width="400" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="270" y="507" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Reviews</text>
+<rect x="560" y="474" width="440" height="50" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="780" y="507" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">Replies and fixes</text>
+<path d="M482 499 L550 499" stroke="#150F0B" stroke-width="4"/><path d="M541 491 L550 499 L541 507" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="1142" y="222" width="400" height="314" fill="#150F0B"/>
+<rect x="1130" y="210" width="400" height="314" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1152" y="254" font-size="26" font-weight="700" fill="#FAF1E2">Your listing</text>
+<text x="1152" y="292" font-size="21" fill="#FAF1E2" opacity=".9">Brand store or</text>
+<text x="1152" y="320" font-size="21" fill="#FAF1E2" opacity=".9">product page</text>
+<text x="1152" y="348" font-size="21" fill="#FAF1E2" opacity=".9"></text>
+<text x="1152" y="376" font-size="21" fill="#FAF1E2" opacity=".9">Same claims,</text>
+<text x="1152" y="404" font-size="21" fill="#FAF1E2" opacity=".9">same visuals,</text>
+<text x="1152" y="432" font-size="21" fill="#FAF1E2" opacity=".9">no fixed prices</text>
+<path d="M1012 235 L1120 235" stroke="#150F0B" stroke-width="4"/><path d="M1111 227 L1120 235 L1111 243" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1012 367 L1120 367" stroke="#150F0B" stroke-width="4"/><path d="M1111 359 L1120 367 L1111 375" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1012 499 L1120 499" stroke="#150F0B" stroke-width="4"/><path d="M1111 491 L1120 499 L1111 507" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="580" width="460" height="62" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="300" y="619" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Same claims</text>
+<rect x="570" y="580" width="460" height="62" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="619" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">No fixed prices</text>
+<rect x="1070" y="580" width="460" height="62" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1300" y="619" font-size="23" font-weight="700" text-anchor="middle" fill="#150F0B">Offer terms stated</text>
+</svg>

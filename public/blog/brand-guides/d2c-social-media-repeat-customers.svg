@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Post-purchase content sequence for D2C repeat customers</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">POST-PURCHASE CONTENT SEQUENCE</text>
+<rect x="82" y="182" width="300" height="250" fill="#150F0B"/>
+<rect x="70" y="170" width="300" height="250" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="218" font-size="24" font-weight="700" fill="#FAF1E2">Delivery</text>
+<text x="92" y="262" font-size="16" font-weight="700" letter-spacing="1" fill="#FAF1E2" opacity=".7">WHAT TO POST</text>
+<text x="92" y="290" font-size="19" fill="#FAF1E2" opacity=".9">What's in the box</text>
+<text x="92" y="320" font-size="19" fill="#FAF1E2" opacity=".9">How we pack</text>
+<text x="92" y="350" font-size="19" fill="#FAF1E2" opacity=".9">If something's wrong</text>
+<rect x="472" y="182" width="300" height="250" fill="#150F0B"/>
+<rect x="460" y="170" width="300" height="250" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="482" y="218" font-size="24" font-weight="700" fill="#150F0B">First use</text>
+<text x="482" y="262" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHAT TO POST</text>
+<text x="482" y="290" font-size="19" fill="#150F0B" opacity=".9">Start-here video</text>
+<text x="482" y="320" font-size="19" fill="#150F0B" opacity=".9">First-week FAQs</text>
+<text x="482" y="350" font-size="19" fill="#150F0B" opacity=".9">Setup carousel</text>
+<rect x="862" y="182" width="300" height="250" fill="#150F0B"/>
+<rect x="850" y="170" width="300" height="250" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="872" y="218" font-size="24" font-weight="700" fill="#150F0B">Care and mid-life</text>
+<text x="872" y="262" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHAT TO POST</text>
+<text x="872" y="290" font-size="19" fill="#150F0B" opacity=".9">How-to series</text>
+<text x="872" y="320" font-size="19" fill="#150F0B" opacity=".9">Care and storage</text>
+<text x="872" y="350" font-size="19" fill="#150F0B" opacity=".9">Consented routines</text>
+<rect x="1252" y="182" width="300" height="250" fill="#150F0B"/>
+<rect x="1240" y="170" width="300" height="250" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1262" y="218" font-size="24" font-weight="700" fill="#150F0B">Refill or reorder</text>
+<text x="1262" y="262" font-size="16" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".7">WHAT TO POST</text>
+<text x="1262" y="290" font-size="19" fill="#150F0B" opacity=".9">Refill options</text>
+<text x="1262" y="320" font-size="19" fill="#150F0B" opacity=".9">Subscription terms</text>
+<text x="1262" y="350" font-size="19" fill="#150F0B" opacity=".9">How to pause</text>
+<path d="M390 295 H452 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M780 295 H842 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1170 295 H1232 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="520" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="561" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Personal reminders only to customers who opted in</text>
+</svg>

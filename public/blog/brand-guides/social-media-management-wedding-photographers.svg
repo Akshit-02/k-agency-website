@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A portfolio that answers couples</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">WEDDING PHOTOGRAPHERS AND EVENT PROFESSIONALS</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">A portfolio that answers couples</text>
+<rect x="82" y="192" width="780" height="86" fill="#150F0B"/>
+<rect x="70" y="180" width="780" height="86" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="94" y="218" font-size="25" font-weight="700" fill="#150F0B">1. Full stories</text>
+<text x="94" y="250" font-size="20" fill="#150F0B" opacity=".9">Love the whole day?</text>
+<rect x="118" y="304" width="708" height="86" fill="#150F0B"/>
+<rect x="106" y="292" width="708" height="86" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="130" y="330" font-size="25" font-weight="700" fill="#150F0B">2. How you work</text>
+<text x="130" y="362" font-size="20" fill="#150F0B" opacity=".9">Calm and organised?</text>
+<rect x="154" y="416" width="636" height="86" fill="#150F0B"/>
+<rect x="142" y="404" width="636" height="86" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="166" y="442" font-size="25" font-weight="700" fill="#150F0B">3. What's included</text>
+<text x="166" y="474" font-size="20" fill="#150F0B" opacity=".9">What we get, and when?</text>
+<rect x="190" y="528" width="564" height="86" fill="#150F0B"/>
+<rect x="178" y="516" width="564" height="86" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="202" y="554" font-size="25" font-weight="700" fill="#FAF1E2">4. Availability</text>
+<text x="202" y="586" font-size="20" fill="#FAF1E2" opacity=".9">Free on our dates?</text>
+<path d="M890 400 L950 400" stroke="#150F0B" stroke-width="4"/><path d="M941 392 L950 400 L941 408" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="972" y="192" width="570" height="450" fill="#150F0B"/>
+<rect x="960" y="180" width="570" height="450" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="982" y="224" font-size="26" font-weight="700" fill="#150F0B">Agree in the contract</text>
+<rect x="990" y="264" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 280 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="290" font-size="22" fill="#150F0B">Who owns the images</text>
+<rect x="990" y="320" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 336 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="346" font-size="22" fill="#150F0B">Where you may post</text>
+<rect x="990" y="376" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 392 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="402" font-size="22" fill="#150F0B">When you may post</text>
+<rect x="990" y="432" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 448 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="458" font-size="22" fill="#150F0B">Guests and children</text>
+<rect x="990" y="488" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 504 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="514" font-size="22" fill="#150F0B">Vendor credit</text>
+<rect x="990" y="544" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 560 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="570" font-size="22" fill="#150F0B">Removal requests</text>
+</svg>

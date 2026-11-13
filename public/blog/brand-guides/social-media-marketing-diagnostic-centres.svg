@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Diagnostic centre patient journey</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">WHAT A DIAGNOSTIC CENTRE SHOULD EXPLAIN</text>
+<rect x="82" y="152" width="430" height="170" fill="#150F0B"/>
+<rect x="70" y="140" width="430" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="186" font-size="24" font-weight="700" fill="#FAF1E2">1 Book</text>
+<text x="92" y="228" font-size="19" fill="#FAF1E2" opacity=".9">Tests, prices as</text>
+<text x="92" y="258" font-size="19" fill="#FAF1E2" opacity=".9">displayed, packages</text>
+<rect x="582" y="152" width="430" height="170" fill="#150F0B"/>
+<rect x="570" y="140" width="430" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="592" y="186" font-size="24" font-weight="700" fill="#150F0B">2 Prepare</text>
+<text x="592" y="228" font-size="19" fill="#150F0B" opacity=".9">Wording from your</text>
+<text x="592" y="258" font-size="19" fill="#150F0B" opacity=".9">medical team</text>
+<rect x="1082" y="152" width="430" height="170" fill="#150F0B"/>
+<rect x="1070" y="140" width="430" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1092" y="186" font-size="24" font-weight="700" fill="#150F0B">3 Collect</text>
+<text x="1092" y="228" font-size="19" fill="#150F0B" opacity=".9">Walk-in or home;</text>
+<text x="1092" y="258" font-size="19" fill="#150F0B" opacity=".9">area and windows</text>
+<rect x="82" y="367" width="430" height="170" fill="#150F0B"/>
+<rect x="70" y="355" width="430" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="401" font-size="24" font-weight="700" fill="#FAF1E2">4 Process</text>
+<text x="92" y="443" font-size="19" fill="#FAF1E2" opacity=".9">Accreditation only</text>
+<text x="92" y="473" font-size="19" fill="#FAF1E2" opacity=".9">within scope</text>
+<rect x="582" y="367" width="430" height="170" fill="#150F0B"/>
+<rect x="570" y="355" width="430" height="170" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="592" y="401" font-size="24" font-weight="700" fill="#150F0B">5 Report</text>
+<text x="592" y="443" font-size="19" fill="#150F0B" opacity=".9">Honest turnaround</text>
+<text x="592" y="473" font-size="19" fill="#150F0B" opacity=".9">by test category</text>
+<rect x="1082" y="367" width="430" height="170" fill="#150F0B"/>
+<rect x="1070" y="355" width="430" height="170" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="1092" y="401" font-size="24" font-weight="700" fill="#150F0B">6 Doctor</text>
+<text x="1092" y="443" font-size="19" fill="#150F0B" opacity=".9">Results explained by</text>
+<text x="1092" y="473" font-size="19" fill="#150F0B" opacity=".9">the patient's doctor</text>
+<path d="M512 225 L560 225" stroke="#150F0B" stroke-width="4"/>
+<path d="M548 215 L562 225 L548 235" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1012 225 L1060 225" stroke="#150F0B" stroke-width="4"/>
+<path d="M1048 215 L1062 225 L1048 235" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M512 440 L560 440" stroke="#150F0B" stroke-width="4"/>
+<path d="M548 430 L562 440 L548 450" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1012 440 L1060 440" stroke="#150F0B" stroke-width="4"/>
+<path d="M1048 430 L1062 440 L1048 450" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="590" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="631" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Explain the process. Never interpret a report in public.</text>
+</svg>

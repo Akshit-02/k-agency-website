@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A week-by-week festive sale social media plan</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75" letter-spacing="1">FESTIVE SALE PLAN: SIX WEEKS OUT TO TWO WEEKS AFTER</text>
+<rect x="82" y="182" width="250" height="270" fill="#150F0B"/>
+<rect x="70" y="170" width="250" height="270" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="216" font-size="23" font-weight="700" fill="#150F0B">Weeks -6 to -5</text>
+<text x="92" y="256" font-size="18" fill="#150F0B" opacity=".9">Stock confirmed</text>
+<text x="92" y="286" font-size="18" fill="#150F0B" opacity=".9">Offer terms signed</text>
+<text x="92" y="316" font-size="18" fill="#150F0B" opacity=".9">Delivery cut-offs</text>
+<text x="92" y="346" font-size="18" fill="#150F0B" opacity=".9">Support rota</text>
+<rect x="394" y="182" width="250" height="270" fill="#150F0B"/>
+<rect x="382" y="170" width="250" height="270" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="404" y="216" font-size="23" font-weight="700" fill="#FAF1E2">Weeks -4 to -3</text>
+<text x="404" y="256" font-size="18" fill="#FAF1E2" opacity=".9">Gift guides</text>
+<text x="404" y="286" font-size="18" fill="#FAF1E2" opacity=".9">How-to-use Reels</text>
+<text x="404" y="316" font-size="18" fill="#FAF1E2" opacity=".9">Bundle reveals</text>
+<text x="404" y="346" font-size="18" fill="#FAF1E2" opacity=".9">Answer questions</text>
+<rect x="706" y="182" width="250" height="270" fill="#150F0B"/>
+<rect x="694" y="170" width="250" height="270" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="716" y="216" font-size="23" font-weight="700" fill="#150F0B">Weeks -2 to -1</text>
+<text x="716" y="256" font-size="18" fill="#150F0B" opacity=".9">Offer post, pinned</text>
+<text x="716" y="286" font-size="18" fill="#150F0B" opacity=".9">Real countdown</text>
+<text x="716" y="316" font-size="18" fill="#150F0B" opacity=".9">Early access</text>
+<text x="716" y="346" font-size="18" fill="#150F0B" opacity=".9">Cut-off reminders</text>
+<rect x="1018" y="182" width="250" height="270" fill="#150F0B"/>
+<rect x="1006" y="170" width="250" height="270" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="1028" y="216" font-size="23" font-weight="700" fill="#150F0B">Sale week</text>
+<text x="1028" y="256" font-size="18" fill="#150F0B" opacity=".9">Daily highlights</text>
+<text x="1028" y="286" font-size="18" fill="#150F0B" opacity=".9">Sold-out updates</text>
+<text x="1028" y="316" font-size="18" fill="#150F0B" opacity=".9">Fast, consistent</text>
+<text x="1028" y="346" font-size="18" fill="#150F0B" opacity=".9">replies</text>
+<rect x="1330" y="182" width="250" height="270" fill="#150F0B"/>
+<rect x="1318" y="170" width="250" height="270" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="1340" y="216" font-size="23" font-weight="700" fill="#150F0B">Weeks +1 to +2</text>
+<text x="1340" y="256" font-size="18" fill="#150F0B" opacity=".9">Delivery updates</text>
+<text x="1340" y="286" font-size="18" fill="#150F0B" opacity=".9">Care and usage</text>
+<text x="1340" y="316" font-size="18" fill="#150F0B" opacity=".9">Honest reviews</text>
+<text x="1340" y="346" font-size="18" fill="#150F0B" opacity=".9">Post-sale review</text>
+<line x1="338" y1="305" x2="360" y2="305" stroke="#150F0B" stroke-width="4"/>
+<polygon points="376,305 360,295 360,315" fill="#150F0B"/>
+<line x1="650" y1="305" x2="672" y2="305" stroke="#150F0B" stroke-width="4"/>
+<polygon points="688,305 672,295 672,315" fill="#150F0B"/>
+<line x1="962" y1="305" x2="984" y2="305" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1000,305 984,295 984,315" fill="#150F0B"/>
+<line x1="1274" y1="305" x2="1296" y2="305" stroke="#150F0B" stroke-width="4"/>
+<polygon points="1312,305 1296,295 1296,315" fill="#150F0B"/>
+<rect x="70" y="540" width="1460" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="579" font-size="24" font-weight="700" text-anchor="middle" fill="#FAF1E2">No fake countdowns or false scarcity. Check lunar festival dates every year.</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Sell the room, then the product</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">HOME DECOR AND FURNISHING BRANDS</text>
+<text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">Sell the room, then the product</text>
+<rect x="82" y="192" width="760" height="88" fill="#150F0B"/>
+<rect x="70" y="180" width="760" height="88" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="94" y="220" font-size="25" font-weight="700" fill="#150F0B">1. The room look</text>
+<text x="94" y="252" font-size="20" fill="#150F0B" opacity=".9">Can I picture it?</text>
+<rect x="122" y="310" width="680" height="88" fill="#150F0B"/>
+<rect x="110" y="298" width="680" height="88" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="134" y="338" font-size="25" font-weight="700" fill="#150F0B">2. Product in context</text>
+<text x="134" y="370" font-size="20" fill="#150F0B" opacity=".9">What does it change?</text>
+<rect x="162" y="428" width="600" height="88" fill="#150F0B"/>
+<rect x="150" y="416" width="600" height="88" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="174" y="456" font-size="25" font-weight="700" fill="#150F0B">3. Product detail</text>
+<text x="174" y="488" font-size="20" fill="#150F0B" opacity=".9">Will it fit and last?</text>
+<rect x="202" y="546" width="520" height="88" fill="#150F0B"/>
+<rect x="190" y="534" width="520" height="88" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="214" y="574" font-size="25" font-weight="700" fill="#FAF1E2">4. Real homes</text>
+<text x="214" y="606" font-size="20" fill="#FAF1E2" opacity=".9">Does it work for me?</text>
+<path d="M880 370 L940 370" stroke="#150F0B" stroke-width="4"/><path d="M931 362 L940 370 L931 378" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="972" y="192" width="570" height="440" fill="#150F0B"/>
+<rect x="960" y="180" width="570" height="440" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="982" y="224" font-size="26" font-weight="700" fill="#150F0B">What must be true</text>
+<rect x="990" y="264" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 280 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="290" font-size="22" fill="#150F0B">True scale on camera</text>
+<rect x="990" y="318" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 334 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="344" font-size="22" fill="#150F0B">Daylight colour shots</text>
+<rect x="990" y="372" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 388 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="398" font-size="22" fill="#150F0B">Exact material names</text>
+<rect x="990" y="426" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 442 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="452" font-size="22" fill="#150F0B">Props labelled</text>
+<rect x="990" y="480" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 496 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="506" font-size="22" fill="#150F0B">Green claims proven</text>
+<rect x="990" y="534" width="32" height="32" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<path d="M997 550 l7 7 l12 -14" fill="none" stroke="#150F0B" stroke-width="4"/>
+<text x="1040" y="560" font-size="22" fill="#150F0B">Consent for homes</text>
+</svg>

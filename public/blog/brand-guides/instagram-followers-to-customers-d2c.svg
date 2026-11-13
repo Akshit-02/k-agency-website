@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Follower-to-customer journey for D2C brands on Instagram</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">FROM FOLLOWER TO CUSTOMER: FIVE STAGES</text>
+<rect x="82" y="192" width="252" height="230" fill="#150F0B"/>
+<rect x="70" y="180" width="252" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="92" y="228" font-size="24" font-weight="700" fill="#FAF1E2">1. Discovery</text>
+<text x="92" y="272" font-size="19" fill="#FAF1E2" opacity=".9">Product in first</text>
+<text x="92" y="302" font-size="19" fill="#FAF1E2" opacity=".9">seconds of Reels</text>
+<text x="92" y="332" font-size="19" fill="#FAF1E2" opacity=".9">Plain-word bio</text>
+<rect x="382" y="192" width="252" height="230" fill="#150F0B"/>
+<rect x="370" y="180" width="252" height="230" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
+<text x="392" y="228" font-size="24" font-weight="700" fill="#150F0B">2. Understand</text>
+<text x="392" y="272" font-size="19" fill="#150F0B" opacity=".9">Demos and sizes</text>
+<text x="392" y="302" font-size="19" fill="#150F0B" opacity=".9">Use cases</text>
+<text x="392" y="332" font-size="19" fill="#150F0B" opacity=".9">Who it's not for</text>
+<rect x="682" y="192" width="252" height="230" fill="#150F0B"/>
+<rect x="670" y="180" width="252" height="230" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
+<text x="692" y="228" font-size="24" font-weight="700" fill="#150F0B">3. Proof</text>
+<text x="692" y="272" font-size="19" fill="#150F0B" opacity=".9">Consented reviews</text>
+<text x="692" y="302" font-size="19" fill="#150F0B" opacity=".9">Real unboxings</text>
+<text x="692" y="332" font-size="19" fill="#150F0B" opacity=".9">Returns shown</text>
+<rect x="982" y="192" width="252" height="230" fill="#150F0B"/>
+<rect x="970" y="180" width="252" height="230" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="992" y="228" font-size="24" font-weight="700" fill="#150F0B">4. Link</text>
+<text x="992" y="272" font-size="19" fill="#150F0B" opacity=".9">Labelled bio links</text>
+<text x="992" y="302" font-size="19" fill="#150F0B" opacity=".9">Story link sticker</text>
+<text x="992" y="332" font-size="19" fill="#150F0B" opacity=".9">UTM tags</text>
+<rect x="1282" y="192" width="252" height="230" fill="#150F0B"/>
+<rect x="1270" y="180" width="252" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<text x="1292" y="228" font-size="24" font-weight="700" fill="#FAF1E2">5. Product page</text>
+<text x="1292" y="272" font-size="19" fill="#FAF1E2" opacity=".9">Same product</text>
+<text x="1292" y="302" font-size="19" fill="#FAF1E2" opacity=".9">Same price</text>
+<text x="1292" y="332" font-size="19" fill="#FAF1E2" opacity=".9">Terms up front</text>
+<path d="M334 295 H362 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M634 295 H662 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M934 295 H962 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M1234 295 H1262 m-12 -12 l12 12 l-12 12" fill="none" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="510" width="1460" height="64" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
+<text x="800" y="551" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Measure clicks and orders, not only followers</text>
+</svg>
