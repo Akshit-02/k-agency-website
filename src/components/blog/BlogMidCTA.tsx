@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { ArrowUpRight } from "lucide-react";
 import type { BlogCtaContent, BlogCtaContext } from "@/lib/blogCta";
 import { trackBlogCtaClick } from "@/lib/blogAnalytics";

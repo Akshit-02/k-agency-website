@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { getServicesByCategory } from "@/content/services";
 import { ServiceRow } from "@/components/services/ServiceRow";
 import { SectionHeading } from "@/components/ui/SectionHeading";

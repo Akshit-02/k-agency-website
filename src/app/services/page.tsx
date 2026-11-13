@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/config/site";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { ArrowRight } from "lucide-react";
 import { services, getServicesByCategory, SERVICE_PILLARS } from "@/content/services";
 import { SMM_PATH, smmCapabilities } from "@/content/social-media-management";

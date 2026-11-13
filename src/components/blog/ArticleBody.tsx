@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import type { BlogBlock, InlineLink } from "@/content/blog";
 import { cn } from "@/lib/utils";
 import { isLinkAllowed } from "@/lib/links";

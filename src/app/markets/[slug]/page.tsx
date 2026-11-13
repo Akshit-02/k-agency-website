@@ -8,6 +8,10 @@ import { JsonLd, breadcrumbSchema, faqSchema, marketServiceSchema } from "@/lib/
 import { MarketDetail } from "@/components/markets/MarketDetail";
 import { FinalCTA } from "@/components/home/FinalCTA";
 
+// Unknown slugs 404 from the static output instead of rendering on demand (bots probing random URLs cost a
+// function invocation and an ISR write each).
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return markets.map((market) => ({ slug: market.slug }));
 }

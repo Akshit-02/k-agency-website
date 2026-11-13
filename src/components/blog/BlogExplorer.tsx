@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { Search } from "lucide-react";
 import type { BlogCategory } from "@/content/blog";
 import { blogCategories } from "@/content/blog";

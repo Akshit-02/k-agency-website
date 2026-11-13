@@ -5,6 +5,10 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const alt = "Kudozz blog article";
 
+// Unknown slugs 404 from the static output instead of rendering on demand (bots probing random URLs cost a
+// function invocation and an ISR write each).
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
 }

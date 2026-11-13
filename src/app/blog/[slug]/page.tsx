@@ -16,9 +16,13 @@ import { BlogBottomCTA } from "@/components/blog/BlogBottomCTA";
 import { getBlogCtaSet } from "@/lib/blogCta";
 import { getBlogServiceLink } from "@/lib/blogServiceLink";
 import { marketPhrase } from "@/content/markets";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { formatDate } from "@/lib/date";
 import { CREATOR_RESOURCES, creatorSectionPath, getCreatorSectionForSlug } from "@/content/creator-resources";
+
+// Unknown slugs 404 from the static output instead of rendering on demand (bots probing random URLs cost a
+// function invocation and an ISR write each).
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));

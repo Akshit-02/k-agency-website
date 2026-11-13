@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { AtSign, Music3 } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { KudozzLogo } from "@/components/graphics/KudozzLogo";

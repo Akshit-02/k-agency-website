@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { ArrowUpRight, Check } from "lucide-react";
 import { marketPhrase, type Market, type MarketLink } from "@/content/markets";
 import { getServiceBySlug } from "@/content/services";

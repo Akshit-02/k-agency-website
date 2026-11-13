@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { ArrowRight, Check, Minus } from "lucide-react";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/config/site";

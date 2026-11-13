@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import { Check } from "lucide-react";
 import { getServicesByCategory, type Service } from "@/content/services";
 import { ServiceMotif } from "@/components/graphics/ServiceMotif";

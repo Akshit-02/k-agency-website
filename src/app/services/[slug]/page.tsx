@@ -11,6 +11,10 @@ import { FinalCTA } from "@/components/home/FinalCTA";
 // Social media management has its own route (src/app/services/social-media-management) with a custom layout.
 const CUSTOM_ROUTE_SLUGS = new Set(["social-media-management"]);
 
+// Unknown slugs 404 from the static output instead of rendering on demand (bots probing random URLs cost a
+// function invocation and an ISR write each).
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return services.filter((service) => !CUSTOM_ROUTE_SLUGS.has(service.slug)).map((service) => ({ slug: service.slug }));
 }

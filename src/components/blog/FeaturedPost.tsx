@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import type { BlogPost } from "@/content/blog";
 import { BlogArticleGraphic } from "@/components/blog/BlogArticleGraphic";
 import { Reveal } from "@/components/animations/Reveal";
