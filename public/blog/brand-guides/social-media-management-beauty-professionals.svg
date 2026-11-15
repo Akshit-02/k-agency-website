@@ -29,11 +29,11 @@
 <text x="1274" y="260" font-size="19" fill="#150F0B" opacity=".9">Real training</text>
 <text x="1274" y="288" font-size="19" fill="#150F0B" opacity=".9">only</text>
 <text x="70" y="450" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">FOUNDATIONS</text>
-<rect x="70" y="470" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="470" width="460" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="300.0" y="508" font-size="21" font-weight="700" text-anchor="middle" fill="#FAF1E2">Client consent</text>
 <rect x="570" y="470" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="800.0" y="508" font-size="21" font-weight="700" text-anchor="middle" fill="#150F0B">ASCI disclosure</text>
-<rect x="1070" y="470" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1070" y="470" width="460" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1300.0" y="508" font-size="21" font-weight="700" text-anchor="middle" fill="#FAF1E2">Safety framing</text>
 <text x="70" y="600" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">AGREE WITH YOUR SALON: ACCOUNTS, PHOTOS, BOOKING ROUTE</text>
 </svg>

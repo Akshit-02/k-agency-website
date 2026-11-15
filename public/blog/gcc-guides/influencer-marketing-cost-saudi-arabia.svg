@@ -15,7 +15,7 @@
 <text x="674" y="228" font-size="23" font-weight="700" fill="#150F0B">Production</text>
 <text x="674" y="270" font-size="19" fill="#150F0B" opacity=".9">Shoots, travel,</text>
 <text x="674" y="300" font-size="19" fill="#150F0B" opacity=".9">Arabic review</text>
-<rect x="946" y="180" width="292" height="300" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="946" y="180" width="292" height="300" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="966" y="228" font-size="23" font-weight="700" fill="#FAF1E2">Amplification</text>
 <text x="966" y="270" font-size="19" fill="#FAF1E2" opacity=".9">Ad spend behind</text>
 <text x="966" y="300" font-size="19" fill="#FAF1E2" opacity=".9">creator content</text>

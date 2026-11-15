@@ -9,7 +9,7 @@
 <text x="259" y="186" font-size="15" fill="#150F0B" opacity=".7">02</text>
 <text x="259" y="230" font-size="21" font-weight="700" fill="#150F0B">Find / receive</text>
 <path d="M407 210 h20" stroke="#150F0B" stroke-width="3"/>
-<rect x="430" y="150" width="160" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="430" y="150" width="160" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="444" y="186" font-size="15" fill="#FAF1E2" opacity=".7">03</text>
 <text x="444" y="230" font-size="21" font-weight="700" fill="#FAF1E2">Qualify</text>
 <path d="M592 210 h20" stroke="#150F0B" stroke-width="3"/>
@@ -24,7 +24,7 @@
 <rect x="985" y="150" width="160" height="120" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="999" y="186" font-size="15" fill="#150F0B" opacity=".7">06</text>
 <text x="999" y="230" font-size="21" font-weight="700" fill="#150F0B">Negotiate</text>
-<rect x="985" y="380" width="160" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="985" y="380" width="160" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="999" y="416" font-size="15" fill="#FAF1E2" opacity=".7">07</text>
 <text x="999" y="460" font-size="21" font-weight="700" fill="#FAF1E2">Contract</text>
 <path d="M983 440 h-20" stroke="#150F0B" stroke-width="3"/>
@@ -40,7 +40,7 @@
 <text x="444" y="416" font-size="15" fill="#150F0B" opacity=".7">10</text>
 <text x="444" y="460" font-size="21" font-weight="700" fill="#150F0B">Publish</text>
 <path d="M428 440 h-20" stroke="#150F0B" stroke-width="3"/>
-<rect x="245" y="380" width="160" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="245" y="380" width="160" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="259" y="416" font-size="15" fill="#FAF1E2" opacity=".7">11</text>
 <text x="259" y="460" font-size="21" font-weight="700" fill="#FAF1E2">Report</text>
 <path d="M243 440 h-20" stroke="#150F0B" stroke-width="3"/>

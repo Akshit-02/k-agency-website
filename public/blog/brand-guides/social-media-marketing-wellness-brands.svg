@@ -20,7 +20,7 @@
 <text x="850" y="288" font-size="19" fill="#150F0B" opacity=".85">Treats, cures or</text>
 <text x="850" y="318" font-size="19" fill="#150F0B" opacity=".85">prevents a disease</text>
 <text x="850" y="399" font-size="19" font-weight="700" fill="#150F0B">Prohibited for supplements</text>
-<rect x="1270" y="160" width="270" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1270" y="160" width="270" height="110" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1290" y="205" font-size="22" font-weight="700" fill="#FAF1E2">Check before</text>
 <text x="1290" y="240" font-size="22" font-weight="700" fill="#FAF1E2">publishing</text>
 <text x="70" y="670" font-size="18" fill="#150F0B" opacity=".75">Based on the DMR Act 1954, FSSAI nutraceutical and claims regulations, and the ASCI Code. Sign-off stays with the brand.</text>

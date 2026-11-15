@@ -13,7 +13,7 @@ import { markets, marketPhrase } from "@/content/markets";
 
 const themes = [
   { bg: "bg-coral", text: "text-ink" },
-  { bg: "bg-violet", text: "text-paper" },
+  { bg: "bg-paper-dim", text: "text-ink" },
   { bg: "bg-lime", text: "text-ink" },
   { bg: "bg-ink", text: "text-paper" },
 ];
@@ -89,11 +89,11 @@ export function ServiceDetail({
             <h2 className="font-display text-2xl tracking-tight text-ink sm:text-3xl">{service.answer.question}</h2>
             <p className="mt-4 text-lg leading-relaxed text-ink/75 text-pretty">{service.answer.text}</p>
             {service.socialNote && (
-              <p className="mt-6 border-l-[3px] border-violet pl-5 text-base leading-relaxed text-ink/70 text-pretty">
+              <p className="mt-6 border-l-[3px] border-lime pl-5 text-base leading-relaxed text-ink/70 text-pretty">
                 {service.socialNote.before}
                 <Link
                   href="/services/social-media-management"
-                  className="font-semibold text-ink underline decoration-violet decoration-2 underline-offset-4 hover:text-violet"
+                  className="font-semibold text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
                 >
                   {service.socialNote.linkText}
                 </Link>
@@ -172,7 +172,7 @@ export function ServiceDetail({
               <StaggerReveal className="mt-8 space-y-4">
                 {service.deliverables.map((deliverable) => (
                   <StaggerItem key={deliverable} className="flex items-start gap-3 border-b border-line pb-4">
-                    <span className="mt-2 size-1.5 shrink-0 rounded-full bg-violet" />
+                    <span className="mt-2 size-1.5 shrink-0 rounded-full bg-ink" />
                     <p className="text-base text-ink/70">{deliverable}</p>
                   </StaggerItem>
                 ))}
@@ -236,7 +236,7 @@ export function ServiceDetail({
               <ul className="mt-8 space-y-4">
                 {service.successMeasures.map((item) => (
                   <li key={item} className="flex items-start gap-3 border-b border-line pb-4">
-                    <Check className="mt-1 size-5 shrink-0 text-violet" aria-hidden="true" />
+                    <Check className="mt-1 size-5 shrink-0 text-ink" aria-hidden="true" />
                     <p className="text-base text-ink/70">{item}</p>
                   </li>
                 ))}

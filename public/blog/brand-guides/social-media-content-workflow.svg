@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">A REPEATABLE MONTHLY CONTENT WORKFLOW</text>
 <rect x="80" y="240" width="200" height="120" fill="#150F0B"/>
-<rect x="70" y="230" width="200" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="230" width="200" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="170" y="300" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Brief</text>
 <line x1="284" y1="290" x2="301" y2="290" stroke="#150F0B" stroke-width="4"/>
 <polygon points="315,290 299,280 299,300" fill="#150F0B"/>
@@ -28,7 +28,7 @@
 <line x1="1264" y1="290" x2="1281" y2="290" stroke="#150F0B" stroke-width="4"/>
 <polygon points="1295,290 1279,280 1279,300" fill="#150F0B"/>
 <rect x="1305" y="240" width="200" height="120" fill="#150F0B"/>
-<rect x="1295" y="230" width="200" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1295" y="230" width="200" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1395" y="300" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Learn</text>
 <path d="M1395 364 L1395 450 L170 450 L170 378" fill="none" stroke="#150F0B" stroke-width="4"/>
 <polygon points="170,364 160,382 180,382" fill="#150F0B"/>

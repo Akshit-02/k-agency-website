@@ -12,7 +12,7 @@
 <rect x="650" y="96" width="300" height="88" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
 <text x="676" y="146" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">First use tutorials</text>
 <rect x="1030" y="281" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="1018" y="269" width="300" height="88" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1018" y="269" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1044" y="319" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Honest progress</text>
 <rect x="889" y="560" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="877" y="548" width="300" height="88" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>

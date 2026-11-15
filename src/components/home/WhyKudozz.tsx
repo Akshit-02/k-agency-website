@@ -7,7 +7,7 @@ import { reasons } from "@/content/home";
 import { IconTile } from "@/components/icons/Pictogram";
 import { servicePictogram, slugFromServiceHref } from "@/components/icons/ServiceIcon";
 
-const accents = ["coral", "violet", "lime", "coral"] as const;
+const accents = ["coral", "lime"] as const;
 
 export function WhyKudozz() {
   return (

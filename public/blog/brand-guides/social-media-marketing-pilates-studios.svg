@@ -28,7 +28,7 @@
 <text x="1094" y="402" font-size="22" fill="#150F0B" opacity=".9">14. Member milestone</text>
 <text x="1094" y="446" font-size="22" fill="#150F0B" opacity=".9">15. Class planning</text>
 <text x="70" y="545" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">ENQUIRY JOURNEYS</text>
-<rect x="70" y="565" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="565" width="460" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="300.0" y="603" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Trial class</text>
 <path d="M540 595 L606 595" stroke="#150F0B" stroke-width="4"/>
 <path d="M597 587 L606 595 L597 603" fill="none" stroke="#150F0B" stroke-width="4"/>

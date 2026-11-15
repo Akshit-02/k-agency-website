@@ -44,7 +44,7 @@ export const metadata: Metadata = buildMetadata({
   path: SMM_PATH,
 });
 
-const accents = ["bg-coral", "bg-violet", "bg-lime", "bg-ink"];
+const accents = ["bg-coral", "bg-lime", "bg-ink"];
 
 /** One pictogram per approach step, in the order of smmApproach (brand, category, objectives ... review). */
 const approachIcons: PictogramName[] = [
@@ -252,7 +252,7 @@ export default function SocialMediaManagementPage() {
                         className={cn(
                           "flex size-10 shrink-0 items-center justify-center font-black-display text-lg",
                           accents[i % accents.length],
-                          i % accents.length === 1 || i % accents.length === 3 ? "text-paper" : "text-ink"
+                          i % accents.length === 2 ? "text-paper" : "text-ink"
                         )}
                       >
                         {cap.letter}
@@ -300,7 +300,7 @@ export default function SocialMediaManagementPage() {
       </section>
 
       {/* 5. Platform-specific management */}
-      <section className="bg-violet py-28 text-paper sm:py-36" id="platforms">
+      <section className="bg-ink py-28 text-paper sm:py-36" id="platforms">
         <Container>
           <SectionHeading
             eyebrow="Platforms"
@@ -310,7 +310,7 @@ export default function SocialMediaManagementPage() {
           />
           <StaggerReveal className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {smmPlatforms.map((platform) => (
-              <StaggerItem key={platform.name} className="flex flex-col border-[1.5px] border-paper/20 bg-violet-dim p-7">
+              <StaggerItem key={platform.name} className="flex flex-col border-[1.5px] border-paper/15 bg-paper/5 p-7">
                 <h3 className="flex items-center gap-3 font-display text-3xl tracking-tight">
                   {(() => {
                     const id = platformIdFromName(platform.name);

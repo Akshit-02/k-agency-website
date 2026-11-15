@@ -9,7 +9,7 @@
 <text x="296" y="162" font-size="14" fill="#150F0B" opacity=".7">02</text>
 <text x="296" y="200" font-size="21" font-weight="700" fill="#150F0B">Idea</text>
 <text x="296" y="235" font-size="15" fill="#150F0B">Concept + hook</text>
-<rect x="500" y="130" width="200" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="500" y="130" width="200" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="516" y="162" font-size="14" fill="#FAF1E2" opacity=".7">03</text>
 <text x="516" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Deliverables</text>
 <text x="516" y="235" font-size="15" fill="#FAF1E2">Formats, counts</text>
@@ -25,7 +25,7 @@
 <text x="76" y="387" font-size="14" fill="#150F0B" opacity=".7">06</text>
 <text x="76" y="425" font-size="21" font-weight="700" fill="#150F0B">Usage &amp; add-ons</text>
 <text x="76" y="460" font-size="15" fill="#150F0B">Priced lines</text>
-<rect x="280" y="355" width="200" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="280" y="355" width="200" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="296" y="387" font-size="14" fill="#FAF1E2" opacity=".7">07</text>
 <text x="296" y="425" font-size="21" font-weight="700" fill="#FAF1E2">Reporting</text>
 <text x="296" y="460" font-size="15" fill="#FAF1E2">Metrics + date</text>

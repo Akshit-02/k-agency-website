@@ -24,7 +24,7 @@
 <rect x="820" y="280" width="330" height="80" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="840" y="310" font-size="14" fill="#150F0B" opacity=".7">Other languages</text>
 <text x="840" y="344" font-size="22" font-weight="700" fill="#150F0B">Subtitles, translations</text>
-<rect x="820" y="400" width="330" height="80" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="820" y="400" width="330" height="80" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="840" y="430" font-size="14" fill="#FAF1E2" opacity=".7">Screen readers</text>
 <text x="840" y="464" font-size="24" font-weight="700" fill="#FAF1E2">Alt text</text>
 <rect x="820" y="520" width="330" height="80" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>

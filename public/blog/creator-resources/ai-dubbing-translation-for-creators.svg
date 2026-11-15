@@ -14,7 +14,7 @@
 <rect x="400" y="280" width="300" height="90" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="420" y="313" font-size="14" fill="#150F0B" opacity=".7">Medium effort</text>
 <text x="420" y="350" font-size="24" font-weight="700" fill="#150F0B">AI dub track</text>
-<rect x="400" y="445" width="300" height="90" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="400" y="445" width="300" height="90" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="420" y="478" font-size="14" fill="#FAF1E2" opacity=".7">High effort</text>
 <text x="420" y="515" font-size="24" font-weight="700" fill="#FAF1E2">Native re-creation</text>
 <line x1="700" y1="325" x2="780" y2="325" stroke="#150F0B" stroke-width="3"/>

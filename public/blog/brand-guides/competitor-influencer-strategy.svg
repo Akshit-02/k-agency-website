@@ -4,7 +4,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">COMPETITOR CREATOR STRATEGY</text>
 <rect x="82" y="242" width="260" height="250" fill="#150F0B"/>
-<rect x="70" y="230" width="260" height="250" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="230" width="260" height="250" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="96" y="282" font-size="26" font-weight="700" fill="#FAF1E2">Who</text>
 <text x="96" y="324" font-size="20" fill="#FAF1E2" opacity=".85">Creator types</text>
 <text x="96" y="354" font-size="20" fill="#FAF1E2" opacity=".85">and tiers</text>

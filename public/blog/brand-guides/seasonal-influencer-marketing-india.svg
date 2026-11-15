@@ -28,7 +28,7 @@
 <rect x="400" y="154" width="220" height="40" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="242" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Creator shortlist</text>
 <rect x="516" y="214" width="226" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="510" y="210" width="220" height="40" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="510" y="210" width="220" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="298" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Contracts and product</text>
 <rect x="681" y="270" width="226" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="675" y="266" width="220" height="40" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
@@ -37,7 +37,7 @@
 <rect x="895" y="322" width="220" height="40" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="410" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Teasers and gift guides</text>
 <rect x="1121" y="382" width="171" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="1115" y="378" width="165" height="40" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="1115" y="378" width="165" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="466" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Festival window</text>
 <rect x="1286" y="438" width="171" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="1280" y="434" width="165" height="40" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>

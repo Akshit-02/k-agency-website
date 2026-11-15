@@ -11,7 +11,7 @@
 <text x="445" y="242" font-size="17" fill="#150F0B">Relevance, engagement,</text>
 <text x="445" y="272" font-size="17" fill="#150F0B">quality</text>
 <text x="445" y="302" font-size="17" fill="#150F0B">Helps: titles, watch time</text>
-<rect x="790" y="120" width="340" height="220" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="790" y="120" width="340" height="220" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="810" y="156" font-size="14" fill="#FAF1E2" opacity=".7">03</text><text x="810" y="200" font-size="26" font-weight="700" fill="#FAF1E2">Instagram Search</text>
 <text x="810" y="242" font-size="17" fill="#FAF1E2">Search text, activity,</text>
 <text x="810" y="272" font-size="17" fill="#FAF1E2">popularity</text>

@@ -5,7 +5,7 @@
 <rect x="60" y="130" width="245" height="100" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="76" y="158" font-size="14" fill="#150F0B" opacity=".7">01</text>
 <text x="76" y="188" font-size="20" font-weight="700" fill="#150F0B">Brand brief</text>
-<rect x="335" y="130" width="245" height="100" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="335" y="130" width="245" height="100" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="351" y="158" font-size="14" fill="#FAF1E2" opacity=".7">02</text>
 <text x="351" y="188" font-size="20" font-weight="700" fill="#FAF1E2">Creator selection</text>
 <rect x="610" y="130" width="245" height="100" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
@@ -17,7 +17,7 @@
 <rect x="885" y="280" width="245" height="100" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="901" y="308" font-size="14" fill="#150F0B" opacity=".7">05</text>
 <text x="901" y="338" font-size="20" font-weight="700" fill="#150F0B">Capacity check</text>
-<rect x="610" y="280" width="245" height="100" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="610" y="280" width="245" height="100" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="626" y="308" font-size="14" fill="#FAF1E2" opacity=".7">06</text>
 <text x="626" y="338" font-size="20" font-weight="700" fill="#FAF1E2">Creator execution</text>
 <rect x="335" y="280" width="245" height="100" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
@@ -29,7 +29,7 @@
 <rect x="60" y="430" width="245" height="100" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="76" y="458" font-size="14" fill="#150F0B" opacity=".7">09</text>
 <text x="76" y="488" font-size="20" font-weight="700" fill="#150F0B">Reporting</text>
-<rect x="335" y="430" width="245" height="100" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="335" y="430" width="245" height="100" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="351" y="458" font-size="14" fill="#FAF1E2" opacity=".7">10</text>
 <text x="351" y="488" font-size="20" font-weight="700" fill="#FAF1E2">Post-mortem</text>
 <rect x="610" y="430" width="245" height="100" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>

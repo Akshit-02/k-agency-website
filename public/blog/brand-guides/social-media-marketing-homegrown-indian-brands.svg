@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">TRUST-BUILDING CONTENT FRAMEWORK</text>
 <rect x="82" y="182" width="320" height="260" fill="#150F0B"/>
-<rect x="70" y="170" width="320" height="260" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="170" width="320" height="260" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="218" font-size="24" font-weight="700" fill="#FAF1E2">Who we are</text>
 <text x="92" y="262" font-size="19" fill="#FAF1E2" opacity=".9">Founder story</text>
 <text x="92" y="292" font-size="19" fill="#FAF1E2" opacity=".9">Team and workshop</text>

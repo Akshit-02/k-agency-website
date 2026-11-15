@@ -13,11 +13,11 @@
 <rect x="565" y="285" width="50" height="90" rx="25" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
 <rect x="584" y="375" width="12" height="30" fill="#150F0B"/><rect x="555" y="405" width="70" height="10" fill="#150F0B"/>
 <text x="464" y="448" font-size="22" font-weight="700" fill="#150F0B">USB microphone</text>
-<rect x="780" y="220" width="300" height="250" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="780" y="220" width="300" height="250" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="804" y="262" font-size="18" fill="#FAF1E2" opacity=".8">Tier 3</text>
 <rect x="840" y="285" width="44" height="90" rx="22" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
 <rect x="940" y="320" width="110" height="60" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
-<circle cx="975" cy="350" r="10" fill="#150F0B"/><circle cx="1015" cy="350" r="10" fill="#150F0B"/>
+<circle cx="975" cy="350" r="10" fill="#FAF1E2"/><circle cx="1015" cy="350" r="10" fill="#FAF1E2"/>
 <path d="M862 375 C 862 420, 940 420, 950 380" stroke="#FAF1E2" stroke-width="3" fill="none"/>
 <text x="804" y="448" font-size="22" font-weight="700" fill="#FAF1E2">XLR + interface</text>
 <path d="M1100 345 L 1160 345" stroke="#150F0B" stroke-width="4"/><path d="M1150 333 L 1166 345 L 1150 357" stroke="#150F0B" stroke-width="4" fill="none"/>

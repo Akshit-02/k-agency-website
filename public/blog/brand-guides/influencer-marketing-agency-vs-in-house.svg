@@ -37,18 +37,18 @@
 <rect x="594" y="492" width="288" height="22" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
 <rect x="1082" y="142" width="460" height="500" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="1070" y="130" width="460" height="500" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
-<rect x="1070" y="130" width="460" height="80" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1070" y="130" width="460" height="80" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1094" y="182" font-size="32" font-weight="700" text-anchor="start" fill="#FAF1E2">Agency</text>
 <text x="1094" y="250" font-size="22" text-anchor="start" fill="#150F0B">Control</text>
 <rect x="1094" y="264" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
-<rect x="1094" y="264" width="247" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<rect x="1094" y="264" width="247" height="22" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="2"/>
 <text x="1094" y="326" font-size="22" text-anchor="start" fill="#150F0B">Brand knowledge</text>
 <rect x="1094" y="340" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
-<rect x="1094" y="340" width="226" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<rect x="1094" y="340" width="226" height="22" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="2"/>
 <text x="1094" y="402" font-size="22" text-anchor="start" fill="#150F0B">Speed to launch</text>
 <rect x="1094" y="416" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
-<rect x="1094" y="416" width="350" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<rect x="1094" y="416" width="350" height="22" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="2"/>
 <text x="1094" y="478" font-size="22" text-anchor="start" fill="#150F0B">Regional reach</text>
 <rect x="1094" y="492" width="412" height="22" rx="0" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
-<rect x="1094" y="492" width="350" height="22" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="2"/>
+<rect x="1094" y="492" width="350" height="22" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="2"/>
 </svg>

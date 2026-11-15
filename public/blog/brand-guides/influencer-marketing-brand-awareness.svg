@@ -4,7 +4,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">BUILDING REACH AT SCALE</text>
 <rect x="80" y="150" width="1100" height="108" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="70" y="140" width="1100" height="108" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="140" width="1100" height="108" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="620" y="190" font-size="30" font-weight="700" text-anchor="middle" fill="#FAF1E2">Large creators</text>
 <text x="620" y="224" font-size="20" text-anchor="middle" fill="#FAF1E2" opacity=".85">Breadth and launch visibility</text>
 <rect x="190" y="278" width="880" height="108" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>

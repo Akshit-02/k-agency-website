@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">BAKERY REELS: FROM HOOK TO CONFIRMED ORDER</text>
 <rect x="82" y="212" width="250" height="230" fill="#150F0B"/>
-<rect x="70" y="200" width="250" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="200" width="250" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="90" y="246" font-size="24" font-weight="700" fill="#FAF1E2">Reel hook</text>
 <text x="90" y="288" font-size="18" fill="#FAF1E2" opacity=".85">Cut, pour or</text>
 <text x="90" y="318" font-size="18" fill="#FAF1E2" opacity=".85">reveal in 2 sec</text>
@@ -31,7 +31,7 @@
 <line x1="1236" y1="315" x2="1254" y2="315" stroke="#150F0B" stroke-width="4"/>
 <polygon points="1266,315 1252,306 1252,324" fill="#150F0B"/>
 <rect x="1282" y="212" width="250" height="230" fill="#150F0B"/>
-<rect x="1270" y="200" width="250" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1270" y="200" width="250" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1290" y="246" font-size="24" font-weight="700" fill="#FAF1E2">Confirmed</text>
 <text x="1290" y="288" font-size="18" fill="#FAF1E2" opacity=".85">Every detail</text>
 <text x="1290" y="318" font-size="18" fill="#FAF1E2" opacity=".85">in writing</text>

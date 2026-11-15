@@ -22,7 +22,7 @@
 <text x="700" y="310" font-size="19" fill="#150F0B" opacity=".9">exact disclaimer</text>
 <path d="M940 310 L976 310" stroke="#150F0B" stroke-width="4"/><path d="M967 302 L976 310 L967 318" fill="none" stroke="#150F0B" stroke-width="4"/>
 <rect x="994" y="212" width="244" height="220" fill="#150F0B"/>
-<rect x="982" y="200" width="244" height="220" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="982" y="200" width="244" height="220" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1004" y="244" font-size="24" font-weight="700" fill="#FAF1E2">4. Sign-off</text>
 <text x="1004" y="282" font-size="19" fill="#FAF1E2" opacity=".9">Compliance</text>
 <text x="1004" y="310" font-size="19" fill="#FAF1E2" opacity=".9">officer approves</text>

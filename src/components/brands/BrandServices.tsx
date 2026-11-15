@@ -28,39 +28,40 @@ const cards = groups.flatMap((group) =>
 
 export function BrandServices() {
   return (
-    <section className="bg-violet py-28 text-paper sm:py-36">
+    <section className="bg-coral py-28 text-ink sm:py-36 [&_*:focus-visible]:outline-ink">
       <Container>
         <div className="flex flex-col gap-10 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
             eyebrow="Services for Brands"
             title="Social media, creators and content, under one roof."
             description="Work with Kudozz on your own social accounts, on creator campaigns and launches, on UGC, or on all of them together. Every service can be hired on its own."
-            dark
+            descriptionClassName="text-ink"
+            eyebrowClassName="bg-paper [&>span]:bg-coral"
           />
           <Reveal delay={0.1}>
-            <Button href="/services" variant="outline-light">
+            <Button href="/services" variant="dark">
               See Full Service List
             </Button>
           </Reveal>
         </div>
 
-        <StaggerReveal className="mt-14 grid gap-px overflow-hidden border-[1.5px] border-paper/20 bg-paper/20 sm:grid-cols-2 lg:grid-cols-4">
+        <StaggerReveal className="mt-14 grid gap-[1.5px] overflow-hidden border-[1.5px] border-ink bg-ink shadow-[8px_8px_0_0_var(--color-ink)] sm:grid-cols-2 lg:grid-cols-4">
           {cards.map(({ area, service }) => (
-            <StaggerItem key={service.slug} className="bg-violet">
+            <StaggerItem key={service.slug} className="bg-paper">
               <Link
                 href={`/services/${service.slug}`}
-                className="group flex h-full flex-col p-6 transition-colors duration-300 hover:bg-violet-dim"
+                className="group flex h-full flex-col p-6 text-ink transition-colors duration-300 hover:bg-lime"
               >
-                <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-lime">{area}</span>
-                <ServiceIcon slug={service.slug} accent="lime" className="mt-5 size-12 text-paper" />
+                <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-ink/65">{area}</span>
+                <ServiceIcon slug={service.slug} accent="coral" className="mt-5 size-12 text-ink" />
                 <h3 className="mt-5 flex items-start justify-between gap-2 font-display text-lg tracking-tight">
                   {service.name}
                   <ArrowUpRight
-                    className="mt-1 size-4 shrink-0 opacity-50 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-100"
+                    className="mt-1 size-4 shrink-0 opacity-60 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-100"
                     aria-hidden="true"
                   />
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-paper/65">{service.shortDescription}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{service.shortDescription}</p>
               </Link>
             </StaggerItem>
           ))}

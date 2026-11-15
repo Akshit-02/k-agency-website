@@ -28,14 +28,14 @@ export function NewsletterForm() {
 
   if (status === "success") {
     return (
-      <p className="flex items-center gap-2 text-sm font-medium text-lime">
+      <p className="flex items-center gap-2 text-sm font-medium text-ink">
         <Check className="size-4" /> You&apos;re subscribed.
       </p>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex w-full max-w-sm items-center gap-3 border-b border-paper/25 pb-2 sm:w-auto">
+    <form onSubmit={handleSubmit} className="flex w-full max-w-sm items-center gap-3 border-b border-ink/40 pb-2 sm:w-auto">
       <input
         type="text"
         tabIndex={-1}
@@ -55,13 +55,13 @@ export function NewsletterForm() {
         placeholder="you@brand.com"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        className="w-full bg-transparent text-sm text-paper placeholder:text-paper/40 focus:outline-none sm:w-56"
+        className="w-full bg-transparent text-sm text-ink placeholder:text-ink/55 focus:outline-none sm:w-56"
       />
       <button
         type="submit"
         disabled={status === "loading"}
         aria-label="Subscribe"
-        className="flex size-9 shrink-0 items-center justify-center bg-lime text-ink transition-transform hover:scale-105 disabled:opacity-50"
+        className="flex size-9 shrink-0 items-center justify-center bg-ink text-paper transition-transform hover:scale-105 disabled:opacity-50"
       >
         <ArrowRight className="size-4" />
       </button>

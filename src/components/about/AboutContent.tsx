@@ -11,7 +11,7 @@ import { heroFacts, industries } from "@/content/home";
 
 const values = [
   { title: "Strategy first", body: "Every engagement starts with your business objective, not a creator pitch.", bg: "bg-coral text-ink" },
-  { title: "Radical transparency", body: "Reporting and communication that don't hide behind vanity metrics.", bg: "bg-violet text-paper" },
+  { title: "Radical transparency", body: "Reporting and communication that don't hide behind vanity metrics.", bg: "bg-paper text-ink border-[1.5px] border-ink" },
   { title: "Real partnerships", body: "With brands and creators alike — we build relationships, not transactions.", bg: "bg-lime text-ink" },
   { title: "Craft over shortcuts", body: "We'd rather run fewer campaigns well than many campaigns carelessly.", bg: "bg-ink text-paper" },
 ];
@@ -25,7 +25,7 @@ const platforms = [
   { name: "Podcasts", href: "/blog/podcast-influencer-marketing-india" },
 ];
 
-const statStyles = ["bg-ink text-paper", "bg-coral text-ink", "bg-violet text-paper", "bg-lime text-ink"];
+const statStyles = ["bg-ink text-paper", "bg-coral text-ink", "bg-paper text-ink border-[1.5px] border-ink", "bg-lime text-ink"];
 
 export function AboutContent() {
   return (

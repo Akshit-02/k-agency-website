@@ -10,7 +10,7 @@
 <text x="96" y="348" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">the catchment</text>
 <path d="M334 355 L366 355" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
 <rect x="382" y="242" width="260" height="250" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="370" y="230" width="260" height="250" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="370" y="230" width="260" height="250" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="396" y="282" font-size="26" font-weight="700" text-anchor="start" fill="#FAF1E2">Teasers</text>
 <text x="396" y="314" font-size="20" text-anchor="start" fill="#FAF1E2" opacity=".85">Opening on</text>
 <text x="396" y="348" font-size="20" text-anchor="start" fill="#FAF1E2" opacity=".85">this street</text>

@@ -6,7 +6,7 @@
 <rect x="82" y="162" width="1460" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="70" y="150" width="759" height="150" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
 <text x="88" y="210" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Creator fees</text>
-<rect x="829" y="150" width="175" height="150" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="829" y="150" width="175" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="847" y="210" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Agency</text>
 <rect x="1004" y="150" width="146" height="150" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
 <rect x="1150" y="150" width="262" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
@@ -15,7 +15,7 @@
 <text x="70" y="370" font-size="30" font-weight="700" text-anchor="start" fill="#150F0B">Total = creators × quoted fees + everything else</text>
 <rect x="70" y="410" width="34" height="34" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="120" y="436" font-size="24" text-anchor="start" fill="#150F0B">Creator fees</text>
-<rect x="560" y="410" width="34" height="34" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="560" y="410" width="34" height="34" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="610" y="436" font-size="24" text-anchor="start" fill="#150F0B">Agency</text>
 <rect x="1050" y="410" width="34" height="34" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
 <text x="1100" y="436" font-size="24" text-anchor="start" fill="#150F0B">Production</text>

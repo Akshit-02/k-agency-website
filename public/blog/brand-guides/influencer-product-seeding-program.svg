@@ -16,7 +16,7 @@
 <text x="396" y="348" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">sending</text>
 <path d="M634 355 L666 355" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
 <rect x="682" y="242" width="260" height="250" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="670" y="230" width="260" height="250" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="670" y="230" width="260" height="250" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="696" y="282" font-size="26" font-weight="700" text-anchor="start" fill="#FAF1E2">Package</text>
 <text x="696" y="314" font-size="20" text-anchor="start" fill="#FAF1E2" opacity=".85">Note, facts,</text>
 <text x="696" y="348" font-size="20" text-anchor="start" fill="#FAF1E2" opacity=".85">no obligation</text>

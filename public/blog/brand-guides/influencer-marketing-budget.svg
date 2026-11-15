@@ -4,7 +4,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">PLANNING AN INFLUENCER BUDGET</text>
 <rect x="82" y="242" width="208" height="230" fill="#150F0B"/>
-<rect x="70" y="230" width="208" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="230" width="208" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="280" font-size="24" font-weight="700" fill="#FAF1E2">Objective</text>
 <text x="92" y="322" font-size="19" fill="#FAF1E2" opacity=".85">What a result</text>
 <text x="92" y="352" font-size="19" fill="#FAF1E2" opacity=".85">is worth</text>
@@ -34,7 +34,7 @@
 <text x="1068" y="352" font-size="19" fill="#FAF1E2" opacity=".85">rights, media</text>
 <path d="M1258 345 L1284 345" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>
 <rect x="1302" y="242" width="208" height="230" fill="#150F0B"/>
-<rect x="1290" y="230" width="208" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1290" y="230" width="208" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1312" y="280" font-size="24" font-weight="700" fill="#FAF1E2">Phase</text>
 <text x="1312" y="322" font-size="19" fill="#FAF1E2" opacity=".85">Test, scale,</text>
 <text x="1312" y="352" font-size="19" fill="#FAF1E2" opacity=".85">reserve</text>

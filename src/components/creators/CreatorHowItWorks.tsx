@@ -6,7 +6,7 @@ import { Pictogram } from "@/components/icons/Pictogram";
 const steps = [
   { n: "01", icon: "apply", accent: "coral", title: "Apply to Join", body: "Submit your details and content niche — takes less than three minutes.", bg: "bg-ink text-paper" },
   { n: "02", icon: "profile", accent: "lime", title: "Tell Us About Your Content", body: "Share your platforms, audience, and the kind of brands you want to work with.", bg: "bg-coral text-ink" },
-  { n: "03", icon: "match", accent: "lime", title: "Get Matched", body: "When a relevant campaign comes up, we'll reach out with the brief and terms.", bg: "bg-violet text-paper" },
+  { n: "03", icon: "match", accent: "coral", title: "Get Matched", body: "When a relevant campaign comes up, we'll reach out with the brief and terms.", bg: "bg-paper text-ink border-[1.5px] border-ink" },
   { n: "04", icon: "partnership", accent: "coral", title: "Collaborate", body: "We handle contracts and coordination so you can focus on making great content.", bg: "bg-lime text-ink" },
 ] as const;
 

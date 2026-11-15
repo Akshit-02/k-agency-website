@@ -2,7 +2,7 @@
 <title id="t">A property buyer-journey content matrix</title>
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75" letter-spacing="1">WHAT TO POST AT EACH STAGE OF THE BUYER JOURNEY</text>
-<rect x="330" y="130" width="282" height="64" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="330" y="130" width="282" height="64" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="471" y="172" font-size="25" font-weight="700" text-anchor="middle" fill="#FAF1E2">Awareness</text>
 <rect x="636" y="130" width="282" height="64" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
 <text x="777" y="172" font-size="25" font-weight="700" text-anchor="middle" fill="#150F0B">Research</text>

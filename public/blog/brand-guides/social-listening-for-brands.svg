@@ -4,7 +4,7 @@
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">FROM MENTIONS TO DECISIONS</text>
 <g font-size="19">
 <rect x="82" y="172" width="440" height="160" fill="#150F0B"/>
-<rect x="70" y="160" width="440" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="160" width="440" height="160" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="206" font-size="24" font-weight="700" fill="#FAF1E2">1. Define questions</text>
 <text x="92" y="248" fill="#FAF1E2" opacity=".9">What do customers</text>
 <text x="92" y="278" fill="#FAF1E2" opacity=".9">need to know?</text>
@@ -29,7 +29,7 @@
 <text x="602" y="468" fill="#150F0B" opacity=".85">Content, product fixes,</text>
 <text x="602" y="498" fill="#150F0B" opacity=".85">support, briefs</text>
 <rect x="82" y="392" width="440" height="160" fill="#150F0B"/>
-<rect x="70" y="380" width="440" height="160" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="380" width="440" height="160" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="426" font-size="24" font-weight="700" fill="#FAF1E2">6. Report</text>
 <text x="92" y="468" fill="#FAF1E2" opacity=".9">Monthly themes and</text>
 <text x="92" y="498" fill="#FAF1E2" opacity=".9">what changed</text>

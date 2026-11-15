@@ -166,7 +166,7 @@ export function MarketDetail({
               <ul className="mt-8 space-y-4">
                 {market.proposal.map((item) => (
                   <li key={item} className="flex items-start gap-3 border-b border-line pb-4">
-                    <span className="mt-2 size-1.5 shrink-0 rounded-full bg-violet" />
+                    <span className="mt-2 size-1.5 shrink-0 rounded-full bg-coral" />
                     <p className="text-base text-ink/70">{item}</p>
                   </li>
                 ))}

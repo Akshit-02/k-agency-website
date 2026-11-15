@@ -29,7 +29,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          backgroundColor: isCreator ? "#5A2EEA" : "#150F0B",
+          backgroundColor: "#150F0B",
           color: "#FAF1E2",
           padding: "72px",
           fontFamily: "sans-serif",

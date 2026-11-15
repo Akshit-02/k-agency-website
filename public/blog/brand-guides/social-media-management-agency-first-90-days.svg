@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">THE FIRST 90 DAYS WITH A SOCIAL MEDIA AGENCY</text>
 <rect x="82" y="212" width="420" height="280" fill="#150F0B"/>
-<rect x="70" y="200" width="420" height="280" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="200" width="420" height="280" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="248" font-size="24" font-weight="700" fill="#FAF1E2">Days 1 to 30</text>
 <text x="92" y="290" font-size="19" fill="#FAF1E2" opacity=".85">Access and assets</text>
 <text x="92" y="320" font-size="19" fill="#FAF1E2" opacity=".85">Account audit</text>

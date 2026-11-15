@@ -5,7 +5,7 @@
 <text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">GOVERNANCE AND SOPS</text>
 <rect x="362" y="132" width="560" height="540" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="350" y="120" width="560" height="540" rx="0" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
-<rect x="350" y="120" width="560" height="70" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="350" y="120" width="560" height="70" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="376" y="166" font-size="28" font-weight="700" text-anchor="start" fill="#FAF1E2">Creator partnership policy</text>
 <text x="376" y="230" font-size="18" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".5">01</text>
 <text x="420" y="230" font-size="24" text-anchor="start" fill="#150F0B">Selection and safety</text>
@@ -36,7 +36,7 @@
 <text x="1026" y="216" font-size="30" font-weight="700" text-anchor="start" fill="#150F0B">Approval matrix</text>
 <text x="1026" y="248" font-size="22" text-anchor="start" fill="#150F0B" opacity=".85">Scaled to risk and value</text>
 <rect x="1012" y="392" width="500" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="1000" y="380" width="500" height="150" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1000" y="380" width="500" height="150" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1026" y="436" font-size="30" font-weight="700" text-anchor="start" fill="#FAF1E2">Standard SOP</text>
 <text x="1026" y="468" font-size="22" text-anchor="start" fill="#FAF1E2" opacity=".85">Plan to report, with templates</text>
 <path d="M912 390 L990 250" stroke="#150F0B" stroke-width="4" marker-end="url(#a)"/>

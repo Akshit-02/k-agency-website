@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">VET CLINICS: WHAT PET OWNERS NEED AT EACH STEP</text>
 <rect x="82" y="182" width="250" height="230" fill="#150F0B"/>
-<rect x="70" y="170" width="250" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="170" width="250" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="90" y="216" font-size="24" font-weight="700" fill="#FAF1E2">Find us</text>
 <text x="90" y="258" font-size="18" fill="#FAF1E2" opacity=".85">Hours, species,</text>
 <text x="90" y="288" font-size="18" fill="#FAF1E2" opacity=".85">emergency route</text>
@@ -31,7 +31,7 @@
 <line x1="1236" y1="285" x2="1254" y2="285" stroke="#150F0B" stroke-width="4"/>
 <polygon points="1266,285 1252,276 1252,294" fill="#150F0B"/>
 <rect x="1282" y="182" width="250" height="230" fill="#150F0B"/>
-<rect x="1270" y="170" width="250" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1270" y="170" width="250" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1290" y="216" font-size="24" font-weight="700" fill="#FAF1E2">Come back</text>
 <text x="1290" y="258" font-size="18" fill="#FAF1E2" opacity=".85">Reminders, never</text>
 <text x="1290" y="288" font-size="18" fill="#FAF1E2" opacity=".85">after a loss</text>

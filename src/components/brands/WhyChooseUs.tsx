@@ -17,7 +17,7 @@ const differentiators = [
 const themes = [
   { bg: "hover:bg-coral", icon: "text-ink group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/60 group-hover:text-ink/70" },
   { bg: "hover:bg-lime", icon: "text-ink", body: "text-ink/60 group-hover:text-ink/70" },
-  { bg: "hover:bg-violet", icon: "text-ink group-hover:text-paper group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/60 group-hover:text-paper/70" },
+  { bg: "hover:bg-ink", icon: "text-ink group-hover:text-paper group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/60 group-hover:text-paper/70" },
 ];
 
 export function WhyChooseUs() {

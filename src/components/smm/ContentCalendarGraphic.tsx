@@ -10,7 +10,7 @@ type Cell = { day: number; kind?: "reel" | "carousel" | "post" | "story" | "crea
 
 const kinds = {
   reel: { label: "Reel", className: "bg-coral text-ink" },
-  carousel: { label: "Carousel", className: "bg-violet text-paper" },
+  carousel: { label: "Carousel", className: "bg-sand text-ink" },
   post: { label: "Post", className: "bg-ink text-paper" },
   story: { label: "Story", className: "bg-lime text-ink" },
   creator: { label: "Creator", className: "border-[1.5px] border-ink bg-paper text-ink" },
@@ -71,7 +71,7 @@ export function ContentCalendarGraphic({ className }: { className?: string }) {
         </div>
       </div>
 
-      <div className="absolute -left-2 bottom-2 w-[52%] -rotate-3 bg-violet p-4 text-paper shadow-[6px_6px_0_0_var(--color-ink)] sm:-left-6">
+      <div className="absolute -left-2 bottom-2 w-[52%] -rotate-3 bg-ink p-4 text-paper shadow-[6px_6px_0_0_var(--color-ink)] sm:-left-6">
         <div className="flex items-center gap-2">
           <MessageCircle className="size-4 text-lime" />
           <span className="font-black-display text-[10px] tracking-wide text-lime">COMMUNITY</span>

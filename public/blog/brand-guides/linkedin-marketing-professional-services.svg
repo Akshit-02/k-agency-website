@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">A FOUR-WEEK LINKEDIN CALENDAR FOR FIRMS</text>
 <rect x="82" y="172" width="320" height="310" fill="#150F0B"/>
-<rect x="70" y="160" width="320" height="310" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="160" width="320" height="310" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="208" font-size="24" font-weight="700" fill="#FAF1E2">Week 1</text>
 <text x="92" y="252" font-size="16" font-weight="700" letter-spacing="1" fill="#FAF1E2" opacity=".7">FIRM PAGE</text>
 <text x="92" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Rule change explainer</text>

@@ -59,7 +59,7 @@
 <text x="70" y="565" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">GUARDRAILS</text>
 <rect x="70" y="580" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="300.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Real crowd hours</text>
-<rect x="570" y="580" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="570" y="580" width="460" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="800.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">No fake slot counts</text>
 <rect x="1070" y="580" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="1300.0" y="618" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">No results promises</text>

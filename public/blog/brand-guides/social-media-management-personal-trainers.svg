@@ -37,7 +37,7 @@
 <text x="610.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Five questions</text>
 <path d="M776 475 L822 475" stroke="#150F0B" stroke-width="4"/>
 <path d="M813 467 L822 475 L813 483" fill="none" stroke="#150F0B" stroke-width="4"/>
-<rect x="830" y="445" width="320" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="830" y="445" width="320" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="990.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Health flag?</text>
 <path d="M1156 475 L1202 475" stroke="#150F0B" stroke-width="4"/>
 <path d="M1193 467 L1202 475 L1193 483" fill="none" stroke="#150F0B" stroke-width="4"/>

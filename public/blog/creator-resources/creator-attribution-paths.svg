@@ -11,7 +11,7 @@
 <text x="351" y="200" font-size="21" font-weight="700" fill="#150F0B">Tracked link</text>
 <text x="351" y="235" font-size="15" fill="#150F0B">Affiliate or</text>
 <text x="351" y="259" font-size="15" fill="#150F0B">UTM-tagged</text>
-<rect x="610" y="130" width="255" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="610" y="130" width="255" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="626" y="162" font-size="14" fill="#FAF1E2" opacity=".7">03</text>
 <text x="626" y="200" font-size="21" font-weight="700" fill="#FAF1E2">Discount code</text>
 <text x="626" y="235" font-size="15" fill="#FAF1E2">Unique to you,</text>
@@ -31,7 +31,7 @@
 <text x="351" y="425" font-size="21" font-weight="700" fill="#150F0B">Reports</text>
 <text x="351" y="460" font-size="15" fill="#150F0B">Affiliate and</text>
 <text x="351" y="484" font-size="15" fill="#150F0B">brand data</text>
-<rect x="610" y="355" width="255" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="610" y="355" width="255" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="626" y="387" font-size="14" fill="#FAF1E2" opacity=".7">07</text>
 <text x="626" y="425" font-size="21" font-weight="700" fill="#FAF1E2">Lift signals</text>
 <text x="626" y="460" font-size="15" fill="#FAF1E2">Branded search,</text>

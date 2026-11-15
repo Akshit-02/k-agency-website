@@ -11,7 +11,7 @@
 <path d="M412 300 L560 200" stroke="#150F0B" stroke-width="4" fill="none"/>
 <path d="M412 380 L560 480" stroke="#150F0B" stroke-width="4" fill="none"/>
 <rect x="572" y="132" width="440" height="170" fill="#150F0B"/>
-<rect x="560" y="120" width="440" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="560" y="120" width="440" height="170" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="582" y="166" font-size="24" font-weight="700" fill="#FAF1E2">Community team</text>
 <text x="582" y="208" font-size="19" fill="#FAF1E2" opacity=".9">Product questions,</text>
 <text x="582" y="238" font-size="19" fill="#FAF1E2" opacity=".9">praise, moderation</text>

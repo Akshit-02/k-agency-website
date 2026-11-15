@@ -10,6 +10,8 @@ export function SectionHeading({
   dark = false,
   className,
   titleClassName,
+  descriptionClassName,
+  eyebrowClassName,
 }: {
   eyebrow?: string;
   title: React.ReactNode;
@@ -18,12 +20,15 @@ export function SectionHeading({
   dark?: boolean;
   className?: string;
   titleClassName?: string;
+  /** Overrides the description colour, e.g. full ink on a coral or lime section where /65 lacks contrast. */
+  descriptionClassName?: string;
+  eyebrowClassName?: string;
 }) {
   return (
     <div className={cn("max-w-2xl", align === "center" && "mx-auto text-center", className)}>
       {eyebrow && (
         <Reveal>
-          <Eyebrow dark={dark} className="mb-5">
+          <Eyebrow dark={dark} className={cn("mb-5", eyebrowClassName)}>
             {eyebrow}
           </Eyebrow>
         </Reveal>
@@ -41,7 +46,7 @@ export function SectionHeading({
       </Reveal>
       {description && (
         <Reveal delay={0.1}>
-          <p className={cn("mt-5 text-lg leading-relaxed text-pretty", dark ? "text-paper/70" : "text-ink/65")}>
+          <p className={cn("mt-5 text-lg leading-relaxed text-pretty", dark ? "text-paper/70" : "text-ink/65", descriptionClassName)}>
             {description}
           </p>
         </Reveal>

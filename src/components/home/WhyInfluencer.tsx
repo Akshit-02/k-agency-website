@@ -25,7 +25,7 @@ const supportingStats = [
     value: "£966m",
     label: "UK creator partnership revenue in 2025, forecast to pass £1bn in 2026 (excluding paid amplification).",
     source: { name: "IAB UK and IRM", url: "https://www.iabuk.com/news-article/uk-creator-revenue-surpass-ps1bn-first-time-2026" },
-    bg: "bg-violet text-paper",
+    bg: "bg-paper text-ink",
   },
   {
     value: "98%",

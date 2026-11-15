@@ -16,7 +16,7 @@
 <text x="92" y="454" font-size="24" font-weight="700" fill="#150F0B">Instagram first</text>
 <text x="92" y="492" font-size="19" fill="#150F0B" opacity=".9">Reels, offers, FAQs</text>
 <rect x="584" y="178" width="446" height="60" fill="#150F0B"/>
-<rect x="576" y="170" width="446" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="576" y="170" width="446" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="799" y="208" font-size="26" font-weight="700" text-anchor="middle" fill="#FAF1E2">Gurugram</text>
 <path d="M799 238 L799 262" stroke="#150F0B" stroke-width="4"/><path d="M791 253 L799 262 L807 253" fill="none" stroke="#150F0B" stroke-width="4"/>
 <rect x="576" y="270" width="446" height="100" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>

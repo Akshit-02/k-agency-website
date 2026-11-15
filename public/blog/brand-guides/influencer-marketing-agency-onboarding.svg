@@ -16,7 +16,7 @@
 <rect x="400" y="154" width="275" height="40" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="242" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Access and tracking</text>
 <rect x="406" y="214" width="418" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="400" y="210" width="412" height="40" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="400" y="210" width="412" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="298" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Kickoff meeting</text>
 <rect x="571" y="270" width="171" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="565" y="266" width="165" height="40" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
@@ -28,7 +28,7 @@
 <rect x="400" y="378" width="687" height="40" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="466" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Strategy and plan</text>
 <rect x="681" y="438" width="336" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="675" y="434" width="330" height="40" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="675" y="434" width="330" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="522" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Shortlist and outreach</text>
 <rect x="956" y="494" width="363" height="40" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="950" y="490" width="357" height="40" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>

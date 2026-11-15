@@ -12,11 +12,11 @@
 <text x="348" y="181" font-size="21" font-weight="700" fill="#150F0B">B2B influencer</text>
 <text x="348" y="208" font-size="21" font-weight="700" fill="#150F0B">marketing</text>
 <text x="348" y="241" font-size="15" fill="#150F0B" opacity=".85">Sway over buyers</text>
-<rect x="610" y="145" width="250" height="150" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="610" y="145" width="250" height="150" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="628" y="181" font-size="21" font-weight="700" fill="#FAF1E2">Founder-led</text>
 <text x="628" y="208" font-size="21" font-weight="700" fill="#FAF1E2">content</text>
 <text x="628" y="241" font-size="15" fill="#FAF1E2" opacity=".85">Vision and story</text>
-<rect x="880" y="145" width="250" height="150" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="880" y="145" width="250" height="150" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="898" y="181" font-size="21" font-weight="700" fill="#FAF1E2">Executive creator</text>
 <text x="898" y="208" font-size="21" font-weight="700" fill="#FAF1E2">marketing</text>
 <text x="898" y="241" font-size="15" fill="#FAF1E2" opacity=".85">Leaders' expertise</text>

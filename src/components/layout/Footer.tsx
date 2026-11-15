@@ -96,13 +96,13 @@ export function Footer() {
         </div>
       </Container>
 
-      <div className="bg-violet py-10 text-paper">
+      <div className="bg-coral py-10 text-ink [&_*:focus-visible]:outline-ink">
         <Container className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="font-display text-2xl tracking-tight">
               Stay ahead of the creator economy.
             </p>
-            <p className="mt-1 text-sm text-paper/60">
+            <p className="mt-1 text-sm text-ink/70">
               One email a month. No noise, just what&apos;s working.
             </p>
           </div>

@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">A SEASONAL MENU CAMPAIGN, WEEK BY WEEK</text>
 <rect x="76" y="202" width="214" height="210" fill="#150F0B"/>
-<rect x="64" y="190" width="214" height="210" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="64" y="190" width="214" height="210" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="86" y="238" font-size="24" font-weight="700" fill="#FAF1E2">Wk -3 Plan</text>
 <text x="86" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Dishes, prices</text>
 <text x="86" y="310" font-size="19" fill="#FAF1E2" opacity=".9">Campaign brief</text>
@@ -23,12 +23,12 @@
 <text x="836" y="280" font-size="19" fill="#150F0B" opacity=".9">Menu carousel</text>
 <text x="836" y="310" font-size="19" fill="#150F0B" opacity=".9">Pinned post</text>
 <rect x="1076" y="202" width="214" height="210" fill="#150F0B"/>
-<rect x="1064" y="190" width="214" height="210" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1064" y="190" width="214" height="210" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1086" y="238" font-size="24" font-weight="700" fill="#FAF1E2">Wk 1-2 Run</text>
 <text x="1086" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Dish Reels</text>
 <text x="1086" y="310" font-size="19" fill="#FAF1E2" opacity=".9">Guest reshares</text>
 <rect x="1326" y="202" width="214" height="210" fill="#150F0B"/>
-<rect x="1314" y="190" width="214" height="210" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1314" y="190" width="214" height="210" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1336" y="238" font-size="24" font-weight="700" fill="#FAF1E2">Wk 3 Close</text>
 <text x="1336" y="280" font-size="19" fill="#FAF1E2" opacity=".9">Real end date</text>
 <text x="1336" y="310" font-size="19" fill="#FAF1E2" opacity=".9">Sales debrief</text>

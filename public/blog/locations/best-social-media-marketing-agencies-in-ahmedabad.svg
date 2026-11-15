@@ -22,7 +22,7 @@
 <text x="852" y="290" font-size="19" fill="#150F0B" opacity=".9">Outfits, events</text>
 <path d="M1168 255 L1204 255" stroke="#150F0B" stroke-width="4"/><path d="M1195 247 L1204 255 L1195 263" fill="none" stroke="#150F0B" stroke-width="4"/>
 <rect x="1222" y="192" width="320" height="150" fill="#150F0B"/>
-<rect x="1210" y="180" width="320" height="150" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1210" y="180" width="320" height="150" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1232" y="224" font-size="24" font-weight="700" fill="#FAF1E2">Diwali, New Year</text>
 <text x="1232" y="262" font-size="19" fill="#FAF1E2" opacity=".9">Gifting, greetings</text>
 <text x="1232" y="290" font-size="19" fill="#FAF1E2" opacity=".9">Year-start posts</text>

@@ -19,7 +19,7 @@
 <text x="452" y="402" font-size="18" fill="#150F0B">the setup</text>
 <text x="452" y="440" font-size="18" fill="#150F0B">Price by: spend, duration,</text>
 <text x="452" y="478" font-size="18" fill="#150F0B">audience reached</text>
-<rect x="800" y="130" width="340" height="430" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="800" y="130" width="340" height="430" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="822" y="185" font-size="26" font-weight="700" fill="#FAF1E2">Whitelisting</text>
 <text x="822" y="250" font-size="18" fill="#FAF1E2">Ads run showing</text>
 <text x="822" y="288" font-size="18" fill="#FAF1E2">YOUR handle</text>

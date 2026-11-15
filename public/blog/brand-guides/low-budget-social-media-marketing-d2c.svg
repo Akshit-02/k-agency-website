@@ -26,15 +26,15 @@
 <text x="1092" y="286" font-size="20" fill="#150F0B" opacity=".9">Tag-and-follow</text>
 <text x="1092" y="316" font-size="20" fill="#150F0B" opacity=".9">giveaways</text>
 <text x="1092" y="346" font-size="20" fill="#150F0B" opacity=".9">Fake &#39;only 2 left&#39;</text>
-<rect x="70" y="470" width="268" height="70" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="470" width="268" height="70" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="204" y="514" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Mon: plan</text>
-<rect x="368" y="470" width="268" height="70" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="368" y="470" width="268" height="70" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="502" y="514" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Tue: make</text>
-<rect x="666" y="470" width="268" height="70" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="666" y="470" width="268" height="70" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="800" y="514" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Wed: schedule</text>
-<rect x="964" y="470" width="268" height="70" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="964" y="470" width="268" height="70" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1098" y="514" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Daily: reply</text>
-<rect x="1262" y="470" width="268" height="70" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1262" y="470" width="268" height="70" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1396" y="514" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Fri: review</text>
 <text x="70" y="600" font-size="22" font-weight="700" fill="#150F0B">A small-team weekly routine: about four focused hours.</text>
 </svg>

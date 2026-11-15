@@ -4,7 +4,7 @@
 <text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">TRAVEL COMPANIES: FROM DESTINATION TO ENQUIRY</text>
 <text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">One itinerary, many posts</text>
 <rect x="82" y="202" width="330" height="250" fill="#150F0B"/>
-<rect x="70" y="190" width="330" height="250" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="190" width="330" height="250" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="234" font-size="24" font-weight="700" fill="#FAF1E2">One itinerary</text>
 <text x="92" y="272" font-size="19" fill="#FAF1E2" opacity=".9">Your real trip,</text>
 <text x="92" y="300" font-size="19" fill="#FAF1E2" opacity=".9">current prices</text>

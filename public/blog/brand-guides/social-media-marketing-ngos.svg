@@ -31,7 +31,7 @@
 <text x="912" y="389" font-size="24" font-weight="700" fill="#150F0B">Volunteers</text>
 <text x="912" y="427" font-size="19" fill="#150F0B" opacity=".9">Clear roles, sign-ups</text>
 <rect x="902" y="522" width="640" height="125" fill="#150F0B"/>
-<rect x="890" y="510" width="640" height="125" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="890" y="510" width="640" height="125" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="912" y="554" font-size="24" font-weight="700" fill="#FAF1E2">Supporters</text>
 <text x="912" y="592" font-size="19" fill="#FAF1E2" opacity=".9">Honest, clear appeals</text>
 </svg>

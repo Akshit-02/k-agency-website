@@ -18,7 +18,7 @@
 <path d="M556 265 L630 265" stroke="#150F0B" stroke-width="4"/><path d="M621 257 L630 265 L621 273" fill="none" stroke="#150F0B" stroke-width="4"/>
 <path d="M556 475 L630 475" stroke="#150F0B" stroke-width="4"/><path d="M621 467 L630 475 L621 483" fill="none" stroke="#150F0B" stroke-width="4"/>
 <rect x="652" y="262" width="380" height="240" fill="#150F0B"/>
-<rect x="640" y="250" width="380" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="640" y="250" width="380" height="240" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="662" y="294" font-size="28" font-weight="700" fill="#FAF1E2">Trial class</text>
 <text x="662" y="332" font-size="21" fill="#FAF1E2" opacity=".9">Profile, Highlights,</text>
 <text x="662" y="360" font-size="21" fill="#FAF1E2" opacity=".9">WhatsApp reply,</text>

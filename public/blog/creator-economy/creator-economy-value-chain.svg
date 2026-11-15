@@ -6,7 +6,7 @@
 <text x="78" y="146" font-size="20" font-weight="700" fill="#150F0B">Brands</text>
 <text x="78" y="178" font-size="15" fill="#150F0B" opacity=".85">Partnerships, usage</text>
 <path d="M160 208 L160 244" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
-<rect x="278" y="110" width="200" height="96" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="278" y="110" width="200" height="96" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="296" y="146" font-size="20" font-weight="700" fill="#FAF1E2">Platforms</text>
 <text x="296" y="178" font-size="15" fill="#FAF1E2" opacity=".85">Ad revenue shares</text>
 <path d="M378 208 L378 436" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>

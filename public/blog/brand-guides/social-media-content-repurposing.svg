@@ -13,7 +13,7 @@
 <text x="92" y="200" font-size="28" font-weight="700" fill="#FAF1E2">Product Reel (source)</text>
 <text x="92" y="245" font-size="19" fill="#FAF1E2" opacity=".85">Planned for every cut-down</text>
 <rect x="82" y="362" width="264" height="170" fill="#150F0B"/>
-<rect x="70" y="350" width="264" height="170" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="350" width="264" height="170" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="398" font-size="24" font-weight="700" fill="#FAF1E2">LinkedIn post</text>
 <text x="92" y="440" font-size="19" fill="#FAF1E2" opacity=".85">Why we made it</text>
 <rect x="378" y="362" width="264" height="170" fill="#150F0B"/>

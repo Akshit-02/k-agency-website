@@ -30,8 +30,8 @@ const steps = [
     icon: "discovery" as PictogramName,
     title: "Find the Right Creators",
     body: "We shortlist for audience overlap and engagement quality, screen for authenticity, and bring you a curated list — with the reasoning behind every name.",
-    bg: "bg-violet text-paper",
-    accent: "lime" as const,
+    bg: "bg-paper text-ink border-[1.5px] border-ink",
+    accent: "coral" as const,
   },
   {
     n: "04",

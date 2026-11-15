@@ -2,7 +2,7 @@
 
 ## Brand context (unchanged)
 
-The site is editorial and neo-brutalist: paper `#faf1e2` background, ink `#150f0b`, with coral `#ff4d1c`, violet `#5a2eea` and lime `#ccff3d` as flat blocks. Cards have square corners, 1.5 px ink borders and hard offset shadows (`shadow-[6px_6px_0_0_var(--color-ink)]`). Type is Fraunces, Archivo Black and Inter. No gradients and no soft shadows. The icon system follows these rules instead of adding a new look.
+The site is editorial and neo-brutalist: paper `#faf1e2` background, ink `#150f0b`, with coral `#ff4d1c` and lime `#ccff3d` as flat blocks (violet was removed from the palette; see `03-implementation-report.md`). Cards have square corners, 1.5 px ink borders and hard offset shadows (`shadow-[6px_6px_0_0_var(--color-ink)]`). Type is Fraunces, Archivo Black and Inter. No gradients and no soft shadows. The icon system follows these rules instead of adding a new look.
 
 ## Three tiers
 
@@ -18,7 +18,7 @@ The site is editorial and neo-brutalist: paper `#faf1e2` background, ink `#150f0
 - **Grid:** 48 × 48 with a 3–45 live area.
 - **Stroke:** `currentColor`, round caps and joins, `vector-effect: non-scaling-stroke`. This keeps the line at 2 px on screen at every size, matching Lucide. The `weight` prop changes it if needed.
 - **Two tones only:** a line colour (inherited text colour) and one accent fill (`--kz-accent`, coral by default). Accent shapes keep their ink outline, so they work on any of the four brand backgrounds. There are no gradients, highlights or extra colours.
-- **Accent pairing:** on paper, use the accent of the card's own colour (coral, violet or lime). On coral, use lime. On violet, use lime with paper lines. On lime, use coral. On ink, use coral or lime with paper lines.
+- **Accent pairing:** on paper, use the accent of the card's own colour (coral or lime). On coral, use lime. On lime, use coral. On ink, use lime or coral with paper lines.
 - **Each glyph is a literal, recognisable object** (calendar, phone filming a product, megaphone, rocket, contract, gift box, map pin, report with bars) rather than an abstract shape. No two services share a glyph.
 - **Minimum size 24 px.** Dense glyphs (paid, barter, profile) are only used at 32 px or larger.
 
@@ -44,7 +44,7 @@ If real 3D renders are wanted later, see "Future work" in `03-implementation-rep
 
 ## Colour usage
 
-- Lines use `currentColor`, so hover states that change text colour (related cards, WhyChooseUs violet hover) recolour the icon automatically.
+- Lines use `currentColor`, so hover states that change text colour (related cards, WhyChooseUs ink hover) recolour the icon automatically.
 - Accents are set with the `accent` prop, or with a class such as `group-hover:[--kz-accent:var(--color-lime)]` when the card background changes on hover.
 - The `.kz-icon` CSS lives in `@layer components` so Tailwind utilities can override the default accent.
 - Platform marks are single-colour `currentColor` in paper/white or ink, which every platform's guidelines allow. `brandColor` exists for neutral backgrounds only.

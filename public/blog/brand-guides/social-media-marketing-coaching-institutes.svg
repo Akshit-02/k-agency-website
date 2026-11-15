@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="100" font-size="22" font-weight="700" fill="#150F0B" opacity=".8">A COACHING INSTITUTE'S MONTH ON SOCIAL MEDIA</text>
 <rect x="82" y="182" width="316" height="250" fill="#150F0B"/>
-<rect x="70" y="170" width="316" height="250" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="170" width="316" height="250" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="218" font-size="24" font-weight="700" fill="#FAF1E2">Week 1</text>
 <text x="92" y="260" font-size="19" fill="#FAF1E2" opacity=".9">Concept Reels</text>
 <text x="92" y="290" font-size="19" fill="#FAF1E2" opacity=".9">Faculty intro</text>

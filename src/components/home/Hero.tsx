@@ -10,7 +10,7 @@ import { heroFacts, homeInquiryHref } from "@/content/home";
 const statStyles = [
   "bg-ink text-paper",
   "bg-coral text-ink",
-  "bg-violet text-paper",
+  "bg-paper text-ink border-[1.5px] border-ink",
   "bg-lime text-ink",
 ];
 

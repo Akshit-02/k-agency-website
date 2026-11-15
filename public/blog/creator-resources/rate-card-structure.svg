@@ -9,7 +9,7 @@
   </g>
   <rect x="60" y="130" width="340" height="60" fill="#150F0B"/><text x="82" y="170" font-size="22" font-weight="700" fill="#FAF1E2">Base deliverables</text>
   <rect x="430" y="130" width="340" height="60" fill="#FF4D1C"/><text x="452" y="170" font-size="22" font-weight="700" fill="#150F0B">Add-ons (priced separately)</text>
-  <rect x="800" y="130" width="340" height="60" fill="#5A2EEA"/><text x="822" y="170" font-size="22" font-weight="700" fill="#FAF1E2">Terms</text>
+  <rect x="800" y="130" width="340" height="60" fill="#150F0B"/><text x="822" y="170" font-size="22" font-weight="700" fill="#FAF1E2">Terms</text>
   <g font-size="17" fill="#150F0B">
     <text x="82" y="235">Instagram Reel ........ ₹___</text><text x="82" y="275">Story set ................. ₹___</text><text x="82" y="315">Carousel .................. ₹___</text><text x="82" y="355">YouTube integration .. ₹___</text><text x="82" y="395">YouTube Short ......... ₹___</text><text x="82" y="435">UGC-only video ......... ₹___</text>
     <text x="82" y="500" opacity=".65">Each line says what's included</text><text x="82" y="525" opacity=".65">(concept, edit, 1 revision, posting)</text>

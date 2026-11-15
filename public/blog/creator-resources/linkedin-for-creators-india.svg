@@ -4,7 +4,7 @@
 <text x="100" y="110" font-size="40" font-weight="700" fill="#150F0B">LinkedIn for creators: show how you work</text>
 <text x="100" y="160" font-size="22" fill="#150F0B" opacity=".65">A clear profile turns posts into professional conversations.</text>
 <rect x="100" y="210" width="620" height="400" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
-<rect x="100" y="210" width="620" height="90" fill="#5A2EEA"/>
+<rect x="100" y="210" width="620" height="90" fill="#150F0B"/>
 <circle cx="190" cy="310" r="50" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
 <rect x="140" y="380" width="380" height="20" fill="#150F0B"/>
 <text x="140" y="436" font-size="20" fill="#150F0B" opacity=".75">Headline: who you help and how</text>

@@ -7,7 +7,7 @@
 <rect x="280" y="150" width="196" height="120" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="296" y="184" font-size="14" fill="#150F0B" opacity=".7">02</text><text x="296" y="232" font-size="24" font-weight="700" fill="#150F0B">Hook</text>
 <path d="M478 210 h20" stroke="#150F0B" stroke-width="3"/>
-<rect x="500" y="150" width="196" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="500" y="150" width="196" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="516" y="184" font-size="14" fill="#FAF1E2" opacity=".7">03</text><text x="516" y="232" font-size="24" font-weight="700" fill="#FAF1E2">Script</text>
 <path d="M698 210 h20" stroke="#150F0B" stroke-width="3"/>
 <rect x="720" y="150" width="196" height="120" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
@@ -18,7 +18,7 @@
 <rect x="720" y="380" width="196" height="120" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="736" y="414" font-size="14" fill="#150F0B" opacity=".7">06</text><text x="736" y="462" font-size="24" font-weight="700" fill="#150F0B">Publishing</text>
 <path d="M718 440 h-20" stroke="#150F0B" stroke-width="3"/>
-<rect x="500" y="380" width="196" height="120" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="500" y="380" width="196" height="120" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="516" y="414" font-size="14" fill="#FAF1E2" opacity=".7">07</text><text x="516" y="462" font-size="24" font-weight="700" fill="#FAF1E2">Repurposing</text>
 <path d="M498 440 h-20" stroke="#150F0B" stroke-width="3"/>
 <rect x="280" y="380" width="196" height="120" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>

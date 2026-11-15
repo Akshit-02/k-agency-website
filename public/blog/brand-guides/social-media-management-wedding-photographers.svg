@@ -16,7 +16,7 @@
 <text x="166" y="442" font-size="25" font-weight="700" fill="#150F0B">3. What's included</text>
 <text x="166" y="474" font-size="20" fill="#150F0B" opacity=".9">What we get, and when?</text>
 <rect x="190" y="528" width="564" height="86" fill="#150F0B"/>
-<rect x="178" y="516" width="564" height="86" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="178" y="516" width="564" height="86" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="202" y="554" font-size="25" font-weight="700" fill="#FAF1E2">4. Availability</text>
 <text x="202" y="586" font-size="20" fill="#FAF1E2" opacity=".9">Free on our dates?</text>
 <path d="M890 400 L950 400" stroke="#150F0B" stroke-width="4"/><path d="M941 392 L950 400 L941 408" fill="none" stroke="#150F0B" stroke-width="4"/>

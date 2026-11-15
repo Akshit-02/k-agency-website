@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const accentStyles = {
   lime: { panel: "bg-lime text-ink", ring: "text-ink" },
   coral: { panel: "bg-coral text-ink", ring: "text-ink" },
-  ink: { panel: "bg-violet text-paper", ring: "text-lime" },
+  ink: { panel: "bg-ink text-paper", ring: "text-lime" },
 } as const;
 
 export function CampaignTile({

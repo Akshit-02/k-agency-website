@@ -36,7 +36,7 @@
 <text x="70" y="430" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">EVERY WEEK IN STORIES</text>
 <rect x="70" y="445" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="300.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Timetable</text>
-<rect x="570" y="445" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="570" y="445" width="460" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="800.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#FAF1E2">Question box</text>
 <rect x="1070" y="445" width="460" height="60" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="1300.0" y="483" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">Holiday hours</text>

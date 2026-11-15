@@ -361,7 +361,6 @@ export type PictogramName = keyof typeof glyphs;
 const accents = {
   coral: "[--kz-accent:var(--color-coral)]",
   lime: "[--kz-accent:var(--color-lime)]",
-  violet: "[--kz-accent:var(--color-violet)]",
   paper: "[--kz-accent:var(--color-paper)]",
   ink: "[--kz-accent:var(--color-ink)]",
 } as const;

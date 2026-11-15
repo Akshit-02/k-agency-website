@@ -16,7 +16,7 @@
 <text x="174" y="456" font-size="25" font-weight="700" fill="#150F0B">3. Product detail</text>
 <text x="174" y="488" font-size="20" fill="#150F0B" opacity=".9">Will it fit and last?</text>
 <rect x="202" y="546" width="520" height="88" fill="#150F0B"/>
-<rect x="190" y="534" width="520" height="88" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="190" y="534" width="520" height="88" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="214" y="574" font-size="25" font-weight="700" fill="#FAF1E2">4. Real homes</text>
 <text x="214" y="606" font-size="20" fill="#FAF1E2" opacity=".9">Does it work for me?</text>
 <path d="M880 370 L940 370" stroke="#150F0B" stroke-width="4"/><path d="M931 362 L940 370 L931 378" fill="none" stroke="#150F0B" stroke-width="4"/>

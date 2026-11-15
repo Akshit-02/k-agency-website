@@ -5,7 +5,7 @@
 <text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">One game, one format, the phone you already own.</text>
 <g stroke="#150F0B" stroke-width="3">
 <rect x="80" y="220" width="250" height="150" fill="#150F0B"/>
-<rect x="360" y="220" width="250" height="150" fill="#5A2EEA"/>
+<rect x="360" y="220" width="250" height="150" fill="#150F0B"/>
 <rect x="640" y="220" width="250" height="150" fill="#CCFF3D"/>
 <rect x="920" y="220" width="250" height="150" fill="#FFFFFF"/>
 </g>
@@ -15,7 +15,7 @@
 <rect x="104" y="420" width="70" height="120" rx="12" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/>
 <rect x="116" y="436" width="46" height="80" fill="#FF4D1C"/>
 <rect x="210" y="440" width="150" height="90" rx="40" fill="#150F0B"/>
-<circle cx="250" cy="485" r="12" fill="#CCFF3D"/><circle cx="320" cy="475" r="8" fill="#FF4D1C"/><circle cx="336" cy="495" r="8" fill="#5A2EEA"/>
+<circle cx="250" cy="485" r="12" fill="#CCFF3D"/><circle cx="320" cy="475" r="8" fill="#FF4D1C"/><circle cx="336" cy="495" r="8" fill="#150F0B"/>
 <rect x="1220" y="220" width="300" height="320" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="1246" y="270" font-size="26" font-weight="700" fill="#150F0B">Do not promote</text>
 <g font-size="19" fill="#150F0B"><text x="1246" y="316">✗ Cash fantasy apps</text><text x="1246" y="354">✗ Rummy / poker for stakes</text><text x="1246" y="392">✗ Betting and surrogates</text></g>

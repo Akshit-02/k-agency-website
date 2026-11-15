@@ -8,8 +8,6 @@
   --color-ink-soft: #322820;
   --color-coral: #ff4d1c;
   --color-coral-dim: #e33f13;
-  --color-violet: #5a2eea;
-  --color-violet-dim: #4620c4;
   --color-lime: #ccff3d;
   --color-lime-dim: #b8e82c;
   --color-line: rgba(21, 15, 11, 0.14);
@@ -27,8 +25,6 @@
   --color-ink-soft: var(--color-ink-soft);
   --color-coral: var(--color-coral);
   --color-coral-dim: var(--color-coral-dim);
-  --color-violet: var(--color-violet);
-  --color-violet-dim: var(--color-violet-dim);
   --color-lime: var(--color-lime);
   --color-lime-dim: var(--color-lime-dim);
   --color-line: var(--color-line);

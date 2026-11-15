@@ -31,7 +31,7 @@
 <text x="1215" y="288" font-size="20" fill="#150F0B" opacity=".9">a month</text>
 <path d="M1355 376 L1355 436" stroke="#150F0B" stroke-width="4"/>
 <path d="M1347 427 L1355 436 L1363 427" fill="none" stroke="#150F0B" stroke-width="4"/>
-<rect x="1070" y="446" width="460" height="60" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1070" y="446" width="460" height="60" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1300.0" y="484" font-size="21" font-weight="700" text-anchor="middle" fill="#FAF1E2">Schedule and Monday check</text>
 <path d="M1060 476 L590 476" stroke="#150F0B" stroke-width="4"/>
 <path d="M599 468 L590 476 L599 484" fill="none" stroke="#150F0B" stroke-width="4"/>

@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 
 const themes = {
   coral: { card: "bg-coral text-ink", sub: "text-ink/70", dot: "bg-ink" },
-  violet: { card: "bg-violet text-paper", sub: "text-paper/70", dot: "bg-lime" },
+  ink: { card: "bg-ink text-paper", sub: "text-paper/70", dot: "bg-lime" },
   lime: { card: "bg-lime text-ink", sub: "text-ink/70", dot: "bg-coral" },
 } as const;
 
@@ -38,7 +38,7 @@ export function ServiceAreas() {
                 <div>
                   <div className="flex items-start justify-between gap-4">
                     <span className="font-black-display text-sm opacity-50">{String(i + 1).padStart(2, "0")}</span>
-                    <IconTile name={servicePictogram(slugFromServiceHref(area.href))} accent={area.theme} size="lg" />
+                    <IconTile name={servicePictogram(slugFromServiceHref(area.href))} accent={area.theme === "ink" ? "lime" : area.theme} size="lg" />
                   </div>
                   <h3 className="mt-4 font-display text-3xl leading-tight tracking-tight sm:text-4xl">
                     <Link href={area.href} className="hover:underline decoration-2 underline-offset-4">

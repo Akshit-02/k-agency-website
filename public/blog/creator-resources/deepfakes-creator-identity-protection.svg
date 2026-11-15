@@ -14,7 +14,7 @@
 <text x="351" y="446" font-size="24" font-weight="700" fill="#150F0B">Detect</text>
 <rect x="335" y="488" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
 <text x="351" y="516" font-size="16" fill="#150F0B">Audience reports · alerts</text>
-<rect x="610" y="370" width="255" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="610" y="370" width="255" height="110" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="626" y="402" font-size="14" fill="#FAF1E2" opacity=".7">03</text>
 <text x="626" y="446" font-size="24" font-weight="700" fill="#FAF1E2">Respond</text>
 <rect x="610" y="488" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>

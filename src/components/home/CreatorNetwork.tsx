@@ -10,8 +10,8 @@ import { Reveal } from "@/components/animations/Reveal";
 import { cn } from "@/lib/utils";
 
 const sizes = ["text-4xl sm:text-5xl", "text-6xl sm:text-7xl", "text-3xl sm:text-4xl", "text-5xl sm:text-6xl"];
-const hoverColors = ["hover:text-coral", "hover:text-violet", "hover:text-lime-dim", "hover:text-coral"];
-const panelColors = ["bg-coral text-ink", "bg-violet text-paper", "bg-lime text-ink", "bg-ink text-paper"];
+const hoverColors = ["hover:text-coral", "hover:text-ink", "hover:text-lime-dim", "hover:text-coral"];
+const panelColors = ["bg-coral text-ink", "bg-paper text-ink", "bg-lime text-ink", "bg-ink text-paper"];
 
 export function CreatorNetwork() {
   const [activeSlug, setActiveSlug] = useState(creatorCategories[0].slug);

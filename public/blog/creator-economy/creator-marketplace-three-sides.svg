@@ -10,7 +10,7 @@
 <text x="78" y="296" font-size="18" fill="#150F0B" opacity=".85">Agree terms</text>
 <text x="78" y="330" font-size="18" fill="#150F0B" opacity=".85">Fund and pay</text>
 <text x="78" y="364" font-size="18" fill="#150F0B" opacity=".85">Measure results</text>
-<rect x="820" y="120" width="320" height="330" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="820" y="120" width="320" height="330" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="838" y="156" font-size="26" font-weight="700" fill="#FAF1E2">Creators</text>
 <text x="838" y="194" font-size="18" fill="#FAF1E2" opacity=".85">Build a profile</text>
 <text x="838" y="228" font-size="18" fill="#FAF1E2" opacity=".85">Get discovered</text>

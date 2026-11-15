@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site";
 
 export function ApplySection() {
   return (
-    <section id="apply" className="scroll-mt-24 bg-violet py-28 text-paper sm:py-36">
+    <section id="apply" className="scroll-mt-24 bg-ink py-28 text-paper sm:py-36">
       <Container>
         <div className="grid gap-16 lg:grid-cols-[0.8fr_1.2fr]">
           <div>

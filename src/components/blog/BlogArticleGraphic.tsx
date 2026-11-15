@@ -5,12 +5,12 @@ const categoryStyles: Record<BlogCategory, { bg: string; fg: string; mark: strin
   "Influencer Marketing": { bg: "bg-ink", fg: "text-paper", mark: "text-lime" },
   "Creator Economy": { bg: "bg-coral", fg: "text-ink", mark: "text-ink" },
   "Social Media Trends": { bg: "bg-lime", fg: "text-ink", mark: "text-ink/25" },
-  "Brand Marketing": { bg: "bg-violet", fg: "text-paper", mark: "text-lime" },
+  "Brand Marketing": { bg: "bg-paper-dim", fg: "text-ink", mark: "text-coral" },
   "Instagram Marketing": { bg: "bg-ink", fg: "text-paper", mark: "text-coral" },
   "Campaign Strategy": { bg: "bg-coral", fg: "text-ink", mark: "text-paper" },
-  "UGC Marketing": { bg: "bg-violet", fg: "text-paper", mark: "text-coral" },
-  "Social Media Management": { bg: "bg-coral", fg: "text-ink", mark: "text-violet" },
-  "Creator Resources": { bg: "bg-lime", fg: "text-ink", mark: "text-violet" },
+  "UGC Marketing": { bg: "bg-ink", fg: "text-paper", mark: "text-lime" },
+  "Social Media Management": { bg: "bg-coral", fg: "text-ink", mark: "text-lime" },
+  "Creator Resources": { bg: "bg-lime", fg: "text-ink", mark: "text-coral" },
 };
 
 /** Labels whose initials would read badly if derived word by word. */

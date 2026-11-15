@@ -32,7 +32,7 @@ Method: `next dev` on localhost. Headless Chrome (Playwright) scrolled each page
 - Every icon set inside a card group uses one style (pictograms, or official marks in the platform group).
 - Platform marks render their correct, unaltered shapes (Instagram, Facebook, LinkedIn, YouTube, Pinterest, X, Snapchat).
 - No broken or missing assets. All icons are inline SVG, so there are no network requests and no layout shift.
-- Hover states keep contrast: related cards (ink hover), WhyChooseUs (coral, lime and violet hovers).
+- Hover states keep contrast: related cards (ink hover), WhyChooseUs (coral, lime and ink hovers).
 
 ## Known notes, not defects
 

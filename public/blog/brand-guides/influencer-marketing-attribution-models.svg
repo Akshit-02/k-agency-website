@@ -4,7 +4,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">INFLUENCER ATTRIBUTION MODELS</text>
 <rect x="82" y="232" width="338" height="240" fill="#150F0B"/>
-<rect x="70" y="220" width="338" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="220" width="338" height="240" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="268" font-size="24" font-weight="700" fill="#FAF1E2">Creator video</text>
 <text x="92" y="310" font-size="19" fill="#FAF1E2" opacity=".85">Starts the</text>
 <text x="92" y="340" font-size="19" fill="#FAF1E2" opacity=".85">journey</text>

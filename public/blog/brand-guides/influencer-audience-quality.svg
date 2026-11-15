@@ -5,21 +5,21 @@
 <text x="70" y="90" font-size="20" font-weight="700" text-anchor="start" fill="#150F0B" opacity=".75">AUDIENCE QUALITY AND FIT</text>
 <text x="70" y="150" font-size="26" font-weight="700" text-anchor="start" fill="#150F0B">Creator audience vs target customer, by city (illustrative)</text>
 <text x="70" y="234" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Pune</text>
-<rect x="320" y="200" width="306" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="200" width="306" height="30" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <rect x="320" y="236" width="270" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="320" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Bengaluru</text>
-<rect x="320" y="286" width="198" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="286" width="198" height="30" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <rect x="320" y="322" width="234" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="406" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Hyderabad</text>
-<rect x="320" y="372" width="126" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="372" width="126" height="30" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <rect x="320" y="408" width="180" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="492" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Delhi NCR</text>
-<rect x="320" y="458" width="108" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="458" width="108" height="30" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <rect x="320" y="494" width="54" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="70" y="578" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Outside India</text>
-<rect x="320" y="544" width="162" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="320" y="544" width="162" height="30" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <rect x="320" y="580" width="4" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
-<rect x="1260" y="200" width="34" height="30" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="1260" y="200" width="34" height="30" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="1310" y="224" font-size="22" text-anchor="start" fill="#150F0B">Creator audience</text>
 <rect x="1260" y="250" width="34" height="30" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
 <text x="1310" y="274" font-size="22" text-anchor="start" fill="#150F0B">Target customers</text>

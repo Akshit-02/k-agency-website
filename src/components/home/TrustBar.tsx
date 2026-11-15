@@ -3,7 +3,7 @@ import { Reveal } from "@/components/animations/Reveal";
 import { Container } from "@/components/ui/Container";
 import { industries } from "@/content/home";
 
-const chipColors = ["border-ink", "border-coral", "border-violet", "border-ink"];
+const chipColors = ["border-ink", "border-coral"];
 
 /** Industries Kudozz plans campaigns for, each linked to its playbook. No client logos until real ones can be shown. */
 export function TrustBar() {

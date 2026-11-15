@@ -19,11 +19,11 @@
 <text x="466" y="296" font-size="24" font-weight="700" fill="#150F0B">Festive build-up</text>
 <text x="466" y="338" font-size="19" fill="#150F0B" opacity=".85">Teasers, gifting,</text>
 <text x="466" y="368" font-size="19" fill="#150F0B" opacity=".85">store readiness</text>
-<circle cx="987" cy="190" r="22" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<circle cx="987" cy="190" r="22" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="987" y="198" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">3</text>
 <line x1="987" y1="212" x2="987" y2="250" stroke="#150F0B" stroke-width="4"/>
 <rect x="834" y="262" width="330" height="200" fill="#150F0B"/>
-<rect x="822" y="250" width="330" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="822" y="250" width="330" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="842" y="296" font-size="24" font-weight="700" fill="#FAF1E2">Wedding season</text>
 <text x="842" y="338" font-size="19" fill="#FAF1E2" opacity=".85">Bridal sets with</text>
 <text x="842" y="368" font-size="19" fill="#FAF1E2" opacity=".85">consent, bookings</text>

@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">PACKAGED FOOD: FIVE PILLARS, ONE CLAIMS CHECK</text>
 <rect x="82" y="152" width="256" height="190" fill="#150F0B"/>
-<rect x="70" y="140" width="256" height="190" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="140" width="256" height="190" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="90" y="186" font-size="23" font-weight="700" fill="#FAF1E2">Recipes</text>
 <text x="90" y="228" font-size="18" fill="#FAF1E2" opacity=".85">Usage ideas,</text>
 <text x="90" y="258" font-size="18" fill="#FAF1E2" opacity=".85">pairings</text>
@@ -23,7 +23,7 @@
 <text x="978" y="228" font-size="18" fill="#150F0B" opacity=".85">Cities, apps,</text>
 <text x="978" y="258" font-size="18" fill="#150F0B" opacity=".85">date checked</text>
 <rect x="1266" y="152" width="256" height="190" fill="#150F0B"/>
-<rect x="1254" y="140" width="256" height="190" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1254" y="140" width="256" height="190" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1274" y="186" font-size="23" font-weight="700" fill="#FAF1E2">Community</text>
 <text x="1274" y="228" font-size="18" fill="#FAF1E2" opacity=".85">Reposts with</text>
 <text x="1274" y="258" font-size="18" fill="#FAF1E2" opacity=".85">permission</text>

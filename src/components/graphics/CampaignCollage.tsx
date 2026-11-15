@@ -47,17 +47,17 @@ const chips: Chip[] = [
     ),
   },
   {
-    className: "left-0 bottom-[20%] w-[40%] bg-violet text-paper",
+    className: "left-0 bottom-[20%] w-[40%] bg-paper text-ink border-[1.5px] border-ink",
     rotate: 4,
     delay: 0.34,
     floatDelay: "0.5s",
     content: (
       <div className="p-4">
         <div className="flex items-center justify-between">
-          <span className="font-black-display text-[10px] tracking-wide text-lime">ENGAGEMENT</span>
+          <span className="font-black-display text-[10px] tracking-wide text-coral">ENGAGEMENT</span>
           <TrendingUp className="size-4" aria-hidden="true" />
         </div>
-        <Waveform className="mt-3 h-10 text-lime" />
+        <Waveform className="mt-3 h-10 text-coral" />
       </div>
     ),
   },

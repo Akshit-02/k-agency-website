@@ -13,7 +13,7 @@
 <rect x="650" y="96" width="300" height="88" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
 <text x="676" y="146" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">One-off campaign</text>
 <rect x="997" y="233" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="985" y="221" width="300" height="88" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="985" y="221" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1011" y="271" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Recurring campaigns</text>
 <rect x="997" y="482" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
 <rect x="985" y="470" width="300" height="88" rx="0" fill="#CCFF3D" stroke="#150F0B" stroke-width="4"/>
@@ -25,7 +25,7 @@
 <rect x="315" y="471" width="300" height="88" rx="0" fill="#FF4D1C" stroke="#150F0B" stroke-width="4"/>
 <text x="341" y="521" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Performance learning</text>
 <rect x="327" y="233" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="315" y="221" width="300" height="88" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="315" y="221" width="300" height="88" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="341" y="271" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Optimization</text>
 <rect x="610" y="330" width="380" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="800" y="382" font-size="28" font-weight="700" text-anchor="middle" fill="#FAF1E2">Always-on program</text>

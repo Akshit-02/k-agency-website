@@ -13,7 +13,7 @@
 <text x="96" y="430" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Chennai</text>
 <text x="96" y="462" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Tamil creators</text>
 <rect x="452" y="392" width="340" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="440" y="380" width="340" height="120" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="440" y="380" width="340" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="466" y="430" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Hyderabad</text>
 <text x="466" y="462" font-size="20" text-anchor="start" fill="#FAF1E2" opacity=".85">Telugu creators</text>
 <rect x="822" y="392" width="340" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
@@ -25,7 +25,7 @@
 <text x="1206" y="430" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Kochi</text>
 <text x="1206" y="462" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Malayalam creators</text>
 <rect x="82" y="542" width="340" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="70" y="530" width="340" height="120" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="530" width="340" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="96" y="580" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Mumbai · Pune</text>
 <text x="96" y="612" font-size="20" text-anchor="start" fill="#FAF1E2" opacity=".85">Marathi creators</text>
 <rect x="452" y="542" width="340" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
@@ -37,7 +37,7 @@
 <text x="836" y="580" font-size="24" font-weight="700" text-anchor="start" fill="#150F0B">Ahmedabad</text>
 <text x="836" y="612" font-size="20" text-anchor="start" fill="#150F0B" opacity=".85">Gujarati creators</text>
 <rect x="1192" y="542" width="340" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>
-<rect x="1180" y="530" width="340" height="120" rx="0" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1180" y="530" width="340" height="120" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1206" y="580" font-size="24" font-weight="700" text-anchor="start" fill="#FAF1E2">Chandigarh</text>
 <text x="1206" y="612" font-size="20" text-anchor="start" fill="#FAF1E2" opacity=".85">Punjabi creators</text>
 <rect x="692" y="152" width="850" height="180" rx="0" fill="#150F0B" stroke="#150F0B" stroke-width="0"/>

@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">WHAT MOVES THE MONTHLY FEE</text>
 <rect x="82" y="162" width="342" height="220" fill="#150F0B"/>
-<rect x="70" y="150" width="342" height="220" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="150" width="342" height="220" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="198" font-size="24" font-weight="700" fill="#FAF1E2">Platforms</text>
 <text x="92" y="240" font-size="19" fill="#FAF1E2" opacity=".85">Each one is close</text>
 <text x="92" y="270" font-size="19" fill="#FAF1E2" opacity=".85">to a separate job</text>

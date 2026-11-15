@@ -11,7 +11,7 @@
 <text x="351" y="206" font-size="24" font-weight="700" fill="#150F0B">Research</text>
 <rect x="335" y="248" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
 <text x="351" y="276" font-size="16" fill="#150F0B">✓ Human: Verify facts</text>
-<rect x="610" y="130" width="255" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="610" y="130" width="255" height="110" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="626" y="162" font-size="14" fill="#FAF1E2" opacity=".7">03 · AI assists</text>
 <text x="626" y="206" font-size="24" font-weight="700" fill="#FAF1E2">Script</text>
 <rect x="610" y="248" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
@@ -31,7 +31,7 @@
 <text x="351" y="436" font-size="24" font-weight="700" fill="#150F0B">Captions</text>
 <rect x="335" y="478" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
 <text x="351" y="506" font-size="16" fill="#150F0B">✓ Human: Proofread</text>
-<rect x="610" y="360" width="255" height="110" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="610" y="360" width="255" height="110" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="626" y="392" font-size="14" fill="#FAF1E2" opacity=".7">07 · AI assists</text>
 <text x="626" y="436" font-size="24" font-weight="700" fill="#FAF1E2">Repurpose</text>
 <rect x="610" y="478" width="255" height="44" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>

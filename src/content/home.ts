@@ -90,7 +90,7 @@ export const serviceAreas: {
   points: string[];
   href: string;
   cta: string;
-  theme: "coral" | "violet" | "lime";
+  theme: "coral" | "ink" | "lime";
 }[] = [
   {
     name: "Social Media Management",
@@ -106,7 +106,7 @@ export const serviceAreas: {
     points: ["Campaign strategy", "Paid, barter and affiliate campaigns", "Product launches", "Instagram, YouTube and LinkedIn"],
     href: "/services/influencer-marketing",
     cta: "See Influencer Marketing",
-    theme: "violet",
+    theme: "ink",
   },
   {
     name: "UGC and Content Creation",

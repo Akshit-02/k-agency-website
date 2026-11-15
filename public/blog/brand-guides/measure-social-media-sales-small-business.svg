@@ -4,7 +4,7 @@
 <text x="70" y="86" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">SMALL BUSINESS SOCIAL MEDIA MEASUREMENT</text>
 <text x="70" y="142" font-size="40" font-weight="800" fill="#150F0B">From post to sale: what you can count</text>
 <rect x="82" y="262" width="250" height="200" fill="#150F0B"/>
-<rect x="70" y="250" width="250" height="200" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="250" width="250" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="294" font-size="26" font-weight="700" fill="#FAF1E2">Social post</text>
 <text x="92" y="332" font-size="20" fill="#FAF1E2" opacity=".9">Reel, Story,</text>
 <text x="92" y="360" font-size="20" fill="#FAF1E2" opacity=".9">bio link</text>

@@ -16,7 +16,7 @@
 <text x="92" y="385" font-size="24" font-weight="700" fill="#150F0B">Broad category</text>
 <text x="1020" y="385" font-size="20" fill="#150F0B" opacity=".8">e.g. all skincare</text>
 <rect x="82" y="450" width="1200" height="72" fill="#150F0B"/>
-<rect x="70" y="440" width="1200" height="72" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="440" width="1200" height="72" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="485" font-size="24" font-weight="700" fill="#FAF1E2">All sponsorships</text>
 <text x="1300" y="485" font-size="20" fill="#150F0B" opacity=".8">Rare; ambassador deals</text>
 <rect x="70" y="560" width="1460" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>

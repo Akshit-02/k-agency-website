@@ -11,23 +11,23 @@
 <text x="290" y="410" font-size="22" font-weight="700" text-anchor="middle" fill="#150F0B">What happens on visit?</text>
 <path d="M526 310 L590 310" stroke="#150F0B" stroke-width="4"/><path d="M581 302 L590 310 L581 318" fill="none" stroke="#150F0B" stroke-width="4"/>
 <text x="600" y="180" font-size="20" font-weight="700" fill="#150F0B" opacity=".75">WEEKLY PLAN</text>
-<rect x="600" y="195" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="600" y="195" width="110" height="46" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="655" y="226" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Mon</text>
 <rect x="730" y="195" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="920" y="226" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Job of the week</text>
-<rect x="600" y="253" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="600" y="253" width="110" height="46" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="655" y="284" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Tue</text>
 <rect x="730" y="253" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="920" y="284" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Meet the technician</text>
-<rect x="600" y="311" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="600" y="311" width="110" height="46" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="655" y="342" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Wed</text>
 <rect x="730" y="311" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="920" y="342" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Signs to call a pro</text>
-<rect x="600" y="369" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="600" y="369" width="110" height="46" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="655" y="400" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Thu</text>
 <rect x="730" y="369" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="920" y="400" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Price and visit FAQ</text>
-<rect x="600" y="427" width="110" height="46" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="600" y="427" width="110" height="46" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="655" y="458" font-size="20" font-weight="700" text-anchor="middle" fill="#FAF1E2">Fri</text>
 <rect x="730" y="427" width="380" height="46" fill="#FFFFFF" stroke="#150F0B" stroke-width="4"/>
 <text x="920" y="458" font-size="20" font-weight="700" text-anchor="middle" fill="#150F0B">Areas covered</text>

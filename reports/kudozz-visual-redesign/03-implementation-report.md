@@ -27,7 +27,7 @@ Not deployed. All changes are uncommitted in the working tree on `main`.
 | Home → How it works | brief → strategy → discovery → launch → analytics, on both the desktop scroller and the mobile stack |
 | Home → Why Kudozz | Coloured bar replaced with a tile showing the pictogram of the service each reason links to |
 | Home/Brands hero collage | "Featured Drop" uses the launch pictogram instead of Sparkles |
-| For Brands → Services grid | Service pictograms in paper with lime accents on violet |
+| For Brands → Services grid | Service pictograms in ink with lime accents on a coral section |
 | For Brands → Why choose us | Six different pictograms instead of six identical checks, with accent and line recoloured on hover |
 | For Creators → Why join | brief, match, outreach, growth (replacing Sparkles, Layers, MessageCircle, Users) |
 | For Creators → How it works | apply, profile, match, partnership |
@@ -68,6 +68,23 @@ Not deployed. All changes are uncommitted in the working tree on `main`.
 - `CampaignTile`: not rendered while case studies are hidden. Give it an industry icon when they return.
 - Forms, API routes, email, analytics, metadata, URLs and copy.
 - SMM "Sound familiar?" problem list: numbered text works better there than nine more icons.
+
+## Palette change: violet removed
+
+Violet (`#5a2eea`, `#4620c4`) is gone from the tokens and from every component. The swap depended on what sits next to each use:
+
+| Former violet use | Now |
+|---|---|
+| Full sections: For Creators apply, SMM platforms | Ink (the neighbouring sections are light) |
+| Full section: For Brands services (follows the ink "Problems we solve") | Coral with ink text and an ink focus ring |
+| Footer newsletter band (between ink blocks) | Coral; newsletter form recoloured to ink input, button and success text |
+| Card colour rotations (hero stats, How it works, creator benefits and steps, About values and stats, creator network panel, WhyInfluencer stat) | Paper card with an ink border (an existing site style); ink where the section is already light |
+| ServiceRow, SMM capability tiles, TrustBar, WhyKudozz rotations | Cycle through the remaining colours |
+| Home service area "Influencer Marketing" | Ink card, lime accents |
+| Accents: bullets, check icons, underlines, social note border, calendar carousel chip, collage chip | Coral, ink, lime or sand |
+| Blog category graphics, creator OG images | Brand Marketing → paper-dim/coral, UGC → ink/lime; creator OG images now ink |
+| 570 blog diagram SVGs (731 fills) | `#5A2EEA` → ink `#150F0B`. Text on those cards was paper, so contrast goes up. Two ink dots in the podcast diagram flipped to paper, and 13 creator diagrams with violet backgrounds are now ink |
+| `Pictogram` accent prop | `violet` option removed |
 
 ## Verification
 

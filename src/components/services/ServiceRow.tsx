@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils";
 
 const rowThemes = [
   { bg: "bg-coral", text: "text-ink", sub: "text-ink/60", dot: "bg-ink", accent: "lime" },
-  { bg: "bg-violet", text: "text-paper", sub: "text-paper/60", dot: "bg-lime", accent: "lime" },
   { bg: "bg-lime", text: "text-ink", sub: "text-ink/60", dot: "bg-coral", accent: "coral" },
   { bg: "bg-ink", text: "text-paper", sub: "text-paper/60", dot: "bg-coral", accent: "coral" },
 ] as const;

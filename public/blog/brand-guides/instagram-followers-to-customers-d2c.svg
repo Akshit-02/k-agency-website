@@ -3,7 +3,7 @@
 <rect width="1600" height="700" fill="#FAF1E2"/>
 <text x="70" y="90" font-size="20" font-weight="700" letter-spacing="1" fill="#150F0B" opacity=".75">FROM FOLLOWER TO CUSTOMER: FIVE STAGES</text>
 <rect x="82" y="192" width="252" height="230" fill="#150F0B"/>
-<rect x="70" y="180" width="252" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="70" y="180" width="252" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="92" y="228" font-size="24" font-weight="700" fill="#FAF1E2">1. Discovery</text>
 <text x="92" y="272" font-size="19" fill="#FAF1E2" opacity=".9">Product in first</text>
 <text x="92" y="302" font-size="19" fill="#FAF1E2" opacity=".9">seconds of Reels</text>
@@ -27,7 +27,7 @@
 <text x="992" y="302" font-size="19" fill="#150F0B" opacity=".9">Story link sticker</text>
 <text x="992" y="332" font-size="19" fill="#150F0B" opacity=".9">UTM tags</text>
 <rect x="1282" y="192" width="252" height="230" fill="#150F0B"/>
-<rect x="1270" y="180" width="252" height="230" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="1270" y="180" width="252" height="230" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="1292" y="228" font-size="24" font-weight="700" fill="#FAF1E2">5. Product page</text>
 <text x="1292" y="272" font-size="19" fill="#FAF1E2" opacity=".9">Same product</text>
 <text x="1292" y="302" font-size="19" fill="#FAF1E2" opacity=".9">Same price</text>

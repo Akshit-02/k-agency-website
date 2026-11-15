@@ -5,7 +5,7 @@ import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerRevea
 
 const benefits = [
   { icon: "brief", accent: "lime", title: "Briefs from brands in your niche", body: "Kudozz runs campaigns for brands in fashion, beauty, tech, food, finance and more, and contacts creators whose niche and audience fit the brief.", bg: "bg-coral text-ink" },
-  { icon: "match", accent: "lime", title: "Relevant opportunities only", body: "We match you to campaigns that fit your content and audience, not a generic mass outreach blast.", bg: "bg-violet text-paper" },
+  { icon: "match", accent: "coral", title: "Relevant opportunities only", body: "We match you to campaigns that fit your content and audience, not a generic mass outreach blast.", bg: "bg-paper text-ink border-[1.5px] border-ink" },
   { icon: "outreach", accent: "coral", title: "Clear, professional communication", body: "Briefs, timelines, and payment terms are clear upfront — no chasing anyone for answers.", bg: "bg-lime text-ink" },
   { icon: "growth", accent: "lime", title: "Room to grow long-term", body: "When a campaign is a good fit for both sides, it can grow into ongoing ambassador work.", bg: "bg-ink text-paper" },
 ] as const;

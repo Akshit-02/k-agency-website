@@ -16,7 +16,7 @@
 <text x="466" y="342" font-size="19" fill="#150F0B" opacity=".85">fit notes</text>
 <path d="M793 340 l21 0" stroke="#150F0B" stroke-width="4"/><path d="M807 332 l9 8 l-9 8" fill="none" stroke="#150F0B" stroke-width="4"/>
 <rect x="830" y="232" width="336" height="240" fill="#150F0B"/>
-<rect x="818" y="220" width="336" height="240" fill="#5A2EEA" stroke="#150F0B" stroke-width="4"/>
+<rect x="818" y="220" width="336" height="240" fill="#150F0B" stroke="#150F0B" stroke-width="4"/>
 <text x="840" y="268" font-size="24" font-weight="700" fill="#FAF1E2">3. Launch</text>
 <text x="840" y="312" font-size="19" fill="#FAF1E2" opacity=".85">Styling Reels,</text>
 <text x="840" y="342" font-size="19" fill="#FAF1E2" opacity=".85">creators, size help</text>

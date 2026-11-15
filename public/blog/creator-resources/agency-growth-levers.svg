@@ -12,7 +12,7 @@
 <text x="76" y="335" font-size="20" font-weight="700" fill="#150F0B">New clients</text>
 <text x="76" y="363" font-size="15" fill="#150F0B" opacity=".85">Brands like your best ones</text>
 <text x="330" y="128" font-size="15" font-weight="700" fill="#150F0B" letter-spacing="1">SUPPLY</text>
-<rect x="330" y="145" width="250" height="118" fill="#5A2EEA" stroke="#150F0B" stroke-width="3"/>
+<rect x="330" y="145" width="250" height="118" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
 <text x="346" y="173" font-size="14" fill="#FAF1E2" opacity=".7">3</text>
 <text x="346" y="203" font-size="20" font-weight="700" fill="#FAF1E2">Stronger roster</text>
 <text x="346" y="231" font-size="15" fill="#FAF1E2" opacity=".85">Creators brands ask for</text>
