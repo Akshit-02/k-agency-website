@@ -42,7 +42,7 @@ export default function ContactPage() {
           </h1>
         </Reveal>
         <Reveal delay={0.14}>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/65">
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/70">
             Brand inquiries go faster through our{" "}
             <Link
               href="/for-brands?from=contact#inquiry"
@@ -66,7 +66,7 @@ export default function ContactPage() {
             <Reveal delay={0.05} className="flex gap-4 bg-coral p-6 text-ink">
               <Mail className="mt-1 size-5 shrink-0" aria-hidden="true" />
               <div>
-                <p className="text-xs font-semibold uppercase tracking-wide opacity-60">
+                <p className="text-xs font-semibold uppercase tracking-wide opacity-85">
                   Email
                 </p>
                 <a
@@ -79,7 +79,7 @@ export default function ContactPage() {
             </Reveal>
 
             <Reveal delay={0.08} className="border-[1.5px] border-ink p-6 text-sm text-ink/70">
-              <p className="text-xs font-semibold uppercase tracking-wide text-ink/50">Company</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-ink/70">Company</p>
               <p className="mt-2">
                 {siteConfig.legalName}, registered in India. We run influencer campaigns for brands in India, the UAE,
                 Saudi Arabia, the UK, Australia and Singapore.{" "}
@@ -90,7 +90,7 @@ export default function ContactPage() {
             </Reveal>
 
             {/* <Reveal delay={0.1} className="border-[1.5px] border-ink p-6">
-              <p className="text-xs font-semibold uppercase tracking-wide text-ink/50">Follow Along</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-ink/70">Follow Along</p>
               <div className="mt-4 flex gap-3">
                 {socialLinks.map(({ href, label, platform }) => (
                   <a

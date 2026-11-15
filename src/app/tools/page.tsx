@@ -50,12 +50,12 @@ export default function ToolsPage() {
               Free influencer marketing calculators, checklists and templates.
             </h1>
           </Reveal>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/65">
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/70">
             {toolCount} tools for brands planning campaigns, creators pricing their work and agencies running a
             roster. Each one sits inside the guide that explains how to use it. They&apos;re free, need no sign-up and
             run in your browser: nothing you type is sent to Kudozz.
           </p>
-          <p className="mt-4 max-w-2xl text-sm text-ink/55">
+          <p className="mt-4 max-w-2xl text-sm text-ink/70">
             The calculators use the numbers you enter, not built-in market rates. Use real quotes from creators, and
             treat every result as a planning estimate, not a promise of results.
           </p>
@@ -85,7 +85,7 @@ export default function ToolsPage() {
             {toolGroups.map((group) => (
               <div key={group.id} id={group.id} className="scroll-mt-28">
                 <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">{group.title}</h2>
-                <p className="mt-3 max-w-2xl text-ink/65">{group.intro}</p>
+                <p className="mt-3 max-w-2xl text-ink/70">{group.intro}</p>
                 <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   {group.tools.map((tool) => (
                     <Link
@@ -93,7 +93,7 @@ export default function ToolsPage() {
                       href={tool.href}
                       className="group flex flex-col border-[1.5px] border-ink bg-paper p-6 transition-colors hover:bg-ink hover:text-paper"
                     >
-                      <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide opacity-55">
+                      <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide opacity-85">
                         {(() => {
                           const KindIcon = { Calculator, Checklist: ListChecks, Scorecard: Gauge }[tool.kind];
                           return <KindIcon className="size-3.5" aria-hidden="true" />;
@@ -104,7 +104,7 @@ export default function ToolsPage() {
                         {tool.name}
                         <ArrowUpRight className="size-5 shrink-0 opacity-60" aria-hidden="true" />
                       </h3>
-                      <p className="mt-2 text-sm opacity-70">{tool.description}</p>
+                      <p className="mt-2 text-sm opacity-85">{tool.description}</p>
                     </Link>
                   ))}
                 </div>
@@ -113,7 +113,7 @@ export default function ToolsPage() {
 
             <div id="templates" className="scroll-mt-28">
               <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">Templates</h2>
-              <p className="mt-3 max-w-2xl text-ink/65">
+              <p className="mt-3 max-w-2xl text-ink/70">
                 Spreadsheet templates that open in Excel or Google Sheets.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -125,7 +125,7 @@ export default function ToolsPage() {
                       <a
                         href={file.href}
                         download
-                        className="inline-flex items-center gap-1.5 text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral"
+                        className="inline-flex items-center gap-1.5 text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral-deep"
                       >
                         <Download className="size-4" aria-hidden="true" />
                         Download
@@ -141,12 +141,12 @@ export default function ToolsPage() {
 
             <div className="max-w-2xl border-t border-ink/15 pt-10">
               <h2 className="font-display text-2xl tracking-tight text-ink">Using these tools elsewhere</h2>
-              <p className="mt-3 text-ink/65">
+              <p className="mt-3 text-ink/70">
                 You&apos;re welcome to share any tool or template with your team, students or readers. If you mention
                 one in an article or course, please link to the tool&apos;s guide or to this page,{" "}
                 <span className="font-medium text-ink">{url.replace("https://", "")}</span>. Found a mistake or want a
                 tool we don&apos;t have?{" "}
-                <Link href="/contact" className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral">
+                <Link href="/contact" className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral-deep">
                   Tell us
                 </Link>
                 .

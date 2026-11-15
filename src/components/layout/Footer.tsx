@@ -102,7 +102,7 @@ export function Footer() {
             <p className="font-display text-2xl tracking-tight">
               Stay ahead of the creator economy.
             </p>
-            <p className="mt-1 text-sm text-ink/70">
+            <p className="mt-1 text-sm text-ink/90">
               One email a month. No noise, just what&apos;s working.
             </p>
           </div>
@@ -117,7 +117,7 @@ export function Footer() {
         >
           KUDOZZ
         </p>
-        <Container className="relative flex flex-col gap-4 py-8 text-xs text-paper/45 sm:flex-row sm:items-center sm:justify-between">
+        <Container className="relative flex flex-col gap-4 py-8 text-xs text-paper/70 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} {siteConfig.legalName}. All rights
             reserved.

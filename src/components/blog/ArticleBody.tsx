@@ -38,7 +38,7 @@ function renderWithLinks(text: string, links?: InlineLink[]) {
     });
   }
 
-  const linkClassName = "font-medium text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral";
+  const linkClassName = "font-medium text-ink underline decoration-coral decoration-2 underline-offset-2 hover:text-coral-deep";
 
   return parts.map((part, i) => {
     if (typeof part === "string") return <Fragment key={i}>{part}</Fragment>;
@@ -93,7 +93,7 @@ function renderBlock(block: BlogBlock, i: number) {
       return (
         <figure key={i} className="border-[1.5px] border-ink/15 bg-paper-dim">
           {block.label && (
-            <figcaption className="border-b border-ink/15 px-5 py-2.5 text-xs font-semibold uppercase tracking-wide text-ink/55">
+            <figcaption className="border-b border-ink/15 px-5 py-2.5 text-xs font-semibold uppercase tracking-wide text-ink/70">
               {block.label}
             </figcaption>
           )}
@@ -139,7 +139,7 @@ function renderBlock(block: BlogBlock, i: number) {
             decoding="async"
             className="h-auto w-full border-[1.5px] border-ink/15"
           />
-          {block.caption && <figcaption className="mt-2 text-sm leading-relaxed text-ink/55">{block.caption}</figcaption>}
+          {block.caption && <figcaption className="mt-2 text-sm leading-relaxed text-ink/70">{block.caption}</figcaption>}
         </figure>
       );
     case "paragraph":
@@ -195,7 +195,7 @@ function renderBlock(block: BlogBlock, i: number) {
       return (
         <blockquote key={i} className="border-l-[4px] border-coral bg-paper-dim py-4 pl-6 font-display text-2xl italic tracking-tight text-ink">
           {block.text}
-          {block.attribution && <cite className="mt-3 block text-sm not-italic text-ink/50">— {block.attribution}</cite>}
+          {block.attribution && <cite className="mt-3 block text-sm not-italic text-ink/70">— {block.attribution}</cite>}
         </blockquote>
       );
     default:

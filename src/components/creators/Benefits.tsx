@@ -25,7 +25,7 @@ export function Benefits() {
             <StaggerItem key={title} className={`p-8 ${bg}`}>
               <Pictogram name={icon} accent={accent} className="size-12" />
               <h3 className="mt-5 font-display text-2xl tracking-tight">{title}</h3>
-              <p className="mt-3 max-w-sm text-base leading-relaxed opacity-70">{body}</p>
+              <p className="mt-3 max-w-sm text-base leading-relaxed opacity-85">{body}</p>
             </StaggerItem>
           ))}
         </StaggerReveal>

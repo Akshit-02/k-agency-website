@@ -59,7 +59,7 @@ export function FAQSection({
                   style={{ gridTemplateRows: open ? "1fr" : "0fr" }}
                 >
                   <div className="overflow-hidden">
-                    <p className={cn("max-w-2xl pb-6 text-base leading-relaxed", dark ? "text-paper/70" : "text-ink/65")}>
+                    <p className={cn("max-w-2xl pb-6 text-base leading-relaxed", dark ? "text-paper/70" : "text-ink/70")}>
                       {faq.answer}
                     </p>
                   </div>

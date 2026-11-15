@@ -60,7 +60,7 @@ export function CreatorAgencyRevenueCalculator() {
       <h3 id={`${id}-title`} className="font-display text-2xl tracking-tight text-ink sm:text-3xl">
         Agency revenue calculator
       </h3>
-      <p className="mt-2 text-sm leading-relaxed text-ink/60">
+      <p className="mt-2 text-sm leading-relaxed text-ink/70">
         Uses only your numbers for one month. It runs in your browser and nothing is saved or sent anywhere.
       </p>
 
@@ -74,7 +74,7 @@ export function CreatorAgencyRevenueCalculator() {
               onChange={set(f.key)}
               aria-describedby={`${id}-${f.key}-hint`}
             />
-            <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/50">
+            <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/70">
               {f.hint}
             </p>
           </FieldWrapper>
@@ -85,32 +85,32 @@ export function CreatorAgencyRevenueCalculator() {
         {hasResult ? (
           <dl className="grid gap-4 sm:grid-cols-2">
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Deal value booked for creators</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Deal value booked for creators</dt>
               <dd className="mt-1 font-display text-2xl text-ink">{inr(bookings)}</dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Agency revenue</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Agency revenue</dt>
               <dd className="mt-1 font-display text-2xl text-ink">{inr(revenue)}</dd>
-              <dd className="mt-1 text-xs text-ink/50">Commission {inr(commission)} + other {inr(other)}</dd>
+              <dd className="mt-1 text-xs text-ink/70">Commission {inr(commission)} + other {inr(other)}</dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">After agency costs</dt>
-              <dd className={`mt-1 font-display text-2xl ${profit < 0 ? "text-coral-dim" : "text-ink"}`}>{inr(profit)}</dd>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">After agency costs</dt>
+              <dd className={`mt-1 font-display text-2xl ${profit < 0 ? "text-coral-deep" : "text-ink"}`}>{inr(profit)}</dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Commission per creator</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Commission per creator</dt>
               <dd className="mt-1 font-display text-2xl text-ink">{inr(perCreator)}</dd>
               {breakEvenCreators !== null && (
-                <dd className="mt-1 text-xs text-ink/50">
+                <dd className="mt-1 text-xs text-ink/70">
                   About {breakEvenCreators} similar creators needed to cover costs
                 </dd>
               )}
             </div>
           </dl>
         ) : (
-          <p className="text-sm text-ink/60">Enter roster size, deals, average fee and commission to see monthly revenue.</p>
+          <p className="text-sm text-ink/70">Enter roster size, deals, average fee and commission to see monthly revenue.</p>
         )}
-        <p className="mt-5 text-xs leading-relaxed text-ink/50">
+        <p className="mt-5 text-xs leading-relaxed text-ink/70">
           Amounts are before GST and tax. Real rosters are uneven: a few creators often bring most deals, so also check
           revenue per creator in your own records.
         </p>

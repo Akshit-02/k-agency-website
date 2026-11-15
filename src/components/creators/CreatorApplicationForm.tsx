@@ -122,7 +122,7 @@ export function CreatorApplicationForm() {
         <TextArea id="introduction" placeholder="Tell us about your content and the brands you'd love to work with." {...register("introduction")} />
       </FieldWrapper>
 
-      {submitError && <p className="text-sm font-medium text-coral-dim">{submitError}</p>}
+      {submitError && <p className="text-sm font-medium text-coral-deep">{submitError}</p>}
 
       <Button type="submit" size="lg" disabled={isSubmitting} className="w-full sm:w-auto">
         {isSubmitting ? "Submitting..." : "Join Our Creator Network"}

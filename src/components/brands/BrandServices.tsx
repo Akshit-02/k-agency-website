@@ -52,12 +52,12 @@ export function BrandServices() {
                 href={`/services/${service.slug}`}
                 className="group flex h-full flex-col p-6 text-ink transition-colors duration-300 hover:bg-lime"
               >
-                <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-ink/65">{area}</span>
+                <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-ink/70">{area}</span>
                 <ServiceIcon slug={service.slug} accent="coral" className="mt-5 size-12 text-ink" />
                 <h3 className="mt-5 flex items-start justify-between gap-2 font-display text-lg tracking-tight">
                   {service.name}
                   <ArrowUpRight
-                    className="mt-1 size-4 shrink-0 opacity-60 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-100"
+                    className="mt-1 size-4 shrink-0 opacity-85 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-100"
                     aria-hidden="true"
                   />
                 </h3>

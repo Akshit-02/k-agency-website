@@ -202,7 +202,7 @@ export function BrandInquiryForm() {
         <TextArea id="message" placeholder="What are you trying to achieve with this campaign?" {...register("message")} />
       </FieldWrapper>
 
-      {submitError && <p role="alert" className="text-sm font-medium text-coral-dim">{submitError}</p>}
+      {submitError && <p role="alert" className="text-sm font-medium text-coral-deep">{submitError}</p>}
 
       <Button type="submit" size="lg" disabled={isSubmitting} className="w-full sm:w-auto">
         {isSubmitting ? "Sending..." : "Let's Build Your Campaign"}

@@ -45,21 +45,21 @@ export function CampaignTile({
         <div className="flex flex-col justify-between gap-6 bg-paper p-7 sm:p-8">
           <div>
             {caseStudy.isSample && (
-              <span className="mb-3 inline-block text-xs font-medium uppercase tracking-wide text-ink/40">
+              <span className="mb-3 inline-block text-xs font-medium uppercase tracking-wide text-ink/70">
                 Sample Case Study
               </span>
             )}
             <h3 className={cn("font-display tracking-tight text-ink", large ? "text-3xl sm:text-4xl" : "text-2xl")}>
               {caseStudy.brand}
             </h3>
-            <p className="mt-3 text-sm uppercase tracking-wide text-ink/45">{caseStudy.creatorCategory}</p>
-            <p className="mt-4 max-w-md text-base leading-relaxed text-ink/65">{caseStudy.summary}</p>
+            <p className="mt-3 text-sm uppercase tracking-wide text-ink/70">{caseStudy.creatorCategory}</p>
+            <p className="mt-4 max-w-md text-base leading-relaxed text-ink/70">{caseStudy.summary}</p>
           </div>
 
           <dl className="grid grid-cols-3 gap-4 border-t-[1.5px] border-ink pt-5">
             {caseStudy.metrics.map((metric) => (
               <div key={metric.label}>
-                <dt className="text-[11px] uppercase tracking-wide text-ink/45">{metric.label}</dt>
+                <dt className="text-[11px] uppercase tracking-wide text-ink/70">{metric.label}</dt>
                 <dd className={cn("font-black-display mt-1 tracking-tight text-ink", large ? "text-2xl" : "text-xl")}>
                   {metric.value}
                 </dd>

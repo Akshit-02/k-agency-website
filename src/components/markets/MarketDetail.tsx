@@ -52,7 +52,7 @@ export function MarketDetail({
           </Reveal>
           {market.intro.map((paragraph, i) => (
             <Reveal key={i} delay={0.12 + i * 0.04}>
-              <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/65 text-pretty">{paragraph}</p>
+              <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/70 text-pretty">{paragraph}</p>
             </Reveal>
           ))}
           <Reveal delay={0.2} className="mt-8 flex flex-wrap items-center gap-4">
@@ -63,7 +63,7 @@ export function MarketDetail({
               All Services
             </Button>
           </Reveal>
-          <p className="mt-8 max-w-xl border-l-[3px] border-coral pl-5 text-sm text-ink/60">
+          <p className="mt-8 max-w-xl border-l-[3px] border-coral pl-5 text-sm text-ink/70">
             <span className="font-semibold text-ink">Coverage: </span>
             {market.coverage}. Rules on this page last checked {market.reviewed}.
           </p>
@@ -124,7 +124,7 @@ export function MarketDetail({
                     {service.name}
                     <ArrowUpRight className="size-4 shrink-0 opacity-50" aria-hidden="true" />
                   </p>
-                  <p className="mt-2 text-sm opacity-70">{note}</p>
+                  <p className="mt-2 text-sm opacity-85">{note}</p>
                 </Link>
               );
             })}
@@ -137,7 +137,7 @@ export function MarketDetail({
           <h2 className="max-w-3xl font-display text-3xl tracking-tight text-ink sm:text-4xl">
             Rules we plan around in {marketPhrase(market)}
           </h2>
-          <p className="mt-4 max-w-2xl text-sm text-ink/60">
+          <p className="mt-4 max-w-2xl text-sm text-ink/70">
             A summary for planning, not legal advice. Rules change, so we re-check them against the sources below before each campaign.
           </p>
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
@@ -145,7 +145,7 @@ export function MarketDetail({
               <div key={rule.title} className="border-t-[1.5px] border-ink pt-5">
                 <h3 className="font-display text-xl tracking-tight text-ink">{rule.title}</h3>
                 <p className="mt-3 text-base leading-relaxed text-ink/70">{rule.body}</p>
-                <ul className="mt-3 space-y-1 text-xs text-ink/55">
+                <ul className="mt-3 space-y-1 text-xs text-ink/70">
                   {rule.sources.map((source) => (
                     <li key={source.url}>
                       Source: <SourceLink source={source} />

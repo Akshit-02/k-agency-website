@@ -42,7 +42,7 @@ export function ContentCalendarGraphic({ className }: { className?: string }) {
           <p className="font-black-display text-sm tracking-wide text-ink">CONTENT CALENDAR</p>
           <span className="bg-lime px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-ink">Approved</span>
         </div>
-        <div className="mt-3 grid grid-cols-7 gap-1 text-center text-[9px] font-semibold uppercase tracking-wide text-ink/45 sm:gap-1.5">
+        <div className="mt-3 grid grid-cols-7 gap-1 text-center text-[9px] font-semibold uppercase tracking-wide text-ink/70 sm:gap-1.5">
           {["M", "T", "W", "T", "F", "S", "S"].map((d, i) => (
             <span key={i}>{d}</span>
           ))}
@@ -50,7 +50,7 @@ export function ContentCalendarGraphic({ className }: { className?: string }) {
         <div className="mt-1.5 grid grid-cols-7 gap-1 sm:gap-1.5">
           {cells.map((cell) => (
             <div key={cell.day} className="flex aspect-square flex-col justify-between border border-line p-1">
-              <span className="text-[9px] leading-none text-ink/40">{cell.day}</span>
+              <span className="text-[9px] leading-none text-ink/70">{cell.day}</span>
               {cell.kind && (
                 <span
                   className={cn(
@@ -64,7 +64,7 @@ export function ContentCalendarGraphic({ className }: { className?: string }) {
             </div>
           ))}
         </div>
-        <div className="mt-4 flex flex-wrap gap-3 text-[10px] font-semibold uppercase tracking-wide text-ink/60">
+        <div className="mt-4 flex flex-wrap gap-3 text-[10px] font-semibold uppercase tracking-wide text-ink/70">
           <span className="flex items-center gap-1"><Clapperboard className="size-3" /> Reels</span>
           <span className="flex items-center gap-1"><GalleryHorizontalEnd className="size-3" /> Carousels</span>
           <span className="flex items-center gap-1"><ImageIcon className="size-3" /> Posts</span>
@@ -90,7 +90,7 @@ export function ContentCalendarGraphic({ className }: { className?: string }) {
             <span key={i} className="flex-1 bg-ink" style={{ height: `${h}%` }} />
           ))}
         </div>
-        <p className="mt-2 text-[10px] font-semibold uppercase tracking-wide text-ink/70">What to repeat next month</p>
+        <p className="mt-2 text-[10px] font-semibold uppercase tracking-wide text-ink/90">What to repeat next month</p>
       </div>
     </div>
   );

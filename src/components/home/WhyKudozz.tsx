@@ -28,11 +28,11 @@ export function WhyKudozz() {
               <div>
                 <IconTile name={servicePictogram(slugFromServiceHref(reason.href))} accent={accents[i % accents.length]} />
                 <h3 className="mt-6 font-display text-2xl leading-tight tracking-tight text-ink">{reason.title}</h3>
-                <p className="mt-4 text-base leading-relaxed text-ink/65">{reason.body}</p>
+                <p className="mt-4 text-base leading-relaxed text-ink/70">{reason.body}</p>
               </div>
               <Link
                 href={reason.href}
-                className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+                className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral-deep"
               >
                 {reason.linkLabel}
                 <ArrowRight className="size-4" aria-hidden="true" />

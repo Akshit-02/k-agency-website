@@ -11,7 +11,7 @@ export function TrustBar() {
     <section className="bg-paper-dim py-14" aria-labelledby="industries-heading">
       <Container>
         <Reveal>
-          <h2 id="industries-heading" className="mb-8 text-xs font-semibold uppercase tracking-[0.22em] text-ink/45">
+          <h2 id="industries-heading" className="mb-8 text-xs font-semibold uppercase tracking-[0.22em] text-ink/70">
             Influencer campaigns for brands in
           </h2>
         </Reveal>

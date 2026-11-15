@@ -89,7 +89,7 @@ export function InfluencerBudgetAllocator() {
             </ul>
           </>
         ) : (
-          <p className="text-sm text-ink/60">Enter the total budget, tier shares and at least one quoted fee to see how many creators it funds.</p>
+          <p className="text-sm text-ink/70">Enter the total budget, tier shares and at least one quoted fee to see how many creators it funds.</p>
         )}
       </Results>
     </CalculatorShell>

@@ -37,7 +37,7 @@ const variants = {
   dark: "bg-ink text-paper hover:text-ink",
   bright: "bg-lime text-ink hover:text-paper",
   "outline-light": "bg-transparent text-paper border-[1.5px] border-paper/50 hover:text-ink",
-  ghost: "bg-transparent text-ink hover:text-coral px-0",
+  ghost: "bg-transparent text-ink hover:text-coral-deep px-0",
 };
 
 const fills = {
@@ -96,7 +96,7 @@ export function Button(props: ButtonAsLink | ButtonAsButton) {
           )}
         />
       )}
-      <span className="relative z-10">{children}</span>
+      <span className="relative z-10 inline-flex items-center gap-2">{children}</span>
       {icon && (
         <ArrowUpRight
           className="relative z-10 size-4 transition-transform duration-300 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5"

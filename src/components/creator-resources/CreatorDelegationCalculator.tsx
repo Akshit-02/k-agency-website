@@ -60,7 +60,7 @@ export function CreatorDelegationCalculator() {
       <h3 id={`${id}-title`} className="font-display text-2xl tracking-tight text-ink sm:text-3xl">
         Delegation calculator
       </h3>
-      <p className="mt-2 text-sm leading-relaxed text-ink/60">
+      <p className="mt-2 text-sm leading-relaxed text-ink/70">
         Uses only your numbers. It runs in your browser and nothing is saved or sent anywhere.
       </p>
 
@@ -74,7 +74,7 @@ export function CreatorDelegationCalculator() {
               onChange={set(f.key)}
               aria-describedby={`${id}-${f.key}-hint`}
             />
-            <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/50">
+            <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/70">
               {f.hint}
             </p>
           </FieldWrapper>
@@ -86,26 +86,26 @@ export function CreatorDelegationCalculator() {
           <>
             <dl className="grid gap-4 sm:grid-cols-3">
               <div>
-                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Hours freed a month</dt>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Hours freed a month</dt>
                 <dd className="mt-1 font-display text-2xl text-ink">{freed.toLocaleString("en-IN")}</dd>
               </div>
               <div>
-                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Cost per hour freed</dt>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Cost per hour freed</dt>
                 <dd className="mt-1 font-display text-2xl text-ink">{freed > 0 ? inr(costPerHour) : "–"}</dd>
-                <dd className="mt-1 text-xs text-ink/50">Compare with your {inr(hourlyValue)} an hour</dd>
+                <dd className="mt-1 text-xs text-ink/70">Compare with your {inr(hourlyValue)} an hour</dd>
               </div>
               <div>
-                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Monthly difference</dt>
-                <dd className={`mt-1 font-display text-2xl ${net < 0 ? "text-coral-dim" : "text-ink"}`}>{inr(net)}</dd>
-                <dd className="mt-1 text-xs text-ink/50">Value of freed hours minus cost</dd>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Monthly difference</dt>
+                <dd className={`mt-1 font-display text-2xl ${net < 0 ? "text-coral-deep" : "text-ink"}`}>{inr(net)}</dd>
+                <dd className="mt-1 text-xs text-ink/70">Value of freed hours minus cost</dd>
               </div>
             </dl>
             <p className="mt-5 text-sm leading-relaxed text-ink">{verdict}</p>
           </>
         ) : (
-          <p className="text-sm text-ink/60">Enter your hours, hourly value and a real outsourcing quote to compare.</p>
+          <p className="text-sm text-ink/70">Enter your hours, hourly value and a real outsourcing quote to compare.</p>
         )}
-        <p className="mt-5 text-xs leading-relaxed text-ink/50">
+        <p className="mt-5 text-xs leading-relaxed text-ink/70">
           The value of freed hours only becomes income if you use them for income work. This is a planning aid, not a
           prediction; amounts are before tax.
         </p>

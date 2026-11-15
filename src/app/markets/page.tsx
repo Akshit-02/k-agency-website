@@ -46,12 +46,12 @@ export default function MarketsPage() {
               Influencer campaigns in India, the GCC, the UK, Australia and Singapore.
             </h1>
           </Reveal>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/65">
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/70">
             Kudozz plans and runs influencer and creator campaigns for brands in six markets. The process is the same
             everywhere (one agreed KPI, vetted creators, managed content, honest reporting), but creator licences,
             disclosure rules, languages and platforms differ, so each market page explains what changes there.
           </p>
-          <p className="mt-4 max-w-2xl text-sm text-ink/55">
+          <p className="mt-4 max-w-2xl text-sm text-ink/70">
             Kudozz Studios Private Limited is registered in India. Contracting, invoicing currency and working hours
             are agreed per campaign.
           </p>
@@ -70,7 +70,7 @@ export default function MarketsPage() {
                 India
                 <ArrowUpRight className="size-5 shrink-0" aria-hidden="true" />
               </p>
-              <p className="mt-2 text-sm opacity-75">
+              <p className="mt-2 text-sm opacity-85">
                 Our primary market: pan-India campaigns, regional-language creators and state and city guides.
               </p>
             </Link>
@@ -84,7 +84,7 @@ export default function MarketsPage() {
                   {market.name}
                   <ArrowUpRight className="size-5 shrink-0 opacity-60" aria-hidden="true" />
                 </p>
-                <p className="mt-2 text-sm opacity-70">{market.coverage}</p>
+                <p className="mt-2 text-sm opacity-85">{market.coverage}</p>
               </Link>
             ))}
           </div>
@@ -104,7 +104,7 @@ export default function MarketsPage() {
             </div>
             <div>
               <h2 className="font-display text-2xl tracking-tight text-ink">Qatar, Kuwait, Oman and Bahrain</h2>
-              <p className="mt-3 text-sm text-ink/60">
+              <p className="mt-3 text-sm text-ink/70">
                 We plan these GCC markets case by case, alongside a UAE or Saudi campaign. Licensing differs by
                 country, so start with the country guides.
               </p>

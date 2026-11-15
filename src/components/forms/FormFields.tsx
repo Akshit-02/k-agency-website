@@ -4,7 +4,7 @@ import { forwardRef } from "react";
 import { cn } from "@/lib/utils";
 
 const fieldBase =
-  "w-full border-[1.5px] border-ink/20 bg-paper px-4 py-3.5 text-base text-ink placeholder:text-ink/35 transition-colors focus:border-coral focus:outline-none";
+  "w-full border-[1.5px] border-ink/20 bg-paper px-4 py-3.5 text-base text-ink placeholder:text-ink/55 transition-colors focus:border-coral focus:outline-none";
 
 type FieldWrapperProps = {
   label: string;
@@ -18,12 +18,12 @@ type FieldWrapperProps = {
 export function FieldWrapper({ label, htmlFor, error, required, className, children }: FieldWrapperProps) {
   return (
     <div className={cn("flex flex-col gap-2", className)}>
-      <label htmlFor={htmlFor} className="text-xs font-semibold uppercase tracking-wide text-ink/50">
-        {label} {required && <span className="text-coral">*</span>}
+      <label htmlFor={htmlFor} className="text-xs font-semibold uppercase tracking-wide text-ink/70">
+        {label} {required && <span className="text-coral-deep">*</span>}
       </label>
       {children}
       {error && (
-        <p className="text-xs font-medium text-coral-dim" role="alert">
+        <p className="text-xs font-medium text-coral-deep" role="alert">
           {error}
         </p>
       )}

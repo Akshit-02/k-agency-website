@@ -10,7 +10,7 @@ import { Reveal } from "@/components/animations/Reveal";
 import { cn } from "@/lib/utils";
 
 const sizes = ["text-4xl sm:text-5xl", "text-6xl sm:text-7xl", "text-3xl sm:text-4xl", "text-5xl sm:text-6xl"];
-const hoverColors = ["hover:text-coral", "hover:text-ink", "hover:text-lime-dim", "hover:text-coral"];
+const hoverColors = ["hover:text-coral-deep", "hover:text-ink", "hover:text-lime-dim", "hover:text-coral-deep"];
 const panelColors = ["bg-coral text-ink", "bg-paper text-ink", "bg-lime text-ink", "bg-ink text-paper"];
 
 export function CreatorNetwork() {
@@ -48,7 +48,7 @@ export function CreatorNetwork() {
                   className={cn(
                     "font-display tracking-tight transition-colors duration-200",
                     sizes[i % sizes.length],
-                    isActive ? "text-coral" : `text-ink/70 ${hoverColors[i % hoverColors.length]}`
+                    isActive ? "text-coral-deep" : `text-ink/70 ${hoverColors[i % hoverColors.length]}`
                   )}
                 >
                   {category.name}
@@ -69,11 +69,11 @@ export function CreatorNetwork() {
             )}
           >
             <div>
-              <span className="font-black-display text-xs tracking-wide opacity-60">CREATOR CATEGORY</span>
+              <span className="font-black-display text-xs tracking-wide opacity-85">CREATOR CATEGORY</span>
               <p className="mt-4 font-display text-3xl tracking-tight sm:text-4xl">{active.name}</p>
-              <p className="mt-4 text-base opacity-75">{active.description}</p>
+              <p className="mt-4 text-base opacity-85">{active.description}</p>
             </div>
-            <p className="mt-8 text-sm opacity-60">Vetted for engagement quality and audience fit.</p>
+            <p className="mt-8 text-sm opacity-85">Vetted for engagement quality and audience fit.</p>
           </motion.div>
         </div>
       </Container>

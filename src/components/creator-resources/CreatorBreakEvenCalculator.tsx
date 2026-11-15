@@ -51,7 +51,7 @@ export function CreatorBreakEvenCalculator() {
       <h3 id={`${id}-title`} className="font-display text-2xl tracking-tight text-ink sm:text-3xl">
         Break-even calculator
       </h3>
-      <p className="mt-2 text-sm leading-relaxed text-ink/60">
+      <p className="mt-2 text-sm leading-relaxed text-ink/70">
         Uses only your numbers. It runs in your browser and nothing is saved or sent anywhere.
       </p>
 
@@ -65,7 +65,7 @@ export function CreatorBreakEvenCalculator() {
               onChange={set(f.key)}
               aria-describedby={`${id}-${f.key}-hint`}
             />
-            <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/50">
+            <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/70">
               {f.hint}
             </p>
           </FieldWrapper>
@@ -74,37 +74,37 @@ export function CreatorBreakEvenCalculator() {
 
       <div className="mt-8 border-t-[1.5px] border-ink/15 pt-6" aria-live="polite">
         {!hasResult ? (
-          <p className="text-sm text-ink/60">Enter your fixed costs and average price to see your break-even point.</p>
+          <p className="text-sm text-ink/70">Enter your fixed costs and average price to see your break-even point.</p>
         ) : contribution <= 0 ? (
-          <p className="text-sm font-semibold text-coral-dim">
+          <p className="text-sm font-semibold text-coral-deep">
             Direct costs are equal to or higher than the price, so each deal or sale loses money. Raise the price or lower
             direct costs first.
           </p>
         ) : (
           <dl className="grid gap-4 sm:grid-cols-3">
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Contribution per unit</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Contribution per unit</dt>
               <dd className="mt-1 font-display text-2xl text-ink">{inr(contribution)}</dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Break-even each month</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Break-even each month</dt>
               <dd className="mt-1 font-display text-2xl text-ink">
                 {units} {units === 1 ? "deal or sale" : "deals or sales"}
               </dd>
-              <dd className="mt-1 text-xs text-ink/50">About {inr(revenue)} in revenue</dd>
+              <dd className="mt-1 text-xs text-ink/70">About {inr(revenue)} in revenue</dd>
             </div>
             {monthlyResult !== null && (
               <div>
-                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">A typical month</dt>
-                <dd className={`mt-1 font-display text-2xl ${monthlyResult < 0 ? "text-coral-dim" : "text-ink"}`}>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">A typical month</dt>
+                <dd className={`mt-1 font-display text-2xl ${monthlyResult < 0 ? "text-coral-deep" : "text-ink"}`}>
                   {inr(monthlyResult)}
                 </dd>
-                <dd className="mt-1 text-xs text-ink/50">{monthlyResult < 0 ? "Below break-even" : "Above break-even"}</dd>
+                <dd className="mt-1 text-xs text-ink/70">{monthlyResult < 0 ? "Below break-even" : "Above break-even"}</dd>
               </div>
             )}
           </dl>
         )}
-        <p className="mt-5 text-xs leading-relaxed text-ink/50">
+        <p className="mt-5 text-xs leading-relaxed text-ink/70">
           Amounts are before tax. Break-even is a minimum, not a target, and creator income varies month to month.
         </p>
       </div>

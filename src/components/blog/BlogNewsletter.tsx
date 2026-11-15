@@ -63,7 +63,7 @@ export function BlogNewsletter() {
                 placeholder="you@brand.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full border-[1.5px] border-paper/25 bg-transparent px-4 py-3 text-center text-base text-paper placeholder:text-paper/35 focus:border-lime focus:outline-none sm:text-left"
+                className="w-full border-[1.5px] border-paper/25 bg-transparent px-4 py-3 text-center text-base text-paper placeholder:text-paper/55 focus:border-lime focus:outline-none sm:text-left"
               />
               <Button type="submit" disabled={status === "loading"} className="justify-center">
                 {status === "loading" ? "Subscribing..." : "Subscribe"}

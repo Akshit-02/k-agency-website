@@ -41,7 +41,7 @@ export function BlogExplorer({ posts }: { posts: BlogCardData[] }) {
             onClick={() => setCategory("All")}
             className={cn(
               "border-[1.5px] px-4 py-2 text-xs font-semibold uppercase tracking-wide transition-colors",
-              category === "All" ? "border-ink bg-coral text-ink" : "border-ink/25 text-ink/60 hover:border-ink"
+              category === "All" ? "border-ink bg-coral text-ink" : "border-ink/25 text-ink/70 hover:border-ink"
             )}
           >
             All
@@ -53,7 +53,7 @@ export function BlogExplorer({ posts }: { posts: BlogCardData[] }) {
               onClick={() => setCategory(cat)}
               className={cn(
                 "border-[1.5px] px-4 py-2 text-xs font-semibold uppercase tracking-wide transition-colors",
-                category === cat ? "border-ink bg-ink text-paper" : "border-ink/25 text-ink/60 hover:border-ink"
+                category === cat ? "border-ink bg-ink text-paper" : "border-ink/25 text-ink/70 hover:border-ink"
               )}
             >
               {cat}
@@ -69,13 +69,13 @@ export function BlogExplorer({ posts }: { posts: BlogCardData[] }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search articles..."
-            className="w-full border-b border-ink/25 bg-transparent py-2 pl-6 text-sm text-ink placeholder:text-ink/35 focus:border-ink focus:outline-none"
+            className="w-full border-b border-ink/25 bg-transparent py-2 pl-6 text-sm text-ink placeholder:text-ink/55 focus:border-ink focus:outline-none"
           />
         </label>
       </div>
 
       {filtered.length === 0 ? (
-        <p className="py-16 text-center text-ink/50">No articles match your search.</p>
+        <p className="py-16 text-center text-ink/70">No articles match your search.</p>
       ) : (
         <>
           <div className="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
@@ -90,8 +90,8 @@ export function BlogExplorer({ posts }: { posts: BlogCardData[] }) {
                 {filtered.slice(BLOG_GRID_COUNT).map((post) => (
                   <li key={post.slug} className="border-t border-line">
                     <Link href={`/blog/${post.slug}`} className="group block py-3">
-                      <span className="block text-[11px] font-semibold uppercase tracking-wide text-coral">{post.category}</span>
-                      <span className="mt-1 block text-base leading-snug text-ink group-hover:text-coral">{post.title}</span>
+                      <span className="block text-[11px] font-semibold uppercase tracking-wide text-coral-deep">{post.category}</span>
+                      <span className="mt-1 block text-base leading-snug text-ink group-hover:text-coral-deep">{post.title}</span>
                     </Link>
                   </li>
                 ))}

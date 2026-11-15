@@ -66,7 +66,7 @@ export function CreatorMarketplaceCalculator() {
             <Stat label="Platform net revenue" value={inr(netRevenue)} note={`After ${inr(processing)} payment processing`} negative={netRevenue < 0} />
           </dl>
         ) : (
-          <p className="text-sm text-ink/60">Enter the creator fees transacted and your fee assumptions to see what each side pays and keeps.</p>
+          <p className="text-sm text-ink/70">Enter the creator fees transacted and your fee assumptions to see what each side pays and keeps.</p>
         )}
       </Results>
     </CalculatorShell>

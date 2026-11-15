@@ -51,7 +51,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.28, ease: [0.16, 1, 0.3, 1] }}
-              className="mt-7 max-w-lg text-lg leading-relaxed text-ink/65 text-pretty"
+              className="mt-7 max-w-lg text-lg leading-relaxed text-ink/70 text-pretty"
             >
               Kudozz brings social media management, influencer marketing and creator-led content together to help
               brands connect with the right audiences. We run your brand&apos;s own accounts, find and vet creators whose
@@ -85,7 +85,7 @@ export function Hero() {
                   <dd className="font-black-display text-2xl leading-none tracking-tight">
                     <StatCounter value={stat.value} />
                   </dd>
-                  <p className="mt-2 text-[10px] uppercase tracking-[0.12em] opacity-70">{stat.label}</p>
+                  <p className="mt-2 text-[10px] uppercase tracking-[0.12em] opacity-85">{stat.label}</p>
                 </div>
               ))}
             </motion.dl>

@@ -74,7 +74,7 @@ export function CreatorCampaignCapacityCalculator() {
             />
           </dl>
         ) : (
-          <p className="text-sm text-ink/60">Enter team size, hours, utilisation and campaign estimates to see capacity.</p>
+          <p className="text-sm text-ink/70">Enter team size, hours, utilisation and campaign estimates to see capacity.</p>
         )}
       </Results>
     </CalculatorShell>

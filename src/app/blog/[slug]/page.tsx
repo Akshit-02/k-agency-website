@@ -102,9 +102,9 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
             </h1>
           </Reveal>
           <Reveal delay={0.1} fade={false}>
-            <p className="mt-5 text-lg leading-relaxed text-ink/65">{post.excerpt}</p>
+            <p className="mt-5 text-lg leading-relaxed text-ink/70">{post.excerpt}</p>
           </Reveal>
-          <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/50">
+          <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/70">
             <span>{post.author.name}</span>
             {post.updatedAt && (
               <>
@@ -153,7 +153,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
                   {serviceLink.service && (
                     <p>
                       <span className="font-semibold text-ink">Related Kudozz service: </span>
-                      <Link href={`/services/${serviceLink.service.slug}`} className="underline underline-offset-4 hover:text-coral">
+                      <Link href={`/services/${serviceLink.service.slug}`} className="underline underline-offset-4 hover:text-coral-deep">
                         {serviceLink.service.name}
                       </Link>
                       . {serviceLink.service.shortDescription}
@@ -164,7 +164,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
                       {serviceLink.market === "all" ? (
                         <>
                           Kudozz runs campaigns in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.{" "}
-                          <Link href="/markets" className="underline underline-offset-4 hover:text-coral">
+                          <Link href="/markets" className="underline underline-offset-4 hover:text-coral-deep">
                             See the markets we serve
                           </Link>
                           .
@@ -172,7 +172,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
                       ) : (
                         <>
                           Planning a campaign in {marketPhrase(serviceLink.market)}?{" "}
-                          <Link href={`/markets/${serviceLink.market.slug}`} className="underline underline-offset-4 hover:text-coral">
+                          <Link href={`/markets/${serviceLink.market.slug}`} className="underline underline-offset-4 hover:text-coral-deep">
                             How Kudozz works in {marketPhrase(serviceLink.market)}
                           </Link>
                           .

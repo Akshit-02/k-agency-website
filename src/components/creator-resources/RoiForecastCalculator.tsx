@@ -82,7 +82,7 @@ export function RoiForecastCalculator() {
             ))}
           </dl>
         ) : (
-          <p className="text-sm text-ink/60">Enter campaign cost, average order value and at least one scenario to see the forecast.</p>
+          <p className="text-sm text-ink/70">Enter campaign cost, average order value and at least one scenario to see the forecast.</p>
         )}
       </Results>
     </CalculatorShell>

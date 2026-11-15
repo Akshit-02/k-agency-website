@@ -27,7 +27,7 @@ export function ServicesHero() {
           </h1>
         </Reveal>
         <Reveal delay={0.16}>
-          <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/65 text-pretty">
+          <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/70 text-pretty">
             Social media management for your own accounts, influencer marketing from strategy and creator discovery
             to paid, barter, gifting and affiliate campaigns, and UGC your brand owns. {services.length} services in
             all. Use one, or combine them into one plan.

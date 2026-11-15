@@ -56,7 +56,7 @@ export function CreatorTalentScorecard() {
       <h3 id={`${id}-title`} className="font-display text-2xl tracking-tight text-ink sm:text-3xl">
         Talent screening scorecard
       </h3>
-      <p className="mt-2 text-sm leading-relaxed text-ink/60">
+      <p className="mt-2 text-sm leading-relaxed text-ink/70">
         One creator at a time. It runs in your browser and nothing is saved or sent anywhere.
       </p>
 
@@ -122,7 +122,7 @@ export function CreatorTalentScorecard() {
             their numbers.
           </p>
         ) : rated.length === 0 ? (
-          <p className="text-sm text-ink/60">Rate each criterion from 1 to 5 to see the weighted score.</p>
+          <p className="text-sm text-ink/70">Rate each criterion from 1 to 5 to see the weighted score.</p>
         ) : (
           <dl className="grid gap-4 sm:grid-cols-2">
             <Stat label="Weighted fit score" value={pct(score)} note={allRated ? "All criteria rated" : `${rated.length} of ${CRITERIA.length} criteria rated`} />

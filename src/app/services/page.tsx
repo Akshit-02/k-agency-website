@@ -99,12 +99,12 @@ export default function ServicesPage() {
             return (
               <section key={pillar.id} id={pillar.id} aria-labelledby={`${pillar.id}-heading`} className="scroll-mt-28 pt-20 first:pt-0">
                 <div className="flex items-baseline gap-5 border-b-[3px] border-ink pb-6">
-                  <span className="font-black-display text-sm text-coral">{String(p + 1).padStart(2, "0")}</span>
+                  <span className="font-black-display text-sm text-coral-deep">{String(p + 1).padStart(2, "0")}</span>
                   <div>
                     <h2 id={`${pillar.id}-heading`} className="font-display text-4xl tracking-tight text-ink sm:text-5xl">
                       {pillar.name}
                     </h2>
-                    <p className="mt-3 max-w-2xl text-base text-ink/65">{pillar.description}</p>
+                    <p className="mt-3 max-w-2xl text-base text-ink/70">{pillar.description}</p>
                   </div>
                 </div>
 
@@ -134,7 +134,7 @@ export default function ServicesPage() {
                           >
                             <span>
                               <span className="block font-display text-lg tracking-tight">{cap.title}</span>
-                              <span className="mt-1 block text-xs leading-relaxed text-paper/55">{cap.summary.split(". ")[0]}.</span>
+                              <span className="mt-1 block text-xs leading-relaxed text-paper/70">{cap.summary.split(". ")[0]}.</span>
                             </span>
                             <ArrowRight className="mt-1 size-4 shrink-0 text-lime transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
                           </Link>
@@ -158,7 +158,7 @@ export default function ServicesPage() {
                       {categories.length > 1 && (
                         <>
                           <h3 className="font-display text-2xl tracking-tight text-ink sm:text-3xl">{category.name}</h3>
-                          <p className="mt-2 mb-6 max-w-2xl text-base text-ink/65">{category.description}</p>
+                          <p className="mt-2 mb-6 max-w-2xl text-base text-ink/70">{category.description}</p>
                         </>
                       )}
                       {category.services.map((service) => (

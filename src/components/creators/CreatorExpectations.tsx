@@ -121,7 +121,7 @@ export function CreatorExpectations() {
                     <p className="mt-2 text-base leading-relaxed text-ink/70">{item.body}</p>
                     <Link
                       href={item.href}
-                      className="mt-2 inline-block text-sm font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+                      className="mt-2 inline-block text-sm font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral-deep"
                     >
                       {item.label}
                     </Link>

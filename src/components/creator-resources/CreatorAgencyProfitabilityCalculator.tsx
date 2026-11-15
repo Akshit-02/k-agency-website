@@ -79,7 +79,7 @@ export function CreatorAgencyProfitabilityCalculator() {
             />
           </dl>
         ) : (
-          <p className="text-sm text-ink/60">Enter gross billings and costs to see net revenue and margins.</p>
+          <p className="text-sm text-ink/70">Enter gross billings and costs to see net revenue and margins.</p>
         )}
       </Results>
     </CalculatorShell>

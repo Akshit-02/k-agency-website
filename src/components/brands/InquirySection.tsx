@@ -40,7 +40,7 @@ export function InquirySection() {
               </ol>
             </Reveal>
             <Reveal delay={0.2}>
-              <p className="mt-8 text-sm text-paper/50">
+              <p className="mt-8 text-sm text-paper/70">
                 Prefer email? Reach us directly at{" "}
                 <a href={`mailto:${siteConfig.contact.email}`} className="font-medium text-paper underline decoration-coral decoration-2 underline-offset-4">
                   {siteConfig.contact.email}

@@ -85,7 +85,7 @@ export function CreatorPricingCalculator() {
           onChange={set(f.key)}
           aria-describedby={`${id}-${f.key}-hint`}
         />
-        <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/50">
+        <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/70">
           {f.hint}
         </p>
       </FieldWrapper>
@@ -99,21 +99,21 @@ export function CreatorPricingCalculator() {
       <h3 id={`${id}-title`} className="font-display text-2xl tracking-tight text-ink sm:text-3xl">
         Creator pricing calculator
       </h3>
-      <p className="mt-2 text-sm leading-relaxed text-ink/60">
+      <p className="mt-2 text-sm leading-relaxed text-ink/70">
         Uses only your numbers. It runs in your browser and nothing is saved or sent anywhere.
       </p>
 
       <div className="mt-6 space-y-8">
         <fieldset>
-          <legend className="font-black-display text-xs text-coral">1. YOUR COST FLOOR</legend>
+          <legend className="font-black-display text-xs text-coral-deep">1. YOUR COST FLOOR</legend>
           <div className="mt-4 grid gap-5 sm:grid-cols-2">{renderFields(COST_FIELDS)}</div>
         </fieldset>
         <fieldset>
-          <legend className="font-black-display text-xs text-coral">2. AUDIENCE VALUE</legend>
+          <legend className="font-black-display text-xs text-coral-deep">2. AUDIENCE VALUE</legend>
           <div className="mt-4 grid gap-5 sm:grid-cols-2">{renderFields(AUDIENCE_FIELDS)}</div>
         </fieldset>
         <fieldset>
-          <legend className="font-black-display text-xs text-coral">3. WHAT THE BRAND IS ASKING FOR</legend>
+          <legend className="font-black-display text-xs text-coral-deep">3. WHAT THE BRAND IS ASKING FOR</legend>
           <div className="mt-4 grid gap-5 sm:grid-cols-3">{renderFields(ADDON_FIELDS)}</div>
         </fieldset>
       </div>
@@ -122,26 +122,26 @@ export function CreatorPricingCalculator() {
         {hasResult ? (
           <dl className="grid gap-4 sm:grid-cols-2">
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Cost floor</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Cost floor</dt>
               <dd className="mt-1 font-display text-2xl text-ink">{inr(floor)}</dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Audience value</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Audience value</dt>
               <dd className="mt-1 font-display text-2xl text-ink">{audienceValue > 0 ? inr(audienceValue) : "Not used"}</dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Suggested quote (before GST)</dt>
-              <dd className="mt-1 font-display text-3xl text-coral-dim">{inr(quote)}</dd>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Suggested quote (before GST)</dt>
+              <dd className="mt-1 font-display text-3xl text-coral-deep">{inr(quote)}</dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Implied price per 1,000 views</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Implied price per 1,000 views</dt>
               <dd className="mt-1 font-display text-2xl text-ink">{impliedCpm > 0 ? inr(impliedCpm) : "Add average views"}</dd>
             </div>
           </dl>
         ) : (
-          <p className="text-sm text-ink/60">Enter your hourly rate and costs, or your views and price per 1,000 views, to see a quote.</p>
+          <p className="text-sm text-ink/70">Enter your hourly rate and costs, or your views and price per 1,000 views, to see a quote.</p>
         )}
-        <p className="mt-5 text-xs leading-relaxed text-ink/50">
+        <p className="mt-5 text-xs leading-relaxed text-ink/70">
           The quote is the higher of your cost floor and your audience value, plus the add-ons. It is a starting point for
           negotiation, not a market rate or a guarantee of what a brand will pay. If you&apos;re GST-registered, GST is added on
           your invoice.

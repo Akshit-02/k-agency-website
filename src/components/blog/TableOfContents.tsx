@@ -7,11 +7,11 @@ export function TableOfContents({ blocks }: { blocks: BlogBlock[] }) {
 
   return (
     <nav aria-label="Table of contents" className="sticky top-28 hidden lg:block">
-      <p className="font-black-display text-xs text-coral">ON THIS PAGE</p>
+      <p className="font-black-display text-xs text-coral-deep">ON THIS PAGE</p>
       <ol className="mt-4 space-y-3 border-l-[1.5px] border-ink/20 pl-4">
         {headings.map((h) => (
           <li key={h.id}>
-            <a href={`#${h.id}`} className="text-sm leading-snug text-ink/60 transition-colors hover:text-coral">
+            <a href={`#${h.id}`} className="text-sm leading-snug text-ink/70 transition-colors hover:text-coral-deep">
               {h.text}
             </a>
           </li>

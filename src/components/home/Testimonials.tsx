@@ -22,11 +22,11 @@ export function Testimonials() {
             </p>
             <div className="mt-8">
               <p className="font-semibold text-ink">{featured.name}</p>
-              <p className="text-sm text-ink/50">
+              <p className="text-sm text-ink/70">
                 {featured.role}, {featured.company}
               </p>
               {featured.isSample && (
-                <p className="mt-2 text-xs uppercase tracking-wide text-ink/40">Sample Testimonial</p>
+                <p className="mt-2 text-xs uppercase tracking-wide text-ink/70">Sample Testimonial</p>
               )}
             </div>
           </Reveal>
@@ -41,16 +41,16 @@ export function Testimonials() {
                     cardBg[i % cardBg.length]
                   )}
                 >
-                  <span className="font-black-display text-4xl leading-none opacity-30">&ldquo;</span>
+                  <span className="font-black-display text-4xl leading-none opacity-70">&ldquo;</span>
                   <p className="mt-2 font-display text-xl leading-snug tracking-tight text-pretty sm:text-2xl">
                     {t.quote}
                   </p>
                   <div className="mt-6">
                     <p className="font-semibold">{t.name}</p>
-                    <p className="text-sm opacity-60">
+                    <p className="text-sm opacity-85">
                       {t.role}, {t.company}
                     </p>
-                    {t.isSample && <p className="mt-2 text-xs uppercase tracking-wide opacity-50">Sample Testimonial</p>}
+                    {t.isSample && <p className="mt-2 text-xs uppercase tracking-wide opacity-85">Sample Testimonial</p>}
                   </div>
                 </div>
               </Reveal>

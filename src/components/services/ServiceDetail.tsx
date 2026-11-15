@@ -61,7 +61,7 @@ export function ServiceDetail({
             </h1>
           </Reveal>
           <Reveal delay={0.12}>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/65 text-pretty">{service.description}</p>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/70 text-pretty">{service.description}</p>
           </Reveal>
           <Reveal delay={0.18} className="mt-8 flex flex-wrap items-center gap-4">
             <Button href={`/for-brands?from=service:${service.slug}#inquiry`} size="lg">
@@ -75,7 +75,7 @@ export function ServiceDetail({
             </span>
           </Reveal>
           <Reveal delay={0.22}>
-            <p className="mt-10 max-w-xl border-l-[3px] border-coral pl-5 text-sm text-ink/60">
+            <p className="mt-10 max-w-xl border-l-[3px] border-coral pl-5 text-sm text-ink/70">
               <span className="font-semibold text-ink">Who it&apos;s for: </span>
               {service.whoItsFor}
             </p>
@@ -93,7 +93,7 @@ export function ServiceDetail({
                 {service.socialNote.before}
                 <Link
                   href="/services/social-media-management"
-                  className="font-semibold text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+                  className="font-semibold text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral-deep"
                 >
                   {service.socialNote.linkText}
                 </Link>
@@ -110,24 +110,24 @@ export function ServiceDetail({
             <h2 id="included-heading" className="font-display text-3xl tracking-tight text-ink sm:text-4xl">
               What&apos;s included
             </h2>
-            <p className="mt-3 max-w-2xl text-base text-ink/65">
+            <p className="mt-3 max-w-2xl text-base text-ink/70">
               Each part of the service has its own page. Use the whole service or only the parts you need.
             </p>
             <div className="mt-10 grid gap-10 sm:grid-cols-2">
               {included.map((category) => (
                 <div key={category.id} className="border-t-[1.5px] border-ink pt-5">
                   <h3 className="font-display text-xl tracking-tight text-ink">{category.name}</h3>
-                  <p className="mt-1 text-sm text-ink/60">{category.description}</p>
+                  <p className="mt-1 text-sm text-ink/70">{category.description}</p>
                   <ul className="mt-4 space-y-3">
                     {category.services.map((s) => (
                       <li key={s.slug}>
                         <Link
                           href={`/services/${s.slug}`}
-                          className="font-semibold text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+                          className="font-semibold text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral-deep"
                         >
                           {s.name}
                         </Link>
-                        <span className="text-sm text-ink/65">: {s.shortDescription}</span>
+                        <span className="text-sm text-ink/70">: {s.shortDescription}</span>
                       </li>
                     ))}
                   </ul>
@@ -144,9 +144,9 @@ export function ServiceDetail({
           <StaggerReveal className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {service.process.map((step, i) => (
               <StaggerItem key={step.title} className="border-t-[1.5px] border-current/25 pt-5">
-                <span className="font-black-display text-3xl opacity-40">{String(i + 1).padStart(2, "0")}</span>
+                <span className="font-black-display text-3xl opacity-70">{String(i + 1).padStart(2, "0")}</span>
                 <h3 className="mt-3 font-display text-xl tracking-tight">{step.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed opacity-75">{step.body}</p>
+                <p className="mt-2 text-sm leading-relaxed opacity-85">{step.body}</p>
               </StaggerItem>
             ))}
           </StaggerReveal>
@@ -292,7 +292,7 @@ export function ServiceDetail({
               >
                 <ServiceIcon slug={r.slug} accent="coral" className="size-10" />
                 <p className="mt-4 font-display text-lg tracking-tight">{r.name}</p>
-                <p className="mt-2 text-sm opacity-60">{r.shortDescription}</p>
+                <p className="mt-2 text-sm opacity-85">{r.shortDescription}</p>
               </Link>
             ))}
           </div>

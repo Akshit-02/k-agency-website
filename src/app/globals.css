@@ -6,8 +6,11 @@
   --color-sand: #e8d8b8;
   --color-ink: #150f0b;
   --color-ink-soft: #322820;
-  --color-coral: #ff4d1c;
+  /* Coral nudged from #ff4d1c (imperceptible) so large coral text clears 3:1 on paper. */
+  --color-coral: #fb4a18;
   --color-coral-dim: #e33f13;
+  /* Text-safe coral for small coral-coloured text on paper, paper-dim and lime (>= 4.6:1). */
+  --color-coral-deep: #b8300a;
   --color-lime: #ccff3d;
   --color-lime-dim: #b8e82c;
   --color-line: rgba(21, 15, 11, 0.14);
@@ -25,6 +28,7 @@
   --color-ink-soft: var(--color-ink-soft);
   --color-coral: var(--color-coral);
   --color-coral-dim: var(--color-coral-dim);
+  --color-coral-deep: var(--color-coral-deep);
   --color-lime: var(--color-lime);
   --color-lime-dim: var(--color-lime-dim);
   --color-line: var(--color-line);

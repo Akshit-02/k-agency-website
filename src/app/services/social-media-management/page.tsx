@@ -129,7 +129,7 @@ export default function SocialMediaManagementPage() {
                 </h1>
               </Reveal>
               <Reveal fade={false} delay={0.08}>
-                <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/65 text-pretty">
+                <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/70 text-pretty">
                   Kudozz manages your brand&apos;s social media month by month: the strategy, the content calendar, posts
                   and Reels, publishing, community management and a report that tells you what to do next. And because
                   we also run influencer campaigns, your own content and your creator content can finally work from the
@@ -145,7 +145,7 @@ export default function SocialMediaManagementPage() {
                 </Button>
               </Reveal>
               <Reveal delay={0.22}>
-                <p className="mt-10 max-w-xl border-l-[3px] border-coral pl-5 text-sm text-ink/60">
+                <p className="mt-10 max-w-xl border-l-[3px] border-coral pl-5 text-sm text-ink/70">
                   <span className="font-semibold text-ink">Who it&apos;s for: </span>
                   founders, marketing heads and brand managers who need their own social accounts planned, produced and
                   run consistently, without building a full in-house social team.
@@ -203,16 +203,16 @@ export default function SocialMediaManagementPage() {
               <li key={step.title}>
                 <Reveal delay={(i % 3) * 0.05} className="flex h-full flex-col border-[1.5px] border-ink bg-paper p-6">
                   <div className="flex items-center justify-between">
-                    <span className="font-black-display text-3xl leading-none text-ink/20">{String(i + 1).padStart(2, "0")}</span>
+                    <span className="font-black-display text-3xl leading-none text-ink/55">{String(i + 1).padStart(2, "0")}</span>
                     <Pictogram name={approachIcons[i] ?? "calendar"} className="size-11 text-ink" />
                   </div>
                   <h3 className="mt-5 font-display text-xl tracking-tight text-ink">{step.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-ink/65">{step.body}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/70">{step.body}</p>
                 </Reveal>
               </li>
             ))}
           </ol>
-          <p className="mt-8 flex items-center gap-2 text-sm font-semibold text-ink/60">
+          <p className="mt-8 flex items-center gap-2 text-sm font-semibold text-ink/70">
             <ArrowRight className="size-4 text-coral" aria-hidden="true" />
             Then the next month&apos;s calendar starts from what step nine taught us.
           </p>
@@ -234,9 +234,9 @@ export default function SocialMediaManagementPage() {
                   <li key={cap.id}>
                     <a
                       href={`#${cap.id}`}
-                      className="flex items-baseline gap-3 py-2 pl-4 text-sm text-ink/60 transition-colors hover:text-ink"
+                      className="flex items-baseline gap-3 py-2 pl-4 text-sm text-ink/70 transition-colors hover:text-ink"
                     >
-                      <span className="font-black-display text-xs text-coral">{cap.letter}</span>
+                      <span className="font-black-display text-xs text-coral-deep">{cap.letter}</span>
                       {cap.title}
                     </a>
                   </li>
@@ -376,10 +376,10 @@ export default function SocialMediaManagementPage() {
                 <StaggerItem key={point.title} className="border-[1.5px] border-ink bg-paper p-7 shadow-[6px_6px_0_0_var(--color-ink)]">
                   <span className={cn("block h-2 w-10", accents[i % accents.length])} aria-hidden="true" />
                   <h3 className="mt-5 font-display text-2xl leading-tight tracking-tight text-ink">{point.title}</h3>
-                  <p className="mt-3 text-base leading-relaxed text-ink/65">{point.body}</p>
+                  <p className="mt-3 text-base leading-relaxed text-ink/70">{point.body}</p>
                 </StaggerItem>
               ))}
-              <p className="text-sm text-ink/50">
+              <p className="text-sm text-ink/70">
                 Working together doesn&apos;t guarantee more sales or engagement. It does mean fewer gaps between what
                 creators say about you and what people find when they visit your profile.
               </p>
@@ -400,7 +400,7 @@ export default function SocialMediaManagementPage() {
             {smmIndustries.map((industry) => (
               <li key={industry.name} className="border-t-[1.5px] border-ink py-5">
                 <h3 className="font-display text-xl tracking-tight text-ink">{industry.name}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-ink/60">{industry.note}</p>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink/70">{industry.note}</p>
               </li>
             ))}
           </ul>
@@ -416,7 +416,7 @@ export default function SocialMediaManagementPage() {
             description="Social media management works when both sides know what they're responsible for. Here's how the work is split."
           />
           <div className="mt-14 border-t-[1.5px] border-ink">
-            <div className="hidden grid-cols-[3rem_1.1fr_1.4fr_1.4fr] gap-6 border-b border-line py-3 text-xs font-semibold uppercase tracking-[0.14em] text-ink/45 md:grid">
+            <div className="hidden grid-cols-[3rem_1.1fr_1.4fr_1.4fr] gap-6 border-b border-line py-3 text-xs font-semibold uppercase tracking-[0.14em] text-ink/70 md:grid">
               <span />
               <span>Stage</span>
               <span>Kudozz</span>
@@ -501,7 +501,7 @@ export default function SocialMediaManagementPage() {
         <section className="py-20 sm:py-28" id="guides">
           <Container>
             <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">Guides on social media management</h2>
-            <p className="mt-3 max-w-2xl text-base text-ink/65">
+            <p className="mt-3 max-w-2xl text-base text-ink/70">
               Practical guides for founders and marketing teams, whether you run social media yourself or work with an
               agency.
             </p>
@@ -544,7 +544,7 @@ export default function SocialMediaManagementPage() {
               >
                 <ServiceIcon slug={slugFromServiceHref(r.href)} accent="coral" className="size-10" />
                 <p className="mt-4 font-display text-lg tracking-tight">{r.name}</p>
-                <p className="mt-2 text-sm opacity-60">{r.body}</p>
+                <p className="mt-2 text-sm opacity-85">{r.body}</p>
               </Link>
             ))}
           </div>

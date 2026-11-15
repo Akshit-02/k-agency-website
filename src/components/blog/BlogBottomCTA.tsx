@@ -28,7 +28,7 @@ export function BlogBottomCTA({
       <p className="font-display text-3xl leading-[1.1] tracking-tight text-balance text-ink sm:text-4xl">
         {content.headline}
       </p>
-      <p className="mt-4 max-w-lg text-base leading-relaxed text-ink/65">{content.body}</p>
+      <p className="mt-4 max-w-lg text-base leading-relaxed text-ink/70">{content.body}</p>
       <div
         className="mt-7 inline-block"
         onClick={() => trackBlogCtaClick("blog_bottom_cta_click", { slug, category, topic, position: "bottom", ctaType, platform, intent, audience, cluster })}

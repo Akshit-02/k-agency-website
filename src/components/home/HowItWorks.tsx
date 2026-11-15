@@ -55,12 +55,12 @@ function StepPanel({ step }: { step: (typeof steps)[number] }) {
   return (
     <div className={cn("flex h-[26rem] w-[80vw] shrink-0 flex-col justify-between p-10 sm:w-[26rem]", step.bg)}>
       <div className="flex items-start justify-between">
-        <span className="font-black-display text-7xl leading-none opacity-25">{step.n}</span>
+        <span className="font-black-display text-7xl leading-none opacity-70">{step.n}</span>
         <Pictogram name={step.icon} accent={step.accent} className="size-14" />
       </div>
       <div>
         <h3 className="font-display text-3xl tracking-tight">{step.title}</h3>
-        <p className="mt-4 text-base leading-relaxed opacity-75">{step.body}</p>
+        <p className="mt-4 text-base leading-relaxed opacity-85">{step.body}</p>
       </div>
     </div>
   );
@@ -102,11 +102,11 @@ export function HowItWorks() {
             <Reveal key={step.n} delay={i * 0.05}>
               <div className={cn("p-7", step.bg)}>
                 <div className="flex items-start justify-between">
-                  <span className="font-black-display text-4xl leading-none opacity-30">{step.n}</span>
+                  <span className="font-black-display text-4xl leading-none opacity-70">{step.n}</span>
                   <Pictogram name={step.icon} accent={step.accent} className="size-11" />
                 </div>
                 <h3 className="mt-4 font-display text-2xl tracking-tight">{step.title}</h3>
-                <p className="mt-3 text-base leading-relaxed opacity-75">{step.body}</p>
+                <p className="mt-3 text-base leading-relaxed opacity-85">{step.body}</p>
               </div>
             </Reveal>
           ))}

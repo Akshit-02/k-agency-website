@@ -20,11 +20,11 @@ export function CreatorHowItWorks() {
           {steps.map((step) => (
             <StaggerItem key={step.n} className={`p-8 ${step.bg}`}>
               <div className="flex items-start justify-between">
-                <span className="font-black-display text-4xl leading-none opacity-30">{step.n}</span>
+                <span className="font-black-display text-4xl leading-none opacity-70">{step.n}</span>
                 <Pictogram name={step.icon} accent={step.accent} className="size-11" />
               </div>
               <h3 className="mt-4 font-display text-xl tracking-tight">{step.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed opacity-70">{step.body}</p>
+              <p className="mt-2 text-sm leading-relaxed opacity-85">{step.body}</p>
             </StaggerItem>
           ))}
         </StaggerReveal>

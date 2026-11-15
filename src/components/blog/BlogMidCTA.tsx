@@ -23,11 +23,11 @@ export function BlogMidCTA({
   return (
     <aside className="not-prose my-2 border-[1.5px] border-ink/15 bg-paper-dim px-6 py-6 sm:px-7">
       <p className="font-display text-xl leading-snug tracking-tight text-ink sm:text-2xl">{content.headline}</p>
-      <p className="mt-2 text-base leading-relaxed text-ink/65">{content.body}</p>
+      <p className="mt-2 text-base leading-relaxed text-ink/70">{content.body}</p>
       <Link
         href={content.href}
         onClick={() => trackBlogCtaClick("blog_mid_cta_click", { slug, category, topic, position: "mid", ctaType, platform, intent, audience, cluster })}
-        className="group mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-coral-dim underline decoration-2 underline-offset-4 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-coral"
+        className="group mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-coral-deep underline decoration-2 underline-offset-4 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-coral"
       >
         {content.ctaLabel}
         <ArrowUpRight

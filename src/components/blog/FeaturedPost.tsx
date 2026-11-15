@@ -14,12 +14,12 @@ export function FeaturedPost({ post }: { post: BlogPost }) {
           />
         </div>
         <div className="flex flex-col justify-center p-8 sm:p-12">
-          <span className="text-xs font-semibold uppercase tracking-wide text-coral">Featured · {post.category}</span>
-          <h2 className="mt-4 font-display text-3xl leading-[1.1] tracking-tight text-balance text-ink transition-colors group-hover:text-coral sm:text-4xl">
+          <span className="text-xs font-semibold uppercase tracking-wide text-coral-deep">Featured · {post.category}</span>
+          <h2 className="mt-4 font-display text-3xl leading-[1.1] tracking-tight text-balance text-ink transition-colors group-hover:text-coral-deep sm:text-4xl">
             {post.title}
           </h2>
-          <p className="mt-4 max-w-lg text-base leading-relaxed text-ink/65">{post.excerpt}</p>
-          <p className="mt-6 text-xs uppercase tracking-wide text-ink/40">{post.readingTime}</p>
+          <p className="mt-4 max-w-lg text-base leading-relaxed text-ink/70">{post.excerpt}</p>
+          <p className="mt-6 text-xs uppercase tracking-wide text-ink/70">{post.readingTime}</p>
         </div>
       </Link>
     </Reveal>

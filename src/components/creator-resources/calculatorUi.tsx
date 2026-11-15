@@ -38,7 +38,7 @@ export function CalculatorShell({
       <h3 id={`${id}-title`} className="font-display text-2xl tracking-tight text-ink sm:text-3xl">
         {title}
       </h3>
-      <p className="mt-2 text-sm leading-relaxed text-ink/60">{intro}</p>
+      <p className="mt-2 text-sm leading-relaxed text-ink/70">{intro}</p>
       {children}
     </section>
   );
@@ -66,7 +66,7 @@ export function NumberField({
         onChange={(e) => onChange(e.target.value)}
         aria-describedby={`${id}-hint`}
       />
-      <p id={`${id}-hint`} className="text-xs leading-relaxed text-ink/50">
+      <p id={`${id}-hint`} className="text-xs leading-relaxed text-ink/70">
         {hint}
       </p>
     </FieldWrapper>
@@ -76,9 +76,9 @@ export function NumberField({
 export function Stat({ label, value, note, negative }: { label: string; value: string; note?: string; negative?: boolean }) {
   return (
     <div>
-      <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">{label}</dt>
-      <dd className={cn("mt-1 font-display text-2xl", negative ? "text-coral-dim" : "text-ink")}>{value}</dd>
-      {note && <dd className="mt-1 text-xs text-ink/50">{note}</dd>}
+      <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">{label}</dt>
+      <dd className={cn("mt-1 font-display text-2xl", negative ? "text-coral-deep" : "text-ink")}>{value}</dd>
+      {note && <dd className="mt-1 text-xs text-ink/70">{note}</dd>}
     </div>
   );
 }
@@ -87,7 +87,7 @@ export function Results({ children, footnote }: { children: React.ReactNode; foo
   return (
     <div className="mt-8 border-t-[1.5px] border-ink/15 pt-6" aria-live="polite">
       {children}
-      <p className="mt-5 text-xs leading-relaxed text-ink/50">{footnote}</p>
+      <p className="mt-5 text-xs leading-relaxed text-ink/70">{footnote}</p>
     </div>
   );
 }

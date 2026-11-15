@@ -91,7 +91,7 @@ export default async function CreatorResourceSectionPage(props: PageProps<"/crea
             </h1>
           </Reveal>
           <Reveal delay={0.12}>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/65">{section.intro}</p>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/70">{section.intro}</p>
           </Reveal>
         </Container>
       </section>
@@ -109,7 +109,7 @@ export default async function CreatorResourceSectionPage(props: PageProps<"/crea
           <Container className="max-w-4xl space-y-14">
             {subsections.map((sub) => (
               <div key={sub.title}>
-                <h2 className="font-black-display text-xs text-coral">{sub.title.toUpperCase()}</h2>
+                <h2 className="font-black-display text-xs text-coral-deep">{sub.title.toUpperCase()}</h2>
                 <div className="mt-5">
                   <CreatorArticleList posts={sub.posts} />
                 </div>
@@ -121,7 +121,7 @@ export default async function CreatorResourceSectionPage(props: PageProps<"/crea
         posts.length > 0 && (
           <section className="pb-20">
             <Container className="max-w-4xl">
-              <h2 className="font-black-display text-xs text-coral">IN THIS SECTION</h2>
+              <h2 className="font-black-display text-xs text-coral-deep">IN THIS SECTION</h2>
               <div className="mt-5">
                 <CreatorArticleList posts={posts} />
               </div>
@@ -133,7 +133,7 @@ export default async function CreatorResourceSectionPage(props: PageProps<"/crea
       {alsoSee.length > 0 && (
         <section className="pb-20">
           <Container className="max-w-4xl">
-            <h2 className="font-black-display text-xs text-coral">RELATED GUIDES IN OTHER SECTIONS</h2>
+            <h2 className="font-black-display text-xs text-coral-deep">RELATED GUIDES IN OTHER SECTIONS</h2>
             <div className="mt-5">
               <CreatorArticleList posts={alsoSee} />
             </div>
@@ -149,7 +149,7 @@ export default async function CreatorResourceSectionPage(props: PageProps<"/crea
               <li key={s.id}>
                 <Link
                   href={creatorSectionPath(s)}
-                  className="inline-block border-[1.5px] border-ink/20 px-3 py-2 text-sm text-ink transition-colors hover:border-ink hover:text-coral"
+                  className="inline-block border-[1.5px] border-ink/20 px-3 py-2 text-sm text-ink transition-colors hover:border-ink hover:text-coral-deep"
                 >
                   {s.title}
                 </Link>

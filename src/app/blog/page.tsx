@@ -39,7 +39,7 @@ export default function BlogIndexPage() {
           </Reveal>
           <Reveal delay={0.08}>
             <h1 className="mt-6 max-w-2xl font-display text-6xl leading-[0.98] tracking-tight text-balance text-ink sm:text-7xl">
-              <span className="mb-4 block font-sans text-sm font-semibold uppercase tracking-[0.16em] text-ink/60">
+              <span className="mb-4 block font-sans text-sm font-semibold uppercase tracking-[0.16em] text-ink/70">
                 Influencer marketing blog
                 <span className="sr-only">:</span>
               </span>
@@ -47,18 +47,18 @@ export default function BlogIndexPage() {
             </h1>
           </Reveal>
           <Reveal delay={0.12}>
-            <p className="mt-6 text-base text-ink/65">
+            <p className="mt-6 text-base text-ink/70">
               Are you a creator?{" "}
               <Link
                 href="/creator-resources"
-                className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+                className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral-deep"
               >
                 Browse Creator Resources
               </Link>{" "}
               for media kits, pricing, contracts and brand deals.
             </p>
           </Reveal>
-          <nav aria-label="Guides by market" className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/65">
+          <nav aria-label="Guides by market" className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/70">
             <span className="font-semibold text-ink">Guides by market:</span>
             {[
               { label: "India", href: "/blog/influencer-marketing-india" },
@@ -69,7 +69,7 @@ export default function BlogIndexPage() {
               { label: "Australia", href: "/blog/influencer-marketing-australia" },
               { label: "Singapore", href: "/markets/singapore" },
             ].map((m) => (
-              <Link key={m.href} href={m.href} className="underline underline-offset-4 hover:text-coral">
+              <Link key={m.href} href={m.href} className="underline underline-offset-4 hover:text-coral-deep">
                 {m.label}
               </Link>
             ))}

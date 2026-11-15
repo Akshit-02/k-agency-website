@@ -125,7 +125,7 @@ export function CampaignCostCalculator() {
             <Stat label="Agency or management" value={inr(agency)} />
             <Stat label="Average all-in cost per creator" value={inr(creatorCount > 0 ? total / creatorCount : 0)} note="Total divided by creator count" />
             <div className="sm:col-span-2">
-              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">Line by line</dt>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">Line by line</dt>
               <dd className="mt-2">
                 <table className="w-full text-sm">
                   <tbody>
@@ -133,7 +133,7 @@ export function CampaignCostCalculator() {
                       <tr key={l.label} className="border-b border-ink/10 last:border-0">
                         <td className="py-1.5 pr-3 text-ink/70">{l.label}</td>
                         <td className="py-1.5 pr-3 text-right tabular-nums text-ink">{inr(l.value)}</td>
-                        <td className="w-14 py-1.5 text-right tabular-nums text-ink/50">{share(l.value)}%</td>
+                        <td className="w-14 py-1.5 text-right tabular-nums text-ink/70">{share(l.value)}%</td>
                       </tr>
                     ))}
                   </tbody>
@@ -142,7 +142,7 @@ export function CampaignCostCalculator() {
             </div>
           </dl>
         ) : (
-          <p className="text-sm text-ink/60">Enter at least one tier&apos;s creator count and quoted fee to see the campaign total.</p>
+          <p className="text-sm text-ink/70">Enter at least one tier&apos;s creator count and quoted fee to see the campaign total.</p>
         )}
       </Results>
     </CalculatorShell>

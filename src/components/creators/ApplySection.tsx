@@ -24,7 +24,7 @@ export function ApplySection() {
               </p>
             </Reveal>
             <Reveal delay={0.15}>
-              <p className="mt-8 text-sm text-paper/50">
+              <p className="mt-8 text-sm text-paper/70">
                 Questions first? Email{" "}
                 <a href={`mailto:${siteConfig.contact.creatorEmail}`} className="font-medium text-paper underline decoration-lime decoration-2 underline-offset-4">
                   {siteConfig.contact.creatorEmail}

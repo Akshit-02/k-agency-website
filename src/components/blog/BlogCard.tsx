@@ -21,12 +21,12 @@ export function BlogCard({ post, delay = 0 }: { post: BlogCardData; delay?: numb
           />
         </div>
         <div className="mt-5">
-          <p className="text-xs font-semibold uppercase tracking-wide text-coral">{post.category}</p>
-          <h3 className="mt-2 font-display text-xl tracking-tight text-ink transition-colors group-hover:text-coral sm:text-2xl">
+          <p className="text-xs font-semibold uppercase tracking-wide text-coral-deep">{post.category}</p>
+          <h3 className="mt-2 font-display text-xl tracking-tight text-ink transition-colors group-hover:text-coral-deep sm:text-2xl">
             {post.title}
           </h3>
-          {post.excerpt && <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-ink/60">{post.excerpt}</p>}
-          <p className="mt-3 text-xs uppercase tracking-wide text-ink/40">{post.readingTime}</p>
+          {post.excerpt && <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-ink/70">{post.excerpt}</p>}
+          <p className="mt-3 text-xs uppercase tracking-wide text-ink/70">{post.readingTime}</p>
         </div>
       </Link>
     </Reveal>

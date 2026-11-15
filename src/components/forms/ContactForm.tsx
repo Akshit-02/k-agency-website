@@ -67,7 +67,7 @@ export function ContactForm() {
       <FieldWrapper label="Message" htmlFor="message" required error={errors.message?.message}>
         <TextArea id="message" rows={6} hasError={!!errors.message} {...register("message")} />
       </FieldWrapper>
-      {submitError && <p className="text-sm font-medium text-coral-dim">{submitError}</p>}
+      {submitError && <p className="text-sm font-medium text-coral-deep">{submitError}</p>}
       <Button type="submit" size="lg" disabled={isSubmitting} className="w-full sm:w-auto">
         {isSubmitting ? "Sending..." : "Send Message"}
       </Button>

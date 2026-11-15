@@ -1,7 +1,6 @@
 import { Pictogram } from "@/components/icons/Pictogram";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
-import { Reveal } from "@/components/animations/Reveal";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
 import { cn } from "@/lib/utils";
 
@@ -15,9 +14,9 @@ const differentiators = [
 ] as const;
 
 const themes = [
-  { bg: "hover:bg-coral", icon: "text-ink group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/60 group-hover:text-ink/70" },
-  { bg: "hover:bg-lime", icon: "text-ink", body: "text-ink/60 group-hover:text-ink/70" },
-  { bg: "hover:bg-ink", icon: "text-ink group-hover:text-paper group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/60 group-hover:text-paper/70" },
+  { bg: "hover:bg-coral", icon: "text-ink group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/70 group-hover:text-ink/70" },
+  { bg: "hover:bg-lime", icon: "text-ink", body: "text-ink/70 group-hover:text-ink/70" },
+  { bg: "hover:bg-ink", icon: "text-ink group-hover:text-paper group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/70 group-hover:text-paper/70" },
 ];
 
 export function WhyChooseUs() {
@@ -51,13 +50,6 @@ export function WhyChooseUs() {
             );
           })}
         </StaggerReveal>
-
-        <Reveal delay={0.1}>
-          <p className="mt-8 text-sm text-ink/40">
-            Credentials, awards, and client results will appear here as they&apos;re finalized — this section is
-            structured to add them without a redesign.
-          </p>
-        </Reveal>
       </Container>
     </section>
   );

@@ -30,7 +30,7 @@ export function FinalCTA({
       <Container className="relative">
         <div className="max-w-3xl">
           <Reveal>
-            <p className="font-black-display text-xs tracking-[0.14em] text-ink/60">LET&apos;S TALK</p>
+            <p className="font-black-display text-xs tracking-[0.14em] text-ink">LET&apos;S TALK</p>
           </Reveal>
           <Reveal delay={0.08}>
             <h2 className="mt-6 font-display text-5xl leading-[1.0] tracking-tight text-balance sm:text-6xl lg:text-7xl">
@@ -38,7 +38,7 @@ export function FinalCTA({
             </h2>
           </Reveal>
           <Reveal delay={0.16}>
-            <p className="mt-7 max-w-lg text-lg leading-relaxed text-ink/70">
+            <p className="mt-7 max-w-lg text-lg leading-relaxed text-ink/90">
               {body}
             </p>
           </Reveal>

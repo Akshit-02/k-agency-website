@@ -9,8 +9,8 @@ import { ServiceIcon } from "@/components/icons/ServiceIcon";
 import { cn } from "@/lib/utils";
 
 const rowThemes = [
-  { bg: "bg-coral", text: "text-ink", sub: "text-ink/60", dot: "bg-ink", accent: "lime" },
-  { bg: "bg-lime", text: "text-ink", sub: "text-ink/60", dot: "bg-coral", accent: "coral" },
+  { bg: "bg-coral", text: "text-ink", sub: "text-ink/70", dot: "bg-ink", accent: "lime" },
+  { bg: "bg-lime", text: "text-ink", sub: "text-ink/70", dot: "bg-coral", accent: "coral" },
   { bg: "bg-ink", text: "text-paper", sub: "text-paper/60", dot: "bg-coral", accent: "coral" },
 ] as const;
 
@@ -46,7 +46,7 @@ export function ServiceRow({
 
       <div className="relative flex w-full items-center justify-between gap-6 px-1">
         <div className="flex items-baseline gap-5 sm:gap-8">
-          <span className={cn("font-black-display text-sm transition-colors", open ? theme.sub : "text-ink/35")}>
+          <span className={cn("font-black-display text-sm transition-colors", open ? theme.sub : "text-ink/70")}>
             {service.index}
           </span>
           <Heading className="m-0">
@@ -77,7 +77,7 @@ export function ServiceRow({
           <ArrowRight
             className={cn(
               "size-6 shrink-0 transition-transform duration-300",
-              open ? `${theme.text} translate-x-1 -translate-y-1 rotate-45` : "text-ink/40"
+              open ? `${theme.text} translate-x-1 -translate-y-1 rotate-45` : "text-ink/70"
             )}
           />
         </button>
@@ -102,7 +102,7 @@ export function ServiceRow({
           </div>
           <ul className="space-y-2">
             {service.deliverables.map((d) => (
-              <li key={d} className="flex items-start gap-2 text-sm opacity-70">
+              <li key={d} className="flex items-start gap-2 text-sm opacity-85">
                 <span className={cn("mt-2 size-1.5 shrink-0 rounded-full", theme.dot)} />
                 {d}
               </li>

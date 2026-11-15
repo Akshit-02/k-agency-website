@@ -49,7 +49,7 @@ export function BrandMarketsIndustries() {
                     India
                     <ArrowUpRight className="size-4 shrink-0 opacity-60" aria-hidden="true" />
                   </span>
-                  <span className="mt-3 block text-xs opacity-70">Metros, Tier 2 and Tier 3 cities, regional languages</span>
+                  <span className="mt-3 block text-xs opacity-85">Metros, Tier 2 and Tier 3 cities, regional languages</span>
                 </Link>
               </li>
               {markets.map((market) => (
@@ -62,12 +62,12 @@ export function BrandMarketsIndustries() {
                       {market.name}
                       <ArrowUpRight className="size-4 shrink-0 opacity-60" aria-hidden="true" />
                     </span>
-                    <span className="mt-3 block text-xs opacity-70">{market.coverage}</span>
+                    <span className="mt-3 block text-xs opacity-85">{market.coverage}</span>
                   </Link>
                 </li>
               ))}
             </ul>
-            <p className="mt-6 text-sm leading-relaxed text-ink/60">
+            <p className="mt-6 text-sm leading-relaxed text-ink/70">
               Kudozz Studios Private Limited is registered in India. Contracting, invoicing currency and working hours are
               agreed per campaign.{" "}
               <Link href="/markets" className="font-medium text-ink underline decoration-coral decoration-2 underline-offset-4">

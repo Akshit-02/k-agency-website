@@ -94,7 +94,7 @@ export default function CreatorResourcesPage() {
             </h1>
           </Reveal>
           <Reveal delay={0.12}>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/65">{CREATOR_RESOURCES.description}</p>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink/70">{CREATOR_RESOURCES.description}</p>
           </Reveal>
           <Reveal delay={0.16}>
             <nav aria-label="Creator Resources topics" className="mt-8 flex flex-wrap gap-2">
@@ -102,7 +102,7 @@ export default function CreatorResourcesPage() {
                 <a
                   key={group.id}
                   href={`#topic-${group.id}`}
-                  className="border-[1.5px] border-ink/25 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-ink/60 transition-colors hover:border-ink hover:text-ink"
+                  className="border-[1.5px] border-ink/25 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-ink/70 transition-colors hover:border-ink hover:text-ink"
                 >
                   {group.title}
                 </a>
@@ -114,15 +114,15 @@ export default function CreatorResourcesPage() {
 
       <section className="pb-16">
         <Container>
-          <h2 className="font-black-display text-xs text-coral">THE CREATOR JOURNEY</h2>
+          <h2 className="font-black-display text-xs text-coral-deep">THE CREATOR JOURNEY</h2>
           <ol className="mt-5 flex flex-wrap gap-2">
             {creatorJourney.map((stage, i) => (
               <li key={stage.slug + stage.label}>
                 <Link
                   href={`/blog/${stage.slug}`}
-                  className="inline-flex items-center gap-2 border-[1.5px] border-ink/20 bg-paper px-3 py-2 text-sm text-ink transition-colors hover:border-ink hover:text-coral"
+                  className="inline-flex items-center gap-2 border-[1.5px] border-ink/20 bg-paper px-3 py-2 text-sm text-ink transition-colors hover:border-ink hover:text-coral-deep"
                 >
-                  <span className="font-black-display text-[0.65rem] text-ink/40">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="font-black-display text-[0.65rem] text-ink/70">{String(i + 1).padStart(2, "0")}</span>
                   {stage.label}
                 </Link>
               </li>
@@ -134,7 +134,7 @@ export default function CreatorResourcesPage() {
       {platformHubs.length > 0 && (
         <section className="pb-16">
           <Container>
-            <h2 className="font-black-display text-xs text-coral">PLATFORM HUBS</h2>
+            <h2 className="font-black-display text-xs text-coral-deep">PLATFORM HUBS</h2>
             <ul className="mt-5 grid gap-3 sm:grid-cols-3">
               {platformHubs.map((hub) => (
                 <li key={hub.id}>
@@ -143,7 +143,7 @@ export default function CreatorResourcesPage() {
                     className="block h-full border-[1.5px] border-ink/20 bg-paper px-5 py-4 transition-colors hover:border-ink"
                   >
                     <span className="block font-display text-2xl tracking-tight text-ink">{hub.title}</span>
-                    <span className="mt-1 block text-sm leading-relaxed text-ink/60">{hub.intro}</span>
+                    <span className="mt-1 block text-sm leading-relaxed text-ink/70">{hub.intro}</span>
                   </Link>
                 </li>
               ))}
@@ -172,14 +172,14 @@ export default function CreatorResourcesPage() {
                   <div key={section.id} id={section.id} className="scroll-mt-28 grid gap-8 lg:grid-cols-[280px_1fr]">
                     <div>
                       <h3 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">
-                        <Link href={creatorSectionPath(section)} className="transition-colors hover:text-coral">
+                        <Link href={creatorSectionPath(section)} className="transition-colors hover:text-coral-deep">
                           {section.title}
                         </Link>
                       </h3>
-                      <p className="mt-3 text-base leading-relaxed text-ink/60">{section.intro}</p>
+                      <p className="mt-3 text-base leading-relaxed text-ink/70">{section.intro}</p>
                       <Link
                         href={creatorSectionPath(section)}
-                        className="mt-4 inline-block text-sm font-semibold text-coral-dim underline decoration-2 underline-offset-4 hover:text-ink"
+                        className="mt-4 inline-block text-sm font-semibold text-coral-deep underline decoration-2 underline-offset-4 hover:text-ink"
                       >
                         All {section.title} guides
                       </Link>
@@ -197,7 +197,7 @@ export default function CreatorResourcesPage() {
         <Container className="grid gap-8 lg:grid-cols-[280px_1fr]">
           <div>
             <h2 className="font-display text-3xl tracking-tight text-ink">The brand&apos;s side of the deal</h2>
-            <p className="mt-3 text-base leading-relaxed text-ink/60">
+            <p className="mt-3 text-base leading-relaxed text-ink/70">
               Knowing how brands think about the same decisions makes every pitch and negotiation easier.
             </p>
           </div>
@@ -206,7 +206,7 @@ export default function CreatorResourcesPage() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-base font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+                  className="text-base font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral-deep"
                 >
                   {link.label}
                 </Link>
@@ -221,7 +221,7 @@ export default function CreatorResourcesPage() {
           <p className="font-display text-3xl leading-[1.1] tracking-tight text-balance text-ink sm:text-4xl">
             Interested in brand collaborations through Kudozz?
           </p>
-          <p className="mt-4 max-w-lg text-base leading-relaxed text-ink/65">
+          <p className="mt-4 max-w-lg text-base leading-relaxed text-ink/70">
             We review every creator application personally. Joining is free, and there&apos;s no obligation until a
             campaign actually fits you.
           </p>

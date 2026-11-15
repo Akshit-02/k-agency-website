@@ -76,7 +76,7 @@ export function CreatorRevenueForecast() {
       <h3 id={`${id}-title`} className="font-display text-2xl tracking-tight text-ink sm:text-3xl">
         Creator revenue forecast
       </h3>
-      <p className="mt-2 text-sm leading-relaxed text-ink/60">
+      <p className="mt-2 text-sm leading-relaxed text-ink/70">
         Uses only your numbers for one month. It runs in your browser and nothing is saved or sent anywhere.
       </p>
 
@@ -90,7 +90,7 @@ export function CreatorRevenueForecast() {
               onChange={set(f.key)}
               aria-describedby={`${id}-${f.key}-hint`}
             />
-            <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/50">
+            <p id={`${id}-${f.key}-hint`} className="text-xs leading-relaxed text-ink/70">
               {f.hint}
             </p>
           </FieldWrapper>
@@ -102,11 +102,11 @@ export function CreatorRevenueForecast() {
           <dl className="grid gap-4 sm:grid-cols-3">
             {scenarios.map((s) => (
               <div key={s.label}>
-                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/50">{s.label}</dt>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-ink/70">{s.label}</dt>
                 <dd className="mt-1 font-display text-2xl text-ink">{inr(s.value)}</dd>
-                <dd className="mt-1 text-xs text-ink/50">{s.note}</dd>
+                <dd className="mt-1 text-xs text-ink/70">{s.note}</dd>
                 {expenses > 0 && (
-                  <dd className={`mt-1 text-xs font-semibold ${s.value - expenses < 0 ? "text-coral-dim" : "text-ink/70"}`}>
+                  <dd className={`mt-1 text-xs font-semibold ${s.value - expenses < 0 ? "text-coral-deep" : "text-ink/70"}`}>
                     {s.value - expenses < 0 ? "Gap: " : "Buffer: "}
                     {inr(s.value - expenses)}
                   </dd>
@@ -115,9 +115,9 @@ export function CreatorRevenueForecast() {
             ))}
           </dl>
         ) : (
-          <p className="text-sm text-ink/60">Enter your confirmed, recurring and pipeline income to see three scenarios.</p>
+          <p className="text-sm text-ink/70">Enter your confirmed, recurring and pipeline income to see three scenarios.</p>
         )}
-        <p className="mt-5 text-xs leading-relaxed text-ink/50">
+        <p className="mt-5 text-xs leading-relaxed text-ink/70">
           A forecast is a planning tool, not a prediction or promise of income. Plan spending around the conservative
           scenario, and treat anything above it as upside. Amounts are before tax.
         </p>

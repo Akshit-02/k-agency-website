@@ -47,7 +47,7 @@ export function AboutContent() {
             </h1>
           </Reveal>
           <Reveal delay={0.16}>
-            <p className="mt-7 max-w-2xl text-lg leading-relaxed text-ink/65 text-pretty">
+            <p className="mt-7 max-w-2xl text-lg leading-relaxed text-ink/70 text-pretty">
               Too many campaigns were being run as spreadsheets and DMs — creators picked by follower count, briefs
               sent without strategy, and results reported in impressions nobody could act on. {siteConfig.name} was
               built to run this channel the way any serious marketing discipline should: with a strategy, a
@@ -133,7 +133,7 @@ export function AboutContent() {
                 <dd className="font-black-display text-3xl tracking-tight sm:text-4xl">
                   <StatCounter value={stat.value} />
                 </dd>
-                <p className="mt-2 text-xs uppercase tracking-[0.1em] opacity-70">{stat.label}</p>
+                <p className="mt-2 text-xs uppercase tracking-[0.1em] opacity-85">{stat.label}</p>
               </Reveal>
             ))}
           </dl>
@@ -146,9 +146,9 @@ export function AboutContent() {
           <StaggerReveal className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((value, i) => (
               <StaggerItem key={value.title} className={`p-7 ${value.bg}`}>
-                <span className="font-black-display text-3xl opacity-30">{String(i + 1).padStart(2, "0")}</span>
+                <span className="font-black-display text-3xl opacity-70">{String(i + 1).padStart(2, "0")}</span>
                 <h3 className="mt-4 font-display text-xl tracking-tight">{value.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed opacity-70">{value.body}</p>
+                <p className="mt-2 text-sm leading-relaxed opacity-85">{value.body}</p>
               </StaggerItem>
             ))}
           </StaggerReveal>

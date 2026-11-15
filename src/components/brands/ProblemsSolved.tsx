@@ -30,7 +30,7 @@ export function ProblemsSolved() {
           {pairs.map((pair, i) => (
             <Reveal key={pair.problem} delay={i * 0.04}>
               <div className="group grid gap-3 border-b-[1.5px] border-paper/20 py-7 transition-colors duration-300 hover:bg-paper/5 sm:grid-cols-[1fr_auto_1.1fr] sm:items-center sm:gap-8 sm:px-4">
-                <p className="text-base text-paper/40 line-through decoration-paper/25 sm:text-lg">{pair.problem}</p>
+                <p className="text-base text-paper/70 line-through decoration-paper/25 sm:text-lg">{pair.problem}</p>
                 <ArrowRight className="hidden size-6 shrink-0 text-coral transition-transform duration-300 group-hover:translate-x-1 sm:block" />
                 <p className="font-display text-xl tracking-tight text-paper sm:text-2xl">{pair.solution}</p>
               </div>

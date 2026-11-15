@@ -1,11 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Check } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
 import { CampaignCollage } from "@/components/graphics/CampaignCollage";
+
+/** Working commitments, each one already promised elsewhere on the site (services, FAQs, inquiry section). */
+const commitments = [
+  "Every creator screened for audience fit and fake followers",
+  "Deliverables, dates and usage rights agreed in writing",
+  "Creator fees and agency fees shown separately",
+  "Results reported against one KPI agreed at kickoff",
+];
 
 export function BrandsHero() {
   return (
@@ -44,7 +52,7 @@ export function BrandsHero() {
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.25 }}
-              className="mt-7 max-w-xl text-lg leading-relaxed text-ink/65 text-pretty"
+              className="mt-7 max-w-xl text-lg leading-relaxed text-ink/70 text-pretty"
             >
               We help brands work with the creators who already have their customer&apos;s attention, manage their own
               social media, and produce UGC they can use everywhere. Pick one, or let one team plan all three, from
@@ -61,6 +69,20 @@ export function BrandsHero() {
                 Tell Us About Your Brand <ArrowDown className="size-4" />
               </Button>
             </motion.div>
+            <motion.ul
+              initial={{ opacity: 0, y: 18 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.45 }}
+              aria-label="How we work with every brand"
+              className="mt-10 grid max-w-xl gap-x-6 gap-y-3 border-t-[1.5px] border-ink pt-6 sm:grid-cols-2"
+            >
+              {commitments.map((item) => (
+                <li key={item} className="flex items-start gap-2.5 text-sm font-medium leading-snug text-ink">
+                  <Check className="mt-0.5 size-4 shrink-0 text-coral-deep" strokeWidth={2.5} aria-hidden="true" />
+                  {item}
+                </li>
+              ))}
+            </motion.ul>
           </div>
 
           <CampaignCollage className="lg:pl-6" />

@@ -77,12 +77,12 @@ export function CreatorChecklist({ checklist }: { checklist: ChecklistId }) {
           {done} of {total} in place
         </p>
       </div>
-      <p className="mt-2 text-sm leading-relaxed text-ink/60">{config.intro}</p>
+      <p className="mt-2 text-sm leading-relaxed text-ink/70">{config.intro}</p>
 
       <div className="mt-6 space-y-7">
         {config.groups.map((group) => (
           <fieldset key={group.title}>
-            <legend className="text-xs font-semibold uppercase tracking-wide text-ink/50">{group.title}</legend>
+            <legend className="text-xs font-semibold uppercase tracking-wide text-ink/70">{group.title}</legend>
             <ul className="mt-3 space-y-3">
               {group.items.map((item) => {
                 const inputId = `${id}-${item.id}`;
@@ -97,7 +97,7 @@ export function CreatorChecklist({ checklist }: { checklist: ChecklistId }) {
                     />
                     <label htmlFor={inputId} className="text-sm leading-relaxed text-ink">
                       <span className="font-semibold">{item.label}</span>
-                      <span className="block text-ink/60">{item.detail}</span>
+                      <span className="block text-ink/70">{item.detail}</span>
                     </label>
                   </li>
                 );
@@ -108,14 +108,14 @@ export function CreatorChecklist({ checklist }: { checklist: ChecklistId }) {
       </div>
 
       <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t-[1.5px] border-ink/15 pt-5">
-        <p className="text-xs leading-relaxed text-ink/50">
+        <p className="text-xs leading-relaxed text-ink/70">
           Saved in this browser only. Nothing is sent to Kudozz.
         </p>
         {done > 0 && (
           <button
             type="button"
             onClick={() => write(storageKey, "[]")}
-            className="text-xs font-semibold text-ink underline underline-offset-4 hover:text-coral-dim"
+            className="text-xs font-semibold text-ink underline underline-offset-4 hover:text-coral-deep"
           >
             Clear ticks
           </button>

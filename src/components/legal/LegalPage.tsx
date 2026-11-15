@@ -9,7 +9,7 @@ export function LegalPage({ title, updated, sections }: { title: string; updated
       <Container className="max-w-3xl">
         <Eyebrow>Legal</Eyebrow>
         <h1 className="mt-6 font-display text-4xl tracking-tight text-ink sm:text-5xl">{title}</h1>
-        <p className="mt-3 text-sm text-ink/45">Last updated: {updated}</p>
+        <p className="mt-3 text-sm text-ink/70">Last updated: {updated}</p>
 
         <div className="mt-14 space-y-12">
           {sections.map((section) => (

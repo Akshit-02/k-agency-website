@@ -27,7 +27,7 @@ export function CreatorResourcesTeaser() {
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="text-base font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral"
+                  className="text-base font-medium text-ink underline decoration-coral decoration-2 underline-offset-4 hover:text-coral-deep"
                 >
                   {item.label}
                 </Link>
@@ -36,7 +36,7 @@ export function CreatorResourcesTeaser() {
           </ul>
           <Link
             href="/creator-resources"
-            className="group mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-coral-dim underline decoration-2 underline-offset-4 hover:text-ink"
+            className="group mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-coral-deep underline decoration-2 underline-offset-4 hover:text-ink"
           >
             Browse all Creator Resources
             <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true" />

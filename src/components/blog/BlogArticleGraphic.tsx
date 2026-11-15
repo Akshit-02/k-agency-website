@@ -10,7 +10,7 @@ const categoryStyles: Record<BlogCategory, { bg: string; fg: string; mark: strin
   "Campaign Strategy": { bg: "bg-coral", fg: "text-ink", mark: "text-paper" },
   "UGC Marketing": { bg: "bg-ink", fg: "text-paper", mark: "text-lime" },
   "Social Media Management": { bg: "bg-coral", fg: "text-ink", mark: "text-lime" },
-  "Creator Resources": { bg: "bg-lime", fg: "text-ink", mark: "text-coral" },
+  "Creator Resources": { bg: "bg-lime", fg: "text-ink", mark: "text-ink" },
 };
 
 /** Labels whose initials would read badly if derived word by word. */

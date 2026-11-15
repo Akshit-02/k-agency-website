@@ -47,7 +47,7 @@ export function IndiaCoverage() {
                 className="group flex items-center justify-between gap-6 border-[1.5px] border-paper bg-coral p-6 text-ink transition-colors hover:bg-lime"
               >
                 <span>
-                  <span className="block text-xs font-semibold uppercase tracking-[0.16em] opacity-70">National guide</span>
+                  <span className="block text-xs font-semibold uppercase tracking-[0.16em] opacity-85">National guide</span>
                   <span className="mt-2 block font-display text-2xl tracking-tight sm:text-3xl">
                     Compare influencer marketing agencies in India
                   </span>
@@ -56,14 +56,14 @@ export function IndiaCoverage() {
               </Link>
             </Reveal>
 
-            <p className="mt-10 text-xs font-semibold uppercase tracking-[0.22em] text-paper/45">Major markets</p>
+            <p className="mt-10 text-xs font-semibold uppercase tracking-[0.22em] text-paper/70">Major markets</p>
             <StaggerReveal className="mt-4 grid grid-cols-1 border-t border-paper/20 sm:grid-cols-2">
               {markets.map((market) => (
                 <StaggerItem key={market.name} className="border-b border-paper/20 sm:odd:border-r sm:odd:pr-6 sm:even:pl-6">
                   <Link href={market.href} className="group flex items-center justify-between gap-4 py-4">
                     <span>
                       <span className="block font-display text-xl tracking-tight group-hover:text-lime">{market.name}</span>
-                      <span className="block text-sm text-paper/50">{market.note}</span>
+                      <span className="block text-sm text-paper/70">{market.note}</span>
                     </span>
                     <ArrowUpRight className="size-4 shrink-0 text-paper/40 group-hover:text-lime" aria-hidden="true" />
                   </Link>

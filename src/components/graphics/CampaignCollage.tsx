@@ -26,7 +26,7 @@ const chips: Chip[] = [
           <span className="flex size-8 items-center justify-center rounded-full bg-lime text-ink">
             <Play className="size-3.5 fill-current" aria-hidden="true" />
           </span>
-          <span className="font-black-display text-[10px] tracking-wide text-paper/50">LIVE</span>
+          <span className="font-black-display text-[10px] tracking-wide text-paper/70">LIVE</span>
         </div>
         <p className="mt-4 font-black-display text-2xl leading-none">Reels</p>
         <p className="mt-1 text-[11px] uppercase tracking-wide text-paper/60">Instagram · YouTube</p>
@@ -42,7 +42,7 @@ const chips: Chip[] = [
       <div className="p-4">
         <Pictogram name="launch" accent="lime" className="size-9" />
         <p className="mt-3 font-display text-lg italic leading-tight">Featured Drop</p>
-        <p className="mt-1 text-[11px] uppercase tracking-wide text-ink/60">Beauty · Skincare</p>
+        <p className="mt-1 text-[11px] uppercase tracking-wide text-ink/90">Beauty · Skincare</p>
       </div>
     ),
   },
@@ -54,7 +54,7 @@ const chips: Chip[] = [
     content: (
       <div className="p-4">
         <div className="flex items-center justify-between">
-          <span className="font-black-display text-[10px] tracking-wide text-coral">ENGAGEMENT</span>
+          <span className="font-black-display text-[10px] tracking-wide text-coral-deep">ENGAGEMENT</span>
           <TrendingUp className="size-4" aria-hidden="true" />
         </div>
         <Waveform className="mt-3 h-10 text-coral" />
@@ -69,7 +69,7 @@ const chips: Chip[] = [
     content: (
       <div className="p-4">
         <p className="font-black-display text-3xl leading-none">Vetted</p>
-        <p className="mt-1 text-[11px] uppercase tracking-wide text-ink/60">Audience &amp; authenticity</p>
+        <p className="mt-1 text-[11px] uppercase tracking-wide text-ink/70">Audience &amp; authenticity</p>
       </div>
     ),
   },
@@ -81,7 +81,7 @@ const chips: Chip[] = [
     content: (
       <div className="p-3 text-center">
         <p className="font-black-display text-xs tracking-wide">#CREATOR</p>
-        <p className="font-black-display text-xs tracking-wide text-coral">-LED</p>
+        <p className="font-black-display text-xs tracking-wide text-coral-deep">-LED</p>
       </div>
     ),
   },

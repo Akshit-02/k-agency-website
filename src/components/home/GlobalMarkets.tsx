@@ -25,12 +25,12 @@ export function GlobalMarkets() {
                   {market.name}
                   <ArrowUpRight className="size-4 shrink-0 opacity-60" aria-hidden="true" />
                 </span>
-                <span className="mt-3 block text-xs opacity-60">{market.coverage}</span>
+                <span className="mt-3 block text-xs opacity-85">{market.coverage}</span>
               </Link>
             </li>
           ))}
         </ul>
-        <Link href="/markets" className="mt-8 inline-block text-sm font-medium text-ink underline underline-offset-4 hover:text-coral">
+        <Link href="/markets" className="mt-8 inline-block text-sm font-medium text-ink underline underline-offset-4 hover:text-coral-deep">
           All markets we serve
         </Link>
       </Container>
