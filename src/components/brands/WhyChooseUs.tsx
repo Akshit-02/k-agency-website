@@ -1,4 +1,4 @@
-import { Check } from "lucide-react";
+import { Pictogram } from "@/components/icons/Pictogram";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
@@ -6,18 +6,18 @@ import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerRevea
 import { cn } from "@/lib/utils";
 
 const differentiators = [
-  { title: "Data-informed creator selection", body: "Every shortlist is scored against audience overlap and engagement quality, not follower count." },
-  { title: "Strategic campaign planning", body: "Campaigns start with a KPI and a strategy brief — creators are the execution, not the plan." },
-  { title: "Authentic creator partnerships", body: "We build relationships with creators, not transactional gigging — it shows in the content." },
-  { title: "End-to-end campaign management", body: "One team handles strategy, outreach, contracts, coordination, and reporting." },
-  { title: "Transparent communication", body: "You know where your campaign stands at every stage — no black-box status updates." },
-  { title: "Performance-focused reporting", body: "Reporting tied to your original goal, with a plain-language debrief, not just a dashboard export." },
-];
+  { icon: "discovery", title: "Data-informed creator selection", body: "Every shortlist is scored against audience overlap and engagement quality, not follower count." },
+  { icon: "strategy", title: "Strategic campaign planning", body: "Campaigns start with a KPI and a strategy brief — creators are the execution, not the plan." },
+  { icon: "partnership", title: "Authentic creator partnerships", body: "We build relationships with creators, not transactional gigging — it shows in the content." },
+  { icon: "workflow", title: "End-to-end campaign management", body: "One team handles strategy, outreach, contracts, coordination, and reporting." },
+  { icon: "outreach", title: "Transparent communication", body: "You know where your campaign stands at every stage — no black-box status updates." },
+  { icon: "report", title: "Performance-focused reporting", body: "Reporting tied to your original goal, with a plain-language debrief, not just a dashboard export." },
+] as const;
 
 const themes = [
-  { bg: "hover:bg-coral", icon: "text-coral group-hover:text-ink", body: "text-ink/60 group-hover:text-ink/70" },
-  { bg: "hover:bg-lime", icon: "text-coral group-hover:text-ink", body: "text-ink/60 group-hover:text-ink/70" },
-  { bg: "hover:bg-violet", icon: "text-coral group-hover:text-lime", body: "text-ink/60 group-hover:text-paper/70" },
+  { bg: "hover:bg-coral", icon: "text-ink group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/60 group-hover:text-ink/70" },
+  { bg: "hover:bg-lime", icon: "text-ink", body: "text-ink/60 group-hover:text-ink/70" },
+  { bg: "hover:bg-violet", icon: "text-ink group-hover:text-paper group-hover:[--kz-accent:var(--color-lime)]", body: "text-ink/60 group-hover:text-paper/70" },
 ];
 
 export function WhyChooseUs() {
@@ -37,7 +37,7 @@ export function WhyChooseUs() {
                 key={item.title}
                 className={cn("group border-[1.5px] border-ink p-8 transition-colors duration-300", theme.bg)}
               >
-                <Check className={cn("size-6 transition-colors", theme.icon)} />
+                <Pictogram name={item.icon} className={cn("size-11 transition-colors", theme.icon)} />
                 <h3
                   className={cn(
                     "mt-4 font-display text-xl tracking-tight text-ink transition-colors",

@@ -1,14 +1,14 @@
-import { Sparkles, Users, MessageCircle, Layers } from "lucide-react";
+import { Pictogram } from "@/components/icons/Pictogram";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
 
 const benefits = [
-  { icon: Sparkles, title: "Briefs from brands in your niche", body: "Kudozz runs campaigns for brands in fashion, beauty, tech, food, finance and more, and contacts creators whose niche and audience fit the brief.", bg: "bg-coral text-ink" },
-  { icon: Layers, title: "Relevant opportunities only", body: "We match you to campaigns that fit your content and audience, not a generic mass outreach blast.", bg: "bg-violet text-paper" },
-  { icon: MessageCircle, title: "Clear, professional communication", body: "Briefs, timelines, and payment terms are clear upfront — no chasing anyone for answers.", bg: "bg-lime text-ink" },
-  { icon: Users, title: "Room to grow long-term", body: "When a campaign is a good fit for both sides, it can grow into ongoing ambassador work.", bg: "bg-ink text-paper" },
-];
+  { icon: "brief", accent: "lime", title: "Briefs from brands in your niche", body: "Kudozz runs campaigns for brands in fashion, beauty, tech, food, finance and more, and contacts creators whose niche and audience fit the brief.", bg: "bg-coral text-ink" },
+  { icon: "match", accent: "lime", title: "Relevant opportunities only", body: "We match you to campaigns that fit your content and audience, not a generic mass outreach blast.", bg: "bg-violet text-paper" },
+  { icon: "outreach", accent: "coral", title: "Clear, professional communication", body: "Briefs, timelines, and payment terms are clear upfront — no chasing anyone for answers.", bg: "bg-lime text-ink" },
+  { icon: "growth", accent: "lime", title: "Room to grow long-term", body: "When a campaign is a good fit for both sides, it can grow into ongoing ambassador work.", bg: "bg-ink text-paper" },
+] as const;
 
 export function Benefits() {
   return (
@@ -21,9 +21,9 @@ export function Benefits() {
         />
 
         <StaggerReveal className="mt-14 grid gap-5 sm:grid-cols-2">
-          {benefits.map(({ icon: Icon, title, body, bg }) => (
+          {benefits.map(({ icon, accent, title, body, bg }) => (
             <StaggerItem key={title} className={`p-8 ${bg}`}>
-              <Icon className="size-7" />
+              <Pictogram name={icon} accent={accent} className="size-12" />
               <h3 className="mt-5 font-display text-2xl tracking-tight">{title}</h3>
               <p className="mt-3 max-w-sm text-base leading-relaxed opacity-70">{body}</p>
             </StaggerItem>

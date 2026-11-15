@@ -1,16 +1,14 @@
 import Link from "@/components/ui/Link";
-import { AtSign, Music3 } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { KudozzLogo } from "@/components/graphics/KudozzLogo";
-import { LinkedInGlyph, YouTubeGlyph } from "@/components/graphics/SocialIcons";
+import { PlatformLogo, type PlatformId } from "@/components/icons/PlatformLogo";
 import { Container } from "@/components/ui/Container";
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
 
-const socialLinks = [
-  { href: siteConfig.social.instagram, label: "Instagram", Icon: AtSign },
-  // { href: siteConfig.social.tiktok, label: "TikTok", Icon: Music3 },
-  { href: siteConfig.social.linkedin, label: "LinkedIn", Icon: LinkedInGlyph },
-  // { href: siteConfig.social.youtube, label: "YouTube", Icon: YouTubeGlyph },
+const socialLinks: { href: string; label: string; platform: PlatformId }[] = [
+  { href: siteConfig.social.instagram, label: "Kudozz on Instagram", platform: "instagram" },
+  { href: siteConfig.social.linkedin, label: "Kudozz on LinkedIn", platform: "linkedin" },
+  // { href: siteConfig.social.youtube, label: "Kudozz on YouTube", platform: "youtube" },
 ];
 
 function FooterColumn({
@@ -53,7 +51,7 @@ export function Footer() {
             </p>
             {socialLinks.length > 0 && (
               <div className="mt-6 flex gap-3">
-                {socialLinks.map(({ href, label, Icon }) => (
+                {socialLinks.map(({ href, label, platform }) => (
                   <a
                     key={label}
                     href={href}
@@ -62,7 +60,7 @@ export function Footer() {
                     aria-label={label}
                     className="flex size-10 items-center justify-center border-[1.5px] border-paper/20 text-paper/70 transition-colors hover:border-lime hover:bg-lime hover:text-ink"
                   >
-                    <Icon className="size-4" />
+                    <PlatformLogo platform={platform} className="size-[18px]" />
                   </a>
                 ))}
               </div>

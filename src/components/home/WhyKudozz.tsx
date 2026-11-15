@@ -4,9 +4,10 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
 import { reasons } from "@/content/home";
-import { cn } from "@/lib/utils";
+import { IconTile } from "@/components/icons/Pictogram";
+import { servicePictogram, slugFromServiceHref } from "@/components/icons/ServiceIcon";
 
-const accents = ["bg-coral", "bg-violet", "bg-lime", "bg-ink"];
+const accents = ["coral", "violet", "lime", "coral"] as const;
 
 export function WhyKudozz() {
   return (
@@ -22,10 +23,10 @@ export function WhyKudozz() {
           {reasons.map((reason, i) => (
             <StaggerItem
               key={reason.title}
-              className="flex flex-col justify-between border-[1.5px] border-ink bg-paper p-8 shadow-[6px_6px_0_0_var(--color-ink)]"
+              className="group flex flex-col justify-between border-[1.5px] border-ink bg-paper p-8 shadow-[6px_6px_0_0_var(--color-ink)]"
             >
               <div>
-                <span className={cn("block h-2 w-10", accents[i % accents.length])} aria-hidden="true" />
+                <IconTile name={servicePictogram(slugFromServiceHref(reason.href))} accent={accents[i % accents.length]} />
                 <h3 className="mt-6 font-display text-2xl leading-tight tracking-tight text-ink">{reason.title}</h3>
                 <p className="mt-4 text-base leading-relaxed text-ink/65">{reason.body}</p>
               </div>

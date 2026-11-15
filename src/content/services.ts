@@ -60,7 +60,6 @@ export type Service = {
    * "What's included", so the overview links down to every sub-service.
    */
   includesCategories?: string[];
-  motif: "orbit" | "grid" | "wave" | "beacon" | "loop" | "pulse" | "channel" | "ledger";
 };
 
 type ServiceInput = Omit<Service, "index" | "category">;
@@ -196,7 +195,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: ", which can run on the same calendar as your influencer campaigns.",
     },
-    motif: "orbit",
   },
   {
     slug: "campaign-strategy",
@@ -276,7 +274,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: ", which can run on the same calendar as your creator campaigns.",
     },
-    motif: "orbit",
   },
   {
     slug: "creator-discovery",
@@ -362,7 +359,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: " service can plan that creator content into your monthly calendar.",
     },
-    motif: "grid",
   },
   {
     slug: "outreach-management",
@@ -462,7 +458,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: " service, creators who worked well can be briefed for ongoing content on the brand's own channels.",
     },
-    motif: "channel",
   },
   {
     slug: "social-campaigns",
@@ -537,7 +532,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: " service covers, so campaign and always-on content are planned together.",
     },
-    motif: "pulse",
   },
   {
     slug: "product-launches",
@@ -612,7 +606,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: " service can plan that alongside the creator side of the launch, on one schedule.",
     },
-    motif: "beacon",
   },
   {
     slug: "ugc-campaigns",
@@ -693,7 +686,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: " service plans where each UGC asset is used across your channels.",
     },
-    motif: "loop",
   },
   {
     slug: "ambassador-programs",
@@ -758,7 +750,6 @@ const serviceList: ServiceInput[] = [
           "It depends on budget and category, but most brands start with 5 to 15 ambassadors, expanding the roster once the initial cohort's content cadence and performance are proven.",
       },
     ],
-    motif: "wave",
   },
   {
     slug: "reporting",
@@ -827,7 +818,6 @@ const serviceList: ServiceInput[] = [
           "Results against the KPI agreed at kickoff, a creator-level performance breakdown, reach, engagement, clicks and conversions where they can be tracked, and a plain-language debrief with recommendations.",
       },
     ],
-    motif: "ledger",
   },
   {
     slug: "paid-influencer-campaigns",
@@ -904,7 +894,6 @@ const serviceList: ServiceInput[] = [
           "Usually part on signing and the balance on publishing, or in full after delivery for smaller deals. Payment is released against delivered, approved and correctly disclosed posts, with tax documents handled as each market requires.",
       },
     ],
-    motif: "ledger",
   },
   {
     slug: "barter-influencer-campaigns",
@@ -981,7 +970,6 @@ const serviceList: ServiceInput[] = [
           "The written agreement sets dates and follow-up steps, and we chase missed posts. Barter is still harder to enforce than a paid contract, so we ship in waves, start with creators who have a record of delivering, and keep a reserve list.",
       },
     ],
-    motif: "loop",
   },
   {
     slug: "influencer-seeding-gifting",
@@ -1057,7 +1045,6 @@ const serviceList: ServiceInput[] = [
           "Start with a wave large enough to learn from but small enough to personalise, then expand based on the posting rate and response. The right size depends on product cost and how many creators genuinely fit.",
       },
     ],
-    motif: "beacon",
   },
   {
     slug: "influencer-affiliate-marketing",
@@ -1144,7 +1131,6 @@ const serviceList: ServiceInput[] = [
           "Often that's the goal. Creators who sell consistently are strong candidates for an ambassador program, with a retainer plus commission and a longer commitment.",
       },
     ],
-    motif: "pulse",
   },
   {
     slug: "ugc-content-production",
@@ -1236,7 +1222,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: " team.",
     },
-    motif: "grid",
   },
   {
     slug: "instagram-influencer-marketing",
@@ -1317,7 +1302,6 @@ const serviceList: ServiceInput[] = [
       linkText: "social media management",
       after: " service for the brand account itself.",
     },
-    motif: "orbit",
   },
   {
     slug: "youtube-influencer-marketing",
@@ -1393,7 +1377,6 @@ const serviceList: ServiceInput[] = [
           "Shorts are useful for reach and for cutting a longer review into quick clips. They usually drive fewer clicks than long-form videos, so we pair them with an integration or review rather than relying on Shorts alone.",
       },
     ],
-    motif: "wave",
   },
   {
     slug: "linkedin-influencer-marketing",
@@ -1469,7 +1452,6 @@ const serviceList: ServiceInput[] = [
           "Yes. Many B2B programmes pair external creators with the company's own leaders. We plan executive content alongside creator partnerships so the two reinforce each other.",
       },
     ],
-    motif: "channel",
   },
   {
     slug: "regional-influencer-marketing",
@@ -1545,7 +1527,6 @@ const serviceList: ServiceInput[] = [
           "Translate the facts, but let native speakers adapt the hooks, references and humour. A localised brief with room for each creator's voice works better than one script translated word for word.",
       },
     ],
-    motif: "orbit",
   },
   {
     slug: "micro-nano-influencer-marketing",
@@ -1632,7 +1613,6 @@ const serviceList: ServiceInput[] = [
           "They can be, which is why every creator is checked regardless of size: engagement patterns, comment quality, follower growth and audience location. A small account with a real, local audience is worth more than a large one with bought followers.",
       },
     ],
-    motif: "loop",
   },
   {
     // Full page lives at src/app/services/social-media-management (custom layout); this entry feeds the services
@@ -1695,7 +1675,6 @@ const serviceList: ServiceInput[] = [
       "Monthly reporting with recommendations, not screenshots",
     ],
     faqs: [],
-    motif: "channel",
   },
 ];
 

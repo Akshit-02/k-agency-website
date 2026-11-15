@@ -124,6 +124,27 @@ body {
   scrollbar-width: none;
 }
 
+/* Kudozz pictograms (src/components/icons/Pictogram.tsx): fixed screen-pixel stroke at every size, one accent fill.
+   Layered so Tailwind's [--kz-accent:...] utilities can override the default accent. */
+@layer components {
+  .kz-icon {
+    --kz-accent: var(--color-coral);
+  }
+  .kz-icon * {
+    vector-effect: non-scaling-stroke;
+  }
+  .kz-icon .kz-a {
+    fill: var(--kz-accent);
+  }
+  .kz-icon .kz-f {
+    fill: currentColor;
+    stroke: none;
+  }
+  .kz-icon .kz-ns {
+    stroke: none;
+  }
+}
+
 .font-black-display {
   font-family: var(--font-black), ui-sans-serif, system-ui, sans-serif;
 }

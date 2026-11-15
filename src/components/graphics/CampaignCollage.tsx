@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Play, Sparkles, TrendingUp } from "lucide-react";
+import { Play, TrendingUp } from "lucide-react";
+import { Pictogram } from "@/components/icons/Pictogram";
 import { Waveform } from "@/components/graphics/Waveform";
 import { NetworkField } from "@/components/graphics/NetworkField";
 
@@ -23,7 +24,7 @@ const chips: Chip[] = [
       <div className="p-4">
         <div className="flex items-center justify-between">
           <span className="flex size-8 items-center justify-center rounded-full bg-lime text-ink">
-            <Play className="size-3.5 fill-current" />
+            <Play className="size-3.5 fill-current" aria-hidden="true" />
           </span>
           <span className="font-black-display text-[10px] tracking-wide text-paper/50">LIVE</span>
         </div>
@@ -39,7 +40,7 @@ const chips: Chip[] = [
     floatDelay: "1.1s",
     content: (
       <div className="p-4">
-        <Sparkles className="size-5" />
+        <Pictogram name="launch" accent="lime" className="size-9" />
         <p className="mt-3 font-display text-lg italic leading-tight">Featured Drop</p>
         <p className="mt-1 text-[11px] uppercase tracking-wide text-ink/60">Beauty · Skincare</p>
       </div>
@@ -54,7 +55,7 @@ const chips: Chip[] = [
       <div className="p-4">
         <div className="flex items-center justify-between">
           <span className="font-black-display text-[10px] tracking-wide text-lime">ENGAGEMENT</span>
-          <TrendingUp className="size-4" />
+          <TrendingUp className="size-4" aria-hidden="true" />
         </div>
         <Waveform className="mt-3 h-10 text-lime" />
       </div>

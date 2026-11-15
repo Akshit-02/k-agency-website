@@ -1,7 +1,7 @@
 import Link from "@/components/ui/Link";
 import { Check } from "lucide-react";
 import { getServicesByCategory, type Service } from "@/content/services";
-import { ServiceMotif } from "@/components/graphics/ServiceMotif";
+import { ServiceIcon } from "@/components/icons/ServiceIcon";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
@@ -67,7 +67,12 @@ export function ServiceDetail({
             <Button href={`/for-brands?from=service:${service.slug}#inquiry`} size="lg">
               Start a Brand Inquiry
             </Button>
-            <ServiceMotif motif={service.motif} className="h-12 w-12 text-coral" />
+            <span
+              aria-hidden="true"
+              className="inline-flex size-16 items-center justify-center border-[1.5px] border-ink bg-paper text-ink shadow-[4px_4px_0_0_var(--color-ink)]"
+            >
+              <ServiceIcon slug={service.slug} accent="coral" className="size-10" />
+            </span>
           </Reveal>
           <Reveal delay={0.22}>
             <p className="mt-10 max-w-xl border-l-[3px] border-coral pl-5 text-sm text-ink/60">
@@ -285,7 +290,7 @@ export function ServiceDetail({
                 href={`/services/${r.slug}`}
                 className="group border-[1.5px] border-ink bg-paper p-6 transition-colors hover:bg-ink hover:text-paper"
               >
-                <ServiceMotif motif={r.motif} className="h-8 w-8 text-coral" />
+                <ServiceIcon slug={r.slug} accent="coral" className="size-10" />
                 <p className="mt-4 font-display text-lg tracking-tight">{r.name}</p>
                 <p className="mt-2 text-sm opacity-60">{r.shortDescription}</p>
               </Link>

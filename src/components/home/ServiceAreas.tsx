@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/Button";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
 import { Reveal } from "@/components/animations/Reveal";
 import { homeInquiryHref, serviceAreas, supportingServices } from "@/content/home";
+import { IconTile, Pictogram } from "@/components/icons/Pictogram";
+import { servicePictogram, slugFromServiceHref } from "@/components/icons/ServiceIcon";
 import { cn } from "@/lib/utils";
 
 const themes = {
@@ -32,9 +34,12 @@ export function ServiceAreas() {
           {serviceAreas.map((area, i) => {
             const theme = themes[area.theme];
             return (
-              <StaggerItem key={area.name} className={cn("flex flex-col justify-between p-8 sm:p-10", theme.card)}>
+              <StaggerItem key={area.name} className={cn("group flex flex-col justify-between p-8 sm:p-10", theme.card)}>
                 <div>
-                  <span className="font-black-display text-sm opacity-50">{String(i + 1).padStart(2, "0")}</span>
+                  <div className="flex items-start justify-between gap-4">
+                    <span className="font-black-display text-sm opacity-50">{String(i + 1).padStart(2, "0")}</span>
+                    <IconTile name={servicePictogram(slugFromServiceHref(area.href))} accent={area.theme} size="lg" />
+                  </div>
                   <h3 className="mt-4 font-display text-3xl leading-tight tracking-tight sm:text-4xl">
                     <Link href={area.href} className="hover:underline decoration-2 underline-offset-4">
                       {area.name}
@@ -69,7 +74,8 @@ export function ServiceAreas() {
                 href={service.href}
                 className="group flex h-full items-start justify-between gap-6 border-[1.5px] border-ink p-7 transition-colors hover:bg-ink hover:text-paper"
               >
-                <span>
+                <Pictogram name={servicePictogram(slugFromServiceHref(service.href))} className="mt-0.5 size-11" />
+                <span className="flex-1">
                   <span className="block font-display text-2xl tracking-tight">{service.name}</span>
                   <span className="mt-2 block text-sm leading-relaxed opacity-65">{service.body}</span>
                 </span>

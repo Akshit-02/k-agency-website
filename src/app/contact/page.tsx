@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
-import { Mail, AtSign, Music3 } from "lucide-react";
+import { Mail } from "lucide-react";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/config/site";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
 import { ContactForm } from "@/components/forms/ContactForm";
-import { LinkedInGlyph, YouTubeGlyph } from "@/components/graphics/SocialIcons";
+import type { PlatformId } from "@/components/icons/PlatformLogo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Get in Touch: Brand, Creator & Press Inquiries",
@@ -16,11 +16,11 @@ export const metadata: Metadata = buildMetadata({
   path: "/contact",
 });
 
-const socialLinks = [
-  { href: siteConfig.social.instagram, label: "Instagram", Icon: AtSign },
-  // { href: siteConfig.social.tiktok, label: "TikTok", Icon: Music3 },
-  { href: siteConfig.social.linkedin, label: "LinkedIn", Icon: LinkedInGlyph },
-  // { href: siteConfig.social.youtube, label: "YouTube", Icon: YouTubeGlyph },
+// Used by the "Follow Along" block below, which is commented out until the accounts are active.
+// Re-enabling it also needs `PlatformLogo` imported from "@/components/icons/PlatformLogo".
+const socialLinks: { href: string; label: string; platform: PlatformId }[] = [
+  { href: siteConfig.social.instagram, label: "Kudozz on Instagram", platform: "instagram" },
+  { href: siteConfig.social.linkedin, label: "Kudozz on LinkedIn", platform: "linkedin" },
 ];
 
 export default function ContactPage() {
@@ -64,7 +64,7 @@ export default function ContactPage() {
         <div className="mt-16 grid gap-16 lg:grid-cols-[0.8fr_1.2fr]">
           <div className="space-y-4">
             <Reveal delay={0.05} className="flex gap-4 bg-coral p-6 text-ink">
-              <Mail className="mt-1 size-5 shrink-0" />
+              <Mail className="mt-1 size-5 shrink-0" aria-hidden="true" />
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wide opacity-60">
                   Email
@@ -92,7 +92,7 @@ export default function ContactPage() {
             {/* <Reveal delay={0.1} className="border-[1.5px] border-ink p-6">
               <p className="text-xs font-semibold uppercase tracking-wide text-ink/50">Follow Along</p>
               <div className="mt-4 flex gap-3">
-                {socialLinks.map(({ href, label, Icon }) => (
+                {socialLinks.map(({ href, label, platform }) => (
                   <a
                     key={label}
                     href={href}
@@ -101,7 +101,7 @@ export default function ContactPage() {
                     aria-label={label}
                     className="flex size-10 items-center justify-center border-[1.5px] border-ink/20 text-ink/70 transition-colors hover:border-ink hover:bg-ink hover:text-paper"
                   >
-                    <Icon className="size-4" />
+                    <PlatformLogo platform={platform} className="size-[18px]" />
                   </a>
                 ))}
               </div>

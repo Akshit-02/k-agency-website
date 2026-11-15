@@ -1,7 +1,7 @@
 import Link from "@/components/ui/Link";
 import { ArrowUpRight } from "lucide-react";
 import { getServiceBySlug } from "@/content/services";
-import { ServiceMotif } from "@/components/graphics/ServiceMotif";
+import { ServiceIcon } from "@/components/icons/ServiceIcon";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
@@ -52,7 +52,7 @@ export function BrandServices() {
                 className="group flex h-full flex-col p-6 transition-colors duration-300 hover:bg-violet-dim"
               >
                 <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-lime">{area}</span>
-                <ServiceMotif motif={service.motif} className="mt-4 h-10 w-10 text-lime" />
+                <ServiceIcon slug={service.slug} accent="lime" className="mt-5 size-12 text-paper" />
                 <h3 className="mt-5 flex items-start justify-between gap-2 font-display text-lg tracking-tight">
                   {service.name}
                   <ArrowUpRight

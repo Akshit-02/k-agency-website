@@ -5,45 +5,59 @@ import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
+import { Pictogram, type PictogramName } from "@/components/icons/Pictogram";
 import { cn } from "@/lib/utils";
 
 const steps = [
   {
     n: "01",
+    icon: "brief" as PictogramName,
     title: "Understand Your Brand",
     body: "We start with your business objective, audience, and category — not a creator list. Every campaign begins with a strategy call, not a pitch deck.",
     bg: "bg-ink text-paper",
+    accent: "coral" as const,
   },
   {
     n: "02",
+    icon: "strategy" as PictogramName,
     title: "Build the Strategy",
     body: "Platform mix, content formats, creator tiers, and budget allocation, mapped to the one KPI that matters most for this campaign.",
     bg: "bg-coral text-ink",
+    accent: "lime" as const,
   },
   {
     n: "03",
+    icon: "discovery" as PictogramName,
     title: "Find the Right Creators",
     body: "We shortlist for audience overlap and engagement quality, screen for authenticity, and bring you a curated list — with the reasoning behind every name.",
     bg: "bg-violet text-paper",
+    accent: "lime" as const,
   },
   {
     n: "04",
+    icon: "launch" as PictogramName,
     title: "Launch the Campaign",
     body: "We manage outreach, contracts, deliverables, and approvals, so content ships on schedule and on-brand without you chasing anyone.",
     bg: "bg-lime text-ink",
+    accent: "coral" as const,
   },
   {
     n: "05",
+    icon: "analytics" as PictogramName,
     title: "Track the Impact",
     body: "Unified reporting against your original KPI, plus a plain-language debrief on what worked and what we'd change next time.",
     bg: "bg-ink text-paper",
+    accent: "lime" as const,
   },
 ];
 
 function StepPanel({ step }: { step: (typeof steps)[number] }) {
   return (
     <div className={cn("flex h-[26rem] w-[80vw] shrink-0 flex-col justify-between p-10 sm:w-[26rem]", step.bg)}>
-      <span className="font-black-display text-7xl leading-none opacity-25">{step.n}</span>
+      <div className="flex items-start justify-between">
+        <span className="font-black-display text-7xl leading-none opacity-25">{step.n}</span>
+        <Pictogram name={step.icon} accent={step.accent} className="size-14" />
+      </div>
       <div>
         <h3 className="font-display text-3xl tracking-tight">{step.title}</h3>
         <p className="mt-4 text-base leading-relaxed opacity-75">{step.body}</p>
@@ -87,7 +101,10 @@ export function HowItWorks() {
           {steps.map((step, i) => (
             <Reveal key={step.n} delay={i * 0.05}>
               <div className={cn("p-7", step.bg)}>
-                <span className="font-black-display text-4xl leading-none opacity-30">{step.n}</span>
+                <div className="flex items-start justify-between">
+                  <span className="font-black-display text-4xl leading-none opacity-30">{step.n}</span>
+                  <Pictogram name={step.icon} accent={step.accent} className="size-11" />
+                </div>
                 <h3 className="mt-4 font-display text-2xl tracking-tight">{step.title}</h3>
                 <p className="mt-3 text-base leading-relaxed opacity-75">{step.body}</p>
               </div>

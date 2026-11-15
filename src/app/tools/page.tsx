@@ -1,6 +1,6 @@
 import Link from "@/components/ui/Link";
 import type { Metadata } from "next";
-import { ArrowUpRight, Download } from "lucide-react";
+import { ArrowUpRight, Calculator, Download, Gauge, ListChecks } from "lucide-react";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/config/site";
 import { toolDownloads, toolGroups } from "@/content/tools";
@@ -93,7 +93,13 @@ export default function ToolsPage() {
                       href={tool.href}
                       className="group flex flex-col border-[1.5px] border-ink bg-paper p-6 transition-colors hover:bg-ink hover:text-paper"
                     >
-                      <p className="text-xs font-semibold uppercase tracking-wide opacity-55">{tool.kind}</p>
+                      <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide opacity-55">
+                        {(() => {
+                          const KindIcon = { Calculator, Checklist: ListChecks, Scorecard: Gauge }[tool.kind];
+                          return <KindIcon className="size-3.5" aria-hidden="true" />;
+                        })()}
+                        {tool.kind}
+                      </p>
                       <h3 className="mt-2 flex items-start justify-between gap-3 font-display text-xl tracking-tight">
                         {tool.name}
                         <ArrowUpRight className="size-5 shrink-0 opacity-60" aria-hidden="true" />

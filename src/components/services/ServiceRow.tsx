@@ -5,15 +5,15 @@ import Link from "@/components/ui/Link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import type { Service } from "@/content/services";
-import { ServiceMotif } from "@/components/graphics/ServiceMotif";
+import { ServiceIcon } from "@/components/icons/ServiceIcon";
 import { cn } from "@/lib/utils";
 
 const rowThemes = [
-  { bg: "bg-coral", text: "text-ink", sub: "text-ink/60", dot: "bg-ink" },
-  { bg: "bg-violet", text: "text-paper", sub: "text-paper/60", dot: "bg-lime" },
-  { bg: "bg-lime", text: "text-ink", sub: "text-ink/60", dot: "bg-coral" },
-  { bg: "bg-ink", text: "text-paper", sub: "text-paper/60", dot: "bg-coral" },
-];
+  { bg: "bg-coral", text: "text-ink", sub: "text-ink/60", dot: "bg-ink", accent: "lime" },
+  { bg: "bg-violet", text: "text-paper", sub: "text-paper/60", dot: "bg-lime", accent: "lime" },
+  { bg: "bg-lime", text: "text-ink", sub: "text-ink/60", dot: "bg-coral", accent: "coral" },
+  { bg: "bg-ink", text: "text-paper", sub: "text-paper/60", dot: "bg-coral", accent: "coral" },
+] as const;
 
 export function ServiceRow({
   service,
@@ -70,9 +70,10 @@ export function ServiceRow({
           aria-label={`${open ? "Hide" : "Show"} a quick preview of ${service.name}`}
           className="flex items-center gap-6"
         >
-          <ServiceMotif
-            motif={service.motif}
-            className={cn("hidden h-10 w-10 transition-colors sm:block", open ? theme.text : "text-ink/70")}
+          <ServiceIcon
+            slug={service.slug}
+            accent={theme.accent}
+            className={cn("hidden size-11 transition-colors sm:block", open ? theme.text : "text-ink")}
           />
           <ArrowRight
             className={cn(

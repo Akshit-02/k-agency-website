@@ -33,6 +33,9 @@ import { Reveal } from "@/components/animations/Reveal";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
 import { ContentCalendarGraphic } from "@/components/smm/ContentCalendarGraphic";
 import { FinalCTA } from "@/components/home/FinalCTA";
+import { Pictogram, type PictogramName } from "@/components/icons/Pictogram";
+import { PlatformLogo, platformIdFromName } from "@/components/icons/PlatformLogo";
+import { ServiceIcon, slugFromServiceHref } from "@/components/icons/ServiceIcon";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = buildMetadata({
@@ -42,6 +45,31 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const accents = ["bg-coral", "bg-violet", "bg-lime", "bg-ink"];
+
+/** One pictogram per approach step, in the order of smmApproach (brand, category, objectives ... review). */
+const approachIcons: PictogramName[] = [
+  "brief",
+  "research",
+  "target",
+  "strategy",
+  "calendar",
+  "approval",
+  "publish",
+  "community",
+  "report",
+];
+
+/** Pictogram per capability id in smmCapabilities. */
+const capabilityIcons: Record<string, PictogramName> = {
+  strategy: "strategy",
+  "content-planning": "calendar",
+  "creative-design": "design",
+  "reels-short-form-video": "video",
+  copywriting: "copy",
+  publishing: "publish",
+  "community-management": "community",
+  "analytics-reporting": "analytics",
+};
 
 export default function SocialMediaManagementPage() {
   const service = getServiceBySlug(SMM_SLUG);
@@ -176,7 +204,7 @@ export default function SocialMediaManagementPage() {
                 <Reveal delay={(i % 3) * 0.05} className="flex h-full flex-col border-[1.5px] border-ink bg-paper p-6">
                   <div className="flex items-center justify-between">
                     <span className="font-black-display text-3xl leading-none text-ink/20">{String(i + 1).padStart(2, "0")}</span>
-                    <span className={cn("h-2 w-10", accents[i % accents.length])} aria-hidden="true" />
+                    <Pictogram name={approachIcons[i] ?? "calendar"} className="size-11 text-ink" />
                   </div>
                   <h3 className="mt-5 font-display text-xl tracking-tight text-ink">{step.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-ink/65">{step.body}</p>
@@ -219,7 +247,7 @@ export default function SocialMediaManagementPage() {
               {smmCapabilities.map((cap, i) => (
                 <Reveal key={cap.id}>
                   <article id={cap.id} className="scroll-mt-28 border-[1.5px] border-ink bg-paper p-7 sm:p-10">
-                    <div className="flex flex-wrap items-baseline gap-4">
+                    <div className="flex flex-wrap items-center gap-4">
                       <span
                         className={cn(
                           "flex size-10 shrink-0 items-center justify-center font-black-display text-lg",
@@ -230,6 +258,9 @@ export default function SocialMediaManagementPage() {
                         {cap.letter}
                       </span>
                       <h3 className="font-display text-3xl tracking-tight text-ink">{cap.title}</h3>
+                      {capabilityIcons[cap.id] && (
+                        <Pictogram name={capabilityIcons[cap.id]} className="ml-auto hidden size-12 text-ink sm:block" />
+                      )}
                     </div>
                     <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink/70">{cap.summary}</p>
                     <ul className="mt-6 flex flex-wrap gap-2">
@@ -280,7 +311,13 @@ export default function SocialMediaManagementPage() {
           <StaggerReveal className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {smmPlatforms.map((platform) => (
               <StaggerItem key={platform.name} className="flex flex-col border-[1.5px] border-paper/20 bg-violet-dim p-7">
-                <h3 className="font-display text-3xl tracking-tight">{platform.name}</h3>
+                <h3 className="flex items-center gap-3 font-display text-3xl tracking-tight">
+                  {(() => {
+                    const id = platformIdFromName(platform.name);
+                    return id ? <PlatformLogo platform={id} className="size-7 text-paper" /> : null;
+                  })()}
+                  {platform.name}
+                </h3>
                 <p className="mt-3 text-sm leading-relaxed text-paper/70">{platform.role}</p>
                 <ul className="mt-5 space-y-2">
                   {platform.focus.map((item) => (
@@ -505,7 +542,8 @@ export default function SocialMediaManagementPage() {
                 href={r.href}
                 className="group border-[1.5px] border-ink bg-paper p-6 transition-colors hover:bg-ink hover:text-paper"
               >
-                <p className="font-display text-lg tracking-tight">{r.name}</p>
+                <ServiceIcon slug={slugFromServiceHref(r.href)} accent="coral" className="size-10" />
+                <p className="mt-4 font-display text-lg tracking-tight">{r.name}</p>
                 <p className="mt-2 text-sm opacity-60">{r.body}</p>
               </Link>
             ))}
