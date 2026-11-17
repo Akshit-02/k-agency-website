@@ -14,10 +14,11 @@ import { FinalCTA } from "@/components/home/FinalCTA";
 import { Container } from "@/components/ui/Container";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Influencer Marketing & Social Media Services",
+  title: "Influencer, UGC & Social Media Services in India | Kudozz",
   description:
-    "Kudozz services: social media management, influencer marketing from strategy and creator discovery to paid, barter and affiliate campaigns, and UGC production.",
+    "All Kudozz services for brands in India: influencer marketing from strategy to reporting, UGC campaigns and video production, and social media management.",
   path: "/services",
+  absoluteTitle: true,
 });
 
 const hubFaqs = [

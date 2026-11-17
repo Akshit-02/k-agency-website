@@ -20,7 +20,7 @@ export function ServicesHero() {
           <h1 className="mt-6 max-w-3xl font-display text-6xl leading-[0.98] tracking-tight text-balance text-ink sm:text-8xl">
             {/* The descriptive phrase leads the H1 for search; the slogan stays the visual headline (as on /for-brands). */}
             <span className="mb-5 block font-sans text-sm font-semibold uppercase tracking-[0.16em] text-ink/70 sm:text-base">
-              Social media, influencer marketing and UGC services
+              Influencer, UGC and social media marketing services in India
               <span className="sr-only">:</span>
             </span>
             Three service areas. One coordinated <em className="italic text-coral">team.</em>

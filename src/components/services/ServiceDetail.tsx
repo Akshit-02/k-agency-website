@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/animations/Reveal";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
 import { markets, marketPhrase } from "@/content/markets";
+import { ServiceChoosing } from "@/components/services/ServiceChoosing";
 
 const themes = [
   { bg: "bg-coral", text: "text-ink" },
@@ -18,11 +19,14 @@ const themes = [
   { bg: "bg-ink", text: "text-paper" },
 ];
 
-/** Lowercases a service name for use mid-sentence while keeping acronyms such as "UGC" intact. */
+/** Words that keep their casing mid-sentence: platform names and acronyms such as "UGC" or "ROI". */
+const KEEP_CASE = new Set(["Instagram", "YouTube", "LinkedIn", "India"]);
+
+/** Lowercases a service name for use mid-sentence while keeping acronyms and platform names intact. */
 function sentenceCase(name: string) {
   return name
     .split(" ")
-    .map((word) => (word === word.toUpperCase() ? word : word.toLowerCase()))
+    .map((word) => (word === word.toUpperCase() || KEEP_CASE.has(word) ? word : word.toLowerCase()))
     .join(" ");
 }
 
@@ -53,11 +57,11 @@ export function ServiceDetail({
         <Container className="relative">
           <Breadcrumbs items={breadcrumbItems} className="mb-6" />
           <Reveal>
-            <Eyebrow>Service {service.index}</Eyebrow>
+            <Eyebrow>{service.name}</Eyebrow>
           </Reveal>
           <Reveal delay={0.06}>
             <h1 className="mt-6 max-w-3xl font-display text-5xl leading-[1.0] tracking-tight text-balance text-ink sm:text-6xl lg:text-7xl">
-              {service.name}
+              {service.heroTitle}
             </h1>
           </Reveal>
           <Reveal delay={0.12}>
@@ -216,6 +220,8 @@ export function ServiceDetail({
           </Container>
         </section>
       )}
+
+      {service.choosing && <ServiceChoosing {...service.choosing} />}
 
       <section className="bg-paper-dim py-20 sm:py-28">
         <Container>

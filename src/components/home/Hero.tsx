@@ -28,23 +28,26 @@ export function Hero() {
       <Container className="relative pb-20 sm:pb-28">
         <div className="grid gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-6">
           <div>
-            {/* The search phrase leads the H1; the brand line stays the visual headline. */}
+            <motion.p
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+              className="inline-flex items-center gap-2 border-[1.5px] border-ink px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-ink sm:text-sm"
+            >
+              <span className="h-1.5 w-1.5 rounded-full bg-coral" aria-hidden="true" />
+              For D2C, e-commerce and consumer brands
+            </motion.p>
+
+            {/* The only H1 on the page: names all three services, the country and who they're for, without a superlative. */}
             {/* No opacity fade on the H1: it is the LCP element and must paint before hydration. */}
             <motion.h1
               initial={{ y: 26 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.75, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="text-ink"
+              className="mt-6 font-display text-[10vw] leading-[0.98] tracking-tight text-balance text-ink sm:text-6xl lg:text-[3.9rem]"
             >
-              <span className="inline-flex items-center gap-2 border-[1.5px] border-ink px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] sm:text-sm">
-                <span className="h-1.5 w-1.5 rounded-full bg-coral" aria-hidden="true" />
-                Influencer Marketing &amp; Social Media Agency in India
-                <span className="sr-only">:</span>
-              </span>
-              <span className="mt-6 block font-display text-[11vw] leading-[0.98] tracking-tight text-balance sm:text-6xl lg:text-[4.1rem]">
-                Build your brand&apos;s social presence with strategy, content and{" "}
-                <em className="italic text-coral">creators.</em>
-              </span>
+              India&apos;s influencer, UGC and social media marketing agency for{" "}
+              <em className="italic text-coral">growing brands.</em>
             </motion.h1>
 
             <motion.p
@@ -53,10 +56,9 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.28, ease: [0.16, 1, 0.3, 1] }}
               className="mt-7 max-w-lg text-lg leading-relaxed text-ink/70 text-pretty"
             >
-              Kudozz brings social media management, influencer marketing and creator-led content together to help
-              brands connect with the right audiences. We run your brand&apos;s own accounts, find and vet creators whose
-              audiences match your customers, and report against the goals you set at the start. Influencer campaigns
-              run in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.
+              Kudozz helps brands work with the right creators, produce UGC videos they can run in ads and on product
+              pages, and keep a consistent presence on social media, with every engagement planned around your
+              objective and reported against it.
             </motion.p>
 
             <motion.div
@@ -66,9 +68,9 @@ export function Hero() {
               className="mt-10 flex flex-wrap items-center gap-4"
             >
               <Button href={homeInquiryHref("hero")} size="lg" magnetic>
-                Let&apos;s Discuss Your Brand
+                Let&apos;s Grow Your Brand
               </Button>
-              <Button href="/services" variant="secondary" size="lg">
+              <Button href="#service-areas" variant="secondary" size="lg">
                 Explore Our Services
               </Button>
             </motion.div>

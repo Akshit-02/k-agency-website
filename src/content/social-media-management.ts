@@ -16,10 +16,49 @@ export function smmInquiryHref(position: string) {
   return `/for-brands?from=service:${SMM_SLUG}&pos=${position}&t=Social%20Media%20Management#inquiry`;
 }
 
+/**
+ * One page serves both "social media marketing agency" and "social media management agency" searches, because it is the
+ * only page that delivers either service (reports/kudozz-service-seo/02). Paid social stays "scoped separately".
+ */
 export const smmMeta = {
-  title: "Social Media Management Services for Brands",
+  title: "Best Social Media Marketing & Management Agency in India",
   description:
-    "Social media management for brands: strategy, content calendars, posts, Reels, publishing, community management and monthly reporting, connected with creators.",
+    "Looking for the best social media marketing and management agency in India? Kudozz plans, creates, publishes and reports on your brand's social media.",
+};
+
+/** "What to look for" section; every answer restates a practice already on this page or in its FAQs. */
+export const smmChoosing = {
+  title: "What to look for in a social media marketing agency",
+  intro:
+    "Plenty of agencies can post for you. These are the questions that show whether one will actually run your accounts well, and how we answer them.",
+  points: [
+    {
+      lookFor: "A strategy, not just a posting schedule",
+      kudozz:
+        "Every engagement starts with an audit of your accounts and competitors, then platforms, content pillars, tone and a posting rhythm. We revisit it each quarter.",
+    },
+    {
+      lookFor: "A written scope",
+      kudozz:
+        "Platforms, the number of posts, Reels and Stories, and community management hours are listed in your scope. Paid social, shoots and customer support are scoped separately.",
+    },
+    {
+      lookFor: "Content made for each platform",
+      kudozz: "Each platform gets its own job and its own formats. We don't copy one post across every app.",
+    },
+    {
+      lookFor: "A rhythm your team can approve",
+      kudozz: "We agree a posting rhythm you can keep up with and an approval step that fits your team, rather than promising daily posts that stop after a month.",
+    },
+    {
+      lookFor: "Reports that lead to decisions",
+      kudozz: "A monthly report on what performed, why, and what we'll change next month, using the metrics each platform makes available.",
+    },
+    {
+      lookFor: "A link to creators and UGC",
+      kudozz: "Because Kudozz also runs influencer campaigns and UGC, creator content and your own content can be planned on one calendar.",
+    },
+  ],
 };
 
 export const smmAnswer = {
@@ -326,6 +365,16 @@ export const smmScopedSeparately: { title: string; body: string }[] = [
 ];
 
 export const smmFaqs: { question: string; answer: string }[] = [
+  {
+    question: "How do I choose a social media marketing agency in India?",
+    answer:
+      "Ask for an audit of your current accounts before you sign, a written scope listing platforms and monthly deliverables, examples of how they'd adapt content for each platform, what the monthly report contains, and which work is outside the fee, such as paid ads or shoots. A good agency will tell you which platforms you don't need.",
+  },
+  {
+    question: "Is social media marketing the same as social media management?",
+    answer:
+      "They overlap. Social media management is the ongoing running of your accounts: planning, content, publishing, community and reporting. Social media marketing is the wider use of social channels to reach business goals, which can also include paid ads and creator campaigns. Kudozz covers organic management and creator campaigns; paid social ads are scoped separately.",
+  },
   {
     question: "What does social media management include?",
     answer:

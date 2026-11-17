@@ -33,8 +33,19 @@ export type Service = {
   comparison?: ServiceComparison;
   /** Hand-picked related services; falls back to the category neighbours. */
   relatedSlugs?: string[];
-  /** Search-result title; the service name alone reads oddly with a "Services" suffix. */
+  /**
+   * Search-result title, without the brand: the route appends " | Kudozz" unless the title is too long to carry it
+   * (see SERVICE_TITLE_BRAND_LIMIT in src/app/services/[slug]/page.tsx). Each title targets one distinct primary
+   * keyword; see reports/kudozz-service-seo/02-keyword-research-and-mapping.md before changing it.
+   */
   seoTitle: string;
+  /** The page's H1. Carries the primary keyword; `name` stays the short label used in navigation, cards and schema. */
+  heroTitle: string;
+  /**
+   * Optional "what to look for in an agency" section: the questions a buyer should ask, each paired with how Kudozz
+   * actually handles it. Every answer must describe a practice already stated elsewhere on the site.
+   */
+  choosing?: { title: string; intro: string; points: { lookFor: string; kudozz: string }[] };
   /** Blog guides that go deeper on this service, linked from the service page (slugs in src/content/blog.ts). */
   guides: string[];
   shortDescription: string;
@@ -89,7 +100,38 @@ const serviceList: ServiceInput[] = [
       text: "Influencer marketing services cover everything between a brand's objective and a finished creator campaign: strategy and a single agreed KPI, finding and vetting creators, outreach and contracts, briefs and content approvals, disclosure checks, publishing and a report against that KPI. Kudozz can run the whole campaign or take on one part of it, such as creator discovery or reporting.",
     },
     name: "Influencer Marketing Services",
-    seoTitle: "Influencer Marketing Services: Strategy to Reporting",
+    seoTitle: "Best Influencer Marketing Services in India",
+    heroTitle: "Best Influencer Marketing Services in India for Growing Brands",
+    choosing: {
+      title: "What to look for in an influencer marketing company",
+      intro: "Most agencies can send a list of creators. These are the questions that separate a campaign partner from a booking service, and how we answer each one.",
+      points: [
+        {
+          lookFor: "A plan before a creator list",
+          kudozz: "We agree the objective, one primary KPI, the budget and the markets before any creator is contacted.",
+        },
+        {
+          lookFor: "Evidence that creators were vetted",
+          kudozz: "Every shortlisted creator is screened for audience location, engagement quality and fake followers, and comes with a written reason for being on the list.",
+        },
+        {
+          lookFor: "Fees you can see",
+          kudozz: "Our written plan shows creator fees and agency fees separately, so you know what each creator costs.",
+        },
+        {
+          lookFor: "Content rights settled up front",
+          kudozz: "Where content can run, for how long and whether it can be used in paid ads is agreed in each creator contract before anything is made.",
+        },
+        {
+          lookFor: "Disclosure handled properly",
+          kudozz: "Sponsored posts carry the label each market requires. In India we follow ASCI's influencer guidelines and check labels at the approval stage.",
+        },
+        {
+          lookFor: "Reporting against the goal",
+          kudozz: "Results are reported by creator against the KPI agreed at the start, with tracked links or codes where sales attribution is possible.",
+        },
+      ],
+    },
     guides: [
       "what-is-influencer-marketing",
       "influencer-marketing-strategy",
@@ -102,9 +144,9 @@ const serviceList: ServiceInput[] = [
     ],
     shortDescription: "End-to-end creator campaigns, from strategy and creator selection to reporting.",
     description:
-      "Kudozz plans and runs influencer campaigns for brands: we agree the objective and one KPI, choose creators for audience fit rather than follower count, manage outreach, contracts, briefs and approvals, and report results against the KPI we agreed at the start.",
+      "Kudozz runs influencer marketing for brands in India from the first brief to the final report. We agree the objective and one KPI, choose creators for audience fit rather than follower count, handle outreach, contracts, briefs and approvals, and report results creator by creator.",
     metaDescription:
-      "End-to-end influencer marketing services from Kudozz: strategy, creator discovery and vetting, outreach, contracts, content approvals and KPI reporting.",
+      "Looking for the best influencer marketing services in India? Kudozz plans the strategy, vets creators, manages every collaboration and reports against your KPI.",
     secondaryKeywords: [
       "influencer marketing services",
       "influencer marketing agency",
@@ -156,7 +198,7 @@ const serviceList: ServiceInput[] = [
         ["Best for", "Awareness, trust and launches through voices your customers follow", "Ad creative, product pages and a steady supply of content", "A consistent, active brand presence"],
       ],
     },
-    relatedSlugs: ["ugc-content-production", "social-media-management", "micro-nano-influencer-marketing"],
+    relatedSlugs: ["ugc-campaigns", "social-media-management", "ugc-content-production"],
     includesCategories: ["plan-and-manage", "campaign-types", "platforms", "audiences"],
     faqs: [
       {
@@ -189,6 +231,16 @@ const serviceList: ServiceInput[] = [
         answer:
           "Send a brand inquiry with your objective, product, markets and rough budget. We come back with questions or a point of view, then a proposal covering the strategy, creator mix, timeline and fees before any work begins.",
       },
+      {
+        question: "How does influencer campaign management work at Kudozz?",
+        answer:
+          "One point of contact runs the campaign after the strategy is agreed: outreach and negotiation, contracts and usage rights, briefs, draft reviews against the brief and disclosure rules, publishing dates and payment against delivered work. You approve the shortlist and the content; we chase everything else.",
+      },
+      {
+        question: "Is an agency better than contacting influencers directly?",
+        answer:
+          "Not always. If you need two or three creators you already know, working directly can be cheaper. An agency earns its fee when you need many creators, vetting you can't do in-house, contracts that cover usage rights and disclosure, or reporting that compares creators against one KPI.",
+      },
     ],
     socialNote: {
       before: "Running your own brand accounts as well? Creator campaigns land better when your feed is ready for the attention. See ",
@@ -204,12 +256,13 @@ const serviceList: ServiceInput[] = [
     },
     name: "Influencer Marketing Strategy",
     seoTitle: "Influencer Marketing Strategy Services in India",
+    heroTitle: "Influencer Marketing Strategy Services in India",
     guides: ["influencer-marketing-strategy", "influencer-marketing-budget", "influencer-budget-allocation", "influencer-marketing-kpis", "influencer-marketing-cost-india"],
     shortDescription: "Campaign planning built on audience, objective, and platform.",
     description:
       "Every campaign starts with a strategic brief, not a creator list. We study your audience, category, and business objective, then map the platform mix, content formats, and creator tiers most likely to move the metric you actually care about.",
     metaDescription:
-      "Influencer marketing strategy from Kudozz: audience research, platform and format planning, creator tiering and a KPI framework before outreach begins.",
+      "Influencer marketing strategy for brands in India: audience research, platform and format planning, creator tiering and a KPI framework before any outreach.",
     secondaryKeywords: ["influencer marketing strategy services", "influencer marketing strategy", "influencer campaign planning", "influencer marketing plan"],
     whoItsFor:
       "Brands running their first influencer campaign, or teams whose past campaigns produced reach without measurable results.",
@@ -283,13 +336,14 @@ const serviceList: ServiceInput[] = [
       text: "Creator discovery is finding creators whose audience matches your customer, then checking their engagement, authenticity and content fit before you commit budget. Kudozz screens on audience location, age, language and engagement quality rather than follower count, and delivers a shortlist with a written reason for every creator on it.",
     },
     name: "Creator Discovery & Matchmaking",
-    seoTitle: "Creator Discovery & Influencer Matchmaking Services",
+    seoTitle: "Influencer Discovery & Selection Services in India",
+    heroTitle: "Influencer Discovery & Selection Services in India",
     guides: ["find-indian-influencers", "how-to-vet-influencers", "how-to-identify-fake-followers", "influencer-shortlist", "micro-vs-macro-influencers"],
     shortDescription: "Finding creators aligned with your audience and goals — not just your category.",
     description:
       "We screen for audience overlap, engagement quality, content style, and brand fit — not follower count alone. Every shortlist is vetted for authenticity signals before it reaches you.",
     metaDescription:
-      "Creator discovery that screens for audience overlap, engagement quality and authenticity, not follower count, with a written reason for each creator.",
+      "Influencer discovery for brands in India: creators screened for audience fit, engagement quality and fake followers, with a written reason for every name.",
     secondaryKeywords: ["creator discovery services", "influencer discovery services", "creator matchmaking", "find influencers for brand"],
     whoItsFor:
       "Brands who have tried building creator shortlists in-house using follower count or hashtag search and gotten inconsistent results.",
@@ -367,13 +421,14 @@ const serviceList: ServiceInput[] = [
       text: "Influencer campaign management covers everything between choosing creators and reporting: outreach, rate negotiation, contracts and usage rights, briefs, draft approvals, disclosure checks, publishing dates and payments. Kudozz runs it through one point of contact, so your team approves the work without chasing every creator itself.",
     },
     name: "Influencer Outreach & Management",
-    seoTitle: "Influencer Outreach & Campaign Management Services",
+    seoTitle: "Influencer Campaign Management Services in India",
+    heroTitle: "Influencer Campaign Management Services in India",
     guides: ["influencer-campaign-management", "how-to-negotiate-with-influencers", "influencer-marketing-contract", "influencer-campaign-brief", "influencer-outreach-email", "best-influencer-campaign-management-agencies-in-india"],
     shortDescription: "Negotiation, contracts, and day-to-day coordination handled end to end.",
     description:
       "From first outreach to final invoice, we manage the relationship — negotiating terms, aligning deliverables, tracking approvals, and keeping creators and brand stakeholders in sync.",
     metaDescription:
-      "Influencer outreach and campaign management services: negotiation, contracting, usage rights, and deliverable tracking handled by a single point of contact.",
+      "Influencer campaign management in India: outreach, negotiation, contracts, usage rights, briefs and approvals, handled for you by a single point of contact.",
     secondaryKeywords: ["influencer outreach services", "influencer campaign management services", "influencer campaign management", "creator management"],
     comparison: {
       title: "Managing creators in-house vs with Kudozz",
@@ -467,13 +522,14 @@ const serviceList: ServiceInput[] = [
       text: "A multi-creator social media campaign coordinates several creators across one or more platforms around one message and one publishing window. Kudozz staggers posts so reach builds across the window, keeps the message consistent while each creator uses their own voice, and flags the strongest posts for paid amplification.",
     },
     name: "Social Media Campaigns",
-    seoTitle: "Multi-Creator Social Media Campaign Services",
+    seoTitle: "Multi-Creator Social Media Campaigns in India",
+    heroTitle: "Multi-Creator Social Media Campaigns in India",
     guides: ["how-to-create-a-successful-influencer-marketing-campaign", "influencer-marketing-campaign-ideas", "instagram-influencer-marketing", "pan-india-influencer-marketing-campaign", "regional-influencer-marketing-india"],
     shortDescription: "Multi-creator campaigns engineered for coordinated reach and engagement.",
     description:
       "We orchestrate multi-creator, multi-platform pushes with staggered publishing, consistent messaging, and cross-promotion designed to compound reach instead of fragmenting it.",
     metaDescription:
-      "Social media influencer campaigns run across many creators and platforms, with a publishing calendar, creative direction and live performance monitoring.",
+      "Multi-creator social media campaigns in India: many creators across platforms, one publishing calendar, aligned creative direction and live monitoring.",
     secondaryKeywords: ["social media influencer campaigns", "multi-creator campaigns", "influencer social media marketing"],
     whoItsFor: "Brands running a coordinated push across multiple creators and platforms rather than a single sponsored post.",
     deliverables: [
@@ -535,19 +591,42 @@ const serviceList: ServiceInput[] = [
   },
   {
     slug: "product-launches",
-    relatedSlugs: ["influencer-seeding-gifting", "social-campaigns", "youtube-influencer-marketing"],
+    relatedSlugs: ["influencer-marketing", "influencer-seeding-gifting", "ugc-campaigns"],
     answer: {
       question: "How do influencers help a product launch?",
       text: "Influencers help a launch by building anticipation before it, coverage on the day and reviews after it. Kudozz sequences all three around your launch date: embargoed seeding to a small group first, coordinated posts on launch day, then reuse of the best content in ads and on your site once the window closes.",
     },
     name: "Product Launch Campaigns",
-    seoTitle: "Influencer Marketing for Product Launches",
+    seoTitle: "Best Product Launch Influencer Marketing Agency in India",
+    heroTitle: "Best Product Launch Influencer Marketing Agency in India",
+    choosing: {
+      title: "What to look for in a product launch influencer agency",
+      intro: "A launch has one date and no second chance. Check how the agency handles timing as much as creators.",
+      points: [
+        {
+          lookFor: "Planning that starts early enough",
+          kudozz: "We recommend starting four to six weeks before launch for seeding and embargoed content. Two weeks is possible when it has to be.",
+        },
+        {
+          lookFor: "Embargo control",
+          kudozz: "Release timing is written into creator agreements and managed so nobody posts before your announcement.",
+        },
+        {
+          lookFor: "Launch-day coordination",
+          kudozz: "Coverage across every creator is scheduled and monitored on the day itself.",
+        },
+        {
+          lookFor: "A plan for after launch day",
+          kudozz: "We plan how launch content is reused in paid and owned channels once the first window closes.",
+        },
+      ],
+    },
     guides: ["influencers-for-product-launch", "influencer-product-seeding-program", "instagram-product-launch-campaigns", "influencer-marketing-campaign-timeline"],
     shortDescription: "Creator-driven buzz built around your launch window, not after it.",
     description:
-      "Launch campaigns need sequencing — teasers, seeding, day-of coverage, and aftermarket content. We build the creator rollout calendar around your launch date, not the other way around.",
+      "Launch campaigns need sequencing: teasers, seeding, launch-day coverage and the content that keeps working afterwards. Kudozz builds the creator rollout around your launch date, for brands launching in India and beyond.",
     metaDescription:
-      "Product launch influencer campaigns: pre-launch seeding, embargoes, launch-day creator coordination and post-launch content, planned around your date.",
+      "Looking for the best product launch influencer marketing agency in India? Kudozz plans seeding, embargoes and launch-day creator coverage around your date.",
     secondaryKeywords: ["product launch influencer marketing", "influencer product launch", "launch campaign creators"],
     whoItsFor: "Brands with a fixed launch date who need creator buzz sequenced around it, not scattered before or after.",
     deliverables: [
@@ -614,13 +693,40 @@ const serviceList: ServiceInput[] = [
       text: "A UGC campaign is a programme of creator-made content that your brand publishes on its own channels and ads, rather than paying for posts on the creator's profile. Kudozz plans the angles to test, sources and briefs creators, clears usage rights, and uses ad results to decide what the next batch of content should be.",
     },
     name: "UGC Campaigns",
-    seoTitle: "UGC Campaign Services for Brands in India",
+    seoTitle: "Best UGC Marketing Agency in India",
+    heroTitle: "Best UGC Marketing Agency in India for Brand Content",
+    choosing: {
+      title: "What to look for in a UGC marketing agency",
+      intro: "UGC is cheap to order and easy to get wrong. Before you choose a partner, check how it handles casting, rights and testing.",
+      points: [
+        {
+          lookFor: "Creators cast for delivery, not followers",
+          kudozz: "UGC runs on your channels, not the creator's, so we cast for how creators come across on camera and how closely they resemble your customer.",
+        },
+        {
+          lookFor: "Usage rights in writing",
+          kudozz: "Where, for how long and in which formats you can use each video, including in paid ads, is cleared before production.",
+        },
+        {
+          lookFor: "A testing plan, not a pile of videos",
+          kudozz: "Each round tests named angles and hooks. Your ad results decide what the next brief covers.",
+        },
+        {
+          lookFor: "Honesty about what UGC is",
+          kudozz: "Commissioned UGC is paid creator content. We don't present it as unprompted customer reviews, and we follow disclosure rules wherever it runs.",
+        },
+        {
+          lookFor: "Language range",
+          kudozz: "We produce UGC in regional Indian languages, and in Arabic and English for Gulf campaigns, with creators who speak the language natively.",
+        },
+      ],
+    },
     guides: ["what-is-ugc-marketing", "ugc-vs-influencer-content-whats-the-difference", "how-to-find-ugc-creators", "ugc-content-cost-india", "ugc-ads-indian-brands"],
     shortDescription: "A repeatable UGC programme: angles, creators, rights and ad testing.",
     description:
-      "Not every asset needs a full influencer post. We run UGC as a programme: we decide which angles and hooks to test, source creators for them, clear rights for ads and owned channels, then use the ad results to brief the next round.",
+      "Kudozz runs UGC marketing as a programme for brands in India. We decide which angles and hooks to test, cast UGC creators for them, clear the rights for ads and your own channels, then use the ad results to brief the next round.",
     metaDescription:
-      "UGC marketing agency services: UGC strategy, creator sourcing, cleared usage rights and ad-testing rounds that turn creator content into a repeatable programme.",
+      "Looking for the best UGC marketing agency in India? Kudozz plans UGC strategy, casts creators, clears usage rights and tests UGC ads round after round.",
     secondaryKeywords: ["UGC marketing agency", "UGC campaign management", "UGC campaigns for brands", "user-generated content creators"],
     whoItsFor:
       "Brands who want UGC as an ongoing source of ads and owned content, planned and improved round by round, rather than reach on the creator's own following.",
@@ -679,8 +785,18 @@ const serviceList: ServiceInput[] = [
         answer:
           "Yes. UGC can be produced in regional Indian languages and, for Gulf campaigns, in Arabic and English, with creators who speak the language natively. When UGC will run as ads in another country, usage rights and disclosure follow that market's rules, which are agreed before production.",
       },
+      {
+        question: "How do I choose a UGC marketing agency in India?",
+        answer:
+          "Ask to see how the agency casts creators, what usage rights its contracts cover, how it uses ad results to brief the next round, and whether it can work in the languages your customers use. Ask for sample scripts or hooks before you sign, and check that creator fees and agency fees are shown separately.",
+      },
+      {
+        question: "Can brands use UGC videos in paid ads?",
+        answer:
+          "Yes, if the rights allow it. Running UGC as Meta or YouTube ads, or through a creator's handle as a partnership ad, needs paid-usage rights agreed with the creator for a set period. We clear those rights before production so the videos can go straight into your ad account.",
+      },
     ],
-    relatedSlugs: ["ugc-content-production", "paid-influencer-campaigns", "influencer-affiliate-marketing"],
+    relatedSlugs: ["influencer-marketing", "ugc-content-production", "social-media-management"],
     socialNote: {
       before: "UGC isn't only for ads. Where usage rights allow, it can fill your organic feed with real voices between designed posts. Our ",
       linkText: "social media management",
@@ -695,13 +811,14 @@ const serviceList: ServiceInput[] = [
       text: "A brand ambassador program is a long-term agreement with a group of creators who post about your brand regularly, usually over six or twelve months, instead of once. Kudozz designs the incentives and content cadence, recruits and onboards ambassadors, manages them day to day and reviews the results every quarter.",
     },
     name: "Brand Ambassador Programs",
-    seoTitle: "Brand Ambassador Program Services",
+    seoTitle: "Brand Ambassador Program Services in India",
+    heroTitle: "Brand Ambassador Program Services in India",
     guides: ["brand-ambassador-program", "influencer-partnerships", "always-on-influencer-marketing", "employee-influencer-marketing"],
     shortDescription: "Long-term creator relationships built to compound over time.",
     description:
       "One-off posts rarely build trust. We design ambassador programs — retainers, tiered incentives, and recurring content cadences — that turn creators into long-term brand partners.",
     metaDescription:
-      "Brand ambassador programmes: incentive design, ambassador recruitment and ongoing relationship management for creator partnerships that last.",
+      "Brand ambassador programmes in India: incentive design, ambassador recruitment and ongoing management for creator partnerships that last beyond one campaign.",
     secondaryKeywords: ["brand ambassador marketing", "influencer ambassador program", "creator partnership management"],
     whoItsFor: "Brands who want an always-on creator presence rather than one-off, single-post placements.",
     deliverables: [
@@ -758,13 +875,14 @@ const serviceList: ServiceInput[] = [
       text: "Influencer campaign performance is measured against the KPI agreed before launch, such as engagement, traffic, sign-ups or sales, tracked through UTM links, promo codes and creator insights. Kudozz reports results creator by creator, labels what is measured and what is estimated, and closes with a plain-language debrief.",
     },
     name: "Campaign Reporting & Performance Tracking",
-    seoTitle: "Influencer Campaign Reporting & ROI Tracking",
+    seoTitle: "Influencer Marketing Reporting & ROI Tracking",
+    heroTitle: "Influencer Marketing Reporting & ROI Tracking",
     guides: ["measuring-influencer-campaign-roi", "influencer-marketing-kpis", "influencer-marketing-report", "influencer-engagement-rate", "influencer-marketing-roi-forecasting"],
     shortDescription: "Transparent, plain-language reporting tied to your original KPIs.",
     description:
       "You get a dashboard and a debrief — not just a spreadsheet. We track reach, engagement, and conversion signals against the goals set at kickoff, and tell you plainly what worked.",
     metaDescription:
-      "Influencer campaign reporting and ROI tracking: unified dashboards, KPI-vs-actual scorecards, and a plain-language debrief tied to the goals set before launch.",
+      "Influencer marketing reporting for brands in India: KPI-vs-actual scorecards, creator-level results, tracked links and codes, and a plain-language debrief.",
     secondaryKeywords: ["influencer campaign reporting", "influencer campaign reporting services", "influencer marketing ROI", "campaign performance tracking"],
     whoItsFor: "Brands who need influencer campaign results reported with the same rigor as paid media, not a follower-count recap.",
     deliverables: [
@@ -823,6 +941,7 @@ const serviceList: ServiceInput[] = [
     slug: "paid-influencer-campaigns",
     name: "Paid Influencer Campaigns",
     seoTitle: "Paid Influencer Campaign Services in India",
+    heroTitle: "Paid Influencer Campaign Services in India",
     answer: {
       question: "What is a paid influencer campaign?",
       text: "A paid influencer campaign pays creators a fee for agreed deliverables, such as a Reel, a YouTube integration or a set of Stories, published on agreed dates with a disclosure label. Unlike barter or gifting, the fee buys certainty: the format, timing, revisions, exclusivity and usage rights are all written into the contract.",
@@ -834,7 +953,7 @@ const serviceList: ServiceInput[] = [
     description:
       "When a post has to go live on a set date, in a set format, with usage rights you can rely on, you pay for it. We scope, price and contract paid collaborations so every fee maps to a named deliverable, a publishing date and a disclosure label.",
     metaDescription:
-      "Paid influencer campaign services: fee-based creator collaborations with fixed deliverables, dates, usage rights and disclosure, negotiated and managed for you.",
+      "Paid influencer campaigns in India: fee-based creator collaborations with fixed deliverables, dates, usage rights and disclosure, negotiated and managed for you.",
     secondaryKeywords: ["paid influencer campaigns", "paid influencer marketing", "paid creator collaborations", "sponsored influencer posts"],
     whoItsFor:
       "Brands that need guaranteed posts on fixed dates, exclusivity, or content they can run as ads, and have outgrown gifting and barter.",
@@ -898,7 +1017,8 @@ const serviceList: ServiceInput[] = [
   {
     slug: "barter-influencer-campaigns",
     name: "Barter Influencer Campaigns",
-    seoTitle: "Barter Influencer Campaigns for Brands in India",
+    seoTitle: "Barter Influencer Campaign Services in India",
+    heroTitle: "Barter Influencer Campaign Services in India",
     answer: {
       question: "What is a barter influencer campaign?",
       text: "A barter influencer campaign gives creators your product, service or an experience in exchange for agreed content, instead of a cash fee. Unlike pure gifting, the deliverables are agreed in writing: what the creator posts, on which platform and by when. It suits nano and micro creators, products with real value, and brands testing creator fit before paying fees.",
@@ -910,7 +1030,7 @@ const serviceList: ServiceInput[] = [
     description:
       "Barter works when the product is worth the creator's time and both sides know what's expected. We match products to creators who would genuinely use them, agree the deliverables in writing and track every post, so barter stops being a scatter of free samples.",
     metaDescription:
-      "Barter influencer campaign services: product-for-content collaborations with nano and micro creators, written deliverables, disclosure checks and post tracking.",
+      "Barter influencer campaigns in India: product-for-content collaborations with nano and micro creators, written deliverables, disclosure checks and post tracking.",
     secondaryKeywords: ["barter influencer marketing", "barter collaboration with influencers", "barter influencer campaigns", "product for content collaborations"],
     whoItsFor:
       "D2C, beauty, food, fashion and hospitality brands with products or experiences creators value, testing creators before paying fees or scaling with nano and micro tiers.",
@@ -974,7 +1094,8 @@ const serviceList: ServiceInput[] = [
   {
     slug: "influencer-seeding-gifting",
     name: "Influencer Seeding & Gifting",
-    seoTitle: "Influencer Seeding & Product Gifting Services",
+    seoTitle: "Influencer Seeding & Gifting Services in India",
+    heroTitle: "Influencer Seeding & Gifting Services in India",
     answer: {
       question: "What is influencer seeding?",
       text: "Influencer seeding, or gifting, is sending your product to selected creators with no payment and no obligation to post. Brands use it to earn organic mentions, get honest reactions and find creators who like the product enough to partner with later. If a creator does post, the post still needs a disclosure label, such as 'Free gift' in India.",
@@ -985,7 +1106,7 @@ const serviceList: ServiceInput[] = [
     description:
       "Seeding puts your product with creators who would genuinely like it, without paying them or requiring a post. Done well, it produces organic mentions and tells you which creators to partner with next. We build the list, handle opt-ins and logistics, and track who posts.",
     metaDescription:
-      "Influencer seeding and gifting services: curated creator lists, opt-ins, shipping, disclosure guidance and mention tracking to find your next paid partners.",
+      "Influencer seeding and gifting in India: curated creator lists, opt-ins, shipping, disclosure guidance and mention tracking to find your next paid partners.",
     secondaryKeywords: ["influencer seeding", "influencer gifting services", "product seeding agency", "PR packages for influencers"],
     whoItsFor:
       "Brands with products creators genuinely want, such as beauty, fashion, food, gadgets and home, who want organic word of mouth and a tested shortlist for future paid work.",
@@ -1049,7 +1170,8 @@ const serviceList: ServiceInput[] = [
   {
     slug: "influencer-affiliate-marketing",
     name: "Influencer Affiliate & Performance Marketing",
-    seoTitle: "Influencer Affiliate & Performance Marketing",
+    seoTitle: "Influencer Affiliate Marketing Services in India",
+    heroTitle: "Influencer Affiliate Marketing Services in India",
     answer: {
       question: "What is influencer affiliate marketing?",
       text: "Influencer affiliate marketing pays creators a commission on the sales or sign-ups they drive, tracked through unique links or discount codes. Performance-based deals can be pure commission or a hybrid of a smaller fixed fee plus commission. It works best for products bought online, where each sale can be traced back to a creator.",
@@ -1071,7 +1193,7 @@ const serviceList: ServiceInput[] = [
     description:
       "If you sell online and can track a sale, creators can be paid partly or fully on results. We design the commission or hybrid model, set up links and codes, recruit and activate creators, and report sales by creator, so you know who actually drives revenue.",
     metaDescription:
-      "Influencer affiliate and performance marketing: commission and hybrid creator deals, tracked links and codes, creator recruitment and sales reports by creator.",
+      "Influencer affiliate marketing in India: commission and hybrid creator deals, tracked links and codes, creator recruitment and sales reports by creator.",
     secondaryKeywords: ["influencer affiliate marketing", "performance-based influencer marketing", "influencer affiliate program management", "pay per sale influencer marketing"],
     whoItsFor:
       "E-commerce, D2C, app and subscription brands with online checkout or sign-up tracking that want creator spend tied to measurable sales.",
@@ -1135,7 +1257,8 @@ const serviceList: ServiceInput[] = [
   {
     slug: "ugc-content-production",
     name: "UGC Content Production",
-    seoTitle: "UGC Video & Content Production Services",
+    seoTitle: "UGC Video Production Services in India",
+    heroTitle: "UGC Video Production & Content Creation Services in India",
     answer: {
       question: "What is UGC content production?",
       text: "UGC content production is commissioning creators to script, shoot and edit content in a natural, first-person style that your brand then publishes, mainly as ads, product page videos and social posts. The creator doesn't post it on their own profile. You pay for the assets and the right to use them, not for reach.",
@@ -1151,13 +1274,13 @@ const serviceList: ServiceInput[] = [
         ["Best for", "A defined batch of assets", "Ongoing creative testing", "Awareness and trust"],
       ],
     },
-    relatedSlugs: ["ugc-campaigns", "paid-influencer-campaigns", "regional-influencer-marketing"],
+    relatedSlugs: ["ugc-campaigns", "influencer-marketing", "social-media-management"],
     guides: ["ugc-production-workflow", "ugc-video-scripts", "ugc-brief-template", "ugc-ad-hooks", "scale-ugc-content-production", "ugc-content-usage-rights", "best-ugc-marketing-agencies-in-india"],
     shortDescription: "Scripted, shot and edited UGC assets, delivered to your specs.",
     description:
       "Sometimes you just need the assets: product videos for ads, unboxing clips for a marketplace listing, testimonials for a landing page. We handle scripts, creators, shoots, edits and variations, and deliver labelled files in the formats and ratios you need, with rights cleared.",
     metaDescription:
-      "UGC content production: scripts, creator shoots, editing, hook variations and labelled files for ads, websites and marketplaces, with usage rights cleared.",
+      "UGC video production in India: scripts, creator casting, shoots, edits and hook variations for ads, product pages and marketplaces, with usage rights cleared.",
     secondaryKeywords: ["UGC content production", "UGC video production", "UGC video creators", "UGC ads production"],
     whoItsFor:
       "Performance, e-commerce and brand teams who know what they need and want production handled: ad creative volume, marketplace videos, testimonials or product demos.",
@@ -1226,18 +1349,41 @@ const serviceList: ServiceInput[] = [
   {
     slug: "instagram-influencer-marketing",
     name: "Instagram Influencer Marketing",
-    seoTitle: "Instagram Influencer Marketing Agency Services",
+    seoTitle: "Best Instagram Influencer Marketing Agency in India",
+    heroTitle: "Best Instagram Influencer Marketing Agency in India",
+    choosing: {
+      title: "What to look for in an Instagram influencer marketing agency",
+      intro: "Instagram makes follower counts easy to see and audiences hard to judge. These checks tell you whether an agency is looking past the profile.",
+      points: [
+        {
+          lookFor: "Audience data, not screenshots of the profile",
+          kudozz: "We ask creators for recent insights on audience location, age and gender, and review comment quality and follower growth for signs of purchased followers.",
+        },
+        {
+          lookFor: "Formats chosen for the objective",
+          kudozz: "Reels for discovery, Stories for clicks and offers, carousels and collab posts for consideration, planned per campaign rather than one format for everything.",
+        },
+        {
+          lookFor: "A plan for partnership ads",
+          kudozz: "We agree ad permissions with creators up front, so the best posts can run as partnership ads from their handle.",
+        },
+        {
+          lookFor: "Correct disclosure",
+          kudozz: "Posts use Instagram's paid partnership label plus an upfront ASCI label such as 'Ad' or 'Collaboration', checked before they go live.",
+        },
+      ],
+    },
     answer: {
       question: "How does Instagram influencer marketing work?",
       text: "Brands pay or partner with Instagram creators to feature a product in Reels, Stories, carousels or collab posts, labelled with Instagram's paid partnership tag. The strongest posts can then run as partnership ads from the creator's handle. Results are judged from creator-shared insights, link clicks and codes rather than follower counts.",
     },
-    relatedSlugs: ["youtube-influencer-marketing", "ugc-content-production", "social-campaigns"],
+    relatedSlugs: ["influencer-marketing", "youtube-influencer-marketing", "ugc-campaigns"],
     guides: ["instagram-influencer-marketing", "instagram-reels-influencer-marketing", "instagram-partnership-ads", "instagram-collab-posts", "how-to-find-instagram-influencers", "instagram-influencer-marketing-roi", "best-instagram-influencer-marketing-agencies-in-india"],
     shortDescription: "Reels, Stories, collab posts and partnership ads, planned for Instagram.",
     description:
       "Instagram rewards content that feels native: Reels that hook in the first seconds, Stories with links, collab posts that appear on both profiles. We plan each campaign around those formats, choose creators from audience data, and set up partnership ads so the best posts keep working.",
     metaDescription:
-      "Instagram influencer marketing services: creators chosen from audience data, Reels, Stories and collab posts, partnership ads, disclosure checks and reporting.",
+      "Looking for the best Instagram influencer marketing agency in India? Kudozz picks creators from audience data and runs Reels, Stories and partnership ads.",
     secondaryKeywords: ["Instagram influencer marketing agency", "Instagram influencer marketing services", "Instagram creator campaigns", "Instagram Reels influencer marketing"],
     whoItsFor:
       "Consumer, D2C, beauty, fashion, food, travel and lifestyle brands whose customers discover and research products on Instagram.",
@@ -1306,18 +1452,41 @@ const serviceList: ServiceInput[] = [
   {
     slug: "youtube-influencer-marketing",
     name: "YouTube Influencer Marketing",
-    seoTitle: "YouTube Influencer Marketing Agency Services",
+    seoTitle: "Best YouTube Influencer Marketing Agency in India",
+    heroTitle: "Best YouTube Influencer Marketing Agency in India",
+    choosing: {
+      title: "What to look for in a YouTube influencer marketing agency",
+      intro: "YouTube deals cost more and last longer than most creator posts, so the details of the deal matter more.",
+      points: [
+        {
+          lookFor: "Viewers who match your customer",
+          kudozz: "We choose creators on audience and watch data, not subscriber counts, because older subscribers often no longer watch.",
+        },
+        {
+          lookFor: "Advice on the right format",
+          kudozz: "We recommend an integration, a dedicated review or Shorts based on how much explaining your product needs and the budget.",
+        },
+        {
+          lookFor: "Terms on how long videos and links stay live",
+          kudozz: "How long the video and its links stay up is agreed in the contract, so the content keeps working after the campaign.",
+        },
+        {
+          lookFor: "Measurement beyond views",
+          kudozz: "We report views, watch time and tracked clicks, and sales where links or codes make that possible.",
+        },
+      ],
+    },
     answer: {
       question: "How does YouTube influencer marketing work?",
       text: "Brands partner with YouTube creators for an integration (a sponsored segment inside a regular video), a dedicated review or tutorial, or Shorts. Creators turn on YouTube's paid promotion setting, and links and codes go in the description. Because videos stay searchable for years, YouTube suits products people research before they buy.",
     },
-    relatedSlugs: ["instagram-influencer-marketing", "product-launches", "reporting"],
+    relatedSlugs: ["influencer-marketing", "instagram-influencer-marketing", "product-launches"],
     guides: ["youtube-influencer-marketing-india", "youtube-sponsorships", "youtube-shorts-influencer-marketing", "how-to-find-youtube-influencers", "youtube-influencer-marketing-roi", "youtube-product-reviews", "best-youtube-influencer-marketing-agencies-in-india"],
     shortDescription: "Integrations, dedicated reviews and Shorts for considered purchases.",
     description:
       "YouTube is where people go to understand a product before they buy it. We plan integrations, dedicated reviews and Shorts with creators whose viewers match your customer, agree how long videos and links stay live, and report on views, watch time and tracked clicks.",
     metaDescription:
-      "YouTube influencer marketing services: integrations, dedicated reviews and Shorts, creators chosen on audience and watch data, contracts and tracked reporting.",
+      "Looking for the best YouTube influencer marketing agency in India? Kudozz plans integrations, reviews and Shorts with creators whose viewers match your customers.",
     secondaryKeywords: ["YouTube influencer marketing agency", "YouTube influencer marketing services", "YouTube sponsorships for brands", "YouTube creator integrations"],
     whoItsFor:
       "Brands selling considered purchases, such as tech, finance, education, automotive, gaming and appliances, where buyers research before deciding.",
@@ -1381,7 +1550,8 @@ const serviceList: ServiceInput[] = [
   {
     slug: "linkedin-influencer-marketing",
     name: "LinkedIn Influencer Marketing",
-    seoTitle: "LinkedIn Influencer Marketing for B2B Brands",
+    seoTitle: "B2B LinkedIn Influencer Marketing in India",
+    heroTitle: "LinkedIn Influencer Marketing for B2B Brands in India",
     answer: {
       question: "What is LinkedIn influencer marketing?",
       text: "LinkedIn influencer marketing is partnering with professionals who have an engaged following among your buyers, such as founders, operators or industry specialists, to post about a problem your product solves. Formats include posts, documents, newsletters, live sessions and co-hosted webinars. Brands can sponsor strong posts with Thought Leader Ads, with the author's permission.",
@@ -1392,7 +1562,7 @@ const serviceList: ServiceInput[] = [
     description:
       "B2B buyers trust practitioners more than brand pages. We find LinkedIn creators your buyers follow, from founders and operators to niche specialists, plan posts, newsletters, live sessions and webinars with them, and use Thought Leader Ads to put the best posts in front of target accounts.",
     metaDescription:
-      "LinkedIn influencer marketing for B2B brands: creators your buyers follow, posts, newsletters and webinars, Thought Leader Ads and pipeline reporting.",
+      "LinkedIn influencer marketing for B2B brands in India: creators your buyers follow, posts, newsletters and webinars, Thought Leader Ads and pipeline reporting.",
     secondaryKeywords: ["LinkedIn influencer marketing agency", "B2B influencer marketing", "LinkedIn creator marketing services", "B2B creator partnerships"],
     whoItsFor:
       "SaaS, fintech, HR tech, professional services and other B2B companies with long sales cycles and buying committees.",
@@ -1456,18 +1626,41 @@ const serviceList: ServiceInput[] = [
   {
     slug: "regional-influencer-marketing",
     name: "Regional Influencer Marketing",
-    seoTitle: "Regional & Vernacular Influencer Marketing",
+    seoTitle: "Best Regional Influencer Marketing Agency in India",
+    heroTitle: "Best Regional Influencer Marketing Agency in India",
+    choosing: {
+      title: "What to look for in a regional influencer marketing agency",
+      intro: "A regional campaign fails quietly when the creator's audience lives somewhere else or the script reads like a translation.",
+      points: [
+        {
+          lookFor: "Audience location checked, not assumed",
+          kudozz: "We review audience location from creator insights and the language of the comments. A creator based in Chennai may have most of their audience elsewhere.",
+        },
+        {
+          lookFor: "Original content in each language",
+          kudozz: "Creators are briefed to make content in their own language and style, not to read a translated script.",
+        },
+        {
+          lookFor: "Real language coverage",
+          kudozz: "We source creators in Hindi, Tamil, Telugu, Kannada, Malayalam, Marathi, Bengali, Gujarati, Punjabi and more.",
+        },
+        {
+          lookFor: "Local timing",
+          kudozz: "Campaigns can be planned state by state around local festivals and buying moments rather than one national date.",
+        },
+      ],
+    },
     answer: {
       question: "What is regional influencer marketing?",
       text: "Regional influencer marketing uses creators who make content in a local language or for a specific state or city, rather than national English-language creators. In India that can mean Tamil creators for Tamil Nadu or Marathi creators for Maharashtra. It works because people trust recommendations in their own language, from someone who shares their context.",
     },
-    relatedSlugs: ["micro-nano-influencer-marketing", "creator-discovery", "social-campaigns"],
+    relatedSlugs: ["influencer-marketing", "micro-nano-influencer-marketing", "creator-discovery"],
     guides: ["regional-influencer-marketing-india", "influencer-marketing-tier-2-tier-3-cities", "ugc-localization", "regional-influencer-marketing-uk", "local-regional-influencer-marketing-australia"],
     shortDescription: "Creators who speak your customer's language, in the cities you sell.",
     description:
       "India doesn't buy in one language. We find creators who speak to customers in Hindi, Tamil, Telugu, Kannada, Malayalam, Marathi, Bengali, Gujarati, Punjabi and more, check that their audience actually lives where you sell, and plan campaigns state by state around local festivals and buying moments.",
     metaDescription:
-      "Regional influencer marketing in India: vernacular creators in Hindi, Tamil, Telugu, Kannada, Marathi, Bengali and more, with audience-location checks by state.",
+      "Looking for the best regional influencer marketing agency in India? Kudozz runs campaigns with Hindi, Tamil, Telugu, Kannada, Marathi, Bengali and other creators.",
     secondaryKeywords: ["regional influencer marketing", "vernacular influencer marketing", "regional language influencers India", "tier 2 and tier 3 influencer marketing"],
     whoItsFor:
       "Brands expanding beyond the metros, entering a new state, or selling to customers who prefer content in their own language.",
@@ -1531,7 +1724,30 @@ const serviceList: ServiceInput[] = [
   {
     slug: "micro-nano-influencer-marketing",
     name: "Micro & Nano Influencer Marketing",
-    seoTitle: "Micro & Nano Influencer Marketing Services",
+    seoTitle: "Best Micro-Influencer Marketing Agency in India",
+    heroTitle: "Best Micro & Nano Influencer Marketing Agency in India",
+    choosing: {
+      title: "What to look for in a micro-influencer marketing agency",
+      intro: "Working with many small creators is mostly an operations job. Ask how the agency keeps quality up as numbers grow.",
+      points: [
+        {
+          lookFor: "Vetting that scales",
+          kudozz: "Every creator is checked for audience fit, engagement quality and purchased followers, however many are in the campaign.",
+        },
+        {
+          lookFor: "Logistics handled",
+          kudozz: "We handle outreach, product shipping, briefs and approvals for every creator, so your team deals with one contact.",
+        },
+        {
+          lookFor: "A fair mix of deals",
+          kudozz: "We combine fee, barter and product deals within one campaign, depending on the creator and the work involved.",
+        },
+        {
+          lookFor: "One result, not fifty reports",
+          kudozz: "The campaign is reported as one result against the agreed KPI, with a creator-level breakdown behind it.",
+        },
+      ],
+    },
     answer: {
       question: "What are micro and nano influencers?",
       text: "Nano influencers usually have roughly 1,000 to 10,000 followers and micro influencers roughly 10,000 to 100,000, though sources draw the lines differently. Smaller creators often have closer, more local audiences and stronger engagement than large accounts. Brands work with many at once to combine that trust with meaningful total reach.",
@@ -1547,13 +1763,13 @@ const serviceList: ServiceInput[] = [
         ["Best for", "Local reach, word of mouth, volume", "Niche authority, conversions, launches"],
       ],
     },
-    relatedSlugs: ["barter-influencer-campaigns", "regional-influencer-marketing", "creator-discovery"],
+    relatedSlugs: ["influencer-marketing", "barter-influencer-campaigns", "regional-influencer-marketing"],
     guides: ["nano-vs-micro-influencers", "micro-influencers-india", "micro-vs-macro-influencers", "how-to-identify-fake-followers"],
     shortDescription: "Many smaller creators, managed as one campaign.",
     description:
       "Smaller creators often have closer, more engaged audiences, but running fifty of them is a logistics job. We find nano and micro creators whose followers match your customer, handle outreach, products, briefs and approvals at volume, and report the campaign as one result.",
     metaDescription:
-      "Micro and nano influencer marketing services: vetted smaller creators managed at volume, with briefs, product logistics, approvals and one combined report.",
+      "Looking for the best micro-influencer marketing agency in India? Kudozz finds nano and micro creators who fit your customers and runs dozens as one campaign.",
     secondaryKeywords: ["micro influencer marketing agency", "nano influencer marketing", "micro influencer campaigns", "small influencer marketing"],
     whoItsFor:
       "Brands that want trust and local reach over celebrity reach, need many voices for one launch, or are testing influencer marketing on a smaller budget.",
@@ -1619,7 +1835,8 @@ const serviceList: ServiceInput[] = [
     // hub, sitemap, Organization/Service schema and related-service links. Copy source: src/content/social-media-management.ts.
     slug: "social-media-management",
     name: "Social Media Management",
-    seoTitle: "Social Media Management Services for Brands",
+    seoTitle: "Best Social Media Marketing & Management Agency in India",
+    heroTitle: "Best Social Media Marketing & Management Agency in India",
     answer: {
       question: "What is social media management?",
       text: "Social media management is the ongoing work of running a brand's social accounts: deciding what to say and where, planning a content calendar, creating posts and short videos, publishing them, responding to the community and reviewing what worked. Kudozz does this month by month, and can connect it with creator partnerships and UGC when your plan needs them.",
@@ -1631,7 +1848,7 @@ const serviceList: ServiceInput[] = [
     description:
       "We run your brand's social accounts month by month: strategy, content calendars, design, Reels, copy, publishing, community management and reporting, connected with creator partnerships and UGC when your plan needs them.",
     metaDescription:
-      "Social media management for brands: strategy, content calendars, posts, Reels, publishing, community management and monthly reporting, connected with creators.",
+      "Looking for the best social media marketing and management agency in India? Kudozz plans, creates, publishes and reports on your brand's social media.",
     secondaryKeywords: [
       "social media management services",
       "social media management agency",

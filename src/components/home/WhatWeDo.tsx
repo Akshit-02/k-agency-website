@@ -7,9 +7,9 @@ import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/animations/Reveal";
 
 export function WhatWeDo() {
-  // Influencer marketing detail; social media management is introduced in ServiceAreas above.
+  // Influencer marketing detail. UGC and social media marketing have their own sections (HomeUgc, HomeSocial).
   // The overview category holds the pillar page itself, linked from the button below rather than the grid.
-  const categories = getServicesByCategory().filter((c) => c.id !== "social-media" && c.id !== "influencer-overview");
+  const categories = getServicesByCategory().filter((c) => !["social-media", "influencer-overview", "ugc"].includes(c.id));
   const core = categories.find((c) => c.id === "plan-and-manage") ?? categories[0];
   const rest = categories.filter((c) => c.id !== core.id);
 
@@ -19,11 +19,11 @@ export function WhatWeDo() {
         <div className="flex flex-col gap-10 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
             eyebrow="Influencer Marketing"
-            title="Influencer marketing services, from strategy to reporting."
-            description="Influencer marketing is where Kudozz started, and it's still at the centre of what we do. Hire us for the whole campaign or for the one piece your team can't cover."
+            title="Influencer marketing services that connect brands with the right creators."
+            description="Influencer marketing is where Kudozz started. As an influencer marketing agency in India, we plan the strategy, find and select creators whose audiences match your customers, handle outreach and negotiation, coordinate briefs, approvals and publishing, and track performance against the goal we agreed. Hire us for end-to-end influencer campaign management or for the one piece your team can't cover."
           />
           <Reveal delay={0.15} className="flex flex-wrap gap-3">
-            <Button href="/services/influencer-marketing">Explore Influencer Marketing</Button>
+            <Button href="/services/influencer-marketing">Explore Influencer Marketing Services</Button>
             <Button href="/services" variant="secondary">
               View All Services
             </Button>
@@ -36,7 +36,7 @@ export function WhatWeDo() {
           ))}
         </div>
 
-        <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {rest.map((category) => (
             <div key={category.id}>
               <h3 className="font-display text-xl tracking-tight text-ink">{category.name}</h3>

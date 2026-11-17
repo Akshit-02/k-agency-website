@@ -15,8 +15,8 @@ export function WhyKudozz() {
       <Container>
         <SectionHeading
           eyebrow="Why Kudozz"
-          title="Why brands choose Kudozz over running creators in-house."
-          description="Running influencer marketing yourself means finding creators, checking their audiences, negotiating, chasing drafts and building reports. Here is what changes when Kudozz runs it."
+          title="Why brands choose Kudozz."
+          description="Doing this in-house means finding creators, checking their audiences, negotiating, chasing drafts, keeping your own accounts posting and building reports. Here is how we work, whether you hire us for creators, UGC, social media or all three."
         />
 
         <StaggerReveal className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

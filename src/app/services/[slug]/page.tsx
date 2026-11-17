@@ -15,6 +15,8 @@ const CUSTOM_ROUTE_SLUGS = new Set(["social-media-management"]);
 // function invocation and an ISR write each).
 export const dynamicParams = false;
 
+const SERVICE_TITLE_BRAND_LIMIT = 62;
+
 export function generateStaticParams() {
   return services.filter((service) => !CUSTOM_ROUTE_SLUGS.has(service.slug)).map((service) => ({ slug: service.slug }));
 }
@@ -24,10 +26,14 @@ export async function generateMetadata(props: PageProps<"/services/[slug]">): Pr
   const service = getServiceBySlug(slug);
   if (!service) return {};
 
+  // Brand suffix only when the full title still fits a typical results-page width; longer keyword titles stand alone
+  // (Google shows the site name separately).
+  const branded = `${service.seoTitle} | ${siteConfig.name}`;
   return buildMetadata({
-    title: service.seoTitle,
+    title: branded.length <= SERVICE_TITLE_BRAND_LIMIT ? branded : service.seoTitle,
     description: service.metaDescription,
     path: `/services/${service.slug}`,
+    absoluteTitle: true,
   });
 }
 

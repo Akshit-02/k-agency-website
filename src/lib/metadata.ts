@@ -8,6 +8,7 @@ export function buildMetadata({
   image,
   article,
   locale,
+  absoluteTitle = false,
 }: {
   title: string;
   description: string;
@@ -17,6 +18,8 @@ export function buildMetadata({
   article?: { publishedTime: string; modifiedTime?: string; section: string; tags?: string[] };
   /** Open Graph locale (e.g. "en_GB") for pages written for another market; defaults to the site locale. */
   locale?: string;
+  /** Use `title` exactly as given (it already carries the brand), skipping the "— Kudozz" template suffix. */
+  absoluteTitle?: boolean;
 }): Metadata {
   const url = `${siteConfig.url}${path}`;
   const ogImage = image === null ? undefined : image ?? siteConfig.ogImage;
@@ -26,7 +29,7 @@ export function buildMetadata({
   const withSuffix = `${title} — ${siteConfig.name}`;
 
   return {
-    title: withSuffix.length > 60 ? { absolute: title } : title,
+    title: absoluteTitle || withSuffix.length > 60 ? { absolute: title } : title,
     description,
     alternates: { canonical: url },
     openGraph: {

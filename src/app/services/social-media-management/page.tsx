@@ -17,6 +17,7 @@ import {
   smmIndustries,
   smmInquiryHref,
   smmMeta,
+  smmChoosing,
   smmPlatforms,
   smmProblems,
   smmProcess,
@@ -33,6 +34,7 @@ import { Reveal } from "@/components/animations/Reveal";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
 import { ContentCalendarGraphic } from "@/components/smm/ContentCalendarGraphic";
 import { FinalCTA } from "@/components/home/FinalCTA";
+import { ServiceChoosing } from "@/components/services/ServiceChoosing";
 import { Pictogram, type PictogramName } from "@/components/icons/Pictogram";
 import { PlatformLogo, platformIdFromName } from "@/components/icons/PlatformLogo";
 import { ServiceIcon, slugFromServiceHref } from "@/components/icons/ServiceIcon";
@@ -42,6 +44,7 @@ export const metadata: Metadata = buildMetadata({
   title: smmMeta.title,
   description: smmMeta.description,
   path: SMM_PATH,
+  absoluteTitle: true,
 });
 
 const accents = ["bg-coral", "bg-lime", "bg-ink"];
@@ -117,23 +120,21 @@ export default function SocialMediaManagementPage() {
           <div className="grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
               <Reveal fade={false}>
-                <h1 className="text-ink">
-                  <span className="mb-6 inline-flex items-center gap-2 border-[1.5px] border-ink px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] sm:text-sm">
-                    <span className="h-1.5 w-1.5 rounded-full bg-coral" aria-hidden="true" />
-                    Social media management services
-                    <span className="sr-only">:</span>
-                  </span>
-                  <span className="block font-display text-5xl leading-[1.0] tracking-tight text-balance sm:text-6xl lg:text-7xl">
-                    Social media that keeps your brand consistent, relevant and <em className="italic text-coral">connected.</em>
-                  </span>
+                <p className="mb-6 inline-flex items-center gap-2 border-[1.5px] border-ink px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-ink sm:text-sm">
+                  <span className="h-1.5 w-1.5 rounded-full bg-coral" aria-hidden="true" />
+                  Social media marketing &amp; management
+                </p>
+                <h1 className="font-display text-4xl leading-[1.02] tracking-tight text-balance text-ink sm:text-5xl lg:text-6xl">
+                  Best social media marketing &amp; management agency in India for{" "}
+                  <em className="italic text-coral">growing brands.</em>
                 </h1>
               </Reveal>
               <Reveal fade={false} delay={0.08}>
                 <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/70 text-pretty">
-                  Kudozz manages your brand&apos;s social media month by month: the strategy, the content calendar, posts
-                  and Reels, publishing, community management and a report that tells you what to do next. And because
-                  we also run influencer campaigns, your own content and your creator content can finally work from the
-                  same plan.
+                  Kudozz runs social media for brands in India month by month: the strategy, the content calendar, posts
+                  and Reels, publishing, community management and a report that tells you what to do next. Because we
+                  also run influencer campaigns and UGC, your own content and your creator content work from the same
+                  plan.
                 </p>
               </Reveal>
               <Reveal delay={0.16} className="mt-10 flex flex-wrap items-center gap-4">
@@ -442,6 +443,8 @@ export default function SocialMediaManagementPage() {
         </Container>
       </section>
 
+      <ServiceChoosing {...smmChoosing} />
+
       {/* 9. Included vs scoped separately */}
       <section className="bg-ink py-28 text-paper sm:py-36" id="scope">
         <Container>
@@ -495,7 +498,7 @@ export default function SocialMediaManagementPage() {
       </section>
 
       {/* 10. FAQs */}
-      <FAQSection faqs={smmFaqs} eyebrow="FAQ" title="Questions about social media management." />
+      <FAQSection faqs={smmFaqs} eyebrow="FAQ" title="Questions about social media marketing and management." />
 
       {guideGroups.length > 0 && (
         <section className="py-20 sm:py-28" id="guides">
@@ -533,8 +536,8 @@ export default function SocialMediaManagementPage() {
           <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">Related services</h2>
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {[
-              { href: "/services/ugc-content-production", name: "UGC Content Production", body: "Creator-made videos your brand owns, ready for ads and your own feed." },
-              { href: "/services/social-campaigns", name: "Social Media Campaigns", body: "Multi-creator campaigns around a launch, season or moment." },
+              { href: "/services/influencer-marketing", name: "Influencer Marketing Services", body: "Creator campaigns from strategy and vetting to contracts, approvals and reporting." },
+              { href: "/services/ugc-campaigns", name: "UGC Marketing", body: "UGC strategy, creator casting, cleared rights and ad testing, run as an ongoing programme." },
               { href: "/services/instagram-influencer-marketing", name: "Instagram Influencer Marketing", body: "Reels, Stories and collab posts with creators your customers follow." },
             ].map((r) => (
               <Link

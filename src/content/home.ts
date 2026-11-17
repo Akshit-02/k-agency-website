@@ -33,40 +33,40 @@ export const industries: { name: string; href: string }[] = [
 
 export const reasons: { title: string; body: string; href: string; linkLabel: string }[] = [
   {
+    title: "A strategy before any creator list or calendar",
+    body: "Every engagement starts with your objective and one agreed KPI, then the mix of creators, UGC and your own channels that fits it, so everyone knows what success means before work begins.",
+    href: "/services/campaign-strategy",
+    linkLabel: "Campaign strategy",
+  },
+  {
     title: "Creators chosen for your audience, not their follower count",
     body: "We screen every candidate for audience fit, engagement quality and fake followers, and each name on your shortlist comes with the reason it is there.",
     href: "/services/creator-discovery",
-    linkLabel: "Creator discovery",
-  },
-  {
-    title: "A plan before a creator list",
-    body: "Each campaign starts with your objective, one agreed KPI, the platform mix and a creator-tier budget, so everyone knows what success means before outreach begins.",
-    href: "/services/campaign-strategy",
-    linkLabel: "Campaign strategy",
+    linkLabel: "How we find and vet creators",
   },
   {
     title: "One team runs the whole campaign",
     body: "Outreach, negotiation, contracts, usage rights, briefs, approvals and publishing dates sit with one point of contact, so your team isn't chasing creators on WhatsApp.",
     href: "/services/outreach-management",
-    linkLabel: "Outreach & management",
+    linkLabel: "Influencer campaign management",
   },
   {
-    title: "Creators across India's languages and cities",
-    body: "We source creators in metros, Tier 2 and Tier 3 cities and regional languages, and check that their audience lives where you actually sell.",
-    href: "/services/regional-influencer-marketing",
-    linkLabel: "Regional influencer marketing",
+    title: "Content made for each platform",
+    body: "A Reel, a YouTube integration, a LinkedIn post and a 15-second ad are different jobs. Briefs, edits and captions are written for the platform and placement they'll run on.",
+    href: "/services/ugc-content-production",
+    linkLabel: "UGC video production",
+  },
+  {
+    title: "Your social media and creator work on one calendar",
+    body: "Launches, creator posts and your own content are planned together, so creator and UGC content can be reused on your channels where usage rights allow.",
+    href: "/services/social-media-management",
+    linkLabel: "Social media management",
   },
   {
     title: "Reporting you can take to your CFO",
-    body: "Results are reported creator by creator against the KPI agreed at kickoff, with a plain-language debrief on what to repeat and what to change.",
+    body: "Results are reported against the KPI agreed at kickoff, creator by creator and channel by channel, with a plain-language note on what to repeat and what to change.",
     href: "/services/reporting",
-    linkLabel: "Reporting",
-  },
-  {
-    title: "Content you can keep using",
-    body: "Usage rights are agreed before production, so the best creator content can run as ads, UGC or on your site without a second negotiation.",
-    href: "/services/ugc-campaigns",
-    linkLabel: "UGC campaigns",
+    linkLabel: "Campaign reporting",
   },
 ];
 
@@ -83,7 +83,10 @@ export const markets: { name: string; note: string; href: string }[] = [
   { name: "Uttar Pradesh", note: "Lucknow, Noida, Kanpur", href: "/blog/best-influencer-marketing-agencies-in-uttar-pradesh" },
 ];
 
-/** The homepage's service-discovery cards. Links point at existing URLs only. */
+/**
+ * The homepage's service-discovery cards, in the same order as the homepage sections below them
+ * (influencer marketing, UGC, social media). Links point at existing URLs only; anchors differ on purpose.
+ */
 export const serviceAreas: {
   name: string;
   body: string;
@@ -93,59 +96,40 @@ export const serviceAreas: {
   theme: "coral" | "ink" | "lime";
 }[] = [
   {
-    name: "Social Media Management",
-    body: "We plan, create and publish content for your brand's own accounts, look after the community and report what to change next month.",
-    points: ["Strategy and content calendars", "Posts, carousels and Reels", "Publishing and community management", "Monthly reporting"],
-    href: "/services/social-media-management",
-    cta: "Explore Social Media Management",
+    name: "Influencer Marketing",
+    body: "Creator campaigns planned around one agreed KPI, with creators vetted for audience fit and managed from outreach to reporting.",
+    points: ["Campaign strategy", "Paid, barter and affiliate campaigns", "Product launches", "Instagram, YouTube and LinkedIn"],
+    href: "/services/influencer-marketing",
+    cta: "Influencer marketing services for brands",
     theme: "coral",
   },
   {
-    name: "Influencer Marketing",
-    body: "Creator campaigns planned around one agreed KPI, with creators vetted for audience fit and managed end to end.",
-    points: ["Campaign strategy", "Paid, barter and affiliate campaigns", "Product launches", "Instagram, YouTube and LinkedIn"],
-    href: "/services/influencer-marketing",
-    cta: "See Influencer Marketing",
+    name: "UGC Marketing & Content",
+    body: "Creator-made videos your brand owns and runs in ads, on product pages, on marketplaces and in its own feed.",
+    points: ["Scripts, hooks and shot lists", "Product demos and unboxings", "Edits for each ad placement", "Usage rights agreed up front"],
+    href: "/services/ugc-content-production",
+    cta: "UGC content creation services",
     theme: "ink",
   },
   {
-    name: "UGC and Content Creation",
-    body: "Creator-made videos and assets your brand owns, for ads, product pages, marketplaces and your own feed.",
-    points: ["UGC videos and hooks", "Product demonstrations", "Creator-led content", "Rights agreed for repurposing"],
-    href: "/services/ugc-content-production",
-    cta: "See UGC Production",
+    name: "Social Media Marketing & Management",
+    body: "Strategy, content and publishing for your brand's own accounts, with community management and a monthly report on what to change.",
+    points: ["Strategy and content calendars", "Posts, carousels and Reels", "Publishing and community management", "Monthly reporting"],
+    href: "/services/social-media-management",
+    cta: "Social media management for growing brands",
     theme: "lime",
   },
 ];
 
-export const supportingServices: { name: string; body: string; href: string }[] = [
-  {
-    name: "Creator Discovery",
-    body: "Shortlists screened for audience fit and authenticity, with a written reason for every creator.",
-    href: "/services/creator-discovery",
-  },
-  {
-    name: "Campaign Management",
-    body: "Outreach, contracts, briefs, approvals and publishing dates handled through one point of contact.",
-    href: "/services/outreach-management",
-  },
-];
-
+/**
+ * Homepage FAQ. The same array feeds the visible FAQ and the FAQPage JSON-LD, so they always match.
+ * Answers must stay consistent with /services, /services/social-media-management and the inquiry flow on /for-brands.
+ */
 export const homeFaqs = [
-  {
-    question: "Does Kudozz manage brand social media accounts?",
-    answer:
-      "Yes. Alongside influencer marketing, Kudozz manages brand social media: strategy, monthly content calendars, posts and Reels, captions, publishing, community management within an agreed scope and monthly reporting. Paid advertising, shoots and customer support are scoped separately.",
-  },
-  {
-    question: "Can Kudozz run our social media and influencer campaigns together?",
-    answer:
-      "Yes. One team can plan your own content and your creator campaigns on the same calendar, so launches line up and creator or UGC content can be reused on your channels where usage rights allow. You can also hire Kudozz for just one of them.",
-  },
   {
     question: "What does an influencer marketing agency do?",
     answer:
-      "An influencer marketing agency plans creator campaigns, finds and vets creators whose audiences match your customers, negotiates fees and usage rights, manages briefs, approvals and publishing, and reports results against an agreed KPI. At Kudozz this covers strategy, creator discovery, outreach and management, social and launch campaigns, UGC, ambassador programs and reporting.",
+      "An influencer marketing agency plans creator campaigns, finds and vets creators whose audiences match your customers, negotiates fees and usage rights, manages briefs, approvals and publishing, and reports results against an agreed KPI. Kudozz can run the whole campaign or take on one part of it, such as creator discovery or reporting.",
   },
   {
     question: "How do I choose an influencer marketing agency in India?",
@@ -153,24 +137,39 @@ export const homeFaqs = [
       "Look for creator relevance to your category, how the agency checks audience quality and fake followers, experience in your industry, whether it manages the full campaign, transparent pricing with creator and agency fees shown separately, reporting against a KPI, access to regional-language creators if you need them, and clear communication. Ask for a sample shortlist with reasons before you sign.",
   },
   {
-    question: "Does Kudozz work with brands and creators across India?",
+    question: "What services does Kudozz offer?",
     answer:
-      "Yes. Kudozz works with brands across India and sources creators in metros, Tier 2 and Tier 3 cities, checking that each creator's audience is in the markets the brand sells to.",
+      "Three connected services: influencer marketing (strategy, creator discovery, outreach, campaign management and reporting, across paid, barter, affiliate and ambassador formats), UGC marketing and content creation (creator-made videos your brand uses in ads and on its own channels), and social media marketing and management for your brand's own accounts. You can hire Kudozz for one of them or for all three.",
   },
   {
-    question: "Does Kudozz run influencer campaigns outside India?",
+    question: "What is the difference between influencer marketing and UGC marketing?",
     answer:
-      "Yes. Besides India, Kudozz runs influencer campaigns for brands in the UAE, Saudi Arabia, the UK, Australia and Singapore, and plans Qatar, Kuwait, Oman and Bahrain case by case. Each market has its own creator licensing, disclosure rules and languages, which the market pages explain.",
+      "With influencer marketing you pay for a creator's reach: they publish content about your brand to their own followers. With UGC marketing you pay for the content itself: creators make videos in a natural, first-person style and hand them over for your brand to publish, usually as ads, on product pages or on your own accounts. Influencer posts introduce you to a new audience; UGC gives you a steady supply of creative to test and reuse.",
   },
   {
-    question: "Can Kudozz run regional-language influencer campaigns?",
+    question: "How does a UGC marketing agency help brands?",
     answer:
-      "Yes. Kudozz sources creators who publish in regional languages, such as Hindi, Marathi, Gujarati, Tamil, Telugu, Kannada or Bengali, and briefs them to make original content rather than translated scripts.",
+      "It turns \"we need more videos\" into a production process: briefs and scripts, casting creators who suit the product and audience, coordinating products and shoots, editing hook and length variations for each placement, and agreeing where and for how long you can use each asset. Kudozz also reviews ad results with your team, so the next batch builds on the angles that worked.",
   },
   {
-    question: "What types of brands work with Kudozz?",
+    question: "What does a social media marketing agency handle?",
     answer:
-      "Kudozz plans campaigns for consumer brands, including D2C, e-commerce, beauty, fashion, food, FMCG, jewellery and travel, and for fintech, app, SaaS and B2B companies. The creator strategy changes by category and objective.",
+      "Usually the strategy for your brand's own accounts, a monthly content calendar, design and short-form video, captions, scheduling and publishing, community management and monthly reporting. That is what Kudozz's social media management covers, within an agreed scope. Paid social advertising, shoots and customer support are scoped separately, and any ad budget is paid by you to the platform.",
+  },
+  {
+    question: "Can brands use influencer marketing and UGC together?",
+    answer:
+      "Yes, and they work well together. A common pattern is to run creator posts for reach, then put the best-performing creator content, or separately commissioned UGC, into ads and onto your own channels. That only works if usage rights are agreed before production, which is why Kudozz settles them in the creator contract.",
+  },
+  {
+    question: "Which social media platforms can brands use for influencer campaigns?",
+    answer:
+      "For most consumer brands in India, Instagram and YouTube do the heavy lifting, from Reels and Stories to long-form integrations and Shorts. LinkedIn suits B2B brands that need to reach professionals. The right mix depends on where your customers spend time and what the campaign has to achieve, so Kudozz recommends platforms during strategy rather than defaulting to one.",
+  },
+  {
+    question: "How do you measure influencer marketing campaign performance?",
+    answer:
+      "Against one primary KPI agreed before launch, such as reach in your target audience, engagement quality, website traffic or sales. Kudozz reports results creator by creator, uses tracked links or discount codes where sales attribution is possible, and closes each campaign with a plain-language debrief on what to repeat and what to change.",
   },
   {
     question: "How much does influencer marketing cost in India?",
@@ -178,8 +177,13 @@ export const homeFaqs = [
       "There is no fixed price. Cost depends on creator tier, platform, number of creators, deliverables, campaign duration, usage rights, production needs, the audience and locations you target, and your objective. Kudozz sizes the creator mix to your budget and shows creator fees separately.",
   },
   {
-    question: "Can Kudozz manage an influencer campaign from start to finish?",
+    question: "Does Kudozz run influencer campaigns outside India?",
     answer:
-      "Yes. Kudozz can run the whole campaign, from strategy and creator discovery to outreach, contracts, content approvals, publishing and reporting, or take on one part, such as creator discovery or reporting.",
+      "Yes. Besides India, Kudozz runs influencer campaigns for brands in the UAE, Saudi Arabia, the UK, Australia and Singapore, and plans Qatar, Kuwait, Oman and Bahrain case by case. Each market has its own creator licensing, disclosure rules and languages, which the market pages explain.",
+  },
+  {
+    question: "How can a brand get started with Kudozz?",
+    answer:
+      "Fill in the brand enquiry form with your brand, contact details and website, and, if you like, what you're looking for and a rough budget. We reply within one business day, then hold a short call to agree the objective, audience, timeline and budget range, and follow up with a written plan that shows creator and agency fees separately.",
   },
 ];

@@ -3,27 +3,36 @@ import { buildMetadata } from "@/lib/metadata";
 import { JsonLd, faqSchema, homePageSchema } from "@/lib/schema";
 import { homeFaqs } from "@/content/home";
 import { Hero } from "@/components/home/Hero";
-import { TrustBar } from "@/components/home/TrustBar";
+import { ServiceAreas } from "@/components/home/ServiceAreas";
 import { WhyInfluencer } from "@/components/home/WhyInfluencer";
 import { WhatWeDo } from "@/components/home/WhatWeDo";
-import { ServiceAreas } from "@/components/home/ServiceAreas";
-import { HowItWorks } from "@/components/home/HowItWorks";
+import { HomeUgc } from "@/components/home/HomeUgc";
+import { HomeSocial } from "@/components/home/HomeSocial";
 import { WhyKudozz } from "@/components/home/WhyKudozz";
+import { TrustBar } from "@/components/home/TrustBar";
+import { HowItWorks } from "@/components/home/HowItWorks";
 import { IndiaCoverage } from "@/components/home/IndiaCoverage";
 import { GlobalMarkets } from "@/components/home/GlobalMarkets";
 import { CreatorNetwork } from "@/components/home/CreatorNetwork";
 import { FAQSection } from "@/components/ui/FAQSection";
 import { FinalCTA } from "@/components/home/FinalCTA";
 
-// No unverifiable superlative ("Best"): the H1 and title name what Kudozz is, which is also the head query.
-const TITLE = "Influencer Marketing & Social Media Agency in India | Kudozz";
+/*
+ * Homepage keyword ownership (reports/kudozz-homepage-seo/03-keyword-url-mapping.md):
+ * primary "best influencer marketing agency in India" / "influencer marketing agency India"; secondary UGC and
+ * social media marketing agency terms, which the service pages own in depth.
+ * "Best" is in the title by the site owner's decision (17 Nov 2026). The description phrases it as the searcher's
+ * question, and the H1 and body make no superlative claim. Don't add "best" anywhere else on the page.
+ */
+const TITLE = "Best Influencer Marketing Agency in India | Kudozz";
 const DESCRIPTION =
-  "Kudozz is an influencer marketing and social media management agency in India: creator campaigns, brand social media, UGC and reporting tied to your goals.";
+  "Looking for the best influencer marketing, UGC or social media marketing agency in India? Kudozz runs creator campaigns, UGC videos and brand social media.";
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
   description: DESCRIPTION,
   path: "/",
+  absoluteTitle: true,
 });
 
 // FeaturedCampaigns and Testimonials are off the homepage until real case studies and client quotes
@@ -34,19 +43,21 @@ export default function HomePage() {
       <JsonLd data={homePageSchema({ title: TITLE, description: DESCRIPTION })} />
       <JsonLd data={faqSchema(homeFaqs)} />
       <Hero />
-      <TrustBar />
       <ServiceAreas />
       <WhyInfluencer />
       <WhatWeDo />
-      <HowItWorks />
+      <HomeUgc />
+      <HomeSocial />
       <WhyKudozz />
+      <TrustBar />
+      <HowItWorks />
       <IndiaCoverage />
       <GlobalMarkets />
       <CreatorNetwork />
-      <FAQSection faqs={homeFaqs} eyebrow="FAQ" title="Questions brands ask before working with Kudozz." />
+      <FAQSection faqs={homeFaqs} eyebrow="FAQ" title="Questions brands ask before choosing an agency." />
       <FinalCTA
-        title="Let's talk about your brand's social presence."
-        body="Tell us about your brand, your customers and what you need: social media management, creator campaigns, UGC or a mix. We'll come back with a point of view and a plan before we talk fees."
+        title="Ready to build a stronger presence for your brand?"
+        body="Tell us what you need: an influencer campaign, a batch of UGC videos, ongoing social media marketing or a mix of all three. We'll come back with a point of view and a suggested plan before we talk fees."
         primaryLabel="Let's Discuss Your Brand"
         secondary={{ label: "Join Our Creator Network", href: "/for-creators#apply" }}
       />

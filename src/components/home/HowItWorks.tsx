@@ -13,7 +13,7 @@ const steps = [
     n: "01",
     icon: "brief" as PictogramName,
     title: "Understand Your Brand",
-    body: "We start with your business objective, audience, and category — not a creator list. Every campaign begins with a strategy call, not a pitch deck.",
+    body: "We start with your business objective, customers and category, not a creator list, and agree the one KPI that will define success.",
     bg: "bg-ink text-paper",
     accent: "coral" as const,
   },
@@ -21,36 +21,37 @@ const steps = [
     n: "02",
     icon: "strategy" as PictogramName,
     title: "Build the Strategy",
-    body: "Platform mix, content formats, creator tiers, and budget allocation, mapped to the one KPI that matters most for this campaign.",
+    body: "The mix of creators, UGC and your own channels that fits the goal, with platforms, formats and budget mapped to that KPI.",
     bg: "bg-coral text-ink",
     accent: "lime" as const,
   },
   {
     n: "03",
     icon: "discovery" as PictogramName,
-    title: "Find the Right Creators",
-    body: "We shortlist for audience overlap and engagement quality, screen for authenticity, and bring you a curated list — with the reasoning behind every name.",
+    title: "Find Creators and Content",
+    body: "We shortlist creators for audience fit and engagement quality, with the reason for every name, and plan the content your channels and ads need.",
     bg: "bg-paper text-ink border-[1.5px] border-ink",
     accent: "coral" as const,
   },
   {
     n: "04",
     icon: "launch" as PictogramName,
-    title: "Launch the Campaign",
-    body: "We manage outreach, contracts, deliverables, and approvals, so content ships on schedule and on-brand without you chasing anyone.",
+    title: "Plan and Execute",
+    body: "We handle outreach, contracts, briefs, approvals and publishing, so content goes out on schedule and on-brand without you chasing anyone.",
     bg: "bg-lime text-ink",
     accent: "coral" as const,
   },
   {
     n: "05",
     icon: "analytics" as PictogramName,
-    title: "Track the Impact",
-    body: "Unified reporting against your original KPI, plus a plain-language debrief on what worked and what we'd change next time.",
+    title: "Track, Analyse, Report",
+    body: "Reporting against the KPI agreed at the start, plus a plain-language debrief on what worked and what we'd change next time.",
     bg: "bg-ink text-paper",
     accent: "lime" as const,
   },
 ];
 
+/** Desktop panel. Its title is not an <h3>: the mobile stack below carries the step headings, so each appears once in the HTML. */
 function StepPanel({ step }: { step: (typeof steps)[number] }) {
   return (
     <div className={cn("flex h-[26rem] w-[80vw] shrink-0 flex-col justify-between p-10 sm:w-[26rem]", step.bg)}>
@@ -59,7 +60,9 @@ function StepPanel({ step }: { step: (typeof steps)[number] }) {
         <Pictogram name={step.icon} accent={step.accent} className="size-14" />
       </div>
       <div>
-        <h3 className="font-display text-3xl tracking-tight">{step.title}</h3>
+        <p role="heading" aria-level={3} className="font-display text-3xl tracking-tight">
+          {step.title}
+        </p>
         <p className="mt-4 text-base leading-relaxed opacity-85">{step.body}</p>
       </div>
     </div>
@@ -74,9 +77,13 @@ export function HowItWorks() {
   const barWidth = useTransform(smooth, [0, 1], ["6%", "100%"]);
 
   return (
-    <section className="bg-paper-dim py-28 sm:py-36">
+    <section className="py-28 sm:py-36" id="process">
       <Container>
-        <SectionHeading eyebrow="How It Works" title="How Kudozz runs an influencer campaign, from brief to results." />
+        <SectionHeading
+          eyebrow="Our Process"
+          title="How we work, from first call to final report."
+          description="The same five steps whether you hire us for an influencer campaign, a UGC batch or monthly social media."
+        />
       </Container>
 
       {/* Desktop: pinned horizontal scroll-through */}

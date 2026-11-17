@@ -4,7 +4,7 @@ export const siteConfig = {
   legalName: "Kudozz Studios Private Limited",
   tagline: "Influence, Engineered.",
   description:
-    "Kudozz is an influencer marketing and social media management agency in India. We connect brands with the right creators, manage brand social media and create UGC, and run influencer campaigns in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.",
+    "Kudozz is an influencer marketing, UGC and social media marketing agency in India. We connect brands with the right creators, produce UGC content, manage brand social media, and run influencer campaigns in India, the UAE, Saudi Arabia, the UK, Australia and Singapore.",
   url: "https://www.kudozz.in",
   ogImage: "/opengraph-image",
   locale: "en_IN",
