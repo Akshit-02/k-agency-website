@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
 import { blogPosts } from "@/content/blog";
+import { isNoindexSlug } from "@/content/noindex";
+import { AUTHORS, authorPath } from "@/content/authors";
 import { services } from "@/content/services";
 import { markets } from "@/content/markets";
 import { creatorResourceSections, creatorSectionPath } from "@/content/creator-resources";
@@ -41,7 +43,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteConfig.url}/blog`, changeFrequency: "weekly" as const, priority: 0.7 },
   ];
 
-  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+  // Noindexed articles stay live but leave the sitemap, which should list only pages we want indexed.
+  const blogRoutes: MetadataRoute.Sitemap = blogPosts.filter((post) => !isNoindexSlug(post.slug)).map((post) => ({
     url: `${siteConfig.url}/blog/${post.slug}`,
     lastModified: new Date(post.updatedAt ?? post.publishedAt),
     changeFrequency: "monthly" as const,
@@ -54,11 +57,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const authorPages: MetadataRoute.Sitemap = AUTHORS.map((author) => ({
+    url: `${siteConfig.url}${authorPath(author)}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
   const legalPages: MetadataRoute.Sitemap = ["/privacy-policy", "/terms"].map((path) => ({
     url: `${siteConfig.url}${path}`,
     changeFrequency: "yearly" as const,
     priority: 0.2,
   }));
 
-  return [...home, ...primaryPages, ...servicePages, ...marketPages, ...blogIndex, ...creatorSectionPages, ...blogRoutes, ...legalPages];
+  return [...home, ...primaryPages, ...servicePages, ...marketPages, ...blogIndex, ...creatorSectionPages, ...blogRoutes, ...authorPages, ...legalPages];
 }

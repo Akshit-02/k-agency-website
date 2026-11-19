@@ -3,6 +3,7 @@ import type { BlogPost } from "@/content/blog";
 import { services, type Service } from "@/content/services";
 import type { Market } from "@/content/markets";
 import { isLinkAllowed } from "@/lib/links";
+import { authorPath, getPostAuthor, type Author } from "@/content/authors";
 
 /** Countries Kudozz delivers campaigns in (owner-confirmed 2026-10-12). India is the primary market. */
 export const SERVED_COUNTRIES = ["India", "United Arab Emirates", "Saudi Arabia", "United Kingdom", "Australia", "Singapore"];
@@ -132,6 +133,33 @@ export function breadcrumbSchema(items: { name: string; url: string }[]) {
   };
 }
 
+function articleAuthor(post: BlogPost) {
+  const person = getPostAuthor(post);
+  if (!person) return { "@type": "Organization", name: post.author.name, url: `${siteConfig.url}/about` };
+  return { "@id": `${siteConfig.url}${authorPath(person)}#person`, "@type": "Person", name: person.name, url: `${siteConfig.url}${authorPath(person)}` };
+}
+
+export function personSchema(person: Author) {
+  const url = `${siteConfig.url}${authorPath(person)}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    url,
+    mainEntity: {
+      "@id": `${url}#person`,
+      "@type": "Person",
+      name: person.name,
+      jobTitle: person.jobTitle,
+      description: person.bio,
+      url,
+      ...(person.image ? { image: `${siteConfig.url}${person.image}` } : {}),
+      ...(person.sameAs.length > 0 ? { sameAs: person.sameAs } : {}),
+      ...(person.knowsAbout?.length ? { knowsAbout: person.knowsAbout } : {}),
+      worksFor: { "@id": `${siteConfig.url}/#organization` },
+    },
+  };
+}
+
 export function articleSchema(post: BlogPost, url: string) {
   return {
     "@context": "https://schema.org",
@@ -148,11 +176,7 @@ export function articleSchema(post: BlogPost, url: string) {
       ? { mentions: post.mentions.map((m) => ({ "@type": "Organization", name: m.name, ...(isLinkAllowed(m.url) ? { url: m.url } : {}) })) }
       : {}),
     inLanguage: post.inLanguage ?? "en-IN",
-    author: {
-      "@type": "Organization",
-      name: post.author.name,
-      url: `${siteConfig.url}/about`,
-    },
+    author: articleAuthor(post),
     publisher: { "@id": `${siteConfig.url}/#organization` },
     isPartOf: { "@id": `${siteConfig.url}/#website` },
     mainEntityOfPage: {

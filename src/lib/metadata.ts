@@ -9,6 +9,7 @@ export function buildMetadata({
   article,
   locale,
   absoluteTitle = false,
+  noindex = false,
 }: {
   title: string;
   description: string;
@@ -20,6 +21,8 @@ export function buildMetadata({
   locale?: string;
   /** Use `title` exactly as given (it already carries the brand), skipping the "— Kudozz" template suffix. */
   absoluteTitle?: boolean;
+  /** Keep the page live but out of search results; links on it are still followed. */
+  noindex?: boolean;
 }): Metadata {
   const url = `${siteConfig.url}${path}`;
   const ogImage = image === null ? undefined : image ?? siteConfig.ogImage;
@@ -32,6 +35,7 @@ export function buildMetadata({
     title: absoluteTitle || withSuffix.length > 60 ? { absolute: title } : title,
     description,
     alternates: { canonical: url },
+    ...(noindex ? { robots: { index: false, follow: true, googleBot: { index: false, follow: true } } } : {}),
     openGraph: {
       title,
       description,

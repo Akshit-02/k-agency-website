@@ -18,6 +18,8 @@ import { getBlogServiceLink } from "@/lib/blogServiceLink";
 import { marketPhrase } from "@/content/markets";
 import Link from "@/components/ui/Link";
 import { formatDate } from "@/lib/date";
+import { isNoindexSlug } from "@/content/noindex";
+import { authorPath, getPostAuthor } from "@/content/authors";
 import { CREATOR_RESOURCES, creatorSectionPath, getCreatorSectionForSlug } from "@/content/creator-resources";
 
 // Unknown slugs 404 from the static output instead of rendering on demand (bots probing random URLs cost a
@@ -39,6 +41,7 @@ export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promis
     path: `/blog/${post.slug}`,
     image: null,
     locale: post.inLanguage?.replace("-", "_"),
+    noindex: isNoindexSlug(post.slug),
     article: {
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
@@ -54,6 +57,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
   if (!post) notFound();
 
   const related = getRelatedPosts(post);
+  const person = getPostAuthor(post);
   const url = `${siteConfig.url}/blog/${post.slug}`;
   const ctaSet = getBlogCtaSet(post);
   const serviceLink = getBlogServiceLink(post, ctaSet);
@@ -105,7 +109,13 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
             <p className="mt-5 text-lg leading-relaxed text-ink/70">{post.excerpt}</p>
           </Reveal>
           <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink/70">
-            <span>{post.author.name}</span>
+            {person ? (
+              <Link href={authorPath(person)} className="font-semibold text-ink underline underline-offset-4 hover:text-coral-deep">
+                {person.name}
+              </Link>
+            ) : (
+              <span>{post.author.name}</span>
+            )}
             {post.updatedAt && (
               <>
                 <span aria-hidden="true">·</span>
