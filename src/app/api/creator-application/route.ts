@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
 import { creatorApplicationSchema } from "@/lib/validations";
-import { deliverCreatorApplication } from "@/lib/leads";
+import {
+  buildCreatorSheetRow,
+  deliverCreatorApplication,
+  submitCreatorApplicationToSheet,
+} from "@/lib/leads";
 import { isRateLimited, getClientKey } from "@/lib/rateLimit";
 
 export async function POST(request: Request) {
@@ -32,9 +36,13 @@ export async function POST(request: Request) {
     );
   }
 
-  const result = await deliverCreatorApplication(parsed.data);
+  // The Google Sheet is the system of record. Email is only a fallback so an
+  // application is never lost when the Apps Script call fails.
+  const row = buildCreatorSheetRow(parsed.data);
+  const sheet = await submitCreatorApplicationToSheet(row);
+  const email = sheet.sent ? null : await deliverCreatorApplication(parsed.data, row);
 
-  if (!result.sent) {
+  if (!sheet.sent && !email?.sent) {
     return NextResponse.json(
       { success: false, message: "Something went wrong. Please try again later." },
       { status: 502 }

@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.1175.0",
     "@hookform/resolvers": "^5.9.1",
     "clsx": "^2.1.1",
     "framer-motion": "^13.2.0",

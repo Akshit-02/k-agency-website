@@ -1,4 +1,10 @@
 import { z } from "zod";
+import {
+  collaborationTypes,
+  creatorContentCategories,
+  creatorLanguages,
+  genderOptions,
+} from "@/content/creator-form-options";
 
 const phoneRegex = /^[+]?[\d\s().-]{7,20}$/;
 
@@ -52,27 +58,57 @@ export const brandInquirySchema = z.object({
 
 export type BrandInquiryValues = z.infer<typeof brandInquirySchema>;
 
-export const creatorApplicationSchema = z.object({
-  fullName: z.string().trim().min(2, "Enter your full name.").max(120),
-  email: z.email("Enter a valid email address.").max(200),
-  phone: z.string().trim().regex(phoneRegex, "Enter a valid phone number."),
-  instagramHandle: z
+const priceField = z
+  .string()
+  .trim()
+  .max(20)
+  .regex(/^(\d[\d,]*(\.\d{1,2})?)?$/, "Enter a number, e.g. 5000.")
+  .optional();
+
+const optionalUrl = (message: string) =>
+  z
     .string()
     .trim()
-    .min(2, "Enter your Instagram handle.")
-    .max(60)
-    .refine(isWebsiteOrHandle, "Enter a valid Instagram handle."),
-  niche: z.string().trim().min(1, "Select your primary content niche.").max(60),
-  city: z.string().trim().min(2, "Enter your city.").max(80),
-  followerRange: z.string().trim().max(60).optional(),
-  otherLinks: z.string().trim().max(300).optional(),
-  introduction: z
-    .string()
-    .trim()
-    .max(1500, "Keep your introduction under 1500 characters.")
-    .optional(),
-  honeypot: honeypotField,
-});
+    .max(300)
+    .refine((v) => v === "" || urlPattern.test(v), message)
+    .optional();
+
+export const creatorApplicationSchema = z
+  .object({
+    fullName: z.string().trim().min(2, "Enter your full name.").max(120),
+    email: z.email("Enter a valid email address.").max(200),
+    phone: z.string().trim().regex(phoneRegex, "Enter a valid contact number."),
+    instagramUrl: z
+      .string()
+      .trim()
+      .min(3, "Enter your Instagram profile link.")
+      .max(300)
+      .refine(isWebsiteOrHandle, "Enter a valid Instagram profile link."),
+    youtubeUrl: optionalUrl("Enter a valid YouTube channel link."),
+    gender: z.enum(genderOptions, "Select your gender."),
+    city: z.string().trim().min(2, "Enter your current city.").max(80),
+    state: z.string().trim().min(2, "Enter your current state.").max(80),
+    categories: z.array(z.enum(creatorContentCategories)).min(1, "Select at least one content category."),
+    categoriesOther: z.string().trim().max(150).optional(),
+    languages: z.array(z.enum(creatorLanguages)).min(1, "Select at least one language."),
+    languagesOther: z.string().trim().max(150).optional(),
+    collaborationTypes: z
+      .array(z.enum(collaborationTypes))
+      .min(1, "Select at least one collaboration type."),
+    priceReel: priceField,
+    priceStory: priceField,
+    priceYoutubeLong: priceField,
+    priceYoutubeShort: priceField,
+    honeypot: honeypotField,
+  })
+  .superRefine((data, ctx) => {
+    if (data.categories.includes("Other") && !data.categoriesOther) {
+      ctx.addIssue({ code: "custom", path: ["categoriesOther"], message: "Tell us your other category." });
+    }
+    if (data.languages.includes("Other") && !data.languagesOther) {
+      ctx.addIssue({ code: "custom", path: ["languagesOther"], message: "Tell us your other language." });
+    }
+  });
 
 export type CreatorApplicationValues = z.infer<typeof creatorApplicationSchema>;
 

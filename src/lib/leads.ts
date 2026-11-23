@@ -13,7 +13,6 @@
  */
 
 import type { BrandInquiryValues, CreatorApplicationValues, ContactValues, NewsletterValues } from "./validations";
-import { normalizeInstagramHandle } from "./validations";
 import { sendLeadEmail, type SendMailResult } from "./mailer";
 import { buildLeadEmail } from "./emailTemplates";
 
@@ -52,20 +51,101 @@ export async function deliverBrandInquiry(payload: BrandInquiryValues): Promise<
   return result;
 }
 
-export async function deliverCreatorApplication(payload: CreatorApplicationValues): Promise<SendMailResult> {
+const CREATOR_SHEET_URL =
+  process.env.CREATOR_SHEET_WEBHOOK_URL ??
+  "https://script.google.com/macros/s/AKfycbyAhp3iWVAsPQDtgpiIPECQGaPbsp927v9GUlfGt_1iwxB3gV1_RWB78Z80P0aT54v7Cg/exec";
+
+/** Joins multi-select answers the way Google Forms does, swapping "Other" for the typed value. */
+function joinAnswers(values: readonly string[], other?: string): string {
+  return values
+    .map((v) => (v === "Other" ? (other ? `Other: ${other}` : "Other") : v))
+    .join(", ");
+}
+
+/** Row for the creator onboarding sheet, keyed by the sheet's exact column headers. */
+export function buildCreatorSheetRow(payload: CreatorApplicationValues): Record<string, string> {
+  return {
+    Timestamp: new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata", hour12: false }),
+    "Full Name": payload.fullName,
+    "Email Address": payload.email,
+    "Contact Number (WhatsApp Preferred)": payload.phone,
+    "Instagram Profile Link": payload.instagramUrl,
+    "YouTube Channel Link": payload.youtubeUrl ?? "",
+    Gender: payload.gender,
+    "Current City": payload.city,
+    "Current State": payload.state,
+    "Which content categories do you create content in?": joinAnswers(payload.categories, payload.categoriesOther),
+    "Which languages do you create content in?": joinAnswers(payload.languages, payload.languagesOther),
+    "What types of brand collaborations are you interested in?": joinAnswers(payload.collaborationTypes),
+    "Your Price for 1 Instagram Reel (₹)": payload.priceReel ?? "",
+    "Your Price for 1 Instagram Story (₹)": payload.priceStory ?? "",
+    "Your Price for 1 YouTube Long-Form Video (₹)": payload.priceYoutubeLong ?? "",
+    "Your Price for 1 YouTube Short (₹)": payload.priceYoutubeShort ?? "",
+  };
+}
+
+const CONNECT_ERROR_CODES = new Set(["UND_ERR_CONNECT_TIMEOUT", "ECONNREFUSED", "ECONNRESET", "ENOTFOUND", "EAI_AGAIN", "ETIMEDOUT", "ENETUNREACH", "EHOSTUNREACH"]);
+
+/**
+ * POSTs JSON, retrying only when the connection itself failed (the request
+ * never reached Google, so a retry cannot append a duplicate row).
+ */
+async function postWithConnectRetry(url: string, body: string, attempts = 3): Promise<Response> {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body,
+        redirect: "follow",
+        cache: "no-store",
+        signal: AbortSignal.timeout(30000),
+      });
+    } catch (error) {
+      const code = (error as { cause?: { code?: string } })?.cause?.code;
+      if (attempt >= attempts || !code || !CONNECT_ERROR_CODES.has(code)) throw error;
+      console.warn(`[lead:creator-sheet] ${code}, retrying (${attempt}/${attempts - 1})`);
+      await new Promise((r) => setTimeout(r, 500 * attempt));
+    }
+  }
+}
+
+/**
+ * Appends the application to the Google Sheet via its Apps Script web app.
+ * The script JSON.parses e.postData.contents and maps keys to the sheet's
+ * header row, so keys must match the headers exactly. It always replies
+ * 200 and reports failures as { success: false, error }, so the body is checked.
+ */
+export async function submitCreatorApplicationToSheet(row: Record<string, string>): Promise<{ sent: boolean }> {
+  try {
+    const res = await postWithConnectRetry(CREATOR_SHEET_URL, JSON.stringify(row));
+    const body = await res.text().catch(() => "");
+    let data: { success?: boolean; error?: string } | null = null;
+    try {
+      data = JSON.parse(body);
+    } catch {
+      // Non-JSON reply usually means a Google login/permission page: the web app isn't deployed for "Anyone".
+    }
+    if (!res.ok || !data?.success) {
+      console.error("[lead:creator-sheet] Apps Script failed:", res.status, data?.error ?? body.slice(0, 300));
+      return { sent: false };
+    }
+    return { sent: true };
+  } catch (error) {
+    console.error("[lead:creator-sheet] request failed:", error);
+    return { sent: false };
+  }
+}
+
+export async function deliverCreatorApplication(
+  payload: CreatorApplicationValues,
+  row: Record<string, string> = buildCreatorSheetRow(payload),
+): Promise<SendMailResult> {
   const { html, text } = buildLeadEmail({
     heading: "New Creator Application",
-    fields: [
-      { label: "Name", value: payload.fullName },
-      { label: "Email", value: payload.email },
-      { label: "Phone", value: payload.phone },
-      { label: "Instagram Handle", value: normalizeInstagramHandle(payload.instagramHandle) },
-      { label: "Content Niche", value: payload.niche },
-      { label: "City", value: payload.city },
-      { label: "Follower Range", value: payload.followerRange ?? "" },
-      { label: "Other Social Links", value: payload.otherLinks ?? "" },
-      { label: "Introduction", value: payload.introduction ?? "" },
-    ],
+    fields: Object.entries(row)
+      .filter(([label]) => label !== "Timestamp")
+      .map(([label, value]) => ({ label, value })),
     source: "Kudozz Website - For Creators Form",
   });
 
