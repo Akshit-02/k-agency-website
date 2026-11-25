@@ -16,39 +16,86 @@ import type { BrandInquiryValues, CreatorApplicationValues, ContactValues, Newsl
 import { sendLeadEmail, type SendMailResult } from "./mailer";
 import { buildLeadEmail } from "./emailTemplates";
 
-export async function deliverBrandInquiry(payload: BrandInquiryValues): Promise<SendMailResult> {
-  const { html, text } = buildLeadEmail({
-    heading: "New Brand Inquiry",
-    fields: [
-      { label: "Brand Name", value: payload.brandName },
-      { label: "Contact Person", value: payload.contactName },
-      { label: "Email", value: payload.email },
-      { label: "Phone", value: payload.phone },
-      { label: "Brand Website / Instagram", value: payload.website },
-      { label: "Campaign Goal", value: payload.campaignGoal ?? "" },
-      { label: "Estimated Budget", value: payload.budget ?? "" },
-      { label: "Message", value: payload.message ?? "" },
-      { label: "Source Blog Article", value: payload.sourceArticle ?? "" },
-      { label: "Source Article Category", value: payload.articleCategory ?? "" },
-      { label: "CTA Topic / Market", value: payload.ctaTopic ?? "" },
-      { label: "CTA Position", value: payload.ctaPosition ?? "" },
-      { label: "Entry Page", value: payload.leadSource ?? "" },
-    ],
-    source: "Kudozz Website - For Brands Form",
-  });
+const LEADS_SHEET_URL =
+  process.env.LEADS_SHEET_WEBHOOK_URL ??
+  "https://script.google.com/macros/s/AKfycbwheV7YGoS0FYLvxlqMNk5Dwiv-PIQ-csywJW7aKauZ6nPxt1qzt5jz1Nz2jzQnkAQZ/exec";
 
-  const result = await sendLeadEmail({
-    subject: "New Brand Partnership Inquiry | Kudozz",
-    html,
-    text,
-    replyTo: payload.email,
-  });
+/**
+ * Sheets reads a cell starting with = + - @ as a formula, which breaks phone numbers like "+91 ..."
+ * and lets a visitor inject formulas. A leading apostrophe keeps the value as plain text (and is hidden).
+ */
+function asSheetText(value: string | undefined): string {
+  const v = value ?? "";
+  return /^[=+\-@]/.test(v) ? `'${v}` : v;
+}
 
-  if (!result.sent) {
-    console.error("[lead:brand-inquiry] email delivery failed, raw payload:", JSON.stringify(payload));
+function sheetTimestamp(): string {
+  return new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata", hour12: false });
+}
+
+/**
+ * Appends one row to a tab of the leads spreadsheet via its Apps Script web app, which expects
+ * { sheetName, data: [...] } and appends `data` in order. The script always replies 200 and
+ * reports failures as { success: false, error }, so the body is checked.
+ */
+async function appendLeadRow(tag: string, sheetName: string, data: string[]): Promise<{ sent: boolean }> {
+  try {
+    const res = await postWithConnectRetry(LEADS_SHEET_URL, JSON.stringify({ sheetName, data: data.map(asSheetText) }));
+    const body = await res.text().catch(() => "");
+    let parsed: { success?: boolean; error?: string } | null = null;
+    try {
+      parsed = JSON.parse(body);
+    } catch {
+      // Non-JSON reply usually means a Google login/permission page: the web app isn't deployed for "Anyone".
+    }
+    if (!res.ok || !parsed?.success) {
+      console.error(`[${tag}] Apps Script failed:`, res.status, parsed?.error ?? body.slice(0, 300), "row:", JSON.stringify(data));
+      return { sent: false };
+    }
+    return { sent: true };
+  } catch (error) {
+    console.error(`[${tag}] request failed:`, error, "row:", JSON.stringify(data));
+    return { sent: false };
   }
+}
 
-  return result;
+/** Column order of the "Brand Form" tab. */
+export const BRAND_FORM_COLUMNS = [
+  "Timestamp", "Brand Name", "Contact Person", "Email", "Phone", "Brand Website / Instagram",
+  "Campaign Goal", "Estimated Budget", "Message", "Source Blog Article", "Source Article Category",
+  "CTA Topic / Market", "CTA Position", "Entry Page",
+] as const;
+
+export async function deliverBrandInquiry(payload: BrandInquiryValues): Promise<{ sent: boolean }> {
+  return appendLeadRow("lead:brand-inquiry", "Brand Form", [
+    sheetTimestamp(),
+    payload.brandName,
+    payload.contactName,
+    payload.email,
+    payload.phone,
+    payload.website,
+    payload.campaignGoal ?? "",
+    payload.budget ?? "",
+    payload.message ?? "",
+    payload.sourceArticle ?? "",
+    payload.articleCategory ?? "",
+    payload.ctaTopic ?? "",
+    payload.ctaPosition ?? "",
+    payload.leadSource ?? "",
+  ]);
+}
+
+/** Column order of the "Contact Form" tab. */
+export const CONTACT_FORM_COLUMNS = ["Timestamp", "Name", "Email", "Subject", "Message"] as const;
+
+export async function deliverContactMessage(payload: ContactValues): Promise<{ sent: boolean }> {
+  return appendLeadRow("lead:contact", "Contact Form", [
+    sheetTimestamp(),
+    payload.name,
+    payload.email,
+    payload.subject,
+    payload.message,
+  ]);
 }
 
 const CREATOR_SHEET_URL =
@@ -158,32 +205,6 @@ export async function deliverCreatorApplication(
 
   if (!result.sent) {
     console.error("[lead:creator-application] email delivery failed, raw payload:", JSON.stringify(payload));
-  }
-
-  return result;
-}
-
-export async function deliverContactMessage(payload: ContactValues): Promise<SendMailResult> {
-  const { html, text } = buildLeadEmail({
-    heading: "New Contact Message",
-    fields: [
-      { label: "Name", value: payload.name },
-      { label: "Email", value: payload.email },
-      { label: "Subject", value: payload.subject },
-      { label: "Message", value: payload.message },
-    ],
-    source: "Kudozz Website - Contact Form",
-  });
-
-  const result = await sendLeadEmail({
-    subject: `New Contact Message: ${payload.subject} | Kudozz`,
-    html,
-    text,
-    replyTo: payload.email,
-  });
-
-  if (!result.sent) {
-    console.error("[lead:contact] email delivery failed, raw payload:", JSON.stringify(payload));
   }
 
   return result;

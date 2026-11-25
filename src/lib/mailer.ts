@@ -37,8 +37,8 @@ function getTransporter(env: MailEnv): Transporter {
   cachedTransporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "makshu1234@gmail.com",
-      pass: "imwplxoynqrhojny",
+      user: env.from,
+      pass: env.appPassword,
     },
   });
 
@@ -73,14 +73,19 @@ export async function sendLeadEmail(
 
   try {
     const transporter = getTransporter(env);
-    await transporter.sendMail({
-      from: `"Kudozz Website" <makshu1234@gmail.com>`,
-      to: "akshit.techie@gmail.com",
+    const info = await transporter.sendMail({
+      from: `"Kudozz Website" <${env.from}>`,
+      to: env.to,
       subject: input.subject,
       html: input.html,
       text: input.text,
       ...(input.replyTo ? { replyTo: input.replyTo } : {}),
     });
+    // Logged so production logs show exactly where Gmail delivered (or refused) each lead.
+    console.log("[mailer] sent", { to: env.to, messageId: info.messageId, accepted: info.accepted, rejected: info.rejected });
+    if (info.rejected?.length) {
+      return { sent: false, reason: "rejected" };
+    }
     return { sent: true };
   } catch (error) {
     console.error("[mailer] Failed to send lead email:", error);
