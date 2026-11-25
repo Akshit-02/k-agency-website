@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Sourcing brand ambassadors: five candidate pools feed a trial-to-ambassador pipeline of spotted, seeded, paid trial, second brief and offer</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Ambassadors are earned through trials</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Look in your own pools first, fill gaps with discovery, test before you sign.</text>
+<text x="80" y="222" font-size="18" font-weight="700" fill="#150F0B">CANDIDATE POOLS</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="240" width="330" height="60" fill="#CCFF3D"/><rect x="80" y="312" width="330" height="60" fill="#CCFF3D"/><rect x="80" y="384" width="330" height="60" fill="#CCFF3D"/><rect x="80" y="456" width="330" height="60" fill="#FFFFFF"/><rect x="80" y="528" width="330" height="60" fill="#FFFFFF"/>
+</g>
+<g font-size="20" fill="#150F0B"><text x="100" y="278">Customers who create</text><text x="100" y="350">Past collaborators</text><text x="100" y="422">Unprompted fans</text><text x="100" y="494">Experts, community</text><text x="100" y="566">Discovery for gaps</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M410 270 L470 414"/><path d="M410 342 L470 414"/><path d="M410 414 H470"/><path d="M410 486 L470 414"/><path d="M410 558 L470 414"/></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="470" y="354" width="180" height="120" fill="#FFFFFF"/><rect x="670" y="354" width="180" height="120" fill="#FFFFFF"/><rect x="870" y="354" width="180" height="120" fill="#FFFFFF"/><rect x="1070" y="354" width="180" height="120" fill="#FFFFFF"/><rect x="1270" y="334" width="250" height="160" fill="#FF4D1C"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B"><text x="490" y="384">STAGE 1</text><text x="690" y="384">STAGE 2</text><text x="890" y="384">STAGE 3</text><text x="1090" y="384">STAGE 4</text><text x="1290" y="370">STAGE 5</text></g>
+<g font-size="21" font-weight="700" fill="#150F0B"><text x="490" y="420">Spotted</text><text x="690" y="420">Seeded</text><text x="890" y="420">Paid trial</text><text x="1090" y="420">2nd brief</text><text x="1290" y="414">Ambassador</text><text x="1290" y="442">offer</text></g>
+<g font-size="16" fill="#150F0B"><text x="490" y="452">fit on paper</text><text x="690" y="452">real product use</text><text x="890" y="452">delivery, response</text><text x="1090" y="452">range, consistency</text><text x="1290" y="474">term, exclusivity</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M650 414 H670"/><path d="M850 414 H870"/><path d="M1050 414 H1070"/><path d="M1250 414 H1270"/></g>
+<rect x="470" y="530" width="1050" height="58" fill="#150F0B"/>
+<text x="494" y="567" font-size="19" fill="#FAF1E2">Score finalists on: product use, reliability, audience proof, content, values, conflicts</text>
+<text x="80" y="640" font-size="18" fill="#150F0B" opacity=".65">Lime pools can often skip early stages. Cold discovery candidates go through every stage.</text>
+</svg>

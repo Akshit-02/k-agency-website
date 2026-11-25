@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A weekly influencer sourcing rhythm from Monday triage to Friday handover, feeding back into the creator database</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">A sourcing week that repeats</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">One intake form, one owner, one approver, the same rhythm every week.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="190" width="272" height="60" fill="#150F0B"/><rect x="352" y="190" width="272" height="60" fill="#150F0B"/><rect x="624" y="190" width="272" height="60" fill="#150F0B"/><rect x="896" y="190" width="272" height="60" fill="#150F0B"/><rect x="1168" y="190" width="352" height="60" fill="#150F0B"/>
+<rect x="80" y="250" width="272" height="230" fill="#FFFFFF"/><rect x="352" y="250" width="272" height="230" fill="#FFFFFF"/><rect x="624" y="250" width="272" height="230" fill="#FFFFFF"/><rect x="896" y="250" width="272" height="230" fill="#FFFFFF"/><rect x="1168" y="250" width="352" height="230" fill="#CCFF3D"/>
+</g>
+<g font-size="22" font-weight="700" fill="#FAF1E2"><text x="104" y="228">Mon</text><text x="376" y="228">Tue</text><text x="648" y="228">Wed</text><text x="920" y="228">Thu</text><text x="1192" y="228">Fri</text></g>
+<g font-size="24" font-weight="700" fill="#150F0B"><text x="104" y="298">Triage</text><text x="376" y="298">Search</text><text x="648" y="298">Research</text><text x="920" y="298">Shortlist</text><text x="1192" y="298">Review + handover</text></g>
+<g font-size="18" fill="#150F0B"><text x="104" y="344">Check intake</text><text x="104" y="372">forms, ask</text><text x="104" y="400">questions, set</text><text x="104" y="428">due dates</text>
+<text x="376" y="344">Database first,</text><text x="376" y="372">then saved and</text><text x="376" y="400">new searches;</text><text x="376" y="428">log every run</text>
+<text x="648" y="344">Hard gates,</text><text x="648" y="372">read profiles,</text><text x="648" y="400">write research</text><text x="648" y="428">notes</text>
+<text x="920" y="344">Score, tier,</text><text x="920" y="372">add backups,</text><text x="920" y="400">build review</text><text x="920" y="428">pack</text>
+<text x="1192" y="344">Approver signs off</text><text x="1192" y="372">Outreach gets the</text><text x="1192" y="400">handover note</text><text x="1192" y="428">Database updated</text></g>
+<g font-size="15" font-weight="700" fill="#FF4D1C"><text x="104" y="464">OWNER: SOURCING LEAD</text><text x="376" y="464">OWNER: RESEARCHER</text><text x="648" y="464">OWNER: RESEARCHER</text><text x="920" y="464">OWNER: SOURCING LEAD</text></g>
+<text x="1192" y="464" font-size="15" font-weight="700" fill="#150F0B">OWNER: APPROVER</text>
+<path d="M1344 480V560H216V490" stroke="#150F0B" stroke-width="3" fill="none"/>
+<path d="M206 500l10-16 10 16z" fill="#150F0B"/>
+<rect x="560" y="530" width="480" height="60" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="800" y="568" font-size="20" font-weight="700" fill="#150F0B" text-anchor="middle">Creator database feeds next week</text>
+<text x="80" y="640" font-size="18" fill="#150F0B" opacity=".65">Plus: monthly database refresh, quarterly sourcing retrospective.</text>
+</svg>

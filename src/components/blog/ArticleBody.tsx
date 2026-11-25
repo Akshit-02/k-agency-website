@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { isLinkAllowed } from "@/lib/links";
 import type { BlogCtaSet } from "@/lib/blogCta";
 import { BlogMidCTA } from "@/components/blog/BlogMidCTA";
+import { DiscoveryArticleCTA } from "@/components/discovery/DiscoveryArticleCTA";
 import { CreatorPricingCalculator } from "@/components/creator-resources/CreatorPricingCalculator";
 import { CreatorRevenueForecast } from "@/components/creator-resources/CreatorRevenueForecast";
 import { CreatorDelegationCalculator } from "@/components/creator-resources/CreatorDelegationCalculator";
@@ -71,8 +72,21 @@ function renderWithLinks(text: string, links?: InlineLink[]) {
   });
 }
 
-function renderBlock(block: BlogBlock, i: number) {
+function renderBlock(block: BlogBlock, i: number, article?: { slug: string; title: string }) {
   switch (block.type) {
+    case "discovery-cta":
+      if (!article) return null;
+      return (
+        <DiscoveryArticleCTA
+          key={i}
+          variant="mid"
+          slug={article.slug}
+          title={article.title}
+          headline={block.headline}
+          body={block.body}
+          ctaLabel={block.ctaLabel}
+        />
+      );
     case "heading":
       return (
         <h2
@@ -238,20 +252,26 @@ export function ArticleBody({
   ctaSet,
   slug,
   category,
+  title,
 }: {
   blocks: BlogBlock[];
   ctaSet?: BlogCtaSet;
   slug?: string;
   category?: string;
+  /** Article title, sent with Kudozz Discovery CTA clicks. */
+  title?: string;
 }) {
-  const midCtaIndex = ctaSet ? getMidCtaIndex(blocks) : null;
+  // A hand-placed Kudozz Discovery CTA takes the mid-article slot, so the automatic agency CTA is skipped.
+  const hasDiscoveryMid = blocks.some((b) => b.type === "discovery-cta");
+  const midCtaIndex = ctaSet && !hasDiscoveryMid ? getMidCtaIndex(blocks) : null;
+  const article = slug && title ? { slug, title } : undefined;
 
   // min-w-0: as a grid item, let wide tables scroll inside their wrapper instead of widening the page on mobile.
   return (
     <div className="min-w-0 space-y-6 text-lg leading-relaxed text-ink/80">
       {blocks.map((block, i) => (
         <Fragment key={i}>
-          {renderBlock(block, i)}
+          {renderBlock(block, i, article)}
           {ctaSet && slug && category && i === midCtaIndex && (
             <BlogMidCTA
               content={ctaSet.mid}

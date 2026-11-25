@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Finding local influencers: a city block map of local businesses and a five-step local search flow</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Local influencers start within a short drive</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Search where your customers live, then confirm the audience is local too.</text>
+<rect x="80" y="190" width="700" height="440" fill="#150F0B"/>
+<g fill="#FAF1E2">
+<rect x="100" y="210" width="150" height="120"/><rect x="270" y="210" width="150" height="120"/><rect x="440" y="210" width="150" height="120"/><rect x="610" y="210" width="150" height="120"/>
+<rect x="100" y="350" width="150" height="120"/><rect x="270" y="350" width="150" height="120"/><rect x="440" y="350" width="150" height="120"/><rect x="610" y="350" width="150" height="120"/>
+<rect x="100" y="490" width="150" height="120"/><rect x="270" y="490" width="150" height="120"/><rect x="440" y="490" width="150" height="120"/><rect x="610" y="490" width="150" height="120"/>
+</g>
+<rect x="255" y="336" width="350" height="148" fill="none" stroke="#FF4D1C" stroke-width="4" stroke-dasharray="12 8"/>
+<g stroke="#150F0B" stroke-width="3"><rect x="290" y="370" width="110" height="44" fill="#FF4D1C"/><rect x="460" y="420" width="110" height="44" fill="#CCFF3D"/><rect x="120" y="230" width="110" height="44" fill="#FFFFFF"/><rect x="630" y="510" width="110" height="44" fill="#FFFFFF"/><rect x="460" y="230" width="110" height="44" fill="#CCFF3D"/><rect x="120" y="510" width="110" height="44" fill="#FF4D1C"/></g>
+<g font-size="19" font-weight="700" fill="#150F0B" text-anchor="middle"><text x="345" y="399">Café</text><text x="515" y="449">Salon</text><text x="175" y="259">Gym</text><text x="685" y="539">Clinic</text><text x="515" y="259">Store</text><text x="175" y="539">Property</text></g>
+<text x="430" y="324" font-size="16" font-weight="700" fill="#FF4D1C" text-anchor="middle">YOUR NEIGHBOURHOOD</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="880" y="190" width="640" height="64" fill="#FFFFFF"/><rect x="880" y="284" width="640" height="64" fill="#FFFFFF"/><rect x="880" y="378" width="640" height="64" fill="#FFFFFF"/><rect x="880" y="472" width="640" height="64" fill="#CCFF3D"/><rect x="880" y="566" width="640" height="64" fill="#FF4D1C"/>
+</g>
+<g font-size="21" fill="#150F0B"><text x="904" y="230"><tspan font-weight="700">Location tags:</tspan> you, neighbours, landmarks</text><text x="904" y="324"><tspan font-weight="700">City hashtags:</tspan> English and local language</text><text x="904" y="418"><tspan font-weight="700">Hyperlocal pages:</tspan> who they feature</text><text x="904" y="512"><tspan font-weight="700">City + language filters</tspan> in discovery tools</text><text x="904" y="606"><tspan font-weight="700">Verify:</tspan> ask for top-cities insights</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M1200 256 V280" marker-end="url(#a)"/><path d="M1200 350 V374" marker-end="url(#a)"/><path d="M1200 444 V468" marker-end="url(#a)"/><path d="M1200 538 V562" marker-end="url(#a)"/></g>
+</svg>

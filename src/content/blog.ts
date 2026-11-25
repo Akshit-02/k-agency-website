@@ -5,6 +5,7 @@ import { locationGuidePosts } from "@/content/location-guides";
 import { gccGuidePosts } from "@/content/gcc-guides";
 import { auGuidePosts } from "@/content/au-guides";
 import { ukGuidePosts } from "@/content/uk-guides";
+import { discoveryGuidePosts } from "@/content/discovery-guides";
 import { SOURCES } from "@/content/creator-resources/shared";
 import { SRC as GCC_SRC } from "@/content/gcc-guides/shared";
 
@@ -22,6 +23,11 @@ export type BlogBlock =
   /** Copy-ready text (email templates, document structures), rendered preformatted. */
   | { type: "template"; label?: string; text: string }
   | { type: "image"; src: string; alt: string; caption?: string; width: number; height: number }
+  /**
+   * Contextual Kudozz Discovery CTA placed by hand inside the article (the "mid_article" CTA). Its presence replaces
+   * the automatic mid-article agency CTA. Copy must stay within the verified facts in src/config/discovery.ts.
+   */
+  | { type: "discovery-cta"; headline: string; body: string; ctaLabel?: string }
   /** An interactive tool rendered by ArticleBody (see BLOG_TOOLS there). */
   | {
       type: "tool";
@@ -91,6 +97,11 @@ export type BlogPost = {
   inLanguage?: string;
   body: BlogBlock[];
   faqs?: BlogFaq[];
+  /**
+   * Kudozz Discovery articles: replaces the bottom agency CTA with the end-of-article Discovery CTA. Fields override
+   * the default copy (DISCOVERY_BLOG_END_DEFAULTS in src/config/discovery.ts).
+   */
+  discoveryCta?: { headline?: string; body?: string; ctaLabel?: string };
 };
 
 const corePosts: BlogPost[] = [
@@ -1838,114 +1849,6 @@ const corePosts: BlogPost[] = [
         question: "How is guest marketing different from founder interview marketing specifically?",
         answer:
           "Guest marketing is the broader category covering any guest type, while founder interview marketing focuses specifically on placing founders and executives and connects more directly to broader thought-leadership strategy.",
-      },
-    ],
-  },
-  {
-    slug: "how-to-find-podcasts-and-podcast-creators",
-    category: "Campaign Strategy",
-    title: "How to Find the Right Podcasts and Podcast Creators for Your Brand",
-    seoTitle: "How to Find the Right Podcasts for Your Brand",
-    excerpt:
-      "Download count is the easiest number to compare and one of the weakest signals of fit. A discovery framework that starts with the audience, not the leaderboard.",
-    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
-    publishedAt: "2026-09-17",
-    readingTime: "10 min read",
-    body: [
-      {
-        type: "paragraph",
-        text: "A podcast with a smaller, tightly focused audience that matches a brand's exact customer profile is usually a better sponsorship than a much larger show with a broad, loosely related audience. Discovery should start from who the brand needs to reach, not from a leaderboard sorted by downloads.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "Brands find the right podcasts through category and keyword search on podcast platforms, sponsorship marketplaces and directories, competitor sponsorship research, listener surveys or customer research, and referrals from other shows or agencies. Evaluation should weigh audience fit, niche relevance, host credibility, content quality, and consistency far more heavily than download count alone, since downloads say nothing about whether that specific audience matches a brand's target customer.",
-      },
-      { type: "heading", text: "Where to find podcasts and hosts", id: "where-to-find" },
-      {
-        type: "list",
-        items: [
-          "Direct search on Spotify, Apple Podcasts, YouTube, and other platforms, using category and topic keywords",
-          "Podcast sponsorship marketplaces and directories that list shows open to sponsorship",
-          "Competitor research, reviewing which shows are already sponsored by comparable or adjacent brands",
-          "Customer research, asking existing customers directly which podcasts they actually listen to",
-          "Referrals from other podcast hosts, networks, or agencies already working in the category",
-          "Industry and niche communities where relevant shows are frequently discussed or recommended",
-        ],
-      },
-      { type: "heading", text: "The Podcast Discovery Evaluation Framework", id: "discovery-framework" },
-      {
-        type: "table",
-        headers: ["Factor", "What to evaluate"],
-        rows: [
-          ["Audience fit", "Whether the show's listeners resemble the brand's target customer"],
-          ["Geography", "Whether the audience's location matches the campaign's target market"],
-          ["Niche relevance", "Whether the show's regular content genuinely overlaps with the brand's category"],
-          ["Demographics, where available", "Age, profession, or interest alignment with the target customer, when the host can share this"],
-          ["Listener or viewer engagement", "Completion rates, comments, and community activity, not just raw download totals"],
-          ["Content quality", "Production consistency, editing, and audio or video quality"],
-          ["Host credibility", "Genuine expertise or standing within the show's specific niche"],
-          ["Episode consistency", "A regular, sustained publishing schedule rather than sporadic output"],
-          ["Brand safety", "Content history and host conduct that would reflect on the brand if associated"],
-          ["Previous sponsors", "What categories of brands have sponsored the show before, and how frequently"],
-          ["Commercial fit", "Rate expectations relative to budget and the specific deliverable needed"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Weight audience fit, niche relevance, and host credibility most heavily. Treat download count as one input, useful for gauging scale once fit is established, not the primary sorting criterion.",
-      },
-      { type: "heading", text: "Why downloads alone are a weak filter", id: "why-downloads-are-weak" },
-      {
-        type: "paragraph",
-        text: "A show with a large download count but a broad, loosely defined audience delivers less genuine value than a smaller show whose listeners are a near-exact match for a brand's target customer. Downloads also don't confirm whether an episode was actually played through, or whether the specific ad placement being purchased was heard at all.",
-      },
-      { type: "heading", text: "Audio-only vs. video podcast discovery", id: "audio-vs-video-discovery" },
-      {
-        type: "paragraph",
-        text: "Many podcasts now exist across audio platforms and YouTube simultaneously, sometimes with meaningfully different audience sizes on each. Check a show's presence and performance across all the platforms it's distributed on, not just its primary audio host, since a sponsorship placement's value can differ significantly between the audio and video versions of the same episode. For shows primarily built around YouTube, see how to find YouTube influencers for the video-specific discovery process.",
-        links: [{ text: "how to find YouTube influencers", href: "/blog/how-to-find-youtube-influencers" }],
-      },
-      {
-        type: "quote",
-        text: "A leaderboard sorted by downloads tells you which shows are popular. It doesn't tell you which one your actual customer is listening to on their commute.",
-        attribution: "Kudozz Strategy Team",
-      },
-      { type: "heading", text: "What happens after the shortlist", id: "after-shortlist" },
-      {
-        type: "paragraph",
-        text: "Once you have a scored shortlist, the next steps are outreach and pricing conversations. See podcast influencer outreach and podcast influencer marketing costs in India.",
-        links: [
-          { text: "podcast influencer outreach", href: "/blog/podcast-influencer-outreach" },
-          { text: "podcast influencer marketing costs in India", href: "/blog/podcast-influencer-marketing-costs-india" },
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "How Kudozz handles this: Creator Discovery & Matchmaking.",
-        links: [{ text: "Creator Discovery & Matchmaking", href: "/services/creator-discovery" }],
-      },
-    ],
-    faqs: [
-      {
-        question: "What's the best way to find the right podcast for a brand?",
-        answer:
-          "Starting from the target audience, which shows do they actually listen to, through customer research, competitor sponsorship analysis, and category search, works better than sorting a directory by download count alone.",
-      },
-      {
-        question: "Should brands evaluate podcasts only by downloads?",
-        answer:
-          "No, downloads don't confirm an episode was actually played through or that a specific ad placement was heard. Audience fit, niche relevance, and host credibility are stronger indicators of value.",
-      },
-      {
-        question: "How should brands evaluate podcasts that exist on both audio and YouTube?",
-        answer:
-          "Check performance and audience size on each platform separately, since a show's video audience on YouTube can differ meaningfully in size and behavior from its primary audio audience.",
-      },
-      {
-        question: "How many podcasts should a brand shortlist before reaching out?",
-        answer:
-          "A shortlist of eight to twelve scored candidates for a typical campaign leaves room for shows that don't respond or don't fit once reviewed more closely, without making outreach unmanageable.",
       },
     ],
   },
@@ -7124,8 +7027,9 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Planning a YouTube campaign beyond Shorts? YouTube influencer marketing in India covers long-form, Shorts and live together, and YouTube sponsorships compares formats by goal.",
+        text: "Planning a YouTube campaign beyond Shorts? YouTube influencer marketing in India covers long-form, Shorts and live together, and YouTube sponsorships compares formats by goal. For search methods and the Studio proof to request, see how to find YouTube Shorts creators.",
         links: [
+          { text: "how to find YouTube Shorts creators", href: "/blog/find-youtube-shorts-creators" },
           { text: "YouTube influencer marketing in India", href: "/blog/youtube-influencer-marketing-india" },
           { text: "YouTube sponsorships", href: "/blog/youtube-sponsorships#format-by-goal" },
         ],
@@ -7683,124 +7587,6 @@ const corePosts: BlogPost[] = [
     ],
   },
   {
-    slug: "how-to-find-youtube-influencers",
-    category: "Campaign Strategy",
-    title: "How to Find YouTube Influencers for Your Brand: Complete Creator Discovery Guide",
-    seoTitle: "How to Find YouTube Influencers for Your Brand",
-    excerpt:
-      "Subscriber count is the easiest number to see and one of the weakest signals of fit. A structured discovery and scoring process for finding YouTube creators worth actually contacting.",
-    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
-    publishedAt: "2026-09-12",
-    readingTime: "10 min read",
-    body: [
-      {
-        type: "paragraph",
-        text: "A channel with a million subscribers and an audience with almost no overlap with your customer is a worse find than one with eighty thousand subscribers who are exactly who you're trying to reach. Discovery on YouTube should start from the audience you need, not the subscriber count that's easiest to sort by.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "Brands find YouTube creators through direct platform search using relevant keywords, niche research, influencer marketing platforms and creator databases, agency-assisted discovery, competitor research, and audience research based on who existing customers already watch. Subscriber count alone isn't enough to judge fit, audience relevance, content style, engagement quality, and consistency matter more, and should be scored systematically rather than eyeballed.",
-      },
-      { type: "heading", text: "Where to find YouTube creators", id: "where-to-find" },
-      {
-        type: "list",
-        items: [
-          "YouTube search itself, using keywords relevant to your product category and campaign theme",
-          "Niche research, browsing related and recommended channels from creators you already know are relevant",
-          "Creator databases and influencer marketing platforms built for discovery and outreach",
-          "Creator marketplaces, where available, that connect brands with creators open to partnerships",
-          "Agency-assisted discovery, a faster route to a pre-vetted shortlist",
-          "Competitor research, reviewing which creators are already covering comparable or adjacent products",
-          "Audience research, checking which channels your existing customers actually subscribe to and watch",
-          "Regional and niche creator search, using language-specific keywords to surface creators outside a default English-language search",
-        ],
-      },
-      { type: "heading", text: "Why subscriber count alone isn't enough", id: "why-subscribers-alone-insufficient" },
-      {
-        type: "paragraph",
-        text: "Subscriber count is easy to compare and easy to over-index on for exactly that reason. Average views relative to subscriber count, audience geography, and how closely a channel's existing content matches your product category are better predictors of whether an audience will actually respond to your product than the subscriber number alone.",
-      },
-      {
-        type: "paragraph",
-        text: "When you compare average views across channels, check which videos the average covers. YouTube has counted views from the first frame since 24 August 2026, so recent videos show higher counts than older ones under the previous definition, now called engaged views. Ask for engaged views and average view duration over the same recent period for every channel on the shortlist.",
-        links: [{ text: "counted views from the first frame", href: "https://blog.youtube/inside-youtube/engaged-views-youtube-explained/" }],
-      },
-      { type: "heading", text: "The YouTube Creator Scorecard", id: "creator-scorecard" },
-      {
-        type: "table",
-        headers: ["Category", "Weight", "What to evaluate"],
-        rows: [
-          ["Audience fit", "High", "How closely the channel's viewers match your target customer"],
-          ["Content fit", "High", "Whether the channel's existing style could plausibly feature your product"],
-          ["Engagement", "Medium", "Comment substance and consistency relative to view count"],
-          ["Average views", "Medium", "Views relative to subscriber count, a better efficiency signal than subscribers alone"],
-          ["Consistency", "Medium", "Regular upload schedule and stable content quality over time"],
-          ["Authenticity", "High", "Signs of a genuine, engaged audience rather than an inflated one"],
-          ["Brand fit", "Medium", "Whether the channel's tone and values are compatible with the brand"],
-          ["Audience geography", "Medium", "Relevance to the campaign's target region"],
-          ["Audience demographics", "Medium", "Age and interest alignment with the target customer, where available"],
-          ["Previous sponsorships", "Medium", "Frequency and category fit of past paid collaborations"],
-          ["Content quality", "Medium", "Production consistency, audio, and editing"],
-          ["Brand safety", "High", "Content history and public conduct"],
-          ["Pricing", "Low", "Rate relative to budget, considered last, after fit is established"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Weight audience fit, content fit, authenticity, and brand safety most heavily, and treat pricing as a filter applied after a candidate has already scored well on fit, not the first sorting criterion.",
-      },
-      { type: "heading", text: "Regional and niche creator discovery in India", id: "regional-niche-discovery-india" },
-      {
-        type: "paragraph",
-        text: "For Indian brands, searching in the relevant regional language, Hindi, Tamil, Telugu, Bengali, Marathi, Kannada, Malayalam, Gujarati, or Punjabi, alongside English keywords, surfaces a materially different set of channels than an English-only search, particularly for Tier 2 and Tier 3 audiences whose primary YouTube consumption may be in a regional language. See regional and vernacular influencer marketing in India for how this fits into a broader creator strategy.",
-        links: [{ text: "regional and vernacular influencer marketing in India", href: "/blog/regional-influencer-marketing-india" }],
-      },
-      {
-        type: "quote",
-        text: "A shortlist built from a subscriber-count sort looks impressive in a spreadsheet. A shortlist built from a scorecard is the one that actually performs.",
-        attribution: "Kudozz Strategy Team",
-      },
-      { type: "heading", text: "What happens after the shortlist", id: "after-shortlist" },
-      {
-        type: "paragraph",
-        text: "Once you have a scored shortlist, the next steps are outreach, pricing conversations, and vetting for brand safety. See how to contact YouTube creators, YouTube influencer rates in India, and how to vet influencers before a brand collaboration.",
-        links: [
-          { text: "how to contact YouTube creators", href: "/blog/how-to-contact-youtube-creators" },
-          { text: "YouTube influencer rates in India", href: "/blog/youtube-influencer-rates-india" },
-          { text: "how to vet influencers before a brand collaboration", href: "/blog/how-to-vet-influencers" },
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "How Kudozz handles this: Creator Discovery & Matchmaking.",
-        links: [{ text: "Creator Discovery & Matchmaking", href: "/services/creator-discovery" }],
-      },
-    ],
-    faqs: [
-      {
-        question: "What's the best way to find YouTube influencers?",
-        answer:
-          "A combination of direct YouTube search, niche and competitor research, creator databases, and audience research tends to surface a more varied and relevant shortlist than relying on a single discovery method.",
-      },
-      {
-        question: "Is subscriber count a reliable way to compare YouTube creators?",
-        answer:
-          "No. Average views relative to subscriber count, audience relevance, and engagement quality are stronger predictors of campaign performance than subscriber count alone.",
-      },
-      {
-        question: "How should brands weight the factors in a YouTube creator scorecard?",
-        answer:
-          "Weight audience fit, content fit, authenticity, and brand safety most heavily, and treat pricing as a filter applied after fit is established rather than the primary sorting criterion.",
-      },
-      {
-        question: "How many YouTube creators should a brand shortlist before reaching out?",
-        answer:
-          "A shortlist of ten to fifteen scored candidates for a typical campaign leaves enough room for creators who don't respond or don't fit once reviewed more closely, without making outreach unmanageable.",
-      },
-    ],
-  },
-  {
     slug: "youtube-influencer-rates-india",
     category: "Campaign Strategy",
     title: "YouTube Influencer Rates in India: Complete Pricing Guide for Brands",
@@ -7956,7 +7742,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Why D2C brands lean on Instagram creators specifically", id: "why-d2c-uses-creators" },
       {
         type: "paragraph",
-        text: "D2C brands sell directly to a customer with no retail shelf presence and often no existing brand recognition. Instagram creators, through Reels reach, Story urgency, and UGC-style ad creative, compensate for that gap more affordably than most alternative channels, particularly in the early and growth stages when production budgets are limited.",
+        text: "D2C brands sell directly to a customer with no retail shelf presence and often no existing brand recognition. Instagram creators, through Reels reach, Story urgency, and UGC-style ad creative, compensate for that gap more affordably than most alternative channels, particularly in the early and growth stages when production budgets are limited. If you're still building the creator list, read how D2C brands can find the right influencers for their price point and category.",
+        links: [{ text: "how D2C brands can find the right influencers", href: "/blog/influencer-discovery-for-d2c-brands" }],
       },
       { type: "heading", text: "The Instagram creator mix for D2C", id: "creator-mix-d2c" },
       {
@@ -8969,159 +8756,6 @@ const corePosts: BlogPost[] = [
     ],
   },
   {
-    slug: "how-to-find-instagram-influencers",
-    category: "Instagram Marketing",
-    title: "How to Find Instagram Influencers for Your Brand: Complete Creator Discovery Guide",
-    seoTitle: "How to Find Instagram Influencers for Your Brand",
-    excerpt:
-      "Where to actually source Instagram creators, how to shortlist them without defaulting to follower count, and a scorecard for evaluating candidates before you reach out.",
-    author: { name: "Kudozz Social Team", role: "Agency Team" },
-    publishedAt: "2026-09-12",
-    readingTime: "10 min read",
-    body: [
-      {
-        type: "paragraph",
-        text: "Searching a hashtag and scrolling for an hour is how most brands start finding Instagram influencers, and it's also why most brands end up with a shortlist that looks impressive and performs unevenly. Instagram now has enough structured discovery tools, alongside the manual methods, that sourcing can be a deliberate process rather than a scroll.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "Brands can find Instagram influencers through Meta's Creator Marketplace, manual search using relevant hashtags and keywords, competitor and audience research, existing customers already talking about the brand, creator databases and agencies, and open creator applications. The right source matters less than the evaluation that follows: audience fit, engagement quality, and content style should decide the shortlist, not follower count alone.",
-      },
-      { type: "heading", text: "What makes an Instagram influencer suitable for a brand", id: "what-makes-suitable" },
-      {
-        type: "paragraph",
-        text: "Suitability comes down to whether the creator's actual audience resembles the brand's target customer, whether their content style and tone could plausibly feature the product without feeling forced, and whether their engagement reflects a real, attentive audience rather than an inflated one. A creator can be a poor fit at any follower size, and a good fit at any follower size too.",
-      },
-      { type: "heading", text: "Where to find Instagram influencers", id: "where-to-find" },
-      {
-        type: "list",
-        items: [
-          "Meta's Creator Marketplace: a discovery tool for finding and connecting with creators open to brand partnerships, with filters for category and audience data; availability and exact features can vary by market and account eligibility, confirm current access in your Meta Business account",
-          "Manual search using hashtags and keywords relevant to your category, product, or campaign theme",
-          "Competitor research: reviewing which creators are already working with comparable or adjacent brands",
-          "Audience research: checking who your own followers and customers already follow and engage with",
-          "Existing customers: genuine fans and buyers are often the most authentic-feeling creator candidates",
-          "Creator databases and agencies: a faster route to a pre-vetted shortlist, at the cost of direct relationship-building",
-          "Open creator applications: a simple form on your own site or profile for creators to apply directly",
-          "Regional and niche communities: Instagram accounts, groups, or hashtags specific to a language, city, or interest area",
-        ],
-      },
-      { type: "heading", text: "Creator tiers, briefly", id: "creator-tiers" },
-      {
-        type: "table",
-        headers: ["Tier", "Typical follower range", "What they tend to offer"],
-        rows: [
-          ["Nano", "1K–10K", "Highly engaged, niche audiences; often strong for authentic feedback and local reach"],
-          ["Micro", "10K–100K", "A common balance of engagement and cost efficiency"],
-          ["Mid-tier", "100K–500K", "Broader reach with still-manageable engagement quality"],
-          ["Macro", "500K+", "Wide reach, often used to anchor a multi-creator campaign"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Treat these as rough reference points, not a decision rule, the right tier depends on the campaign objective and budget, not a default preference for bigger numbers. See micro and nano influencers in India and micro vs. macro influencers for a deeper look at when smaller audiences actually outperform larger ones.",
-        links: [
-          { text: "micro and nano influencers in India", href: "/blog/micro-influencers-india" },
-          { text: "micro vs. macro influencers", href: "/blog/micro-vs-macro-influencers" },
-        ],
-      },
-      { type: "heading", text: "What to evaluate once you have candidates", id: "what-to-evaluate" },
-      {
-        type: "list",
-        items: [
-          "Audience fit: location, language, age range, and, where relevant, gender skew matching your target customer",
-          "Niche relevance: whether the creator's regular content genuinely overlaps with your product category",
-          "Engagement quality: comment substance and consistency, not just a headline engagement rate",
-          "Average Reel views and Story performance relative to their follower count, not in isolation",
-          "Content quality: framing, audio, and editing consistency across recent posts",
-          "Brand alignment: whether their tone and values are compatible with how you want to be represented",
-          "Previous brand collaborations: reviewed for fit, frequency, and professionalism",
-          "Audience authenticity: signs of genuine versus inflated followings",
-          "Brand safety: a check on content history and public conduct",
-          "Communication quality: responsiveness and clarity even before a deal is discussed",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "For the fraud and authenticity check specifically, see how to identify fake followers and fake engagement, and for the fuller due-diligence process once a creator is shortlisted, see how to vet influencers before a brand collaboration.",
-        links: [
-          { text: "how to identify fake followers and fake engagement", href: "/blog/how-to-identify-fake-followers" },
-          { text: "how to vet influencers before a brand collaboration", href: "/blog/how-to-vet-influencers" },
-        ],
-      },
-      { type: "heading", text: "Instagram Influencer Selection Scorecard", id: "selection-scorecard" },
-      {
-        type: "table",
-        headers: ["Category", "What to score"],
-        rows: [
-          ["Audience fit", "How closely the creator's audience matches your target customer"],
-          ["Content fit", "Whether their existing style could plausibly feature your product"],
-          ["Engagement quality", "Comment substance and consistency, not just the rate"],
-          ["Audience authenticity", "Signs of genuine versus inflated followers and engagement"],
-          ["Brand safety", "Content history and public conduct"],
-          ["Content quality", "Production consistency, framing, and audio"],
-          ["Commercial fit", "Rate expectations relative to your budget and the deliverable"],
-          ["Location", "Relevance to your target geography, from national to hyperlocal"],
-          ["Language", "Fit with the language your target audience actually consumes content in"],
-          ["Previous brand work", "History of collaborations reviewed for professionalism and category fit"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Score each candidate across these categories rather than ranking purely by follower count. A creator who scores well across audience fit, engagement quality, and brand safety, even with a modest following, is usually a better commercial bet than one who only scores well on reach.",
-      },
-      { type: "heading", text: "Finding regional and language-specific Instagram creators", id: "regional-language-creators" },
-      {
-        type: "paragraph",
-        text: "For Indian brands targeting a specific region, searching in the relevant language, Hindi, Tamil, Telugu, Bengali, Marathi, Kannada, Malayalam, or Gujarati, alongside English keywords surfaces a materially different creator pool than an English-only search. See regional and vernacular influencer marketing in India for how to build this into a broader strategy rather than treating it as a single search variation.",
-        links: [{ text: "regional and vernacular influencer marketing in India", href: "/blog/regional-influencer-marketing-india" }],
-      },
-      {
-        type: "quote",
-        text: "A shortlist built entirely from a hashtag search looks thorough. A shortlist scored against your actual audience is the one that performs.",
-        attribution: "Kudozz Social Team",
-      },
-      { type: "heading", text: "What happens after the shortlist", id: "after-the-shortlist" },
-      {
-        type: "paragraph",
-        text: "Once you have a scored shortlist, the next steps are outreach, pricing conversations, and briefing. See how to contact Instagram influencers for outreach and negotiation, Instagram influencer rates in India for what to expect on pricing, and Instagram influencer campaign brief for how to brief the creators you select.",
-        links: [
-          { text: "how to contact Instagram influencers", href: "/blog/how-to-contact-instagram-influencers" },
-          { text: "Instagram influencer rates in India", href: "/blog/instagram-influencer-rates-india" },
-          { text: "Instagram influencer campaign brief", href: "/blog/instagram-influencer-campaign-brief" },
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "How Kudozz handles this: Creator Discovery & Matchmaking.",
-        links: [{ text: "Creator Discovery & Matchmaking", href: "/services/creator-discovery" }],
-      },
-    ],
-    faqs: [
-      {
-        question: "What is the best way to find Instagram influencers?",
-        answer:
-          "There isn't one best way, a combination of Meta's Creator Marketplace, manual hashtag and keyword search, competitor research, and creator applications tends to surface a more varied and relevant shortlist than relying on a single method.",
-      },
-      {
-        question: "Should follower count be the main factor in choosing an Instagram influencer?",
-        answer:
-          "No. Audience fit, engagement quality, content style, and authenticity are stronger predictors of campaign performance than follower count alone.",
-      },
-      {
-        question: "Is Meta's Creator Marketplace available to every brand?",
-        answer:
-          "Availability and specific features can vary by market and account eligibility, so confirm current access directly in your Meta Business account rather than assuming it works identically for every business.",
-      },
-      {
-        question: "How many Instagram creators should a brand shortlist before reaching out?",
-        answer:
-          "A shortlist of ten to twenty scored candidates for a typical campaign gives enough room to account for creators who don't respond or don't fit once you look closer, without making outreach unmanageable.",
-      },
-    ],
-  },
-  {
     slug: "instagram-influencer-rates-india",
     category: "Instagram Marketing",
     title: "Instagram Influencer Rates in India: Complete Pricing Guide for Brands",
@@ -9318,8 +8952,9 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "For gadget and electronics brands, which formats work and how to time them around marketplace sales is covered in influencer marketing for electronics and gadget brands.",
+        text: "For gadget and electronics brands, which formats work and how to time them around marketplace sales is covered in influencer marketing for electronics and gadget brands. To judge Reels craft before you book, see how to find Instagram Reels creators.",
         links: [
+          { text: "how to find Instagram Reels creators", href: "/blog/find-instagram-reels-creators" },
           { text: "influencer marketing for electronics and gadget brands", href: "/blog/consumer-electronics-influencer-marketing-india#gadget-brands" },
         ],
       },
@@ -13438,8 +13073,9 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Creator selection: regional voices matter here specifically", id: "creator-selection" },
       {
         type: "paragraph",
-        text: "Festivals aren't celebrated identically everywhere in India. Regional creators who genuinely observe a festival, in the relevant language and local customs, tend to produce content that reads as authentic in a way a national creator's generic festival post doesn't. See regional and vernacular influencer marketing in India for how language and regional fit should factor into creator selection more broadly, which applies directly to seasonal campaigns.",
+        text: "Festivals aren't celebrated identically everywhere in India. Regional creators who genuinely observe a festival, in the relevant language and local customs, tend to produce content that reads as authentic in a way a national creator's generic festival post doesn't. See regional and vernacular influencer marketing in India for how language and regional fit should factor into creator selection more broadly, which applies directly to seasonal campaigns. Sourcing needs a head start too: here's how to find influencers for seasonal and festive campaigns before rates and calendars fill up.",
         links: [
+          { text: "find influencers for seasonal and festive campaigns", href: "/blog/find-influencers-seasonal-campaigns" },
           {
             text: "regional and vernacular influencer marketing in India",
             href: "/blog/regional-influencer-marketing-india",
@@ -14240,7 +13876,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Step 4: Content review", id: "step-4-content-review" },
       {
         type: "paragraph",
-        text: "Review recent content for quality, consistency, and tone, and specifically for how the creator has handled past sponsored posts. A creator whose branded content looks and reads noticeably worse than their organic content is a signal worth noting before you commission anything.",
+        text: "Review recent content for quality, consistency, and tone, and specifically for how the creator has handled past sponsored posts. A creator whose branded content looks and reads noticeably worse than their organic content is a signal worth noting before you commission anything. Vetting pairs well with researching influencers before outreach: past collaborations, comment quality and contact preferences.",
+        links: [{ text: "researching influencers before outreach", href: "/blog/how-to-research-influencers" }],
       },
       { type: "heading", text: "Step 5: Brand-safety review", id: "step-5-brand-safety-review" },
       {
@@ -14824,8 +14461,8 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Consideration is where specialists and mid-tier creators who explain well usually earn their fee, and where longer formats and repeat appearances matter more than reach. Judge it on engaged attention and intent signals rather than sales; the conversion stage below has its own measures. Planning around creators' own stories rather than brand scripts often helps here; see creator-led campaigns.",
-        links: [{ text: "creator-led campaigns", href: "/blog/creator-led-campaigns" }],
+        text: "Consideration is where specialists and mid-tier creators who explain well usually earn their fee, and where longer formats and repeat appearances matter more than reach. Judge it on engaged attention and intent signals rather than sales; the conversion stage below has its own measures. Planning around creators' own stories rather than brand scripts often helps here; see creator-led campaigns. To source the right creators for each stage, see how to find influencers for each stage of the customer journey.",
+        links: [{ text: "find influencers for each stage of the customer journey", href: "/blog/influencers-for-customer-journey" }, { text: "creator-led campaigns", href: "/blog/creator-led-campaigns" }],
       },
       { type: "heading", text: "Conversion: links, codes, and creator-led offers", id: "funnel-conversion" },
       {
@@ -15246,7 +14883,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "4. Shortlist creators", id: "shortlist-creators" },
       {
         type: "paragraph",
-        text: "Narrow the initial list down to a manageable number based on an early read of audience fit and content style, before investing time in deeper research on every single candidate.",
+        text: "Narrow the initial list down to a manageable number based on an early read of audience fit and content style, before investing time in deeper research on every single candidate. Before the first message goes out, build an outreach list your team can actually use, with tiers, statuses and follow-up dates.",
+        links: [{ text: "build an outreach list your team can actually use", href: "/blog/how-to-create-influencer-outreach-list" }],
       },
       { type: "heading", text: "5. Verify audience quality", id: "verify-audience-quality" },
       {
@@ -22265,7 +21903,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Technology experts versus general tech creators", id: "experts-vs-general-electronics" },
       {
         type: "paragraph",
-        text: "Creators with genuine technical depth, benchmark testing, camera sample analysis, build quality assessment, carry more credibility for higher-consideration purchases, while general tech or lifestyle creators can be effective for broader awareness and everyday-use framing.",
+        text: "Creators with genuine technical depth, benchmark testing, camera sample analysis, build quality assessment, carry more credibility for higher-consideration purchases, while general tech or lifestyle creators can be effective for broader awareness and everyday-use framing. For reviewer types and integrity checks, see how to find tech influencers for gadget and electronics brands.",
+        links: [{ text: "how to find tech influencers for gadget and electronics brands", href: "/blog/find-tech-influencers-gadgets-electronics" }],
       },
       { type: "heading", text: "Product launches", id: "launches-electronics" },
       {
@@ -22479,7 +22118,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Why local discovery matters more than reach", id: "local-discovery-restaurant" },
       {
         type: "paragraph",
-        text: "Most people choose a restaurant based on what's convenient to their location, not what has the most followers nationally. A food creator with 8,000 followers concentrated in one neighborhood is often more valuable to a cafe than a creator with 200,000 followers spread across the country.",
+        text: "Most people choose a restaurant based on what's convenient to their location, not what has the most followers nationally. A food creator with 8,000 followers concentrated in one neighborhood is often more valuable to a cafe than a creator with 200,000 followers spread across the country. If you need a method to find local influencers in your city, see our step-by-step guide. Our guide on which food creators suit which restaurant goal compares reviewers, home chefs and local food pages.",
+        links: [{ text: "which food creators suit which restaurant goal", href: "/blog/find-food-creators-restaurant-marketing" }, { text: "find local influencers in your city", href: "/blog/how-to-find-local-influencers" }],
       },
       { type: "heading", text: "Food creators versus general lifestyle creators", id: "food-vs-lifestyle-restaurant" },
       {
@@ -23252,7 +22892,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Parenting creators", id: "parenting-creators" },
       {
         type: "paragraph",
-        text: "Creators who share their own parenting experience build an audience specifically because that experience feels genuine, which makes authenticity, not production polish, the more important selection criterion for this category.",
+        text: "Creators who share their own parenting experience build an audience specifically because that experience feels genuine, which makes authenticity, not production polish, the more important selection criterion for this category. For a life-stage approach to sourcing, see how to find parenting and mom influencers.",
+        links: [{ text: "how to find parenting and mom influencers", href: "/blog/find-parenting-mom-influencers" }],
       },
       { type: "heading", text: "Family content creators", id: "family-creators" },
       {
@@ -23583,7 +23224,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Gaming communities and creator influence", id: "communities-gaming" },
       {
         type: "paragraph",
-        text: "Gaming audiences follow creators for hundreds of hours of content, not a single post, which builds a depth of trust and attention that's genuinely different from most other creator-marketing categories. A creator's endorsement in gaming often functions closer to a peer recommendation than an advertisement.",
+        text: "Gaming audiences follow creators for hundreds of hours of content, not a single post, which builds a depth of trust and attention that's genuinely different from most other creator-marketing categories. A creator's endorsement in gaming often functions closer to a peer recommendation than an advertisement. For search methods across platforms, see how to find gaming influencers and streamers.",
+        links: [{ text: "how to find gaming influencers and streamers", href: "/blog/find-gaming-influencers-streamers" }],
       },
       { type: "heading", text: "Game discovery", id: "discovery-gaming" },
       {
@@ -25155,8 +24797,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Selecting travel and lifestyle creators", id: "selecting-creators-hospitality" },
       {
         type: "paragraph",
-        text: "Evaluate creators for genuine style fit with the property, a boutique heritage hotel and a family resort attract meaningfully different creator styles and audiences, alongside the standard audience-overlap criteria covered in how to find the right Indian influencers for your brand.",
-        links: [{ text: "how to find the right Indian influencers for your brand", href: "/blog/find-indian-influencers" }],
+        text: "Evaluate creators for genuine style fit with the property, a boutique heritage hotel and a family resort attract meaningfully different creator styles and audiences, alongside the standard audience-overlap criteria covered in how to find the right Indian influencers for your brand. Our guide to finding travel creators in your guests' home cities covers creator types and hosted-stay checks.",
+        links: [{ text: "finding travel creators in your guests' home cities", href: "/blog/find-travel-influencers-hotels-tourism" }, { text: "how to find the right Indian influencers for your brand", href: "/blog/find-indian-influencers" }],
       },
       { type: "heading", text: "Stay collaborations", id: "stay-collaborations-hospitality" },
       {
@@ -25343,7 +24985,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Destination discovery", id: "destination-discovery-travel" },
       {
         type: "paragraph",
-        text: "Creator content introduces destinations, routes, and experiences to audiences who weren't actively planning that specific trip, functioning as a genuine discovery layer for travel decisions made well in advance of booking.",
+        text: "Creator content introduces destinations, routes, and experiences to audiences who weren't actively planning that specific trip, functioning as a genuine discovery layer for travel decisions made well in advance of booking. For sourcing, see how to find travel influencers for hotels, resorts and tourism brands.",
+        links: [{ text: "how to find travel influencers for hotels, resorts and tourism brands", href: "/blog/find-travel-influencers-hotels-tourism" }],
       },
       { type: "heading", text: "Travel storytelling", id: "storytelling-travel" },
       {
@@ -25548,7 +25191,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Choosing appropriate creators", id: "choosing-creators-healthcare" },
       {
         type: "paragraph",
-        text: "Creators for healthcare content should have genuine, relevant credibility for the specific topic, and brands should never imply a medical credential or expertise a creator doesn't actually hold. A creator's personal experience with a condition or product is not the same as medical expertise, and content should be framed accordingly.",
+        text: "Creators for healthcare content should have genuine, relevant credibility for the specific topic, and brands should never imply a medical credential or expertise a creator doesn't actually hold. A creator's personal experience with a condition or product is not the same as medical expertise, and content should be framed accordingly. For the sourcing side, see how to find fitness and wellness influencers, including credential checks.",
+        links: [{ text: "how to find fitness and wellness influencers", href: "/blog/find-fitness-wellness-influencers" }],
       },
       { type: "heading", text: "Educational content", id: "educational-content-healthcare" },
       {
@@ -26349,7 +25993,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Building customer trust", id: "building-trust-66" },
       {
         type: "paragraph",
-        text: "Trust compounds with consistency: a creator who genuinely re-mentions a product over multiple posts builds more credibility than a single isolated sponsored post, one reason mature D2C brands move toward longer-term creator relationships.",
+        text: "Trust compounds with consistency: a creator who genuinely re-mentions a product over multiple posts builds more credibility than a single isolated sponsored post, one reason mature D2C brands move toward longer-term creator relationships. Our guide to finding the right influencers for a D2C brand covers price-point and category fit.",
+        links: [{ text: "finding the right influencers for a D2C brand", href: "/blog/influencer-discovery-for-d2c-brands" }],
       },
       { type: "heading", text: "Creator-generated content", id: "creator-content-66" },
       {
@@ -28326,8 +27971,8 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Industry data points the same way, with caveats. A December 2025 D2C report from DSGCP, Meta and ViralMint, reported by indiantelevision.com, says nano and micro creators get five to six times the engagement of larger creators; Kofluence's 2026 data, reported by Campaign India, shows smaller-city creators with higher engagement and lower campaign costs than metro creators. Both are industry or platform datasets rather than neutral research, so use them as a reason to test, not as a forecast.",
-        links: [{ text: "A December 2025 D2C report from DSGCP, Meta and ViralMint", href: "https://indiantelevision.com/mam/three-out-of-four-d2c-brands-now-use-creators-to-drive-sales-says-new-report-251210/" }],
+        text: "Industry data points the same way, with caveats. A December 2025 D2C report from DSGCP, Meta and ViralMint, reported by indiantelevision.com, says nano and micro creators get five to six times the engagement of larger creators; Kofluence's 2026 data, reported by Campaign India, shows smaller-city creators with higher engagement and lower campaign costs than metro creators. Both are industry or platform datasets rather than neutral research, so use them as a reason to test, not as a forecast. For a step-by-step search method, see where to find micro-influencers and how to filter them quickly.",
+        links: [{ text: "where to find micro-influencers", href: "/blog/how-to-find-micro-influencers" }, { text: "A December 2025 D2C report from DSGCP, Meta and ViralMint", href: "https://indiantelevision.com/mam/three-out-of-four-d2c-brands-now-use-creators-to-drive-sales-says-new-report-251210/" }],
       },
       {
         type: "table",
@@ -28573,8 +28218,9 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The commerce data points the same way. Bain and Flipkart's How India Shops Online 2026 report says Tier 2 and smaller cities contributed about half of incremental e-retail orders in 2025, and Amazon India says nearly 70% of purchases led by creators in its influencer programme come from non-metro cities (company-reported). If your growth is going to come from outside the metros, the creators those shoppers trust are mostly not national English-language creators.",
+        text: "The commerce data points the same way. Bain and Flipkart's How India Shops Online 2026 report says Tier 2 and smaller cities contributed about half of incremental e-retail orders in 2025, and Amazon India says nearly 70% of purchases led by creators in its influencer programme come from non-metro cities (company-reported). If your growth is going to come from outside the metros, the creators those shoppers trust are mostly not national English-language creators. For search methods by language and state, see how to find regional and vernacular creators.",
         links: [
+          { text: "how to find regional and vernacular creators", href: "/blog/find-regional-content-creators-india" },
           { text: "How India Shops Online 2026", href: "https://www.bain.com/insights/how-india-shops-online-2026/" },
           { text: "Amazon India says", href: "https://www.aboutamazon.in/news/retail/amazon-influencer-program-india" },
         ],
@@ -30009,8 +29655,8 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Then run the standard audience checks: city and state split, language, engagement quality and past sponsored posts. How to find the right Indian influencers for your brand covers that process.",
-        links: [{ text: "How to find the right Indian influencers for your brand", href: "/blog/find-indian-influencers" }],
+        text: "Then run the standard audience checks: city and state split, language, engagement quality and past sponsored posts. How to find the right Indian influencers for your brand covers that process. Our guide to finding fashion and lifestyle influencers covers aesthetic fit, price tier and festive timing in more detail.",
+        links: [{ text: "finding fashion and lifestyle influencers", href: "/blog/find-fashion-lifestyle-influencers" }, { text: "How to find the right Indian influencers for your brand", href: "/blog/find-indian-influencers" }],
       },
       { type: "heading", text: "Formats that sell clothes online", id: "formats" },
       {
@@ -30238,7 +29884,8 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Put together, that means a beauty creator programme needs tighter audience matching, longer content windows and a more careful brief than most categories. The upside is that honest, specific beauty content is some of the most reusable creator content a D2C brand can own.",
+        text: "Put together, that means a beauty creator programme needs tighter audience matching, longer content windows and a more careful brief than most categories. The upside is that honest, specific beauty content is some of the most reusable creator content a D2C brand can own. For the search itself, see our guide on how to find beauty and skincare influencers in India, which covers sub-niches, skin types and claims checks.",
+        links: [{ text: "how to find beauty and skincare influencers in India", href: "/blog/find-beauty-skincare-influencers-india" }],
       },
       { type: "heading", text: "Choose creators by skin concern, tone and type", id: "skin-diversity" },
       {
@@ -30869,202 +30516,6 @@ const corePosts: BlogPost[] = [
         question: "Should a brand target multiple platforms at once in India?",
         answer:
           "It's usually better to establish a primary platform first and expand deliberately, rather than spreading a limited budget across several platforms without a clear reason for each.",
-      },
-    ],
-  },
-  {
-    slug: "find-indian-influencers",
-    category: "Influencer Marketing",
-    title: "How to Find the Right Indian Influencers for Your Brand",
-    seoTitle: "How to Find Influencers for Your Brand in India",
-    excerpt:
-      "A practical framework for sourcing and evaluating Indian creators, including when regional and language fit matters as much as audience size or engagement quality.",
-    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
-    publishedAt: "2026-09-06",
-    updatedAt: "2026-10-12",
-    readingTime: "9 min read",
-    body: [
-      {
-        type: "paragraph",
-        text: "Finding the right Indian influencers starts with the same principle that applies in any market: audience relevance matters more than follower count. In India specifically, that relevance often has an additional dimension, language and region, that can be just as decisive as niche or engagement quality depending on the brand's target customer.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "To find influencers for an Indian brand, define your customer by niche, language and city tier; source candidates from your own tagged mentions, platform search and hashtags, competitor collaborations and discovery tools; then screen each one for audience fit, engagement quality, authenticity and past brand work before you reach out. Follower count is the last thing to check, not the first.",
-      },
-      { type: "heading", text: "Where to look for creators", id: "where-to-look" },
-      {
-        type: "list",
-        items: [
-          "Your own customers and brand mentions: people already tagging your product or using your hashtags",
-          "Platform search on Instagram and YouTube: keywords, hashtags and location tags in your category and language",
-          "Competitor and adjacent-brand collaborations: creators already posting about similar products",
-          "Discovery platforms that filter by audience location, language and engagement",
-          "An agency's vetted network, which replaces the cold-search step with a shortlist",
-        ],
-      },
-      { type: "heading", text: "Why audience relevance matters more than follower count", id: "why-relevance-matters-india" },
-      {
-        type: "paragraph",
-        text: "A creator with a smaller, genuinely engaged, geographically or linguistically relevant audience will typically outperform a larger, more general one for most campaign objectives. This holds in India as much as anywhere.",
-      },
-      { type: "heading", text: "1. Define the target customer clearly", id: "define-target-customer-india" },
-      {
-        type: "paragraph",
-        text: "Go beyond age and interest to include language preference, city tier (metro, tier 2, tier 3), and platform habits, since these vary meaningfully across India's diverse audience in ways that matter for creator selection.",
-      },
-      { type: "heading", text: "2. Find creators in relevant niches", id: "find-creators-relevant-niches-india" },
-      {
-        type: "paragraph",
-        text: "Search within the specific category the brand competes in rather than broad lifestyle content, using platform search, hashtags, and creator discovery tools the same way you would in any market.",
-      },
-      { type: "heading", text: "3. Evaluate Indian creator audiences", id: "evaluate-audiences-india" },
-      {
-        type: "paragraph",
-        text: "Review a creator's audience demographics where platform data allows, looking specifically for overlap with your defined target customer, not just raw size.",
-      },
-      { type: "heading", text: "4. Understand regional and language preferences", id: "regional-language-preferences" },
-      {
-        type: "paragraph",
-        text: "India's internet audience is overwhelmingly non-English-first — the IAMAI–Kantar 2024 ICUBE report found that about 98% of India's 886 million internet users access content in Indic languages. For many consumer categories, this means a genuinely national campaign benefits from including creators who produce content in Hindi and other regional languages, not only English.",
-        links: [{ text: "the IAMAI–Kantar 2024 ICUBE report", href: "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf" }],
-      },
-      { type: "heading", text: "5. Evaluate engagement quality", id: "evaluate-engagement-quality-india" },
-      {
-        type: "paragraph",
-        text: "Comment specificity, saves, and shares remain better engagement signals than the raw percentage alone. Our full breakdown of engagement rate formulas and evaluation applies directly here.",
-        links: [{ text: "engagement rate formulas and evaluation", href: "/blog/influencer-engagement-rate" }],
-      },
-      { type: "heading", text: "6. Check audience authenticity", id: "check-authenticity-india" },
-      {
-        type: "paragraph",
-        text: "Fake followers and inflated engagement are not unique to any one market, and the same authenticity checks, such as growth curve review, comment quality, and engagement consistency, apply to Indian creators. See how to identify fake followers and fake engagement for the full checklist.",
-        links: [{ text: "how to identify fake followers and fake engagement", href: "/blog/how-to-identify-fake-followers" }],
-      },
-      { type: "heading", text: "7. Review previous brand collaborations", id: "review-past-collaborations-india" },
-      {
-        type: "paragraph",
-        text: "Look at how a creator has represented other brands, particularly competitors or adjacent categories, and whether that content felt authentic or overtly scripted, as a signal for what a future collaboration might look like.",
-      },
-      { type: "heading", text: "8. Evaluate content quality", id: "evaluate-content-quality-india" },
-      {
-        type: "paragraph",
-        text: "Review production quality, consistency, and whether the creator's existing style could plausibly feature your product without feeling forced, the same review a creative director would apply anywhere.",
-      },
-      { type: "heading", text: "9. Consider brand safety and fit", id: "brand-safety-fit-india" },
-      {
-        type: "paragraph",
-        text: "Review a creator's broader content and public conduct for anything that would conflict with the brand's values or risk tolerance, an important step regardless of market.",
-      },
-      { type: "heading", text: "10. National versus regional creators", id: "national-vs-regional-india" },
-      {
-        type: "paragraph",
-        text: "National creators, often posting primarily in English or Hindi with broad appeal, suit campaigns targeting a wide, metro-skewing audience. Regional creators, with concentrated audiences in a specific state or language market, can be a stronger fit for brands with real geographic concentration in their customer base, or for brands looking to reach beyond metro audiences cost-efficiently. Neither is universally better — the right choice depends on where your specific customers actually are.",
-      },
-      { type: "heading", text: "11. City-specific and niche creators", id: "city-specific-niche-india" },
-      {
-        type: "paragraph",
-        text: "For brands with strong city-level concentration, such as a local service or a retailer with a specific city footprint, a smaller number of city-specific creators can outperform a broader national approach for that particular objective.",
-      },
-      { type: "heading", text: "12. Contacting and evaluating potential creators", id: "contacting-evaluating-india" },
-      {
-        type: "paragraph",
-        text: "Once a shortlist is built, outreach and evaluation follow the same professional approach covered in how to work with influencers, adapted with the language and regional context established above.",
-        links: [{ text: "how to work with influencers", href: "/blog/how-to-work-with-influencers" }],
-      },
-      {
-        type: "paragraph",
-        text: "Turning discovery into a vetted, approvable list is covered in how to build an influencer shortlist, and campaigns across several cities and languages in how to run a pan-India influencer marketing campaign.",
-        links: [
-          { text: "how to build an influencer shortlist", href: "/blog/influencer-shortlist" },
-          { text: "how to run a pan-India influencer marketing campaign", href: "/blog/pan-india-influencer-marketing-campaign" },
-        ],
-      },
-      { type: "heading", text: "Which tier you need changes where you look", id: "tier-and-sourcing" },
-      {
-        type: "paragraph",
-        text: "Nano (about 1K–10K followers) and micro (10K–100K) creators are usually found through hashtag, keyword and location search, and suit trust- and engagement-led campaigns. Mid-tier and macro creators are more often reached through talent managers, agencies or platforms with existing relationships. Celebrity creators almost always go through a management company. Micro vs. macro influencers covers the trade-offs between tiers.",
-        links: [{ text: "Micro vs. macro influencers", href: "/blog/micro-vs-macro-influencers" }],
-      },
-      { type: "heading", text: "Manual search vs. tools vs. an agency", id: "tools-vs-manual-vs-agency" },
-      {
-        type: "table",
-        headers: ["Approach", "Works well when", "Limits"],
-        rows: [
-          ["Manual search", "One small campaign with a handful of creators", "Slow to vet audiences and authenticity at scale"],
-          ["Discovery platform", "You need to filter many creators by audience data", "Coverage of regional languages and smaller cities varies; still needs human judgment on fit"],
-          ["Agency network", "Many creators, several cities or languages, or a tight timeline", "Agency fee on top of creator costs"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "How discovery tools get their data, and how to test their coverage of Indian languages, is covered in creator discovery platform. Once you have candidates, how to build an influencer shortlist covers narrowing them to an approvable list, and Kudozz's Creator Discovery & Matchmaking service runs this process for brands.",
-        links: [
-          { text: "creator discovery platform", href: "/blog/creator-discovery-platform" },
-          { text: "how to build an influencer shortlist", href: "/blog/influencer-shortlist" },
-          { text: "Creator Discovery & Matchmaking", href: "/services/creator-discovery" },
-        ],
-      },
-      { type: "heading", text: "Indian Influencer Selection Checklist", id: "indian-selection-checklist" },
-      {
-        type: "list",
-        items: [
-          "Target customer defined by category, language preference, and city tier, not just age and interest",
-          "Creator audience overlap reviewed against that specific profile",
-          "Engagement quality assessed through comment specificity, not just the raw rate",
-          "Authenticity checked using multiple signals, not a single metric",
-          "Previous brand collaborations reviewed for authenticity and fit",
-          "Content quality and style reviewed for genuine brand fit",
-          "National versus regional creator mix decided based on the actual target audience, not assumption",
-        ],
-      },
-      {
-        type: "quote",
-        text: "The best influencer for an Indian campaign is whoever's actual audience looks like your actual customer, language included, not the biggest name or the one everyone already knows.",
-        attribution: "Kudozz Strategy Team",
-      },
-      {
-        type: "paragraph",
-        text: "How Kudozz handles this: Creator Discovery & Matchmaking.",
-        links: [{ text: "Creator Discovery & Matchmaking", href: "/services/creator-discovery" }],
-      },
-      {
-        type: "paragraph",
-        text: "For search techniques by niche, audience and location, see influencer search tools. For AI-assisted content and lookalike search, see AI for influencer discovery.",
-        links: [
-          { text: "influencer search tools", href: "/blog/influencer-search-tools" },
-          { text: "AI for influencer discovery", href: "/blog/ai-influencer-discovery" },
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Once you've found creators, how to find and contact influencers covers reaching them through the right channel and verifying managers.",
-        links: [
-          { text: "how to find and contact influencers", href: "/blog/how-to-contact-influencers" },
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: "Should Indian brands prioritize regional-language creators over national ones?",
-        answer:
-          "It depends entirely on the target audience. Brands with a genuinely national, metro-skewing customer base may do well with English or Hindi national creators, while brands targeting broader or specific regional audiences typically benefit from including regional-language creators as well.",
-      },
-      {
-        question: "Are nano creators reliable for Indian brand campaigns?",
-        answer:
-          "Many are, though reliability varies by individual creator regardless of tier. The same vetting, engagement quality, authenticity, and past collaboration history applies whether evaluating a nano creator or a macro one.",
-      },
-      {
-        question: "How can a brand tell if a regional creator's audience is genuinely engaged?",
-        answer:
-          "The same authenticity and engagement-quality checks used for any creator apply here, comment specificity, consistency across recent posts, and realistic growth patterns, rather than a different standard for regional creators.",
-      },
-      {
-        question: "Is it necessary to work with creators in multiple Indian languages for one campaign?",
-        answer:
-          "Not necessarily. It depends on how broad the brand's target audience is; a brand with a narrow, English-first urban audience may not need multi-language coverage, while a broader consumer brand often benefits from it.",
       },
     ],
   },
@@ -32525,347 +31976,6 @@ const corePosts: BlogPost[] = [
     ],
   },
   {
-    slug: "influencers-for-product-launch",
-    category: "Campaign Strategy",
-    title: "Influencer Marketing for New Product Launches: How to Plan a Creator-Led Launch",
-    seoTitle: "Influencer Marketing for Product Launches: A Launch Plan",
-    excerpt:
-      "A creator-led launch is three campaigns in a row: build trust before launch, concentrate attention on launch day, then keep answering questions afterwards. How to plan each phase, get your store ready, budget by phase and handle stock problems.",
-    metaDescription:
-      "Plan an influencer product launch: pre-launch trust and seeding, store and stock readiness, launch-day coordination, creator mix, budget by phase and measurement.",
-    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
-    publishedAt: "2026-09-29",
-    updatedAt: "2026-11-10",
-    lastReviewed: "November 2026",
-    readingTime: "13 min read",
-    tags: ["influencer marketing product launch", "influencers for product launch", "creator launch campaign", "product launch influencer strategy", "influencer marketing budget for product launch", "pre-launch marketing D2C"],
-    related: ["influencer-marketing-campaign-timeline", "shopify-store-influencer-campaign-checklist", "influencer-budget-allocation"],
-    hero: { src: "/blog/brand-guides/influencers-for-product-launch.svg", alt: "Three-phase creator-led product launch: pre-launch seeding, coordinated launch day and post-launch momentum" },
-    body: [
-      {
-        type: "paragraph",
-        text: "One announcement post can't build anticipation, create launch-day momentum and keep people interested a month later. A creator-led launch spreads that work across several creators and several weeks, timed around the date the product can actually be bought. If you're thinking 'I need influencers for a product launch', the useful question is what each creator is for, and when.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "Influencer marketing for a product launch runs in three phases: pre-launch (seeding and teasers that build trust and a waitlist), launch day (coordinated posts from a mix of reach and niche creators, with paid amplification ready) and post-launch (reviews, tutorials and customer content that answer objections). Start sourcing about two months ahead, get your store, codes and stock ready before anyone posts, agree usage rights in the first contract, and measure against one launch objective you set in advance.",
-      },
-      { type: "heading", text: "Decide what the launch has to achieve", id: "set-launch-objectives" },
-      {
-        type: "paragraph",
-        text: "Pick one primary objective before you contact anyone, because it decides the creators, the timing and the report. Pre-orders or waitlist sign-ups point to a long pre-launch phase with niche creators. Launch-week sales point to tight posting windows, trackable codes and paid amplification. Category awareness points to fewer, larger creators and reach metrics. Trying to do all three with the same budget usually means doing none of them well.",
-      },
-      {
-        type: "table",
-        headers: ["Launch objective", "Creator mix", "Primary measure"],
-        rows: [
-          ["Waitlist or pre-orders", "Niche and micro creators who explain why they're excited", "Sign-ups or pre-orders by creator link"],
-          ["Launch-week sales", "A few reach creators plus micro creators with codes", "Orders and new customers in the first 7–14 days"],
-          ["Category awareness", "Fewer, larger creators in a tight window", "Reach in the target audience, branded search lift"],
-          ["Content for ads and product pages", "UGC-style creators and demonstrators", "Number of usable assets with paid rights"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Your launch audience is often narrower than your eventual customer base: early adopters and category enthusiasts who act quickly. Define that group before sourcing, and choose platforms to match: detailed demonstrations suit YouTube, while fast-moving buzz suits Instagram Reels. How this fits a wider plan is covered in influencer marketing strategy.",
-        links: [{ text: "influencer marketing strategy", href: "/blog/influencer-marketing-strategy" }],
-      },
-      { type: "heading", text: "Choose and lock creators early", id: "find-creators-early" },
-      {
-        type: "paragraph",
-        text: "Launch dates don't leave room for a slow creator search, so sourcing and vetting should be done before launch week is even on the calendar. Most launches work best with layers: a small number of larger creators for reach and credibility, and a wider group of micro creators for detailed, trusted coverage. Audience relevance matters more than usual, because a broad but loosely related audience won't act inside a short launch window however big it is.",
-      },
-      {
-        type: "list",
-        items: [
-          "Check where each creator's audience actually lives, especially if stock or delivery is limited to certain cities.",
-          "Ask about category exclusivity before outreach goes far; a creator who promoted a rival last month is less convincing this month.",
-          "Lock posting windows, embargo terms and usage rights in the same contract.",
-          "Book a few reserves who can step in if a creator drops out.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Tier trade-offs are covered in micro vs. macro influencers, and the vetting process in how to find the right Indian influencers for your brand.",
-        links: [
-          { text: "micro vs. macro influencers", href: "/blog/micro-vs-macro-influencers" },
-          { text: "how to find the right Indian influencers for your brand", href: "/blog/find-indian-influencers" },
-        ],
-      },
-      { type: "heading", text: "Build trust before your first major launch", id: "brand-from-zero" },
-      {
-        type: "paragraph",
-        text: "A new brand's first big launch is harder than a new product from a known brand. Nobody has heard of you, there are no reviews, and creators take a reputational risk by recommending you. The pre-launch phase has to create proof, not just hype.",
-      },
-      {
-        type: "table",
-        headers: ["Trust gap", "What to do before launch", "Watch out for"],
-        rows: [
-          ["No one has tried it", "Seed product to niche creators weeks ahead and ask for honest feedback first, with no obligation to post", "Disclosure: if a seeded creator posts, the free product must be disclosed ('Free gift' under ASCI)"],
-          ["No social proof on your channels", "Have creator content, real-use photos and a clear founder story live on your Instagram and site before launch day", "Don't present seeded or paid content as independent customer reviews"],
-          ["Nobody is waiting for it", "Run a waitlist or early-access list and let creators send people to it", "Promise a realistic ship date and keep it"],
-          ["Unknown founder", "Founder videos explaining why the product exists and what it won't do", "Avoid claims you can't substantiate"],
-          ["No reviews on marketplaces", "Let reviews come from genuine buyers after launch", "Never trade product or payment for marketplace reviews"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Marketplaces restrict reviews written in exchange for free products or payment, and breaches can lead to removed reviews or penalties. Keep paid and seeded creator content on social platforms, clearly disclosed, and let marketplace reviews come from buyers. ASCI's guidelines treat free product as a material connection that must be disclosed if the creator posts about it.",
-        links: [{ text: "ASCI's guidelines", href: "https://www.ascionline.in/social/guidelines/" }],
-      },
-      {
-        type: "paragraph",
-        text: "Illustrative example, not a case study. A new millet snack brand seeds product with 25 food and fitness creators a month before launch, invites the 8 who genuinely liked it into paid launch posts, and uses their content on its own profile and product pages so first-time visitors see real people eating it. If your product creates a category buyers don't yet know they need, the launch also has to sell the problem; see influencer marketing for a new product category.",
-        links: [{ text: "influencer marketing for a new product category", href: "/blog/new-product-category-influencer-marketing" }],
-      },
-      { type: "heading", text: "Get your online store ready before creators post", id: "store-readiness" },
-      {
-        type: "paragraph",
-        text: "For a D2C brand launching on its own website, the store does the converting. Creator traffic arrives on mobile, often from people who have never heard of you, and launch-window data can't be recovered if tracking breaks. Run through these before the first teaser goes live:",
-      },
-      {
-        type: "list",
-        items: [
-          "A dedicated landing page or product page that loads quickly on mobile and repeats the creator's promise in the first screen.",
-          "A unique discount code and UTM-tagged link for every creator, tested at checkout, so each creator's orders can be counted.",
-          "Stock levels and delivery coverage confirmed for the cities where creators' audiences live.",
-          "Cash-on-delivery, payment and shipping options tested the way a first-time customer would use them.",
-          "Customer support briefed on the launch offer, the creators involved and common questions.",
-          "A plan for where marketplace shoppers go if you also list on Amazon or Flipkart, so you don't split traffic by accident.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "The full pre-launch list for a Shopify store, including speed, product pages and checkout testing, is in is your Shopify store ready for an influencer campaign.",
-        links: [{ text: "is your Shopify store ready for an influencer campaign", href: "/blog/shopify-store-influencer-campaign-checklist" }],
-      },
-      { type: "heading", text: "The three phases of a creator-led launch", id: "three-phases" },
-      {
-        type: "table",
-        headers: ["Phase", "Goal", "Typical content", "Timing"],
-        rows: [
-          ["Pre-launch", "Build trust and anticipation", "Seeding, honest first impressions, behind-the-scenes, waitlist calls", "4–6 weeks to 1 week before"],
-          ["Launch day", "Concentrate visibility when the product can be bought", "Coordinated announcement posts, unboxings, first-use demos", "Launch day and the next 2–3 days"],
-          ["Post-launch", "Answer objections and keep consideration going", "Reviews after real use, tutorials, comparisons, customer UGC", "2–4 weeks after launch"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "The post-launch phase is where many launches lose money. Initial buzz fades within days, but people who saw launch content are often still deciding. Plan a second wave of reviews and demonstrations from creators who used the product for a few weeks; that content also becomes your best ad creative. What changes later in a product's life is covered in influencer marketing across the product lifecycle.",
-        links: [{ text: "influencer marketing across the product lifecycle", href: "/blog/influencer-marketing-product-lifecycle" }],
-      },
-      { type: "heading", text: "Coordinate launch day", id: "coordinate-launch-day" },
-      {
-        type: "paragraph",
-        text: "Coordinating many creators around one date is mostly a scheduling problem. A run sheet shared with every creator, the brand team and whoever runs paid media keeps everyone on the same clock.",
-      },
-      {
-        type: "table",
-        headers: ["When", "What happens", "Who owns it"],
-        rows: [
-          ["Launch minus 14 days", "Contracts signed, product and briefs delivered, embargo date and time confirmed in writing", "Brand or agency campaign lead"],
-          ["Launch minus 7 to 3 days", "Drafts reviewed against the claims list; codes, links and landing page tested; stock confirmed", "Brand marketing and e-commerce"],
-          ["Launch minus 1 day", "Final publish slot confirmed with each creator; brand posts and paid ads scheduled; customer service briefed", "Campaign lead, paid media, support"],
-          ["Launch day", "Creator posts go live in agreed slots; each post checked for disclosure, link and code within the hour; best performers flagged for boosting", "Campaign lead and paid media"],
-          ["Launch plus 1 to 3 days", "Comments answered, Story reminders from creators, stock and site issues fixed, early results shared", "Brand social and e-commerce"],
-          ["Launch plus 7 days", "Second-wave creators post; launch-week snapshot sent; decisions on extending the best creators", "Campaign lead"],
-        ],
-      },
-      {
-        type: "list",
-        items: [
-          "Give each creator a specific publish window, not just a date, and stagger windows through the day.",
-          "Keep one shared contact for launch-day problems, with a backup.",
-          "Have a plan for a creator who misses their slot: a replacement slot later that day or the next.",
-          "Hold back a small budget to boost the posts that perform best in the first hours.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "If press and creators are both part of the launch, align embargoes, facts and timing; influencer marketing and PR covers that, including how to keep a launch confidential.",
-        links: [{ text: "influencer marketing and PR", href: "/blog/influencer-marketing-and-pr" }],
-      },
-      { type: "heading", text: "How many creators does a launch need?", id: "how-many-creators-launch" },
-      {
-        type: "paragraph",
-        text: "There's no number that guarantees success, and treating creator count as the goal is a common mistake. A launch aiming for fast, broad awareness typically needs fewer, larger creators in a tight window. A launch aiming for credibility or content volume does better with a larger group of micro and nano creators over a slightly longer window. Five creators who genuinely fit the product can outperform twenty booked to hit a headcount. Let the objective and budget set the mix, and keep some budget to rebook the creators whose launch content actually worked.",
-      },
-      { type: "heading", text: "Budgeting a creator-led launch", id: "launch-budget" },
-      {
-        type: "paragraph",
-        text: "A launch budget differs from a normal campaign budget in two ways: the date can't move, and you won't know which creators or messages work until the product is out. Plan the money by phase, keep a real share back for after launch, and budget for the things a fixed date makes expensive.",
-      },
-      {
-        type: "table",
-        headers: ["Phase", "What the money buys", "Budget lines that matter most", "Release when"],
-        rows: [
-          ["Pre-launch (teaser and seeding)", "Early access, honest first reactions, content banked for launch day", "Seeding units, shipping, embargo terms, a small number of paid teasers", "Samples are ready and briefs are signed"],
-          ["Launch window", "Concentrated visibility when the product is available", "Fees for coordinated posting dates, reach creators, amplification ready to switch on", "Committed in advance; dates in agreements"],
-          ["Post-launch", "Reviews, demonstrations and proof from real use", "Rebooking creators whose content worked, usage rights, amplification of winners", "Launch-window results have been read"],
-        ],
-      },
-      { type: "subheading", text: "Costs a launch adds" },
-      {
-        type: "list",
-        items: [
-          "Fixed posting dates and short turnarounds, which some creators price higher and which narrow your choice.",
-          "Embargo or confidentiality terms for creators who receive the product early.",
-          "Exclusivity during the launch window, if competitors are launching in the same category.",
-          "Extra seeding units: pre-production samples, replacements and units for creators who receive but don't post.",
-          "Usage rights for running launch content as ads, ideally agreed before filming.",
-          "Language versions if the launch covers more than one region.",
-          "A larger contingency than usual, because product, packaging or shipping delays push every creator date.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Illustrative rupee figures are in influencer campaign costs in India, and the wider method in the influencer marketing budget guide.",
-        links: [
-          { text: "influencer campaign costs in India", href: "/blog/influencer-campaign-cost-india" },
-          { text: "influencer marketing budget guide", href: "/blog/influencer-marketing-budget" },
-        ],
-      },
-      { type: "heading", text: "When stock or delivery is uncertain", id: "stock" },
-      {
-        type: "paragraph",
-        text: "Creator content that sends people to a sold-out product wastes the spend and annoys the audience. When inventory is limited, arriving late or uneven across regions, plan the creator schedule around stock rather than the other way round.",
-      },
-      {
-        type: "table",
-        headers: ["Situation", "What to do with creators"],
-        rows: [
-          ["Limited first batch", "Stagger posting; start with smaller creators and hold reach creators until restock is confirmed"],
-          ["Stock arriving late", "Use teaser and waitlist content; keep go-live dates in agreements flexible, with a notice period"],
-          ["Uneven by region or city", "Book creators whose audiences are where stock is; pause others"],
-          ["Pre-orders", "Say clearly in content when items will ship"],
-          ["Sell-out during the campaign", "Pause scheduled posts and ads, update links, tell creators what to say"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Write stock-related changes into creator agreements: how much notice you'll give to move a date, whether a moved date is paid, and what happens if a product is withdrawn. Share one stock status with creators and the ads team so posts and paid amplification pause together. Delays more broadly are covered in influencer campaign delays.",
-        links: [{ text: "influencer campaign delays", href: "/blog/influencer-campaign-delays" }],
-      },
-      { type: "heading", text: "Launching into a crowded category", id: "competitive-launch" },
-      {
-        type: "paragraph",
-        text: "When established brands already use creators in your category, copying their playbook mostly adds to the noise. Before booking anyone, find what buyers still don't hear, which creators are still available, and what you can prove that competitors can't.",
-      },
-      {
-        type: "table",
-        headers: ["Step", "What to do", "Why it matters"],
-        rows: [
-          ["Map the category", "List the creators competitors used in the last six to twelve months, the claims they repeated and the formats they used", "Shows which creators are tied up and which messages are worn out"],
-          ["Find the gap", "Read comments under competitor creator posts for unanswered questions and complaints", "Your launch angle should answer what buyers still ask"],
-          ["Seed early for honest reviews", "Send product to specialist creators weeks before launch with no obligation to post", "Early, unscripted opinions persuade more than launch-day ads"],
-          ["Pick a different time or format", "Avoid launching the same week as a major competitor or sale event; lead with a format competitors underuse", "Attention is easier to win where others aren't"],
-          ["Compare fairly", "Comparisons with named rivals must be accurate, verifiable and like for like", "Unfair comparisons breach advertising codes and invite complaints"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Hypothetical example: a new protein snack brand finds every competitor's creators talk about protein grams, while comments ask about taste and price per serving. It seeds 30 fitness and food creators with blind taste tests and a price-per-serving comparison it can substantiate, then books the five whose honest reviews were strongest for launch week. Competitor research is covered in competitor influencer strategy and exclusivity terms in influencer exclusivity.",
-        links: [
-          { text: "competitor influencer strategy", href: "/blog/competitor-influencer-strategy" },
-          { text: "influencer exclusivity", href: "/blog/influencer-exclusivity" },
-        ],
-      },
-      { type: "heading", text: "Launching in several countries", id: "multi-country-launch" },
-      {
-        type: "table",
-        headers: ["Decision", "Options", "Consider"],
-        rows: [
-          ["Sequence", "All markets on one day, or staggered waves", "Waves let you fix problems before the next market"],
-          ["Order", "Strongest market first, or the easiest to operate", "Start where stock, delivery and creators are ready"],
-          ["Seeding", "Local creators in each market, timed to that market's launch", "Avoid seeding a market weeks before the product is available there"],
-          ["Rules and claims", "Approved per market", "Disclosure wording and sector approvals differ"],
-          ["Timing", "Local calendars and time zones", "Festivals and holidays fall differently; go live in each market's own time"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Report each market against its own plan before comparing them. The operating model is in the international influencer campaign playbook.",
-        links: [{ text: "international influencer campaign playbook", href: "/blog/international-influencer-campaign-playbook" }],
-      },
-      { type: "heading", text: "Measure the launch against its objective", id: "measure-launch-performance" },
-      {
-        type: "paragraph",
-        text: "Report against the objective you set at the start, not a generic engagement summary. For a sales launch that means orders and new customers by creator code and link, sell-through, and the share of launch-week orders from first-time customers. For an awareness launch it means reach in the target audience and branded search compared with the weeks before. Either way, add a two-to-four-week view, because many launch buyers convert after the first wave. Then write down what to change before the next launch; how to use influencer campaign insights to improve your next product launch shows how.",
-        links: [{ text: "how to use influencer campaign insights to improve your next product launch", href: "/blog/influencer-campaign-insights-product-launch" }],
-      },
-      { type: "heading", text: "Product launch planning checklist", id: "launch-planning-checklist" },
-      {
-        type: "list",
-        items: [
-          "One launch objective and primary KPI agreed before outreach",
-          "Launch audience defined, and creators checked for audience location and fit",
-          "Creators, reserves, embargo terms and usage rights locked in contracts",
-          "Seeding shipped early enough for honest use, with disclosure guidance",
-          "Store, landing page, codes, links and checkout tested; stock and delivery confirmed",
-          "Launch-day run sheet shared with creators, brand team and paid media",
-          "Post-launch wave planned and budget held back for it",
-          "Report date and attribution rule agreed in advance",
-        ],
-      },
-      { type: "heading", text: "How an agency-led launch is organised", id: "agency-led-launch" },
-      {
-        type: "table",
-        headers: ["Workstream", "Owner", "Key decisions"],
-        rows: [
-          ["Launch strategy", "Brand lead with agency strategist", "Objective, creator layers, phasing, budget split"],
-          ["Creator sourcing and contracts", "Agency", "Shortlist, fees, usage rights, embargo terms"],
-          ["Seeding and logistics", "Brand operations with agency tracking", "Units per creator, shipping dates, returns"],
-          ["Briefs and claims", "Agency, approved by brand legal", "Key messages, approved claims, disclosure"],
-          ["Launch-day coordination", "Agency", "Go-live times, embargo, live monitoring"],
-          ["Amplification", "Brand performance team with agency", "Which creator posts to boost, rights confirmed"],
-          ["Reporting", "Agency", "Launch report against the objective; learnings for next time"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Kudozz's product launch service coordinates these workstreams across the pre-launch, launch-day and post-launch phases. Platform-specific mechanics are in Instagram product launch campaigns, and the full timeline in influencer campaign timeline. Launching on several channels at once? See how to sequence a launch across your website, marketplaces and quick-commerce apps.",
-        links: [
-          { text: "product launch service", href: "/services/product-launches" },
-          { text: "Instagram product launch campaigns", href: "/blog/instagram-product-launch-campaigns" },
-          { text: "influencer campaign timeline", href: "/blog/influencer-marketing-campaign-timeline" }, { text: "sequence a launch across your website, marketplaces and quick-commerce apps", href: "/blog/influencer-traffic-website-marketplace-quick-commerce" },
-        ],
-      },
-      { type: "heading", text: "Conclusion", id: "conclusion" },
-      {
-        type: "paragraph",
-        text: "Most launches don't fail on launch day. They fail weeks earlier, when creators were still being sourced, the store wasn't tested or nobody had used the product long enough to say something honest. Set one objective, build trust before you build reach, get the store and stock ready, coordinate the launch window like a schedule, and keep budget for the second wave. That's what turns launch-day attention into customers.",
-      },
-    ],
-    faqs: [
-      {
-        question: "How far in advance should influencer outreach start before a product launch?",
-        answer:
-          "Start sourcing about two months ahead and treat four to six weeks as the minimum. That leaves time for vetting, contracts, seeding with enough time for honest use, and content production before pre-launch posts go live.",
-      },
-      {
-        question: "How should brands budget for an influencer product launch?",
-        answer:
-          "Plan by phase: seeding and teasers before launch, coordinated posts in the launch window, and a held-back share for post-launch reviews, rebooking and amplification. Budget for fixed dates, embargoes, extra seeding units, usage rights and a larger contingency than usual.",
-      },
-      {
-        question: "How do you launch a new brand with influencers when nobody knows you?",
-        answer:
-          "Seed early with niche and micro creators and ask for honest feedback, invite those who genuinely like the product into paid launch content, make sure your own channels already show creator content and a clear founder story, and start with a test budget before scaling.",
-      },
-      {
-        question: "Can we ask launch creators to review the product on Amazon or Flipkart?",
-        answer:
-          "No. Marketplaces restrict reviews written in exchange for free products or payment. Keep creator content on social platforms with clear disclosure, and let marketplace reviews come from genuine buyers.",
-      },
-      {
-        question: "Should launch campaigns use only large creators for maximum reach?",
-        answer:
-          "Usually not. A mix of tiers tends to work better: a few larger creators for reach and a wider group of micro creators for detailed, trusted coverage that keeps working after launch day.",
-      },
-    ],
-  },
-  {
     slug: "influencer-marketing-report",
     category: "Campaign Strategy",
     title: "How to Create an Influencer Marketing Report",
@@ -33295,7 +32405,8 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Neither is better in general. Many brands run campaigns to find creators who fit, then invite the best into an ambassador program.",
+        text: "Neither is better in general. Many brands run campaigns to find creators who fit, then invite the best into an ambassador program. For candidate pools and a trial-to-ambassador pipeline, see how to source influencers for an ambassador programme.",
+        links: [{ text: "how to source influencers for an ambassador programme", href: "/blog/source-influencers-brand-ambassador-programme" }],
       },
       { type: "heading", text: "The benefits of long-term ambassador partnerships", id: "benefits-of-long-term" },
       {
@@ -37084,237 +36195,6 @@ const corePosts: BlogPost[] = [
     ],
   },
   {
-    slug: "how-to-find-ugc-creators",
-    category: "UGC Marketing",
-    title: "How to Find and Hire UGC Creators in India",
-    seoTitle: "How to Find and Hire the Right UGC Creators",
-    excerpt:
-      "Where to source UGC creators in India, how to evaluate their portfolios, negotiate rates, structure deliverables, and onboard them, with a practical checklist before you commit to a full production run.",
-    metaDescription: "How to find UGC creators in India: where to source them, evaluating portfolios, rates, deliverables and onboarding, with a pre-production checklist.",
-    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
-    publishedAt: "2026-09-11",
-    updatedAt: "2026-10-25",
-    lastReviewed: "October 2026",
-    readingTime: "11 min read",
-    related: ["ugc-agency-vs-direct-creators", "ugc-brief-template", "authentic-ugc-videos"],
-    hero: {
-      src: "/blog/brand-guides/how-to-find-ugc-creators.svg",
-      alt: "Finding UGC creators: source, review unedited samples, run a paid test, agree rights, onboard",
-    },
-    body: [
-      {
-        type: "paragraph",
-        text: "Finding UGC creators is a different search than finding influencers, because you're evaluating content style and camera presence rather than an existing audience. Many strong UGC creators have a small following or none at all, which means the usual discovery channels for influencers won't surface them.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "UGC creators in India can be found through UGC-specific marketplaces, Instagram and YouTube content searches, creator communities, an agency's vetted roster, or inbound applications, and should be evaluated on content quality, camera presence, and reliability rather than follower count. Once shortlisted, hiring involves a paid test clip, a clear rate and deliverables agreement, and a short onboarding step before committing to a full production run.",
-      },
-      { type: "heading", text: "What is a UGC creator, and how is it different from an influencer?", id: "ugc-vs-influencer-content-whats-the-difference" },
-      {
-        type: "paragraph",
-        text: "A UGC creator is hired to produce content styled like a genuine customer's, which the brand then owns and distributes through its own channels. An influencer is engaged primarily for their existing audience, and posts to their own channel as part of the deal. The same person can work as both, but the deliverable, contract, and pricing logic differ: a UGC creator is paid for content and rights, an influencer is paid substantially for reach. See UGC creator vs. influencer: which one should your brand hire for the full hiring decision framework.",
-        links: [{ text: "UGC creator vs. influencer: which one should your brand hire", href: "/blog/ugc-vs-influencer-content-whats-the-difference" }],
-      },
-      { type: "heading", text: "What makes a good UGC creator", id: "what-makes-a-good-ugc-creator" },
-      {
-        type: "list",
-        items: [
-          "Comfortable on camera with natural, unscripted delivery",
-          "Consistent lighting, audio, and framing without a professional studio setup",
-          "Ability to follow a shot list precisely while still sounding authentic",
-          "A portfolio that shows range across product types or formats, not just one style",
-          "Reliable communication and turnaround: often more important than raw talent",
-        ],
-      },
-      { type: "heading", text: "Where to find UGC creators", id: "where-to-find-ugc-creators" },
-      {
-        type: "list",
-        items: [
-          "UGC-specific marketplaces and platforms built around content commissioning rather than influencer reach",
-          "Instagram and YouTube, searching for content style and relevant hashtags rather than follower count",
-          "Creator communities and Discord or WhatsApp groups where UGC creators share portfolios and rates",
-          "Inbound applications, a simple application form on your own site or social profiles for creators to submit their portfolio directly",
-          "Referrals from creators you've already worked with, who often know others in the same style",
-          "An agency's existing UGC-vetted roster, which skips the cold-search step",
-        ],
-      },
-      { type: "heading", text: "Fit with your customer matters as much as skill", id: "customer-fit" },
-      {
-        type: "paragraph",
-        text: "A polished creator who would never use your product makes content that viewers don't believe. Look for creators who plausibly are your customer: the right life stage, skin type, home, job, city or language. For beauty, food and home products especially, the creator's own setting and routine carry much of the credibility. How to make content feel genuine is covered in how to make authentic UGC videos.",
-        links: [{ text: "how to make authentic UGC videos", href: "/blog/authentic-ugc-videos" }],
-      },
-      { type: "heading", text: "How to evaluate creator portfolios", id: "evaluating-portfolios" },
-      {
-        type: "paragraph",
-        text: "Review a creator's existing content the way you'd review a video editor's reel: for pacing, framing, and whether their existing style could plausibly feature your product without feeling forced. A portfolio full of one narrow style is a signal to ask for a paid test clip before committing to a full batch. See how to build a UGC creator portfolio that brands want to hire for what a well-organized portfolio should actually contain, useful context for judging one from the other side.",
-        links: [{ text: "how to build a UGC creator portfolio that brands want to hire", href: "/blog/ugc-creator-portfolio" }],
-      },
-      { type: "subheading", text: "Questions to ask when reviewing a portfolio" },
-      {
-        type: "table",
-        headers: ["Question", "Why it matters", "Good sign"],
-        rows: [
-          ["Which pieces were paid brand work, and which were made as samples?", "Samples show skill; paid work shows they can deliver to a brief", "Both, clearly labelled"],
-          ["Did you shoot, edit and voice each piece yourself?", "Some portfolios include work by editors or other creators", "A clear account of who did what"],
-          ["Which pieces ran as ads, and for which brands?", "Ad-ready work needs strong openings and clean edits", "Specific examples; any performance shared only if the brand allowed it"],
-          ["Can you show one raw clip and the final edit?", "Shows how much of the result is editing", "Usable raw footage, clean audio"],
-          ["Have you worked in our category, or a similar one?", "Category experience helps with claims and demonstrations", "Relevant work, or a convincing reason they can adapt"],
-          ["Can you show several openings for the same video?", "Hook variations are often what brands test first", "Genuinely different openings, not reworded lines"],
-          ["How do you handle claims and disclosure in brand work?", "Avoids rework and compliance problems", "They ask for approved claims and know disclosure basics"],
-          ["What formats and lengths can you deliver?", "Matches the placements you plan", "Vertical, square and short cuts as needed"],
-          ["What's your usual turnaround and revision policy?", "Timing drives launch dates", "Clear, realistic timings in writing"],
-          ["Are any samples restricted by a previous client's rights?", "You can't judge or reuse what they can't show", "Honest answers about what's under NDA"],
-          ["Who has featured in your videos, and do you have their consent?", "Family members, friends or children often appear", "Consent understood, especially for children"],
-          ["Can we see the same product shown by you in two different styles?", "Tests range beyond one look", "Visible range, or a paid test clip offered"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "A paid test clip on your product, briefed like the real job, answers most of these questions faster than a portfolio can. The same portfolio review applies when vetting influencers' past sponsored posts; see how to vet influencers.",
-        links: [
-          { text: "how to vet influencers", href: "/blog/how-to-vet-influencers" },
-        ],
-      },
-      { type: "heading", text: "How to assess content quality", id: "assessing-content-quality" },
-      {
-        type: "list",
-        items: [
-          "Audio clarity: this alone disqualifies more UGC submissions than any other factor",
-          "Stable framing and adequate lighting without needing professional equipment",
-          "Authentic delivery that doesn't sound read from a script",
-          "Ability to hit a specific runtime or shot count without padding",
-        ],
-      },
-      { type: "heading", text: "How to write a UGC brief", id: "how-to-write-a-ugc-brief" },
-      {
-        type: "paragraph",
-        text: "A good UGC brief is closer to a shot list than a creative brief: specific angles, key product moments to capture, required spoken or on-screen claims, and runtime, with room left for the creator's natural delivery style. For the full brief structure we use across all creator content, see how to create an effective influencer campaign brief.",
-        links: [{ text: "how to create an effective influencer campaign brief", href: "/blog/influencer-campaign-brief" }],
-      },
-      { type: "heading", text: "Usage rights for UGC", id: "usage-rights" },
-      {
-        type: "paragraph",
-        text: "Usage rights should be agreed before production begins, not after delivery. Specify every channel you intend to use the content in, such as paid social, website, or email, and for how long. UGC contracts commonly differ from influencer posts by granting broader, longer-term usage from the start.",
-      },
-      { type: "heading", text: "Pricing considerations", id: "pricing-considerations" },
-      {
-        type: "paragraph",
-        text: "UGC creator rates are typically driven by number of assets and production complexity rather than audience size, and are generally lower per asset than influencer post rates since you aren't paying for distribution. See how much UGC content costs in India for a full pricing framework.",
-        links: [{ text: "how much UGC content costs in India", href: "/blog/ugc-content-cost-india" }],
-      },
-      { type: "heading", text: "Questions to ask before hiring", id: "questions-before-hiring" },
-      {
-        type: "list",
-        items: [
-          "Can you share two or three examples of content similar to what we're briefing?",
-          "What's your typical turnaround from brief to delivered content?",
-          "Do you provide raw footage, an edited asset, or both?",
-          "How many rounds of revisions are included in your rate?",
-          "Have you worked in this product category before, and are there any conflicts with a competing brand?",
-        ],
-      },
-      { type: "heading", text: "Red flags to watch for", id: "red-flags-ugc-hiring" },
-      {
-        type: "list",
-        items: [
-          "A portfolio that looks inconsistent in quality from piece to piece, suggesting the best samples aren't representative",
-          "Reluctance to do a small paid test before a full batch",
-          "Vague or evasive answers about turnaround time or revision policy",
-          "Pushback on confirming usage rights in writing before starting production",
-          "Communication that's slow or unclear even before any money has changed hands",
-        ],
-      },
-      { type: "heading", text: "How to negotiate with UGC creators", id: "negotiating-with-ugc-creators" },
-      {
-        type: "paragraph",
-        text: "Negotiate on the full scope, number of assets, raw versus edited delivery, revisions, and usage rights, rather than just the headline fee, since two creators quoting different numbers are often including different things. Be upfront about your budget range and what you need included, and expect experienced creators to price usage rights and exclusivity as separate line items rather than folding everything into one number.",
-      },
-      { type: "heading", text: "Structuring deliverables", id: "structuring-deliverables" },
-      {
-        type: "paragraph",
-        text: "Specify exact deliverables before work begins: number of videos or photos, duration per asset, aspect ratio for the intended platform, whether raw footage is included, and the delivery format. Vague deliverables like \"a few videos about the product\" are how scope disagreements happen after the content is already made.",
-      },
-      { type: "heading", text: "Onboarding a new UGC creator", id: "onboarding-ugc-creators" },
-      {
-        type: "list",
-        items: [
-          "Share the brief and any brand guidelines before the product ships or the shoot is scheduled",
-          "Confirm the product is received and functional before the creator's deadline clock starts",
-          "Set a clear check-in point partway through if the timeline is longer than a few days",
-          "Confirm the delivery format and file-sharing method upfront to avoid a last-minute scramble",
-        ],
-      },
-      { type: "heading", text: "Test multiple creators before scaling", id: "testing-multiple-creators" },
-      {
-        type: "paragraph",
-        text: "Commission a small paid test batch, two or three assets each, from several candidates before committing to a larger production run with any one creator. This catches communication and quality issues early, when the cost of a miss is still small.",
-      },
-      { type: "heading", text: "Building a UGC creator network", id: "building-a-ugc-creator-network" },
-      {
-        type: "paragraph",
-        text: "Brands running UGC regularly benefit from maintaining a small roster of reliable, tested creators rather than sourcing from scratch every time. It shortens turnaround and reduces the variance in the batch.",
-      },
-      { type: "heading", text: "UGC creator selection checklist", id: "ugc-creator-selection-checklist" },
-      {
-        type: "list",
-        items: [
-          "Portfolio reviewed for style range and production quality",
-          "Audio and lighting quality confirmed as consistently strong",
-          "Paid test clip commissioned before a full batch",
-          "Usage rights and channels confirmed in writing",
-          "Turnaround time and revision policy agreed upfront",
-          "Rates confirmed relative to asset count and complexity, not audience size",
-        ],
-      },
-      {
-        type: "quote",
-        text: "The biggest UGC sourcing mistake is judging candidates by their follower count out of habit. The follower count is almost irrelevant here; the shot quality is everything.",
-        attribution: "Kudozz Strategy Team",
-      },
-      { type: "heading", text: "Direct, platform or agency?", id: "direct-or-agency" },
-      {
-        type: "paragraph",
-        text: "Sourcing and vetting creators yourself costs the least in cash and the most in time. If you need volume, variety, several languages or simply don't have the hours, compare the options in UGC agency vs hiring creators directly. Hiring creators for other markets is covered in how to localize UGC, and running the work once creators are booked in the UGC production workflow.",
-        links: [
-          { text: "UGC agency vs hiring creators directly", href: "/blog/ugc-agency-vs-direct-creators" },
-          { text: "how to localize UGC", href: "/blog/ugc-localization" },
-          { text: "UGC production workflow", href: "/blog/ugc-production-workflow" },
-        ],
-      },
-      { type: "heading", text: "How Kudozz sources UGC creators", id: "how-kudozz-sources" },
-      {
-        type: "paragraph",
-        text: "Our UGC campaign service maintains a roster specifically vetted for content style, reliability, and turnaround, separate from our influencer network.",
-        links: [{ text: "UGC campaign service", href: "/services/ugc-campaigns" }],
-      },
-    ],
-    faqs: [
-      {
-        question: "Do UGC creators need social media experience?",
-        answer:
-          "Some experience helps with camera comfort and following a shot list efficiently, but a large following is not required. Many effective UGC creators have little to no public audience.",
-      },
-      {
-        question: "How many UGC creators should I test before committing?",
-        answer:
-          "Three to five is a reasonable starting batch for a first production run, enough to compare style and reliability without a large upfront cost.",
-      },
-      {
-        question: "Can I find UGC creators for free through gifting?",
-        answer:
-          "Some creators will produce content for product alone, but reliable, high-quality UGC at scale is typically a paid engagement, since you're commissioning a specific deliverable rather than hoping for organic coverage.",
-      },
-      {
-        question: "What is the difference between finding UGC creators and finding influencers?",
-        answer:
-          "UGC sourcing prioritizes content style, camera presence, and reliability. Influencer sourcing prioritizes audience overlap and engagement quality, since you're paying for their distribution as much as their content.",
-      },
-    ],
-  },
-  {
     slug: "influencer-marketing-strategy",
     category: "Campaign Strategy",
     title: "How to Build an Influencer Marketing Strategy That Delivers Results",
@@ -38712,8 +37592,8 @@ const corePosts: BlogPost[] = [
       ] },
       {
         type: "paragraph",
-        text: "For the specific signals worth checking during an authenticity review, see how to identify fake followers and fake engagement.",
-        links: [{ text: "how to identify fake followers and fake engagement", href: "/blog/how-to-identify-fake-followers" }],
+        text: "For the specific signals worth checking during an authenticity review, see how to identify fake followers and fake engagement. For a fuller list, see 15 things to check before selecting an influencer.",
+        links: [{ text: "15 things to check before selecting an influencer", href: "/blog/things-to-check-before-selecting-influencers" }, { text: "how to identify fake followers and fake engagement", href: "/blog/how-to-identify-fake-followers" }],
       },
       { type: "heading", text: "Content style and brand fit", id: "brand-fit" },
       { type: "paragraph", text: "A creator can have the right audience and strong engagement and still be the wrong fit if their content style clashes with your brand voice. We review a creator's last several months of content the way a creative director would: for tone, pacing, visual style, and how naturally a product placement would sit inside it." },
@@ -40719,166 +39599,6 @@ const corePosts: BlogPost[] = [
         question: "Are these industries the only ones these formats work for?",
         answer:
           "No, the industries listed are illustrative examples of where each format tends to fit well, not an exhaustive or exclusive list. Most formats can be adapted to other B2B categories with the right voice and audience match.",
-      },
-    ],
-  },
-  {
-    slug: "how-to-find-linkedin-influencers",
-    category: "Campaign Strategy",
-    title: "How to Find LinkedIn Influencers and B2B Creators for Your Brand",
-    excerpt:
-      "Where to actually find credible LinkedIn creators and B2B experts, a weighted scorecard for evaluating them, and why follower count is one of the least useful signals on this platform.",
-    author: { name: "Kudozz Strategy Team", role: "Agency Team" },
-    publishedAt: "2026-09-13",
-    readingTime: "12 min read",
-    body: [
-      {
-        type: "paragraph",
-        text: "Searching LinkedIn for \"influencer\" surfaces mostly people who've branded themselves as one, which is often the opposite of who a B2B brand actually needs. The most useful LinkedIn creators for most campaigns are found by working backward from the audience, who does your actual buyer already follow and trust, rather than forward from a directory of self-declared influencers.",
-      },
-      {
-        type: "paragraph",
-        text: "This guide covers where to look, how to evaluate what you find, and a weighted scorecard for turning a long list of candidates into a real shortlist.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "The most reliable ways to find LinkedIn influencers and B2B creators are direct platform search combined with keyword and hashtag research, reviewing who your actual target accounts already follow and engage with, competitor and industry research, and agency-sourced shortlists. LinkedIn's own Creator Marketplace is not yet available in India, so it isn't currently a discovery option here. Whatever the source, evaluate candidates on audience relevance, seniority, and expertise rather than follower count.",
-      },
-      { type: "heading", text: "LinkedIn search", id: "linkedin-search" },
-      {
-        type: "paragraph",
-        text: "Direct platform search using specific industry terms, job functions, and topics your buyer cares about surfaces people actively posting about relevant problems, which is a more useful starting signal than a generic \"influencer\" search. Searching for the actual language your buyer uses, a specific tool category, a compliance term, a technical process, tends to find genuinely relevant creators that a broad search misses entirely.",
-      },
-      { type: "heading", text: "Creator, niche, and industry research", id: "creator-niche-research" },
-      {
-        type: "paragraph",
-        text: "Look for people consistently active in the specific niche your buyer operates in, not general business or career-advice creators. A creator who posts specifically about DevOps, or clinical procurement, or manufacturing compliance, brings far more relevant credibility to a campaign in that space than someone with a broader but shallower business following.",
-      },
-      { type: "heading", text: "LinkedIn Creator Marketplace, where available", id: "creator-marketplace" },
-      {
-        type: "paragraph",
-        text: "LinkedIn's Creator Marketplace, launched in 2026, is a self-serve discovery tool inside Campaign Manager that lets brands filter creators by topic and review audience data before reaching out. As of this writing it's in alpha, limited to select brands and creators in North America with English-language content, with no confirmed timeline for India or other markets. Treat it as a tool to watch, not a current discovery channel for Indian campaigns.",
-      },
-      { type: "heading", text: "Third-party creator platforms", id: "third-party-platforms" },
-      {
-        type: "paragraph",
-        text: "Several independent platforms and databases index LinkedIn creators and B2B influencers with searchable filters. These can widen a shortlist quickly, but the data is only as good as its last update, so verify current activity and audience quality directly on the creator's actual profile before relying on a platform's listing.",
-      },
-      { type: "heading", text: "Agency discovery", id: "agency-discovery" },
-      {
-        type: "paragraph",
-        text: "An agency with existing relationships across a category can shortcut months of cold discovery, particularly for niche technical or regulated industries where credible voices are harder to identify from the outside.",
-      },
-      { type: "heading", text: "Competitor and community research", id: "competitor-community-research" },
-      {
-        type: "paragraph",
-        text: "Reviewing who comments substantively on a competitor's content, who a competitor has already worked with, and who's active in relevant LinkedIn Groups or industry communities surfaces creators already engaged with your exact category, often before they've done any brand work at all.",
-      },
-      { type: "heading", text: "Event and podcast research", id: "event-podcast-research" },
-      {
-        type: "paragraph",
-        text: "Speaker lists from relevant conferences, panel participants, and guests on industry podcasts are a strong source of already-vetted credible voices, since event organizers have effectively done an initial layer of credibility screening already.",
-      },
-      { type: "heading", text: "Newsletter research", id: "newsletter-research" },
-      {
-        type: "paragraph",
-        text: "Authors of well-regarded LinkedIn newsletters or industry email newsletters in your category often have a more engaged, if smaller, audience than their follower count alone suggests, since newsletter subscribers are a higher-intent audience than passive followers.",
-      },
-      { type: "heading", text: "How to evaluate what you find", id: "evaluation-framework" },
-      {
-        type: "list",
-        items: [
-          "Audience relevance: do the people actually engaging match your target buyer, not just the creator's stated niche",
-          "Job seniority: are the engaged commenters at a level relevant to your sales motion",
-          "Industry: does their content genuinely sit within your category, or adjacent to it",
-          "Geography: matters for region-specific sales motions, less for globally distributed B2B audiences",
-          "Content topics: consistent focus on relevant themes, not occasional tangential mentions",
-          "Engagement: comment volume and quality, not just reactions",
-          "Comment quality: do relevant professionals engage substantively, or are comments generic",
-          "Posting consistency: regular activity over months rather than one standout post",
-          "Credibility: verifiable expertise and experience, not just confident framing",
-          "Expertise depth: genuine, current knowledge versus surface-level commentary",
-          "Brand safety: no content history that would sit uncomfortably next to your brand",
-          "Previous partnerships: how past brand collaborations were handled and received",
-          "Audience overlap: genuine overlap with your actual customer or prospect base",
-          "Content quality: clarity and originality of thinking, not production polish",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Follower count alone is not enough on LinkedIn. A creator with a large, broad business audience and a creator with a small, precisely relevant one can look identical on a follower count basis and perform completely differently in an actual campaign.",
-      },
-      { type: "heading", text: "LinkedIn Creator Scorecard", id: "creator-scorecard" },
-      {
-        type: "table",
-        headers: ["Factor", "Weight", "Score 1-5", "Weighted score"],
-        rows: [
-          ["Audience relevance", "25%", "", ""],
-          ["Subject expertise", "20%", "", ""],
-          ["Engagement quality", "20%", "", ""],
-          ["Content quality", "15%", "", ""],
-          ["Brand safety", "10%", "", ""],
-          ["Posting consistency", "10%", "", ""],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Multiply each score by its weight and total the result for a comparable number across candidates. Adjust the weights for your specific objective, a lead-generation campaign should weight audience relevance and engagement quality more heavily; an awareness campaign can weight content quality and consistency higher.",
-      },
-      { type: "heading", text: "Identifying specific creator types", id: "identifying-creator-types" },
-      {
-        type: "list",
-        items: [
-          "Executive creators: search by title alongside industry keywords, and check for a consistent, original posting pattern rather than occasional company announcements",
-          "Employee creators: often easier to find internally first; check who at your own company already posts genuinely and well",
-          "Niche industry creators: search using the specific technical or regulatory language of the niche, not broad category terms",
-          "B2B influencers: look for a track record of past brand collaborations handled professionally and disclosed clearly",
-          "Technical experts: cross-reference LinkedIn activity with conference speaking history or published technical writing elsewhere",
-          "Founders: search combined with funding announcements or company-stage keywords relevant to your target segment",
-          "Consultants: check for genuine, specific client-facing experience reflected in their content, not generic advice",
-        ],
-      },
-      {
-        type: "quote",
-        text: "The creator with 4,000 followers who all sit in your buying committee's job titles is worth more than the one with 40,000 followers who mostly don't.",
-        attribution: "Kudozz Strategy Team",
-      },
-      { type: "heading", text: "What happens after the shortlist", id: "after-the-shortlist" },
-      {
-        type: "paragraph",
-        text: "Once you have a scored shortlist, the next steps are outreach, pricing conversations, and briefing. See LinkedIn influencer marketing rates for what to expect on pricing, and the LinkedIn influencer marketing guide for the full outreach-to-measurement workflow.",
-        links: [
-          { text: "LinkedIn influencer marketing rates", href: "/blog/linkedin-influencer-rates-india" },
-          { text: "LinkedIn influencer marketing guide", href: "/blog/linkedin-influencer-marketing-india" },
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "How Kudozz handles this: Creator Discovery & Matchmaking.",
-        links: [{ text: "Creator Discovery & Matchmaking", href: "/services/creator-discovery" }],
-      },
-    ],
-    faqs: [
-      {
-        question: "How do brands find LinkedIn creators?",
-        answer:
-          "Through direct platform search using industry-specific keywords, reviewing who target accounts already engage with, competitor and community research, agency-sourced shortlists, and event or podcast speaker lists. LinkedIn's Creator Marketplace is not yet available in India.",
-      },
-      {
-        question: "Is follower count a good way to evaluate a LinkedIn creator?",
-        answer:
-          "No. Audience relevance, job seniority of engaged followers, subject expertise, and engagement quality are far more predictive of campaign performance than total follower count.",
-      },
-      {
-        question: "How do you find employee creators within your own company?",
-        answer:
-          "Review who at the company already posts consistently and well on LinkedIn, even informally, since these employees often have more built-in credibility with a relevant professional audience than an external creator would.",
-      },
-      {
-        question: "Is LinkedIn's Creator Marketplace available in India?",
-        answer:
-          "Not currently. It launched in 2026 in alpha, limited to North America with English-language content, and LinkedIn hasn't announced a timeline for wider availability.",
       },
     ],
   },
@@ -45468,6 +44188,7 @@ export const blogPosts: BlogPost[] = [
   ...gccGuidePosts,
   ...auGuidePosts,
   ...ukGuidePosts,
+  ...discoveryGuidePosts,
   ...corePosts,
 ];
 

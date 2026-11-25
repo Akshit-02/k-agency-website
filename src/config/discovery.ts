@@ -37,6 +37,27 @@ export function discoveryHref(placement: DiscoveryPlacement) {
   return `${DISCOVERY_URL}?${params.toString()}`;
 }
 
+/**
+ * Blog-content links (Kudozz Discovery articles): one campaign for all editorial traffic, the article slug as
+ * `utm_content`. Site placements (nav, homepage, service pages) use discoveryHref() instead.
+ */
+export function discoveryBlogHref(slug: string) {
+  const params = new URLSearchParams({
+    utm_source: "kudozz_website",
+    utm_medium: "blog",
+    utm_campaign: "discovery_content",
+    utm_content: slug,
+  });
+  return `${DISCOVERY_URL}?${params.toString()}`;
+}
+
+/** Default end-of-article copy for Discovery articles. Adjusted from the brief only where the product needed it. */
+export const DISCOVERY_BLOG_END_DEFAULTS = {
+  headline: "Find Creators Who Fit Your Next Campaign",
+  body: "Spend less time searching through profiles manually. Explore Kudozz Discovery to search Instagram creators in India by niche, location and engagement, and build a more relevant shortlist for your next brand collaboration.",
+  ctaLabel: "Explore Kudozz Discovery",
+};
+
 /** Verified product facts. Copy anywhere on the site should only claim what is listed here. */
 export const discoveryFacts = {
   /** The only platform the creator records come from (profile links and avatars are Instagram). */

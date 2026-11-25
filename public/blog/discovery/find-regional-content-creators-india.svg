@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Finding regional creators: a grid of markets and the languages to source in, plus a three-step audience language check</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Map the language before the creator</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Source each market in the language its people watch, then check the audience.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="190" width="240" height="60" fill="#150F0B"/><rect x="320" y="190" width="190" height="60" fill="#150F0B"/><rect x="510" y="190" width="190" height="60" fill="#150F0B"/><rect x="700" y="190" width="190" height="60" fill="#150F0B"/>
+<rect x="80" y="250" width="240" height="70" fill="#FFFFFF"/><rect x="320" y="250" width="190" height="70" fill="#FF4D1C"/><rect x="510" y="250" width="190" height="70" fill="#CCFF3D"/><rect x="700" y="250" width="190" height="70" fill="#FFFFFF"/>
+<rect x="80" y="320" width="240" height="70" fill="#FFFFFF"/><rect x="320" y="320" width="190" height="70" fill="#CCFF3D"/><rect x="510" y="320" width="190" height="70" fill="#CCFF3D"/><rect x="700" y="320" width="190" height="70" fill="#CCFF3D"/>
+<rect x="80" y="390" width="240" height="70" fill="#FFFFFF"/><rect x="320" y="390" width="190" height="70" fill="#FF4D1C"/><rect x="510" y="390" width="190" height="70" fill="#FFFFFF"/><rect x="700" y="390" width="190" height="70" fill="#FFFFFF"/>
+<rect x="80" y="460" width="240" height="70" fill="#FFFFFF"/><rect x="320" y="460" width="190" height="70" fill="#FF4D1C"/><rect x="510" y="460" width="190" height="70" fill="#CCFF3D"/><rect x="700" y="460" width="190" height="70" fill="#FFFFFF"/>
+<rect x="80" y="530" width="240" height="70" fill="#FFFFFF"/><rect x="320" y="530" width="190" height="70" fill="#FF4D1C"/><rect x="510" y="530" width="190" height="70" fill="#FFFFFF"/><rect x="700" y="530" width="190" height="70" fill="#FFFFFF"/>
+</g>
+<g font-size="18" font-weight="700" fill="#FAF1E2"><text x="100" y="227">Market</text><text x="340" y="227">Native</text><text x="530" y="227">Bilingual</text><text x="720" y="227">English-first</text></g>
+<g font-size="19" fill="#150F0B"><text x="100" y="292">Small-town TN</text><text x="100" y="362">Bengaluru</text><text x="100" y="432">Interior MH</text><text x="100" y="502">Kolkata</text><text x="100" y="572">Kerala</text></g>
+<g font-size="17" font-weight="700" fill="#150F0B"><text x="340" y="292">Tamil</text><text x="530" y="292">Tanglish</text><text x="340" y="362">Kannada</text><text x="530" y="362">Kanglish</text><text x="720" y="362">English</text><text x="340" y="432">Marathi</text><text x="340" y="502">Bengali</text><text x="530" y="502">Benglish</text><text x="340" y="572">Malayalam</text></g>
+<g font-size="16" fill="#150F0B"><rect x="80" y="622" width="22" height="22" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/><text x="112" y="639">Lead language</text><rect x="260" y="622" width="22" height="22" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><text x="292" y="639">Also worth testing</text></g>
+<text x="980" y="222" font-size="22" font-weight="700" fill="#150F0B">Audience language check</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="980" y="250" width="540" height="100" fill="#FFFFFF"/><rect x="980" y="370" width="540" height="100" fill="#FFFFFF"/><rect x="980" y="490" width="540" height="100" fill="#CCFF3D"/>
+<rect x="980" y="250" width="70" height="100" fill="#150F0B"/><rect x="980" y="370" width="70" height="100" fill="#150F0B"/><rect x="980" y="490" width="70" height="100" fill="#FF4D1C"/>
+</g>
+<g font-size="30" font-weight="700" fill="#FAF1E2" text-anchor="middle"><text x="1015" y="311">1</text><text x="1015" y="431">2</text><text x="1015" y="551">3</text></g>
+<g fill="#150F0B"><text x="1072" y="293" font-size="21" font-weight="700">Read the comments</text><text x="1072" y="324" font-size="17">Do viewers reply in the language?</text>
+<text x="1072" y="413" font-size="21" font-weight="700">Ask for top cities</text><text x="1072" y="444" font-size="17">Insights screenshot of audience locations</text>
+<text x="1072" y="533" font-size="21" font-weight="700">Compare by language</text><text x="1072" y="564" font-size="17">Regional posts vs English posts</text></g>
+</svg>

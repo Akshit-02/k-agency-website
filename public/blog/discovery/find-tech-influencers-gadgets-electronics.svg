@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Tech creator matrix: deep reviewers, comparison creators, setup and lifestyle creators and first-look creators placed by review depth and reach, matched to product types</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Not every tech creator does the same job</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Place creators by review depth and reach before you send a single unit.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="140" y="200" width="380" height="200" fill="#150F0B"/>
+<rect x="520" y="200" width="380" height="200" fill="#FFFFFF"/>
+<rect x="140" y="400" width="380" height="200" fill="#FFFFFF"/>
+<rect x="520" y="400" width="380" height="200" fill="#CCFF3D"/>
+</g>
+<g font-size="26" font-weight="700"><text x="170" y="290" fill="#CCFF3D">Deep reviewers</text><text x="550" y="290" fill="#150F0B">Comparison creators</text><text x="170" y="490" fill="#150F0B">Setup and lifestyle</text><text x="550" y="490" fill="#150F0B">Unboxing, first look</text></g>
+<g font-size="19"><text x="170" y="326" fill="#FAF1E2">Long-form, weeks of use</text><text x="550" y="326" fill="#150F0B">A vs B, best under ₹X</text><text x="170" y="526" fill="#150F0B">Daily use, desk setups</text><text x="550" y="526" fill="#150F0B">Reels and Shorts, launch week</text></g>
+<path d="M110 620 V190" stroke="#150F0B" stroke-width="3"/><path d="M110 620 H920" stroke="#150F0B" stroke-width="3"/>
+<path d="M102 202 L110 186 L118 202 Z M908 612 L924 620 L908 628 Z" fill="#150F0B"/>
+<text x="140" y="656" font-size="18" font-weight="700" fill="#150F0B">REACH PER POST →</text>
+<text x="90" y="600" font-size="18" font-weight="700" fill="#150F0B" transform="rotate(-90 90 600)">REVIEW DEPTH →</text>
+<rect x="990" y="200" width="530" height="56" fill="#150F0B"/>
+<text x="1015" y="236" font-size="22" font-weight="700" fill="#FAF1E2">Lead with, by product</text>
+<g stroke="#150F0B" stroke-width="2" fill="#FFFFFF"><rect x="990" y="256" width="530" height="62"/><rect x="990" y="318" width="530" height="62"/><rect x="990" y="380" width="530" height="62"/><rect x="990" y="442" width="530" height="62"/></g>
+<g font-size="20" fill="#150F0B"><text x="1015" y="295"><tspan font-weight="700">Accessories</tspan>  →  first look</text><text x="1015" y="357"><tspan font-weight="700">Mid-range</tspan>  →  comparison</text><text x="1015" y="419"><tspan font-weight="700">Premium</tspan>  →  deep review</text><text x="1015" y="481"><tspan font-weight="700">Software</tspan>  →  explainers</text></g>
+<rect x="990" y="530" width="530" height="90" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="1015" y="566" font-size="20" font-weight="700" fill="#150F0B">Before any unit ships:</text>
+<text x="1015" y="598" font-size="19" fill="#150F0B">embargo, timeline, honest cons</text>
+</svg>

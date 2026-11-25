@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Five customer journey stages with the creator type to source and the signal to search for at each</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">One journey, five different creator jobs</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Source a separate shortlist for each stage you fund.</text>
+<path d="M80 260H1520" stroke="#150F0B" stroke-width="3"/>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="210" width="260" height="100" fill="#150F0B"/>
+<rect x="370" y="210" width="260" height="100" fill="#FF4D1C"/>
+<rect x="660" y="210" width="260" height="100" fill="#CCFF3D"/>
+<rect x="950" y="210" width="260" height="100" fill="#FFFFFF"/>
+<rect x="1240" y="210" width="280" height="100" fill="#150F0B"/>
+</g>
+<g font-size="28" font-weight="700"><text x="104" y="272" fill="#FAF1E2">1 Discover</text><text x="394" y="272" fill="#150F0B">2 Consider</text><text x="684" y="272" fill="#150F0B">3 Buy</text><text x="974" y="272" fill="#150F0B">4 Use</text><text x="1264" y="272" fill="#CCFF3D">5 Advocate</text></g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="80" y="352">SOURCE</text><text x="370" y="352">SOURCE</text><text x="660" y="352">SOURCE</text><text x="950" y="352">SOURCE</text><text x="1240" y="352">SOURCE</text></g>
+<g font-size="19" fill="#150F0B"><text x="80" y="382">Entertainers,</text><text x="80" y="408">trend creators</text><text x="370" y="382">Explainers,</text><text x="370" y="408">reviewers, experts</text><text x="660" y="382">Code and link</text><text x="660" y="408">creators</text><text x="950" y="382">Tutorial and</text><text x="950" y="408">UGC creators</text><text x="1240" y="382">Existing customers,</text><text x="1240" y="408">loyal fans</text></g>
+<g stroke="#150F0B" stroke-width="2" fill="#FFFFFF"><rect x="80" y="450" width="260" height="110"/><rect x="370" y="450" width="260" height="110"/><rect x="660" y="450" width="260" height="110"/><rect x="950" y="450" width="260" height="110"/><rect x="1240" y="450" width="280" height="110"/></g>
+<g font-size="15" font-weight="700" fill="#FF4D1C"><text x="98" y="480">SEARCH FOR</text><text x="388" y="480">SEARCH FOR</text><text x="678" y="480">SEARCH FOR</text><text x="968" y="480">SEARCH FOR</text><text x="1258" y="480">SEARCH FOR</text></g>
+<g font-size="18" fill="#150F0B"><text x="98" y="512">Strong average</text><text x="98" y="538">Reel views</text><text x="388" y="512">Questions answered</text><text x="388" y="538">in comments</text><text x="678" y="512">"Ordered" in</text><text x="678" y="538">comments</text><text x="968" y="512">Clear step-by-step</text><text x="968" y="538">videos</text><text x="1258" y="512">Your own tags</text><text x="1258" y="538">and mentions</text></g>
+<rect x="370" y="596" width="550" height="48" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="390" y="628" font-size="19" font-weight="700" fill="#150F0B">Tight budget? Pair Consider + Buy in one creator</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Matching a creator's audience to your ideal customer profile: spec, hypothesis, proof and score</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Audience match: check it, don't assume it</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">A creator who looks like your customer may not be followed by your customers.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="200" width="200" height="120" fill="#150F0B"/>
+<rect x="320" y="200" width="200" height="120" fill="#FFFFFF"/>
+<rect x="560" y="200" width="200" height="120" fill="#FF4D1C"/>
+<rect x="800" y="200" width="200" height="120" fill="#CCFF3D"/>
+</g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M280 260h40M520 260h40M760 260h40"/></g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="100" y="230" fill="#FAF1E2" opacity="1">STEP 1</text><text x="340" y="230">STEP 2</text><text x="580" y="230">STEP 3</text><text x="820" y="230">STEP 4</text></g>
+<g font-size="24" font-weight="700"><text x="100" y="270" fill="#FAF1E2">Audience</text><text x="100" y="298" fill="#FAF1E2">spec</text><text x="340" y="270" fill="#150F0B">Hypothesis</text><text x="340" y="298" fill="#150F0B">per creator</text><text x="580" y="270" fill="#150F0B">Insights</text><text x="580" y="298" fill="#150F0B">proof</text><text x="820" y="270" fill="#150F0B">Match</text><text x="820" y="298" fill="#150F0B">score</text></g>
+<g font-size="18" fill="#150F0B"><text x="80" y="356">Must-haves, anti-fit</text><text x="320" y="356">From comments, language</text><text x="560" y="356">Dated screenshots</text><text x="800" y="356">Weights set first</text></g>
+<rect x="80" y="400" width="920" height="220" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="108" y="444" font-size="22" font-weight="700" fill="#150F0B">What you can verify vs only infer</text>
+<g font-size="19" fill="#150F0B"><text x="108" y="488">Verify with insights: top cities, age range, gender, countries</text><text x="108" y="526">Read from content: language, life stage, buying intent</text><text x="108" y="564">Cannot see: income, job role, purchase history</text></g>
+<rect x="108" y="582" width="16" height="16" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><text x="134" y="597" font-size="16" fill="#150F0B" opacity=".7">Follower count is not audience fit</text>
+<circle cx="1220" cy="400" r="170" fill="#FF4D1C" fill-opacity=".85" stroke="#150F0B" stroke-width="3"/>
+<circle cx="1380" cy="400" r="170" fill="#CCFF3D" fill-opacity=".75" stroke="#150F0B" stroke-width="3"/>
+<text x="1140" y="330" font-size="20" font-weight="700" fill="#150F0B" text-anchor="middle">Creator's</text>
+<text x="1140" y="356" font-size="20" font-weight="700" fill="#150F0B" text-anchor="middle">followers</text>
+<text x="1460" y="330" font-size="20" font-weight="700" fill="#150F0B" text-anchor="middle">Your</text>
+<text x="1460" y="356" font-size="20" font-weight="700" fill="#150F0B" text-anchor="middle">customers</text>
+<rect x="1240" y="380" width="120" height="44" fill="#150F0B"/>
+<text x="1300" y="409" font-size="20" font-weight="700" fill="#FAF1E2" text-anchor="middle">Book</text>
+<text x="1300" y="620" font-size="18" fill="#150F0B" opacity=".7" text-anchor="middle">Pay for the overlap, not the whole circle</text>
+</svg>

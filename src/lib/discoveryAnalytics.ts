@@ -35,3 +35,25 @@ export function trackDiscoveryClick(placement: DiscoveryPlacement, label: string
     outbound: true,
   });
 }
+
+/** Kudozz Discovery article CTAs: same event name as the site's blog aside, with article-level parameters. */
+export function trackDiscoveryArticleClick(params: {
+  slug: string;
+  title: string;
+  placement: "mid_article" | "end_article";
+  label: string;
+  /** The full destination URL, including UTM parameters. */
+  destination: string;
+}) {
+  if (typeof window === "undefined" || !window.gtag) return;
+  window.gtag("event", "discovery_blog_cta_click", {
+    article_slug: params.slug,
+    article_title: params.title,
+    cta_placement: params.placement,
+    cta_label: params.label,
+    destination: params.destination,
+    source_page: window.location.pathname,
+    destination_host: DISCOVERY_HOST,
+    outbound: true,
+  });
+}

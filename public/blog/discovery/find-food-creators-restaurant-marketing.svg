@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Matching restaurant goals to food creator types: opening buzz, hero dish, weekday footfall, delivery orders and events linked to reviewers, explorers, home chefs, food pages, aesthetic and lifestyle creators</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Pick the food creator for the job</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Start from the restaurant goal, then choose the creator type that delivers it.</text>
+<text x="80" y="200" font-size="16" font-weight="700" fill="#FF4D1C">RESTAURANT GOAL</text>
+<text x="1100" y="200" font-size="16" font-weight="700" fill="#FF4D1C">FOOD CREATOR TYPE</text>
+<g stroke="#150F0B" stroke-width="3" fill="none">
+<path d="M440 247 C 760 247, 760 247, 1100 247"/>
+<path d="M440 247 C 760 247, 760 427, 1100 427"/>
+<path d="M440 327 C 760 327, 760 517, 1100 517" stroke="#FF4D1C"/>
+<path d="M440 407 C 760 407, 760 607, 1100 607"/>
+<path d="M440 407 C 760 407, 760 427, 1100 427"/>
+<path d="M440 487 C 760 487, 760 337, 1100 337" stroke-dasharray="10 7"/>
+<path d="M440 487 C 760 487, 760 247, 1100 247" stroke-dasharray="10 7"/>
+<path d="M440 567 C 760 567, 760 607, 1100 607"/>
+<path d="M440 567 C 760 567, 760 517, 1100 517"/>
+</g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="220" width="360" height="54" fill="#CCFF3D"/><rect x="80" y="300" width="360" height="54" fill="#FF4D1C"/><rect x="80" y="380" width="360" height="54" fill="#FFFFFF"/><rect x="80" y="460" width="360" height="54" fill="#FFFFFF"/><rect x="80" y="540" width="360" height="54" fill="#FFFFFF"/>
+<rect x="1100" y="220" width="420" height="54" fill="#FFFFFF"/><rect x="1100" y="310" width="420" height="54" fill="#FFFFFF"/><rect x="1100" y="400" width="420" height="54" fill="#FFFFFF"/><rect x="1100" y="490" width="420" height="54" fill="#FFFFFF"/><rect x="1100" y="580" width="420" height="54" fill="#FFFFFF"/>
+</g>
+<g font-size="21" font-weight="700" fill="#150F0B">
+<text x="100" y="255">Opening buzz</text><text x="100" y="335">Hero dish</text><text x="100" y="415">Weekday footfall</text><text x="100" y="495">Delivery orders</text><text x="100" y="575">Events and catering</text>
+<text x="1120" y="255">City food explorers</text><text x="1120" y="345">Home chefs and recipe creators</text><text x="1120" y="435">Local food pages</text><text x="1120" y="525">Reviewers and aesthetic creators</text><text x="1120" y="615">Lifestyle creators</text>
+</g>
+<text x="80" y="650" font-size="16" fill="#150F0B" opacity=".7">Dashed: cloud kitchens without a dining room lean on home-tasting and recipe content.</text>
+</svg>

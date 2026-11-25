@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Micro-influencers sit in the 10K to 100K follower band; scale them with a test batch, core roster and bench</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Micro-influencers: find the band, then build a roster</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Tier bands are common conventions, not official standards.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="230" width="220" height="80" fill="#FFFFFF"/>
+<rect x="300" y="196" width="440" height="114" fill="#FF4D1C"/>
+<rect x="740" y="230" width="280" height="80" fill="#FFFFFF"/>
+<rect x="1020" y="230" width="260" height="80" fill="#FFFFFF"/>
+<rect x="1280" y="230" width="240" height="80" fill="#FFFFFF"/>
+</g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="100" y="278">Nano</text><text x="324" y="250" font-size="28">Micro</text><text x="760" y="278">Mid-tier</text><text x="1040" y="278">Macro</text><text x="1300" y="278">Mega</text></g>
+<text x="324" y="288" font-size="20" fill="#150F0B">Niche trust, steady volume</text>
+<g font-size="18" fill="#150F0B" opacity=".75"><text x="100" y="340">Under 10K</text><text x="324" y="340" font-weight="700" opacity="1">10K–100K</text><text x="760" y="340">100K–500K</text><text x="1040" y="340">500K–1M</text><text x="1300" y="340">1M+</text></g>
+<text x="80" y="420" font-size="20" font-weight="700" fill="#150F0B">Scale with three layers, not one big list</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="446" width="400" height="140" fill="#CCFF3D"/>
+<rect x="580" y="446" width="400" height="140" fill="#150F0B"/>
+<rect x="1080" y="446" width="440" height="140" fill="#FFFFFF"/>
+</g>
+<g font-size="26" font-weight="700"><text x="104" y="494" fill="#150F0B">Test batch</text><text x="604" y="494" fill="#CCFF3D">Core roster</text><text x="1104" y="494" fill="#150F0B">Bench</text></g>
+<g font-size="19"><text x="104" y="530" fill="#150F0B">5–10 new creators,</text><text x="104" y="558" fill="#150F0B">small brief, low risk</text><text x="604" y="530" fill="#FAF1E2">Creators who delivered:</text><text x="604" y="558" fill="#FAF1E2">repeat and longer terms</text><text x="1104" y="530" fill="#150F0B">Vetted, not yet used:</text><text x="1104" y="558" fill="#150F0B">ready for gaps and new cities</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M484 516 H574" marker-end="url(#a)"/><path d="M1076 516 H986" marker-end="url(#a)"/></g>
+<text x="80" y="646" font-size="18" fill="#150F0B" opacity=".65">A 25K creator with steady Reels views can beat a 90K creator whose recent posts have flattened.</text>
+</svg>

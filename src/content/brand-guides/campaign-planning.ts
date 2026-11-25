@@ -476,220 +476,6 @@ export const campaignPlanningPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "influencer-shortlist",
-    category: "Influencer Marketing",
-    title: "Influencer Shortlisting: How Brands Can Build a Data-Driven Creator Shortlist",
-    seoTitle: "Influencer Shortlisting: Build a Data-Driven Shortlist",
-    excerpt:
-      "How brands and agencies build an influencer shortlist: from discovery longlist to vetted shortlist to final selection, how many options to keep, what each shortlist entry should show, availability and conflict checks, backups, a shortlist template, and how to approve it quickly.",
-    metaDescription:
-      "How to build a data-driven influencer shortlist: longlist to final picks, pass rules, what each entry shows, a decision log, bias checks and a template.",
-    author: AUTHOR,
-    publishedAt: PUBLISHED,
-    updatedAt: "2026-10-07",
-    lastReviewed: REVIEWED,
-    readingTime: "6 min read",
-    tags: ["influencer shortlisting", "influencer shortlist", "data-driven influencer shortlist", "creator shortlist template", "influencer selection process"],
-    related: ["influencer-ranking", "creator-quality-score", "how-to-vet-influencers"],
-    hero: { src: "/blog/brand-guides/influencer-shortlist.svg", alt: "Influencer selection funnel narrowing a discovery longlist to a vetted shortlist and final selection with backups" },
-    body: [
-      {
-        type: "paragraph",
-        text: "A shortlist is where a campaign's quality is decided. Discovery produces lots of plausible names; vetting removes the risky ones; the shortlist is the small, reasoned set that a decision-maker can approve in one sitting. When shortlists are just spreadsheets of handles and follower counts, approvals drag and weak creators slip through.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "Build an influencer shortlist in three passes: a longlist from discovery (search, tools, referrals), a vetted shortlist after audience, authenticity, content and brand-safety checks, and a final selection after availability, fees and conflicts are confirmed. Keep more options than you need so you have backups. Each shortlist entry should show the creator's platform and typical reach, audience match with dated data, content examples, past brand work, estimated fee and a one-line reason they fit the brief.",
-      },
-      { type: "heading", text: "The three passes", id: "passes" },
-      {
-        type: "table",
-        headers: ["Pass", "Input", "Filter", "Output"],
-        rows: [
-          ["Longlist", "Platform search, discovery tools, referrals, past creators", "Topic, platform, language, region, rough size", "A broad list of possible creators"],
-          ["Shortlist", "Longlist", "Audience fit, authenticity, content quality, brand safety", "Vetted options with reasons"],
-          ["Final selection", "Shortlist", "Availability, fees, usage, exclusivity, conflicts, mix", "Creators to contract, plus backups"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Discovery methods are in how to find the right Indian influencers for your brand; the vetting pass in how to vet influencers before a brand collaboration.",
-        links: [
-          { text: "how to find the right Indian influencers for your brand", href: "/blog/find-indian-influencers" },
-          { text: "how to vet influencers before a brand collaboration", href: "/blog/how-to-vet-influencers" },
-        ],
-      },
-      { type: "heading", text: "How many to keep at each stage", id: "how-many" },
-      {
-        type: "paragraph",
-        text: "Keep a margin at every stage because some creators won't be available, some will quote beyond budget and some will decline your terms. As an illustrative planning guide, a shortlist is often around one and a half to two times the number of creators you need, and the longlist several times larger. Niche and regional briefs need wider longlists because fewer creators fit.",
-      },
-      { type: "heading", text: "What every shortlist entry should show", id: "entry" },
-      {
-        type: "template",
-        label: "Shortlist template (one row per creator)",
-        text: "Creator | Platform(s) | Typical views/reach (dated) | Audience: top cities, age, language (dated, source) |\nContent examples (2–3 links) | Past brands and conflicts | Estimated fee for these deliverables |\nUsage/exclusivity notes | Brand-safety notes | Why they fit this brief (one line) | Tier/role | Status",
-      },
-      {
-        type: "list",
-        items: [
-          "Date and source every audience number; mark estimates as estimates.",
-          "Write the reason for each creator in one line; it forces clear thinking and speeds approval.",
-          "Show the mix: which creators play which role (reach, trust, conversions, regional coverage).",
-          "Flag risks honestly rather than leaving them for the approver to discover.",
-        ],
-      },
-      { type: "heading", text: "Checks before final selection", id: "checks" },
-      {
-        type: "list",
-        items: [
-          "Availability in your go-live window.",
-          "Fees for the exact deliverables, usage and exclusivity you need.",
-          "Existing exclusivities with competitors.",
-          "Recent sponsored content volume, so your post isn't lost among many ads.",
-          "Overlap between creators' audiences, if you want reach rather than frequency.",
-        ],
-      },
-      { type: "heading", text: "Approving the shortlist quickly", id: "approval" },
-      {
-        type: "list",
-        items: [
-          "Approve against the criteria agreed in the brief, not personal taste.",
-          "One decision-maker, with others consulted before, not after.",
-          "Approve a ranked list with backups, so replacements don't need another round.",
-          "Set a turnaround time; shortlist approval is one of the most common delays in the campaign timeline.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Timeline impact: influencer campaign timeline. Selection criteria for judging fit: how to choose the right influencer for your brand. Kudozz's creator discovery service delivers shortlists in this format, with a written rationale for each creator.",
-        links: [
-          { text: "influencer campaign timeline", href: "/blog/influencer-marketing-campaign-timeline" },
-          { text: "how to choose the right influencer for your brand", href: "/blog/how-to-choose-the-right-influencer-for-your-brand" },
-          { text: "creator discovery service", href: "/services/creator-discovery" },
-        ],
-      },
-      { type: "heading", text: "Making shortlisting data-driven", id: "data-driven" },
-      {
-        type: "paragraph",
-        text: "A data-driven shortlist isn't one sorted by a single score. It's one where every pass has defined data requirements and pass rules, set from the brief before anyone looks at creators, so the same evidence decides every inclusion and exclusion.",
-      },
-      {
-        type: "table",
-        headers: ["Pass", "Data required", "Example pass rule (set per campaign)"],
-        rows: [
-          ["Longlist", "Platform, language, content topics, creator location, median views (approx.)", "Creates in target language; posted on topic in last 30 days; median views in target band"],
-          ["Shortlist", "Audience insights (dated), authenticity check, engagement quality, content review, past sponsored work", "Audience mainly in target states; no unexplained growth spikes; specific comments on recent posts; passes brand safety"],
-          ["Final selection", "Quoted fee, availability, exclusivities, rights terms, ranking score", "Fee within expected CPM range; available in window; no category conflict; rights for paid use"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Pass rules are campaign-specific. A regional launch might require 50% or more of audience in the target state; a national awareness push might not filter on state at all. Write them in the brief so stakeholders agree before names appear.",
-      },
-      { type: "heading", text: "Score once, at the right pass", id: "scoring" },
-      {
-        type: "paragraph",
-        text: "Scoring every longlisted creator in detail wastes time. Apply cheap filters at the longlist stage, collect evidence and score at the shortlist stage, and rank only the creators who pass. Creator quality score and AI influencer matching cover the quality and fit components; influencer ranking covers ordering the final list into tiers.",
-        links: [
-          { text: "Creator quality score", href: "/blog/creator-quality-score" },
-          { text: "AI influencer matching", href: "/blog/ai-influencer-matching" },
-          { text: "influencer ranking", href: "/blog/influencer-ranking" },
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "A ready-made scorecard with gates and objective-based weights is in how to choose the right influencer.",
-        links: [
-          { text: "how to choose the right influencer", href: "/blog/how-to-choose-the-right-influencer-for-your-brand#selection-scorecard" },
-        ],
-      },
-      { type: "heading", text: "Keep a decision log", id: "decision-log" },
-      {
-        type: "template",
-        label: "Shortlist decision log",
-        text: "Creator · Pass reached · Decision (in / out / reserve) · Rule or reason · Evidence link · Decided by · Date",
-      },
-      {
-        type: "paragraph",
-        text: "Recording why creators were excluded is as useful as recording why they were included. It stops the same unsuitable names reappearing next campaign, shows stakeholders the shortlist wasn't arbitrary, and lets you check later whether a rule excluded creators who would have done well.",
-      },
-      { type: "heading", text: "Check the shortlist for bias", id: "bias-check" },
-      {
-        type: "list",
-        items: [
-          "Popularity bias: are tools and searches pushing the same well-known names every time?",
-          "Metro bias: are tier 2 and tier 3 creators missing because searches ran in English only?",
-          "Language bias: is every priority language represented?",
-          "Similarity bias: is the list full of creators who look and sound alike?",
-          "Recency bias: are reliable past creators missing because nobody checked the CRM?",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Shortlists built from data are only as good as the data's coverage. Supplement tool searches with listening, brand mentions and referrals; social listening for creator discovery and brand mention monitoring explain those routes.",
-        links: [
-          { text: "social listening for creator discovery", href: "/blog/social-listening-creator-discovery" },
-          { text: "brand mention monitoring", href: "/blog/brand-mention-monitoring" },
-        ],
-      },
-      { type: "heading", text: "Hypothetical example: a shortlist funnel with pass rules", id: "funnel-example" },
-      {
-        type: "paragraph",
-        text: "Hypothetical: a footwear brand needs 8 creators for a Hindi-belt monsoon campaign. Pass rules agreed in the brief: Hindi content, audience mainly in UP, MP, Rajasthan and Bihar, Reels median views in the agreed band, no competitor deal in the last 60 days. Discovery produces 140 names; language and activity filters leave 70; audience insights and authenticity checks leave 28; content and brand-safety review leaves 16. Ranking puts 9 in priority, 4 in reserve and 3 out. Two priority creators decline, and reserves fill the gaps without another approval round. Every exclusion has a recorded reason.",
-      },
-      {
-        type: "paragraph",
-        text: "When the shortlist includes several creators in one niche or market, estimate how much their audiences overlap; see how to detect influencer audience overlap.",
-        links: [
-          { text: "how to detect influencer audience overlap", href: "/blog/influencer-audience-overlap" }
-        ],
-      },
-      { type: "heading", text: "Common mistakes", id: "mistakes" },
-      {
-        type: "list",
-        items: [
-          "Shortlists sorted by follower count.",
-          "No backups, so one decline restarts the process.",
-          "Undated or estimated audience data presented as fact.",
-          "Ignoring competitor exclusivities until contracting.",
-          "Everyone in the team approving, nobody deciding.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "With an approved shortlist, how to find and contact influencers and influencer outreach email cover the first approach.",
-        links: [
-          { text: "how to find and contact influencers", href: "/blog/how-to-contact-influencers" },
-          { text: "influencer outreach email", href: "/blog/influencer-outreach-email" },
-        ],
-      },
-      { type: "heading", text: "Conclusion", id: "conclusion" },
-      {
-        type: "paragraph",
-        text: "A good influencer shortlist is small, vetted, reasoned and ready to approve. Build it in three passes, keep margins and backups, show dated evidence and a clear reason for every creator, and confirm availability, fees and conflicts before final selection.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What should an influencer shortlist include?",
-        answer:
-          "For each creator: platforms, typical reach, audience match with dated data and source, content examples, past brands and conflicts, estimated fee, usage and exclusivity notes, brand-safety notes and a one-line reason they fit the brief.",
-      },
-      {
-        question: "How many influencers should be on a shortlist?",
-        answer:
-          "More than you need, to allow for unavailability, fees and declined terms. As an illustrative guide, about one and a half to two times the final number, with wider longlists for niche or regional briefs.",
-      },
-      {
-        question: "What's the difference between a longlist and a shortlist?",
-        answer:
-          "A longlist is broad discovery output filtered by topic, platform, language and size. A shortlist has passed audience, authenticity, content and brand-safety checks and shows why each creator fits.",
-      },
-    ],
-  },
-  {
     slug: "influencer-audience-quality",
     category: "Influencer Marketing",
     title: "Influencer Audience Quality: How to Check and Score a Creator's Audience",
@@ -787,7 +573,8 @@ export const campaignPlanningPosts: BlogPost[] = [
       { type: "heading", text: "An Audience Quality Score", id: "audience-quality-score" },
       {
         type: "paragraph",
-        text: "Quality signals are easier to compare across creators when they're scored the same way. An Audience Quality Score rates the audience itself (not whether it matches your customer) across six dimensions:",
+        text: "Quality signals are easier to compare across creators when they're scored the same way. An Audience Quality Score rates the audience itself (not whether it matches your customer) across six dimensions: Quality is one half; the other is fit: here's how to match a creator's audience to your ideal customer profile.",
+        links: [{ text: "match a creator's audience to your ideal customer profile", href: "/blog/find-influencers-matching-target-audience" }],
       },
       {
         type: "table",
@@ -988,7 +775,8 @@ export const campaignPlanningPosts: BlogPost[] = [
       { type: "heading", text: "A city-by-city rollout plan", id: "city-rollout" },
       {
         type: "paragraph",
-        text: "Hyperlocal campaigns work best rolled out in waves, so each city's results inform the next. A simple scorecard keeps the choice of next city objective:",
+        text: "Hyperlocal campaigns work best rolled out in waves, so each city's results inform the next. A simple scorecard keeps the choice of next city objective: Here's how to build a shortlist for a multi-city campaign with a city allocation matrix.",
+        links: [{ text: "build a shortlist for a multi-city campaign", href: "/blog/influencer-shortlist-multi-city-campaign" }],
       },
       {
         type: "table",

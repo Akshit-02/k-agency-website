@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Fashion creator price tiers from fast fashion to premium, with the signals to look for, and an occasion calendar showing when to book festive and wedding creators</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Fashion creators: match the tier, book the season</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Their wardrobe is half your brief. Their calendar is the other half.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="200" width="460" height="70" fill="#FF4D1C"/>
+<rect x="540" y="200" width="490" height="70" fill="#CCFF3D"/>
+<rect x="1030" y="200" width="490" height="70" fill="#150F0B"/>
+<rect x="80" y="270" width="460" height="90" fill="#FFFFFF"/>
+<rect x="540" y="270" width="490" height="90" fill="#FFFFFF"/>
+<rect x="1030" y="270" width="490" height="90" fill="#FFFFFF"/>
+</g>
+<g font-size="22" font-weight="700"><text x="104" y="243" fill="#150F0B">Fast fashion, value</text><text x="564" y="243" fill="#150F0B">Ethnic and festive</text><text x="1054" y="243" fill="#FAF1E2">Premium, designer</text></g>
+<g font-size="19" fill="#150F0B"><text x="104" y="306">Hauls, budget edits,</text><text x="104" y="334">marketplace finds</text><text x="564" y="306">Mixed price points,</text><text x="564" y="334">occasion styling</text><text x="1054" y="306">Fewer pieces, talk of</text><text x="1054" y="334">fabric, cut and craft</text></g>
+<text x="80" y="430" font-size="22" font-weight="700" fill="#150F0B">Occasion calendar (typical pattern)</text>
+<g stroke="#150F0B" stroke-width="2">
+<rect x="80" y="450" width="120" height="60" fill="#CCFF3D"/><rect x="200" y="450" width="120" height="60" fill="#CCFF3D"/><rect x="320" y="450" width="120" height="60" fill="#FFFFFF"/><rect x="440" y="450" width="120" height="60" fill="#FFFFFF"/><rect x="560" y="450" width="120" height="60" fill="#FFFFFF"/><rect x="680" y="450" width="120" height="60" fill="#FFFFFF"/><rect x="800" y="450" width="120" height="60" fill="#FFFFFF"/><rect x="920" y="450" width="120" height="60" fill="#150F0B"/><rect x="1040" y="450" width="120" height="60" fill="#150F0B"/><rect x="1160" y="450" width="120" height="60" fill="#FF4D1C"/><rect x="1280" y="450" width="120" height="60" fill="#FF4D1C"/><rect x="1400" y="450" width="120" height="60" fill="#CCFF3D"/>
+</g>
+<g font-size="18" font-weight="700" text-anchor="middle" fill="#150F0B"><text x="140" y="486">Jan</text><text x="260" y="486">Feb</text><text x="380" y="486">Mar</text><text x="500" y="486">Apr</text><text x="620" y="486">May</text><text x="740" y="486">Jun</text><text x="860" y="486">Jul</text><text x="980" y="486" fill="#FAF1E2">Aug</text><text x="1100" y="486" fill="#FAF1E2">Sep</text><text x="1220" y="486">Oct</text><text x="1340" y="486">Nov</text><text x="1460" y="486">Dec</text></g>
+<g font-size="18" fill="#150F0B"><rect x="80" y="550" width="22" height="22" fill="#150F0B"/><text x="114" y="568">Shortlist and book</text><rect x="340" y="550" width="22" height="22" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/><text x="374" y="568">Festive peak</text><rect x="560" y="550" width="22" height="22" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><text x="594" y="568">Wedding season</text></g>
+<text x="80" y="640" font-size="18" fill="#150F0B" opacity=".65">Festival dates move each year and vary by region. Plan against your own calendar.</text>
+</svg>

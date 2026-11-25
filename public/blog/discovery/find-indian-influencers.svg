@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Finding influencers in India: objective, creator profile, six search sources, evaluation and shortlist</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Find the right influencers in the right order</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Decide what you need before you search. Then search more than one place.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="250" width="220" height="130" fill="#150F0B"/>
+<rect x="340" y="250" width="220" height="130" fill="#FF4D1C"/>
+<rect x="1060" y="250" width="200" height="130" fill="#CCFF3D"/>
+<rect x="1300" y="250" width="220" height="130" fill="#150F0B"/>
+<rect x="600" y="210" width="200" height="62" fill="#FFFFFF"/><rect x="820" y="210" width="200" height="62" fill="#FFFFFF"/>
+<rect x="600" y="284" width="200" height="62" fill="#CCFF3D"/><rect x="820" y="284" width="200" height="62" fill="#CCFF3D"/>
+<rect x="600" y="358" width="200" height="62" fill="#FFFFFF"/><rect x="820" y="358" width="200" height="62" fill="#FFFFFF"/>
+</g>
+<g font-size="15" font-weight="700"><text x="100" y="278" fill="#CCFF3D">01</text><text x="360" y="278" fill="#150F0B">02</text><text x="600" y="196" fill="#150F0B">03  SEARCH SIX SOURCES</text><text x="1080" y="278" fill="#150F0B">04</text><text x="1320" y="278" fill="#CCFF3D">05</text></g>
+<g font-size="24" font-weight="700"><text x="100" y="314" fill="#FAF1E2">Objective</text><text x="360" y="314" fill="#150F0B">Creator profile</text><text x="1080" y="314" fill="#150F0B">Evaluate</text><text x="1320" y="314" fill="#FAF1E2">Shortlist</text></g>
+<g font-size="17"><text x="100" y="342" fill="#FAF1E2" opacity=".85">Awareness, sales,</text><text x="100" y="364" fill="#FAF1E2" opacity=".85">content, footfall</text><text x="360" y="342" fill="#150F0B">Niche, audience,</text><text x="360" y="364" fill="#150F0B">language, tier</text><text x="1080" y="342" fill="#150F0B">Fit, quality,</text><text x="1080" y="364" fill="#150F0B">audience proof</text><text x="1320" y="342" fill="#FAF1E2" opacity=".85">Same columns,</text><text x="1320" y="364" fill="#FAF1E2" opacity=".85">ready for outreach</text></g>
+<g font-size="18" font-weight="700" fill="#150F0B"><text x="618" y="248">IG search</text><text x="838" y="248">Hashtags</text><text x="618" y="322">Competitor tags</text><text x="838" y="322">Your customers</text><text x="618" y="396">Discovery tools</text><text x="838" y="396">Agencies</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M302 315 H334" marker-end="url(#a)"/><path d="M562 315 H594" marker-end="url(#a)"/><path d="M1022 315 H1054" marker-end="url(#a)"/><path d="M1262 315 H1294" marker-end="url(#a)"/></g>
+<text x="80" y="500" font-size="20" font-weight="700" fill="#150F0B">Five questions before anyone reaches the shortlist</text>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF"><rect x="80" y="524" width="270" height="64"/><rect x="370" y="524" width="270" height="64"/><rect x="660" y="524" width="270" height="64"/><rect x="950" y="524" width="270" height="64"/><rect x="1240" y="524" width="280" height="64"/></g>
+<g font-size="20" fill="#150F0B"><text x="100" y="563">Niche relevance</text><text x="390" y="563">Content quality</text><text x="680" y="563">Audience fit</text><text x="970" y="563">Engagement quality</text><text x="1260" y="563">Professionalism</text></g>
+<text x="80" y="644" font-size="18" fill="#150F0B" opacity=".65">Creator location is not audience location: ask for insights before you confirm.</text>
+</svg>

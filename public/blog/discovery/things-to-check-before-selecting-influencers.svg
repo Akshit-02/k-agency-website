@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Fifteen checks before selecting an influencer, grouped into audience, content, performance, professionalism, and commercial and compliance</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">15 checks before you say yes</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Pass, concern or fail. One fail on audience or compliance is usually enough.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="210" width="272" height="64" fill="#CCFF3D"/>
+<rect x="372" y="210" width="272" height="64" fill="#FFFFFF"/>
+<rect x="664" y="210" width="272" height="64" fill="#150F0B"/>
+<rect x="956" y="210" width="272" height="64" fill="#FFFFFF"/>
+<rect x="1248" y="210" width="272" height="64" fill="#FF4D1C"/>
+</g>
+<g font-size="20" font-weight="700"><text x="100" y="250" fill="#150F0B">Audience</text><text x="392" y="250" fill="#150F0B">Content</text><text x="684" y="250" fill="#CCFF3D">Performance</text><text x="976" y="250" fill="#150F0B">Professionalism</text><text x="1268" y="250" fill="#150F0B">Commercial</text></g>
+<g fill="#FFFFFF" stroke="#150F0B" stroke-width="2">
+<rect x="80" y="290" width="272" height="66"/><rect x="80" y="366" width="272" height="66"/><rect x="80" y="442" width="272" height="66"/>
+<rect x="372" y="290" width="272" height="66"/><rect x="372" y="366" width="272" height="66"/><rect x="372" y="442" width="272" height="66"/>
+<rect x="664" y="290" width="272" height="66"/><rect x="664" y="366" width="272" height="66"/><rect x="664" y="442" width="272" height="66"/><rect x="664" y="518" width="272" height="66"/>
+<rect x="956" y="290" width="272" height="66"/><rect x="956" y="366" width="272" height="66"/>
+<rect x="1248" y="290" width="272" height="66"/><rect x="1248" y="366" width="272" height="66"/><rect x="1248" y="442" width="272" height="66"/>
+</g>
+<g font-size="17" fill="#150F0B">
+<text x="96" y="330"><tspan font-weight="700">1</tspan>  Audience location</text>
+<text x="96" y="406"><tspan font-weight="700">2</tspan>  Audience language</text>
+<text x="96" y="482"><tspan font-weight="700">3</tspan>  Age and life stage</text>
+<text x="388" y="330"><tspan font-weight="700">4</tspan>  Category is core</text>
+<text x="388" y="406"><tspan font-weight="700">5</tspan>  Format fit</text>
+<text x="388" y="482"><tspan font-weight="700">6</tspan>  Natural sponsored posts</text>
+<text x="680" y="330"><tspan font-weight="700">7</tspan>  Engagement in context</text>
+<text x="680" y="406"><tspan font-weight="700">8</tspan>  Typical views</text>
+<text x="680" y="482"><tspan font-weight="700">9</tspan>  Comment quality</text>
+<text x="680" y="558"><tspan font-weight="700">10</tspan>  Consistency</text>
+<text x="972" y="330"><tspan font-weight="700">11</tspan>  Communication</text>
+<text x="972" y="406"><tspan font-weight="700">12</tspan>  Delivery record</text>
+<text x="1264" y="330"><tspan font-weight="700">13</tspan>  Disclosure (ASCI)</text>
+<text x="1264" y="406"><tspan font-weight="700">14</tspan>  Conflicts</text>
+<text x="1264" y="482"><tspan font-weight="700">15</tspan>  Rate and terms</text>
+</g>
+<g stroke="#150F0B" stroke-width="3"><rect x="956" y="460" width="22" height="22" fill="#CCFF3D"/><rect x="956" y="500" width="22" height="22" fill="#FFFFFF"/><rect x="956" y="540" width="22" height="22" fill="#FF4D1C"/></g>
+<g font-size="18" fill="#150F0B"><text x="992" y="478">Pass</text><text x="992" y="518">Concern: note it</text><text x="992" y="558">Fail</text></g>
+<text x="80" y="644" font-size="18" fill="#150F0B" opacity=".65">Checks 1, 3 and 15 usually need the creator's own screenshots or answers.</text>
+</svg>

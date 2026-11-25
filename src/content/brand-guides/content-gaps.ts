@@ -3283,7 +3283,8 @@ export const contentGapPosts: BlogPost[] = [
       { type: "heading", text: "3. Automotive creators", id: "automotive" },
       {
         type: "paragraph",
-        text: "Car and bike creators show driving, ownership costs and servicing in a way showrooms can't.",
+        text: "Car and bike creators show driving, ownership costs and servicing in a way showrooms can't. For a method to map your product to sub-niches and search them, see our guide to finding influencers in specific niches and sub-niches.",
+        links: [{ text: "finding influencers in specific niches and sub-niches", href: "/blog/find-influencers-by-content-niche" }],
       },
       {
         type: "paragraph",

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Discovery tools, campaign software and managed agencies: which steps each one handles</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Three kinds of discovery help</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Know which one you are buying before you compare features.</text>
+<text x="510" y="232" font-size="18" font-weight="700" text-anchor="middle" fill="#150F0B">Search</text>
+<text x="700" y="232" font-size="18" font-weight="700" text-anchor="middle" fill="#150F0B">Shortlist</text>
+<text x="890" y="232" font-size="18" font-weight="700" text-anchor="middle" fill="#150F0B">Outreach</text>
+<text x="1080" y="232" font-size="18" font-weight="700" text-anchor="middle" fill="#150F0B">Contracts</text>
+<text x="1270" y="232" font-size="18" font-weight="700" text-anchor="middle" fill="#150F0B">Payments</text>
+<text x="1460" y="232" font-size="18" font-weight="700" text-anchor="middle" fill="#150F0B">Reporting</text>
+<rect x="80" y="260" width="300" height="84" fill="#150F0B"/><text x="102" y="311" font-size="22" font-weight="700" fill="#FAF1E2">Discovery tool</text>
+<rect x="420" y="260" width="180" height="84" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/><text x="510" y="310" font-size="17" text-anchor="middle" fill="#150F0B">Tool does it</text>
+<rect x="610" y="260" width="180" height="84" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/><text x="700" y="310" font-size="17" text-anchor="middle" fill="#150F0B">Tool does it</text>
+<rect x="800" y="260" width="180" height="84" fill="#FFFFFF" stroke="#150F0B" stroke-width="2" stroke-dasharray="8 6"/><text x="890" y="310" font-size="17" text-anchor="middle" fill="#150F0B" opacity=".6">Your team</text>
+<rect x="990" y="260" width="180" height="84" fill="#FFFFFF" stroke="#150F0B" stroke-width="2" stroke-dasharray="8 6"/><text x="1080" y="310" font-size="17" text-anchor="middle" fill="#150F0B" opacity=".6">Your team</text>
+<rect x="1180" y="260" width="180" height="84" fill="#FFFFFF" stroke="#150F0B" stroke-width="2" stroke-dasharray="8 6"/><text x="1270" y="310" font-size="17" text-anchor="middle" fill="#150F0B" opacity=".6">Your team</text>
+<rect x="1370" y="260" width="180" height="84" fill="#FFFFFF" stroke="#150F0B" stroke-width="2" stroke-dasharray="8 6"/><text x="1460" y="310" font-size="17" text-anchor="middle" fill="#150F0B" opacity=".6">Your team</text>
+<rect x="80" y="370" width="300" height="84" fill="#150F0B"/><text x="102" y="421" font-size="22" font-weight="700" fill="#FAF1E2">Campaign software</text>
+<rect x="420" y="370" width="180" height="84" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="510" y="420" font-size="17" text-anchor="middle" fill="#150F0B">Tool does it</text>
+<rect x="610" y="370" width="180" height="84" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="700" y="420" font-size="17" text-anchor="middle" fill="#150F0B">Tool does it</text>
+<rect x="800" y="370" width="180" height="84" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="890" y="420" font-size="17" text-anchor="middle" fill="#150F0B">Tool does it</text>
+<rect x="990" y="370" width="180" height="84" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="1080" y="420" font-size="17" text-anchor="middle" fill="#150F0B">Tool does it</text>
+<rect x="1180" y="370" width="180" height="84" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="1270" y="420" font-size="17" text-anchor="middle" fill="#150F0B">Tool does it</text>
+<rect x="1370" y="370" width="180" height="84" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="1460" y="420" font-size="17" text-anchor="middle" fill="#150F0B">Tool does it</text>
+<rect x="80" y="480" width="300" height="84" fill="#150F0B"/><text x="102" y="531" font-size="22" font-weight="700" fill="#FAF1E2">Managed agency</text>
+<rect x="420" y="480" width="180" height="84" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="510" y="530" font-size="17" text-anchor="middle" fill="#FAF1E2">Agency does it</text>
+<rect x="610" y="480" width="180" height="84" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="700" y="530" font-size="17" text-anchor="middle" fill="#FAF1E2">Agency does it</text>
+<rect x="800" y="480" width="180" height="84" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="890" y="530" font-size="17" text-anchor="middle" fill="#FAF1E2">Agency does it</text>
+<rect x="990" y="480" width="180" height="84" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="1080" y="530" font-size="17" text-anchor="middle" fill="#FAF1E2">Agency does it</text>
+<rect x="1180" y="480" width="180" height="84" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="1270" y="530" font-size="17" text-anchor="middle" fill="#FAF1E2">Agency does it</text>
+<rect x="1370" y="480" width="180" height="84" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="1460" y="530" font-size="17" text-anchor="middle" fill="#FAF1E2">Agency does it</text>
+<text x="80" y="620" font-size="19" fill="#150F0B">Every option still needs your judgement on fit. Tools build the long list; people decide.</text>
+</svg>

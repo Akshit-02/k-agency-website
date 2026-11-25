@@ -862,8 +862,9 @@ export const founderExecutionPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "See how to create a successful influencer marketing campaign, how many influencers a campaign needs and what an influencer campaign project plan should include.",
+        text: "See how to create a successful influencer marketing campaign, how many influencers a campaign needs and what an influencer campaign project plan should include. For the creator-finding stage on its own, use our influencer discovery checklist.",
         links: [
+          { text: "influencer discovery checklist", href: "/blog/influencer-discovery-checklist" },
           { text: "how to create a successful influencer marketing campaign", href: "/blog/how-to-create-a-successful-influencer-marketing-campaign" },
           { text: "how many influencers a campaign needs", href: "/blog/how-many-influencers-for-a-campaign" },
           { text: "what an influencer campaign project plan should include", href: "/blog/influencer-campaign-project-plan" },

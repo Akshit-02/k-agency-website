@@ -53,10 +53,11 @@ export const relationshipsOutreachPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Influencer search tools covers search methods by niche, audience and location; brand mention monitoring covers finding creators who already talk about you.",
+        text: "Influencer search tools covers search methods by niche, audience and location; brand mention monitoring covers finding creators who already talk about you. Once you have names, turn them into an influencer outreach list with tiers, statuses and follow-up dates before anyone sends a message.",
         links: [
           { text: "Influencer search tools", href: "/blog/influencer-search-tools" },
           { text: "brand mention monitoring", href: "/blog/brand-mention-monitoring" },
+          { text: "influencer outreach list", href: "/blog/how-to-create-influencer-outreach-list" },
         ],
       },
       { type: "heading", text: "Step 2: Check before you contact", id: "check" },

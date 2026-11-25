@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Parenting creator life stages: expecting, newborn, toddler, school-age and teen, each with the creator types and product examples that fit</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Parenting is five niches, not one</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Match creators to the age of your customers' children, and check recent posts.</text>
+<rect x="80" y="226" width="1440" height="12" fill="#150F0B"/>
+<g stroke="#150F0B" stroke-width="3"><rect x="138" y="208" width="48" height="48" fill="#FF4D1C"/><rect x="430" y="208" width="48" height="48" fill="#CCFF3D"/><rect x="722" y="208" width="48" height="48" fill="#FFFFFF"/><rect x="1014" y="208" width="48" height="48" fill="#CCFF3D"/><rect x="1306" y="208" width="48" height="48" fill="#FF4D1C"/></g>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF"><rect x="80" y="290" width="264" height="300"/><rect x="372" y="290" width="264" height="300"/><rect x="664" y="290" width="264" height="300"/><rect x="956" y="290" width="264" height="300"/><rect x="1248" y="290" width="272" height="300"/></g>
+<g fill="#150F0B" stroke="#150F0B" stroke-width="3"><rect x="80" y="290" width="264" height="56"/><rect x="372" y="290" width="264" height="56"/><rect x="664" y="290" width="264" height="56"/><rect x="956" y="290" width="264" height="56"/><rect x="1248" y="290" width="272" height="56"/></g>
+<g font-size="21" font-weight="700" fill="#FAF1E2"><text x="100" y="326">Expecting</text><text x="392" y="326">Newborn</text><text x="684" y="326">Toddler</text><text x="976" y="326">School-age</text><text x="1268" y="326">Tweens, teens</text></g>
+<g font-size="14" font-weight="700" fill="#FF4D1C"><text x="100" y="380">CREATORS</text><text x="392" y="380">CREATORS</text><text x="684" y="380">CREATORS</text><text x="976" y="380">CREATORS</text><text x="1268" y="380">CREATORS</text><text x="100" y="490">PRODUCTS</text><text x="392" y="490">PRODUCTS</text><text x="684" y="490">PRODUCTS</text><text x="976" y="490">PRODUCTS</text><text x="1268" y="490">PRODUCTS</text></g>
+<g font-size="17" fill="#150F0B">
+<text x="100" y="408">First-time parents</text><text x="100" y="434">Expert-parents</text>
+<text x="392" y="408">New moms and dads</text><text x="392" y="434">Nursing professionals</text>
+<text x="684" y="408">Everyday mom, dad</text><text x="684" y="434">Educator-parents</text>
+<text x="976" y="408">School-age parents</text><text x="976" y="434">Teacher-parents</text>
+<text x="1268" y="408">Parents of teens</text><text x="1268" y="434">Humour creators</text>
+<text x="100" y="518">Maternity wear</text><text x="100" y="544">Nursery furniture</text>
+<text x="392" y="518">Baby skincare</text><text x="392" y="544">Carriers</text>
+<text x="684" y="518">Toys, snacks</text><text x="684" y="544">Learning kits</text>
+<text x="976" y="518">Edtech, stationery</text><text x="976" y="544">Activity classes</text>
+<text x="1268" y="518">Phones and plans</text><text x="1268" y="544">Personal care</text>
+</g>
+<rect x="80" y="616" width="1440" height="50" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="100" y="648" font-size="19" font-weight="700" fill="#150F0B">Every stage: check children's current age, privacy on camera and written parental consent</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Scorecard of eight criteria for evaluating an influencer discovery platform</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Judge the platform, not the demo</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Score each criterion with your own searches before you sign.</text>
+<rect x="80" y="210" width="520" height="76" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><rect x="80" y="210" width="56" height="76" fill="#150F0B"/><text x="108" y="257" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">1</text><text x="156" y="257" font-size="22" font-weight="700" fill="#150F0B">Coverage</text>
+<rect x="380" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="422" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="464" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="506" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="548" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="80" y="306" width="520" height="76" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><rect x="80" y="306" width="56" height="76" fill="#150F0B"/><text x="108" y="353" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">2</text><text x="156" y="353" font-size="22" font-weight="700" fill="#150F0B">Filters</text>
+<rect x="380" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="422" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="464" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="506" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="548" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="80" y="402" width="520" height="76" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><rect x="80" y="402" width="56" height="76" fill="#150F0B"/><text x="108" y="449" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">3</text><text x="156" y="449" font-size="22" font-weight="700" fill="#150F0B">Data freshness</text>
+<rect x="380" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="422" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="464" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="506" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="548" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="80" y="498" width="520" height="76" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><rect x="80" y="498" width="56" height="76" fill="#150F0B"/><text x="108" y="545" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">4</text><text x="156" y="545" font-size="22" font-weight="700" fill="#150F0B">Profile depth</text>
+<rect x="380" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="422" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="464" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="506" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="548" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="640" y="210" width="520" height="76" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><rect x="640" y="210" width="56" height="76" fill="#150F0B"/><text x="668" y="257" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">5</text><text x="716" y="257" font-size="22" font-weight="700" fill="#150F0B">Contact access</text>
+<rect x="940" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="982" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1024" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1066" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1108" y="232" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="640" y="306" width="520" height="76" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><rect x="640" y="306" width="56" height="76" fill="#150F0B"/><text x="668" y="353" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">6</text><text x="716" y="353" font-size="22" font-weight="700" fill="#150F0B">Shortlisting</text>
+<rect x="940" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="982" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1024" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1066" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1108" y="328" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="640" y="402" width="520" height="76" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><rect x="640" y="402" width="56" height="76" fill="#150F0B"/><text x="668" y="449" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">7</text><text x="716" y="449" font-size="22" font-weight="700" fill="#150F0B">Cost model</text>
+<rect x="940" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="982" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1024" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1066" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1108" y="424" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="640" y="498" width="520" height="76" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><rect x="640" y="498" width="56" height="76" fill="#150F0B"/><text x="668" y="545" font-size="22" font-weight="700" text-anchor="middle" fill="#CCFF3D">8</text><text x="716" y="545" font-size="22" font-weight="700" fill="#150F0B">Team use</text>
+<rect x="940" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="982" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1024" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1066" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1108" y="520" width="32" height="32" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<rect x="1200" y="210" width="320" height="364" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="1224" y="256" font-size="24" font-weight="700" fill="#150F0B">Coverage test</text>
+<g font-size="19" fill="#150F0B"><text x="1224" y="300">List 20 creators you</text><text x="1224" y="328">already know.</text><text x="1224" y="372">Search for each one.</text><text x="1224" y="416">Count how many appear</text><text x="1224" y="444">with current data.</text><text x="1224" y="500" font-weight="700">Then run two</text><text x="1224" y="528" font-weight="700">real briefs.</text></g>
+<text x="80" y="630" font-size="19" fill="#150F0B" opacity=".7">Ask which fields are public data, creator-connected data or estimates.</text>
+</svg>

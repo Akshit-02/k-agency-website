@@ -14,6 +14,8 @@ import { TableOfContents } from "@/components/blog/TableOfContents";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { BlogBottomCTA } from "@/components/blog/BlogBottomCTA";
 import { DiscoveryBlogCTA } from "@/components/discovery/DiscoveryBlogCTA";
+import { DiscoveryArticleCTA } from "@/components/discovery/DiscoveryArticleCTA";
+import { DISCOVERY_BLOG_END_DEFAULTS } from "@/config/discovery";
 import { getBlogDiscoveryCta } from "@/content/discovery";
 import { getBlogCtaSet } from "@/lib/blogCta";
 import { getBlogServiceLink } from "@/lib/blogServiceLink";
@@ -63,7 +65,9 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
   const url = `${siteConfig.url}/blog/${post.slug}`;
   const ctaSet = getBlogCtaSet(post);
   const serviceLink = getBlogServiceLink(post, ctaSet);
-  const discoveryCta = getBlogDiscoveryCta(post, ctaSet);
+  // Discovery articles carry their own two CTAs; the generic Discovery aside is for other relevant articles.
+  const discoveryCta = post.discoveryCta ? null : getBlogDiscoveryCta(post, ctaSet);
+  const discoveryEnd = post.discoveryCta ? { ...DISCOVERY_BLOG_END_DEFAULTS, ...post.discoveryCta } : null;
   const isCreatorResource = post.category === CREATOR_RESOURCES.category;
   const creatorSection = getCreatorSectionForSlug(post.slug);
   const crumbs = isCreatorResource
@@ -160,7 +164,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
           <div className="grid gap-16 lg:grid-cols-[200px_1fr]">
             <TableOfContents blocks={post.body} />
             <div className="min-w-0">
-              <ArticleBody blocks={post.body} ctaSet={ctaSet} slug={post.slug} category={post.category} />
+              <ArticleBody blocks={post.body} ctaSet={ctaSet} slug={post.slug} category={post.category} title={post.title} />
               {/* End of the article body, never after the intro; the mid-article and bottom agency CTAs are unchanged. */}
               {discoveryCta && <DiscoveryBlogCTA copy={discoveryCta} topic={ctaSet.topic} className="mt-12" />}
               {serviceLink && (
@@ -207,17 +211,28 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
       )}
 
       <Container className="max-w-3xl py-16">
-        <BlogBottomCTA
-          content={ctaSet.bottom}
-          slug={post.slug}
-          category={post.category}
-          topic={ctaSet.topic}
-          platform={ctaSet.platform}
-          intent={ctaSet.intent}
-          audience={ctaSet.audience}
-          ctaType={ctaSet.ctaType}
-          cluster={ctaSet.cluster}
-        />
+        {discoveryEnd ? (
+          <DiscoveryArticleCTA
+            variant="end"
+            slug={post.slug}
+            title={post.title}
+            headline={discoveryEnd.headline}
+            body={discoveryEnd.body}
+            ctaLabel={discoveryEnd.ctaLabel}
+          />
+        ) : (
+          <BlogBottomCTA
+            content={ctaSet.bottom}
+            slug={post.slug}
+            category={post.category}
+            topic={ctaSet.topic}
+            platform={ctaSet.platform}
+            intent={ctaSet.intent}
+            audience={ctaSet.audience}
+            ctaType={ctaSet.ctaType}
+            cluster={ctaSet.cluster}
+          />
+        )}
       </Container>
 
       <RelatedArticles posts={related} />

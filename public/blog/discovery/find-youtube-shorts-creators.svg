@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">YouTube Shorts sourcing: public views count every start or replay, engaged views are stricter, and the Studio metrics to request are shown in feed, viewed versus swiped away, engaged views and audience geography</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Shorts reach comes from the feed</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Subscribers are history. Ask for the Studio numbers that show who watched.</text>
+<rect x="100" y="185" width="250" height="470" rx="0" fill="#150F0B"/>
+<rect x="118" y="215" width="214" height="390" fill="#FF4D1C"/>
+<path d="M200 360 L200 460 L280 410 Z" fill="#FAF1E2"/>
+<rect x="138" y="545" width="174" height="40" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="160" y="572" font-size="19" font-weight="700" fill="#150F0B">Up to 3 min</text>
+<rect x="190" y="620" width="70" height="10" fill="#FAF1E2"/>
+<g stroke="#150F0B" stroke-width="3"><rect x="420" y="200" width="440" height="200" fill="#FFFFFF"/><rect x="420" y="420" width="440" height="200" fill="#150F0B"/></g>
+<text x="445" y="250" font-size="24" font-weight="700" fill="#150F0B">Public view count</text>
+<text x="445" y="290" font-size="19" fill="#150F0B">Counts each start or replay</text>
+<text x="445" y="320" font-size="19" fill="#150F0B">No minimum watch time</text>
+<text x="445" y="365" font-size="19" font-weight="700" fill="#FF4D1C">A starting signal only</text>
+<text x="445" y="470" font-size="24" font-weight="700" fill="#CCFF3D">Engaged views</text>
+<text x="445" y="510" font-size="19" fill="#FAF1E2">The older, stricter measure</text>
+<text x="445" y="540" font-size="19" fill="#FAF1E2">Visible in YouTube Studio</text>
+<text x="445" y="585" font-size="19" font-weight="700" fill="#CCFF3D">Ask the creator for it</text>
+<text x="930" y="220" font-size="17" font-weight="700" fill="#150F0B">STUDIO PROOF TO REQUEST</text>
+<g stroke="#150F0B" stroke-width="3"><rect x="930" y="240" width="590" height="80" fill="#FFFFFF"/><rect x="930" y="330" width="590" height="80" fill="#FFFFFF"/><rect x="930" y="420" width="590" height="80" fill="#FFFFFF"/><rect x="930" y="510" width="590" height="80" fill="#FFFFFF"/></g>
+<g fill="#CCFF3D" stroke="#150F0B" stroke-width="3"><rect x="955" y="263" width="34" height="34"/><rect x="955" y="353" width="34" height="34"/><rect x="955" y="443" width="34" height="34"/><rect x="955" y="533" width="34" height="34"/></g>
+<g stroke="#150F0B" stroke-width="4" fill="none"><path d="M962 280 L970 289 L983 270"/><path d="M962 370 L970 379 L983 360"/><path d="M962 460 L970 469 L983 450"/><path d="M962 550 L970 559 L983 540"/></g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="1010" y="288">Shown in feed</text><text x="1010" y="378">Viewed vs swiped away</text><text x="1010" y="468">Engaged views vs views</text><text x="1010" y="558">Audience geography and age</text></g>
+<text x="930" y="640" font-size="19" fill="#150F0B" opacity=".75">Then read the latest 20 Shorts, not the most popular.</text>
+</svg>

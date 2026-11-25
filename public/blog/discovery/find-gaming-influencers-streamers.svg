@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Gaming creator map: choose the game or genre, then the platform, then the creator format, and vet streams on average viewers, chat, schedule, conduct and audience age</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Game first, then platform, then format</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Gaming audiences follow titles and people, not "gaming" in general.</text>
+<g font-size="17" font-weight="700" fill="#150F0B"><text x="80" y="198">GAME OR GENRE</text><text x="600" y="198">WHERE THEY WATCH</text><text x="1120" y="198">CREATOR FORMAT</text></g>
+<g fill="#150F0B"><rect x="88" y="223" width="400" height="56"/><rect x="88" y="293" width="400" height="56"/><rect x="88" y="363" width="400" height="56"/><rect x="88" y="433" width="400" height="56"/>
+<rect x="608" y="223" width="400" height="56"/><rect x="608" y="293" width="400" height="56"/><rect x="608" y="363" width="400" height="56"/><rect x="608" y="433" width="400" height="56"/>
+<rect x="1128" y="223" width="400" height="56"/><rect x="1128" y="293" width="400" height="56"/><rect x="1128" y="363" width="400" height="56"/><rect x="1128" y="433" width="400" height="56"/></g>
+<g stroke="#150F0B" stroke-width="3"><rect x="80" y="215" width="400" height="56" fill="#CCFF3D"/><rect x="80" y="285" width="400" height="56" fill="#CCFF3D"/><rect x="80" y="355" width="400" height="56" fill="#CCFF3D"/><rect x="80" y="425" width="400" height="56" fill="#CCFF3D"/>
+<rect x="600" y="215" width="400" height="56" fill="#FFFFFF"/><rect x="600" y="285" width="400" height="56" fill="#FFFFFF"/><rect x="600" y="355" width="400" height="56" fill="#FFFFFF"/><rect x="600" y="425" width="400" height="56" fill="#FFFFFF"/>
+<rect x="1120" y="215" width="400" height="56" fill="#FF4D1C"/><rect x="1120" y="285" width="400" height="56" fill="#FF4D1C"/><rect x="1120" y="355" width="400" height="56" fill="#FF4D1C"/><rect x="1120" y="425" width="400" height="56" fill="#FF4D1C"/></g>
+<g font-size="21" font-weight="700" fill="#150F0B"><text x="100" y="251">Battle royale, shooters</text><text x="100" y="321">Cricket and sports</text><text x="100" y="391">Open-world, PC titles</text><text x="100" y="461">Casual and cosy mobile</text>
+<text x="620" y="251">YouTube and YouTube Live</text><text x="620" y="321">Twitch</text><text x="620" y="391">Loco and Rooter</text><text x="620" y="461">Instagram, Discord</text>
+<text x="1140" y="251">Live streams</text><text x="1140" y="321">Edited gameplay videos</text><text x="1140" y="391">Short clips</text><text x="1140" y="461">Reviews and esports</text></g>
+<path d="M500 348 H588" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/><path d="M1020 348 H1108" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<rect x="80" y="540" width="1440" height="100" fill="#150F0B"/>
+<text x="105" y="597" font-size="20" font-weight="700" fill="#FAF1E2">VET THE STREAM</text>
+<g font-size="18" font-weight="700" fill="#150F0B"><rect x="300" y="568" width="230" height="44" fill="#CCFF3D"/><text x="316" y="597">Avg viewers, not peak</text><rect x="546" y="568" width="160" height="44" fill="#CCFF3D"/><text x="562" y="597">Chat quality</text><rect x="722" y="568" width="130" height="44" fill="#CCFF3D"/><text x="738" y="597">Schedule</text><rect x="868" y="568" width="130" height="44" fill="#CCFF3D"/><text x="884" y="597">Conduct</text><rect x="1014" y="568" width="170" height="44" fill="#CCFF3D"/><text x="1030" y="597">Audience age</text><rect x="1200" y="568" width="296" height="44" fill="#FF4D1C"/><text x="1216" y="597">No real-money gaming</text></g>
+</svg>

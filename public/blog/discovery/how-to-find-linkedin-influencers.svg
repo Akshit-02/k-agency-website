@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Finding LinkedIn creators: list the buying committee, follow who they read and comment on, then score candidates with weighted factors led by audience relevance</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Find LinkedIn creators through your buyers</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Start with the buying committee, follow the comments, then score.</text>
+<g font-size="17" font-weight="700" fill="#150F0B"><text x="80" y="200">1. BUYING COMMITTEE</text><text x="560" y="200">2. WHO THEY READ</text><text x="1040" y="200">3. WEIGHTED SCORECARD</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF">
+<rect x="80" y="220" width="380" height="80"/><rect x="80" y="320" width="380" height="80"/><rect x="80" y="420" width="380" height="80"/><rect x="80" y="520" width="380" height="80"/>
+<rect x="560" y="220" width="380" height="80" fill="#150F0B"/><rect x="560" y="320" width="380" height="80"/><rect x="560" y="420" width="380" height="80"/><rect x="560" y="520" width="380" height="80"/>
+</g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="105" y="268">Plant head</text><text x="105" y="368">Compliance manager</text><text x="105" y="468">CFO</text><text x="105" y="568">IT lead</text>
+<text x="585" y="268" fill="#CCFF3D">Practitioner experts</text><text x="585" y="368">Executives, founders</text><text x="585" y="468">Newsletter writers</text><text x="585" y="568">Event speakers</text></g>
+<path d="M470 410 H550" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/><path d="M950 410 H1030" stroke="#150F0B" stroke-width="3" marker-end="url(#a)"/>
+<g font-size="18" fill="#150F0B">
+<text x="1040" y="246">Audience relevance</text><rect x="1040" y="256" width="400" height="22" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/><text x="1452" y="274" font-weight="700">25%</text>
+<text x="1040" y="310">Subject expertise</text><rect x="1040" y="320" width="320" height="22" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><text x="1372" y="338" font-weight="700">20%</text>
+<text x="1040" y="374">Engagement quality</text><rect x="1040" y="384" width="320" height="22" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><text x="1372" y="402" font-weight="700">20%</text>
+<text x="1040" y="438">Content quality</text><rect x="1040" y="448" width="240" height="22" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/><text x="1292" y="466" font-weight="700">15%</text>
+<text x="1040" y="502">Brand safety</text><rect x="1040" y="512" width="160" height="22" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/><text x="1212" y="530" font-weight="700">10%</text>
+<text x="1040" y="566">Posting consistency</text><rect x="1040" y="576" width="160" height="22" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/><text x="1212" y="594" font-weight="700">10%</text>
+</g>
+<text x="80" y="652" font-size="19" fill="#150F0B" opacity=".75">Suggested weights. Follower count is not on the list.</text>
+</svg>

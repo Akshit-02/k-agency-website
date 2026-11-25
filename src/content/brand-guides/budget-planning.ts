@@ -120,8 +120,8 @@ export const budgetPlanningPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "These are illustrative figures, not rates. The point is the shape: the nano option buys almost four times as many creators, but more than a third of the money goes on running the programme rather than on creators. That's a good trade if you need 37 voices across several cities; it's a poor one if 10 well-matched micro creators would reach the same customers. Your own quotes and your team's capacity decide which, and influencer campaign costs in India shows how to calculate the real cost per creator.",
-        links: [{ text: "influencer campaign costs in India", href: "/blog/influencer-campaign-cost-india" }],
+        text: "These are illustrative figures, not rates. The point is the shape: the nano option buys almost four times as many creators, but more than a third of the money goes on running the programme rather than on creators. That's a good trade if you need 37 voices across several cities; it's a poor one if 10 well-matched micro creators would reach the same customers. Your own quotes and your team's capacity decide which, and influencer campaign costs in India shows how to calculate the real cost per creator. Once you've picked a tier, our guide on how to find micro-influencers explains where they show up and how to build a roster.",
+        links: [{ text: "how to find micro-influencers", href: "/blog/how-to-find-micro-influencers" }, { text: "influencer campaign costs in India", href: "/blog/influencer-campaign-cost-india" }],
       },
       { type: "heading", text: "Barter, gifting and paid deals", id: "barter-and-paid" },
       {

@@ -322,8 +322,8 @@ export const technologyAiPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "These methods sit on top of a creator database. How good the results are depends on that underlying data: where it came from, how often it refreshes and which creators it covers. Creator discovery platforms explains data sources in detail.",
-        links: [{ text: "Creator discovery platforms", href: "/blog/creator-discovery-platform" }],
+        text: "These methods sit on top of a creator database. How good the results are depends on that underlying data: where it came from, how often it refreshes and which creators it covers. Creator discovery platforms explains data sources in detail. If you are deciding whether a tool is worth it at all, compare influencer discovery with manual research first.",
+        links: [{ text: "Creator discovery platforms", href: "/blog/creator-discovery-platform" }, { text: "compare influencer discovery with manual research", href: "/blog/influencer-discovery-vs-manual-research" }],
       },
       { type: "heading", text: "What's changed in native platform discovery", id: "native-tools" },
       {

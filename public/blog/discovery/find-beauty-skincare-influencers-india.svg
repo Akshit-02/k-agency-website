@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Beauty and skincare creator sub-niches and what each suits, with a four-point fit check for skin type, tone, climate and claims</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Beauty creators: pick the sub-niche first</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Then match skin, tone, climate and language before you shortlist.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="200" width="270" height="200" fill="#FFFFFF"/><rect x="80" y="200" width="270" height="22" fill="#FF4D1C"/>
+<rect x="372" y="200" width="270" height="200" fill="#FFFFFF"/><rect x="372" y="200" width="270" height="22" fill="#CCFF3D"/>
+<rect x="664" y="200" width="270" height="200" fill="#FFFFFF"/><rect x="664" y="200" width="270" height="22" fill="#150F0B"/>
+<rect x="956" y="200" width="270" height="200" fill="#FFFFFF"/><rect x="956" y="200" width="270" height="22" fill="#FF4D1C"/>
+<rect x="1248" y="200" width="272" height="200" fill="#FFFFFF"/><rect x="1248" y="200" width="272" height="22" fill="#CCFF3D"/>
+</g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="100" y="270">Skincare science</text><text x="392" y="270">Makeup artistry</text><text x="684" y="270">Haircare</text><text x="976" y="270">Ayurveda, clean</text><text x="1268" y="270">Men's grooming</text></g>
+<g font-size="18" fill="#150F0B" opacity=".8"><text x="100" y="316">Actives, SPF,</text><text x="100" y="344">launches to explain</text><text x="392" y="316">Shade ranges,</text><text x="392" y="344">tools, long-wear</text><text x="684" y="316">Oils, scalp care,</text><text x="684" y="344">styling devices</text><text x="976" y="316">Herbal ranges;</text><text x="976" y="344">careful wording</text><text x="1268" y="316">Beard, face wash,</text><text x="1268" y="344">fragrance</text></g>
+<rect x="80" y="450" width="1440" height="150" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="494" font-size="22" font-weight="700" fill="#CCFF3D">Fit check for every creator</text>
+<g stroke="#FAF1E2" stroke-width="2" fill="none"><rect x="110" y="528" width="26" height="26"/><rect x="460" y="528" width="26" height="26"/><rect x="810" y="528" width="26" height="26"/><rect x="1160" y="528" width="26" height="26"/></g>
+<g font-size="20" fill="#FAF1E2"><text x="150" y="549">Skin type matches</text><text x="500" y="549">Tone range shown</text><text x="850" y="549">Climate and city fit</text><text x="1200" y="549">Claims stay honest</text></g>
+<text x="80" y="650" font-size="18" fill="#150F0B" opacity=".65">Verify credentials for anyone presented as a skin or hair expert.</text>
+</svg>

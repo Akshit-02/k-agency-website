@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">City allocation matrix for a multi-city influencer shortlist: role, language, slots and backups per city, with an empty city flagged as a coverage gap</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Multi-city shortlist: plan every city first</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">One row per city. Filled slots, a backup in each, gaps caught before approval.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="200" width="1060" height="60" fill="#150F0B"/>
+<rect x="80" y="260" width="1060" height="76" fill="#FFFFFF"/><rect x="80" y="336" width="1060" height="76" fill="#FFFFFF"/><rect x="80" y="412" width="1060" height="76" fill="#FFFFFF"/><rect x="80" y="488" width="1060" height="76" fill="#FFFFFF"/>
+</g>
+<g font-size="18" font-weight="700" fill="#FAF1E2"><text x="100" y="238">City</text><text x="290" y="238">Role</text><text x="450" y="238">Language</text><text x="660" y="238">Creator slots</text><text x="960" y="238">Backup</text></g>
+<g font-size="20" fill="#150F0B"><text x="100" y="306">City 1</text><text x="100" y="382">City 2</text><text x="100" y="458">City 3</text><text x="100" y="534">City 4</text>
+<text x="290" y="306">Lead</text><text x="290" y="382">Lead</text><text x="290" y="458">Growth</text><text x="290" y="534">Test</text>
+<text x="450" y="306">Native</text><text x="450" y="382">Bilingual</text><text x="450" y="458">Native</text><text x="450" y="534">Native</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="660" y="280" width="36" height="36" fill="#CCFF3D"/><rect x="704" y="280" width="36" height="36" fill="#CCFF3D"/><rect x="748" y="280" width="36" height="36" fill="#CCFF3D"/><rect x="792" y="280" width="36" height="36" fill="#CCFF3D"/>
+<rect x="660" y="356" width="36" height="36" fill="#CCFF3D"/><rect x="704" y="356" width="36" height="36" fill="#CCFF3D"/><rect x="748" y="356" width="36" height="36" fill="#CCFF3D"/>
+<rect x="660" y="432" width="36" height="36" fill="#CCFF3D"/><rect x="704" y="432" width="36" height="36" fill="#CCFF3D"/>
+<rect x="660" y="508" width="36" height="36" fill="#FAF1E2"/><rect x="704" y="508" width="36" height="36" fill="#FAF1E2"/>
+<rect x="960" y="280" width="36" height="36" fill="#150F0B"/><rect x="1004" y="280" width="36" height="36" fill="#150F0B"/>
+<rect x="960" y="356" width="36" height="36" fill="#150F0B"/><rect x="960" y="432" width="36" height="36" fill="#150F0B"/>
+<rect x="960" y="508" width="36" height="36" fill="#FAF1E2"/>
+</g>
+<rect x="840" y="500" width="100" height="52" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="858" y="533" font-size="18" font-weight="700" fill="#150F0B">GAP</text>
+<rect x="1220" y="200" width="300" height="364" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="1244" y="246" font-size="24" font-weight="700" fill="#CCFF3D">Coverage check</text>
+<g font-size="19" fill="#FAF1E2"><text x="1244" y="294">Empty cities</text><text x="1244" y="334">Wrong language</text><text x="1244" y="374">One creator per city</text><text x="1244" y="414">Audience overlap</text><text x="1244" y="454">Metro bias</text><text x="1244" y="494">Product live?</text><text x="1244" y="534">Backup per city</text></g>
+<text x="80" y="620" font-size="18" fill="#150F0B" opacity=".65">Illustrative layout. Lime: filled slot. Dark: named backup. Paper: still open.</text>
+</svg>

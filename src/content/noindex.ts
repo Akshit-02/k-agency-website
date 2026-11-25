@@ -161,7 +161,7 @@ const LOW_DEMAND_ARTICLES = [
   "influencer-marketing-campaign-ideas",
   "influencer-marketing-budget",
   "influencer-marketing-platforms",
-  "how-to-find-ugc-creators",
+  // "how-to-find-ugc-creators" restored 25 Nov 2026: rewritten for the Kudozz Discovery cluster; request indexing in GSC.
   "how-to-create-a-successful-influencer-marketing-campaign",
   "ugc-vs-influencer-content-whats-the-difference",
 ];

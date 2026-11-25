@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Four layers of influencer relevance, and why creator location is not audience location</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Relevance is four layers, not one filter</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Narrow by each layer, then verify what the public profile cannot show.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="190" width="800" height="72" fill="#150F0B"/>
+<rect x="140" y="276" width="680" height="72" fill="#FF4D1C"/>
+<rect x="200" y="362" width="560" height="72" fill="#CCFF3D"/>
+<rect x="260" y="448" width="440" height="72" fill="#FFFFFF"/>
+<rect x="330" y="548" width="300" height="72" fill="#150F0B"/>
+</g>
+<g font-size="22"><text x="108" y="234" fill="#FAF1E2"><tspan font-weight="700">1 Niche fit:</tspan> consistent recent posts</text><text x="168" y="320" fill="#150F0B"><tspan font-weight="700">2 Location:</tspan> where the audience is</text><text x="228" y="406" fill="#150F0B"><tspan font-weight="700">3 Language:</tspan> spoken and in comments</text><text x="288" y="492" fill="#150F0B"><tspan font-weight="700">4 Style:</tspan> format and tone</text></g>
+<text x="480" y="592" font-size="22" font-weight="700" fill="#CCFF3D" text-anchor="middle">Relevant shortlist</text>
+<rect x="980" y="190" width="540" height="150" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1008" y="238" font-size="26" font-weight="700" fill="#150F0B">Creator location</text>
+<text x="1008" y="276" font-size="20" fill="#150F0B">Where they live and post from</text>
+<text x="1008" y="310" font-size="18" fill="#150F0B" opacity=".7">Visible: bio, location tags, filters</text>
+<text x="1250" y="408" font-size="64" font-weight="700" fill="#FF4D1C" text-anchor="middle">≠</text>
+<rect x="980" y="448" width="540" height="172" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="1008" y="496" font-size="26" font-weight="700" fill="#150F0B">Audience location</text>
+<text x="1008" y="534" font-size="20" fill="#150F0B">Where their followers actually are</text>
+<text x="1008" y="574" font-size="20" font-weight="700" fill="#150F0B">Ask for an insights screenshot:</text>
+<text x="1008" y="602" font-size="20" fill="#150F0B">top cities and countries</text>
+</svg>

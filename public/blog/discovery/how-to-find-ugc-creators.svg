@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Finding UGC creators: what you judge in a UGC creator versus an influencer, and four steps from sourcing to a roster</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Finding UGC creators: footage over followers</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">You are hiring files and usage rights, not an audience.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="210" width="840" height="64" fill="#150F0B"/>
+<rect x="80" y="274" width="840" height="80" fill="#FFFFFF"/>
+<rect x="80" y="354" width="840" height="80" fill="#FFFFFF"/>
+<rect x="80" y="434" width="840" height="80" fill="#FFFFFF"/>
+<rect x="600" y="274" width="320" height="240" fill="#CCFF3D"/>
+<path d="M340 210 V514 M600 210 V514" fill="none"/>
+</g>
+<g font-size="20" font-weight="700" fill="#FAF1E2"><text x="104" y="250">What you judge</text><text x="364" y="250">Influencer</text><text x="624" y="250">UGC creator</text></g>
+<g font-size="20" fill="#150F0B"><text x="104" y="321" font-weight="700">Following</text><text x="364" y="321">Central to fee</text><text x="624" y="321">Often irrelevant</text>
+<text x="104" y="401" font-weight="700">Content runs on</text><text x="364" y="401">Their profile</text><text x="624" y="401">Your ads, site, listings</text>
+<text x="104" y="481" font-weight="700">Paid for</text><text x="364" y="481">Reach</text><text x="624" y="481">Assets + rights</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="1000" y="210" width="520" height="70" fill="#150F0B"/>
+<rect x="1000" y="306" width="520" height="70" fill="#FF4D1C"/>
+<rect x="1000" y="402" width="520" height="70" fill="#FFFFFF"/>
+<rect x="1000" y="498" width="520" height="70" fill="#CCFF3D"/>
+<path d="M1260 280 V306 M1260 376 V402 M1260 472 V498" fill="none"/>
+</g>
+<g font-size="19" font-weight="700"><text x="1024" y="253" fill="#FAF1E2">1  Source: customers, Instagram, groups</text><text x="1024" y="349" fill="#150F0B">2  Ask: portfolio, raw clip, rights</text><text x="1024" y="445" fill="#150F0B">3  Paid test: same brief, 3 to 5 creators</text><text x="1024" y="541" fill="#150F0B">4  Rebook the best as your roster</text></g>
+<text x="80" y="620" font-size="20" fill="#150F0B">Agree usage rights and whitelisting in writing before anyone shoots.</text>
+</svg>

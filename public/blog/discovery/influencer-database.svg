@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer database sheet layout with column groups for identity, fit, dated metrics, restricted contact, status and history</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">One table, dated, owned</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">A master sheet layout your whole team can trust.</text>
+<rect x="80" y="292" width="1440" height="220" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<path d="M80 336 H1520 M80 380 H1520 M80 424 H1520 M80 468 H1520" stroke="#150F0B" stroke-width="1"/>
+<path d="M176 292 V512 M272 292 V512 M368 292 V512 M464 292 V512 M560 292 V512 M656 292 V512 M752 292 V512 M848 292 V512 M944 292 V512 M1040 292 V512 M1136 292 V512 M1232 292 V512 M1328 292 V512 M1424 292 V512" stroke="#150F0B" stroke-width="1"/>
+<rect x="752" y="292" width="192" height="220" fill="#FF4D1C" opacity=".18"/>
+<rect x="80" y="200" width="192" height="48" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="92" y="231" font-size="18" font-weight="700" fill="#FAF1E2">Identity</text>
+<rect x="80" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="88" y="276" font-size="14" font-weight="700" fill="#150F0B">ID</text>
+<rect x="176" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="184" y="276" font-size="14" font-weight="700" fill="#150F0B">Profile URL</text>
+<rect x="272" y="200" width="288" height="48" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/><text x="284" y="231" font-size="18" font-weight="700" fill="#150F0B">Fit</text>
+<rect x="272" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="280" y="276" font-size="14" font-weight="700" fill="#150F0B">Niche</text>
+<rect x="368" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="376" y="276" font-size="14" font-weight="700" fill="#150F0B">City</text>
+<rect x="464" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="472" y="276" font-size="14" font-weight="700" fill="#150F0B">Language</text>
+<rect x="560" y="200" width="384" height="48" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="572" y="231" font-size="18" font-weight="700" fill="#150F0B">Metrics</text>
+<rect x="560" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="568" y="276" font-size="14" font-weight="700" fill="#150F0B">Avg views</text>
+<rect x="656" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="664" y="276" font-size="14" font-weight="700" fill="#150F0B">ER</text>
+<rect x="752" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="760" y="276" font-size="14" font-weight="700" fill="#150F0B">Date</text>
+<rect x="848" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="856" y="276" font-size="14" font-weight="700" fill="#150F0B">Source</text>
+<rect x="944" y="200" width="192" height="48" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="956" y="231" font-size="18" font-weight="700" fill="#150F0B">Contact</text>
+<rect x="944" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="952" y="276" font-size="14" font-weight="700" fill="#150F0B">Channel</text>
+<rect x="1040" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="1048" y="276" font-size="14" font-weight="700" fill="#150F0B">Restricted</text>
+<rect x="1136" y="200" width="192" height="48" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="1148" y="231" font-size="18" font-weight="700" fill="#FAF1E2">Status</text>
+<rect x="1136" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="1144" y="276" font-size="14" font-weight="700" fill="#150F0B">Status</text>
+<rect x="1232" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="1240" y="276" font-size="14" font-weight="700" fill="#150F0B">Owner</text>
+<rect x="1328" y="200" width="192" height="48" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/><text x="1340" y="231" font-size="18" font-weight="700" fill="#150F0B">History</text>
+<rect x="1328" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="1336" y="276" font-size="14" font-weight="700" fill="#150F0B">Campaigns</text>
+<rect x="1424" y="248" width="96" height="44" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="1432" y="276" font-size="14" font-weight="700" fill="#150F0B">Rebook</text>
+<path d="M90 309 h60 M90 353 h44 M90 397 h70 M90 441 h36 M90 485 h52 M186 309 h44 M186 353 h70 M186 397 h36 M186 441 h52 M186 485 h60 M282 309 h70 M282 353 h36 M282 397 h52 M282 441 h60 M282 485 h44 M378 309 h36 M378 353 h52 M378 397 h60 M378 441 h44 M378 485 h70 M474 309 h52 M474 353 h60 M474 397 h44 M474 441 h70 M474 485 h36 M570 309 h60 M570 353 h44 M570 397 h70 M570 441 h36 M570 485 h52 M666 309 h44 M666 353 h70 M666 397 h36 M666 441 h52 M666 485 h60 M762 309 h70 M762 353 h36 M762 397 h52 M762 441 h60 M762 485 h44 M858 309 h36 M858 353 h52 M858 397 h60 M858 441 h44 M858 485 h70 M954 309 h52 M954 353 h60 M954 397 h44 M954 441 h70 M954 485 h36 M1050 309 h60 M1050 353 h44 M1050 397 h70 M1050 441 h36 M1050 485 h52 M1146 309 h44 M1146 353 h70 M1146 397 h36 M1146 441 h52 M1146 485 h60 M1242 309 h70 M1242 353 h36 M1242 397 h52 M1242 441 h60 M1242 485 h44 M1338 309 h36 M1338 353 h52 M1338 397 h60 M1338 441 h44 M1338 485 h70 M1434 309 h52 M1434 353 h60 M1434 397 h44 M1434 441 h70 M1434 485 h36" stroke="#150F0B" stroke-width="10" opacity=".15"/>
+<g font-size="18" fill="#150F0B"><text x="80" y="560">Every metric gets a date and a source.</text><text x="80" y="592">Contact columns are visible only to people who do outreach.</text><text x="80" y="624">Profile URL is the unique key; handles change.</text></g>
+<rect x="1060" y="540" width="460" height="96" fill="#150F0B"/><text x="1084" y="580" font-size="20" font-weight="700" fill="#CCFF3D">Refresh rhythm</text><text x="1084" y="614" font-size="17" fill="#FAF1E2">Before booking, quarterly, 6-monthly</text>
+</svg>

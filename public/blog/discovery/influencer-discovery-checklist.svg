@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer discovery checklist in five stages, from before searching to handover to outreach</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">The discovery checklist, stage by stage</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Each stage assumes the one before it is ticked.</text>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M80 244 H1520"/></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="220" width="48" height="48" fill="#150F0B"/><rect x="380" y="220" width="48" height="48" fill="#150F0B"/><rect x="680" y="220" width="48" height="48" fill="#150F0B"/><rect x="980" y="220" width="48" height="48" fill="#150F0B"/><rect x="1280" y="220" width="48" height="48" fill="#FF4D1C"/>
+</g>
+<g font-size="22" font-weight="700" fill="#CCFF3D"><text x="97" y="252">1</text><text x="397" y="252">2</text><text x="697" y="252">3</text><text x="997" y="252">4</text></g>
+<text x="1297" y="252" font-size="22" font-weight="700" fill="#150F0B">5</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="300" width="270" height="300" fill="#FFFFFF"/><rect x="380" y="300" width="270" height="300" fill="#FFFFFF"/><rect x="680" y="300" width="270" height="300" fill="#CCFF3D"/><rect x="980" y="300" width="270" height="300" fill="#FFFFFF"/><rect x="1280" y="300" width="240" height="300" fill="#150F0B"/>
+</g>
+<g font-size="21" font-weight="700" fill="#150F0B"><text x="100" y="342">Before searching</text><text x="400" y="342">During discovery</text><text x="700" y="342">Evaluation</text><text x="1000" y="342">Shortlist</text></g>
+<text x="1300" y="342" font-size="21" font-weight="700" fill="#CCFF3D">Handover</text>
+<g font-size="17" fill="#150F0B">
+<text x="100" y="392">☐ Brief and objective</text><text x="100" y="432">☐ Budget and mix</text><text x="100" y="472">☐ Creator profile</text><text x="100" y="512">☐ Gates and weights</text>
+<text x="400" y="392">☐ 3+ sources</text><text x="400" y="432">☐ Saved filters</text><text x="400" y="472">☐ Same fields for all</text><text x="400" y="512">☐ One shared list</text>
+<text x="700" y="392">☐ Gate pass</text><text x="700" y="432">☐ Content and comments</text><text x="700" y="472">☐ Typical views</text><text x="700" y="512">☐ Rate estimate</text>
+<text x="1000" y="392">☐ Scored with evidence</text><text x="1000" y="432">☐ Priority / reserve</text><text x="1000" y="472">☐ Backups named</text><text x="1000" y="512">☐ One approver</text>
+</g>
+<g font-size="17" fill="#FAF1E2"><text x="1300" y="392">☐ Fit reason</text><text x="1300" y="432">☐ Hook</text><text x="1300" y="472">☐ Contact + language</text><text x="1300" y="512">☐ Risks and owner</text></g>
+<text x="80" y="652" font-size="18" fill="#150F0B" opacity=".65">Discovery ends when outreach has everything it needs in one row per creator.</text>
+</svg>

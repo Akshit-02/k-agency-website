@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Finding seeding recipients: candidate sources narrowed by selection checks into an opt-in recipient sheet, then shipped, posted and graduated to paid work</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Seeding works when the list is right</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Source where interest already shows. Check fit. Invite before you ship.</text>
+<g stroke="#150F0B" stroke-width="3">
+<path d="M80 210 H560 L480 600 H160 Z" fill="#FFFFFF"/>
+<path d="M120 300 H520" fill="none"/><path d="M140 400 H500" fill="none"/><path d="M160 500 H480" fill="none"/>
+</g>
+<g font-size="19" fill="#150F0B"><text x="150" y="250">Tagged posts, category content</text><text x="150" y="278">competitor tags, customers</text><text x="190" y="340">Discovery tool filters</text><text x="190" y="368">niche, city, size</text><text x="200" y="440">Selection checks</text><text x="200" y="468">use, fit, disclosure</text><text x="230" y="560">Opt-in invite</text></g>
+<path d="M560 405 H640" stroke="#150F0B" stroke-width="3"/>
+<rect x="640" y="210" width="460" height="390" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="640" y="210" width="460" height="56" fill="#150F0B"/>
+<text x="664" y="246" font-size="20" font-weight="700" fill="#CCFF3D">Recipient sheet</text>
+<g font-size="18" fill="#150F0B"><text x="664" y="304">Handle, segment, source</text><text x="664" y="344">Why selected</text><text x="664" y="384">Variant, size, shade</text><text x="664" y="424">Address + shipping consent</text><text x="664" y="464">Shipped, tracking, delivered</text><text x="664" y="504">Posted, disclosed</text><text x="664" y="544">Next step</text></g>
+<g stroke="#150F0B" stroke-width="2" opacity=".35"><path d="M640 320 H1100"/><path d="M640 360 H1100"/><path d="M640 400 H1100"/><path d="M640 440 H1100"/><path d="M640 480 H1100"/><path d="M640 520 H1100"/></g>
+<path d="M1100 405 H1180" stroke="#150F0B" stroke-width="3"/>
+<g stroke="#150F0B" stroke-width="3"><rect x="1180" y="210" width="340" height="110" fill="#FFFFFF"/><rect x="1180" y="350" width="340" height="110" fill="#CCFF3D"/><rect x="1180" y="490" width="340" height="110" fill="#FF4D1C"/></g>
+<g font-size="21" font-weight="700" fill="#150F0B"><text x="1204" y="256">Shipped in waves</text><text x="1204" y="396">Posted by choice</text><text x="1204" y="536">Best move to paid</text></g>
+<g font-size="17" fill="#150F0B"><text x="1204" y="288">one check-in, no chasing</text><text x="1204" y="428">content rate by source</text><text x="1204" y="568">briefs, then ambassadors</text></g>
+<text x="80" y="650" font-size="18" fill="#150F0B" opacity=".65">No obligation to post. Gifted posts still need a clear disclosure label.</text>
+</svg>

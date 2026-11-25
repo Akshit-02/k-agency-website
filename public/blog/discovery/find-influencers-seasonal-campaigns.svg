@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Festive influencer sourcing timeline counting back from go-live: brief, longlist, outreach and holds, contracts and shipping, drafts, then go-live and saving a bench</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Festive sourcing starts weeks before the season</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Count back from go-live. Rule-of-thumb windows for a major festival.</text>
+<path d="M80 330 H1520" stroke="#150F0B" stroke-width="3"/>
+<g stroke="#150F0B" stroke-width="3" fill="#150F0B"><rect x="74" y="316" width="28" height="28"/><rect x="314" y="316" width="28" height="28"/><rect x="554" y="316" width="28" height="28"/><rect x="794" y="316" width="28" height="28"/><rect x="1034" y="316" width="28" height="28"/><rect x="1274" y="316" width="28" height="28"/></g>
+<rect x="1460" y="306" width="60" height="48" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<g font-size="20" font-weight="700" fill="#150F0B"><text x="80" y="290">Week 12</text><text x="320" y="290">Week 10</text><text x="560" y="290">Week 8</text><text x="800" y="290">Week 6</text><text x="1040" y="290">Week 4</text><text x="1280" y="290">Week 2</text><text x="1420" y="290">Live</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="380" width="220" height="150" fill="#FFFFFF"/><rect x="320" y="380" width="220" height="150" fill="#FFFFFF"/><rect x="560" y="380" width="220" height="150" fill="#CCFF3D"/><rect x="800" y="380" width="220" height="150" fill="#FFFFFF"/><rect x="1040" y="380" width="220" height="150" fill="#FFFFFF"/><rect x="1280" y="380" width="240" height="150" fill="#150F0B"/>
+</g>
+<g font-size="21" font-weight="700" fill="#150F0B"><text x="100" y="420">Brief</text><text x="340" y="420">Longlist</text><text x="580" y="420">Outreach</text><text x="820" y="420">Confirm</text><text x="1060" y="420">Drafts</text></g>
+<g font-size="17" fill="#150F0B"><text x="100" y="456">festival, regions,</text><text x="100" y="480">languages, roles</text><text x="340" y="456">bench and past</text><text x="340" y="480">creators first</text><text x="580" y="456">hold requests</text><text x="580" y="480">with deadlines</text><text x="820" y="456">sign, backups,</text><text x="820" y="480">ship product</text><text x="1060" y="456">brief, review,</text><text x="1060" y="480">disclosure</text></g>
+<text x="1300" y="420" font-size="21" font-weight="700" fill="#CCFF3D">Go live</text>
+<g font-size="17" fill="#FAF1E2"><text x="1300" y="456">then save who</text><text x="1300" y="480">worked to a</text><text x="1300" y="504">festival bench</text></g>
+<rect x="80" y="570" width="1440" height="56" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="104" y="606" font-size="19" fill="#150F0B">Match each festival to its regions and languages. Check last year's festive content before shortlisting.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Fitness and wellness creator selection: a claim-risk ladder from gear to supplements, with the creator types and credential checks for each step</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#150F0B"/></marker></defs>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">The higher the claim risk, the more credentials matter</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Match fitness and wellness creators to how health-sensitive your product is.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="520" width="280" height="130" fill="#FFFFFF"/>
+<rect x="360" y="450" width="280" height="200" fill="#FFFFFF"/>
+<rect x="640" y="380" width="280" height="270" fill="#CCFF3D"/>
+<rect x="920" y="310" width="280" height="340" fill="#CCFF3D"/>
+<rect x="1200" y="240" width="280" height="410" fill="#FF4D1C"/>
+</g>
+<g fill="#150F0B">
+<text x="100" y="558" font-size="21" font-weight="700">Gear and apparel</text><text x="100" y="590" font-size="16">Fits: any matching sport</text><text x="100" y="626" font-size="15" opacity=".75">Check: sport is real</text>
+<text x="380" y="488" font-size="21" font-weight="700">Gyms, studios, apps</text><text x="380" y="520" font-size="16">Fits: coaches, beginners</text><text x="380" y="626" font-size="15" opacity=".75">Check: no result promises</text>
+<text x="660" y="418" font-size="21" font-weight="700">Protein foods</text><text x="660" y="450" font-size="16">Fits: nutrition, gym creators</text><text x="660" y="626" font-size="15" opacity=".75">Check: label facts only</text>
+<text x="940" y="348" font-size="21" font-weight="700">Wearables</text><text x="940" y="380" font-size="16">Fits: runners, coaches</text><text x="940" y="626" font-size="15" opacity=".75">Check: no medical claims</text>
+<text x="1220" y="278" font-size="21" font-weight="700">Supplements</text><text x="1220" y="310" font-size="16">Fits: qualified professionals</text><text x="1220" y="626" font-size="15" font-weight="700">Check: legal review</text>
+</g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M120 470 L1150 200" marker-end="url(#a)" stroke-dasharray="10 8"/></g>
+<text x="560" y="300" font-size="18" font-weight="700" fill="#150F0B" transform="rotate(-14.7 560 300)">CLAIM RISK RISES</text>
+<rect x="1200" y="180" width="280" height="40" fill="#150F0B"/><text x="1340" y="207" font-size="17" font-weight="700" fill="#CCFF3D" text-anchor="middle">Verify qualification</text>
+</svg>

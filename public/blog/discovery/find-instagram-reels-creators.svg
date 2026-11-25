@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Judging Instagram Reels creators: a Reel split into hook, middle and payoff with the checks at each stage, and typical views compared with followers</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Reels creators: judge the Reel, not the follower count</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Score the craft across several recent Reels, then ask for watch-time proof.</text>
+<rect x="80" y="200" width="250" height="440" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<rect x="100" y="220" width="210" height="110" fill="#FF4D1C"/>
+<rect x="100" y="340" width="210" height="170" fill="#FFFFFF"/>
+<rect x="100" y="520" width="210" height="100" fill="#CCFF3D"/>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="118" y="266">HOOK</text><text x="118" y="386">MIDDLE</text><text x="118" y="566">PAYOFF</text></g>
+<g font-size="17" fill="#150F0B"><text x="118" y="296">first 1–2 seconds</text><text x="118" y="414">pacing, audio</text><text x="118" y="440">product in use</text><text x="118" y="594">promise delivered</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M330 275 H400"/><path d="M330 425 H400"/><path d="M330 570 H400"/></g>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF"><rect x="400" y="230" width="430" height="90"/><rect x="400" y="380" width="430" height="90"/><rect x="400" y="525" width="430" height="90"/></g>
+<g font-size="19" fill="#150F0B">
+<text x="422" y="268">Clear reason to keep watching?</text><text x="422" y="298">Red flag: logo or slow intro</text>
+<text x="422" y="418">Every shot earns its place?</text><text x="422" y="448">Works on mute with text?</text>
+<text x="422" y="563">Hook pays off, natural ask?</text><text x="422" y="593">Red flag: bait, hard sell</text>
+</g>
+<rect x="920" y="200" width="600" height="440" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="948" y="248" font-size="24" font-weight="700" fill="#150F0B">Followers vs typical Reel views</text>
+<text x="948" y="278" font-size="17" fill="#150F0B" opacity=".65">Illustrative comparison, not real data</text>
+<g font-size="19" font-weight="700" fill="#150F0B"><text x="948" y="340">Creator A</text><text x="948" y="480">Creator B</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="948" y="356" width="430" height="30" fill="#FAF1E2"/><rect x="948" y="394" width="150" height="30" fill="#FF4D1C"/>
+<rect x="948" y="496" width="200" height="30" fill="#FAF1E2"/><rect x="948" y="534" width="320" height="30" fill="#CCFF3D"/>
+</g>
+<g font-size="16" fill="#150F0B"><text x="1392" y="377">followers</text><text x="1110" y="415">typical views</text><text x="1160" y="517">followers</text><text x="1280" y="555">typical views</text></g>
+<text x="948" y="610" font-size="18" font-weight="700" fill="#150F0B">Smaller account, Reels travel further: B</text>
+</svg>

@@ -599,8 +599,8 @@ export const operationsRecordsPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "In small teams one person holds several roles. What matters is that every stage has a named owner. Influencer marketing team structure covers ownership models.",
-        links: [{ text: "Influencer marketing team structure", href: "/blog/influencer-marketing-team-structure" }],
+        text: "In small teams one person holds several roles. What matters is that every stage has a named owner. Influencer marketing team structure covers ownership models. If sourcing is the bottleneck, set up a repeatable influencer sourcing workflow with an intake form, owners and a weekly cadence.",
+        links: [{ text: "a repeatable influencer sourcing workflow", href: "/blog/influencer-sourcing-workflow" }, { text: "Influencer marketing team structure", href: "/blog/influencer-marketing-team-structure" }],
       },
       { type: "heading", text: "Service levels creators can rely on", id: "slas" },
       {

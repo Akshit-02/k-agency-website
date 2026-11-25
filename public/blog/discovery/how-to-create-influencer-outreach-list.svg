@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Turning a creator shortlist into segments and priority tiers A, B and C, then tracking each creator through outreach statuses</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">From shortlist to outreach list</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Segment, tier, assign an owner, then move every row forward.</text>
+<rect x="80" y="210" width="220" height="300" fill="#150F0B"/><text x="104" y="254" font-size="24" font-weight="700" fill="#CCFF3D">Shortlist</text>
+<rect x="104" y="280" width="150" height="14" fill="#FAF1E2" opacity=".5"/><rect x="104" y="314" width="120" height="14" fill="#FAF1E2" opacity=".5"/><rect x="104" y="348" width="170" height="14" fill="#FAF1E2" opacity=".5"/><rect x="104" y="382" width="100" height="14" fill="#FAF1E2" opacity=".5"/><rect x="104" y="416" width="140" height="14" fill="#FAF1E2" opacity=".5"/><rect x="104" y="450" width="160" height="14" fill="#FAF1E2" opacity=".5"/>
+<path d="M302 360 L380 250" stroke="#150F0B" stroke-width="3" fill="none"/><rect x="380" y="210" width="220" height="80" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="400" y="243" font-size="15" fill="#150F0B" opacity=".6">SEGMENT</text><text x="400" y="272" font-size="22" font-weight="700" fill="#150F0B">Paid</text>
+<path d="M302 360 L380 354" stroke="#150F0B" stroke-width="3" fill="none"/><rect x="380" y="314" width="220" height="80" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="400" y="347" font-size="15" fill="#150F0B" opacity=".6">SEGMENT</text><text x="400" y="376" font-size="22" font-weight="700" fill="#150F0B">Seeding</text>
+<path d="M302 360 L380 458" stroke="#150F0B" stroke-width="3" fill="none"/><rect x="380" y="418" width="220" height="80" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="400" y="451" font-size="15" fill="#150F0B" opacity=".6">SEGMENT</text><text x="400" y="480" font-size="22" font-weight="700" fill="#150F0B">Hero video</text>
+<rect x="660" y="210" width="300" height="80" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="684" y="262" font-size="34" font-weight="700" fill="#150F0B">A</text><text x="730" y="260" font-size="17" fill="#150F0B">Most personal, first</text>
+<rect x="660" y="314" width="280" height="80" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/><text x="684" y="366" font-size="34" font-weight="700" fill="#150F0B">B</text><text x="730" y="364" font-size="17" fill="#150F0B">Personal opening</text>
+<rect x="660" y="418" width="260" height="80" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="684" y="470" font-size="34" font-weight="700" fill="#150F0B">C</text><text x="730" y="468" font-size="17" fill="#150F0B">Held as backups</text>
+<path d="M602 360 H650" stroke="#150F0B" stroke-width="3"/>
+<rect x="1040" y="200" width="230" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="1060" y="232" font-size="19" font-weight="700" fill="#150F0B">Ready</text>
+<path d="M1155 252 V264" stroke="#150F0B" stroke-width="3"/>
+<rect x="1040" y="266" width="230" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="1060" y="298" font-size="19" font-weight="700" fill="#150F0B">Sent</text>
+<path d="M1155 318 V330" stroke="#150F0B" stroke-width="3"/>
+<rect x="1040" y="332" width="230" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="1060" y="364" font-size="19" font-weight="700" fill="#150F0B">Followed up</text>
+<path d="M1155 384 V396" stroke="#150F0B" stroke-width="3"/>
+<rect x="1040" y="398" width="230" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="1060" y="430" font-size="19" font-weight="700" fill="#150F0B">Replied</text>
+<path d="M1155 450 V462" stroke="#150F0B" stroke-width="3"/>
+<rect x="1040" y="464" width="230" height="50" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="1060" y="496" font-size="19" font-weight="700" fill="#CCFF3D">Booked</text>
+<path d="M962 360 H1030" stroke="#150F0B" stroke-width="3"/>
+<rect x="1300" y="200" width="220" height="314" fill="#FAF1E2" stroke="#150F0B" stroke-width="3"/><text x="1320" y="240" font-size="19" font-weight="700" fill="#150F0B">Every row has</text><g font-size="17" fill="#150F0B"><text x="1320" y="284">Channel</text><text x="1320" y="320">Personal note</text><text x="1320" y="356">Owner</text><text x="1320" y="392">Status</text><text x="1320" y="428">Next action date</text></g>
+<text x="80" y="610" font-size="19" fill="#150F0B">One owner per creator. Two follow-ups at most, then close the row.</text>
+</svg>

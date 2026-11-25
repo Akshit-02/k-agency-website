@@ -1038,7 +1038,8 @@ export const intelligenceResearchPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The thresholds are a starting point. The principle is that a trend worth acting on shows both supply (creators making it) and demand (audiences wanting it) over time.",
+        text: "The thresholds are a starting point. The principle is that a trend worth acting on shows both supply (creators making it) and demand (audiences wanting it) over time. For spotting creators early, see how to discover emerging influencers.",
+        links: [{ text: "how to discover emerging influencers", href: "/blog/how-to-find-emerging-influencers" }],
       },
       { type: "heading", text: "Spotting rising creators", id: "rising-creators" },
       {

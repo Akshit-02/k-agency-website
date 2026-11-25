@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">D2C influencer discovery as a sieve: product fit, price match, conversion signals and where you sell narrow a long list to a shortlist</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">D2C discovery works backwards from the sale</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Reach and engagement come after these filters, not before.</text>
+<g stroke="#150F0B" stroke-width="3">
+<polygon points="80,190 1000,190 940,260 140,260" fill="#FFFFFF"/>
+<polygon points="140,270 940,270 880,340 200,340" fill="#150F0B"/>
+<polygon points="200,350 880,350 820,420 260,420" fill="#FF4D1C"/>
+<polygon points="260,430 820,430 760,500 320,500" fill="#CCFF3D"/>
+<polygon points="320,510 760,510 700,580 380,580" fill="#150F0B"/>
+<rect x="440" y="600" width="200" height="56" fill="#CCFF3D"/>
+</g>
+<g font-size="22" font-weight="700" text-anchor="middle"><text x="540" y="233" fill="#150F0B">Long list: niche, city, language</text><text x="540" y="313" fill="#FAF1E2">Product category fit</text><text x="540" y="393" fill="#150F0B">Price point vs audience</text><text x="540" y="473" fill="#150F0B">Conversion signals</text><text x="540" y="553" fill="#FAF1E2">Where you sell</text><text x="540" y="636" fill="#150F0B">Shortlist</text></g>
+<rect x="1080" y="190" width="440" height="390" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="1110" y="236" font-size="24" font-weight="700" fill="#CCFF3D">Confirm with the creator</text>
+<g font-size="19" fill="#FAF1E2"><text x="1110" y="286">Audience insights screenshots</text><text x="1110" y="326">Top cities vs where you deliver</text><text x="1110" y="366">Unique code and link</text><text x="1110" y="406">Past brands and price range</text><text x="1110" y="446">Willing to show repeat use</text></g>
+<text x="1110" y="510" font-size="19" font-weight="700" fill="#FF4D1C">Then judge the roster on</text>
+<text x="1110" y="540" font-size="19" font-weight="700" fill="#FF4D1C">your own unit economics.</text>
+</svg>
