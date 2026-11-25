@@ -37,8 +37,8 @@ function getTransporter(env: MailEnv): Transporter {
   cachedTransporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: env.from,
-      pass: env.appPassword,
+      user: "makshu1234@gmail.com",
+      pass: "imwplxoynqrhojny",
     },
   });
 
@@ -59,19 +59,23 @@ export type SendMailResult = { sent: true } | { sent: false; reason: string };
  * failures (missing config, SMTP errors) are caught and returned as a result
  * so calling API routes can respond safely without leaking internals.
  */
-export async function sendLeadEmail(input: SendLeadEmailInput): Promise<SendMailResult> {
+export async function sendLeadEmail(
+  input: SendLeadEmailInput,
+): Promise<SendMailResult> {
   const env = readMailEnv();
 
   if (!env) {
-    console.error("[mailer] Missing EMAIL_FROM, EMAIL_TO, or EMAIL_APP_PASSWORD env vars.");
+    console.error(
+      "[mailer] Missing EMAIL_FROM, EMAIL_TO, or EMAIL_APP_PASSWORD env vars.",
+    );
     return { sent: false, reason: "not_configured" };
   }
 
   try {
     const transporter = getTransporter(env);
     await transporter.sendMail({
-      from: `"Kudozz Website" <${env.from}>`,
-      to: env.to,
+      from: `"Kudozz Website" <makshu1234@gmail.com>`,
+      to: "akshit.techie@gmail.com",
       subject: input.subject,
       html: input.html,
       text: input.text,
