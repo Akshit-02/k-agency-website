@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 type CommonProps = {
   children: React.ReactNode;
-  variant?: "primary" | "secondary" | "dark" | "bright" | "ghost" | "outline-light";
+  variant?: "primary" | "secondary" | "dark" | "bright" | "bright-dark" | "ghost" | "outline-light";
   size?: "md" | "lg";
   className?: string;
   icon?: boolean;
@@ -17,7 +17,9 @@ type CommonProps = {
 
 type ButtonAsLink = CommonProps & {
   href: string;
-  onClick?: never;
+  /** Off-site link: renders a plain <a> that opens in a new tab with rel="noopener noreferrer". */
+  external?: boolean;
+  onClick?: React.MouseEventHandler<HTMLAnchorElement>;
   type?: never;
 };
 
@@ -36,6 +38,8 @@ const variants = {
   secondary: "bg-transparent text-ink border-[1.5px] border-ink hover:text-paper",
   dark: "bg-ink text-paper hover:text-ink",
   bright: "bg-lime text-ink hover:text-paper",
+  /** Lime on ink backgrounds: fills with paper on hover so the button never disappears into the section. */
+  "bright-dark": "bg-lime text-ink",
   "outline-light": "bg-transparent text-paper border-[1.5px] border-paper/50 hover:text-ink",
   ghost: "bg-transparent text-ink hover:text-coral-deep px-0",
 };
@@ -45,6 +49,7 @@ const fills = {
   secondary: "bg-ink",
   dark: "bg-lime",
   bright: "bg-ink",
+  "bright-dark": "bg-paper",
   "outline-light": "bg-paper",
   ghost: "",
 };
@@ -116,11 +121,19 @@ export function Button(props: ButtonAsLink | ButtonAsButton) {
     : {};
 
   if ("href" in props && props.href) {
+    const { href, external, onClick } = props as ButtonAsLink;
     return (
       <motion.div className="inline-block" ref={magnetic ? (magneticProps.ref as never) : undefined} {...motionProps}>
-        <Link href={props.href} className={classes}>
-          {content}
-        </Link>
+        {external ? (
+          <a href={href} target="_blank" rel="noopener noreferrer" onClick={onClick} className={classes}>
+            {content}
+            <span className="sr-only"> (opens in a new tab)</span>
+          </a>
+        ) : (
+          <Link href={href} onClick={onClick} className={classes}>
+            {content}
+          </Link>
+        )}
       </motion.div>
     );
   }

@@ -4,6 +4,7 @@ import { JsonLd, faqSchema, homePageSchema } from "@/lib/schema";
 import { homeFaqs } from "@/content/home";
 import { Hero } from "@/components/home/Hero";
 import { ServiceAreas } from "@/components/home/ServiceAreas";
+import { DiscoveryPromoSection } from "@/components/discovery/DiscoveryPromoSection";
 import { WhyInfluencer } from "@/components/home/WhyInfluencer";
 import { WhatWeDo } from "@/components/home/WhatWeDo";
 import { HomeUgc } from "@/components/home/HomeUgc";
@@ -44,6 +45,8 @@ export default function HomePage() {
       <JsonLd data={faqSchema(homeFaqs)} />
       <Hero />
       <ServiceAreas />
+      {/* Kudozz Discovery product promotion: right after the agency introduction, before the per-service deep dives. */}
+      <DiscoveryPromoSection />
       <WhyInfluencer />
       <WhatWeDo />
       <HomeUgc />

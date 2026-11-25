@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 import Link from "@/components/ui/Link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ArrowUpRight, ChevronDown, Menu, Search, X } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { KudozzLogo } from "@/components/graphics/KudozzLogo";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
+import { DiscoveryLink } from "@/components/discovery/DiscoveryLink";
 import { cn } from "@/lib/utils";
 
 export function Header() {
@@ -106,7 +107,18 @@ export function Header() {
           })}
         </nav>
 
-        <div className="hidden lg:block">
+        <div className="hidden items-center gap-4 lg:flex xl:gap-5">
+          {/* Kudozz Discovery, the self-serve product: set apart from the agency pages, opens in a new tab. */}
+          <DiscoveryLink
+            placement="nav_desktop"
+            label="Discover Creators"
+            className="kz-discovery group inline-flex items-center gap-2 border-[1.5px] border-lime/45 px-3.5 py-2 text-sm font-semibold tracking-tight text-paper transition-colors hover:border-lime hover:bg-lime hover:text-ink focus-visible:border-lime"
+          >
+            <Search className="size-3.5 text-lime transition-colors group-hover:text-ink" aria-hidden="true" />
+            <span className="xl:hidden">Discover</span>
+            <span className="hidden xl:inline">Discover Creators</span>
+            <ArrowUpRight className="size-3.5 opacity-70 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true" />
+          </DiscoveryLink>
           <Button href={siteConfig.navCta.href} size="md">
             {siteConfig.navCta.label}
           </Button>
@@ -133,6 +145,24 @@ export function Header() {
             className="overflow-y-auto bg-ink text-paper lg:hidden"
           >
             <Container className="flex flex-col gap-1 py-10">
+              {/* Kudozz Discovery first, so the product is visible without scrolling the menu. */}
+              <DiscoveryLink
+                placement="nav_mobile"
+                label="Discover Creators"
+                className="kz-discovery group mb-4 flex items-center justify-between gap-4 border-[1.5px] border-lime/50 p-4 transition-colors hover:bg-lime hover:text-ink"
+              >
+                <span>
+                  <span className="flex items-center gap-2 font-black-display text-[11px] tracking-[0.14em] text-lime group-hover:text-ink">
+                    <Search className="size-3.5" aria-hidden="true" />
+                    KUDOZZ DISCOVERY
+                  </span>
+                  <span className="mt-1 block font-display text-xl tracking-tight">Discover Creators</span>
+                  <span className="mt-1 block text-sm text-paper/65 group-hover:text-ink/75">
+                    Search and shortlist Instagram creators yourself.
+                  </span>
+                </span>
+                <ArrowUpRight className="size-6 shrink-0" aria-hidden="true" />
+              </DiscoveryLink>
               {siteConfig.nav.map((item, i) => (
                 <motion.div
                   key={item.href}

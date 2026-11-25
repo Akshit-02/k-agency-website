@@ -4,6 +4,7 @@ import { KudozzLogo } from "@/components/graphics/KudozzLogo";
 import { PlatformLogo, type PlatformId } from "@/components/icons/PlatformLogo";
 import { Container } from "@/components/ui/Container";
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
+import { DiscoveryLink } from "@/components/discovery/DiscoveryLink";
 
 const socialLinks: { href: string; label: string; platform: PlatformId }[] = [
   { href: siteConfig.social.instagram, label: "Kudozz on Instagram", platform: "instagram" },
@@ -14,9 +15,12 @@ const socialLinks: { href: string; label: string; platform: PlatformId }[] = [
 function FooterColumn({
   title,
   links,
+  extra,
 }: {
   title: string;
   links: readonly { label: string; href: string }[];
+  /** Extra list items after the links, e.g. the Kudozz Discovery product link. */
+  extra?: React.ReactNode;
 }) {
   return (
     <div>
@@ -34,6 +38,7 @@ function FooterColumn({
             </Link>
           </li>
         ))}
+        {extra}
       </ul>
     </div>
   );
@@ -72,6 +77,18 @@ export function Footer() {
             <FooterColumn
               title="FOR BRANDS"
               links={siteConfig.footerNav.forBrands}
+              extra={
+                <li>
+                  <DiscoveryLink
+                    placement="footer"
+                    label="Kudozz Discovery"
+                    className="kz-discovery inline-flex items-center gap-1.5 text-sm font-semibold text-lime transition-colors hover:text-paper"
+                  >
+                    Kudozz Discovery
+                    <span className="border border-lime/40 px-1.5 py-px text-[10px] font-semibold uppercase tracking-[0.1em]">Tool</span>
+                  </DiscoveryLink>
+                </li>
+              }
             />
             <FooterColumn
               title="FOR CREATORS"

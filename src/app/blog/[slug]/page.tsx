@@ -13,6 +13,8 @@ import { ArticleBody } from "@/components/blog/ArticleBody";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { BlogBottomCTA } from "@/components/blog/BlogBottomCTA";
+import { DiscoveryBlogCTA } from "@/components/discovery/DiscoveryBlogCTA";
+import { getBlogDiscoveryCta } from "@/content/discovery";
 import { getBlogCtaSet } from "@/lib/blogCta";
 import { getBlogServiceLink } from "@/lib/blogServiceLink";
 import { marketPhrase } from "@/content/markets";
@@ -61,6 +63,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
   const url = `${siteConfig.url}/blog/${post.slug}`;
   const ctaSet = getBlogCtaSet(post);
   const serviceLink = getBlogServiceLink(post, ctaSet);
+  const discoveryCta = getBlogDiscoveryCta(post, ctaSet);
   const isCreatorResource = post.category === CREATOR_RESOURCES.category;
   const creatorSection = getCreatorSectionForSlug(post.slug);
   const crumbs = isCreatorResource
@@ -158,6 +161,8 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
             <TableOfContents blocks={post.body} />
             <div className="min-w-0">
               <ArticleBody blocks={post.body} ctaSet={ctaSet} slug={post.slug} category={post.category} />
+              {/* End of the article body, never after the intro; the mid-article and bottom agency CTAs are unchanged. */}
+              {discoveryCta && <DiscoveryBlogCTA copy={discoveryCta} topic={ctaSet.topic} className="mt-12" />}
               {serviceLink && (
                 <aside aria-label="Related Kudozz service" className="mt-12 border-t-[1.5px] border-ink pt-6 text-base text-ink/70">
                   {serviceLink.service && (

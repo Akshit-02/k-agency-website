@@ -6,6 +6,8 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Container } from "@/components/ui/Container";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
 import { FAQSection } from "@/components/ui/FAQSection";
+import { DiscoveryCTABanner } from "@/components/discovery/DiscoveryCTABanner";
+import { serviceDiscovery } from "@/content/discovery";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/animations/Reveal";
 import { StaggerItem, StaggerReveal } from "@/components/animations/StaggerReveal";
@@ -44,6 +46,8 @@ export function ServiceDetail({
   const theme = themes[(parseInt(service.index, 10) - 1) % themes.length];
   const allCategories = service.includesCategories ? getServicesByCategory() : [];
   const included = (service.includesCategories ?? []).flatMap((id) => allCategories.filter((c) => c.id === id));
+  // Kudozz Discovery placements for the service pages where finding creators yourself is relevant (src/content/discovery.ts).
+  const discovery = serviceDiscovery[service.slug];
 
   return (
     <>
@@ -186,6 +190,10 @@ export function ServiceDetail({
         </Container>
       </section>
 
+      {discovery?.feature && (
+        <DiscoveryCTABanner variant="feature" copy={discovery.feature} placement="service_feature" topic={service.slug} />
+      )}
+
       {service.comparison && (
         <section className="pb-20 sm:pb-28">
           <Container>
@@ -268,6 +276,10 @@ export function ServiceDetail({
       </section>
 
       <FAQSection faqs={service.faqs} eyebrow="FAQ" title={`Questions about ${sentenceCase(service.name)}.`} />
+
+      {discovery?.compact && (
+        <DiscoveryCTABanner variant="compact" copy={discovery.compact} placement="service_compact" topic={service.slug} />
+      )}
 
       {guides.length > 0 && (
         <section className="py-20 sm:py-28">
