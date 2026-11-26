@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer budget worksheet with columns for cost line, driver, quantity, unit cost, source and subtotal, ending in contingency and a total checked against the value of the outcome</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Estimate the budget, line by line</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Every number gets a driver and a source. Then check the total against value.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="200" width="1440" height="50" fill="#150F0B"/>
+<rect x="80" y="250" width="1440" height="50" fill="#FFFFFF"/>
+<rect x="80" y="300" width="1440" height="50" fill="#FFFFFF"/>
+<rect x="80" y="350" width="1440" height="50" fill="#FFFFFF"/>
+<rect x="80" y="400" width="1440" height="50" fill="#FFFFFF"/>
+<rect x="80" y="450" width="1440" height="50" fill="#FFFFFF"/>
+<rect x="80" y="500" width="1440" height="50" fill="#FAF1E2"/>
+<rect x="80" y="550" width="1440" height="56" fill="#CCFF3D"/>
+</g>
+<g stroke="#150F0B" stroke-width="2"><path d="M420 250V550M750 250V550M860 250V550M1060 250V550M1260 250V550"/></g>
+<g font-size="18" font-weight="700" fill="#FAF1E2"><text x="100" y="232">Cost line</text><text x="440" y="232">Driver</text><text x="770" y="232">Qty</text><text x="880" y="232">Unit cost</text><text x="1080" y="232">Source</text><text x="1280" y="232">Subtotal</text></g>
+<g font-size="19" fill="#150F0B">
+<text x="100" y="282">Creator fees (per tier)</text><text x="440" y="282">Deliverables quoted</text><text x="770" y="282">[n]</text><text x="880" y="282">₹[quote]</text><text x="1280" y="282">₹[ ]</text>
+<text x="100" y="332">Usage rights</text><text x="440" y="332">Channels, days</text><text x="770" y="332">[n]</text><text x="880" y="332">₹[quote]</text><text x="1280" y="332">₹[ ]</text>
+<text x="100" y="382">Production and edits</text><text x="440" y="382">Cut-downs, reshoots</text><text x="770" y="382">[n]</text><text x="880" y="382">₹[est.]</text><text x="1280" y="382">₹[ ]</text>
+<text x="100" y="432">Product and shipping</text><text x="440" y="432">Creators × cities</text><text x="770" y="432">[n]</text><text x="880" y="432">₹[est.]</text><text x="1280" y="432">₹[ ]</text>
+<text x="100" y="482">Management</text><text x="440" y="482">Agency or team time</text><text x="770" y="482">1</text><text x="880" y="482">₹[quote]</text><text x="1280" y="482">₹[ ]</text>
+<text x="100" y="532" font-weight="700">Contingency</text><text x="440" y="532">Rule of thumb</text><text x="770" y="532">~10%</text><text x="1280" y="532">₹[ ]</text>
+<text x="100" y="585" font-weight="700">Total ÷ value of the outcome</text><text x="1080" y="585" font-weight="700">Go, or cut scope</text>
+</g>
+<g stroke="#150F0B" stroke-width="2" font-size="15" font-weight="700">
+<rect x="1080" y="263" width="80" height="26" fill="#CCFF3D"/><rect x="1080" y="313" width="80" height="26" fill="#CCFF3D"/><rect x="1080" y="363" width="90" height="26" fill="#FF4D1C"/><rect x="1080" y="413" width="90" height="26" fill="#FF4D1C"/><rect x="1080" y="463" width="80" height="26" fill="#CCFF3D"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B"><text x="1094" y="282">Quote</text><text x="1094" y="332">Quote</text><text x="1092" y="382">Estimate</text><text x="1092" y="432">Estimate</text><text x="1094" y="482">Quote</text></g>
+<text x="80" y="656" font-size="18" fill="#150F0B" opacity=".65">Worksheet layout only. Replace every estimate with a quote before approval.</text>
+</svg>

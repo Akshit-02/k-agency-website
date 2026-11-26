@@ -56,8 +56,8 @@ export const operationsOnboardingPosts: BlogPost[] = [
       { type: "subheading", text: "Step 1: Confirm the collaboration in writing" },
       {
         type: "paragraph",
-        text: "As soon as a creator agrees, send a short written confirmation of what was agreed: deliverables, platform, dates, fee, usage rights, exclusivity and who their contact is. This catches misunderstandings before anyone has invested time. Influencer follow-up includes a summary template.",
-        links: [{ text: "Influencer follow-up", href: "/blog/influencer-follow-up" }],
+        text: "As soon as a creator agrees, send a short written confirmation of what was agreed: deliverables, platform, dates, fee, usage rights, exclusivity and who their contact is. This catches misunderstandings before anyone has invested time. Influencer follow-up includes a summary template. For the full sequence from discovery to a signed collaboration, see what to do after finding the right influencers.",
+        links: [{ text: "what to do after finding the right influencers", href: "/blog/what-to-do-after-finding-influencers" }, { text: "Influencer follow-up", href: "/blog/influencer-follow-up" }],
       },
       { type: "subheading", text: "Step 2: Collect the details you need" },
       {

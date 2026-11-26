@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A creator's quote split into content, usage rights, exclusivity, rush fee and extra revisions, with scope levers that bring it down to an agreed scope instead of cutting the rate</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Negotiate scope, not the rate</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Much of the gap sits in rights, exclusivity and timing.</text>
+<text x="80" y="200" font-size="18" font-weight="700" fill="#150F0B">CREATOR'S QUOTE</text>
+<text x="1160" y="200" font-size="18" font-weight="700" fill="#150F0B">AGREED SCOPE</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="215" width="360" height="150" fill="#FFFFFF"/>
+<rect x="80" y="365" width="360" height="80" fill="#CCFF3D"/>
+<rect x="80" y="445" width="360" height="70" fill="#CCFF3D"/>
+<rect x="80" y="515" width="360" height="50" fill="#FF4D1C"/>
+<rect x="80" y="565" width="360" height="50" fill="#FF4D1C"/>
+<rect x="1160" y="215" width="360" height="150" fill="#FFFFFF"/>
+<rect x="1160" y="365" width="360" height="60" fill="#CCFF3D"/>
+</g>
+<g font-size="20" fill="#150F0B">
+<text x="104" y="298" font-weight="700">Content + posting</text><text x="104" y="412">Usage rights: 12 months</text><text x="104" y="487">Exclusivity: 90 days</text><text x="104" y="547">Rush fee</text><text x="104" y="597">Extra revisions</text>
+<text x="1184" y="298" font-weight="700">Content + posting</text><text x="1184" y="402">Usage: 60 days, if earned</text>
+</g>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF">
+<rect x="500" y="230" width="560" height="56"/><rect x="500" y="300" width="560" height="56"/><rect x="500" y="370" width="560" height="56"/><rect x="500" y="440" width="560" height="56"/><rect x="500" y="510" width="560" height="56"/>
+</g>
+<g fill="#150F0B"><path d="M1060 244l40 14-40 14z"/><path d="M1060 314l40 14-40 14z"/><path d="M1060 384l40 14-40 14z"/><path d="M1060 454l40 14-40 14z"/><path d="M1060 524l40 14-40 14z"/></g>
+<g font-size="20" fill="#150F0B">
+<text x="524" y="265">Post organically, buy usage if it performs</text>
+<text x="524" y="335">Exclusivity: 30 days, not 90</text>
+<text x="524" y="405">Book ahead: no rush fee</text>
+<text x="524" y="475">Bundle posts across months</text>
+<text x="524" y="545">Clear brief, one revision round</text>
+</g>
+<rect x="1160" y="470" width="360" height="145" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="1184" y="514" font-size="20" font-weight="700" fill="#CCFF3D">Not on the table</text>
+<g font-size="18" fill="#FAF1E2"><text x="1184" y="550">Same work for less</text><text x="1184" y="580">Other creators' rates</text></g>
+<text x="80" y="664" font-size="18" fill="#150F0B" opacity=".65">Illustrative. Add-on prices vary by creator and by source.</text>
+</svg>

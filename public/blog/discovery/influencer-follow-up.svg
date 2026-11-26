@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A follow-up timeline after a collaboration request: first message on day 0, follow-up around day 4 to 5, final note around day 10 to 12, then close the record, with stop rules</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Two follow-ups, then stop</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Working days are a rule of thumb. Each message adds something new.</text>
+<path d="M120 420 H1480" stroke="#150F0B" stroke-width="4"/>
+<g font-size="17" font-weight="700" fill="#150F0B">
+<rect x="108" y="408" width="24" height="24" fill="#150F0B"/><text x="96" y="466">DAY 0</text>
+<rect x="508" y="408" width="24" height="24" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="488" y="466">DAY 4–5</text>
+<rect x="908" y="408" width="24" height="24" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="880" y="466">DAY 10–12</text>
+<rect x="1308" y="408" width="24" height="24" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/><text x="1292" y="466">CLOSE</text>
+</g>
+<g stroke="#150F0B" stroke-width="3"><path d="M120 404 V352"/><path d="M520 404 V352"/><path d="M920 404 V352"/><path d="M1320 404 V352"/></g>
+<rect x="60" y="202" width="300" height="150" fill="#150F0B"/><text x="84" y="244" font-size="22" font-weight="700" fill="#CCFF3D">Request</text><text x="84" y="280" font-size="17" fill="#FAF1E2">Full offer, one</text><text x="84" y="306" font-size="17" fill="#FAF1E2">clear question</text>
+<rect x="400" y="202" width="300" height="150" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="424" y="244" font-size="22" font-weight="700" fill="#150F0B">Follow-up 1</text><text x="424" y="280" font-size="17" fill="#150F0B">Same thread, under</text><text x="424" y="306" font-size="17" fill="#150F0B">60 words, new detail</text>
+<rect x="800" y="202" width="300" height="150" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="824" y="244" font-size="22" font-weight="700" fill="#150F0B">Final note</text><text x="824" y="280" font-size="17" fill="#150F0B">Decision date,</text><text x="824" y="306" font-size="17" fill="#150F0B">easy way to say no</text>
+<rect x="1200" y="202" width="300" height="150" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/><text x="1224" y="244" font-size="22" font-weight="700" fill="#150F0B">Close the row</text><text x="1224" y="280" font-size="17" fill="#150F0B">Mark "No reply",</text><text x="1224" y="306" font-size="17" fill="#150F0B">move to backups</text>
+<rect x="80" y="520" width="1440" height="110" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="80" y="520" width="200" height="110" fill="#FF4D1C"/><text x="104" y="568" font-size="22" font-weight="700" fill="#150F0B">Stop at</text><text x="104" y="598" font-size="22" font-weight="700" fill="#150F0B">once if</text>
+<g font-size="19" fill="#150F0B"><text x="312" y="583">They reply anywhere</text><text x="560" y="583" opacity=".4">/</text><text x="592" y="583">They decline</text><text x="760" y="583" opacity=".4">/</text><text x="792" y="583">They ask you to stop</text><text x="1006" y="583" opacity=".4">/</text><text x="1038" y="583">No new channel to chase on</text></g>
+</svg>

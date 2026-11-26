@@ -544,7 +544,7 @@ export const customerCommercePosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Sending creator traffic to a weak listing wastes the campaign. If stock is uncertain, see the stock section of influencer marketing for product launches.",
-        links: [{ text: "influencer marketing for product launches", href: "/blog/influencers-for-product-launch#stock" }],
+        links: [{ text: "influencer marketing for product launches", href: "/blog/influencers-for-product-launch#store-stock" }],
       },
       { type: "heading", text: "The creator programmes marketplaces now run", id: "marketplace-programmes" },
       {

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A one-page influencer campaign plan laid out as ten numbered boxes, from objective and KPI through creators, brief and timeline to tracking and wrap-up</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">One page, ten decisions</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Written and signed off before the first creator is contacted.</text>
+<rect x="80" y="180" width="1020" height="470" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="218" font-size="15" font-weight="700" fill="#FF4D1C">CAMPAIGN PLAN</text>
+<path d="M110 232H1070" stroke="#150F0B" stroke-width="2"/>
+<g stroke="#150F0B" stroke-width="2" fill="#FAF1E2">
+<rect x="110" y="250" width="470" height="70"/><rect x="110" y="330" width="470" height="70"/><rect x="110" y="410" width="470" height="70"/><rect x="110" y="490" width="470" height="70"/><rect x="110" y="570" width="470" height="70"/>
+<rect x="600" y="250" width="470" height="70"/><rect x="600" y="330" width="470" height="70"/><rect x="600" y="410" width="470" height="70"/><rect x="600" y="490" width="470" height="70"/><rect x="600" y="570" width="470" height="70"/>
+</g>
+<g stroke="#150F0B" stroke-width="2">
+<rect x="110" y="250" width="70" height="70" fill="#FF4D1C"/><rect x="110" y="330" width="70" height="70" fill="#150F0B"/><rect x="110" y="410" width="70" height="70" fill="#150F0B"/><rect x="110" y="490" width="70" height="70" fill="#150F0B"/><rect x="110" y="570" width="70" height="70" fill="#CCFF3D"/>
+<rect x="600" y="250" width="70" height="70" fill="#150F0B"/><rect x="600" y="330" width="70" height="70" fill="#150F0B"/><rect x="600" y="410" width="70" height="70" fill="#150F0B"/><rect x="600" y="490" width="70" height="70" fill="#150F0B"/><rect x="600" y="570" width="70" height="70" fill="#150F0B"/>
+</g>
+<g font-size="26" font-weight="700" text-anchor="middle">
+<text x="145" y="294" fill="#150F0B">1</text><text x="145" y="374" fill="#FAF1E2">2</text><text x="145" y="454" fill="#FAF1E2">3</text><text x="145" y="534" fill="#FAF1E2">4</text><text x="145" y="614" fill="#150F0B">5</text>
+<text x="635" y="294" fill="#FAF1E2">6</text><text x="635" y="374" fill="#FAF1E2">7</text><text x="635" y="454" fill="#FAF1E2">8</text><text x="635" y="534" fill="#FAF1E2">9</text><text x="635" y="614" fill="#FAF1E2">10</text>
+</g>
+<g font-size="22" font-weight="700" fill="#150F0B">
+<text x="200" y="293">Objective + one KPI</text><text x="200" y="373">Audience + one message</text><text x="200" y="453">Platforms + formats</text><text x="200" y="533">Budget, line by line</text><text x="200" y="613">Creator slots + backups</text>
+<text x="690" y="293">Brief + deliverables</text><text x="690" y="373">Timeline + approvals</text><text x="690" y="453">Contracts + usage rights</text><text x="690" y="533">Tracking set up</text><text x="690" y="613">Wrap-up + repeat decisions</text>
+</g>
+<rect x="1160" y="180" width="360" height="470" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="1190" y="228" font-size="15" font-weight="700" fill="#CCFF3D">THE ORDER MATTERS</text>
+<g font-size="20" fill="#FAF1E2"><text x="1190" y="282">Objective comes first:</text><text x="1190" y="310">it decides creators,</text><text x="1190" y="338">formats and metrics.</text>
+<text x="1190" y="398">Creators come fifth,</text><text x="1190" y="426">searched against</text><text x="1190" y="454">written slots.</text></g>
+<rect x="1190" y="510" width="300" height="100" fill="#CCFF3D" stroke="#FAF1E2" stroke-width="2"/>
+<text x="1340" y="552" font-size="20" font-weight="700" fill="#150F0B" text-anchor="middle">Sign-off, then</text>
+<text x="1340" y="582" font-size="20" font-weight="700" fill="#150F0B" text-anchor="middle">outreach starts</text>
+</svg>

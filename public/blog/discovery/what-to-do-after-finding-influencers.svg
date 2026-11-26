@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A route from a highlighted discovery stage through nine numbered stages: verify, outreach, brief, negotiate, contract, onboard, approve, track and relationship</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">After discovery: nine stages</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Discovery is the first box. Your team or agency runs the rest.</text>
+<rect x="80" y="200" width="220" height="350" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<text x="100" y="240" font-size="15" font-weight="700" fill="#150F0B">STAGE 0</text>
+<text x="100" y="274" font-size="24" font-weight="700" fill="#150F0B">Discovery</text>
+<g font-size="17" fill="#150F0B"><text x="100" y="320">Search</text><text x="100" y="350">Filter</text><text x="100" y="380">Research</text><text x="100" y="410">Shortlist</text><text x="100" y="440">Reveal contacts</text></g>
+<text x="100" y="525" font-size="14" font-weight="700" fill="#150F0B">KUDOZZ DISCOVERY</text>
+<path d="M300 265H330" stroke="#150F0B" stroke-width="3"/><path d="M340 265l-12 -8v16z" fill="#150F0B"/>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF">
+<rect x="340" y="200" width="216" height="130"/><rect x="581" y="200" width="216" height="130"/><rect x="822" y="200" width="216" height="130"/><rect x="1063" y="200" width="216" height="130"/><rect x="1304" y="200" width="216" height="130"/>
+<rect x="340" y="420" width="216" height="130"/><rect x="581" y="420" width="216" height="130"/><rect x="822" y="420" width="216" height="130"/><rect x="1063" y="420" width="216" height="130"/>
+</g>
+<rect x="1304" y="420" width="216" height="130" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<g font-size="28" font-weight="700" fill="#FF4D1C"><text x="358" y="242">1</text><text x="599" y="242">2</text><text x="840" y="242">3</text><text x="1081" y="242">4</text><text x="1322" y="242">5</text><text x="358" y="462">6</text><text x="599" y="462">7</text><text x="840" y="462">8</text><text x="1081" y="462">9</text></g>
+<g font-size="19" font-weight="700" fill="#150F0B">
+<text x="358" y="282">Verify</text><text x="599" y="282">Outreach</text><text x="840" y="282">Brief</text><text x="1081" y="282">Negotiate</text><text x="1322" y="282">Contract + rights</text>
+<text x="358" y="502">Onboard</text><text x="599" y="502">Approve</text><text x="840" y="502">Track</text><text x="1081" y="502">Relationship</text>
+</g>
+<g font-size="15" fill="#150F0B" opacity=".75">
+<text x="358" y="310">checks before contact</text><text x="599" y="310">a specific offer</text><text x="840" y="310">message + must-haves</text><text x="1081" y="310">fee, scope, timing</text><text x="1322" y="310">rights in writing</text>
+<text x="358" y="530">product, assets, FAQ</text><text x="599" y="530">drafts vs checklist</text><text x="840" y="530">links, codes, Insights</text><text x="1081" y="530">pay, share, rebook</text>
+</g>
+<g fill="#150F0B"><path d="M570 265l-12 -8v16z"/><path d="M811 265l-12 -8v16z"/><path d="M1052 265l-12 -8v16z"/><path d="M1293 265l-12 -8v16z"/><path d="M570 485l-12 -8v16z"/><path d="M811 485l-12 -8v16z"/><path d="M1052 485l-12 -8v16z"/><path d="M1293 485l-12 -8v16z"/></g>
+<path d="M1412 330V375H448V408" stroke="#150F0B" stroke-width="3" fill="none"/><path d="M448 420l-8 -12h16z" fill="#150F0B"/>
+<text x="1412" y="478" font-size="19" font-weight="700" fill="#150F0B" text-anchor="middle">Next campaign</text>
+<text x="1412" y="506" font-size="19" font-weight="700" fill="#150F0B" text-anchor="middle">starts with your</text>
+<text x="1412" y="534" font-size="19" font-weight="700" fill="#150F0B" text-anchor="middle">best creators</text>
+<path d="M340 590V604H1520V590" stroke="#150F0B" stroke-width="3" fill="none"/>
+<text x="930" y="640" font-size="18" font-weight="700" fill="#150F0B" text-anchor="middle">YOUR TEAM OR AGENCY</text>
+</svg>

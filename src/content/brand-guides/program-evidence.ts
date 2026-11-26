@@ -93,7 +93,7 @@ export const programEvidencePosts: BlogPost[] = [
         text: "Creator databases and CRMs hold most of this; see the data sections of influencer marketing CRM and influencer database.",
         links: [
           { text: "influencer marketing CRM", href: "/blog/influencer-marketing-crm" },
-          { text: "influencer database", href: "/blog/influencer-database#before-import" },
+          { text: "influencer database", href: "/blog/influencer-database#data-hygiene" },
         ],
       },
       { type: "heading", text: "Brands, agencies and creators: who is responsible", id: "roles" },

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A grid of creator roles against follower tiers with marked slots showing how a campaign mix fills reach, credibility, conversion, content and local roles</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Roles first, tiers second</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Each marked cell is a slot with its own job, KPI and backup.</text>
+<g stroke="#150F0B" stroke-width="2">
+<rect x="80" y="190" width="300" height="50" fill="#150F0B"/>
+<rect x="380" y="190" width="228" height="50" fill="#150F0B"/>
+<rect x="608" y="190" width="228" height="50" fill="#150F0B"/>
+<rect x="836" y="190" width="228" height="50" fill="#150F0B"/>
+<rect x="1064" y="190" width="228" height="50" fill="#150F0B"/>
+<rect x="1292" y="190" width="228" height="50" fill="#150F0B"/>
+<rect x="80" y="240" width="300" height="62" fill="#FFFFFF"/>
+<rect x="380" y="240" width="228" height="62" fill="#FFFFFF"/>
+<rect x="608" y="240" width="228" height="62" fill="#FFFFFF"/>
+<rect x="836" y="240" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1064" y="240" width="228" height="62" fill="#CCFF3D"/>
+<rect x="1292" y="240" width="228" height="62" fill="#CCFF3D"/>
+<rect x="1156" y="249" width="44" height="44" fill="#FF4D1C"/>
+<rect x="80" y="302" width="300" height="62" fill="#FFFFFF"/>
+<rect x="380" y="302" width="228" height="62" fill="#FFFFFF"/>
+<rect x="608" y="302" width="228" height="62" fill="#CCFF3D"/>
+<rect x="836" y="302" width="228" height="62" fill="#CCFF3D"/>
+<rect x="1064" y="302" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1292" y="302" width="228" height="62" fill="#FFFFFF"/>
+<rect x="700" y="311" width="44" height="44" fill="#FF4D1C"/>
+<rect x="80" y="364" width="300" height="62" fill="#FFFFFF"/>
+<rect x="380" y="364" width="228" height="62" fill="#FFFFFF"/>
+<rect x="608" y="364" width="228" height="62" fill="#CCFF3D"/>
+<rect x="836" y="364" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1064" y="364" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1292" y="364" width="228" height="62" fill="#FFFFFF"/>
+<rect x="700" y="373" width="44" height="44" fill="#FF4D1C"/>
+<rect x="80" y="426" width="300" height="62" fill="#FFFFFF"/>
+<rect x="380" y="426" width="228" height="62" fill="#CCFF3D"/>
+<rect x="608" y="426" width="228" height="62" fill="#CCFF3D"/>
+<rect x="836" y="426" width="228" height="62" fill="#CCFF3D"/>
+<rect x="1064" y="426" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1292" y="426" width="228" height="62" fill="#FFFFFF"/>
+<rect x="700" y="435" width="44" height="44" fill="#FF4D1C"/>
+<rect x="80" y="488" width="300" height="62" fill="#FFFFFF"/>
+<rect x="380" y="488" width="228" height="62" fill="#CCFF3D"/>
+<rect x="608" y="488" width="228" height="62" fill="#CCFF3D"/>
+<rect x="836" y="488" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1064" y="488" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1292" y="488" width="228" height="62" fill="#FFFFFF"/>
+<rect x="472" y="497" width="44" height="44" fill="#FF4D1C"/>
+<rect x="80" y="550" width="300" height="62" fill="#FFFFFF"/>
+<rect x="380" y="550" width="228" height="62" fill="#CCFF3D"/>
+<rect x="608" y="550" width="228" height="62" fill="#FFFFFF"/>
+<rect x="836" y="550" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1064" y="550" width="228" height="62" fill="#FFFFFF"/>
+<rect x="1292" y="550" width="228" height="62" fill="#FFFFFF"/>
+<rect x="472" y="559" width="44" height="44" fill="#FF4D1C"/>
+</g>
+<text x="100" y="222" font-size="16" font-weight="700" fill="#FAF1E2">ROLE</text>
+<text x="494" y="222" font-size="18" font-weight="700" fill="#FAF1E2" text-anchor="middle">Nano</text>
+<text x="722" y="222" font-size="18" font-weight="700" fill="#FAF1E2" text-anchor="middle">Micro</text>
+<text x="950" y="222" font-size="18" font-weight="700" fill="#FAF1E2" text-anchor="middle">Mid-tier</text>
+<text x="1178" y="222" font-size="18" font-weight="700" fill="#FAF1E2" text-anchor="middle">Macro</text>
+<text x="1406" y="222" font-size="18" font-weight="700" fill="#FAF1E2" text-anchor="middle">Celebrity</text>
+<text x="100" y="278" font-size="20" font-weight="700" fill="#150F0B">Reach anchor</text>
+<text x="1178" y="279" font-size="22" font-weight="700" fill="#150F0B" text-anchor="middle">A</text>
+<text x="100" y="340" font-size="20" font-weight="700" fill="#150F0B">Credibility voice</text>
+<text x="722" y="341" font-size="22" font-weight="700" fill="#150F0B" text-anchor="middle">B</text>
+<text x="100" y="402" font-size="20" font-weight="700" fill="#150F0B">Conversion driver</text>
+<text x="722" y="403" font-size="22" font-weight="700" fill="#150F0B" text-anchor="middle">C</text>
+<text x="100" y="464" font-size="20" font-weight="700" fill="#150F0B">Content producer</text>
+<text x="722" y="465" font-size="22" font-weight="700" fill="#150F0B" text-anchor="middle">E</text>
+<text x="100" y="526" font-size="20" font-weight="700" fill="#150F0B">Local voice</text>
+<text x="494" y="527" font-size="22" font-weight="700" fill="#150F0B" text-anchor="middle">D</text>
+<text x="100" y="588" font-size="20" font-weight="700" fill="#150F0B">Volume and buzz</text>
+<text x="494" y="589" font-size="22" font-weight="700" fill="#150F0B" text-anchor="middle">F</text>
+<rect x="80" y="636" width="20" height="20" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><text x="112" y="652" font-size="18" fill="#150F0B">Tiers that often suit the role</text>
+<rect x="460" y="636" width="20" height="20" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/><text x="492" y="652" font-size="18" fill="#150F0B">A slot chosen in one example mix</text>
+<text x="1520" y="652" font-size="18" fill="#150F0B" opacity=".65" text-anchor="end">Tier bands are conventions; define yours.</text>
+</svg>

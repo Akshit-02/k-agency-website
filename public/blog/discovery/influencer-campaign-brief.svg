@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A one-page pre-outreach brief with eight sections that expands into the full creative brief once a creator agrees</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Brief first, outreach second</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">One page of decisions before the first message goes out.</text>
+<rect x="80" y="190" width="700" height="450" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="80" y="190" width="700" height="52" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="104" y="224" font-size="20" font-weight="700" fill="#150F0B">PRE-OUTREACH BRIEF: ONE PAGE</text>
+<g font-size="19" fill="#150F0B">
+<rect x="104" y="266" width="316" height="76" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="122" y="298" font-weight="700">1 Objective</text><text x="122" y="324" font-size="15" opacity=".7">One goal only</text>
+<rect x="440" y="266" width="316" height="76" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="458" y="298" font-weight="700">2 Audience</text><text x="458" y="324" font-size="15" opacity=".7">Who, where, language</text>
+<rect x="104" y="358" width="316" height="76" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="122" y="390" font-weight="700">3 Creator profile</text><text x="122" y="416" font-size="15" opacity=".7">Niche, size, style</text>
+<rect x="440" y="358" width="316" height="76" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><text x="458" y="390" font-weight="700">4 Offer + budget</text><text x="458" y="416" font-size="15" opacity=".7">Paid, gifted, UGC</text>
+<rect x="104" y="450" width="316" height="76" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="122" y="482" font-weight="700">5 Timeline</text><text x="122" y="508" font-size="15" opacity=".7">Dispatch, draft, live</text>
+<rect x="440" y="450" width="316" height="76" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><text x="458" y="482" font-weight="700">6 Rights</text><text x="458" y="508" font-size="15" opacity=".7">Ad usage, exclusivity</text>
+<rect x="104" y="542" width="316" height="76" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="122" y="574" font-weight="700">7 Disclosure</text><text x="122" y="600" font-size="15" opacity=".7">ASCI label upfront</text>
+<rect x="440" y="542" width="316" height="76" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="458" y="574" font-weight="700">8 Decisions</text><text x="458" y="600" font-size="15" opacity=".7">Who approves</text>
+</g>
+<path d="M790 415 H900" stroke="#150F0B" stroke-width="3"/><path d="M888 405 L902 415 L888 425" stroke="#150F0B" stroke-width="3" fill="none"/>
+<text x="806" y="400" font-size="15" font-weight="700" fill="#150F0B">CREATOR</text><text x="806" y="446" font-size="15" font-weight="700" fill="#150F0B">SAYS YES</text>
+<rect x="944" y="214" width="560" height="426" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="932" y="202" width="560" height="426" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="920" y="190" width="560" height="426" fill="#150F0B"/>
+<text x="948" y="236" font-size="22" font-weight="700" fill="#CCFF3D">Full creative brief adds</text>
+<g font-size="19" fill="#FAF1E2"><text x="948" y="290">+ One key message</text><text x="948" y="336">+ Product facts and claims to avoid</text><text x="948" y="382">+ Mandatory tag, link, code</text><text x="948" y="428">+ Tone and reference posts</text><text x="948" y="474">+ Approval rounds and turnaround</text><text x="948" y="520">+ Tracking links or codes</text></g>
+<text x="948" y="584" font-size="17" fill="#FAF1E2" opacity=".7">Direction, not a script.</text>
+</svg>

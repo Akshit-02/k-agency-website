@@ -488,8 +488,8 @@ export const operationsExecutionPosts: BlogPost[] = [
       { type: "heading", text: "Disclosure: what to check", id: "disclosure" },
       {
         type: "paragraph",
-        text: "ASCI's influencer guidelines set out specific disclosure expectations: a clear label (such as 'Ad', 'Collaboration' or 'Partnership') placed upfront, within the first two lines of the caption without needing to tap 'more'; a label superimposed on the content where there's no caption, such as Stories; and, for videos, a label shown for a minimum duration depending on the video's length. Check both the caption and the content itself, and check that the platform's paid-partnership tool has been used.",
-        links: [{ text: "ASCI's influencer guidelines", href: SOURCES.asciGuidelines }],
+        text: "ASCI's influencer guidelines set out specific disclosure expectations: a clear label (such as 'Ad', 'Collaboration' or 'Partnership') placed upfront, within the first two lines of the caption without needing to tap 'more'; a label superimposed on the content where there's no caption, such as Stories; and, for videos, a label shown for a minimum duration depending on the video's length. Check both the caption and the content itself, and check that the platform's paid-partnership tool has been used. Many quality problems can be predicted earlier: see our guide to analysing a creator's content before shortlisting.",
+        links: [{ text: "analysing a creator's content before shortlisting", href: "/blog/influencer-content-analysis-guide" }, { text: "ASCI's influencer guidelines", href: SOURCES.asciGuidelines }],
       },
       {
         type: "paragraph",
@@ -724,7 +724,7 @@ export const operationsExecutionPosts: BlogPost[] = [
         type: "paragraph",
         text: "When the cause is stock or delivery rather than content, see planning creators when stock is uncertain.",
         links: [
-          { text: "planning creators when stock is uncertain", href: "/blog/influencers-for-product-launch#stock" },
+          { text: "planning creators when stock is uncertain", href: "/blog/influencers-for-product-launch#store-stock" },
         ],
       },
       { type: "heading", text: "Delays in Indian campaigns", id: "india" },
@@ -1340,179 +1340,6 @@ export const operationsExecutionPosts: BlogPost[] = [
         question: "Is a spreadsheet enough to track influencer campaigns?",
         answer:
           "For many brands, yes, if statuses are fixed and someone owns it. Software helps when many people need access, creators submit through a portal or you need built-in automation.",
-      },
-    ],
-  },
-  {
-    slug: "influencer-campaign-coordination",
-    category: "Campaign Strategy",
-    title: "Influencer Campaign Coordination: How Brands Can Manage Multiple Creators Efficiently",
-    seoTitle: "How to Coordinate Multiple Influencers in One Campaign",
-    excerpt:
-      "How to coordinate many creators in one campaign: batching work into waves, group vs individual communication, staggered go-lives, managing regional and language groups, shared FAQs, logistics at scale and the team you need.",
-    metaDescription:
-      "How brands coordinate multiple influencers in one campaign: waves, batched briefings, staggered go-lives, regional groups, shared FAQs, logistics and team size.",
-    author: AUTHOR,
-    publishedAt: EXEC_PUBLISHED,
-    lastReviewed: EXEC_REVIEWED,
-    readingTime: "6 min read",
-    tags: ["influencer campaign coordination", "manage multiple influencers", "coordinate creators campaign", "multi-creator campaign", "influencer campaign at scale"],
-    related: ["influencer-campaign-tracker", "influencer-communication", "pan-india-influencer-marketing-campaign"],
-    hero: {
-      src: "/blog/brand-guides/influencer-campaign-coordination.svg",
-      alt: "Many creators coordinated in waves, with shared briefings, a common FAQ, staggered go-lives and one tracker",
-    },
-    body: [
-      {
-        type: "paragraph",
-        text: "Managing three creators is a series of conversations. Managing forty is a logistics operation: forty addresses, forty agreements, drafts arriving on different days, questions that ten creators ask in slightly different words, and a go-live calendar that needs to make sense to the audience as well as the team. Coordination is what makes scale manageable without turning creators into a queue.",
-      },
-      { type: "heading", text: "Quick answer", id: "quick-answer" },
-      {
-        type: "paragraph",
-        text: "Coordinate multiple creators by grouping them (by wave, language, region or deliverable type), running shared activities once (group briefings, a common FAQ, batch shipping) while keeping individual relationships personal, staggering go-lives deliberately, tracking everyone in one tracker with fixed statuses, and sizing the team to the number of creators. Standardise everything that can be standardised so time is left for the creators who need attention.",
-      },
-      { type: "heading", text: "Group creators sensibly", id: "groups" },
-      {
-        type: "table",
-        headers: ["Grouping", "Why", "Example"],
-        rows: [
-          ["Waves", "Spread workload and go-lives", "Wave 1 launch week, wave 2 two weeks later"],
-          ["Language", "Briefings, reviews and FAQs in the same language", "Hindi, Tamil, Bengali groups"],
-          ["Region", "Logistics and local timing", "South India shipped first"],
-          ["Deliverable type", "Different specs and reviews", "Reels creators vs YouTube integrations vs UGC"],
-          ["Relationship", "Different level of guidance", "Repeat partners vs first-time creators"],
-        ],
-      },
-      { type: "heading", text: "Do shared work once", id: "shared" },
-      {
-        type: "list",
-        items: [
-          "Group kickoff per wave or language, with a recording or written recap.",
-          "One FAQ document, updated as questions arrive and shared with everyone.",
-          "Batch shipping with tracking shared in one message.",
-          "Standard submission instructions and naming.",
-          "Batch reviews at set times each day, so feedback is consistent.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Keep the relationship individual: personal confirmation messages, individual feedback, one-to-one calls for creators new to brand work. Influencer communication covers channels and ownership, and influencer campaign kickoff covers group sessions.",
-        links: [
-          { text: "Influencer communication", href: "/blog/influencer-communication" },
-          { text: "influencer campaign kickoff", href: "/blog/influencer-campaign-kickoff" },
-        ],
-      },
-      { type: "heading", text: "Plan go-lives deliberately", id: "go-lives" },
-      {
-        type: "table",
-        headers: ["Pattern", "How", "Use for"],
-        rows: [
-          ["Synchronised burst", "Many creators post within a short window", "Launches, sale days, embargoed announcements"],
-          ["Staggered", "Posts spread over days or weeks", "Sustained presence; avoiding audience fatigue"],
-          ["Waves", "Groups post in planned phases", "Testing then scaling; regional rollouts"],
-          ["Always-on", "Regular posts by a stable group", "Ambassador programmes"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Synchronised bursts need the most coordination: drafts approved several days early, embargo instructions in writing, and a go-live checklist ready for the day. Influencers for product launch covers launch coordination.",
-        links: [{ text: "Influencers for product launch", href: "/blog/influencers-for-product-launch" }],
-      },
-      { type: "heading", text: "Coordinating across languages and regions", id: "regional" },
-      {
-        type: "list",
-        items: [
-          "One core brief, localised per language and checked by native speakers.",
-          "Reviewers who understand each language for claims and disclosure.",
-          "Ship to farther regions first.",
-          "Plan around regional festivals and local events.",
-          "Report by region as well as overall.",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "How to run a pan-India influencer marketing campaign covers multi-market planning in depth.",
-        links: [{ text: "How to run a pan-India influencer marketing campaign", href: "/blog/pan-india-influencer-marketing-campaign" }],
-      },
-      { type: "heading", text: "Team size and roles", id: "team" },
-      {
-        type: "table",
-        headers: ["Role", "Typical responsibility"],
-        rows: [
-          ["Campaign lead", "Plan, decisions, escalations, stakeholder updates"],
-          ["Creator coordinators", "A defined group of creators each: communication, tracker updates"],
-          ["Reviewer(s)", "Consolidated feedback within agreed times"],
-          ["Logistics", "Shipping, tracking, replacements"],
-          ["Analyst", "Insights collection and reporting"],
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "There's no fixed ratio of coordinators to creators; it depends on deliverable complexity, how many creators are new to brand work and how compressed the timeline is. A useful test: if a coordinator can't reply to every creator within the agreed response time during peak days, the team is too small. Influencer marketing team structure covers ownership models.",
-        links: [{ text: "Influencer marketing team structure", href: "/blog/influencer-marketing-team-structure" }],
-      },
-      { type: "heading", text: "Daily coordination rhythm during live campaigns", id: "rhythm" },
-      {
-        type: "template",
-        label: "Daily rhythm (live window)",
-        text: "MORNING: tracker flags: drafts due, feedback overdue, posts due today, products in transit\nMIDDAY: batch review of submitted drafts; consolidated feedback sent\nAFTERNOON: go-live checks on today's posts; FAQ updated; issues escalated\nEND OF DAY: tracker updated; tomorrow's go-lives confirmed with creators",
-      },
-      { type: "heading", text: "Hypothetical example", id: "example" },
-      {
-        type: "paragraph",
-        text: "Hypothetical: a D2C home brand runs 45 nano and micro creators across five languages for Diwali. It splits them into three waves and five language groups, runs one group kickoff per language, keeps a single FAQ, ships to the farthest regions first and assigns each of three coordinators about 15 creators. Wave 1 posts in the first festive week; insights from wave 1 refine the brief for waves 2 and 3. The team handles 45 creators without anyone feeling like a ticket number.",
-      },
-      { type: "heading", text: "Coordination checklist", id: "checklist" },
-      {
-        type: "template",
-        label: "Before a multi-creator campaign goes live",
-        text: "□ Creators grouped by wave, language and region\n□ One owner per creator; coordinators' groups assigned\n□ Group kickoffs scheduled; written recaps ready\n□ Shared FAQ created and linked in every brief\n□ Shipping plan: farthest regions first; tracking shared\n□ Submission instructions and naming standard sent\n□ Reviewers for each language confirmed; batch review times set\n□ Go-live pattern decided (burst, staggered, waves) and calendar shared\n□ Tracker set up with flags for due-soon and overdue items\n□ Escalation contacts shared; reserve creators identified\n□ Go-live checklist ready for each posting day",
-      },
-      {
-        type: "paragraph",
-        text: "Influencer content quality check provides the go-live checklist, and influencer campaign escalation covers what to do when something goes wrong mid-campaign.",
-        links: [
-          { text: "Influencer content quality check", href: "/blog/influencer-content-quality-check" },
-          { text: "influencer campaign escalation", href: "/blog/influencer-campaign-escalation" },
-        ],
-      },
-      { type: "heading", text: "Common mistakes", id: "mistakes" },
-      {
-        type: "list",
-        items: [
-          "Treating every creator identically, including repeat partners and first-timers.",
-          "Answering the same question 20 times instead of updating a shared FAQ.",
-          "All go-lives on one day without a reason.",
-          "No regional or language reviewers.",
-          "One coordinator for too many creators at peak times.",
-        ],
-      },
-      { type: "heading", text: "Conclusion", id: "conclusion" },
-      {
-        type: "paragraph",
-        text: "Coordinating many creators is about grouping, standardising shared work, planning go-lives deliberately and keeping relationships personal. Use one tracker, a shared FAQ, batch reviews and a daily rhythm in live windows, and size the team so every creator still gets timely replies. For the tracker itself, see influencer campaign tracker; for creators across several platforms, see multi-platform influencer campaigns.",
-        links: [
-          { text: "influencer campaign tracker", href: "/blog/influencer-campaign-tracker" },
-          { text: "multi-platform influencer campaigns", href: "/blog/multi-platform-influencer-campaigns" },
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: "How do brands manage multiple influencers in one campaign?",
-        answer:
-          "By grouping creators by wave, language, region or deliverable type, running shared activities once (briefings, FAQ, shipping), keeping communication personal, staggering go-lives deliberately and tracking everyone in one tracker.",
-      },
-      {
-        question: "Should all influencers post on the same day?",
-        answer:
-          "Only when timing matters, such as a launch or sale day. Otherwise staggered posts or waves often sustain presence and avoid audience fatigue.",
-      },
-      {
-        question: "How many creators can one coordinator manage?",
-        answer:
-          "There's no fixed number. It depends on deliverable complexity, how many creators are new to brand work and timeline pressure. If a coordinator can't reply within agreed times at peak, the team is too small.",
       },
     ],
   },

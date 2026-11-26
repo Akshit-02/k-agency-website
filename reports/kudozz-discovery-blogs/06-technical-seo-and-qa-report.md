@@ -50,3 +50,7 @@ Headless Chromium at 1440×900, 768×1024 and 375×812 on four representative ar
 - **Links to noindexed pages.** Six body links point at existing posts that are `noindex,follow`; harmless, listed in report 04.
 - **The discovery platform has no analytics**, so `utm_*` tags are only visible in the platform's server logs until analytics is added there.
 - **Not done:** deployment, GSC indexing requests, cross-browser/device testing.
+
+## Correction (26 Nov 2026)
+
+The link checks above verified URLs but not `#section` anchors. A later anchor-aware check (batch 3) found three links on existing pages pointing at sections removed by this batch's rewrites (`influencers-for-product-launch#stock` ×2, `influencer-database#before-import`). They were repointed to `#store-stock` and `#data-hygiene`. A site-wide re-check now finds 0 broken links or anchors.

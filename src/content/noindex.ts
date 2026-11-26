@@ -102,7 +102,7 @@ const LOW_DEMAND_ARTICLES = [
   "ai-influencer-matching",
   "influencer-social-listening",
   "influencer-trend-tracking",
-  "influencer-ranking",
+  // "influencer-ranking" restored 26 Nov 2026: rewritten for the Kudozz Discovery cluster (batch 3); request indexing in GSC.
   "repeat-influencer-collaborations",
   "influencer-campaign-kickoff",
   "influencer-campaign-information-sheet",
@@ -159,10 +159,10 @@ const LOW_DEMAND_ARTICLES = [
   "influencer-marketing-india",
   "repurpose-influencer-content",
   "influencer-marketing-campaign-ideas",
-  "influencer-marketing-budget",
+  // "influencer-marketing-budget" restored 26 Nov 2026: rewritten for the Kudozz Discovery cluster (batch 3); request indexing in GSC.
   "influencer-marketing-platforms",
   // "how-to-find-ugc-creators" restored 25 Nov 2026: rewritten for the Kudozz Discovery cluster; request indexing in GSC.
-  "how-to-create-a-successful-influencer-marketing-campaign",
+  // "how-to-create-a-successful-influencer-marketing-campaign" restored 26 Nov 2026: rewritten for the Kudozz Discovery cluster (batch 3); request indexing in GSC.
   "ugc-vs-influencer-content-whats-the-difference",
 ];
 

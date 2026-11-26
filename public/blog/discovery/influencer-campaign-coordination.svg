@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A status board with columns from confirmed to paid, creator cards moving across it, and notes on which work is shared across creators and which stays individual</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Many creators, one board</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Fixed statuses, one owner per creator, shared work done once.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="185" width="198" height="46" fill="#150F0B"/><rect x="286" y="185" width="198" height="46" fill="#150F0B"/><rect x="492" y="185" width="198" height="46" fill="#150F0B"/><rect x="698" y="185" width="198" height="46" fill="#150F0B"/><rect x="904" y="185" width="198" height="46" fill="#150F0B"/><rect x="1110" y="185" width="198" height="46" fill="#150F0B"/><rect x="1316" y="185" width="204" height="46" fill="#150F0B"/>
+</g>
+<g stroke="#150F0B" stroke-width="2" fill="none">
+<rect x="80" y="231" width="198" height="290"/><rect x="286" y="231" width="198" height="290"/><rect x="492" y="231" width="198" height="290"/><rect x="698" y="231" width="198" height="290"/><rect x="904" y="231" width="198" height="290"/><rect x="1110" y="231" width="198" height="290"/><rect x="1316" y="231" width="204" height="290"/>
+</g>
+<g font-size="16" font-weight="700" fill="#FAF1E2"><text x="96" y="214">Confirmed</text><text x="302" y="214">Briefed</text><text x="508" y="214">Product sent</text><text x="714" y="214">Draft in</text><text x="920" y="214">Approved</text><text x="1126" y="214">Live</text><text x="1332" y="214">Paid + closed</text></g>
+<g stroke="#150F0B" stroke-width="2" fill="#FFFFFF">
+<rect x="96" y="249" width="166" height="44"/><rect x="96" y="303" width="166" height="44"/>
+<rect x="302" y="249" width="166" height="44"/><rect x="302" y="303" width="166" height="44"/><rect x="302" y="357" width="166" height="44"/>
+<rect x="508" y="249" width="166" height="44"/><rect x="508" y="303" width="166" height="44"/>
+<rect x="714" y="249" width="166" height="44" fill="#FF4D1C"/><rect x="714" y="303" width="166" height="44"/><rect x="714" y="357" width="166" height="44"/><rect x="714" y="411" width="166" height="44"/>
+<rect x="920" y="249" width="166" height="44"/><rect x="920" y="303" width="166" height="44"/>
+<rect x="1126" y="249" width="166" height="44" fill="#CCFF3D"/><rect x="1126" y="303" width="166" height="44" fill="#CCFF3D"/>
+<rect x="1332" y="249" width="172" height="44"/>
+</g>
+<g font-size="16" fill="#150F0B">
+<text x="110" y="277">Creator A</text><text x="110" y="331">Creator B</text>
+<text x="316" y="277">Creator C</text><text x="316" y="331">Creator D</text><text x="316" y="385">Creator E</text>
+<text x="522" y="277">Creator F</text><text x="522" y="331">Creator G</text>
+<text x="728" y="277">Creator H</text><text x="728" y="331">Creator I</text><text x="728" y="385">Creator J</text><text x="728" y="439">Creator K</text>
+<text x="934" y="277">Creator L</text><text x="934" y="331">Creator M</text>
+<text x="1140" y="277">Creator N</text><text x="1140" y="331">Creator O</text>
+<text x="1346" y="277">Creator P</text>
+</g>
+<text x="714" y="490" font-size="14" font-weight="700" fill="#FF4D1C">OVERDUE: CHASE</text><text x="714" y="510" font-size="14" font-weight="700" fill="#FF4D1C">CREATOR H TODAY</text>
+<rect x="80" y="555" width="710" height="80" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<rect x="810" y="555" width="710" height="80" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="104" y="586" font-size="15" font-weight="700" fill="#150F0B">DONE ONCE FOR THE GROUP</text>
+<text x="104" y="618" font-size="20" fill="#150F0B">Kickoff, FAQ, shipping, review slots</text>
+<text x="834" y="586" font-size="15" font-weight="700" fill="#150F0B">KEPT INDIVIDUAL</text>
+<text x="834" y="618" font-size="20" fill="#150F0B">Draft feedback, payments, check-ins</text>
+</svg>

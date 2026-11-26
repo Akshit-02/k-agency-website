@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Twelve influencer pricing factors grouped into reach, content, rights and market, all feeding into the creator's quote</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">How much to pay influencers</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Twelve factors set the quote. Follower count is only one of them.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="200" width="250" height="50" fill="#150F0B"/><rect x="360" y="200" width="250" height="50" fill="#150F0B"/><rect x="640" y="200" width="250" height="50" fill="#150F0B"/><rect x="920" y="200" width="250" height="50" fill="#150F0B"/>
+<rect x="80" y="270" width="250" height="56" fill="#FAF1E2" stroke-dasharray="8 6"/><rect x="80" y="340" width="250" height="56" fill="#FFFFFF"/><rect x="80" y="410" width="250" height="56" fill="#FFFFFF"/><rect x="80" y="480" width="250" height="56" fill="#FFFFFF"/>
+<rect x="360" y="270" width="250" height="56" fill="#FFFFFF"/><rect x="360" y="340" width="250" height="56" fill="#FFFFFF"/><rect x="360" y="410" width="250" height="56" fill="#FFFFFF"/>
+<rect x="640" y="270" width="250" height="56" fill="#CCFF3D"/><rect x="640" y="340" width="250" height="56" fill="#CCFF3D"/>
+<rect x="920" y="270" width="250" height="56" fill="#FFFFFF"/><rect x="920" y="340" width="250" height="56" fill="#FFFFFF"/><rect x="920" y="410" width="250" height="56" fill="#FFFFFF"/>
+</g>
+<g font-size="20" font-weight="700" fill="#CCFF3D"><text x="100" y="232">Reach</text><text x="380" y="232">Content</text><text x="660" y="232">Rights</text><text x="940" y="232">Market</text></g>
+<g font-size="19" fill="#150F0B">
+<text x="100" y="305">Followers (a band)</text><text x="100" y="375">Median views</text><text x="100" y="445">Engagement quality</text><text x="100" y="515">Audience fit</text>
+<text x="380" y="305">Platform + format</text><text x="380" y="375">Production</text><text x="380" y="445">Timeline</text>
+<text x="660" y="305">Usage, whitelisting</text><text x="660" y="375">Exclusivity</text>
+<text x="940" y="305">Niche, expertise</text><text x="940" y="375">Demand, season</text><text x="940" y="445">Representation</text>
+</g>
+<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M80 570H1170"/><path d="M205 536V570M485 466V570M765 396V570M1045 466V570"/><path d="M1170 570H1200V400H1230"/></g>
+<path d="M1226 386l24 14-24 14z" fill="#150F0B"/>
+<rect x="1250" y="270" width="270" height="260" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="1274" y="330" font-size="30" font-weight="700" fill="#150F0B">The quote</text>
+<g font-size="19" fill="#150F0B"><text x="1274" y="380">Fee per deliverable</text><text x="1274" y="412">+ each right priced</text><text x="1274" y="444">separately</text><text x="1274" y="496" font-weight="700">Then: worth it?</text></g>
+<text x="80" y="640" font-size="18" fill="#150F0B" opacity=".65">Factors are grouped for clarity. Their weight differs for every creator and campaign.</text>
+</svg>

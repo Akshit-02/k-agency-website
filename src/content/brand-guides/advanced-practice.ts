@@ -814,7 +814,7 @@ export const advancedPracticePosts: BlogPost[] = [
           { text: "finding and vetting influencers in Australia", href: "/blog/find-vet-influencers-australia" },
           { text: "finding micro-influencers in Saudi Arabia", href: "/blog/find-micro-influencers-saudi-arabia" },
           { text: "regional influencer marketing in the UK", href: "/blog/regional-influencer-marketing-uk" },
-          { text: "how to choose the right influencer", href: "/blog/how-to-choose-the-right-influencer-for-your-brand#selection-scorecard" },
+          { text: "how to choose the right influencer", href: "/blog/how-to-choose-the-right-influencer-for-your-brand#scorecard" },
         ],
       },
       { type: "subheading", text: "The Middle East is several markets" },

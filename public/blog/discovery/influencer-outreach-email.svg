@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">An annotated influencer collaboration email: subject, personal opening, why the creator fits, the offer and one next step, with four email types: paid, gifting, UGC and long-term</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">Anatomy of a collaboration email</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">About 150 words. Compensation clear on the first screen.</text>
+<rect x="80" y="190" width="640" height="440" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="80" y="190" width="640" height="56" fill="#150F0B"/><text x="104" y="226" font-size="19" fill="#FAF1E2">Subject: [Brand] x [Creator]: paid Reel, Dec</text>
+<rect x="104" y="272" width="520" height="14" fill="#FF4D1C"/><rect x="104" y="296" width="380" height="14" fill="#FF4D1C"/>
+<rect x="104" y="340" width="460" height="14" fill="#150F0B" opacity=".25"/>
+<rect x="104" y="384" width="540" height="14" fill="#CCFF3D" stroke="#150F0B" stroke-width="1"/><rect x="104" y="408" width="300" height="14" fill="#CCFF3D" stroke="#150F0B" stroke-width="1"/>
+<rect x="104" y="452" width="500" height="14" fill="#150F0B"/><rect x="104" y="476" width="420" height="14" fill="#150F0B"/>
+<rect x="104" y="526" width="260" height="40" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/><text x="120" y="552" font-size="17" font-weight="700" fill="#150F0B">One next step?</text>
+<g stroke="#150F0B" stroke-width="2"><path d="M730 218 H780"/><path d="M640 285 H780"/><path d="M580 347 H780"/><path d="M660 400 H780"/><path d="M620 470 H780"/><path d="M380 546 H780"/></g>
+<g font-size="18" fill="#150F0B"><text x="792" y="224" font-weight="700">Subject: type + timing</text><text x="792" y="291" font-weight="700">Opening: their content</text><text x="792" y="353">Who you are, one line</text><text x="792" y="406" font-weight="700">Why them</text><text x="792" y="476" font-weight="700">Offer: deliverables + pay</text><text x="792" y="552">Single question</text></g>
+<g font-size="21" font-weight="700" fill="#150F0B">
+<rect x="1110" y="190" width="200" height="200" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/><text x="1132" y="232">Paid</text><text x="1132" y="364" font-size="16" font-weight="400">Fee + scope</text>
+<rect x="1330" y="190" width="200" height="200" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/><text x="1352" y="232">Gifting</text><text x="1352" y="364" font-size="16" font-weight="400">No obligation</text>
+<rect x="1110" y="410" width="200" height="200" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/><text x="1132" y="452">UGC</text><text x="1132" y="584" font-size="16" font-weight="400">Usage rights</text>
+<rect x="1330" y="410" width="200" height="200" fill="#150F0B" stroke="#150F0B" stroke-width="3"/><text x="1352" y="452" fill="#CCFF3D">Long-term</text><text x="1352" y="584" font-size="16" font-weight="400" fill="#FAF1E2">Shape it together</text>
+</g>
+<text x="1110" y="172" font-size="15" font-weight="700" fill="#150F0B" opacity=".6">FOUR TEMPLATES</text>
+</svg>

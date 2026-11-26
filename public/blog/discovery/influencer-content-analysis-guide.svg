@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A creator's last twelve posts laid out as a grid and tagged by format and as sponsored or organic, with six content analysis lenses: format mix, sponsored versus organic, storytelling and production, consistency, comment themes, and claims and disclosure</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Analyse the ordinary posts, not the pinned ones</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">A dated sample of recent posts, read through six lenses.</text>
+<g stroke="#150F0B" stroke-width="2">
+<rect x="80" y="210" width="150" height="112" fill="#FFFFFF"/>
+<rect x="244" y="210" width="150" height="112" fill="#FF4D1C"/>
+<rect x="408" y="210" width="150" height="112" fill="#FFFFFF"/>
+<rect x="572" y="210" width="150" height="112" fill="#FFFFFF"/>
+<rect x="80" y="336" width="150" height="112" fill="#FFFFFF"/>
+<rect x="244" y="336" width="150" height="112" fill="#FFFFFF"/>
+<rect x="408" y="336" width="150" height="112" fill="#FF4D1C"/>
+<rect x="572" y="336" width="150" height="112" fill="#FFFFFF"/>
+<rect x="80" y="462" width="150" height="112" fill="#FFFFFF"/>
+<rect x="244" y="462" width="150" height="112" fill="#FF4D1C"/>
+<rect x="408" y="462" width="150" height="112" fill="#FFFFFF"/>
+<rect x="572" y="462" width="150" height="112" fill="#FFFFFF"/>
+</g>
+<g font-size="18" font-weight="700" fill="#150F0B">
+<text x="94" y="244">Reel</text><text x="94" y="302" font-size="15" opacity=".7">Organic</text><text x="258" y="244">Reel</text><text x="258" y="302" font-size="15" opacity=".7">Sponsored</text><text x="422" y="244">Carousel</text><text x="422" y="302" font-size="15" opacity=".7">Organic</text><text x="586" y="244">Reel</text><text x="586" y="302" font-size="15" opacity=".7">Organic</text><text x="94" y="370">Static</text><text x="94" y="428" font-size="15" opacity=".7">Organic</text><text x="258" y="370">Reel</text><text x="258" y="428" font-size="15" opacity=".7">Organic</text><text x="422" y="370">Reel</text><text x="422" y="428" font-size="15" opacity=".7">Sponsored</text><text x="586" y="370">Carousel</text><text x="586" y="428" font-size="15" opacity=".7">Organic</text><text x="94" y="496">Reel</text><text x="94" y="554" font-size="15" opacity=".7">Organic</text><text x="258" y="496">Story</text><text x="258" y="554" font-size="15" opacity=".7">Sponsored</text><text x="422" y="496">Reel</text><text x="422" y="554" font-size="15" opacity=".7">Organic</text><text x="586" y="496">Reel</text><text x="586" y="554" font-size="15" opacity=".7">Organic</text>
+</g>
+<path d="M752 404 H812" stroke="#150F0B" stroke-width="3"/><path d="M800 394 L814 404 L800 414 Z" fill="#150F0B"/>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="840" y="210" width="680" height="368" fill="#FFFFFF"/>
+<rect x="840" y="210" width="680" height="56" fill="#CCFF3D"/>
+</g>
+<text x="864" y="246" font-size="21" font-weight="700" fill="#150F0B">Six lenses, one sheet per creator</text>
+<g font-size="19" fill="#150F0B">
+<text x="864" y="306"><tspan font-weight="700">1</tspan>  Format mix: do they make the format we need?</text>
+<text x="864" y="352"><tspan font-weight="700">2</tspan>  Sponsored vs organic: does quality hold?</text>
+<text x="864" y="398"><tspan font-weight="700">3</tspan>  Storytelling: hook, structure, audio, visuals</text>
+<text x="864" y="444"><tspan font-weight="700">4</tspan>  Consistency: rhythm, quality floor, focus</text>
+<text x="864" y="490"><tspan font-weight="700">5</tspan>  Comment themes: what the audience discusses</text>
+<text x="864" y="536"><tspan font-weight="700">6</tspan>  Claims and disclosure: overclaims, labels</text>
+</g>
+<rect x="80" y="626" width="20" height="20" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="112" y="643" font-size="18" fill="#150F0B" opacity=".75">Sponsored posts preview your own collaboration. Link the evidence behind every verdict.</text>
+</svg>

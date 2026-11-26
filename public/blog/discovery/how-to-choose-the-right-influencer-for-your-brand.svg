@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Five layers of influencer brand fit stacked as a filter: audience, category credibility, voice and values, visual world and practical fit, with brand safety, disclosure and competitor conflict as pass or fail gates</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Five layers of brand fit</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Write the fit brief first. Then test each layer with evidence.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="210" width="900" height="70" fill="#CCFF3D"/>
+<rect x="130" y="290" width="800" height="70" fill="#FFFFFF"/>
+<rect x="180" y="370" width="700" height="70" fill="#FFFFFF"/>
+<rect x="230" y="450" width="600" height="70" fill="#FFFFFF"/>
+<rect x="280" y="530" width="500" height="70" fill="#FFFFFF"/>
+</g>
+<g font-size="21" font-weight="700" fill="#150F0B">
+<text x="104" y="253">1  Audience fit</text>
+<text x="154" y="333">2  Category credibility</text>
+<text x="204" y="413">3  Voice and values</text>
+<text x="254" y="493">4  Visual world</text>
+<text x="304" y="573">5  Practical fit</text>
+</g>
+<g font-size="17" fill="#150F0B" opacity=".75">
+<text x="560" y="253">Are their followers our customers?</text>
+<text x="560" y="333">Would they use it unpaid?</text>
+<text x="560" y="413">Would we say this?</text>
+<text x="500" y="493">Does it suit the product?</text>
+<text x="500" y="573">Format, rate, timing</text>
+</g>
+<rect x="1060" y="210" width="460" height="390" fill="#150F0B" stroke="#150F0B" stroke-width="3"/>
+<text x="1090" y="258" font-size="24" font-weight="700" fill="#FF4D1C">Gates: pass or fail</text>
+<g stroke="#FAF1E2" stroke-width="2" fill="none"><rect x="1090" y="300" width="26" height="26"/><rect x="1090" y="370" width="26" height="26"/><rect x="1090" y="440" width="26" height="26"/></g>
+<g font-size="20" fill="#FAF1E2"><text x="1134" y="320">Brand safety</text><text x="1134" y="390">Clear disclosure</text><text x="1134" y="460">No competitor conflict</text></g>
+<text x="1090" y="540" font-size="17" fill="#CCFF3D">Fail one and the creator is out,</text>
+<text x="1090" y="566" font-size="17" fill="#CCFF3D">however well they score elsewhere.</text>
+<text x="80" y="656" font-size="18" fill="#150F0B" opacity=".65">Score layers 1–5 by objective; keep the posts that justify each score.</text>
+</svg>

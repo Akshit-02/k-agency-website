@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Four illustrative patterns worth a question: followers jump while likes stay flat, views far below the following, likes that don't move with views, and the same commenters on every post, plus a weight-of-evidence scale from low to high concern</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">Patterns worth a question, not a verdict</text>
+<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Illustrative shapes only. No single signal proves fake followers.</text>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF">
+<rect x="80" y="210" width="340" height="250"/><rect x="440" y="210" width="340" height="250"/>
+<rect x="800" y="210" width="340" height="250"/><rect x="1160" y="210" width="360" height="250"/>
+</g>
+<g font-size="18" font-weight="700" fill="#150F0B"><text x="100" y="244">Follower jump, flat likes</text><text x="460" y="244">Views below following</text><text x="820" y="244">Likes ignore views</text><text x="1180" y="244">Same first commenters</text></g>
+<g stroke="#150F0B" stroke-width="2"><path d="M100 430 H400 M100 270 V430"/><path d="M460 430 H760 M460 270 V430"/><path d="M820 430 H1120 M820 270 V430"/></g>
+<path d="M110 400 L170 395 L230 390 L250 320 L320 314 L390 310" fill="none" stroke="#FF4D1C" stroke-width="4"/>
+<path d="M110 410 L170 408 L230 410 L250 409 L320 410 L390 408" fill="none" stroke="#150F0B" stroke-width="4"/>
+<g font-size="14" fill="#150F0B"><text x="300" y="300">followers</text><text x="320" y="396">likes</text></g>
+<path d="M470 300 H750" stroke="#150F0B" stroke-width="3" stroke-dasharray="8 6"/>
+<g fill="#FF4D1C" stroke="#150F0B" stroke-width="2"><rect x="490" y="390" width="34" height="40"/><rect x="550" y="395" width="34" height="35"/><rect x="610" y="388" width="34" height="42"/><rect x="670" y="396" width="34" height="34"/></g>
+<text x="586" y="290" font-size="14" fill="#150F0B">following size</text>
+<path d="M830 410 L890 340 L950 400 L1010 300 L1070 380 L1110 330" fill="none" stroke="#150F0B" stroke-width="4"/>
+<path d="M830 320 L890 322 L950 319 L1010 321 L1070 320 L1110 322" fill="none" stroke="#FF4D1C" stroke-width="4"/>
+<g font-size="14" fill="#150F0B"><text x="1040" y="308">likes</text><text x="1060" y="410">views</text></g>
+<g stroke="#150F0B" stroke-width="2">
+<rect x="1180" y="270" width="320" height="38" fill="#CCFF3D"/><rect x="1180" y="318" width="320" height="38" fill="#CCFF3D"/><rect x="1180" y="366" width="320" height="38" fill="#CCFF3D"/><rect x="1180" y="414" width="320" height="30" fill="#FFFFFF"/>
+</g>
+<g font-size="15" fill="#150F0B"><text x="1194" y="295">Post 1: same 4 accounts, 2 min</text><text x="1194" y="343">Post 2: same 4 accounts, 2 min</text><text x="1194" y="391">Post 3: same 4 accounts, 2 min</text><text x="1194" y="435">Then: 'nice', 'nice', 'nice'</text></g>
+<g stroke="#150F0B" stroke-width="3"><rect x="80" y="500" width="470" height="110" fill="#FFFFFF"/><rect x="565" y="500" width="470" height="110" fill="#CCFF3D"/><rect x="1050" y="500" width="470" height="110" fill="#FF4D1C"/></g>
+<g fill="#150F0B"><text x="104" y="542" font-size="20" font-weight="700">One signal</text><text x="104" y="576" font-size="17">Low concern: note it</text>
+<text x="589" y="542" font-size="20" font-weight="700">Two or more together</text><text x="589" y="576" font-size="17">Medium: ask, request insights</text>
+<text x="1074" y="542" font-size="20" font-weight="700">Several + no explanation</text><text x="1074" y="576" font-size="17">High: usually move on</text></g>
+<text x="80" y="660" font-size="18" fill="#150F0B" opacity=".65">Keep conclusions private. Never label a specific creator as fake in public.</text>
+</svg>
