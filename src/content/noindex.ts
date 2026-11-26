@@ -97,6 +97,7 @@ const LOW_DEMAND_ARTICLES = [
   "creator-brand-safety",
   "creator-analytics-dashboard",
   "creator-case-study",
+  // "expert-creator-marketing" restored 27 Nov 2026: rewritten for the Kudozz Discovery cluster (batch 5); request indexing in GSC.
   "influencer-marketing-annual-plan",
   "ai-influencer-matching",
   "influencer-social-listening",
@@ -107,6 +108,7 @@ const LOW_DEMAND_ARTICLES = [
   "influencer-campaign-information-sheet",
   "influencer-campaign-documentation",
   "influencer-campaign-handover",
+  // "influencer-exclusivity" restored 27 Nov 2026: rewritten for the Kudozz Discovery cluster (batch 5); request indexing in GSC.
   "influencer-campaign-hidden-costs",
   "influencer-reporting-discrepancies",
   "creator-content-ai-product-discovery",
