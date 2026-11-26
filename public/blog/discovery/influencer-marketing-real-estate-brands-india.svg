@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A project timeline from RERA registration through launch, construction and possession, showing which real estate creators to use at each phase and the check that applies</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Creators follow the project, not one launch day</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Each phase has its own creators and its own check before posting.</text>
+<path d="M80 250 H1520" stroke="#150F0B" stroke-width="6"/>
+<g stroke="#150F0B" stroke-width="3">
+<circle cx="190" cy="250" r="22" fill="#FF4D1C"/><circle cx="550" cy="250" r="22" fill="#CCFF3D"/><circle cx="910" cy="250" r="22" fill="#FFFFFF"/><circle cx="1270" cy="250" r="22" fill="#FFFFFF"/>
+<rect x="80" y="300" width="330" height="300" fill="#FFFFFF"/><rect x="440" y="300" width="330" height="300" fill="#CCFF3D"/><rect x="800" y="300" width="330" height="300" fill="#FFFFFF"/><rect x="1160" y="300" width="330" height="300" fill="#FFFFFF"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="104" y="330">PHASE 0</text><text x="464" y="330">PHASE 1</text><text x="824" y="330">PHASE 2</text><text x="1184" y="330">PHASE 3</text></g>
+<g font-size="26" font-weight="700" fill="#150F0B"><text x="104" y="364">Registration</text><text x="464" y="364">Launch</text><text x="824" y="364">Construction</text><text x="1184" y="364">Possession</text></g>
+<g font-size="18" fill="#150F0B">
+<text x="104" y="404">Developer-brand and</text><text x="104" y="428">locality content only</text><text x="104" y="468">No project promotion</text><text x="104" y="492">before registration</text>
+<text x="464" y="404">City guides, show-flat</text><text x="464" y="428">tours, launch events</text><text x="464" y="468">RERA number and</text><text x="464" y="492">website on screen</text>
+<text x="824" y="404">Engineers, architects,</text><text x="824" y="428">progress updates</text><text x="824" y="468">Dates match the</text><text x="824" y="492">registered completion</text>
+<text x="1184" y="404">Owners, interior and</text><text x="1184" y="428">family creators</text><text x="1184" y="468">Written consent;</text><text x="1184" y="492">honest about snags</text>
+</g>
+<g font-size="16" font-weight="700" fill="#150F0B"><text x="104" y="570">CHECK: section 3</text><text x="464" y="570">CHECK: section 11(2)</text><text x="824" y="570">CHECK: approved facts</text><text x="1184" y="570">CHECK: consent</text></g>
+<rect x="80" y="630" width="12" height="12" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="104" y="642" font-size="18" fill="#150F0B" opacity=".75">Judge creators on qualified site visits over months, not views.</text>
+</svg>

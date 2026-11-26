@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A two-part flow: first check whether the creator is free, through public research and direct questions, then decide what exclusivity to ask for by category, duration, platform and market</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Exclusivity, in the right order</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="160" width="620" height="460" fill="#FFFFFF"/>
+<rect x="900" y="160" width="620" height="460" fill="#FFFFFF"/>
+</g>
+<rect x="80" y="160" width="620" height="80" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<rect x="900" y="160" width="620" height="80" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<g font-size="28" font-weight="700" fill="#150F0B"><text x="110" y="212">1  Is the creator free?</text><text x="930" y="212">2  What do you need?</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="#FAF1E2">
+<rect x="120" y="280" width="540" height="130"/><rect x="120" y="440" width="540" height="130"/>
+</g>
+<g font-size="24" font-weight="700" fill="#150F0B"><text x="150" y="335">Public research</text><text x="150" y="495">Ask in writing</text></g>
+<g font-size="18" fill="#150F0B" opacity=".7"><text x="150" y="370">Past posts, competitor tags</text><text x="150" y="530">Current deals, end dates</text></g>
+<path d="M720 390 L860 390" stroke="#150F0B" stroke-width="4"/><path d="M880 390 l-24 -14 v28z" fill="#150F0B"/>
+<g font-size="22" font-weight="700" fill="#150F0B">
+<text x="940" y="310">Category</text><text x="940" y="390">Duration</text><text x="940" y="470">Platforms</text><text x="940" y="550">Markets</text>
+</g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="1160" y="290" width="320" height="26" fill="#FFFFFF"/><rect x="1160" y="290" width="110" height="26" fill="#150F0B"/>
+<rect x="1160" y="370" width="320" height="26" fill="#FFFFFF"/><rect x="1160" y="370" width="150" height="26" fill="#150F0B"/>
+<rect x="1160" y="450" width="320" height="26" fill="#FFFFFF"/><rect x="1160" y="450" width="90" height="26" fill="#150F0B"/>
+<rect x="1160" y="530" width="320" height="26" fill="#FFFFFF"/><rect x="1160" y="530" width="130" height="26" fill="#150F0B"/>
+</g>
+<g font-size="15" fill="#150F0B" opacity=".6"><text x="1160" y="595">Narrow</text><text x="1440" y="595">Broad</text></g>
+<text x="80" y="665" font-size="18" fill="#150F0B" opacity=".75">Keep it narrow, priced separately and within the agreement's term.</text>
+</svg>

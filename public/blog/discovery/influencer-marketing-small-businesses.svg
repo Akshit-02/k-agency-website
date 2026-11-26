@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A two-by-two grid comparing gifting and paid creator deals for local shops and small online sellers, with what each combination suits</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="96" font-size="36" font-weight="700" fill="#150F0B">Pick the deal that fits your business</text>
+<text x="80" y="138" font-size="20" fill="#150F0B" opacity=".65">Small budgets work best when the deal type matches how customers buy from you.</text>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="420" y="200">Gifting or barter</text><text x="1000" y="200">Paid collaboration</text></g>
+<g font-size="20" font-weight="700" fill="#150F0B"><text x="80" y="320">Local shop,</text><text x="80" y="346">café or salon</text><text x="80" y="530">Small online</text><text x="80" y="556">seller</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="400" y="220" width="560" height="200" fill="#FFFFFF"/><rect x="980" y="220" width="540" height="200" fill="#CCFF3D"/>
+<rect x="400" y="436" width="560" height="200" fill="#FFFFFF"/><rect x="980" y="436" width="540" height="200" fill="#FFFFFF"/>
+</g>
+<g font-size="19" fill="#150F0B">
+<text x="424" y="262" font-weight="700">Host a visit, agree one post</text><text x="424" y="296">Nearby creators and happy customers</text><text x="424" y="324">Code word at the counter</text><text x="424" y="352">Avoid your busiest day</text>
+<text x="1004" y="262" font-weight="700">Fixed date, fixed deliverables</text><text x="1004" y="296">Openings, events, limited offers</text><text x="1004" y="324">Creators in your city only</text><text x="1004" y="352">Track bookings and walk-ins</text>
+<text x="424" y="478" font-weight="700">Send product, see who loves it</text><text x="424" y="512">Niche nano creators</text><text x="424" y="540">Expect some not to post</text><text x="424" y="568">Ask before reposting</text>
+<text x="1004" y="478" font-weight="700">Small fee plus commission</text><text x="1004" y="512">Niche micro reviewers</text><text x="1004" y="540">Unique code and tracked link</text><text x="1004" y="568">Rebook whoever sells</text>
+</g>
+<rect x="80" y="660" width="12" height="12" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/>
+<text x="104" y="672" font-size="18" fill="#150F0B" opacity=".75">Every option, gifted or paid, needs terms in writing and a clear disclosure label.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A four-part filter that narrows a large pool of creators to an awareness shortlist by relevant reach, content fit, credibility and distribution, with awareness signals measured at the end</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Filter for awareness, not follower count</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Each test removes creators who would reach people but not be remembered.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="190" width="900" height="70" fill="#FFFFFF"/>
+<rect x="140" y="275" width="780" height="70" fill="#FFFFFF"/>
+<rect x="200" y="360" width="660" height="70" fill="#FFFFFF"/>
+<rect x="260" y="445" width="540" height="70" fill="#FFFFFF"/>
+<rect x="320" y="530" width="420" height="70" fill="#CCFF3D"/>
+<rect x="1060" y="190" width="460" height="410" fill="#FFFFFF"/>
+</g>
+<g font-size="22" font-weight="700" fill="#150F0B">
+<text x="110" y="233">1 Relevant reach</text><text x="170" y="318">2 Content fit</text><text x="230" y="403">3 Credibility</text><text x="290" y="488">4 Distribution</text><text x="350" y="573">Awareness shortlist</text>
+</g>
+<g font-size="17" fill="#150F0B" opacity=".8">
+<text x="420" y="233">Niche, city, language, audience insights</text><text x="420" y="318">Brand fits their recurring formats</text><text x="420" y="403">Real comments, trusted picks</text><text x="480" y="488">Views vs followers, consistency</text><text x="600" y="573">in layers</text>
+</g>
+<text x="1090" y="236" font-size="22" font-weight="700" fill="#150F0B">Then measure</text>
+<g font-size="18" fill="#150F0B">
+<text x="1090" y="290">Reach and unique reach</text><text x="1090" y="340">Frequency</text><text x="1090" y="390">Branded search</text><text x="1090" y="440">Direct traffic</text><text x="1090" y="490">Brand-lift survey</text>
+</g>
+<g fill="#FF4D1C" stroke="#150F0B" stroke-width="2"><rect x="1460" y="275" width="20" height="20"/><rect x="1460" y="325" width="20" height="20"/><rect x="1460" y="375" width="20" height="20"/><rect x="1460" y="425" width="20" height="20"/><rect x="1460" y="475" width="20" height="20"/></g>
+<path d="M760 565 H1040" stroke="#150F0B" stroke-width="3"/><path d="M1044 565 l-16 -8 v16z" fill="#150F0B"/>
+<text x="1090" y="570" font-size="16" fill="#150F0B" opacity=".65">Against a pre-launch baseline</text>
+<text x="80" y="652" font-size="18" fill="#150F0B" opacity=".75">Size is judged last, after relevance.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A flow from product to creator to content to the Shopify store, where a discount code, tracked link and product page lead to results read product by product</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="96" font-size="36" font-weight="700" fill="#150F0B">Start with the product, end in your store</text>
+<text x="80" y="138" font-size="20" fill="#150F0B" opacity=".65">Each creator is matched to one product and connected to it before the post goes live.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="250" width="240" height="200" fill="#FFFFFF"/><rect x="380" y="250" width="240" height="200" fill="#FFFFFF"/><rect x="680" y="250" width="240" height="200" fill="#FFFFFF"/>
+<rect x="980" y="200" width="300" height="300" fill="#CCFF3D"/><rect x="1340" y="250" width="180" height="200" fill="#FF4D1C"/>
+<rect x="1004" y="262" width="252" height="52" fill="#FFFFFF"/><rect x="1004" y="326" width="252" height="52" fill="#FFFFFF"/><rect x="1004" y="390" width="252" height="52" fill="#FFFFFF"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="104" y="282">1 PRODUCT</text><text x="404" y="282">2 CREATOR</text><text x="704" y="282">3 CONTENT</text><text x="1004" y="240">4 YOUR STORE</text><text x="1364" y="282">5 RESULTS</text></g>
+<g font-size="24" font-weight="700" fill="#150F0B"><text x="104" y="320">Hero item</text><text x="404" y="320">Right role</text><text x="704" y="320">Demo first</text><text x="1364" y="320">By product</text></g>
+<g font-size="17" fill="#150F0B">
+<text x="104" y="356">Margin and stock</text><text x="104" y="380">Easier on video</text><text x="104" y="404">One to three to start</text>
+<text x="404" y="356">Demonstrator</text><text x="404" y="380">Honest reviewer</text><text x="404" y="404">Routine or UGC</text>
+<text x="704" y="356">Shows it working</text><text x="704" y="380">Rights agreed</text><text x="704" y="404">Disclosed clearly</text>
+<text x="1020" y="295">Unique discount code</text><text x="1020" y="359">UTM link to product page</text><text x="1020" y="423">Creator video on the page</text>
+<text x="1364" y="356">Sessions</text><text x="1364" y="380">Orders by code</text><text x="1364" y="404">Repeat buyers</text>
+</g>
+<g fill="none" stroke="#150F0B" stroke-width="3"><path d="M326 350 H372"/><path d="M626 350 H672"/><path d="M926 350 H972"/><path d="M1286 350 H1332"/></g>
+<g fill="#150F0B"><path d="M374 350 l-12 -7 v14z"/><path d="M674 350 l-12 -7 v14z"/><path d="M974 350 l-12 -7 v14z"/><path d="M1334 350 l-12 -7 v14z"/></g>
+<rect x="80" y="580" width="12" height="12" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="104" y="592" font-size="18" fill="#150F0B" opacity=".75">Discovery tools help with step 2. Codes, links and order tracking are set up in Shopify.</text>
+</svg>

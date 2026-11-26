@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A one-page strategy document with seven numbered sections: objective, audience, budget, creator criteria, content, phases and measurement</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="110" font-size="36" font-weight="700" fill="#150F0B">A new brand's strategy</text>
+<text x="80" y="156" font-size="36" font-weight="700" fill="#150F0B">fits on one page</text>
+<text x="80" y="210" font-size="20" fill="#150F0B" opacity=".65">Written before any creator</text>
+<text x="80" y="238" font-size="20" fill="#150F0B" opacity=".65">is contacted.</text>
+<g stroke="#150F0B" stroke-width="3"><rect x="80" y="300" width="400" height="300" fill="#FFFFFF"/><rect x="80" y="300" width="400" height="70" fill="#FF4D1C"/></g>
+<g font-size="20" font-weight="700" fill="#150F0B"><text x="104" y="344">Three jobs, in order</text></g>
+<g font-size="22" fill="#150F0B"><text x="104" y="420">1  Introduce the brand</text><text x="104" y="480">2  Explain the product</text><text x="104" y="540">3  Reassure buyers</text></g>
+<rect x="620" y="60" width="900" height="600" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="660" y="110" font-size="15" font-weight="700" fill="#150F0B" opacity=".6">ONE-PAGE STRATEGY</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="660" y="130" width="820" height="62" fill="#CCFF3D"/>
+<rect x="660" y="202" width="820" height="62" fill="#FFFFFF"/>
+<rect x="660" y="274" width="820" height="62" fill="#FFFFFF"/>
+<rect x="660" y="346" width="820" height="62" fill="#CCFF3D"/>
+<rect x="660" y="418" width="820" height="62" fill="#FFFFFF"/>
+<rect x="660" y="490" width="820" height="62" fill="#FFFFFF"/>
+<rect x="660" y="562" width="820" height="62" fill="#FFFFFF"/>
+</g>
+<g font-size="22" font-weight="700" fill="#150F0B">
+<text x="684" y="170">1 Objective</text><text x="684" y="242">2 Audience</text><text x="684" y="314">3 Budget</text><text x="684" y="386">4 Creator criteria</text><text x="684" y="458">5 Content</text><text x="684" y="530">6 Phases</text><text x="684" y="602">7 Measurement</text>
+</g>
+<g font-size="17" fill="#150F0B">
+<text x="980" y="170">One per phase: seed, pilot, main wave</text><text x="980" y="242">What they must believe to try it</text><text x="980" y="314">Small pilot, the rest held back</text><text x="980" y="386">Niche, tier, city, language, red flags</text><text x="980" y="458">One message, proof creators can show</text><text x="980" y="530">Prepare, seed, pilot, review, scale</text><text x="980" y="602">Reach, saves, branded search, orders</text>
+</g>
+</svg>

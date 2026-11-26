@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A market-entry timeline from research and city shortlists through pre-launch seeding, launch week and post-launch content to a three-month review, with the creator role at each stage</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Entering a new city: local voices, in order</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">One creator list per market. Activity follows real availability.</text>
+<path d="M100 400 H1500" stroke="#150F0B" stroke-width="4"/>
+<g stroke="#150F0B" stroke-width="3">
+<circle cx="180" cy="400" r="16" fill="#FFFFFF"/><circle cx="460" cy="400" r="16" fill="#FFFFFF"/><circle cx="740" cy="400" r="16" fill="#CCFF3D"/><circle cx="1020" cy="400" r="22" fill="#FF4D1C"/><circle cx="1300" cy="400" r="16" fill="#CCFF3D"/>
+<rect x="80" y="200" width="250" height="150" fill="#FFFFFF"/>
+<rect x="360" y="450" width="270" height="150" fill="#FFFFFF"/>
+<rect x="640" y="200" width="250" height="150" fill="#CCFF3D"/>
+<rect x="900" y="450" width="270" height="150" fill="#FF4D1C"/>
+<rect x="1200" y="200" width="300" height="150" fill="#FFFFFF"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".65"><text x="100" y="228">8 TO 10 WEEKS BEFORE</text><text x="380" y="478">6 TO 4 WEEKS BEFORE</text><text x="660" y="228">2 WEEKS BEFORE</text><text x="920" y="478">LAUNCH WEEK</text><text x="1220" y="228">WEEKS 2 TO 8, MONTH 3</text></g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="100" y="262">Research</text><text x="380" y="512">Seed</text><text x="660" y="262">Tease</text><text x="920" y="512">Launch</text><text x="1220" y="262">Repeat, review</text></g>
+<g font-size="17" fill="#150F0B">
+<text x="100" y="294">Shortlists per city</text><text x="100" y="318">and language</text>
+<text x="380" y="544">Product to local creators,</text><text x="380" y="568">no obligation to post</text>
+<text x="660" y="294">A few city creators,</text><text x="660" y="318">where stock is certain</text>
+<text x="920" y="544">City, language, niche</text><text x="920" y="568">creators, where to buy</text>
+<text x="1220" y="294">Second rounds, tutorials,</text><text x="1220" y="318">rebook by city results</text>
+</g>
+<text x="80" y="660" font-size="18" fill="#150F0B" opacity=".75">Illustrative timeline. Adjust to when product is actually on shelves and in apps.</text>
+</svg>

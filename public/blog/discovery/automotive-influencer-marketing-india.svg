@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A road-shaped launch timeline from reveal to first drives, regional rollout and ownership, with the automotive creator type for each stage and a road-safety lane running underneath</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">One launch, four kinds of creator</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Hand the story from reviewers to regional voices to owners.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="190" width="330" height="170" fill="#FFFFFF"/><rect x="437" y="190" width="330" height="170" fill="#CCFF3D"/><rect x="794" y="190" width="330" height="170" fill="#FFFFFF"/><rect x="1151" y="190" width="369" height="170" fill="#FFFFFF"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="104" y="220">REVEAL</text><text x="461" y="220">EMBARGO LIFT</text><text x="818" y="220">REGIONAL ROLLOUT</text><text x="1175" y="220">OWNERSHIP</text></g>
+<g font-size="24" font-weight="700" fill="#150F0B"><text x="104" y="256">Reviewers</text><text x="461" y="256">First-drive reviewers</text><text x="818" y="256">City and language</text><text x="1175" y="256">Owners and clubs</text></g>
+<g font-size="18" fill="#150F0B">
+<text x="104" y="292">First look, specs,</text><text x="104" y="316">price when announced</text>
+<text x="461" y="292">Real-road drives,</text><text x="461" y="316">honest comparisons</text>
+<text x="818" y="292">Local roads, running</text><text x="818" y="316">costs, dealer visits</text>
+<text x="1175" y="292">Long-term reviews,</text><text x="1175" y="316">trips, service stories</text>
+</g>
+<rect x="80" y="400" width="1440" height="120" fill="#150F0B"/>
+<g stroke="#FAF1E2" stroke-width="6" stroke-dasharray="48 32"><path d="M100 460 H1500"/></g>
+<g fill="#FF4D1C" stroke="#FAF1E2" stroke-width="3"><circle cx="245" cy="460" r="16"/><circle cx="602" cy="460" r="16"/><circle cx="959" cy="460" r="16"/><circle cx="1335" cy="460" r="16"/></g>
+<rect x="80" y="550" width="1440" height="90" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="104" y="588" font-size="22" font-weight="700" fill="#150F0B">Road-safety lane, every phase</text>
+<text x="104" y="620" font-size="18" fill="#150F0B">Helmets and seat belts on screen. No speeding, stunts or handheld phones on public roads. Track footage carries a caution.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A monthly loop of plan, produce, publish and learn around a core creator roster, fed by a weekly discovery cadence and topped by seasonal peaks</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">An always-on programme runs in a loop</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">A steady monthly base, new creators fed in weekly, peaks layered on top.</text>
+<circle cx="560" cy="420" r="190" fill="none" stroke="#150F0B" stroke-width="3" stroke-dasharray="10 10"/>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="450" y="350" width="220" height="140" fill="#CCFF3D"/>
+<rect x="470" y="200" width="180" height="70" fill="#FFFFFF"/>
+<rect x="690" y="385" width="180" height="70" fill="#FFFFFF"/>
+<rect x="470" y="570" width="180" height="70" fill="#FFFFFF"/>
+<rect x="250" y="385" width="180" height="70" fill="#FFFFFF"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="474" y="378">AT THE CENTRE</text></g>
+<g font-size="24" font-weight="700" fill="#150F0B">
+<text x="474" y="410">Core roster</text>
+<text x="494" y="244">1 Plan</text><text x="714" y="429">2 Produce</text><text x="494" y="614">3 Publish</text><text x="274" y="429">4 Learn</text>
+</g>
+<g font-size="17" fill="#150F0B"><text x="474" y="440">Rotating creators</text><text x="474" y="466">Test slot each month</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="1000" y="200" width="520" height="130" fill="#FF4D1C"/>
+<rect x="1000" y="370" width="520" height="130" fill="#FFFFFF"/>
+<rect x="1000" y="540" width="520" height="100" fill="#FFFFFF"/>
+</g>
+<g font-size="24" font-weight="700" fill="#150F0B"><text x="1024" y="240">Seasonal peaks</text><text x="1024" y="410">Weekly discovery</text><text x="1024" y="580">Quarterly review</text></g>
+<g font-size="17" fill="#150F0B">
+<text x="1024" y="272">Launches, Raksha Bandhan, Navratri,</text><text x="1024" y="298">Diwali, sale events: on top of the base</text>
+<text x="1024" y="442">Search the month's gaps by niche, city,</text><text x="1024" y="468">language; vet; keep backups ready</text>
+<text x="1024" y="612">Rotate the roster, move budget, book peaks</text>
+</g>
+<g fill="none" stroke="#150F0B" stroke-width="3"><path d="M1000 435 L880 435"/></g>
+<path d="M876 435 l14 -8 0 16z" fill="#150F0B"/>
+</svg>

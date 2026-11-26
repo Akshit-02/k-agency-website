@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Influencer marketing brief template laid out as seven sections: campaign overview, target audience, creator requirements, deliverables, creative direction, commercial terms, and tracking and reporting</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="34" font-weight="700" fill="#150F0B">The influencer marketing brief</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Seven sections a creator needs before they can say yes and quote a fee.</text>
+<rect x="80" y="186" width="1440" height="456" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<rect x="80" y="186" width="1440" height="52" fill="#FF4D1C" stroke="#150F0B" stroke-width="3"/>
+<text x="104" y="220" font-size="20" font-weight="700" fill="#150F0B">CAMPAIGN BRIEF · D2C SKINCARE · MONSOON LAUNCH</text>
+<g fill="#150F0B" font-size="20">
+<rect x="104" y="262" width="320" height="170" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<text x="124" y="298" font-weight="700">1 Campaign overview</text>
+<text x="124" y="332" font-size="16" opacity=".75">Brand, product, campaign</text>
+<text x="124" y="356" font-size="16" opacity=".75">name, one objective,</text>
+<text x="124" y="380" font-size="16" opacity=".75">duration</text>
+<rect x="448" y="262" width="320" height="170" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<text x="468" y="298" font-weight="700">2 Target audience</text>
+<text x="468" y="332" font-size="16" opacity=".75">Age, cities, language,</text>
+<text x="468" y="356" font-size="16" opacity=".75">interests, the problem</text>
+<text x="468" y="380" font-size="16" opacity=".75">they want solved</text>
+<rect x="792" y="262" width="320" height="170" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<text x="812" y="298" font-weight="700">3 Creator requirements</text>
+<text x="812" y="332" font-size="16" opacity=".75">Niche, platform, follower</text>
+<text x="812" y="356" font-size="16" opacity=".75">band, language, location,</text>
+<text x="812" y="380" font-size="16" opacity=".75">exclusions</text>
+<rect x="1136" y="262" width="360" height="170" fill="#FAF1E2" stroke="#150F0B" stroke-width="2"/>
+<text x="1156" y="298" font-weight="700">4 Deliverables</text>
+<text x="1156" y="332" font-size="16" opacity=".75">1 Reel + 3 Stories, UGC</text>
+<text x="1156" y="356" font-size="16" opacity=".75">files, draft and go-live</text>
+<text x="1156" y="380" font-size="16" opacity=".75">dates</text>
+<rect x="104" y="452" width="430" height="166" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="124" y="488" font-weight="700">5 Creative direction</text>
+<text x="124" y="522" font-size="16" opacity=".75">One key message, mandatory mentions,</text>
+<text x="124" y="546" font-size="16" opacity=".75">claims to avoid, dos and don'ts,</text>
+<text x="124" y="570" font-size="16" opacity=".75">ASCI disclosure label</text>
+<rect x="558" y="452" width="430" height="166" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="578" y="488" font-weight="700">6 Commercial terms</text>
+<text x="578" y="522" font-size="16" opacity=".75">Fee or budget band, payment terms,</text>
+<text x="578" y="546" font-size="16" opacity=".75">usage rights and duration,</text>
+<text x="578" y="570" font-size="16" opacity=".75">exclusivity, approvals</text>
+<rect x="1012" y="452" width="484" height="166" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<text x="1032" y="488" font-weight="700">7 Tracking and reporting</text>
+<text x="1032" y="522" font-size="16" opacity=".75">UTM links, discount codes, KPIs,</text>
+<text x="1032" y="546" font-size="16" opacity=".75">insights screenshots and the</text>
+<text x="1032" y="570" font-size="16" opacity=".75">reporting deadline</text>
+</g>
+<text x="80" y="676" font-size="16" fill="#150F0B" opacity=".65">kudozz.in</text>
+</svg>

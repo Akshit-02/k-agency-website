@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Three tiers of healthcare creators, from qualified professionals who may give advice in their field, to trained practitioners, to lived-experience creators who share personal stories only, with a medical and legal review gate before publishing</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Match the claim to the qualification</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">The more specific the health claim, the more qualified the person saying it.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="190" width="1000" height="140" fill="#CCFF3D"/>
+<rect x="80" y="345" width="1000" height="140" fill="#FFFFFF"/>
+<rect x="80" y="500" width="1000" height="140" fill="#FFFFFF"/>
+<rect x="1180" y="190" width="340" height="450" fill="#FF4D1C"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="104" y="220">TIER 1</text><text x="104" y="375">TIER 2</text><text x="104" y="530">TIER 3</text></g>
+<g font-size="26" font-weight="700" fill="#150F0B">
+<text x="104" y="254">Qualified professionals</text><text x="104" y="409">Trained practitioners</text><text x="104" y="564">Lived experience</text>
+</g>
+<g font-size="18" fill="#150F0B">
+<text x="104" y="288">Doctors, dietitians, physiotherapists, psychologists</text><text x="104" y="312">Advice in their own field, qualification shown upfront</text>
+<text x="104" y="443">Certified trainers, yoga teachers</text><text x="104" y="467">Routines and use; no treatment or cure claims</text>
+<text x="104" y="598">Patients, caregivers, wellness creators</text><text x="104" y="622">Personal story only, with consent; no advice</text>
+</g>
+<g fill="none" stroke="#150F0B" stroke-width="3"><path d="M1080 260 H1160"/><path d="M1080 415 H1160"/><path d="M1080 570 H1160"/></g>
+<g fill="#150F0B"><path d="M1170 260 l-14 -8 v16z"/><path d="M1170 415 l-14 -8 v16z"/><path d="M1170 570 l-14 -8 v16z"/></g>
+<text x="1204" y="240" font-size="26" font-weight="700" fill="#150F0B">Review gate</text>
+<g font-size="18" fill="#150F0B">
+<text x="1204" y="290">Approved claims sheet</text><text x="1204" y="330">Medical reviewer</text><text x="1204" y="370">Legal for anything</text><text x="1204" y="394">beyond education</text><text x="1204" y="434">Disclosure label</text><text x="1204" y="474">Qualification on screen</text><text x="1204" y="514">Comments monitored</text>
+</g>
+<text x="1204" y="600" font-size="20" font-weight="700" fill="#150F0B">Then publish</text>
+</svg>

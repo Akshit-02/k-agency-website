@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Four creator arrangements on a line from private feedback to public endorsement, marking which are published, which are paid and which need a disclosure label</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Testing is not seeding</text>
+<path d="M300 170 L1500 170" stroke="#150F0B" stroke-width="3"/>
+<path d="M1512 170 l-14 -8 0 16z" fill="#150F0B"/>
+<g font-size="17" font-weight="700" fill="#150F0B" opacity=".6"><text x="300" y="150">PRIVATE</text><text x="1420" y="150">PUBLIC</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="300" y="200" width="280" height="110" fill="#CCFF3D"/>
+<rect x="610" y="200" width="280" height="110" fill="#FFFFFF"/>
+<rect x="920" y="200" width="280" height="110" fill="#FFFFFF"/>
+<rect x="1230" y="200" width="280" height="110" fill="#FF4D1C"/>
+</g>
+<g font-size="26" font-weight="700" fill="#150F0B" text-anchor="middle">
+<text x="440" y="265">Product test</text><text x="750" y="265">Seeding</text><text x="1060" y="265">Paid review</text><text x="1370" y="265">Endorsement</text>
+</g>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF"><rect x="80" y="340" width="1430" height="90"/><rect x="80" y="430" width="1430" height="90"/><rect x="80" y="520" width="1430" height="90"/></g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="104" y="393">Posted?</text><text x="104" y="483">Paid?</text><text x="104" y="573">Label?</text></g>
+<g font-size="22" fill="#150F0B" text-anchor="middle">
+<text x="440" y="393">No</text><text x="750" y="393">Optional</text><text x="1060" y="393">Yes</text><text x="1370" y="393">Yes</text>
+<text x="440" y="483">Often</text><text x="750" y="483">Product</text><text x="1060" y="483">Yes</text><text x="1370" y="483">Yes</text>
+<text x="440" y="573">If posted</text><text x="750" y="573">If posted</text><text x="1060" y="573">Yes</text><text x="1370" y="573">Yes</text>
+</g>
+<rect x="80" y="640" width="12" height="12" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="104" y="652" font-size="18" fill="#150F0B" opacity=".75">Testing returns information; NDA for unreleased products.</text>
+</svg>

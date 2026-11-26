@@ -816,7 +816,8 @@ export const discoveryBatchA: BlogPost[] = [
       { type: "heading", text: "Location: creator location is not audience location", id: "location" },
       {
         type: "paragraph",
-        text: "This is the most misunderstood layer. Search tools, location tags and bios all tell you where a creator is based or posts from. None of that tells you where their followers are. A Jaipur travel creator may have an audience spread across India. A Kochi food creator who posts in Malayalam is far more likely to have a Kerala-heavy audience, but even then you should check.",
+        text: "This is the most misunderstood layer. Search tools, location tags and bios all tell you where a creator is based or posts from. None of that tells you where their followers are. A Jaipur travel creator may have an audience spread across India. A Kochi food creator who posts in Malayalam is far more likely to have a Kerala-heavy audience, but even then you should check. Here is how to check an influencer's audience location before hiring them.",
+        links: [{ text: "how to check an influencer's audience location", href: "/blog/influencer-audience-location" }],
       },
       {
         type: "subheading",
@@ -1027,7 +1028,8 @@ export const discoveryBatchA: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Local influencer marketing works differently from national campaigns. The pool is smaller, location matters more than follower count, and the content has to drive a visit or a call rather than a click. This guide covers how local businesses in India (cafés, salons, gyms, clinics, real estate and local retail) can find the right creators in their city, including Tier 2 cities where the creator pool is smaller.",
+        text: "Local influencer marketing works differently from national campaigns. The pool is smaller, location matters more than follower count, and the content has to drive a visit or a call rather than a click. This guide covers how local businesses in India (cafés, salons, gyms, clinics, real estate and local retail) can find the right creators in their city, including Tier 2 cities where the creator pool is smaller. If you're planning around a launch date, there's a separate guide to finding local creators for store openings and retail activations.",
+        links: [{ text: "finding local creators for store openings and retail activations", href: "/blog/store-opening-influencer-campaign" }],
       },
       { type: "heading", text: "Quick answer", id: "quick-answer" },
       {

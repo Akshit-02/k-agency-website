@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A SaaS creator funnel narrowing from views and saves to landing-page visits, trials and demos, activated accounts and paid pipeline, with the creator types that feed it</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="96" font-size="36" font-weight="700" fill="#150F0B">Judge SaaS creators lower in the funnel</text>
+<text x="80" y="138" font-size="20" fill="#150F0B" opacity=".65">Views start the story. Activated accounts and pipeline finish it.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="510" y="180" width="1000" height="78" fill="#FFFFFF"/>
+<rect x="590" y="266" width="840" height="78" fill="#FFFFFF"/>
+<rect x="670" y="352" width="680" height="78" fill="#CCFF3D"/>
+<rect x="750" y="438" width="520" height="78" fill="#FFFFFF"/>
+<rect x="830" y="524" width="360" height="78" fill="#FF4D1C"/>
+</g><g font-size="21" font-weight="700" fill="#150F0B" text-anchor="middle">
+<text x="1010" y="227">Views, saves, comments from buyer roles</text>
+<text x="1010" y="313">Landing-page visits, template downloads</text>
+<text x="1010" y="399">Trials, sign-ups, demo requests</text>
+<text x="1010" y="485">Activated accounts</text>
+<text x="1010" y="571">Paid conversions and pipeline</text>
+</g>
+<rect x="80" y="180" width="300" height="420" fill="#150F0B"/>
+<text x="104" y="226" font-size="15" font-weight="700" fill="#CCFF3D">CREATORS WHO FEED IT</text>
+<g font-size="21" fill="#FAF1E2">
+<text x="104" y="280">Practitioners</text>
+<text x="104" y="344">Product educators</text>
+<text x="104" y="408">Technical creators</text>
+<text x="104" y="472">Founders, operators</text>
+<text x="104" y="536">Community hosts</text>
+</g>
+<rect x="80" y="636" width="12" height="12" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="104" y="648" font-size="18" fill="#150F0B" opacity=".75">Track each layer by creator: UTM links, CRM source fields and a &quot;how did you hear about us?&quot; field.</text>
+</svg>

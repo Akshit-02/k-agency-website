@@ -981,10 +981,11 @@ export const discoveryBatchH: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "If you need guaranteed posts on a date, that's a paid collaboration, and agreed posts in return for product is barter, which needs written terms. The trade-offs are in influencer gifting vs paid collaborations and barter influencer collaborations.",
+        text: "If you need guaranteed posts on a date, that's a paid collaboration, and agreed posts in return for product is barter, which needs written terms. The trade-offs are in influencer gifting vs paid collaborations and barter influencer collaborations. If what you want is private feedback before launch rather than posts, that's product testing, a different selection job.",
         links: [
           { text: "influencer gifting vs paid collaborations", href: "/blog/instagram-gifting-vs-paid-collaboration" },
           { text: "barter influencer collaborations", href: "/blog/barter-influencer-collaborations" },
+          { text: "product testing", href: "/blog/creators-for-product-testing" },
         ],
       },
       { type: "heading", text: "Who belongs on a seeding list", id: "recipient-segments" },

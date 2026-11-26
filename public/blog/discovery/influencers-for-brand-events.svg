@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">An event timeline running from sourcing and invitations through pre-event teasers, live coverage and post-event recaps, with the creator skill to select for at each stage</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Pick creators for each phase</text>
+<path d="M80 330 L1500 330" stroke="#150F0B" stroke-width="4"/>
+<path d="M1516 330 l-16 -9 0 18z" fill="#150F0B"/>
+<g stroke="#150F0B" stroke-width="3">
+<circle cx="200" cy="330" r="22" fill="#FFFFFF"/><circle cx="560" cy="330" r="22" fill="#FFFFFF"/><circle cx="920" cy="330" r="30" fill="#FF4D1C"/><circle cx="1280" cy="330" r="22" fill="#CCFF3D"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="150" y="280">WEEKS BEFORE</text><text x="510" y="280">DAYS BEFORE</text><text x="880" y="280">EVENT DAY</text><text x="1230" y="280">AFTER</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="400" width="300" height="200" fill="#FFFFFF"/>
+<rect x="440" y="400" width="300" height="200" fill="#FFFFFF"/>
+<rect x="800" y="400" width="300" height="200" fill="#FF4D1C"/>
+<rect x="1160" y="400" width="300" height="200" fill="#CCFF3D"/>
+</g>
+<g font-size="26" font-weight="700" fill="#150F0B"><text x="104" y="446">Source</text><text x="464" y="446">Pre-event</text><text x="824" y="446">Live</text><text x="1184" y="446">Post-event</text></g>
+<g font-size="18" fill="#150F0B">
+<text x="104" y="486">Right city</text><text x="104" y="514">Right audience</text><text x="104" y="542">Free on the date</text>
+<text x="464" y="486">Teasers</text><text x="464" y="514">Builds anticipation</text>
+<text x="824" y="486">Fast Stories</text><text x="824" y="514">Films in crowds</text>
+<text x="1184" y="486">Recaps</text><text x="1184" y="514">Explains the product</text>
+</g>
+<text x="80" y="660" font-size="18" fill="#150F0B" opacity=".75">Few creators do all three. Mix live and recap strengths, and keep backups.</text>
+</svg>

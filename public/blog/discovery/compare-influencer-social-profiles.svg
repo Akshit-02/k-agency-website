@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Three platform profiles counting different units, followers, subscribers and connections, feeding into one shared set of comparison lenses that ends in a lead or support role for each profile</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Compare conclusions, not counts</text>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF">
+<rect x="80" y="160" width="400" height="190"/>
+<rect x="600" y="160" width="400" height="190"/>
+<rect x="1120" y="160" width="400" height="190"/>
+<rect x="80" y="430" width="1440" height="90" fill="#CCFF3D"/>
+<rect x="80" y="590" width="300" height="70" fill="#FF4D1C"/>
+<rect x="410" y="590" width="300" height="70"/>
+<rect x="740" y="590" width="380" height="70"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="110" y="200">INSTAGRAM</text><text x="630" y="200">YOUTUBE</text><text x="1150" y="200">LINKEDIN</text></g>
+<g font-size="38" font-weight="700" fill="#150F0B"><text x="110" y="270">Followers</text><text x="630" y="270">Subscribers</text><text x="1150" y="270">Connections</text></g>
+<g font-size="18" fill="#150F0B" opacity=".75"><text x="110" y="316">Views count repeats</text><text x="630" y="316">Search-led viewing</text><text x="1150" y="316">Plus followers</text></g>
+<g font-size="56" font-weight="700" fill="#FF4D1C"><text x="520" y="276">≠</text><text x="1040" y="276">≠</text></g>
+<g fill="none" stroke="#150F0B" stroke-width="3"><path d="M280 350 L280 416"/><path d="M800 350 L800 416"/><path d="M1320 350 L1320 416"/><path d="M800 520 L800 575"/></g>
+<g fill="#150F0B"><path d="M280 424 l-8 -14 16 0z"/><path d="M800 424 l-8 -14 16 0z"/><path d="M1320 424 l-8 -14 16 0z"/><path d="M800 583 l-8 -14 16 0z"/></g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="110" y="483">Audience</text><text x="340" y="483">Delivery</text><text x="570" y="483">Response</text><text x="810" y="483">Content fit</text><text x="1060" y="483">Consistency</text><text x="1310" y="483">Commercial</text></g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="110" y="633">Lead</text><text x="440" y="633">Support</text><text x="770" y="633">Not for this brief</text></g>
+</svg>

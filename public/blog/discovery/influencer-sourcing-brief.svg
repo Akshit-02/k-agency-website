@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A sourcing brief whose fields connect either to search filters such as niche, follower range, city and language, or to manual checks such as audience location, budget and exclusions</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">One brief, two kinds of work</text>
+<g stroke="#150F0B" stroke-width="3">
+<path d="M80 160 L470 160 L520 210 L520 640 L80 640 Z" fill="#FFFFFF"/>
+<path d="M470 160 L470 210 L520 210" fill="none"/>
+<rect x="900" y="160" width="620" height="240" fill="#CCFF3D"/>
+<rect x="900" y="440" width="620" height="200" fill="#FF4D1C"/>
+</g>
+<text x="110" y="200" font-size="15" font-weight="700" fill="#150F0B" opacity=".6">SOURCING BRIEF</text>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="110" y="256">Objective</text><text x="110" y="306">Audience</text><text x="110" y="356">Niche</text><text x="110" y="406">Location</text><text x="110" y="456">Language</text><text x="110" y="506">Tier</text><text x="110" y="556">Budget</text><text x="110" y="606">Exclusions</text></g>
+<g stroke="#150F0B" stroke-width="2" opacity=".3"><path d="M300 250 H480"/><path d="M300 300 H480"/><path d="M300 350 H480"/><path d="M300 400 H480"/><path d="M300 450 H480"/><path d="M300 500 H480"/><path d="M300 550 H480"/><path d="M300 600 H480"/></g>
+<g fill="none" stroke="#150F0B" stroke-width="3"><path d="M520 350 C700 350 720 250 886 250"/><path d="M520 400 C700 400 720 290 886 290"/><path d="M520 450 C700 450 720 330 886 330"/><path d="M520 500 C700 500 720 370 886 370"/><path d="M520 300 C700 300 720 500 886 500"/><path d="M520 550 C700 550 720 550 886 550"/><path d="M520 600 C700 600 720 600 886 600"/></g>
+<g fill="#150F0B"><path d="M894 250 l-14 -8 0 16z"/><path d="M894 290 l-14 -8 0 16z"/><path d="M894 330 l-14 -8 0 16z"/><path d="M894 370 l-14 -8 0 16z"/><path d="M894 500 l-14 -8 0 16z"/><path d="M894 550 l-14 -8 0 16z"/><path d="M894 600 l-14 -8 0 16z"/></g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".7"><text x="930" y="200">SEARCH FILTERS</text><text x="930" y="470">CHECKED BY HAND</text></g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="930" y="258">Niche</text><text x="930" y="298">City and state</text><text x="930" y="338">Language</text><text x="930" y="378">Follower range</text><text x="930" y="508">Audience location</text><text x="930" y="558">Creator rates</text><text x="930" y="608">Competitor work</text></g>
+</svg>

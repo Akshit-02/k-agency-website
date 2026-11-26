@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Two parallel lanes, influencer marketing and paid media buying, joined by a rights agreement, showing creator content moving from organic post to tested and scaled creator ads</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Two jobs, joined by rights</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Creators make the content. Media buying decides who sees it.</text>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".65"><text x="80" y="200">INFLUENCER MARKETING</text><text x="80" y="460">PAID MEDIA BUYING</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="215" width="280" height="110" fill="#FFFFFF"/><rect x="390" y="215" width="280" height="110" fill="#FFFFFF"/>
+<rect x="700" y="215" width="200" height="370" fill="#CCFF3D"/>
+<rect x="930" y="475" width="280" height="110" fill="#FFFFFF"/><rect x="1240" y="475" width="280" height="110" fill="#FF4D1C"/>
+</g>
+<g font-size="22" font-weight="700" fill="#150F0B"><text x="104" y="258">Find creators</text><text x="414" y="258">Content made</text><text x="722" y="258">Rights</text><text x="722" y="286">agreed</text><text x="954" y="518">Test</text><text x="1264" y="518">Scale winners</text></g>
+<g font-size="17" fill="#150F0B">
+<text x="104" y="290">Hooks that hold,</text><text x="104" y="312">clear demos</text>
+<text x="414" y="290">Organic post or</text><text x="414" y="312">delivered for ads</text>
+<text x="722" y="330">Paid usage</text><text x="722" y="360">Ad permission</text><text x="722" y="390">Raw files</text><text x="722" y="420">Exclusivity</text><text x="722" y="450">End date</text>
+<text x="954" y="550">Hooks, creators, cuts</text>
+<text x="1264" y="550">Refresh before fatigue</text>
+</g>
+<g fill="none" stroke="#150F0B" stroke-width="3"><path d="M360 270 H384"/><path d="M670 270 H694"/><path d="M900 530 H924"/><path d="M1210 530 H1234"/><path d="M1380 475 V180 H330 V209"/></g>
+<g fill="#150F0B"><path d="M390 270 l-14 -7 v14z"/><path d="M700 270 l-14 -7 v14z"/><path d="M930 530 l-14 -7 v14z"/><path d="M1240 530 l-14 -7 v14z"/><path d="M330 215 l-7 -14 h14z"/></g>
+<text x="1000" y="172" font-size="17" fill="#150F0B">Learnings feed the next shortlist</text>
+<text x="80" y="652" font-size="18" fill="#150F0B" opacity=".75">Track with UTMs, codes and platform data; use holdouts for incrementality.</text>
+</svg>

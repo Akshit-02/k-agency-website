@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Three overlapping creator audience circles showing shared followers in the middle and the incremental reach each creator adds on the outside</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="96" font-size="36" font-weight="700" fill="#150F0B">Summed followers are not unique reach</text>
+<g stroke="#150F0B" stroke-width="3" fill-opacity=".55"><circle cx="330" cy="330" r="160" fill="#CCFF3D"/><circle cx="530" cy="330" r="160" fill="#FF4D1C"/><circle cx="430" cy="480" r="140" fill="#FFFFFF" fill-opacity="1"/></g>
+<g fill="none" stroke="#150F0B" stroke-width="3"><circle cx="330" cy="330" r="160"/><circle cx="530" cy="330" r="160"/></g>
+<g font-size="40" font-weight="700" fill="#150F0B" text-anchor="middle"><text x="255" y="300">A</text><text x="605" y="300">B</text><text x="430" y="575">C</text></g>
+<circle cx="430" cy="395" r="46" fill="#150F0B"/><text x="430" y="402" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">Shared</text>
+<rect x="860" y="190" width="660" height="440" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="900" y="250" font-size="15" font-weight="700" fill="#150F0B" opacity=".6">SUM OF REACH</text>
+<rect x="900" y="266" width="120" height="50" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/><rect x="1020" y="266" width="80" height="50" fill="#FF4D1C" stroke="#150F0B" stroke-width="2"/><rect x="1100" y="266" width="60" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="2"/>
+<g font-size="20" font-weight="700" fill="#150F0B" text-anchor="middle"><text x="960" y="298">A</text><text x="1060" y="298">B</text><text x="1130" y="298">C</text></g>
+<text x="900" y="380" font-size="15" font-weight="700" fill="#150F0B" opacity=".6">MINUS SHARED</text>
+<rect x="900" y="396" width="260" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="2" stroke-dasharray="8 6"/><rect x="1116" y="396" width="44" height="50" fill="#150F0B"/>
+<text x="900" y="510" font-size="15" font-weight="700" fill="#150F0B" opacity=".6">UNIQUE REACH</text>
+<rect x="900" y="526" width="216" height="50" fill="#CCFF3D" stroke="#150F0B" stroke-width="3"/>
+<g font-size="20" fill="#150F0B"><text x="1200" y="300">Planned</text><text x="1200" y="430">Duplication</text><text x="1200" y="560">Real audience</text></g>
+<text x="860" y="670" font-size="18" fill="#150F0B" opacity=".75">Vary niche, city and language to cut the middle.</text>
+</svg>

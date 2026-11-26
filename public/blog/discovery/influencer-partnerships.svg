@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">Creators from a one-time campaign pass through a keep-or-not filter of results, reliability and brand fit, then branch into repeat bookings, a retainer or an ambassador deal</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">From one campaign to a partnership</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Keep only the creators who pass the filter, then offer the simplest structure that fits.</text>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF">
+<rect x="80" y="220" width="300" height="400"/>
+<path d="M500 220 L860 220 L780 620 L580 620 Z" fill="#CCFF3D"/>
+<rect x="1000" y="220" width="520" height="110"/>
+<rect x="1000" y="365" width="520" height="110"/>
+<rect x="1000" y="510" width="520" height="110" fill="#FF4D1C"/>
+</g>
+<g fill="#150F0B" stroke="#150F0B" stroke-width="2">
+<circle cx="140" cy="300" r="16"/><circle cx="200" cy="300" r="16" fill="#FFFFFF"/><circle cx="260" cy="300" r="16" fill="#FFFFFF"/><circle cx="320" cy="300" r="16"/>
+<circle cx="140" cy="360" r="16" fill="#FFFFFF"/><circle cx="200" cy="360" r="16" fill="#FFFFFF"/><circle cx="260" cy="360" r="16"/><circle cx="320" cy="360" r="16" fill="#FFFFFF"/>
+</g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="104" y="250">ONE-TIME CAMPAIGN</text><text x="560" y="250">KEEP OR NOT?</text></g>
+<g font-size="17" fill="#150F0B"><text x="104" y="430">Filled dots: creators</text><text x="104" y="454">who stood out</text><text x="104" y="510">Everyone else gets a</text><text x="104" y="534">thank-you and a fair</text><text x="104" y="558">record for later</text></g>
+<g font-size="20" font-weight="700" fill="#150F0B"><text x="560" y="300">Results vs KPI</text><text x="560" y="350">Content quality</text><text x="580" y="400">Reliability</text><text x="590" y="450">Brand fit</text><text x="600" y="500">Their interest</text></g>
+<g font-size="24" font-weight="700" fill="#150F0B"><text x="1024" y="262">Repeat bookings</text><text x="1024" y="407">Retainer</text><text x="1024" y="552">Ambassador</text></g>
+<g font-size="17" fill="#150F0B"><text x="1024" y="296">Low commitment: check the result repeats</text><text x="1024" y="441">Set deliverables, review point, notice period</text><text x="1024" y="586">Longer term, narrow paid exclusivity</text></g>
+<g fill="none" stroke="#150F0B" stroke-width="3"><path d="M380 420 L520 420"/><path d="M820 420 L900 420 L900 275 L990 275"/><path d="M900 420 L990 420"/><path d="M900 420 L900 565 L990 565"/></g>
+<g fill="#150F0B"><path d="M524 420 l-14 -8 0 16z"/><path d="M994 275 l-14 -8 0 16z"/><path d="M994 420 l-14 -8 0 16z"/><path d="M994 565 l-14 -8 0 16z"/></g>
+<text x="80" y="660" font-size="18" fill="#150F0B" opacity=".75">Move up one level at a time; write term, rights, renewal and exit into every agreement.</text>
+</svg>

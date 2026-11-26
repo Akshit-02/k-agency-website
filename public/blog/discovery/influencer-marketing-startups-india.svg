@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A four-phase track for startup influencer marketing, from test and learn to repeat and keep, with the question each phase answers</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Small rounds, one question each</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">How a startup grows creator work without burning founder time or runway.</text>
+<line x1="80" y1="300" x2="1520" y2="300" stroke="#150F0B" stroke-width="3" stroke-dasharray="10 8"/>
+<g stroke="#150F0B" stroke-width="3">
+<circle cx="250" cy="300" r="46" fill="#FFFFFF"/><circle cx="610" cy="300" r="46" fill="#FFFFFF"/><circle cx="970" cy="300" r="46" fill="#CCFF3D"/><circle cx="1330" cy="300" r="46" fill="#FF4D1C"/>
+<rect x="90" y="380" width="320" height="220" fill="#FFFFFF"/><rect x="450" y="380" width="320" height="220" fill="#FFFFFF"/><rect x="810" y="380" width="320" height="220" fill="#FFFFFF"/><rect x="1170" y="380" width="320" height="220" fill="#FFFFFF"/>
+</g>
+<g font-size="34" font-weight="700" fill="#150F0B" text-anchor="middle"><text x="250" y="312">1</text><text x="610" y="312">2</text><text x="970" y="312">3</text><text x="1330" y="312">4</text></g>
+<g font-size="28" font-weight="700" fill="#150F0B"><text x="114" y="426">Test</text><text x="474" y="426">Learn</text><text x="834" y="426">Repeat</text><text x="1194" y="426">Keep</text></g>
+<g font-size="18" fill="#150F0B">
+<text x="114" y="466">Does our audience respond</text><text x="114" y="490">to creators at all?</text><text x="114" y="540" opacity=".7">A few nano and micro</text><text x="114" y="564" opacity=".7">creators, one message</text>
+<text x="474" y="466">Which creator types and</text><text x="474" y="490">hooks actually work?</text><text x="474" y="540" opacity=".7">Change one thing</text><text x="474" y="564" opacity=".7">per round</text>
+<text x="834" y="466">Can we get similar</text><text x="834" y="490">results again?</text><text x="834" y="540" opacity=".7">Rebook the best, add</text><text x="834" y="564" opacity=".7">a few new names</text>
+<text x="1194" y="466">Who becomes a</text><text x="1194" y="490">long-term partner?</text><text x="1194" y="540" opacity=".7">Repeat bookings or</text><text x="1194" y="564" opacity=".7">ambassador roles</text>
+</g>
+<rect x="80" y="196" width="440" height="52" fill="#150F0B"/>
+<text x="100" y="230" font-size="19" font-weight="700" fill="#FAF1E2">Weekly: 2 to 3 hours of sourcing</text>
+<rect x="80" y="636" width="12" height="12" fill="#CCFF3D" stroke="#150F0B" stroke-width="2"/>
+<text x="104" y="648" font-size="18" fill="#150F0B" opacity=".75">Log every round. By round three, the log is your sourcing advantage.</text>
+</svg>

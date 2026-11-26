@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A twelve-month timeline of a creator's posts with sponsored posts marked, sorted into same category, competitor and unrelated brands, feeding a research log</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Twelve months of past collaborations</text>
+<line x1="80" y1="230" x2="1520" y2="230" stroke="#150F0B" stroke-width="3"/>
+<g font-size="15" fill="#150F0B" opacity=".6"><text x="80" y="290">12 months ago</text><text x="1420" y="290">Today</text></g>
+<g stroke="#150F0B" stroke-width="3">
+<circle cx="120" cy="230" r="12" fill="#FFFFFF"/><circle cx="210" cy="230" r="18" fill="#CCFF3D"/><circle cx="300" cy="230" r="12" fill="#FFFFFF"/><circle cx="390" cy="230" r="12" fill="#FFFFFF"/>
+<circle cx="480" cy="230" r="18" fill="#FF4D1C"/><circle cx="570" cy="230" r="12" fill="#FFFFFF"/><circle cx="660" cy="230" r="18" fill="#150F0B"/><circle cx="750" cy="230" r="12" fill="#FFFFFF"/>
+<circle cx="840" cy="230" r="18" fill="#CCFF3D"/><circle cx="930" cy="230" r="12" fill="#FFFFFF"/><circle cx="1020" cy="230" r="12" fill="#FFFFFF"/><circle cx="1110" cy="230" r="18" fill="#FF4D1C"/>
+<circle cx="1200" cy="230" r="12" fill="#FFFFFF"/><circle cx="1290" cy="230" r="18" fill="#CCFF3D"/><circle cx="1380" cy="230" r="12" fill="#FFFFFF"/><circle cx="1470" cy="230" r="12" fill="#FFFFFF"/>
+</g>
+<g stroke="#150F0B" stroke-width="2" stroke-dasharray="6 6" fill="none">
+<path d="M210 252 L300 380"/><path d="M840 252 L300 380"/><path d="M1290 252 L300 380"/>
+<path d="M480 252 L760 380"/><path d="M1110 252 L760 380"/><path d="M660 252 L1220 380"/>
+</g>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="80" y="380" width="440" height="150" fill="#CCFF3D"/>
+<rect x="560" y="380" width="440" height="150" fill="#FF4D1C"/>
+<rect x="1040" y="380" width="440" height="150" fill="#FFFFFF"/>
+</g>
+<g font-size="28" font-weight="700" fill="#150F0B"><text x="110" y="440">Same category</text><text x="590" y="440">Competitor</text><text x="1070" y="440">Unrelated</text></g>
+<g font-size="20" fill="#150F0B"><text x="110" y="480">Experience</text><text x="590" y="480">Ask about exclusivity</text><text x="1070" y="480">Sponsored frequency</text></g>
+<rect x="80" y="570" width="1400" height="70" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="110" y="615" font-size="22" font-weight="700" fill="#150F0B">Research log</text>
+<g font-size="18" fill="#150F0B" opacity=".7"><text x="360" y="615">Brand</text><text x="560" y="615">Category</text><text x="780" y="615">Disclosure</text><text x="1000" y="615">Paid vs organic</text><text x="1260" y="615">Questions</text></g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A two-by-two matrix plotting creators by aesthetic fit and audience ability to buy, showing which quadrant to book, nurture, use for reach or avoid</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Fit the image, then the buyer</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Plot every luxury creator on two questions before you talk fees.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="300" y="190" width="560" height="220" fill="#FFFFFF"/>
+<rect x="860" y="190" width="560" height="220" fill="#CCFF3D"/>
+<rect x="300" y="410" width="560" height="220" fill="#FF4D1C"/>
+<rect x="860" y="410" width="560" height="220" fill="#FFFFFF"/>
+</g>
+<g font-size="28" font-weight="700" fill="#150F0B">
+<text x="330" y="240">Nurture with direction</text><text x="890" y="240">Book: core creators</text>
+<text x="330" y="460">Pass</text><text x="890" y="460">Use for desire</text>
+</g>
+<g font-size="18" fill="#150F0B">
+<text x="330" y="280">Buyers follow them, but the grid</text><text x="330" y="306">needs creative direction and settings</text><text x="330" y="332">you control. Trial one piece first.</text>
+<text x="890" y="280">Grid sits beside yours; comments ask</text><text x="890" y="306">about sizes, care and boutiques.</text><text x="890" y="332">Long-term terms, approval of frames.</text>
+<text x="330" y="500">Off-key look and an audience that</text><text x="330" y="526">neither buys nor aspires. One wrong</text><text x="330" y="552">association outlasts ten good ones.</text>
+<text x="890" y="500">Beautiful work, aspirational audience.</text><text x="890" y="526">Give them entry products; judge on</text><text x="890" y="552">branded search over months.</text>
+</g>
+<g font-size="16" font-weight="700" fill="#150F0B" opacity=".7">
+<text x="80" y="300">AUDIENCE</text><text x="80" y="322">CAN BUY</text>
+<text x="80" y="520">AUDIENCE</text><text x="80" y="542">ASPIRES</text>
+<text x="420" y="664">AESTHETIC NEEDS WORK</text><text x="980" y="664">AESTHETIC MATCHES YOUR FEED</text>
+</g>
+<path d="M240 630 L240 200" stroke="#150F0B" stroke-width="3"/><path d="M240 186 l-9 18 h18z" fill="#150F0B"/>
+<rect x="1450" y="190" width="70" height="440" fill="#150F0B"/>
+<text x="1494" y="410" font-size="18" font-weight="700" fill="#FAF1E2" transform="rotate(-90 1494 410)" text-anchor="middle">Brand safety check on all</text>
+</svg>

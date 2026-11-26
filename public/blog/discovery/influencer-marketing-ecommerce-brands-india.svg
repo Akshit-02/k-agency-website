@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A twelve-month strip of Indian ecommerce sale seasons, with an always-on creator baseline running underneath and seasonal peaks layered on top</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="96" font-size="36" font-weight="700" fill="#150F0B">A base all year, peaks on top</text>
+<text x="80" y="138" font-size="20" fill="#150F0B" opacity=".65">Illustrative shape only. Confirm sale and festival dates each year and by region.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="88" y="410" width="104" height="90" fill="#FF4D1C"/>
+<rect x="208" y="460" width="104" height="40" fill="#FF4D1C"/>
+<rect x="328" y="440" width="104" height="60" fill="#FF4D1C"/>
+<rect x="448" y="470" width="104" height="30" fill="#FF4D1C"/>
+<rect x="568" y="440" width="104" height="60" fill="#FF4D1C"/>
+<rect x="688" y="460" width="104" height="40" fill="#FF4D1C"/>
+<rect x="808" y="470" width="104" height="30" fill="#FF4D1C"/>
+<rect x="928" y="410" width="104" height="90" fill="#FF4D1C"/>
+<rect x="1048" y="350" width="104" height="150" fill="#FF4D1C"/>
+<rect x="1168" y="290" width="104" height="210" fill="#FF4D1C"/>
+<rect x="1288" y="310" width="104" height="190" fill="#FF4D1C"/>
+<rect x="1408" y="400" width="104" height="100" fill="#FF4D1C"/>
+<rect x="80" y="500" width="1440" height="60" fill="#CCFF3D"/>
+</g>
+<text x="100" y="538" font-size="20" font-weight="700" fill="#150F0B">Always-on base: core creators, core products, every month</text>
+<g font-size="16" font-weight="700" fill="#150F0B" text-anchor="middle">
+<text x="140" y="590">JAN</text>
+<text x="260" y="590">FEB</text>
+<text x="380" y="590">MAR</text>
+<text x="500" y="590">APR</text>
+<text x="620" y="590">MAY</text>
+<text x="740" y="590">JUN</text>
+<text x="860" y="590">JUL</text>
+<text x="980" y="590">AUG</text>
+<text x="1100" y="590">SEP</text>
+<text x="1220" y="590">OCT</text>
+<text x="1340" y="590">NOV</text>
+<text x="1460" y="590">DEC</text>
+</g>
+<g font-size="16" fill="#150F0B">
+<text x="88" y="398">End-of-season</text>
+<text x="928" y="378">Independence</text><text x="928" y="398">Day, Rakhi</text>
+<text x="1048" y="278">Festive: Navratri to Diwali</text>
+<text x="1408" y="368">Weddings,</text><text x="1408" y="388">year-end</text>
+</g>
+<g stroke="#150F0B" stroke-width="3" fill="#FFFFFF"><rect x="80" y="610" width="440" height="56"/><rect x="540" y="610" width="440" height="56"/><rect x="1000" y="610" width="520" height="56"/></g>
+<g font-size="18" fill="#150F0B"><text x="100" y="645">3 to 4 weeks before: book and seed</text><text x="560" y="645">1 to 2 weeks before: build intent</text><text x="1020" y="645">After: reviews, how-tos, quarterly review</text></g>
+</svg>

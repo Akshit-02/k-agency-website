@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A creator passing through four checks for experience, credentials, communication and audience, with health and finance advice branching to a qualification check and legal review</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Expert, or just confident?</text>
+<g stroke="#150F0B" stroke-width="3"><circle cx="150" cy="330" r="50" fill="#FFFFFF"/></g>
+<text x="150" y="410" font-size="18" font-weight="700" fill="#150F0B" text-anchor="middle">Creator</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="260" y="270" width="190" height="120" fill="#FFFFFF"/>
+<rect x="490" y="270" width="190" height="120" fill="#FFFFFF"/>
+<rect x="720" y="270" width="190" height="120" fill="#FFFFFF"/>
+<rect x="950" y="270" width="190" height="120" fill="#FFFFFF"/>
+<rect x="1220" y="250" width="300" height="160" fill="#CCFF3D"/>
+<rect x="950" y="500" width="570" height="120" fill="#FF4D1C"/>
+</g>
+<g font-size="22" font-weight="700" fill="#150F0B" text-anchor="middle">
+<text x="355" y="338">Experience</text><text x="585" y="338">Credentials</text><text x="815" y="338">Communication</text><text x="1045" y="338">Audience</text>
+</g>
+<text x="1370" y="342" font-size="28" font-weight="700" fill="#150F0B" text-anchor="middle">Subject expert</text>
+<g fill="none" stroke="#150F0B" stroke-width="3"><path d="M200 330 L255 330"/><path d="M450 330 L485 330"/><path d="M680 330 L715 330"/><path d="M910 330 L945 330"/><path d="M1140 330 L1215 330"/><path d="M585 390 L585 560 L945 560"/></g>
+<g fill="#150F0B"><path d="M259 330 l-12 -7 0 14z"/><path d="M489 330 l-12 -7 0 14z"/><path d="M719 330 l-12 -7 0 14z"/><path d="M949 330 l-12 -7 0 14z"/><path d="M1219 330 l-12 -7 0 14z"/><path d="M949 560 l-12 -7 0 14z"/></g>
+<text x="980" y="552" font-size="24" font-weight="700" fill="#150F0B">Health or finance advice?</text>
+<text x="980" y="588" font-size="19" fill="#150F0B">Qualification, registration, legal review</text>
+<text x="600" y="490" font-size="16" fill="#150F0B" opacity=".7">ASCI · SEBI · NMC</text>
+</svg>

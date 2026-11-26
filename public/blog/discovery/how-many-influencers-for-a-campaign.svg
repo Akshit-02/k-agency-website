@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A funnel narrowing from a longlist to a shortlist, approved creators and a confirmed final line-up, with a bench of backup creators held beside the approved stage</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">Shortlist backwards from the final count</text>
+<g stroke="#150F0B" stroke-width="3">
+<path d="M80 170 L1040 170 L980 270 L140 270 Z" fill="#FFFFFF"/>
+<path d="M140 290 L980 290 L920 390 L200 390 Z" fill="#FFFFFF"/>
+<path d="M200 410 L920 410 L860 510 L260 510 Z" fill="#CCFF3D"/>
+<path d="M260 530 L860 530 L800 630 L320 630 Z" fill="#FF4D1C"/>
+</g>
+<g font-size="28" font-weight="700" fill="#150F0B" text-anchor="middle">
+<text x="560" y="230">Longlist</text><text x="560" y="350">Shortlisted</text><text x="560" y="470">Approved</text><text x="560" y="590">Confirmed</text>
+</g>
+<g font-size="17" fill="#150F0B" opacity=".7">
+<text x="1060" y="226">no reply · over budget</text>
+<text x="1000" y="346">dates clash · failed checks</text>
+</g>
+<rect x="1130" y="400" width="390" height="230" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="1160" y="446" font-size="26" font-weight="700" fill="#150F0B">Backups</text>
+<text x="1160" y="476" font-size="17" fill="#150F0B" opacity=".7">one per fixed slot</text>
+<g stroke="#150F0B" stroke-width="3" fill="#CCFF3D"><circle cx="1195" cy="560" r="32"/><circle cx="1295" cy="560" r="32"/><circle cx="1395" cy="560" r="32"/></g>
+<path d="M1130 460 L905 460" fill="none" stroke="#150F0B" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M893 460 l12 -7 0 14z" fill="#150F0B"/>
+<text x="80" y="668" font-size="18" fill="#150F0B" opacity=".75">Final count + backups, divided by the share you expect to say yes.</text>
+</svg>

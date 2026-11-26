@@ -123,7 +123,8 @@ export const discoveryBatchE: BlogPost[] = [
       { type: "heading", text: "Step 4: Ask for audience proof", id: "audience-proof" },
       {
         type: "paragraph",
-        text: "Once a creator is interested, ask for screenshots from their own insights. Be specific, because a vague \"can you share your insights?\" usually gets a single flattering screenshot of a viral Reel.",
+        text: "Once a creator is interested, ask for screenshots from their own insights. Be specific, because a vague \"can you share your insights?\" usually gets a single flattering screenshot of a viral Reel. What to request and how to read it is covered in analysing an influencer's audience demographics.",
+        links: [{ text: "analysing an influencer's audience demographics", href: "/blog/influencer-audience-demographics" }],
       },
       {
         type: "list",
@@ -970,7 +971,8 @@ export const discoveryBatchE: BlogPost[] = [
       { type: "heading", text: "The intake form", id: "intake-form" },
       {
         type: "paragraph",
-        text: "Most wasted sourcing time comes from vague requests. A short form, filled in before any search starts, fixes that. Keep it to one screen; if it takes longer than five minutes, people will skip it.",
+        text: "Most wasted sourcing time comes from vague requests. A short form, filled in before any search starts, fixes that. Keep it to one screen; if it takes longer than five minutes, people will skip it. A field-by-field template is in how to write an influencer sourcing brief.",
+        links: [{ text: "how to write an influencer sourcing brief", href: "/blog/influencer-sourcing-brief" }],
       },
       {
         type: "template",

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A funnel for app creator campaigns running from creator content to install, activation and retention, with the creator type and tracking method for each step</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">An install is the start, not the result</text>
+<text x="80" y="144" font-size="20" fill="#150F0B" opacity=".65">Judge creators on users who activate and stay.</text>
+<g stroke="#150F0B" stroke-width="3">
+<path d="M80 200 H400 L440 260 L400 320 H80 Z" fill="#FFFFFF"/>
+<path d="M440 200 H760 L800 260 L760 320 H440 L480 260 Z" fill="#FFFFFF"/>
+<path d="M800 200 H1120 L1160 260 L1120 320 H800 L840 260 Z" fill="#CCFF3D"/>
+<path d="M1160 200 H1520 V320 H1160 L1200 260 Z" fill="#FF4D1C"/>
+</g>
+<g font-size="26" font-weight="700" fill="#150F0B"><text x="110" y="270">Creator content</text><text x="500" y="270">Install</text><text x="860" y="270">Activation</text><text x="1230" y="270">Retention</text></g>
+<g font-size="15" font-weight="700" fill="#150F0B" opacity=".6"><text x="80" y="380">WHO</text><text x="80" y="520">TRACK WITH</text></g>
+<g font-size="18" fill="#150F0B">
+<text x="80" y="412">Tutorial and use-case</text><text x="80" y="438">creators by segment</text><text x="80" y="464">Regional-language creators</text>
+<text x="460" y="412">Creator-specific</text><text x="460" y="438">deep link or code</text>
+<text x="820" y="412">Sign-up plus the first</text><text x="820" y="438">meaningful action</text>
+<text x="1180" y="412">Active after a week</text><text x="1180" y="438">and after a month</text>
+<text x="80" y="552">Views and reach</text><text x="460" y="552">Measurement partner</text><text x="460" y="578">or deep-linking tool</text>
+<text x="820" y="552">In-app events by creator</text><text x="1180" y="552">Cohorts by creator</text>
+</g>
+<g stroke="#150F0B" stroke-width="2" opacity=".3"><path d="M80 490 H1520"/></g>
+<rect x="80" y="610" width="1440" height="50" fill="#FFFFFF" stroke="#150F0B" stroke-width="3"/>
+<text x="104" y="642" font-size="18" fill="#150F0B">Expect undercounting: store searches and iOS limits hide some installs. Add a "how did you hear about us" question.</text>
+</svg>

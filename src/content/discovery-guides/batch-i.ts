@@ -535,7 +535,8 @@ export const discoveryBatchI: BlogPost[] = [
       { type: "heading", text: "Lens 3: Storytelling and production", id: "storytelling" },
       {
         type: "paragraph",
-        text: "Score craft against fixed anchors rather than general impressions. A creator doesn't need cinema-level production; they need the level that suits your product and platform.",
+        text: "Score craft against fixed anchors rather than general impressions. A creator doesn't need cinema-level production; they need the level that suits your product and platform. Hooks, narrative and product integration get a closer look in our guide to judging a creator's storytelling.",
+        links: [{ text: "judging a creator's storytelling", href: "/blog/evaluate-influencer-storytelling" }],
       },
       {
         type: "table",
@@ -563,7 +564,8 @@ export const discoveryBatchI: BlogPost[] = [
       { type: "heading", text: "Lens 4: Consistency", id: "consistency" },
       {
         type: "paragraph",
-        text: "Consistency has three parts, and each matters for a different reason.",
+        text: "Consistency has three parts, and each matters for a different reason. For a fuller review method, see how to evaluate an influencer's content consistency.",
+        links: [{ text: "how to evaluate an influencer's content consistency", href: "/blog/influencer-content-consistency" }],
       },
       {
         type: "list",

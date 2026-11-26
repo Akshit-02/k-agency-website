@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
+<title id="t">A matrix matching product complexity against video length, placing quick feature demos, problem-solution clips, tutorials and long-form reviews in the right quadrant with the creator type for each</title>
+<rect width="1600" height="700" fill="#FAF1E2"/>
+<text x="80" y="96" font-size="36" font-weight="700" fill="#150F0B">Match the demo to the product</text>
+<text x="80" y="138" font-size="20" fill="#150F0B" opacity=".65">Pick the format first, then the creator who already makes it well.</text>
+<g stroke="#150F0B" stroke-width="3">
+<rect x="300" y="180" width="580" height="210" fill="#FFFFFF"/>
+<rect x="890" y="180" width="580" height="210" fill="#CCFF3D"/>
+<rect x="300" y="400" width="580" height="210" fill="#CCFF3D"/>
+<rect x="890" y="400" width="580" height="210" fill="#FFFFFF"/>
+</g>
+<g font-size="18" font-weight="700" fill="#150F0B">
+<text x="80" y="290">Many features,</text><text x="80" y="314">considered buy</text>
+<text x="80" y="510">One clear benefit,</text><text x="80" y="534">quick decision</text>
+<text x="520" y="650">Short form</text><text x="1120" y="650">Long form</text>
+</g>
+<g font-size="24" font-weight="700" fill="#150F0B">
+<text x="324" y="228">Unboxing and setup cut-downs</text><text x="914" y="228">Tutorial or long review</text>
+<text x="324" y="448">Quick feature demo</text><text x="914" y="448">Test or comparison</text>
+</g>
+<g font-size="18" fill="#150F0B">
+<text x="324" y="270">Short clips, one feature each,</text><text x="324" y="296">pointing to the full video</text><text x="324" y="350" font-weight="700">Tech, home and gadget creators</text>
+<text x="914" y="270">Everything a researching buyer</text><text x="914" y="296">wants answered in one place</text><text x="914" y="350" font-weight="700">Reviewers and educators</text>
+<text x="324" y="490">Problem and solution, one</text><text x="324" y="516">visible result in seconds</text><text x="324" y="570" font-weight="700">Relatable creators, UGC for ads</text>
+<text x="914" y="490">Proof for a claim buyers doubt:</text><text x="914" y="516">battery, durability, fit</text><text x="914" y="570" font-weight="700">Reviewers known for honest tests</text>
+</g>
+<path d="M270 180 V610" stroke="#FF4D1C" stroke-width="4"/>
+</svg>

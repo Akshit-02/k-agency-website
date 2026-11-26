@@ -1,25 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t">
-<title id="t">Influencer discovery checklist in five stages, from before searching to handover to outreach</title>
+<title id="t">Twenty-five numbered checklist squares in seven groups, from audience to campaign readiness, each marked as public research or a question to ask the creator</title>
 <rect width="1600" height="700" fill="#FAF1E2"/>
-<text x="80" y="110" font-size="34" font-weight="700" fill="#150F0B">The discovery checklist, stage by stage</text>
-<text x="80" y="156" font-size="20" fill="#150F0B" opacity=".65">Each stage assumes the one before it is ticked.</text>
-<g stroke="#150F0B" stroke-width="3" fill="none"><path d="M80 244 H1520"/></g>
-<g stroke="#150F0B" stroke-width="3">
-<rect x="80" y="220" width="48" height="48" fill="#150F0B"/><rect x="380" y="220" width="48" height="48" fill="#150F0B"/><rect x="680" y="220" width="48" height="48" fill="#150F0B"/><rect x="980" y="220" width="48" height="48" fill="#150F0B"/><rect x="1280" y="220" width="48" height="48" fill="#FF4D1C"/>
+<text x="80" y="100" font-size="36" font-weight="700" fill="#150F0B">25 questions before the shortlist</text>
+<g font-size="19" font-weight="700" fill="#150F0B"><text x="80" y="196">Audience</text><text x="285" y="196">Engagement</text><text x="490" y="196">Content</text><text x="695" y="196">Brand fit</text><text x="900" y="196">Past collabs</text><text x="1105" y="196">Commercial</text><text x="1310" y="196">Readiness</text></g>
+<g stroke="#150F0B" stroke-width="3" fill="#CCFF3D">
+<rect x="80" y="220" width="190" height="64" fill="#FF4D1C"/><rect x="80" y="296" width="190" height="64" fill="#FF4D1C"/><rect x="80" y="372" width="190" height="64"/><rect x="80" y="448" width="190" height="64"/>
+<rect x="285" y="220" width="190" height="64"/><rect x="285" y="296" width="190" height="64"/><rect x="285" y="372" width="190" height="64"/><rect x="285" y="448" width="190" height="64" fill="#FF4D1C"/>
+<rect x="490" y="220" width="190" height="64"/><rect x="490" y="296" width="190" height="64"/><rect x="490" y="372" width="190" height="64"/><rect x="490" y="448" width="190" height="64"/>
+<rect x="695" y="220" width="190" height="64"/><rect x="695" y="296" width="190" height="64"/><rect x="695" y="372" width="190" height="64"/><rect x="695" y="448" width="190" height="64"/>
+<rect x="900" y="220" width="190" height="64"/><rect x="900" y="296" width="190" height="64"/><rect x="900" y="372" width="190" height="64"/>
+<g fill="#FF4D1C"><rect x="1105" y="220" width="190" height="64"/><rect x="1105" y="296" width="190" height="64"/><rect x="1105" y="372" width="190" height="64"/>
+<rect x="1310" y="220" width="190" height="64"/><rect x="1310" y="296" width="190" height="64"/><rect x="1310" y="372" width="190" height="64"/></g>
 </g>
-<g font-size="22" font-weight="700" fill="#CCFF3D"><text x="97" y="252">1</text><text x="397" y="252">2</text><text x="697" y="252">3</text><text x="997" y="252">4</text></g>
-<text x="1297" y="252" font-size="22" font-weight="700" fill="#150F0B">5</text>
-<g stroke="#150F0B" stroke-width="3">
-<rect x="80" y="300" width="270" height="300" fill="#FFFFFF"/><rect x="380" y="300" width="270" height="300" fill="#FFFFFF"/><rect x="680" y="300" width="270" height="300" fill="#CCFF3D"/><rect x="980" y="300" width="270" height="300" fill="#FFFFFF"/><rect x="1280" y="300" width="240" height="300" fill="#150F0B"/>
+<g font-size="26" font-weight="700" fill="#150F0B">
+<text x="100" y="262">1</text><text x="100" y="338">2</text><text x="100" y="414">3</text><text x="100" y="490">4</text>
+<text x="305" y="262">5</text><text x="305" y="338">6</text><text x="305" y="414">7</text><text x="305" y="490">8</text>
+<text x="510" y="262">9</text><text x="510" y="338">10</text><text x="510" y="414">11</text><text x="510" y="490">12</text>
+<text x="715" y="262">13</text><text x="715" y="338">14</text><text x="715" y="414">15</text><text x="715" y="490">16</text>
+<text x="920" y="262">17</text><text x="920" y="338">18</text><text x="920" y="414">19</text>
+<text x="1125" y="262">20</text><text x="1125" y="338">21</text><text x="1125" y="414">22</text>
+<text x="1330" y="262">23</text><text x="1330" y="338">24</text><text x="1330" y="414">25</text>
 </g>
-<g font-size="21" font-weight="700" fill="#150F0B"><text x="100" y="342">Before searching</text><text x="400" y="342">During discovery</text><text x="700" y="342">Evaluation</text><text x="1000" y="342">Shortlist</text></g>
-<text x="1300" y="342" font-size="21" font-weight="700" fill="#CCFF3D">Handover</text>
-<g font-size="17" fill="#150F0B">
-<text x="100" y="392">☐ Brief and objective</text><text x="100" y="432">☐ Budget and mix</text><text x="100" y="472">☐ Creator profile</text><text x="100" y="512">☐ Gates and weights</text>
-<text x="400" y="392">☐ 3+ sources</text><text x="400" y="432">☐ Saved filters</text><text x="400" y="472">☐ Same fields for all</text><text x="400" y="512">☐ One shared list</text>
-<text x="700" y="392">☐ Gate pass</text><text x="700" y="432">☐ Content and comments</text><text x="700" y="472">☐ Typical views</text><text x="700" y="512">☐ Rate estimate</text>
-<text x="1000" y="392">☐ Scored with evidence</text><text x="1000" y="432">☐ Priority / reserve</text><text x="1000" y="472">☐ Backups named</text><text x="1000" y="512">☐ One approver</text>
-</g>
-<g font-size="17" fill="#FAF1E2"><text x="1300" y="392">☐ Fit reason</text><text x="1300" y="432">☐ Hook</text><text x="1300" y="472">☐ Contact + language</text><text x="1300" y="512">☐ Risks and owner</text></g>
-<text x="80" y="652" font-size="18" fill="#150F0B" opacity=".65">Discovery ends when outreach has everything it needs in one row per creator.</text>
+<g stroke="#150F0B" stroke-width="3"><rect x="80" y="590" width="28" height="28" fill="#CCFF3D"/><rect x="420" y="590" width="28" height="28" fill="#FF4D1C"/><rect x="1180" y="570" width="320" height="70" fill="#FFFFFF"/></g>
+<g font-size="22" fill="#150F0B"><text x="124" y="612">Public research</text><text x="464" y="612">Ask the creator</text></g>
+<path d="M960 605 L1160 605" fill="none" stroke="#150F0B" stroke-width="3"/><path d="M1168 605 l-14 -8 0 16z" fill="#150F0B"/>
+<text x="1210" y="614" font-size="24" font-weight="700" fill="#150F0B">Shortlist</text>
 </svg>
