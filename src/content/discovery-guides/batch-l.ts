@@ -682,6 +682,14 @@ export const discoveryBatchL: BlogPost[] = [
           "Backups: does every slot have at least one researched alternative?",
         ],
       },
+      {
+        type: "paragraph",
+        text: "The overlap and backup checks each have their own method: see how to identify audience overlap between influencers, and how many creators to shortlist so every slot has a backup.",
+        links: [
+          { text: "how to identify audience overlap between influencers", href: "/blog/influencer-audience-overlap" },
+          { text: "how many creators to shortlist", href: "/blog/how-many-influencers-for-a-campaign" },
+        ],
+      },
       { type: "heading", text: "Adjust the mix after the first wave", id: "adjust" },
       {
         type: "paragraph",

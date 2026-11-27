@@ -219,6 +219,7 @@ export const growthProgramPosts: BlogPost[] = [
       "Build an influencer affiliate program: commission structure, tracking, recruiting and activating creators, tiers, payouts, fraud controls and what to measure.",
     author: AUTHOR,
     publishedAt: GROWTH_PUBLISHED,
+    updatedAt: "2026-11-27",
     lastReviewed: GROWTH_REVIEWED,
     readingTime: "10 min read",
     tags: [
@@ -300,6 +301,29 @@ export const growthProgramPosts: BlogPost[] = [
         type: "paragraph",
         text: "Screen affiliates for audience fit, authenticity and past disclosure, just as you would a paid creator, because their content carries your brand. A lighter version of how to vet influencers is usually enough at the entry tier.",
         links: [{ text: "how to vet influencers", href: "/blog/how-to-vet-influencers" }],
+      },
+      { type: "subheading", text: "Which creators suit commission-based work" },
+      {
+        type: "paragraph",
+        text: "A creator who does well on a flat fee won't necessarily sell on commission. Affiliate income depends on followers acting on a recommendation, so look for signs that the audience already treats the creator as a source of buying advice:",
+      },
+      {
+        type: "list",
+        items: [
+          "Category fit: they already talk about products like yours, so a link feels like a natural next step rather than an interruption.",
+          "Recommendation credibility: comments ask where to buy, which variant to pick or whether something is worth the price, and the creator answers.",
+          "Formats that carry intent: reviews, comparisons, routines, 'what I use' lists and Story link stickers tend to suit affiliate links better than pure entertainment.",
+          "Honest track record: past sponsored posts are disclosed and the creator says when something didn't work for them.",
+          "Patience with slow payouts: commission builds over weeks, so creators who post about products repeatedly are a better fit than one-post creators.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If a strong creator won't work on commission alone, a hybrid deal (a smaller fixed fee plus commission) is often the fairer middle ground. Tracking links and codes show what was attributed, not every sale the creator influenced, so treat commission data as a floor and don't promise creators earnings you can't predict. To build a candidate list in your niche first, see how to find influencers by content niche, and check a creator's history with how to research previous brand collaborations.",
+        links: [
+          { text: "how to find influencers by content niche", href: "/blog/find-influencers-by-content-niche" },
+          { text: "how to research previous brand collaborations", href: "/blog/influencer-previous-brand-collaborations" },
+        ],
       },
       { type: "heading", text: "Activation is the real job", id: "activation" },
       {

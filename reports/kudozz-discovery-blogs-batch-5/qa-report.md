@@ -19,7 +19,7 @@ All checks below were actually run on 26–27 Nov 2026 against the working tree 
 | JSON-LD | parsed every block | valid; Organization, WebSite, BlogPosting, BreadcrumbList, FAQPage (18/18) |
 | Sitemap | built `sitemap.xml` | all 18 URLs present |
 | HTTP | `next start` + curl | 18/18 pages and 18/18 hero SVGs return 200; new posts appear in `/blog` listing |
-| Hero images | rendered all 18 SVGs in headless Chrome (contact sheet) | all render; distinct layouts; text inside canvas. Minor: in `store-opening-influencer-campaign.svg` the small "Locality" label is slightly crossed by a circle stroke |
+| Hero images | rendered all 18 SVGs in headless Chrome (contact sheet) | all render; distinct layouts; text inside canvas. The "Locality" label in `store-opening-influencer-campaign.svg` was crossed by a circle stroke; it is now centred and re-rendered clean |
 | Mobile | headless Chrome, true 390px viewport (iframe) on `influencer-discovery-checklist` and `influencer-exclusivity` | layout matches existing posts; tables scroll in their container; no body overflow |
 | Desktop | 1440px on `influencer-audience-location` | hero, TOC, tables and typography consistent with existing posts |
 | Writing checks | grep / script | 0 em dashes; no banned AI phrases; no unsourced statistics (illustrative figures labelled hypothetical) |
@@ -36,9 +36,22 @@ All checks below were actually run on 26–27 Nov 2026 against the working tree 
 - **Not touched:** forms, APIs, email workflows, environment variables, analytics code, templates, the Discovery app, URLs.
 - Batch 4 (blogs 61–80) is also still uncommitted in the same working tree.
 
+## Follow-up pass (27 Nov)
+- **Changes:**
+  - an affiliate-creator section in `brand-guides/growth-programs.ts`
+  - inbound links in `blog.ts` (how-to-vet, experiential), `brand-guides/intelligence-research.ts`, `brand-guides/founder-execution.ts` and `discovery-guides/batch-l.ts`
+  - the SVG label fix
+- **Re-run checks:**
+  - `tsc`: pass
+  - `npm run build`: pass
+  - site-wide link and anchor check: all resolve
+  - batch-5 QA: 18/18 OK
+  - the new links and the new section appear in the built HTML
+- **Existing issue noted, not introduced here:** 146 posts site-wide (including how-to-vet, competitor-influencers, experiential and multi-platform) link the same URL twice in a body. Harmless for SEO but untidy; a cleanup candidate.
+
 ## Known issues and limitations
 1. **Indexing gap:** posts published after 3 Oct 2026 have mostly not been surfacing in Google. Batch 5 adds 10 new URLs on top of batch 4's 6. Suggested release order: ship the upgrades first, then the new URLs, then request indexing for the two restored pages and watch the GSC Pages report.
-2. **Two topics not published (#92, #96):** recommendations are in keyword-and-overlap-report.md.
+2. **Two topics not published as new URLs (#92, #96):** handled in place instead (an affiliate section was added to influencer-affiliate-program, and links were added to #53). See keyword-and-overlap-report.md.
 3. **#94 vs experiential-influencer-marketing:** moderate overlap risk; watch queries in GSC.
 4. **`src/config/discovery.ts` is outdated** relative to the product (landing page live, payments code added 26 Nov). No article depends on it.
 

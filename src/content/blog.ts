@@ -12914,7 +12914,8 @@ const corePosts: BlogPost[] = [
       { type: "heading", text: "Pre-event: invitations, teasers, and briefing", id: "pre-event" },
       {
         type: "paragraph",
-        text: "Creator selection should happen against the same criteria as any other campaign, audience relevance and fit, not just proximity or willingness to attend. Once confirmed, brief creators on the moment they're covering, what's happening, what's off-limits, and what deliverables are expected, and give them a reason to tease the event beforehand: an early look, a save-the-date post, or a countdown that builds anticipation rather than announcing the event cold on the day itself.",
+        text: "Creator selection should happen against the same criteria as any other campaign, audience relevance and fit, not just proximity or willingness to attend (the sourcing side is covered in how to find influencers for brand events). Once confirmed, brief creators on the moment they're covering, what's happening, what's off-limits, and what deliverables are expected, and give them a reason to tease the event beforehand: an early look, a save-the-date post, or a countdown that builds anticipation rather than announcing the event cold on the day itself.",
+        links: [{ text: "how to find influencers for brand events", href: "/blog/influencers-for-brand-events" }],
       },
       { type: "heading", text: "During the event: live coverage and creator experiences", id: "during-event" },
       {
@@ -13613,10 +13614,11 @@ const corePosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Two related checks have their own guides: audience authenticity in how to identify fake followers, and the brand-safety judgement in influencer brand safety. This page brings them into one go or no-go decision.",
+        text: "Three related checks have their own guides: audience authenticity in how to identify fake followers, the brand-safety judgement in influencer brand safety, and a creator's sponsored history in how to research previous brand collaborations. This page brings them into one go or no-go decision.",
         links: [
           { text: "how to identify fake followers", href: "/blog/how-to-identify-fake-followers" },
           { text: "influencer brand safety", href: "/blog/influencer-marketing-brand-safety" },
+          { text: "how to research previous brand collaborations", href: "/blog/influencer-previous-brand-collaborations" },
         ],
       },
       { type: "heading", text: "Step 1: Basic profile review", id: "step-1-profile-review" },

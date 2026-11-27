@@ -495,7 +495,8 @@ export const founderExecutionPosts: BlogPost[] = [
       { type: "heading", text: "Comparing performance across platforms fairly", id: "comparing-platforms" },
       {
         type: "paragraph",
-        text: "Platforms count things differently, so raw numbers can't be compared directly. A YouTube view, an Instagram Reel play and a LinkedIn impression aren't the same unit, and YouTube changed its view definition on 24 August 2026 to count from the first frame, calling the old measure engaged views.",
+        text: "Platforms count things differently, so raw numbers can't be compared directly. A YouTube view, an Instagram Reel play and a LinkedIn impression aren't the same unit, and YouTube changed its view definition on 24 August 2026 to count from the first frame, calling the old measure engaged views. The same caution applies before booking: how to compare an influencer's social profiles covers judging one creator across platforms.",
+        links: [{ text: "how to compare an influencer's social profiles", href: "/blog/compare-influencer-social-profiles" }],
       },
       {
         type: "table",

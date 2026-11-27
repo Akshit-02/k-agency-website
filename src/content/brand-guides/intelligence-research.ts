@@ -465,7 +465,8 @@ export const intelligenceResearchPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Audiences notice when a creator promotes two rival products in quick succession, and it damages trust in both endorsements. Even without a contractual exclusivity, give a clear gap and ask the creator directly about any restrictions.",
+        text: "Audiences notice when a creator promotes two rival products in quick succession, and it damages trust in both endorsements. Even without a contractual exclusivity, give a clear gap and ask the creator directly about any restrictions. The questions to ask are in how to check influencer exclusivity before signing.",
+        links: [{ text: "how to check influencer exclusivity before signing", href: "/blog/influencer-exclusivity" }],
       },
       { type: "heading", text: "Better uses of the list", id: "better-uses" },
       {

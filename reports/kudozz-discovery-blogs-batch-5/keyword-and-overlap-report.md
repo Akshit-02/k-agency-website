@@ -29,11 +29,11 @@
 | 89 | Storytelling evaluation | Lens 3 of #43; creator-led-campaigns (building campaigns); creator-storytelling (creator side) | 27 (creator-led) | **New** spoke; #43 links to it |
 | 90 | Reels / Stories / YouTube creator choice | instagram-vs-youtube-vs-tiktok (platform choice), multi-platform-influencer-campaigns (management), per-format finding guides | 256 (multi-platform) | **New**: the decision between formats for creator selection |
 | 91 | Shortlist size | /blog/how-many-influencers-for-a-campaign (final count); influencer-shortlist (#17, process) | 7 / 9 | **Upgraded** how-many to cover shortlist size plus final count, keeping the old intent |
-| 92 | Balanced influencer mix | /blog/select-influencer-mix-for-campaign (**Discovery #53**, written 25 Nov: roles, tiers, objective shifts, small budget, worked example); nano-vs-micro-influencers | – | **Excluded: cannibalisation.** Recommendation: if anything, add an "illustrative mixes by objective" table to #53. Linked from #84, #90, #91 and #99 |
+| 92 | Balanced influencer mix | /blog/select-influencer-mix-for-campaign (**Discovery #53**, written 25 Nov: roles, tiers, objective shifts, small budget, worked example); nano-vs-micro-influencers | – | **Excluded: cannibalisation.** On review, #53 already has an objective-by-role table, so nothing was added beyond a paragraph linking its overlap and backup checks to #84 and #91. Also linked from #84, #90, #91 and #99 |
 | 93 | Product testing creators | influencer-product-seeding-program (#35, organic posts from gifting); creator-feedback-loop (post-campaign insights) | 97 / 9 | **New**: private testing panels. #35 now links to it |
 | 94 | Creators for brand events | experiential-influencer-marketing (event content plan); event-influencer-marketing-india (for event-organiser businesses) | 83 / 67 | **New**, sourcing angle only; both are linked and the difference is stated in the intro. Moderate overlap risk with experiential; watch GSC |
 | 95 | Local creators for store openings | /blog/store-opening-influencer-campaign (same intent); how-to-find-local-influencers (#5) | 0 (published 5 Nov) | **Upgraded**; #5 now links to it |
-| 96 | Affiliate creators | /blog/influencer-affiliate-program (**767 impressions**, the cluster's strongest page); instagram-influencer-affiliate-marketing (179); influencer-marketing-vs-affiliate-marketing | 767 | **Excluded.** A new URL would compete with the best-performing page, and rewriting that page risks its rankings. Recommendation: add a short "how to find creators suited to affiliate deals" section (category fit, recommendation credibility, flat / affiliate / hybrid) to influencer-affiliate-program, keeping its headings |
+| 96 | Affiliate creators | /blog/influencer-affiliate-program (**767 impressions**, the cluster's strongest page); instagram-influencer-affiliate-marketing (179); influencer-marketing-vs-affiliate-marketing | 767 | **Excluded as a URL; done as a section instead.** A new URL would compete with the best-performing page, and rewriting it risks its rankings. Added an H3 "Which creators suit commission-based work" under its existing "Recruiting the right affiliates" section. It covers category fit, recommendation credibility, formats that carry intent, hybrid vs flat fee and the limits of attribution, and links to #86 and find-influencers-by-content-niche. No H2s or ids changed |
 | 97 | Subject-matter experts | /blog/expert-creator-marketing (noindexed, same intent) | 0 | **Upgraded** and **removed from `noindex.ts`** |
 | 98 | Cross-platform comparison | multi-platform-influencer-campaigns (management), instagram-vs-youtube-vs-tiktok (platform choice) | 256 | **New**: comparing one creator's profiles |
 | 99 | Sourcing brief | influencer-sourcing-workflow (#25, has an intake-form section); influencer-campaign-brief (#48) | 0 / 23 | **New** template article; #25 now links to it |
@@ -52,12 +52,11 @@ creator-quality-score, influencer-audience-overlap, influencer-marketing-brand-s
   - #4 influencer-search-tools → #83
   - #5 local influencers → #95
   - #35 seeding → #93
-- **Recommended next:**
+- **Added in the follow-up pass (27 Nov):**
+  - how-to-vet-influencers → #86
+  - competitor-influencers → #88
   - experiential-influencer-marketing → #94
-  - how-to-vet-influencers → #86 and #87
-  - competitor-influencers → #86
-  - creator-performance-scorecard → #81
   - multi-platform-influencer-campaigns → #98
-  - influencer-affiliate-program, once the recommended section is added
-
-  These were left alone because they are non-Discovery posts with impressions, and editing them was not required.
+  - select-influencer-mix-for-campaign (#53) → #84, #91
+  - influencer-affiliate-program → #86
+  - creator-performance-scorecard already linked to creator-quality-score (#81), so no change was needed.
